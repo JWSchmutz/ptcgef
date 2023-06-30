@@ -1,0 +1,28 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  }
+
+  h3.card-header {
+    text-align: center;
+  }
+
+  .card-header img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 100%;
+  }
+  .square-logo .card-header img{
+    border-radius: 0;
+  }
+  

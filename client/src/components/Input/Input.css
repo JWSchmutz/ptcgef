@@ -1,0 +1,39 @@
+.input-group{
+    padding: 20px;
+    position: relative;
+}
+
+.input-label{
+    position: absolute;
+    font-size: 17px;
+    left: 32px;
+    transition: .3s;
+    color: var(--dark)
+}
+
+.input-label.reverse{
+    color: var(--light)
+}
+
+.input-label.normal{
+    top: 24px;
+}
+
+.input-label.high{
+    top: 8px;
+    font-size: 12px;
+    background-color: var(--bg);
+    padding: 1px 3px;
+}
+
+input{
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 5px 8px;
+    border: solid var(--dark) 2px;
+    color: white;
+}
+
+input.reverse {
+    border-color: var(--light);
+}

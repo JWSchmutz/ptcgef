@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: #6200EE;
+}
+
+h2,h1{
+  color: white;
+}
+
+
+.card {
+  width: 350px;
+  height: 95px;
+  margin: 10px;
+}
+.card h3{
+  margin-bottom: 0px
+}
+
+.card h4{
+  margin-top: 0px
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.eventHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label:has([role=switch]) { 
+  zoom: var(--switch-zoom, 1);
+  display: inline-flex; 
+  align-items: center; 
+  gap: 1em; 
+  cursor: pointer; 
+  user-select: none;
+}
+
+input[role=switch] {
+	--switch-handle-size: 8px;
+	--switch-bg-size: 24px;
+  --switch-handle-gap: 3px;
+	--switch-fg: white;
+	--switch-bg: color-mix(in srgb, var(--switch-fg) 20%);
+  background-color: #03DAC5 !important;
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: content-box;
+  display: inline-flex;
+  padding-inline: 0 var(--switch-bg-size);
+  border: none;
+  font-size: 0;
+  margin: 0;
+  border-radius: 100px;
+  background: var(--switch-bg);
+  transition: var(--switch-duration, .2s) cubic-bezier(.65, 0, .5, 1);;
+  user-select: none;
+  outline: none;
+  filter: grayscale(1);  /* de-colorize the switch */
+  cursor: pointer;
+}
+
+input[role=switch]:checked {
+	padding-inline: var(--switch-bg-size) 0;
+  filter: none;
+}
+
+input[role=switch]::before {
+  content: '';
+  padding: var(--switch-handle-size);
+  margin: var(--switch-handle-gap);
+  background: var(--switch-fg);
+  border-radius: 50%;
+  transition: inherit;
+  /* border: black 2px solid; */
+}
