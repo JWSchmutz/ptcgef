@@ -4,9 +4,11 @@ import Card from "./components/Card/Card";
 import formatDate from "./components/Date/Date";
 import Form from "./components/Form/Form";
 import Button from "./components/Button/Button";
+import Loading from "./components/Loading/Loading";
 const API_Base = "https://ptcgef.cyclic.app";
 // const API_Base = "http://localhost:3001";
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
   const [allEvents, setAllEvents] = useState([]);
   const [events, setEvents] = useState([]);
@@ -42,6 +44,7 @@ function App() {
   );
 
   const resetAddress = () => {
+    setIsLoading(true);
     localStorage.removeItem("x-coordinates");
     localStorage.removeItem("y-coordinates");
     setCoordinates("");
@@ -127,6 +130,7 @@ function App() {
   ]);
 
   useEffect(() => {
+    setIsLoading(true);
     fetch(`${API_Base}/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
@@ -211,7 +215,8 @@ function App() {
           (event.tags.includes("prerelease") &&
             event.distance < Number(prereleaseDistance))
       );
-    setEvents(eventsToShow);
+
+    setEvents(eventsToShow, setIsLoading(false));
   };
 
   return (
@@ -328,7 +333,9 @@ function App() {
           <div className="eventSection">
             <h2>Tournaments</h2>
             <div className="eventHolder">
-              {!events.length ? (
+              {isLoading ? (
+                <Loading />
+              ) : !events.length ? (
                 <p style={{ color: "white" }}>
                   No events to show. Please refine your search.
                 </p>
@@ -430,11 +437,11 @@ function App() {
           title="Find Events Near"
           // titlePadding={}
           // logoSideLength={}
-          width="90%"
+          width="100%"
           height="auto"
           backgroundColor="#3700B3"
           color="white"
-          // className={}
+          className="find-events-card"
           // onClick={}
         />
       )}

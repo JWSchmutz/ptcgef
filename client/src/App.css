@@ -12,6 +12,11 @@ h2,h1{
   color: white;
 }
 
+.find-events-card{
+  width: 800px;
+  margin: auto;
+  max-width: 90vw;
+}
 
 .card {
   width: 384px;
