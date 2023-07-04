@@ -2,9 +2,15 @@ const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
 const app = express();
+const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors());
+
+app.get("/", async (req, res) => {
+  // Make a request for a user with a given ID
+  res.send("./client/index.html");
+});
 
 app.get("/addresses", async (req, res) => {
   // Make a request for a user with a given ID
@@ -49,4 +55,4 @@ app.get("/events", async (req, res) => {
     });
 });
 
-app.listen(3001, () => console.log("Server started on port 3001"));
+app.listen(port, () => console.log("Server started on port 3001"));
