@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get("/", async (req, res) => {
   // Make a request for a user with a given ID
-  res.send("./client/index.html");
+  res.sendFile("./client/index.html");
 });
 
 app.get("/addresses", async (req, res) => {
