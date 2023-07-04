@@ -6,10 +6,11 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static("client/public"));
 
 app.get("/", async (req, res) => {
   // Make a request for a user with a given ID
-  res.send("ok");
+  res.sendFile("index.html");
 });
 
 app.get("/addresses", async (req, res) => {
