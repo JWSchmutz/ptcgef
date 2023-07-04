@@ -52,10 +52,14 @@ function App() {
     e.preventDefault();
     fetch(
       `${API_Base}/addresses?street=${streetAdress
+        .trim()
+        .toLowerCase()
         .split(" ")
-        .join(
-          "+"
-        )}&city=${city}&state=${state}&zip=${zip}&benchmark=2020&format=json`
+        .join("+")}&city=${city.trim().toLowerCase()}&state=${state
+        .trim()
+        .toLowerCase()}&zip=${zip
+        .trim()
+        .toLowerCase()}&benchmark=2020&format=json`
     )
       .then((response) => response.json())
       .then((data) => {
