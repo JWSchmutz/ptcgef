@@ -4,7 +4,8 @@ import Card from "./components/Card/Card";
 import formatDate from "./components/Date/Date";
 import Form from "./components/Form/Form";
 import Button from "./components/Button/Button";
-const API_Base = process.env.CYCLIC_URL || "http://localhost:3001";
+const API_Base = process?.env?.CYCLIC_URL || "http://localhost:3001";
+console.log(process?.env?.CYCLIC_URL);
 function App() {
   const [errorMessage, setErrorMessage] = useState("");
   const [allEvents, setAllEvents] = useState([]);
