@@ -6,7 +6,6 @@ import Form from "./components/Form/Form";
 import Button from "./components/Button/Button";
 const API_Base =
   "https://amaranth-deer-veil.cyclic.app/" || "http://localhost:3001";
-console.log("process.env.PORT", process.env.PORT);
 function App() {
   const [errorMessage, setErrorMessage] = useState("");
   const [allEvents, setAllEvents] = useState([]);
