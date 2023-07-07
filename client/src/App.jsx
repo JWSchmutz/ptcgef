@@ -160,6 +160,7 @@ function App() {
           delete item.has_registration_options;
           delete item.contact_information;
           item.name = item.address.name;
+          item.city = item.address.city;
           delete item.address;
           delete item.activity_type;
           return item;
@@ -342,6 +343,7 @@ function App() {
               ) : (
                 events.map((event) => (
                   <a href={event.pokemon_url} target="blank">
+                    {console.log(event)}
                     <Card
                       key={event.guid}
                       children={
@@ -364,8 +366,13 @@ function App() {
                               position: "absolute",
                               top: "3px",
                               right: "10px",
+                              lineHeight: "16px",
                             }}
-                          >{`${Math.round(event?.distance)} mi`}</span>
+                          >
+                            {`${Math.round(event?.distance)} mi`}
+                            <br />
+                            {event?.city}
+                          </span>
                         </>
                       }
                       title={`${event?.name} ${
