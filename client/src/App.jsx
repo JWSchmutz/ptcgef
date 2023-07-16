@@ -69,7 +69,7 @@ function App() {
       },
       () => {
         alert(
-          "you found a bug.  If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app"
+          "you found a bug. If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app"
         );
       },
       { timeout: 10000 }
@@ -156,10 +156,7 @@ function App() {
   ]);
 
   useEffect(() => {
-    console.log("here here", coordinates);
     if (!coordinates) return;
-    console.log("here here 2", coordinates);
-
     setIsLoading(true);
     fetch(`${API_Base}/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
