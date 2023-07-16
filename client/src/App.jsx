@@ -378,6 +378,30 @@ function App() {
         <Card
           children={
             <>
+              <Button
+                text="Use Current Location"
+                handleClick={() => handleUseCurrentLocationClick()}
+                classes={"use-current-location-button"}
+              />
+              <hr
+                style={{
+                  margin: "40px auto 0",
+                  width: "300px",
+                  maxWidth: "80%",
+                }}
+              />
+              <span
+                style={{
+                  backgroundColor: "rgb(55, 0, 179)",
+                  position: "relative",
+                  top: "-13px",
+                  padding: "10px",
+                }}
+              >
+                {" "}
+                OR{" "}
+              </span>
+
               <Form
                 fields={[
                   {
@@ -408,11 +432,6 @@ function App() {
                 onSubmit={onSubmit}
               />
               {errorMessage && <p>{errorMessage}</p>}
-              <hr style={{ margin: "40px auto", width: "300px" }} />
-              <Button
-                text="Use Current Location"
-                handleClick={() => handleUseCurrentLocationClick()}
-              />
             </>
           }
           title="Find Events Near"
