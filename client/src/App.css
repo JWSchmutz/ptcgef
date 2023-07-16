@@ -87,3 +87,7 @@ input[role=switch]::before {
   transition: inherit;
   /* border: black 2px solid; */
 }
+
+.find-events-card{
+  padding-bottom: 45px !important;
+}

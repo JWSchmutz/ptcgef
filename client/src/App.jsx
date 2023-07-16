@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./components/Card/Card";
-import formatDate from "./components/Date/Date";
 import Form from "./components/Form/Form";
 import Button from "./components/Button/Button";
 import Loading from "./components/Loading/Loading";
-const API_Base = "https://ptcgef.cyclic.app";
-// const API_Base = "http://localhost:3001";
+import EventCard from "./components/EventCard/EventCard";
+// const API_Base = "https://ptcgef.cyclic.app";
+const API_Base = "http://localhost:3001";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
@@ -40,7 +40,7 @@ function App() {
           x: localStorage.getItem("x-coordinates"),
           y: localStorage.getItem("y-coordinates"),
         }
-      : ""
+      : false
   );
 
   const resetAddress = () => {
@@ -48,6 +48,29 @@ function App() {
     localStorage.removeItem("x-coordinates");
     localStorage.removeItem("y-coordinates");
     setCoordinates("");
+  };
+
+  const setCoordinatesInLocalStorageAndState = (x, y) => {
+    localStorage.setItem("x-coordinates", x);
+    localStorage.setItem("y-coordinates", y);
+    setCoordinates({
+      x: localStorage.getItem("x-coordinates"),
+      y: localStorage.getItem("y-coordinates"),
+    });
+  };
+
+  const handleUseCurrentLocationClick = () => {
+    navigator.geolocation.watchPosition(
+      (position) => {
+        setCoordinatesInLocalStorageAndState(
+          position.coords.longitude,
+          position.coords.latitude
+        );
+      },
+      () => {
+        console.log("it aint work");
+      }
+    );
   };
 
   const onSubmit = (e) => {
@@ -67,19 +90,19 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         if (data.length) {
-          localStorage.setItem("x-coordinates", data[0].coordinates.x);
-          localStorage.setItem("y-coordinates", data[0].coordinates.y);
-          setCoordinates({
-            x: localStorage.getItem("x-coordinates"),
-            y: localStorage.getItem("y-coordinates"),
-          });
+          setCoordinatesInLocalStorageAndState(
+            data[0].coordinates.x,
+            data[0].coordinates.y
+          );
         }
         if (!data.length) {
           return setErrorMessage("Not found. Please try a different address.");
         }
-        // if (data.length > 1) {
-        //   return data.forEach((address) => console.log(address.matchedAddress));
-        // }
+        if (data.length > 1) {
+          return alert(
+            "You found a bug I have been looking for!  Please message @seagrovetcg on twitter and let me know how you did it so I can fix it."
+          );
+        }
       });
   };
 
@@ -130,6 +153,10 @@ function App() {
   ]);
 
   useEffect(() => {
+    console.log("here here", coordinates);
+    if (!coordinates) return;
+    console.log("here here 2", coordinates);
+
     setIsLoading(true);
     fetch(`${API_Base}/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
@@ -150,7 +177,6 @@ function App() {
           delete item.premier_event_series_guid;
           delete item.payment_options;
           delete item.name;
-          delete item.payment_options;
           item.price = item.metadata.on_site_admission;
           delete item.metadata;
           delete item.local_id;
@@ -342,64 +368,7 @@ function App() {
                 </p>
               ) : (
                 events.map((event) => (
-                  <a href={event.pokemon_url} target="blank">
-                    {console.log(event)}
-                    <Card
-                      key={event.guid}
-                      children={
-                        <>
-                          <h4>{formatDate(event?.start_datetime)}</h4>
-                          <span
-                            style={{
-                              position: "absolute",
-                              top: "3px",
-                              left: "10px",
-                            }}
-                          >
-                            {event?.price &&
-                              `$${event?.price
-                                ?.replace("$", "")
-                                .replace(".00", "")}`}
-                          </span>
-                          <span
-                            style={{
-                              position: "absolute",
-                              top: "3px",
-                              right: "10px",
-                              lineHeight: "16px",
-                            }}
-                          >
-                            {`${Math.round(event?.distance)} mi`}
-                            <br />
-                            {event?.city}
-                          </span>
-                        </>
-                      }
-                      title={`${event?.name} ${
-                        event?.tags?.includes("league_challenge")
-                          ? "League Challenge"
-                          : event?.tags?.includes("league_cup")
-                          ? "League Cup"
-                          : event?.tags?.includes("prerelease")
-                          ? "Pre-Release"
-                          : "Other"
-                      }`}
-                      backgroundColor={`${
-                        event?.tags?.includes("league_challenge")
-                          ? "#3700B3"
-                          : event?.tags?.includes("league_cup")
-                          ? "#03DAC5"
-                          : event?.tags?.includes("prerelease")
-                          ? "#EFBCD5"
-                          : "white"
-                      }`}
-                      color={`${
-                        event?.tags?.includes("league_challenge")
-                          ? "white"
-                          : "black"
-                      }`}
-                    />
-                  </a>
+                  <EventCard event={event} key={event.guid} />
                 ))
               )}
             </div>
@@ -439,17 +408,19 @@ function App() {
                 onSubmit={onSubmit}
               />
               {errorMessage && <p>{errorMessage}</p>}
+              <hr style={{ margin: "40px auto", width: "300px" }} />
+              <Button
+                text="Use Current Location"
+                handleClick={() => handleUseCurrentLocationClick()}
+              />
             </>
           }
           title="Find Events Near"
-          // titlePadding={}
-          // logoSideLength={}
           width="100%"
           height="auto"
           backgroundColor="#3700B3"
           color="white"
           className="find-events-card"
-          // onClick={}
         />
       )}
     </>
