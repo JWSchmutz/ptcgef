@@ -60,7 +60,7 @@ function App() {
   };
 
   const handleUseCurrentLocationClick = () => {
-    navigator.geolocation.watchPosition(
+    navigator.geolocation.getCurrentPosition(
       (position) => {
         setCoordinatesInLocalStorageAndState(
           position.coords.longitude,
@@ -68,8 +68,11 @@ function App() {
         );
       },
       () => {
-        console.log("it aint work");
-      }
+        alert(
+          "you found a bug.  If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app"
+        );
+      },
+      { timeout: 10000 }
     );
   };
 
