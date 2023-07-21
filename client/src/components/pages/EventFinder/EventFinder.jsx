@@ -68,7 +68,7 @@ function EventFinder() {
       },
       () => {
         alert(
-          "Do you have location services blocked?  If not, you found a bug! If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app"
+          "Do you have location services blocked?  If not, you found a bug! If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app.  In the meantime, try entering an address near your location."
         );
       },
       { timeout: 10000 }
@@ -448,7 +448,6 @@ function EventFinder() {
           className="find-events-card"
         />
       )}
-      {console.log(Colors)}
     </>
   );
 }
