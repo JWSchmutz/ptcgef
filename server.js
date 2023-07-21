@@ -9,8 +9,13 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "./client/dist")));
 
 app.get("/event-finder", async (req, res) => {
-  // Make a request for a user with a given ID
-  res.sendFile("index.html");
+  console.log(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(
+    path.join(__dirname, "./client/build/index.html"),
+    function (err) {
+      res.status(500).send(err);
+    }
+  );
 });
 
 app.get("/addresses", async (req, res) => {
