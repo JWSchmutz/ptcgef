@@ -56,7 +56,7 @@ app.get("/events", async (req, res) => {
     });
 });
 
-app.get("*", async (req, res) => {
+app.get("/*", async (req, res) => {
   // Make a request for a user with a given ID
   res.sendFile("index.html");
 });
