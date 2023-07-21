@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static("client/dist"));
 
-app.get("/", async (req, res) => {
+app.get("*", async (req, res) => {
   // Make a request for a user with a given ID
   res.sendFile("index.html");
 });
