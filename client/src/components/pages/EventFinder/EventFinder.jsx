@@ -6,8 +6,6 @@ import Form from "../../Form/Form";
 import Button from "../../Button/Button";
 import Loading from "../../Loading/Loading";
 import EventCard from "../../EventCard/EventCard";
-const API_Base = "https://ptcgef.cyclic.app";
-// const API_Base = "http://localhost:3001";
 function EventFinder() {
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
@@ -81,7 +79,7 @@ function EventFinder() {
     setErrorMessage("");
     e.preventDefault();
     fetch(
-      `${API_Base}/addresses?street=${streetAdress
+      `/addresses?street=${streetAdress
         .trim()
         .toLowerCase()
         .split(" ")
@@ -159,7 +157,7 @@ function EventFinder() {
   useEffect(() => {
     if (!coordinates) return;
     setIsLoading(true);
-    fetch(`${API_Base}/events?x=${coordinates.x}&y=${coordinates.y}`)
+    fetch(`/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
         data.sort((p1, p2) =>

@@ -3,10 +3,10 @@ const cors = require("cors");
 const axios = require("axios");
 const app = express();
 const port = process.env.PORT || 3001;
-
+const path = require("path");
 app.use(express.json());
 app.use(cors());
-app.use(express.static("client/dist"));
+app.use(express.static(path.join(__dirname, "./client/dist")));
 
 app.get("/event-finder", async (req, res) => {
   // Make a request for a user with a given ID
@@ -56,9 +56,14 @@ app.get("/events", async (req, res) => {
     });
 });
 
-app.get("/*", async (req, res) => {
-  // Make a request for a user with a given ID
-  res.sendFile("index.html");
+app.get("*", function (_, res) {
+  console.log(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(
+    path.join(__dirname, "./client/build/index.html"),
+    function (err) {
+      res.status(500).send(err);
+    }
+  );
 });
 
 app.listen(port, () => console.log("Server started on port " + port));

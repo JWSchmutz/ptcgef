@@ -17,21 +17,22 @@ function Home() {
       </div>
       <MediaBlock
         side="left"
-        title="Subscribe to my YouTube"
-        url="https://www.youtube.com/channel/UCY5WRq8pWre4FkJrVrVvWCQ"
-        img={yt}
-        alt="seagroveTCG YouTube Channel"
+        title="Check out my 'Git Gud' series on Reddit."
+        url="https://www.reddit.com/r/pkmntcg/comments/5kb7q1/git_gud_1_intro_and_prize_control/"
+        img={Reddit}
+        alt="Reddit"
       >
         <p>
-          SeagroveTCG YouTube channel is full of evergreen videos on coaching,
-          mindset, and improvement.
+          I released a series of articles/videos to help players improve. This
+          was written early on in my career, so I am sure it is far from
+          perfect.
         </p>
         <p>
-          I also stream on YouTube, and always respond to messages while
-          streaming. I hope to see you there!
+          Soon, I hope to have articles on this site, and I will definitely be
+          revisiting this series. Thanks for your support!
         </p>
         <div>
-          <img className="logo" src={ytLogo} alt="YouTube logo" />
+          <img className="logo" src={rdLogo} alt="Reddit logo" />
         </div>
       </MediaBlock>
       <MediaBlock
@@ -52,22 +53,21 @@ function Home() {
       </MediaBlock>
       <MediaBlock
         side="left"
-        title="Check out my 'Git Gud' series on Reddit."
-        url="https://www.reddit.com/r/pkmntcg/comments/5kb7q1/git_gud_1_intro_and_prize_control/"
-        img={Reddit}
-        alt="Reddit"
+        title="Subscribe to my YouTube"
+        url="https://www.youtube.com/channel/UCY5WRq8pWre4FkJrVrVvWCQ"
+        img={yt}
+        alt="seagroveTCG YouTube Channel"
       >
         <p>
-          I released a series of articles/videos to help players improve. This
-          was written early on in my career, so I am sure it is far from
-          perfect.
+          SeagroveTCG YouTube channel is full of evergreen videos on coaching,
+          mindset, and improvement.
         </p>
         <p>
-          Soon, I hope to have articles on this site, and I will definitely be
-          revisiting this series. Thanks for your support!
+          I also stream on YouTube, and always respond to messages while
+          streaming. I hope to see you there!
         </p>
         <div>
-          <img className="logo" src={rdLogo} alt="Reddit logo" />
+          <img className="logo" src={ytLogo} alt="YouTube logo" />
         </div>
       </MediaBlock>
     </main>
