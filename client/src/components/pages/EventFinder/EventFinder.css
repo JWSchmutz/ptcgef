@@ -1,0 +1,85 @@
+.eventSection h3.sub-title{
+  font-size: 24px
+}
+
+.eventHolder .card .card-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#event-finder{
+  color: white;
+  text-align: center;
+}
+
+.eventHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eventHolder .card{
+  width: 380px;
+  height: 130px;
+  margin: 0 5px;
+}
+
+.filterSection > div {
+  width: fit-content;
+  margin: auto;
+}
+
+.filterSection > div > div> label{
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+
+.filterSection input[type=checkbox]{
+  display: none;
+}
+
+.filterSection .checkbox{
+  width: 1.3em;
+  height: 1.3em;
+  border: 2px solid var(--light);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+}
+
+.filterSection input[type=checkbox]:checked + label > .checkbox::after{
+  content: '\2714'
+}
+
+.filterSection input[type=checkbox]:checked#prereleases + label > span{
+  background: var(--dark);
+  border-color: var(--dark)
+}
+.filterSection input[type=checkbox]:checked#cups + label > span{
+  background: var(--primary);
+  border-color: var(--primary)
+}
+.filterSection input[type=checkbox]:checked#challenges + label > span{
+  background: var(--primaryDark);
+  border-color: var(--primaryDark);
+}
+
+
+.filterSection select{
+  margin: 6px;
+  background: none;
+  color: white;
+}
+
+
+.filterSection select option{
+  margin: 6px;
+  background: white;
+  color: black;
+}

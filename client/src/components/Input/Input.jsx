@@ -35,7 +35,6 @@ export default function Input({
       <label
         className={`input-label ${labelStatus} ${reverse ? "reverse" : ""}`}
         htmlFor={id}
-        style={{ backgroundColor: "rgb(55, 0, 179)" }}
       >
         {label}
       </label>
@@ -47,7 +46,6 @@ export default function Input({
         onChange={handleChange}
         onFocus={handleFocus}
         onBlur={handleBlur}
-        style={{ backgroundColor: "rgba(0,0,0,0)", border: "solid 2px black" }}
       />
     </div>
   );

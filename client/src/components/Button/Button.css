@@ -1,8 +1,7 @@
 .button{
-    color: var(--dark);
-    background-color: var(--light);
+    color: white;
+    background-color: var(--darkest);
     border: solid;
-    border-color: var(--dark);
     border-radius: 20px;
     padding: 10px 25px;
     font-size: 17px;
@@ -14,7 +13,6 @@
 
 .button:hover{
     background-color: var(--dark);
-    color: var(--light);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 

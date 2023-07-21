@@ -1,0 +1,87 @@
+nav{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 15%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: var(--darker);
+}
+
+#h1{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 33px;
+    padding-left: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    line-height: 64px;
+    transition: .3s;
+}
+
+nav a:hover{
+    text-shadow: 0 0 10px white, 0 0 20px var(--primary), 0 0 30px var(--dark)
+}
+
+nav div>a{
+    font-size: 28px;
+    position: relative;
+    bottom: 2px;
+}
+
+nav a:last-of-type {
+    margin-right: 0px;
+}
+
+nav a.active{
+    text-decoration: underline;
+}
+
+#small-nav div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+#small-nav a{
+    line-height: 50px;
+}
+
+nav img{
+    width: 40px;
+    position: relative;
+    top: 8px;
+    right: 14px;
+    cursor: pointer;
+}
+
+nav #small-nav-links-holder{
+    position: fixed;
+    right: 0;
+    width: 220px;
+    top: 65px;
+    background-color: var(--dark);
+    padding:0 25px;
+}
+
+.small-nav-link:not(:last-of-type){
+    border-bottom: var(--darkest) 2px solid
+}
+
+#large-nav{
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    #small-nav{
+        display: none;
+    }
+    #large-nav{
+        display: block;
+    }
+        
+  }

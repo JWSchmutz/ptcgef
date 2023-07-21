@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../public/Play!_Pokémon_logo.png";
+import logo from "/loading.gif";
 import "./Loading.css";
 function Loading() {
   return (

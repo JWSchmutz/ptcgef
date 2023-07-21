@@ -10,6 +10,7 @@ function Card({
   width,
   height,
   backgroundColor,
+  background,
   color,
   className,
   onClick,
@@ -18,7 +19,7 @@ function Card({
   return (
     <div
       className={`card ${className}`}
-      style={{ width, height, backgroundColor, color }}
+      style={{ width, height, color, background, backgroundColor }}
       onClick={onClick}
     >
       <h3 className="card-header">

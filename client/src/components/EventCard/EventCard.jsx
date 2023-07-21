@@ -1,10 +1,15 @@
 import React from "react";
 import Card from "../Card/Card.jsx";
 import formatDate from "../Date/Date";
+import Colors from "../Colors.js";
 
 function EventCard({ event }) {
   return (
-    <a href={event.pokemon_url} target="blank">
+    <a
+      href={event.pokemon_url}
+      target="blank"
+      style={{ textDecoration: "none" }}
+    >
       <Card
         key={event.guid}
         children={
@@ -45,15 +50,19 @@ function EventCard({ event }) {
         }`}
         backgroundColor={`${
           event?.tags?.includes("league_challenge")
-            ? "#3700B3"
+            ? Colors.primaryDark
             : event?.tags?.includes("league_cup")
-            ? "#03DAC5"
+            ? Colors.primary
             : event?.tags?.includes("prerelease")
-            ? "#EFBCD5"
+            ? Colors.dark
             : "white"
         }`}
         color={`${
-          event?.tags?.includes("league_challenge") ? "white" : "black"
+          event?.tags?.includes("league_challenge") ||
+          event?.tags?.includes("league_cup") ||
+          event?.tags?.includes("prerelease")
+            ? "white"
+            : "black"
         }`}
       />
     </a>
