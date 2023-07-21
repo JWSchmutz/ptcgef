@@ -8,11 +8,6 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static("client/dist"));
 
-app.get("*", async (req, res) => {
-  // Make a request for a user with a given ID
-  res.sendFile("index.html");
-});
-
 app.get("/addresses", async (req, res) => {
   // Make a request for a user with a given ID
   axios
@@ -54,6 +49,11 @@ app.get("/events", async (req, res) => {
     .finally(function () {
       // always executed
     });
+});
+
+app.get("*", async (req, res) => {
+  // Make a request for a user with a given ID
+  res.sendFile("index.html");
 });
 
 app.listen(port, () => console.log("Server started on port " + port));
