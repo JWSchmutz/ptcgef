@@ -9,9 +9,9 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "./client/dist")));
 
 app.get("/event-finder", async (req, res) => {
-  console.log(path.join(__dirname, "./client/build/index.html"));
+  console.log(path.join(__dirname, "./client/dist/index.html"));
   res.sendFile(
-    path.join(__dirname, "./client/build/index.html"),
+    path.join(__dirname, "./client/dist/index.html"),
     function (err) {
       res.status(500).send(err);
     }
@@ -62,9 +62,9 @@ app.get("/events", async (req, res) => {
 });
 
 app.get("*", function (_, res) {
-  console.log(path.join(__dirname, "./client/build/index.html"));
+  console.log(path.join(__dirname, "./client/dist/index.html"));
   res.sendFile(
-    path.join(__dirname, "./client/build/index.html"),
+    path.join(__dirname, "./client/dist/index.html"),
     function (err) {
       res.status(500).send(err);
     }
