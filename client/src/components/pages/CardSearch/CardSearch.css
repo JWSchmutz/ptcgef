@@ -89,6 +89,15 @@
     width: 98px;
   }
 }
+@media (max-width: 680px) {
+  .filter-form{
+    display: block;
+  }
+  .sort{
+    max-width: 245px;
+    margin: auto;
+  }
+}
 .sort button {
   font-size: 20px;
 }
