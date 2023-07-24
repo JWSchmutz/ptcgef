@@ -1,0 +1,9 @@
+.tables-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#top-cut-data{
+    text-align: center;
+}

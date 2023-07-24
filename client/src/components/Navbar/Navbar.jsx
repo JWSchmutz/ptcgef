@@ -60,7 +60,7 @@ function Navbar({ title, pages }) {
             onClick={() => setHamburgerMenuIsOpen(false)}
           >
             {pages.map((page, i) => (
-              <div class="small-nav-link">
+              <div className="small-nav-link" key={i}>
                 <NavLink
                   className={(navData) =>
                     navData.isActive ? "active" : "none"
