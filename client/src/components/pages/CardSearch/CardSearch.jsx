@@ -1,8 +1,5 @@
 import { useState, useEffect, useContext, createContext } from "react";
-// import allStandardLegalCards from "./data/allStandardLegalCards";
 import allStandardLegalPokemon from "../../../data/allStandardLegalPokemon";
-// import allStandardLegalTrainers from "./data/allStandardLegalTrainers";
-// import allStandardLegalEnergy from "./data/allStandardLegalEnergy";
 import Filters from "../../Filters.jsx/Filters";
 import Loading from "../../Loading/Loading.jsx";
 import Modal from "../../Modal/Modal.jsx";
