@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./EventFinder.css";
-import Colors from "../../Colors";
+import Colors from "../../../data/Colors";
 import Card from "../../Card/Card";
 import Form from "../../Form/Form";
 import Button from "../../Button/Button";

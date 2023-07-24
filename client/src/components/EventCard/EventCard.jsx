@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Card/Card.jsx";
 import formatDate from "../Date/Date";
-import Colors from "../Colors.js";
+import Colors from "../../data/Colors.js";
 
 function EventCard({ event }) {
   return (

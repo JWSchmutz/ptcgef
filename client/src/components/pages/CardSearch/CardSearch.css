@@ -1,0 +1,162 @@
+#card-search{
+  text-align: center;
+}
+
+#card-search #pkmnSearch{
+  border: 2px solid var(--light);
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+#card-search label{
+  color: white;
+  background-color: var(--darker);
+}
+
+#card-search label.high{
+  top: 11px;
+}
+
+#card-search label.normal{
+  top: 27px;
+}
+
+
+.partial-loading-section{
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.show-all-button{
+ margin-top: 20px;
+}
+
+
+.tabs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs > h2{
+  border: solid 2px lightgray;
+  border-bottom: none;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 7px 7px 0 0;
+  color: #bbb;
+  background-color: var(--dark);
+  bottom: -2px;
+  position: relative;
+}
+.tabs > h2.active{
+  border-bottom: solid 2px var(--darkest);
+  height: 32px;
+  background-color: var(--darkest);
+  color: white;
+}
+
+.filter-form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-form .form-check, .filter-form span, .filter-form .form-check-label{
+  background-color: var(--dark)!important;
+}
+
+.show-hide-filters{
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 7px
+}
+
+.subTypes {
+  border: 2px solid lightgray;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.dont-show-filters{
+  max-height: 50px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .subTypes .col-8 .form-check{
+    width: 175px;
+  }
+  .subTypes .col-4 .form-check{
+    width: 98px;
+  }
+}
+.sort button {
+  font-size: 20px;
+}
+.sort img{
+  width: 35px;
+}
+
+.sort-label{
+  margin-top: 7px;
+}
+
+.card-holder{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.pokemon-card{
+  margin: 5px;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 480px) {
+  .tabs{
+    width: 80%;
+    margin: auto;
+  }
+  #root {
+    padding: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .tabs h2{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tabs > h2{
+    padding: 0 5px;
+  }
+}
+
+@media (min-width: 700px) {
+  .tabs > h2{
+    width: 25% !important;
+    height: 55px;
+    font-size: 32px!important;
+    padding-top: 7px;
+
+  }
+  .tabs > h2.active{
+    height: 57px;
+  }
+}
+@media (max-width: 700px) {
+  .tabs > h2{
+    height: 35px;
+    font-size: 16px!important;
+    padding-top: 6px;
+  }
+  .tabs > h2.active{
+    height: 37px;
+  }
+}

@@ -66,6 +66,7 @@ nav #small-nav-links-holder{
     top: 65px;
     background-color: var(--dark);
     padding:0 25px;
+    z-index: 200;
 }
 
 .small-nav-link:not(:last-of-type){

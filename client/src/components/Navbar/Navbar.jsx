@@ -55,7 +55,10 @@ function Navbar({ title, pages }) {
           )}
         </div>
         {hamburgerMenuIsOpen && (
-          <div id="small-nav-links-holder">
+          <div
+            id="small-nav-links-holder"
+            onClick={() => setHamburgerMenuIsOpen(false)}
+          >
             {pages.map((page, i) => (
               <div class="small-nav-link">
                 <NavLink

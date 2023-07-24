@@ -1,0 +1,26 @@
+.sort-group .d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort .sort-label{
+    font-size: 24px!important;
+    margin-bottom: 20px;
+}
+.sort-group h4{
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.sort .btn{
+    width: 100px;
+    height: 55px;
+    white-space:nowrap;
+    border: 3px solid var(--primary) ;
+    background-color: var(--primary);
+}
+
+.sort .active {
+    border-color:  white;
+}
