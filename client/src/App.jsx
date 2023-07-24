@@ -31,7 +31,7 @@ function App() {
       <div>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          {/* <Route exact path="/card-search" element={<CardSearch />} /> */}
+          <Route exact path="/card-search" element={<CardSearch />} />
           <Route exact path="/event-finder" element={<EventFinder />} />
           <Route exact path="/top-cut-data" element={<TopCutData />} />
           <Route exact path="/games" element={<Games />} />
