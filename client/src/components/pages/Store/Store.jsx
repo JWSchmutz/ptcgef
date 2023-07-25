@@ -2,7 +2,7 @@ import React from "react";
 import "./Store.css";
 
 function Store() {
-  return <div>Coming Soon</div>;
+  return <main id="store">Coming Soon</main>;
 }
 
 export default Store;
