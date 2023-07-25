@@ -30,10 +30,12 @@ function Games() {
         setCurrentPokemon(pokemon[Math.floor(Math.random() * pokemon.length)]),
       1100
     );
+    setMessage("Guess the pokemon");
   };
   const handleCorrectGuess = () => {
     setImgClass("normal");
     setIsGuessing(false);
+    setMessage(`It's ${currentPokemon}!`);
   };
   useEffect(() => {
     let options = [...pokemon].filter((option) =>
@@ -49,7 +51,7 @@ function Games() {
     <main id="games">
       <h2 className="page-title">Poke Guesser</h2>
       <div className="card">
-        <p id="message">Guess the pokemon</p>
+        <p id="message">{message}</p>
         <img
           id="pkmn-img"
           src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${
