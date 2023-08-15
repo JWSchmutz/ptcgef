@@ -10093,7 +10093,6 @@ const allStandardLegalTrainers = [
 // allStandardLegalTrainers.sort((a, b) =>
 //   a.name < b.name ? -1 : a.name > b.name ? 1 : 0
 // );
-// console.log(allStandardLegalTrainers);
 
 // const listOfCardNames = [];
 // const newSet = allStandardLegalTrainers.filter((card) => {
@@ -10112,6 +10111,6 @@ const allStandardLegalTrainers = [
 //   )
 //     card.subtypes.push("No Tag");
 // });
-// console.log("newSet traomer", newSet);
+// console.log("newSet trainers", newSet);
 
 export default allStandardLegalTrainers;

@@ -130431,7 +130431,6 @@ const allStandardLegalPokemon = [
 //   if (!pokemon.retreatCost) pokemon.subtypes.push("Free Retreat");
 //   if (pokemon.abilities) pokemon.subtypes.push("Ability");
 // });
-// console.log("allStandardLegalPokemon", allStandardLegalPokemon);
 
 // allStandardLegalPokemon.sort((a, b) =>
 //   a.name < b.name ? -1 : a.name > b.name ? 1 : 0

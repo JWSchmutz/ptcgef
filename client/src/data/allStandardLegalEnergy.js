@@ -1178,7 +1178,6 @@ const allStandardLegalEnergy = [
 //   listOfCardNames.push(card.name);
 //   return true;
 // });
-// console.log(newSet);
 
 // newSet.forEach((card) => {
 //   if (!card.subtypes) return (card.subtypes = ["No Tag"]);
