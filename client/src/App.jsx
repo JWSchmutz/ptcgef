@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 // import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Home from "./components/pages/Home/Home";
 import CardSearch from "./components/pages/CardSearch/CardSearch";
@@ -11,6 +11,10 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 
 function App() {
+  // const currentUrl = window.location.href;
+  // const redirectToHttp = () => {
+  //   window.location.replace(currentUrl.replace("http", "https"));
+  // };
   return (
     <>
       <Navbar
@@ -44,6 +48,7 @@ function App() {
       /> */}
         </Routes>
       </div>
+      {!currentUrl.includes("https") && redirectToHttp()}
     </>
   );
 }

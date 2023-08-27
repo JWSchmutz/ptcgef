@@ -3,6 +3,7 @@ import "./Input.css";
 
 export default function Input({
   id,
+  name,
   label,
   type,
   reverse,
@@ -34,14 +35,14 @@ export default function Input({
     <div className="input-group">
       <label
         className={`input-label ${labelStatus} ${reverse ? "reverse" : ""}`}
-        htmlFor={id}
+        htmlFor={id || name}
       >
         {label}
       </label>
       <input
         className={reverse ? "reverse" : ""}
         type={type}
-        id={id}
+        id={id || name}
         value={value}
         onChange={handleChange}
         onFocus={handleFocus}
