@@ -11,10 +11,6 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 
 function App() {
-  // const currentUrl = window.location.href;
-  // const redirectToHttp = () => {
-  //   window.location.replace(currentUrl.replace("http", "https"));
-  // };
   return (
     <>
       <Navbar
@@ -48,7 +44,6 @@ function App() {
       /> */}
         </Routes>
       </div>
-      {!currentUrl.includes("https") && redirectToHttp()}
     </>
   );
 }
