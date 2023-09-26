@@ -68,7 +68,7 @@ function EventFinder() {
       },
       () => {
         alert(
-          "Do you have location services blocked?  If not, you found a bug! If you have time, reach out to @seagrovetcg on twitter and hopefully you can help me improve this app.  In the meantime, try entering an address near your location."
+          "Do you have location services blocked? Are you on http instead of https? If not, you found a bug! If you have time, reach out to @seagrovetcg on X (Twitter) and hopefully you can help me improve this app.  In the meantime, try entering an address near your location."
         );
       },
       { timeout: 10000 }
