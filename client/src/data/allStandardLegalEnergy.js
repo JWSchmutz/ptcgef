@@ -1171,7 +1171,6 @@ const allStandardLegalEnergy = [
     },
   },
 ];
-
 // const listOfCardNames = [];
 // const newSet = allStandardLegalEnergy.filter((card) => {
 //   if (listOfCardNames.includes(card.name)) return false;

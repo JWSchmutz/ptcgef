@@ -108,13 +108,13 @@ function PokemonFiltersSection({
           ?.toLowerCase()
           .includes(searchText.toLowerCase()) ||
         card?.attacks?.[1]?.text
-          .toLowerCase()
+          ?.toLowerCase()
           .includes(searchText.toLowerCase()) ||
         card?.attacks?.[2]?.text
-          .toLowerCase()
+          ?.toLowerCase()
           .includes(searchText.toLowerCase()) ||
         card?.abilities?.[0]?.text
-          .toLowerCase()
+          ?.toLowerCase()
           .includes(searchText.toLowerCase())
     );
     sortPokemon(newPokemonCardsToShow);
