@@ -141345,11 +141345,7 @@ const allStandardLegalPokemon = [
     },
   },
 ];
-console.log("1", allStandardLegalPokemon);
-console.log(
-  "2",
-  allStandardLegalPokemon.filter((card) => card.regulationMark !== "D")
-);
+
 // allStandardLegalPokemon.forEach((pokemon) => {
 //   if (!pokemon.rules || !pokemon?.rules[0].includes("Prize cards")) {
 //     pokemon.subtypes.push("1 Prizer");

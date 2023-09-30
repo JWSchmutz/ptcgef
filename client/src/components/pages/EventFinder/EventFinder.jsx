@@ -167,9 +167,16 @@ function EventFinder() {
             ? 1
             : 0
         );
-        data.filter((event) => event.products.includes("tcg"));
 
-        data.map(function (item) {
+        data.forEach((event) => {
+          if (event.address.city === "STATESVILLE")
+            console.log(event.products, event);
+        });
+        const tcgOnlyData = data.filter((event) =>
+          event.products.includes("tcg")
+        );
+
+        tcgOnlyData.map(function (item) {
           delete item.when;
           delete item.status;
           delete item.products;
@@ -192,7 +199,7 @@ function EventFinder() {
         });
 
         setAllEvents(
-          data.filter(
+          tcgOnlyData.filter(
             (event) =>
               event.tags.includes("league_challenge") ||
               event.tags.includes("league_cup") ||
