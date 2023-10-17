@@ -1,5 +1,26 @@
 const majors = [
   {
+    masters: 1427,
+    inCut: 8,
+    pointsForCut: 35,
+    bubbledIn: 4,
+    bubbledOut: 1,
+  },
+  {
+    masters: 1703,
+    inCut: 8,
+    pointsForCut: 35,
+    bubbledIn: 4,
+    bubbledOut: 0,
+  },
+  {
+    masters: 379,
+    inCut: 8,
+    pointsForCut: 31,
+    bubbledIn: 5,
+    bubbledOut: 0,
+  },
+  {
     masters: 577,
     inCut: 8,
     pointsForCut: 30,
