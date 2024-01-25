@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext, createContext } from "react";
 import allStandardLegalPokemon from "../../../data/allStandardLegalPokemon";
-import Filters from "../../Filters.jsx/Filters";
+import Filters from "../../Filters/Filters";
 import Loading from "../../Loading/Loading.jsx";
 import Modal from "../../Modal/Modal.jsx";
 import Button from "../../Button/Button";

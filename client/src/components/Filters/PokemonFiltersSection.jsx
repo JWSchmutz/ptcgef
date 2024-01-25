@@ -179,6 +179,8 @@ function PokemonFiltersSection({
           onChange={showOnly}
           unchecked={true}
         />
+        <Checkbox value="Future" onChange={showOnly} unchecked={true} />
+        <Checkbox value="Ancient" onChange={showOnly} unchecked={true} />
         <Checkbox value="Radiant" onChange={showOnly} unchecked={true} />
         <Checkbox value="Ability" onChange={showOnly} unchecked={true} />
         <Checkbox value="Free Retreat" onChange={showOnly} unchecked={true} />
