@@ -55,6 +55,7 @@ function TrainerFiltersSection({
       <div className="col">
         <Checkbox value="Future" onChange={filterTrainers} />
         <Checkbox value="Ancient" onChange={filterTrainers} />
+        <Checkbox value="ACE SPEC" onChange={filterTrainers} />
         <Checkbox value="No Tag" id="noTag" onChange={filterTrainers} />
       </div>
     </form>
