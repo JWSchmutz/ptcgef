@@ -51,8 +51,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "kodama",
-    rarity: "Uncommon",
     flavorText:
       "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers.",
     nationalPokedexNumbers: [460],
@@ -118,8 +116,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Ryuta Fuse",
-    rarity: "Rare",
     flavorText:
       "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
     nationalPokedexNumbers: [460],
@@ -184,8 +180,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "Mitsuhiro Arita",
-    rarity: "Common",
     flavorText:
       "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
     nationalPokedexNumbers: [63],
@@ -251,8 +245,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "GIDORA",
-    rarity: "Rare Holo",
     flavorText:
       "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
     nationalPokedexNumbers: [359],
@@ -318,8 +310,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Shiburingaru",
-    rarity: "Rare Holo",
     flavorText:
       "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
     nationalPokedexNumbers: [359],
@@ -384,8 +374,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "Shinji Kanda",
-    rarity: "Uncommon",
     flavorText:
       "Because of this Pokémon's ability to detect danger, people mistook Absol as a bringer of doom.",
     nationalPokedexNumbers: [359],
@@ -453,8 +441,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
-    artist: "Nisota Niso",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [359],
     legalities: {
       unlimited: "Legal",
@@ -507,25 +493,24 @@ const allStandardLegalPokemon = [
     convertedRetreatCost: 3,
     set: {
       id: "svp",
-      name: "Scarlet & Violet Promos",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 29,
-      total: 29,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2022/11/01",
-      updatedAt: "2023/07/20 22:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "60",
-    artist: "Takeshi Nakamura",
-    rarity: "Promo",
     flavorText:
       "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
     nationalPokedexNumbers: [681],
@@ -600,8 +585,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
-    artist: "toriyufu",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [681],
     legalities: {
       unlimited: "Legal",
@@ -669,8 +652,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Shinji Kanda",
-    rarity: "Rare",
     flavorText:
       "Aerodactyl's sawlike fangs can shred skin to tatters—even the skin of Steel-type Pokémon.",
     nationalPokedexNumbers: [142],
@@ -686,7 +667,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-92",
+    id: "swsh11-179",
     name: "Aerodactyl V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -738,9 +719,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "92",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
+    number: "179",
     nationalPokedexNumbers: [142],
     legalities: {
       unlimited: "Legal",
@@ -749,12 +728,12 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/92.png",
-      large: "https://images.pokemontcg.io/swsh11/92_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/179.png",
+      large: "https://images.pokemontcg.io/swsh11/179_hires.png",
     },
   },
   {
-    id: "swsh11-93",
+    id: "swsh11-199",
     name: "Aerodactyl VSTAR",
     supertype: "Pokémon",
     subtypes: ["VSTAR"],
@@ -807,9 +786,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "93",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
+    number: "199",
     nationalPokedexNumbers: [142],
     legalities: {
       unlimited: "Legal",
@@ -818,8 +795,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/93.png",
-      large: "https://images.pokemontcg.io/swsh11/93_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/199.png",
+      large: "https://images.pokemontcg.io/swsh11/199_hires.png",
     },
   },
   {
@@ -880,8 +857,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "GOSSAN",
-    rarity: "Rare Holo",
     flavorText:
       "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
     nationalPokedexNumbers: [306],
@@ -956,8 +931,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [306],
     legalities: {
       unlimited: "Legal",
@@ -1031,8 +1004,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [306],
     legalities: {
       unlimited: "Legal",
@@ -1043,74 +1014,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/97.png",
       large: "https://images.pokemontcg.io/swsh9/97_hires.png",
-    },
-  },
-  {
-    id: "pgo-56",
-    name: "Aipom",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "60",
-    types: ["Colorless"],
-    evolvesTo: ["Ambipom"],
-    attacks: [
-      {
-        name: "Bustle",
-        cost: ["Colorless"],
-        convertedEnergyCost: 1,
-        damage: "",
-        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
-      },
-      {
-        name: "Slap",
-        cost: ["Colorless", "Colorless", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "30",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "pgo",
-      name: "Pokémon GO",
-      series: "Sword & Shield",
-      printedTotal: 78,
-      total: 88,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PGO",
-      releaseDate: "2022/07/01",
-      updatedAt: "2022/07/06 17:07:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
-        logo: "https://images.pokemontcg.io/pgo/logo.png",
-      },
-    },
-    number: "56",
-    artist: "Sanosuke Sakuma",
-    rarity: "Common",
-    flavorText:
-      "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
-    nationalPokedexNumbers: [190],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/pgo/56.png",
-      large: "https://images.pokemontcg.io/pgo/56_hires.png",
     },
   },
   {
@@ -1165,8 +1068,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "This treetop dweller possesses a tail as dexterous as a hand. Ancient writings describe this Pokémon as a one-armed oddity.",
     nationalPokedexNumbers: [190],
@@ -1179,6 +1080,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/144.png",
       large: "https://images.pokemontcg.io/swsh11/144_hires.png",
+    },
+  },
+  {
+    id: "pgo-56",
+    name: "Aipom",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Ambipom"],
+    attacks: [
+      {
+        name: "Bustle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+      {
+        name: "Slap",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "pgo",
+      name: "Pokémon GO",
+      series: "Sword & Shield",
+      printedTotal: 78,
+      total: 88,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PGO",
+      releaseDate: "2022/07/01",
+      updatedAt: "2022/07/06 17:07:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
+        logo: "https://images.pokemontcg.io/pgo/logo.png",
+      },
+    },
+    number: "56",
+    flavorText:
+      "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
+    nationalPokedexNumbers: [190],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/pgo/56.png",
+      large: "https://images.pokemontcg.io/pgo/56_hires.png",
     },
   },
   {
@@ -1232,8 +1199,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "aspara",
-    rarity: "Common",
     flavorText:
       "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
     nationalPokedexNumbers: [190],
@@ -1308,8 +1273,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "Mitsuhiro Arita",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [65],
     legalities: {
       unlimited: "Legal",
@@ -1376,8 +1339,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "MUGENUP",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [103],
     legalities: {
       unlimited: "Legal",
@@ -1442,8 +1403,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Atsuko Nishida",
-    rarity: "Common",
     flavorText:
       "It commands a nest of Rattata. Different nests don't get along, whipping up severe fights over feeding grounds.",
     nationalPokedexNumbers: [20],
@@ -1503,8 +1462,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "Night after night, they sneak into people's homes seeking food. A massive outbreak of them has become an issue of public concern.",
     nationalPokedexNumbers: [19],
@@ -1574,8 +1531,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Ryota Murayama",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [37],
     legalities: {
       unlimited: "Legal",
@@ -1644,8 +1599,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "PLANETA Hiiragi",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [37],
     legalities: {
       unlimited: "Legal",
@@ -1708,8 +1661,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
     nationalPokedexNumbers: [594],
@@ -1782,8 +1733,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     flavorText:
       "As it flies in a calm and relaxed manner, Altaria performs a humming song that would enrapture any audience.",
     nationalPokedexNumbers: [334],
@@ -1843,8 +1792,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "160",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
     flavorText:
       "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
     nationalPokedexNumbers: [334],
@@ -1907,8 +1854,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "Saki Hayashiro",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [334],
     legalities: {
       unlimited: "Legal",
@@ -1973,8 +1918,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
     nationalPokedexNumbers: [424],
@@ -2041,8 +1984,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
     nationalPokedexNumbers: [424],
@@ -2108,8 +2049,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     flavorText:
       "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
     nationalPokedexNumbers: [424],
@@ -2176,8 +2115,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "This Pokémon puffs poisonous spores at its foes. If the spores aren't washed off quickly, they'll grow into mushrooms wherever they land.",
     nationalPokedexNumbers: [591],
@@ -2236,8 +2173,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Nobuhiro Imagawa",
-    rarity: "Uncommon",
     flavorText:
       "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch.",
     nationalPokedexNumbers: [591],
@@ -2291,8 +2226,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -2300,15 +2235,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "16",
-    artist: "PLANETA Tsuji",
-    rarity: "Promo",
     nationalPokedexNumbers: [181],
     legalities: {
       unlimited: "Legal",
@@ -2372,8 +2305,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
     nationalPokedexNumbers: [979],
@@ -2442,8 +2373,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "242",
-    artist: "PLANETA Hiiragi",
-    rarity: "Ultra Rare",
     nationalPokedexNumbers: [979],
     legalities: {
       unlimited: "Legal",
@@ -2502,8 +2431,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Mitsuhiro Arita",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
     nationalPokedexNumbers: [347],
@@ -2570,8 +2497,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "DOM",
-    rarity: "Uncommon",
     flavorText:
       "It launches water bubbles with its legs, drowning prey within the bubbles. This Pokémon can then take its time to savor its meal.",
     nationalPokedexNumbers: [752],
@@ -2584,6 +2509,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/48.png",
       large: "https://images.pokemontcg.io/swsh12/48_hires.png",
+    },
+  },
+  {
+    id: "sv5-101",
+    name: "Arbok",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Darkness"],
+    evolvesFrom: "Ekans",
+    attacks: [
+      {
+        name: "Panic Poison",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
+      },
+      {
+        name: "Darkness Fang",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "101",
+    flavorText:
+      "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+    nationalPokedexNumbers: [24],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/101.png",
+      large: "https://images.pokemontcg.io/sv5/101_hires.png",
     },
   },
   {
@@ -2640,8 +2631,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Eske Yoshinob",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [24],
     legalities: {
       unlimited: "Legal",
@@ -2705,8 +2694,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
     nationalPokedexNumbers: [930],
@@ -2772,8 +2759,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "KEIICHIRO ITO",
-    rarity: "Uncommon",
     flavorText:
       "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
     nationalPokedexNumbers: [930],
@@ -2840,8 +2825,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "OKACHEKE",
-    rarity: "Rare",
     flavorText:
       "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
     nationalPokedexNumbers: [59],
@@ -2854,74 +2837,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/20.png",
       large: "https://images.pokemontcg.io/swsh12/20_hires.png",
-    },
-  },
-  {
-    id: "svp-11",
-    name: "Arcanine",
-    supertype: "Pokémon",
-    subtypes: ["Stage 1", "1 Prizer"],
-    hp: "130",
-    types: ["Fire"],
-    evolvesFrom: "Growlithe",
-    attacks: [
-      {
-        name: "Crunch",
-        cost: ["Fire", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "30",
-        text: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-      },
-      {
-        name: "Fire Mane",
-        cost: ["Fire", "Fire", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "120",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Water",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 3,
-    set: {
-      id: "svp",
-      name: "Scarlet & Violet Black Star Promos",
-      series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PR-SV",
-      releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/svp/symbol.png",
-        logo: "https://images.pokemontcg.io/svp/logo.png",
-      },
-    },
-    number: "11",
-    artist: "Ryuta Fuse",
-    rarity: "Promo",
-    flavorText:
-      "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
-    nationalPokedexNumbers: [59],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/svp/11.png",
-      large: "https://images.pokemontcg.io/svp/11_hires.png",
     },
   },
   {
@@ -2969,8 +2884,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH304",
-    artist: "REND",
-    rarity: "Promo",
     flavorText:
       "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
     nationalPokedexNumbers: [59],
@@ -2983,6 +2896,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swshp/SWSH304.png",
       large: "https://images.pokemontcg.io/swshp/SWSH304_hires.png",
+    },
+  },
+  {
+    id: "svp-11",
+    name: "Arcanine",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Fire"],
+    evolvesFrom: "Growlithe",
+    attacks: [
+      {
+        name: "Crunch",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Fire Mane",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "11",
+    flavorText:
+      "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+    nationalPokedexNumbers: [59],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/11.png",
+      large: "https://images.pokemontcg.io/svp/11_hires.png",
     },
   },
   {
@@ -3036,8 +3015,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
     nationalPokedexNumbers: [59],
@@ -3107,8 +3084,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     flavorText:
       "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
     nationalPokedexNumbers: [59],
@@ -3124,7 +3099,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-122",
+    id: "swshp-SWSH204",
     name: "Arceus V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -3158,27 +3133,25 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swsh9",
-      name: "Brilliant Stars",
+      id: "swshp",
+      name: "SWSH Black Star Promos",
       series: "Sword & Shield",
-      printedTotal: 172,
-      total: 186,
+      printedTotal: 307,
+      total: 304,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "BRS",
-      releaseDate: "2022/02/25",
-      updatedAt: "2022/02/23 09:45:00",
+      ptcgoCode: "PR-SW",
+      releaseDate: "2019/11/15",
+      updatedAt: "2022/07/23 20:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh9/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh9/logo.png",
+        symbol: "https://images.pokemontcg.io/swshp/symbol.png",
+        logo: "https://images.pokemontcg.io/swshp/logo.png",
       },
     },
-    number: "122",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
+    number: "SWSH204",
     nationalPokedexNumbers: [493],
     legalities: {
       unlimited: "Legal",
@@ -3187,8 +3160,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/122.png",
-      large: "https://images.pokemontcg.io/swsh9/122_hires.png",
+      small: "https://images.pokemontcg.io/swshp/SWSH204.png",
+      large: "https://images.pokemontcg.io/swshp/SWSH204_hires.png",
     },
   },
   {
@@ -3246,8 +3219,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [493],
     legalities: {
       unlimited: "Legal",
@@ -3319,8 +3290,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
     nationalPokedexNumbers: [566],
@@ -3393,8 +3362,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "Masakazu Fukuda",
-    rarity: "Rare Holo",
     flavorText:
       "It needs a running start to take off. If Archeops wants to fly, it first needs to run nearly 25 mph, building speed over a course of about 2.5 miles.",
     nationalPokedexNumbers: [567],
@@ -3410,7 +3377,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-59",
+    id: "sv2-209",
     name: "Arctibax",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -3459,9 +3426,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "59",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
+    number: "209",
     flavorText:
       "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
     nationalPokedexNumbers: [997],
@@ -3472,8 +3437,74 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/59.png",
-      large: "https://images.pokemontcg.io/sv2/59_hires.png",
+      small: "https://images.pokemontcg.io/sv2/209.png",
+      large: "https://images.pokemontcg.io/sv2/209_hires.png",
+    },
+  },
+  {
+    id: "swsh12-4",
+    name: "Ariados",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "90",
+    types: ["Grass"],
+    evolvesFrom: "Spinarak",
+    abilities: [
+      {
+        name: "Hidden Threads",
+        text: "Your opponent's Pokémon VSTAR's attacks cost Colorless more. You can't apply more than 1 Hidden Threads Ability at a time.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Pierce",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh12",
+      name: "Silver Tempest",
+      series: "Sword & Shield",
+      printedTotal: 195,
+      total: 215,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SIT",
+      releaseDate: "2022/11/11",
+      updatedAt: "2022/09/09 11:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh12/logo.png",
+      },
+    },
+    number: "4",
+    flavorText:
+      "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+    nationalPokedexNumbers: [168],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh12/4.png",
+      large: "https://images.pokemontcg.io/swsh12/4_hires.png",
     },
   },
   {
@@ -3528,8 +3559,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
     nationalPokedexNumbers: [168],
@@ -3596,8 +3625,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "Shinji Kanda",
-    rarity: "Rare",
     flavorText:
       "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
     nationalPokedexNumbers: [168],
@@ -3610,74 +3637,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/113.png",
       large: "https://images.pokemontcg.io/swsh11/113_hires.png",
-    },
-  },
-  {
-    id: "swsh12-4",
-    name: "Ariados",
-    supertype: "Pokémon",
-    subtypes: ["Stage 1", "1 Prizer", "Ability"],
-    hp: "90",
-    types: ["Grass"],
-    evolvesFrom: "Spinarak",
-    abilities: [
-      {
-        name: "Hidden Threads",
-        text: "Your opponent's Pokémon VSTAR's attacks cost Colorless more. You can't apply more than 1 Hidden Threads Ability at a time.",
-        type: "Ability",
-      },
-    ],
-    attacks: [
-      {
-        name: "Pierce",
-        cost: ["Grass", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "50",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh12",
-      name: "Silver Tempest",
-      series: "Sword & Shield",
-      printedTotal: 195,
-      total: 215,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "SIT",
-      releaseDate: "2022/11/11",
-      updatedAt: "2022/09/09 11:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh12/logo.png",
-      },
-    },
-    number: "4",
-    artist: "Tika Matsuno",
-    rarity: "Rare Holo",
-    flavorText:
-      "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
-    nationalPokedexNumbers: [168],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh12/4.png",
-      large: "https://images.pokemontcg.io/swsh12/4_hires.png",
     },
   },
   {
@@ -3732,8 +3691,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "After evolution, this Pokémon emerged onto land. Its lower body has become stronger, and blows from its tail are devastating.",
     nationalPokedexNumbers: [348],
@@ -3799,8 +3756,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
     flavorText:
       "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
     nationalPokedexNumbers: [936],
@@ -3866,8 +3821,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
     flavorText:
       "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
     nationalPokedexNumbers: [936],
@@ -3936,8 +3889,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [936],
     legalities: {
       unlimited: "Legal",
@@ -4008,8 +3959,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
     nationalPokedexNumbers: [304],
@@ -4022,73 +3971,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12pt5/87.png",
       large: "https://images.pokemontcg.io/swsh12pt5/87_hires.png",
-    },
-  },
-  {
-    id: "pgo-24",
-    name: "Articuno",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer", "Ability"],
-    hp: "120",
-    types: ["Water"],
-    abilities: [
-      {
-        name: "Ice Symbol",
-        text: "Your Basic Water Pokémon's attacks, except any Articuno, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-        type: "Ability",
-      },
-    ],
-    attacks: [
-      {
-        name: "Freezing Wind",
-        cost: ["Water", "Water", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "110",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Metal",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless"],
-    convertedRetreatCost: 2,
-    set: {
-      id: "pgo",
-      name: "Pokémon GO",
-      series: "Sword & Shield",
-      printedTotal: 78,
-      total: 88,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PGO",
-      releaseDate: "2022/07/01",
-      updatedAt: "2022/07/06 17:07:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
-        logo: "https://images.pokemontcg.io/pgo/logo.png",
-      },
-    },
-    number: "24",
-    artist: "Jiro Sasumo",
-    rarity: "Rare Holo",
-    flavorText:
-      "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
-    nationalPokedexNumbers: [144],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/pgo/24.png",
-      large: "https://images.pokemontcg.io/pgo/24_hires.png",
     },
   },
   {
@@ -4142,8 +4024,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Naoyo Kimura",
-    rarity: "Rare Holo",
     flavorText:
       "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
     nationalPokedexNumbers: [144],
@@ -4156,6 +4036,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/36.png",
       large: "https://images.pokemontcg.io/swsh12/36_hires.png",
+    },
+  },
+  {
+    id: "pgo-24",
+    name: "Articuno",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "120",
+    types: ["Water"],
+    abilities: [
+      {
+        name: "Ice Symbol",
+        text: "Your Basic Water Pokémon's attacks, except any Articuno, do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Freezing Wind",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "pgo",
+      name: "Pokémon GO",
+      series: "Sword & Shield",
+      printedTotal: 78,
+      total: 88,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PGO",
+      releaseDate: "2022/07/01",
+      updatedAt: "2022/07/06 17:07:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
+        logo: "https://images.pokemontcg.io/pgo/logo.png",
+      },
+    },
+    number: "24",
+    flavorText:
+      "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+    nationalPokedexNumbers: [144],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/pgo/24.png",
+      large: "https://images.pokemontcg.io/pgo/24_hires.png",
     },
   },
   {
@@ -4214,8 +4159,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "chibi",
-    rarity: "Rare",
     flavorText:
       "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
     nationalPokedexNumbers: [144],
@@ -4280,8 +4223,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "173",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
     nationalPokedexNumbers: [531],
@@ -4335,8 +4276,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "These Pokémon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other's strength.",
     nationalPokedexNumbers: [610],
@@ -4401,8 +4340,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Taira Akitsu",
-    rarity: "Uncommon",
     flavorText:
       "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
     nationalPokedexNumbers: [482],
@@ -4468,8 +4405,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "En Morikura",
-    rarity: "Uncommon",
     flavorText:
       "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
     nationalPokedexNumbers: [184],
@@ -4482,6 +4417,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/45.png",
       large: "https://images.pokemontcg.io/sv2/45_hires.png",
+    },
+  },
+  {
+    id: "sv5-65",
+    name: "Azumarill",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Marill",
+    attacks: [
+      {
+        name: "Play Rough",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "Flip a coin. If heads, this attack does 30 more damage.",
+      },
+      {
+        name: "Power Tackle",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "65",
+    flavorText:
+      "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+    nationalPokedexNumbers: [184],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/65.png",
+      large: "https://images.pokemontcg.io/sv5/65_hires.png",
     },
   },
   {
@@ -4535,8 +4536,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "Kyoko Umemoto",
-    rarity: "Common",
     flavorText:
       "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
     nationalPokedexNumbers: [343],
@@ -4603,8 +4602,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
     nationalPokedexNumbers: [343],
@@ -4669,8 +4666,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
     nationalPokedexNumbers: [343],
@@ -4743,8 +4738,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "Kagemaru Himeno",
-    rarity: "Rare",
     flavorText:
       "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy.",
     nationalPokedexNumbers: [354],
@@ -4819,8 +4812,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     flavorText:
       "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
     nationalPokedexNumbers: [354],
@@ -4887,8 +4878,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare Holo",
     flavorText:
       "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs.",
     nationalPokedexNumbers: [689],
@@ -4948,8 +4937,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Makes its home in swamps with murky water. The poor visibility hides this Pokémon from predators, and the slime on its body makes grasping it difficult.",
     nationalPokedexNumbers: [339],
@@ -5015,8 +5002,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
     nationalPokedexNumbers: [339],
@@ -5089,8 +5074,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Yuya Oka",
-    rarity: "Rare Holo",
     flavorText:
       "This Pokémon is from roughly 100 million years ago. Its terrifyingly tough face is harder than steel.",
     nationalPokedexNumbers: [411],
@@ -5106,7 +5089,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-60",
+    id: "sv2-210",
     name: "Baxcalibur",
     supertype: "Pokémon",
     subtypes: ["Stage 2", "1 Prizer", "Ability"],
@@ -5155,9 +5138,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "60",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
+    number: "210",
     flavorText:
       "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
     nationalPokedexNumbers: [998],
@@ -5168,8 +5149,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/60.png",
-      large: "https://images.pokemontcg.io/sv2/60_hires.png",
+      small: "https://images.pokemontcg.io/sv2/210.png",
+      large: "https://images.pokemontcg.io/sv2/210_hires.png",
     },
   },
   {
@@ -5224,8 +5205,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Rianti Hidayat",
-    rarity: "Uncommon",
     flavorText:
       "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel.",
     nationalPokedexNumbers: [614],
@@ -5291,8 +5270,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
     nationalPokedexNumbers: [614],
@@ -5359,8 +5336,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "Yuu Nishida",
-    rarity: "Rare Holo",
     flavorText:
       "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
     nationalPokedexNumbers: [267],
@@ -5426,8 +5401,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "nisimono",
-    rarity: "Rare",
     flavorText:
       "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
     nationalPokedexNumbers: [15],
@@ -5496,8 +5469,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Ayaka Yoshida",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [15],
     legalities: {
       unlimited: "Legal",
@@ -5568,8 +5539,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Shinji Kanda",
-    rarity: "Uncommon",
     flavorText:
       "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
     nationalPokedexNumbers: [606],
@@ -5582,6 +5551,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/80.png",
       large: "https://images.pokemontcg.io/swsh12/80_hires.png",
+    },
+  },
+  {
+    id: "sv5-74",
+    name: "Beheeyem",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Psychic"],
+    evolvesFrom: "Elgyem",
+    attacks: [
+      {
+        name: "Cosmic Beatdown",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20×",
+        text: "This attack does 20 damage for each of your Pokémon in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "74",
+    flavorText:
+      "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+    nationalPokedexNumbers: [606],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/74.png",
+      large: "https://images.pokemontcg.io/sv5/74_hires.png",
     },
   },
   {
@@ -5642,8 +5676,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.",
     nationalPokedexNumbers: [374],
@@ -5656,6 +5688,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/117.png",
       large: "https://images.pokemontcg.io/swsh12/117_hires.png",
+    },
+  },
+  {
+    id: "sv5-113",
+    name: "Beldum",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Metal"],
+    evolvesTo: ["Metang"],
+    attacks: [
+      {
+        name: "Dig Claws",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Iron Tackle",
+        cost: ["Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "113",
+    flavorText:
+      "From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.",
+    nationalPokedexNumbers: [374],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/113.png",
+      large: "https://images.pokemontcg.io/sv5/113_hires.png",
     },
   },
   {
@@ -5702,8 +5806,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
     nationalPokedexNumbers: [939],
@@ -5769,8 +5871,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Toshinao Aoki",
-    rarity: "Uncommon",
     flavorText:
       "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
     nationalPokedexNumbers: [939],
@@ -5786,7 +5886,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-79",
+    id: "svp-94",
+    name: "Bellibolt",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Lightning"],
+    evolvesFrom: "Tadbulb",
+    attacks: [
+      {
+        cost: ["Lightning"],
+        name: "Thunder Wave",
+        damage: "",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Lightning", "Lightning", "Colorless"],
+        name: "Two Bump Bolt",
+        damage: "10+",
+        text: "You may discard up to 2 Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
+        convertedEnergyCost: 3,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "94",
+    flavorText:
+      "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+    nationalPokedexNumbers: [939],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/94.png",
+      large: "https://images.pokemontcg.io/svp/94_hires.png",
+    },
+  },
+  {
+    id: "sv2-237",
     name: "Bellibolt ex",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "ex"],
@@ -5838,9 +6004,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "79",
-    artist: "PLANETA Yamashita",
-    rarity: "Double Rare",
+    number: "237",
     nationalPokedexNumbers: [939],
     legalities: {
       unlimited: "Legal",
@@ -5849,8 +6013,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/79.png",
-      large: "https://images.pokemontcg.io/sv2/79_hires.png",
+      small: "https://images.pokemontcg.io/sv2/237.png",
+      large: "https://images.pokemontcg.io/sv2/237_hires.png",
     },
   },
   {
@@ -5898,8 +6062,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Nagomi Nijo",
-    rarity: "Rare",
     flavorText:
       "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
     nationalPokedexNumbers: [182],
@@ -5965,8 +6127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
     nationalPokedexNumbers: [182],
@@ -6032,8 +6192,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
     nationalPokedexNumbers: [69],
@@ -6093,8 +6251,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
     nationalPokedexNumbers: [712],
@@ -6161,8 +6317,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "OKACHEKE",
-    rarity: "Rare Holo",
     flavorText:
       "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
     nationalPokedexNumbers: [400],
@@ -6229,8 +6383,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
     nationalPokedexNumbers: [400],
@@ -6290,8 +6442,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
     nationalPokedexNumbers: [399],
@@ -6351,8 +6501,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
     nationalPokedexNumbers: [399],
@@ -6419,8 +6567,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
     nationalPokedexNumbers: [399],
@@ -6487,8 +6633,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide.",
     nationalPokedexNumbers: [688],
@@ -6561,8 +6705,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "NC Empire",
-    rarity: "Uncommon",
     flavorText:
       "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
     nationalPokedexNumbers: [625],
@@ -6635,8 +6777,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "DOM",
-    rarity: "Uncommon",
     flavorText:
       "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
     nationalPokedexNumbers: [625],
@@ -6702,8 +6842,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Hideki Ishikawa",
-    rarity: "Common",
     flavorText:
       "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
     nationalPokedexNumbers: [625],
@@ -6776,8 +6914,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
     nationalPokedexNumbers: [625],
@@ -6844,8 +6980,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "NC Empire",
-    rarity: "Rare Holo",
     flavorText:
       "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
     nationalPokedexNumbers: [9],
@@ -6914,8 +7048,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "PLANETA Yamashita",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [9],
     legalities: {
       unlimited: "Legal",
@@ -6973,8 +7105,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Asako Ito",
-    rarity: "Common",
     flavorText:
       "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't.",
     nationalPokedexNumbers: [824],
@@ -7033,8 +7163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "OKUBO",
-    rarity: "Common",
     flavorText:
       "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
     nationalPokedexNumbers: [824],
@@ -7101,8 +7229,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Teeziro",
-    rarity: "Rare Holo",
     flavorText:
       "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
     nationalPokedexNumbers: [242],
@@ -7168,8 +7294,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "chibi",
-    rarity: "Uncommon",
     flavorText:
       "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
     nationalPokedexNumbers: [242],
@@ -7235,8 +7359,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
     nationalPokedexNumbers: [522],
@@ -7249,6 +7371,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/62.png",
       large: "https://images.pokemontcg.io/sv4/62_hires.png",
+    },
+  },
+  {
+    id: "sv5-59",
+    name: "Boltund",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    evolvesFrom: "Yamper",
+    attacks: [
+      {
+        name: "Electrifying Dash",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Search your deck for up to 2 Basic Lightning Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "59",
+    flavorText:
+      "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+    nationalPokedexNumbers: [836],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/59.png",
+      large: "https://images.pokemontcg.io/sv5/59_hires.png",
     },
   },
   {
@@ -7307,8 +7488,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
     nationalPokedexNumbers: [962],
@@ -7379,8 +7558,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "Sekio",
-    rarity: "Uncommon",
     flavorText:
       "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
     nationalPokedexNumbers: [962],
@@ -7454,8 +7631,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "156",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [962],
     legalities: {
       unlimited: "Legal",
@@ -7510,8 +7685,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
     nationalPokedexNumbers: [438],
@@ -7577,8 +7750,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "Nisota Niso",
-    rarity: "Rare",
     flavorText:
       "These Pokémon can crush a car with no more than a headbutt. Bouffalant with more hair on their heads hold higher positions within the herd.",
     nationalPokedexNumbers: [626],
@@ -7643,8 +7814,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "174",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
     nationalPokedexNumbers: [626],
@@ -7710,8 +7879,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "Its sweat is sweet, like syrup made from boiled-down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
     nationalPokedexNumbers: [761],
@@ -7770,8 +7937,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Its sweat is sweet, like syrup made from boiled- down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
     nationalPokedexNumbers: [761],
@@ -7839,8 +8004,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Ligton",
-    rarity: "Uncommon",
     flavorText:
       "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
     nationalPokedexNumbers: [654],
@@ -7906,8 +8069,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "KEIICHIRO ITO",
-    rarity: "Uncommon",
     flavorText:
       "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
     nationalPokedexNumbers: [947],
@@ -7920,6 +8081,129 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/24.png",
       large: "https://images.pokemontcg.io/sv2/24_hires.png",
+    },
+  },
+  {
+    id: "sv5-21",
+    name: "Brambleghast",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Bramblin",
+    abilities: [
+      {
+        name: "Resilient Soul",
+        text: "This Pokémon gets +50 HP for each Prize card your opponent has taken.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Powerful Needles",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80×",
+        text: "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "21",
+    flavorText:
+      "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+    nationalPokedexNumbers: [947],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/21.png",
+      large: "https://images.pokemontcg.io/sv5/21_hires.png",
+    },
+  },
+  {
+    id: "sv2-198",
+    name: "Bramblin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Grass"],
+    attacks: [
+      {
+        cost: ["Grass"],
+        name: "Blot",
+        damage: "10",
+        text: "Heal 10 damage from this Pokémon.",
+        convertedEnergyCost: 1,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "198",
+    flavorText:
+      "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+    nationalPokedexNumbers: [946],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/198.png",
+      large: "https://images.pokemontcg.io/sv2/198_hires.png",
     },
   },
   {
@@ -7965,8 +8249,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
     nationalPokedexNumbers: [946],
@@ -7982,7 +8264,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-23",
+    id: "sv5-20",
     name: "Bramblin",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -7990,11 +8272,11 @@ const allStandardLegalPokemon = [
     types: ["Grass"],
     attacks: [
       {
-        cost: ["Grass"],
-        name: "Blot",
-        damage: "10",
-        text: "Heal 10 damage from this Pokémon.",
-        convertedEnergyCost: 1,
+        name: "Spike Sting",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
       },
     ],
     weaknesses: [
@@ -8006,38 +8288,37 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "sv2",
-      name: "Paldea Evolved",
+      id: "sv5",
+      name: "Temporal Forces",
       series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
+      printedTotal: 162,
+      total: 218,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
       images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
       },
     },
-    number: "23",
-    artist: "Miki Tanaka",
-    rarity: "Common",
+    number: "20",
     flavorText:
-      "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+      "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
     nationalPokedexNumbers: [946],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
-    regulationMark: "G",
+    regulationMark: "H",
     images: {
-      small: "https://images.pokemontcg.io/sv2/23.png",
-      large: "https://images.pokemontcg.io/sv2/23_hires.png",
+      small: "https://images.pokemontcg.io/sv5/20.png",
+      large: "https://images.pokemontcg.io/sv5/20_hires.png",
     },
   },
   {
@@ -8092,8 +8373,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Sekio",
-    rarity: "Rare",
     flavorText:
       "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
     nationalPokedexNumbers: [286],
@@ -8152,8 +8431,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     flavorText:
       "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
     nationalPokedexNumbers: [286],
@@ -8166,6 +8443,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/4.png",
       large: "https://images.pokemontcg.io/sv1/4_hires.png",
+    },
+  },
+  {
+    id: "sv5-7",
+    name: "Breloom",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Shroomish",
+    attacks: [
+      {
+        name: "Punch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Knuckle Impact",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "7",
+    flavorText:
+      "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+    nationalPokedexNumbers: [286],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/7.png",
+      large: "https://images.pokemontcg.io/sv5/7_hires.png",
     },
   },
   {
@@ -8226,8 +8569,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Shinji Kanda",
-    rarity: "Uncommon",
     flavorText:
       "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
     nationalPokedexNumbers: [437],
@@ -8300,8 +8641,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "AKIRA EGAWA",
-    rarity: "Uncommon",
     flavorText:
       "Some believe that its bell-like cry opens holes to another world. It has been revered as a deity since ancient times.",
     nationalPokedexNumbers: [437],
@@ -8373,8 +8712,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "Nobuhiro Imagawa",
-    rarity: "Uncommon",
     flavorText:
       "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
     nationalPokedexNumbers: [437],
@@ -8387,6 +8724,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/145.png",
       large: "https://images.pokemontcg.io/sv3/145_hires.png",
+    },
+  },
+  {
+    id: "sv5-69",
+    name: "Bronzong",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Psychic"],
+    evolvesFrom: "Bronzor",
+    attacks: [
+      {
+        name: "Evolution Jammer",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your opponent's next turn, they can't play any Pokémon from their hand to evolve their Pokémon.",
+      },
+      {
+        name: "Super Psy Bolt",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "69",
+    flavorText:
+      "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+    nationalPokedexNumbers: [437],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/69.png",
+      large: "https://images.pokemontcg.io/sv5/69_hires.png",
     },
   },
   {
@@ -8440,8 +8849,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
     nationalPokedexNumbers: [436],
@@ -8507,8 +8914,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It appears in ancient ruins. The pattern on its body doesn't come from any culture in the Galar region, so it remains shrouded in mystery.",
     nationalPokedexNumbers: [436],
@@ -8580,8 +8985,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
     nationalPokedexNumbers: [436],
@@ -8594,6 +8997,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/144.png",
       large: "https://images.pokemontcg.io/sv3/144_hires.png",
+    },
+  },
+  {
+    id: "sv5-68",
+    name: "Bronzor",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Psychic"],
+    evolvesTo: ["Bronzong"],
+    attacks: [
+      {
+        name: "Mirror Attack",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "If your opponent's Active Pokémon is a Psychic Pokémon, this attack does 30 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "68",
+    flavorText:
+      "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+    nationalPokedexNumbers: [436],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/68.png",
+      large: "https://images.pokemontcg.io/sv5/68_hires.png",
     },
   },
   {
@@ -8646,8 +9114,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
     nationalPokedexNumbers: [986],
@@ -8712,8 +9178,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
     nationalPokedexNumbers: [779],
@@ -8773,8 +9237,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
     nationalPokedexNumbers: [418],
@@ -8839,8 +9301,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
     nationalPokedexNumbers: [418],
@@ -8899,8 +9359,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
     nationalPokedexNumbers: [418],
@@ -8967,8 +9425,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
     nationalPokedexNumbers: [1],
@@ -9028,8 +9484,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH303",
-    artist: "Julie Hang",
-    rarity: "Promo",
     flavorText:
       "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
     nationalPokedexNumbers: [1],
@@ -9088,8 +9542,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
     nationalPokedexNumbers: [1],
@@ -9132,8 +9584,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -9141,15 +9593,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "46",
-    artist: "OKACHEKE",
-    rarity: "Promo",
     flavorText:
       "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
     nationalPokedexNumbers: [1],
@@ -9209,8 +9659,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
     nationalPokedexNumbers: [427],
@@ -9269,8 +9717,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "175",
-    artist: "Lee HyunJung",
-    rarity: "Common",
     flavorText:
       "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments.",
     nationalPokedexNumbers: [659],
@@ -9330,8 +9776,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
     nationalPokedexNumbers: [412],
@@ -9397,8 +9841,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Tika Matsuno",
-    rarity: "Uncommon",
     flavorText:
       "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
     nationalPokedexNumbers: [12],
@@ -9463,8 +9905,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "It prefers harsh environments, such as deserts. It can survive for 30 days on water stored in its body.",
     nationalPokedexNumbers: [331],
@@ -9530,8 +9970,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "DOM",
-    rarity: "Uncommon",
     flavorText:
       "Packs of them follow travelers through the desert until the travelers can no longer move.",
     nationalPokedexNumbers: [332],
@@ -9597,8 +10035,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Nurikabe",
-    rarity: "Rare Holo",
     flavorText:
       "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
     nationalPokedexNumbers: [898],
@@ -9665,8 +10101,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "yuu",
-    rarity: "Uncommon",
     flavorText:
       "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
     nationalPokedexNumbers: [323],
@@ -9732,8 +10166,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
     nationalPokedexNumbers: [323],
@@ -9799,8 +10231,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "satoma",
-    rarity: "Uncommon",
     flavorText:
       "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
     nationalPokedexNumbers: [323],
@@ -9858,8 +10288,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
     nationalPokedexNumbers: [951],
@@ -9924,8 +10352,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
     nationalPokedexNumbers: [951],
@@ -9984,8 +10410,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
     nationalPokedexNumbers: [951],
@@ -10044,8 +10468,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
     nationalPokedexNumbers: [951],
@@ -10111,8 +10533,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "Tika Matsuno",
-    rarity: "Uncommon",
     flavorText:
       "When beset by attackers, Carbink wipes them all out by firing high-energy beams from the gems embedded in its body.",
     nationalPokedexNumbers: [703],
@@ -10125,6 +10545,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/108.png",
       large: "https://images.pokemontcg.io/swsh11/108_hires.png",
+    },
+  },
+  {
+    id: "sv5-94",
+    name: "Carkol",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Fighting"],
+    evolvesFrom: "Rolycoly",
+    evolvesTo: ["Coalossal"],
+    attacks: [
+      {
+        name: "Knock Away",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "Flip a coin. If heads, this attack does 40 more damage.",
+      },
+      {
+        name: "Boulder Crush",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "94",
+    flavorText:
+      "The temperature inside its body increases when it experiences strong emotions. It rolls around frantically while spewing flames.",
+    nationalPokedexNumbers: [838],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/94.png",
+      large: "https://images.pokemontcg.io/sv5/94_hires.png",
     },
   },
   {
@@ -10178,8 +10665,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Shibuzoh.",
-    rarity: "Uncommon",
     flavorText:
       "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
     nationalPokedexNumbers: [455],
@@ -10238,8 +10723,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
     nationalPokedexNumbers: [318],
@@ -10252,6 +10735,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/46.png",
       large: "https://images.pokemontcg.io/sv3/46_hires.png",
+    },
+  },
+  {
+    id: "sv5-42",
+    name: "Carvanha",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Water"],
+    evolvesTo: ["Sharpedo"],
+    attacks: [
+      {
+        name: "Wave Splash",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "42",
+    flavorText:
+      "It won't attack while it's alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
+    nationalPokedexNumbers: [318],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/42.png",
+      large: "https://images.pokemontcg.io/sv5/42_hires.png",
     },
   },
   {
@@ -10307,8 +10849,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     flavorText:
       "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
     nationalPokedexNumbers: [268],
@@ -10374,8 +10914,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
     nationalPokedexNumbers: [351],
@@ -10434,8 +10972,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
     nationalPokedexNumbers: [10],
@@ -10448,6 +10984,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/10.png",
       large: "https://images.pokemontcg.io/sv3pt5/10_hires.png",
+    },
+  },
+  {
+    id: "sv5-37",
+    name: "Centiskorch",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "140",
+    types: ["Fire"],
+    evolvesFrom: "Sizzlipede",
+    attacks: [
+      {
+        name: "Singe",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+      {
+        name: "Charring Breath",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "180",
+        text: "If your opponent's Active Pokémon isn't Burned, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "37",
+    flavorText:
+      "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+    nationalPokedexNumbers: [851],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/37.png",
+      large: "https://images.pokemontcg.io/sv5/37_hires.png",
     },
   },
   {
@@ -10507,8 +11109,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Ryota Murayama",
-    rarity: "Rare",
     flavorText:
       "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
     nationalPokedexNumbers: [937],
@@ -10574,8 +11174,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
     nationalPokedexNumbers: [975],
@@ -10641,8 +11239,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
     nationalPokedexNumbers: [975],
@@ -10691,25 +11287,24 @@ const allStandardLegalPokemon = [
     convertedRetreatCost: 4,
     set: {
       id: "svp",
-      name: "Scarlet & Violet Promos",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 29,
-      total: 29,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2022/11/01",
-      updatedAt: "2023/07/20 22:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "63",
-    artist: "GOSSAN",
-    rarity: "Promo",
     flavorText:
       "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
     nationalPokedexNumbers: [975],
@@ -10767,8 +11362,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
     nationalPokedexNumbers: [974],
@@ -10833,8 +11426,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
     nationalPokedexNumbers: [974],
@@ -10892,8 +11483,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
     nationalPokedexNumbers: [974],
@@ -10958,8 +11547,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
     nationalPokedexNumbers: [974],
@@ -10975,7 +11562,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-26",
+    id: "swsh11tg-TG04",
     name: "Chandelure",
     supertype: "Pokémon",
     subtypes: ["Stage 2", "1 Prizer", "Ability"],
@@ -11007,11 +11594,11 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
       series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      printedTotal: 30,
+      total: 30,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -11021,13 +11608,11 @@ const allStandardLegalPokemon = [
       releaseDate: "2022/09/09",
       updatedAt: "2022/09/09 13:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
       },
     },
-    number: "26",
-    artist: "sui",
-    rarity: "Rare Holo",
+    number: "TG04",
     flavorText:
       "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames.",
     nationalPokedexNumbers: [609],
@@ -11038,8 +11623,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/26.png",
-      large: "https://images.pokemontcg.io/swsh11/26_hires.png",
+      small: "https://images.pokemontcg.io/swsh11tg/TG04.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG04_hires.png",
     },
   },
   {
@@ -11093,8 +11678,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "Haru Akasaka",
-    rarity: "Uncommon",
     flavorText:
       "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence—or so it's said.",
     nationalPokedexNumbers: [609],
@@ -11161,8 +11744,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "ryoma uratsuka",
-    rarity: "Uncommon",
     flavorText:
       "The egg Chansey carries is not only delicious but also packed with nutrition. It's used as a high-class cooking ingredient.",
     nationalPokedexNumbers: [113],
@@ -11227,8 +11808,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
     nationalPokedexNumbers: [113],
@@ -11294,8 +11873,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "Taiga Kayama",
-    rarity: "Rare",
     flavorText:
       "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
     nationalPokedexNumbers: [113],
@@ -11353,8 +11930,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11412,8 +11987,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11471,8 +12044,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "takuyoa",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11537,8 +12108,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "KEIICHIRO ITO",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11604,8 +12173,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11670,8 +12237,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11736,8 +12301,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "kantaro",
-    rarity: "Common",
     flavorText:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     nationalPokedexNumbers: [935],
@@ -11804,8 +12367,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo",
     flavorText:
       "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
     nationalPokedexNumbers: [6],
@@ -11874,8 +12435,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [6],
     legalities: {
       unlimited: "Legal",
@@ -11943,8 +12502,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [6],
     legalities: {
       unlimited: "Legal",
@@ -12012,8 +12569,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [6],
     legalities: {
       unlimited: "Legal",
@@ -12080,8 +12635,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [6],
     legalities: {
       unlimited: "Legal",
@@ -12092,6 +12645,66 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/6.png",
       large: "https://images.pokemontcg.io/sv3pt5/6_hires.png",
+    },
+  },
+  {
+    id: "sv5-55",
+    name: "Charjabug",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Lightning"],
+    evolvesFrom: "Grubbin",
+    evolvesTo: ["Vikavolt"],
+    attacks: [
+      {
+        name: "Static Shock",
+        cost: ["Lightning", "Lightning"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "55",
+    flavorText:
+      "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+    nationalPokedexNumbers: [737],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/55.png",
+      large: "https://images.pokemontcg.io/sv5/55_hires.png",
     },
   },
   {
@@ -12139,8 +12752,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
     nationalPokedexNumbers: [4],
@@ -12199,8 +12810,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "DOM",
-    rarity: "Common",
     flavorText:
       "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
     nationalPokedexNumbers: [4],
@@ -12266,8 +12875,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
     nationalPokedexNumbers: [4],
@@ -12310,8 +12917,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -12319,15 +12926,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "47",
-    artist: "NC Empire",
-    rarity: "Promo",
     flavorText:
       "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
     nationalPokedexNumbers: [4],
@@ -12395,8 +13000,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
     nationalPokedexNumbers: [5],
@@ -12456,8 +13059,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "Ryota Murayama",
-    rarity: "Uncommon",
     flavorText:
       "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
     nationalPokedexNumbers: [5],
@@ -12524,8 +13125,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     flavorText:
       "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
     nationalPokedexNumbers: [5],
@@ -12592,8 +13191,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Kouki Saitou",
-    rarity: "Shiny Rare",
     flavorText:
       "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
     nationalPokedexNumbers: [5],
@@ -12665,8 +13262,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "A versatile performer skilled in the imitation of human speech. It is said that older, more experienced Chatot can even understand the meaning of the words they mimic.",
     nationalPokedexNumbers: [441],
@@ -12736,8 +13331,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "It can learn and speak human words. If they gather, they all learn the same saying.",
     nationalPokedexNumbers: [441],
@@ -12750,6 +13343,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12pt5/112.png",
       large: "https://images.pokemontcg.io/swsh12pt5/112_hires.png",
+    },
+  },
+  {
+    id: "sv5-132",
+    name: "Chatot",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "A Cappella",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Gust",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "132",
+    flavorText:
+      "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+    nationalPokedexNumbers: [441],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/132.png",
+      large: "https://images.pokemontcg.io/sv5/132_hires.png",
     },
   },
   {
@@ -12806,8 +13470,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [652],
     legalities: {
       unlimited: "Legal",
@@ -12870,8 +13532,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "Oswaldo KATO",
-    rarity: "Rare",
     flavorText:
       "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
     nationalPokedexNumbers: [1004],
@@ -12887,7 +13547,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-40",
+    id: "sv2-234",
     name: "Chi-Yu ex",
     supertype: "Pokémon",
     subtypes: ["Basic", "ex"],
@@ -12938,9 +13598,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "40",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "234",
     nationalPokedexNumbers: [1004],
     legalities: {
       unlimited: "Legal",
@@ -12949,8 +13607,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/40.png",
-      large: "https://images.pokemontcg.io/sv2/40_hires.png",
+      small: "https://images.pokemontcg.io/sv2/234.png",
+      large: "https://images.pokemontcg.io/sv2/234_hires.png",
     },
   },
   {
@@ -13003,8 +13661,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
     nationalPokedexNumbers: [1002],
@@ -13020,7 +13676,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-61",
+    id: "sv2-236",
     name: "Chien-Pao ex",
     supertype: "Pokémon",
     subtypes: ["Basic", "ex", "Ability"],
@@ -13071,9 +13727,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "61",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
+    number: "236",
     nationalPokedexNumbers: [1002],
     legalities: {
       unlimited: "Legal",
@@ -13082,8 +13736,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/61.png",
-      large: "https://images.pokemontcg.io/sv2/61_hires.png",
+      small: "https://images.pokemontcg.io/sv2/236.png",
+      large: "https://images.pokemontcg.io/sv2/236_hires.png",
     },
   },
   {
@@ -13131,8 +13785,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
     nationalPokedexNumbers: [390],
@@ -13204,8 +13856,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "MAHOU",
-    rarity: "Common",
     flavorText:
       "Emitting ultrasonic cries, it floats on winds to travel great distances.",
     nationalPokedexNumbers: [358],
@@ -13277,8 +13927,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "Emitting ultrasonic cries, it floats on winds to travel great distances.",
     nationalPokedexNumbers: [358],
@@ -13349,8 +13997,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "Emitting ultrasonic cries, it floats on winds to travel great distances.",
     nationalPokedexNumbers: [358],
@@ -13417,8 +14063,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
     nationalPokedexNumbers: [170],
@@ -13484,8 +14128,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
     nationalPokedexNumbers: [170],
@@ -13552,8 +14194,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Atsuko Nishida",
-    rarity: "Uncommon",
     flavorText:
       "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
     nationalPokedexNumbers: [573],
@@ -13566,6 +14206,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/125.png",
       large: "https://images.pokemontcg.io/swsh9/125_hires.png",
+    },
+  },
+  {
+    id: "sv5-137",
+    name: "Cinccino",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Colorless"],
+    evolvesFrom: "Minccino",
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Special Roll",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70×",
+        text: "This attack does 70 damage for each Special Energy card attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "137",
+    flavorText:
+      "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+    nationalPokedexNumbers: [573],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/137.png",
+      large: "https://images.pokemontcg.io/sv5/137_hires.png",
     },
   },
   {
@@ -13611,8 +14317,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
     nationalPokedexNumbers: [692],
@@ -13678,8 +14382,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
     nationalPokedexNumbers: [693],
@@ -13752,8 +14454,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Kazuma Koda",
-    rarity: "Uncommon",
     flavorText:
       "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
     nationalPokedexNumbers: [344],
@@ -13820,8 +14520,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
     nationalPokedexNumbers: [344],
@@ -13893,8 +14591,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Shigenori Negishi",
-    rarity: "Rare",
     flavorText:
       "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
     nationalPokedexNumbers: [344],
@@ -13961,8 +14657,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Mizue",
-    rarity: "Rare",
     flavorText:
       "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
     nationalPokedexNumbers: [36],
@@ -14029,8 +14723,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "Sekio",
-    rarity: "Rare",
     flavorText:
       "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
     nationalPokedexNumbers: [36],
@@ -14096,8 +14788,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "ryoma uratsuka",
-    rarity: "Uncommon",
     flavorText:
       "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
     nationalPokedexNumbers: [36],
@@ -14166,8 +14856,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Satoshi Shirai",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [36],
     legalities: {
       unlimited: "Legal",
@@ -14232,8 +14920,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
     nationalPokedexNumbers: [35],
@@ -14300,8 +14986,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It can be found in quiet mountain areas on a full moon's night. Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike quality.",
     nationalPokedexNumbers: [35],
@@ -14360,8 +15044,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
     nationalPokedexNumbers: [35],
@@ -14427,8 +15109,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
     nationalPokedexNumbers: [35],
@@ -14485,8 +15165,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
     nationalPokedexNumbers: [173],
@@ -14499,6 +15177,69 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/80.png",
       large: "https://images.pokemontcg.io/sv3/80_hires.png",
+    },
+  },
+  {
+    id: "svp-95",
+    name: "Cleffa",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "30",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Twinkling Hope",
+        cost: [],
+        convertedEnergyCost: 0,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    convertedRetreatCost: 0,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "95",
+    flavorText:
+      "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+    nationalPokedexNumbers: [173],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/95.png",
+      large: "https://images.pokemontcg.io/svp/95_hires.png",
     },
   },
   {
@@ -14545,8 +15286,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Kedamahadaitai Yawarakai",
-    rarity: "Common",
     flavorText:
       "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
     nationalPokedexNumbers: [852],
@@ -14605,8 +15344,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Nelnal",
-    rarity: "Uncommon",
     flavorText:
       "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
     nationalPokedexNumbers: [91],
@@ -14619,6 +15356,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/91.png",
       large: "https://images.pokemontcg.io/sv3pt5/91_hires.png",
+    },
+  },
+  {
+    id: "sv5-95",
+    name: "Coalossal",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "180",
+    types: ["Fighting"],
+    evolvesFrom: "Carkol",
+    attacks: [
+      {
+        name: "Gatling Tar",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "40+",
+        text: "This attack does 80 more damage for each Fire Energy attached to this Pokémon.",
+      },
+      {
+        name: "Cragalanche",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150",
+        text: "Discard the top 2 cards of your opponent's deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "95",
+    flavorText:
+      "To intimidate its opponents, Coalossal will vigorously shake its body, scattering coal from its smoldering back.",
+    nationalPokedexNumbers: [839],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/95.png",
+      large: "https://images.pokemontcg.io/sv5/95_hires.png",
     },
   },
   {
@@ -14678,8 +15481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "This Pokémon appears in a legend alongside Terrakion and Virizion, fighting against humans in defense of the Unova region's Pokémon.",
     nationalPokedexNumbers: [638],
@@ -14754,8 +15555,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "kawayoo",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [563],
     legalities: {
       unlimited: "Legal",
@@ -14820,8 +15619,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "The members of the trio spend all their time together. Each one has a slightly different taste in nectar.",
     nationalPokedexNumbers: [415],
@@ -14834,65 +15631,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/11.png",
       large: "https://images.pokemontcg.io/swsh10/11_hires.png",
-    },
-  },
-  {
-    id: "sv2-8",
-    name: "Combee",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "50",
-    types: ["Grass"],
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Double Spin",
-        damage: "10×",
-        text: "Flip 2 coins. This attack does 10 damage for each heads.",
-        convertedEnergyCost: 1,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "8",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Common",
-    flavorText:
-      "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
-    nationalPokedexNumbers: [415],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/8.png",
-      large: "https://images.pokemontcg.io/sv2/8_hires.png",
     },
   },
   {
@@ -14946,8 +15684,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
     nationalPokedexNumbers: [415],
@@ -14960,6 +15696,63 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/8.png",
       large: "https://images.pokemontcg.io/sv3/8_hires.png",
+    },
+  },
+  {
+    id: "sv2-8",
+    name: "Combee",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Grass"],
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Double Spin",
+        damage: "10×",
+        text: "Flip 2 coins. This attack does 10 damage for each heads.",
+        convertedEnergyCost: 1,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "8",
+    flavorText:
+      "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+    nationalPokedexNumbers: [415],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/8.png",
+      large: "https://images.pokemontcg.io/sv2/8_hires.png",
     },
   },
   {
@@ -15013,8 +15806,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "Aya Kusube",
-    rarity: "Rare",
     flavorText:
       "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won't wither once they're attached to a Comfey.",
     nationalPokedexNumbers: [764],
@@ -15083,8 +15874,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "Ayaka Yoshida",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [534],
     legalities: {
       unlimited: "Legal",
@@ -15157,8 +15946,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "Uta",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [879],
     legalities: {
       unlimited: "Legal",
@@ -15223,8 +16010,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
     nationalPokedexNumbers: [341],
@@ -15296,8 +16081,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer.",
     nationalPokedexNumbers: [823],
@@ -15369,8 +16152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "165",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
     nationalPokedexNumbers: [822],
@@ -15383,6 +16164,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/165.png",
       large: "https://images.pokemontcg.io/sv2/165_hires.png",
+    },
+  },
+  {
+    id: "sv5-14",
+    name: "Cottonee",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Whimsicott"],
+    attacks: [
+      {
+        name: "Triple Spin",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Flip 3 coins. This attack does 10 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "14",
+    flavorText:
+      "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+    nationalPokedexNumbers: [546],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/14.png",
+      large: "https://images.pokemontcg.io/sv5/14_hires.png",
     },
   },
   {
@@ -15429,8 +16269,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that's highly prized by many luxury brands.",
     nationalPokedexNumbers: [546],
@@ -15496,8 +16334,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them.",
     nationalPokedexNumbers: [740],
@@ -15563,8 +16399,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
     nationalPokedexNumbers: [739],
@@ -15630,8 +16464,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Midori Harada",
-    rarity: "Rare",
     flavorText:
       "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
     nationalPokedexNumbers: [845],
@@ -15699,8 +16531,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Hataya",
-    rarity: "Uncommon",
     flavorText:
       "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries.",
     nationalPokedexNumbers: [408],
@@ -15767,8 +16597,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Shibuzoh.",
-    rarity: "Uncommon",
     flavorText:
       "A rough customer that wildly flails its giant claws. It is said to be extremely hard to raise.",
     nationalPokedexNumbers: [342],
@@ -15840,8 +16668,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "saino misaki",
-    rarity: "Rare Holo",
     flavorText:
       "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
     nationalPokedexNumbers: [488],
@@ -15901,8 +16727,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab.",
     nationalPokedexNumbers: [453],
@@ -15967,8 +16791,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "Shiburingaru",
-    rarity: "Common",
     flavorText:
       "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
     nationalPokedexNumbers: [453],
@@ -16026,8 +16848,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
     nationalPokedexNumbers: [453],
@@ -16092,8 +16912,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Yuya Oka",
-    rarity: "Rare Holo",
     flavorText:
       "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
     nationalPokedexNumbers: [169],
@@ -16163,8 +16981,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Uta",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
     nationalPokedexNumbers: [169],
@@ -16177,6 +16993,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/112.png",
       large: "https://images.pokemontcg.io/sv4/112_hires.png",
+    },
+  },
+  {
+    id: "sv2-202",
+    name: "Crocalor",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Fire"],
+    evolvesFrom: "Fuecoco",
+    attacks: [
+      {
+        cost: ["Fire"],
+        name: "Steady Firebreathing",
+        damage: "30",
+        text: "",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Fire", "Fire"],
+        name: "Hyper Voice",
+        damage: "70",
+        text: "",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "202",
+    flavorText:
+      "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
+    nationalPokedexNumbers: [910],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/202.png",
+      large: "https://images.pokemontcg.io/sv2/202_hires.png",
     },
   },
   {
@@ -16230,8 +17111,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "kantaro",
-    rarity: "Uncommon",
     flavorText:
       "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
     nationalPokedexNumbers: [910],
@@ -16244,73 +17123,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/37.png",
       large: "https://images.pokemontcg.io/sv1/37_hires.png",
-    },
-  },
-  {
-    id: "sv2-36",
-    name: "Crocalor",
-    supertype: "Pokémon",
-    subtypes: ["Stage 1", "1 Prizer"],
-    hp: "110",
-    types: ["Fire"],
-    evolvesFrom: "Fuecoco",
-    attacks: [
-      {
-        cost: ["Fire"],
-        name: "Steady Firebreathing",
-        damage: "30",
-        text: "",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Fire", "Fire"],
-        name: "Hyper Voice",
-        damage: "70",
-        text: "",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Water",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 3,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "36",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
-    flavorText:
-      "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
-    nationalPokedexNumbers: [910],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/36.png",
-      large: "https://images.pokemontcg.io/sv2/36_hires.png",
     },
   },
   {
@@ -16357,8 +17169,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
     nationalPokedexNumbers: [910],
@@ -16371,6 +17181,66 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/24.png",
       large: "https://images.pokemontcg.io/sv4/24_hires.png",
+    },
+  },
+  {
+    id: "sv5-40",
+    name: "Croconaw",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Water"],
+    evolvesFrom: "Totodile",
+    evolvesTo: ["Feraligatr"],
+    attacks: [
+      {
+        name: "Reverse Thrust",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Switch this Pokémon with 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "40",
+    flavorText:
+      "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+    nationalPokedexNumbers: [159],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/40.png",
+      large: "https://images.pokemontcg.io/sv5/40_hires.png",
     },
   },
   {
@@ -16424,8 +17294,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
     nationalPokedexNumbers: [558],
@@ -16483,8 +17351,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "kirisAki",
-    rarity: "Common",
     flavorText:
       "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
     nationalPokedexNumbers: [615],
@@ -16544,8 +17410,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like.",
     nationalPokedexNumbers: [613],
@@ -16611,8 +17475,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
     nationalPokedexNumbers: [613],
@@ -16678,8 +17540,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Shinya Komatsu",
-    rarity: "Common",
     flavorText:
       "This Pokémon wears the skull of its deceased mother. Sometimes Cubone's dreams make it cry, but each tear Cubone sheds makes it stronger.",
     nationalPokedexNumbers: [104],
@@ -16743,8 +17603,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Using the pointy tip of its trunk, it carves off chunks of hard rocks to eat. It is very docile and helps people with physical labor.",
     nationalPokedexNumbers: [878],
@@ -16757,6 +17615,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/149.png",
       large: "https://images.pokemontcg.io/sv2/149_hires.png",
+    },
+  },
+  {
+    id: "sv5-75",
+    name: "Cutiefly",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "30",
+    types: ["Psychic"],
+    evolvesTo: ["Ribombee"],
+    attacks: [
+      {
+        name: "Mini Drain",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Heal 10 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "75",
+    flavorText:
+      "Nectar and pollen are its favorite fare. You can find Cutiefly hovering around Gossifleur, trying to get some of Gossifleur's pollen.",
+    nationalPokedexNumbers: [742],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/75.png",
+      large: "https://images.pokemontcg.io/sv5/75_hires.png",
     },
   },
   {
@@ -16807,8 +17724,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "164",
-    artist: "Ryota Murayama",
-    rarity: "Rare",
     flavorText:
       "It can sprint at over 70 mph while carrying a human. The rider's body heat warms Cyclizar's back and lifts the Pokémon's spirit.",
     nationalPokedexNumbers: [967],
@@ -16866,8 +17781,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "163",
-    artist: "AKIRA EGAWA",
-    rarity: "Uncommon",
     flavorText:
       "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     nationalPokedexNumbers: [967],
@@ -16919,8 +17832,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "GIDORA",
-    rarity: "Rare",
     flavorText:
       "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     nationalPokedexNumbers: [967],
@@ -16985,8 +17896,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "157",
-    artist: "kawayoo",
-    rarity: "Uncommon",
     flavorText:
       "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     nationalPokedexNumbers: [967],
@@ -16999,6 +17908,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/157.png",
       large: "https://images.pokemontcg.io/sv4/157_hires.png",
+    },
+  },
+  {
+    id: "svp-96",
+    name: "Cyclizar",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Flat-Out Dash",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin until you get tails. For each heads, draw a card.",
+      },
+      {
+        name: "Power Tackle",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "96",
+    flavorText:
+      "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+    nationalPokedexNumbers: [967],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/96.png",
+      large: "https://images.pokemontcg.io/svp/96_hires.png",
     },
   },
   {
@@ -17039,8 +18013,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -17048,15 +18022,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "18",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [967],
     legalities: {
       unlimited: "Legal",
@@ -17121,8 +18093,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH221",
-    artist: "Teeziro",
-    rarity: "Promo",
     flavorText:
       "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
     nationalPokedexNumbers: [155],
@@ -17188,8 +18158,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "You Iribi",
-    rarity: "Uncommon",
     flavorText:
       "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
     nationalPokedexNumbers: [927],
@@ -17255,8 +18223,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Shin Nagasawa",
-    rarity: "Rare Holo",
     flavorText:
       "On a moonless night, a strange incident occurred in which every one of a village's inhabitants suffered nightmares. The villagers attested that Darkrai appeared before them in these nightmares.",
     nationalPokedexNumbers: [491],
@@ -17321,8 +18287,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
-    artist: "Bun Toujo",
-    rarity: "Rare",
     flavorText:
       "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
     nationalPokedexNumbers: [491],
@@ -17391,8 +18355,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "takuyoa",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [491],
     legalities: {
       unlimited: "Legal",
@@ -17460,8 +18422,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [491],
     legalities: {
       unlimited: "Legal",
@@ -17525,8 +18485,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon's power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
     nationalPokedexNumbers: [555],
@@ -17594,8 +18552,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "0313",
-    rarity: "Uncommon",
     flavorText:
       "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
     nationalPokedexNumbers: [723],
@@ -17655,8 +18611,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
     nationalPokedexNumbers: [723],
@@ -17722,8 +18676,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
     nationalPokedexNumbers: [554],
@@ -17792,8 +18744,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [724],
     legalities: {
       unlimited: "Legal",
@@ -17857,8 +18807,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "A Dedenne's whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
     nationalPokedexNumbers: [702],
@@ -17916,8 +18864,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "zig",
-    rarity: "Common",
     flavorText:
       "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
     nationalPokedexNumbers: [702],
@@ -17975,8 +18921,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Nelnal",
-    rarity: "Common",
     flavorText:
       "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
     nationalPokedexNumbers: [702],
@@ -18041,8 +18985,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
     nationalPokedexNumbers: [702],
@@ -18111,8 +19053,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [702],
     legalities: {
       unlimited: "Legal",
@@ -18123,6 +19063,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/93.png",
       large: "https://images.pokemontcg.io/sv2/93_hires.png",
+    },
+  },
+  {
+    id: "sv5-16",
+    name: "Deerling",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Sawsbuck"],
+    attacks: [
+      {
+        name: "Flop",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Leaf Litter Tackle",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "Discard a Grass Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "16",
+    flavorText:
+      "Deerling have different scents depending on the season. In this form, Deerling have a softly sweet scent that lingers in the nose.",
+    nationalPokedexNumbers: [585],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/16.png",
+      large: "https://images.pokemontcg.io/sv5/16_hires.png",
     },
   },
   {
@@ -18168,8 +19174,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
     nationalPokedexNumbers: [633],
@@ -18182,6 +19186,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/138.png",
       large: "https://images.pokemontcg.io/sv2/138_hires.png",
+    },
+  },
+  {
+    id: "sv5-131",
+    name: "Delcatty",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Colorless"],
+    evolvesFrom: "Skitty",
+    attacks: [
+      {
+        name: "Tail Trickery",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+      {
+        name: "Energy Blender",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "You may move any amount of Energy from your Pokémon to your other Pokémon in any way you like.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "131",
+    flavorText:
+      "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+    nationalPokedexNumbers: [301],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/131.png",
+      large: "https://images.pokemontcg.io/sv5/131_hires.png",
     },
   },
   {
@@ -18234,8 +19304,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "It carries food all day long. There are tales about lost people who were saved by the food it had.",
     nationalPokedexNumbers: [225],
@@ -18302,8 +19370,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "Uta",
-    rarity: "Rare",
     flavorText:
       "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
     nationalPokedexNumbers: [655],
@@ -18319,7 +19385,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-27",
+    id: "swsh11-173",
     name: "Delphox V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -18371,9 +19437,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "27",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
+    number: "173",
     nationalPokedexNumbers: [655],
     legalities: {
       unlimited: "Legal",
@@ -18382,8 +19446,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/27.png",
-      large: "https://images.pokemontcg.io/swsh11/27_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/173.png",
+      large: "https://images.pokemontcg.io/swsh11/173_hires.png",
     },
   },
   {
@@ -18442,8 +19506,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "Saya Tsuruta",
-    rarity: "Rare",
     flavorText:
       "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
     nationalPokedexNumbers: [386],
@@ -18518,8 +19580,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH266",
-    artist: "N-DESIGN Inc.",
-    rarity: "Promo",
     nationalPokedexNumbers: [386],
     legalities: {
       unlimited: "Legal",
@@ -18593,8 +19653,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH267",
-    artist: "N-DESIGN Inc.",
-    rarity: "Promo",
     nationalPokedexNumbers: [386],
     legalities: {
       unlimited: "Legal",
@@ -18668,8 +19726,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH268",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [386],
     legalities: {
       unlimited: "Legal",
@@ -18734,8 +19790,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "chibi",
-    rarity: "Rare",
     flavorText:
       "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
     nationalPokedexNumbers: [87],
@@ -18801,8 +19855,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "aoki",
-    rarity: "Uncommon",
     flavorText:
       "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
     nationalPokedexNumbers: [87],
@@ -18863,8 +19915,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
     nationalPokedexNumbers: [502],
@@ -18924,8 +19974,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
     nationalPokedexNumbers: [751],
@@ -18938,6 +19986,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/47.png",
       large: "https://images.pokemontcg.io/swsh12/47_hires.png",
+    },
+  },
+  {
+    id: "sv5-19",
+    name: "Dhelmise",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Spinning Attack",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Steel Anchor",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If you have any Metal Pokémon on your Bench, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "19",
+    flavorText:
+      "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
+    nationalPokedexNumbers: [781],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/19.png",
+      large: "https://images.pokemontcg.io/sv5/19_hires.png",
     },
   },
   {
@@ -18991,8 +20104,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "Yuu Nishida",
-    rarity: "Rare Holo",
     flavorText:
       "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
     nationalPokedexNumbers: [719],
@@ -19058,8 +20169,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "SATOSHI NAKAI",
-    rarity: "Uncommon",
     flavorText:
       "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
     nationalPokedexNumbers: [660],
@@ -19118,8 +20227,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
     nationalPokedexNumbers: [50],
@@ -19185,8 +20292,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
     nationalPokedexNumbers: [50],
@@ -19243,8 +20348,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Misa Tsutsui",
-    rarity: "Rare Holo",
     flavorText:
       "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
     nationalPokedexNumbers: [132],
@@ -19309,8 +20412,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Rare",
     flavorText:
       "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
     nationalPokedexNumbers: [132],
@@ -19382,8 +20483,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
     nationalPokedexNumbers: [85],
@@ -19448,8 +20547,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Anesaki Dynamic",
-    rarity: "Common",
     flavorText:
       "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
     nationalPokedexNumbers: [84],
@@ -19515,8 +20612,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
     nationalPokedexNumbers: [929],
@@ -19576,8 +20671,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
     nationalPokedexNumbers: [929],
@@ -19642,8 +20735,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
     nationalPokedexNumbers: [977],
@@ -19693,8 +20784,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -19702,15 +20793,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "12",
-    artist: "Shin Nagasawa",
-    rarity: "Promo",
     flavorText:
       "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
     nationalPokedexNumbers: [977],
@@ -19775,8 +20864,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
     nationalPokedexNumbers: [977],
@@ -19843,8 +20930,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
     nationalPokedexNumbers: [232],
@@ -19910,8 +20995,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain.",
     nationalPokedexNumbers: [232],
@@ -19972,8 +21055,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
     nationalPokedexNumbers: [825],
@@ -20040,8 +21121,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Haru Akasaka",
-    rarity: "Common",
     flavorText:
       "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
     nationalPokedexNumbers: [825],
@@ -20114,8 +21193,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Bun Toujo",
-    rarity: "Common",
     flavorText:
       "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
     nationalPokedexNumbers: [680],
@@ -20188,8 +21265,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
     nationalPokedexNumbers: [680],
@@ -20256,8 +21331,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "NC Empire",
-    rarity: "Rare",
     flavorText:
       "Dragalge uses a poisonous liquid capable of corroding metal to send tankers that enter its territory to the bottom of the sea.",
     nationalPokedexNumbers: [691],
@@ -20330,8 +21403,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Teeziro",
-    rarity: "Rare Holo",
     flavorText:
       "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
     nationalPokedexNumbers: [887],
@@ -20393,8 +21464,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "Shinya Komatsu",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
     nationalPokedexNumbers: [148],
@@ -20455,8 +21524,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "158",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
     nationalPokedexNumbers: [148],
@@ -20517,8 +21584,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     flavorText:
       "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
     nationalPokedexNumbers: [148],
@@ -20579,8 +21644,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Naoyo Kimura",
-    rarity: "Rare Holo",
     flavorText:
       "It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
     nationalPokedexNumbers: [149],
@@ -20640,8 +21703,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "Sanosuke Sakuma",
-    rarity: "Rare",
     flavorText:
       "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
     nationalPokedexNumbers: [149],
@@ -20704,8 +21765,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "kawayoo",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [149],
     legalities: {
       unlimited: "Legal",
@@ -20767,8 +21826,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "PLANETA Tsuji",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [149],
     legalities: {
       unlimited: "Legal",
@@ -20830,8 +21887,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "159",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [149],
     legalities: {
       unlimited: "Legal",
@@ -20896,8 +21951,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
     flavorText:
       "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
     nationalPokedexNumbers: [886],
@@ -20949,8 +22002,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "161",
-    artist: "hatachu",
-    rarity: "Uncommon",
     flavorText:
       "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
     nationalPokedexNumbers: [780],
@@ -20963,6 +22014,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/161.png",
       large: "https://images.pokemontcg.io/sv3/161_hires.png",
+    },
+  },
+  {
+    id: "sv5-138",
+    name: "Drampa",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Raging Cannon",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If all of your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "138",
+    flavorText:
+      "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
+    nationalPokedexNumbers: [780],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/138.png",
+      large: "https://images.pokemontcg.io/sv5/138_hires.png",
     },
   },
   {
@@ -21019,8 +22135,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "aky CG Works",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [780],
     legalities: {
       unlimited: "Legal",
@@ -21034,7 +22148,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-118",
+    id: "swsh11-182",
     name: "Drapion V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V", "Ability"],
@@ -21086,9 +22200,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "118",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
+    number: "182",
     nationalPokedexNumbers: [452],
     legalities: {
       unlimited: "Legal",
@@ -21097,8 +22209,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/118.png",
-      large: "https://images.pokemontcg.io/swsh11/118_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/182.png",
+      large: "https://images.pokemontcg.io/swsh11/182_hires.png",
     },
   },
   {
@@ -21156,8 +22268,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "200",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Rainbow",
     nationalPokedexNumbers: [452],
     legalities: {
       unlimited: "Legal",
@@ -21209,8 +22319,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
     nationalPokedexNumbers: [147],
@@ -21263,8 +22371,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "157",
-    artist: "satoma",
-    rarity: "Common",
     flavorText:
       "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
     nationalPokedexNumbers: [147],
@@ -21324,8 +22430,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "Sanosuke Sakuma",
-    rarity: "Common",
     flavorText:
       "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
     nationalPokedexNumbers: [147],
@@ -21391,8 +22495,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
     nationalPokedexNumbers: [885],
@@ -21458,8 +22560,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
     nationalPokedexNumbers: [426],
@@ -21531,8 +22631,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "Yuu Nishida",
-    rarity: "Uncommon",
     flavorText:
       "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
     nationalPokedexNumbers: [426],
@@ -21598,8 +22696,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
     nationalPokedexNumbers: [425],
@@ -21670,8 +22766,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
     nationalPokedexNumbers: [425],
@@ -21730,8 +22824,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
     nationalPokedexNumbers: [529],
@@ -21744,6 +22836,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/111.png",
       large: "https://images.pokemontcg.io/sv3/111_hires.png",
+    },
+  },
+  {
+    id: "sv5-85",
+    name: "Drilbur",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Excadrill"],
+    abilities: [
+      {
+        name: "Dig Dig Dig",
+        text: "When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 Basic Fighting Energy cards and discard them. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Sand Spray",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "85",
+    flavorText:
+      "It brings its claws together and whirls around at high speed before rushing toward its prey.",
+    nationalPokedexNumbers: [529],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/85.png",
+      large: "https://images.pokemontcg.io/sv5/85_hires.png",
     },
   },
   {
@@ -21804,8 +22962,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
     nationalPokedexNumbers: [96],
@@ -21876,8 +23032,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "When it twitches its nose, it can tell where someone is sleeping and what that person is dreaming about.",
     nationalPokedexNumbers: [96],
@@ -21942,8 +23096,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "Mousho",
-    rarity: "Common",
     flavorText:
       "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
     nationalPokedexNumbers: [96],
@@ -22010,8 +23162,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "Sanosuke Sakuma",
-    rarity: "Rare",
     flavorText:
       "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
     nationalPokedexNumbers: [832],
@@ -22077,8 +23227,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
     nationalPokedexNumbers: [580],
@@ -22144,8 +23292,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "157",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
     nationalPokedexNumbers: [982],
@@ -22158,6 +23304,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/157.png",
       large: "https://images.pokemontcg.io/sv2/157_hires.png",
+    },
+  },
+  {
+    id: "sv5-129",
+    name: "Dudunsparce",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "140",
+    types: ["Colorless"],
+    evolvesFrom: "Dunsparce",
+    abilities: [
+      {
+        name: "Run Away Draw",
+        text: "Once during your turn, you may draw 3 cards. If you drew any cards in this way, shuffle this Pokémon and all attached cards into your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Land Crush",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "129",
+    flavorText:
+      "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+    nationalPokedexNumbers: [982],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/129.png",
+      large: "https://images.pokemontcg.io/sv5/129_hires.png",
     },
   },
   {
@@ -22204,8 +23416,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Nelnal",
-    rarity: "Uncommon",
     flavorText:
       "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
     nationalPokedexNumbers: [51],
@@ -22271,8 +23481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Miki Tanaka",
-    rarity: "Uncommon",
     flavorText:
       "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
     nationalPokedexNumbers: [51],
@@ -22337,8 +23545,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "156",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
     nationalPokedexNumbers: [206],
@@ -22351,6 +23557,69 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/156.png",
       large: "https://images.pokemontcg.io/sv2/156_hires.png",
+    },
+  },
+  {
+    id: "sv5-128",
+    name: "Dunsparce",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "60",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Gnaw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Dig",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "128",
+    flavorText:
+      "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+    nationalPokedexNumbers: [206],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/128.png",
+      large: "https://images.pokemontcg.io/sv5/128_hires.png",
     },
   },
   {
@@ -22405,8 +23674,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
     nationalPokedexNumbers: [578],
@@ -22419,6 +23686,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/77.png",
       large: "https://images.pokemontcg.io/swsh12/77_hires.png",
+    },
+  },
+  {
+    id: "sv5-71",
+    name: "Duosion",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "80",
+    types: ["Psychic"],
+    evolvesFrom: "Solosis",
+    evolvesTo: ["Reuniclus"],
+    attacks: [
+      {
+        name: "Double Trick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "Flip 2 coins. This attack does 30 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "71",
+    flavorText:
+      "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+    nationalPokedexNumbers: [578],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/71.png",
+      large: "https://images.pokemontcg.io/sv5/71_hires.png",
     },
   },
   {
@@ -22472,8 +23805,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Yuya Oka",
-    rarity: "Common",
     flavorText:
       "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles.",
     nationalPokedexNumbers: [632],
@@ -22544,8 +23875,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
     nationalPokedexNumbers: [632],
@@ -22612,8 +23941,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "miki kudo",
-    rarity: "Uncommon",
     flavorText:
       "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
     nationalPokedexNumbers: [356],
@@ -22686,8 +24013,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "otumami",
-    rarity: "Rare Holo",
     flavorText:
       "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
     nationalPokedexNumbers: [477],
@@ -22753,8 +24078,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "SATOSHI NAKAI",
-    rarity: "Common",
     flavorText:
       "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said.",
     nationalPokedexNumbers: [355],
@@ -22821,8 +24144,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare",
     flavorText:
       "Tends to be drawn to bonfires on dark nights. Difficult to chase away from settlements because of the way it scatters highly toxic scales.",
     nationalPokedexNumbers: [269],
@@ -22881,8 +24202,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
     nationalPokedexNumbers: [557],
@@ -22950,8 +24269,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Uta",
-    rarity: "Uncommon",
     flavorText:
       "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
     nationalPokedexNumbers: [603],
@@ -23018,8 +24335,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
     nationalPokedexNumbers: [603],
@@ -23086,8 +24401,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
     nationalPokedexNumbers: [604],
@@ -23153,8 +24466,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Masakazu Fukuda",
-    rarity: "Uncommon",
     flavorText:
       "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
     nationalPokedexNumbers: [604],
@@ -23230,8 +24541,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It has the ability to alter the composition of its body to suit its surrounding environment.",
     nationalPokedexNumbers: [133],
@@ -23307,8 +24616,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "N-DESIGN Inc.",
-    rarity: "Common",
     flavorText:
       "It has the ability to alter the composition of its body to suit its surrounding environment.",
     nationalPokedexNumbers: [133],
@@ -23383,8 +24690,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "166",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     nationalPokedexNumbers: [133],
@@ -23444,8 +24749,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -23453,15 +24758,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "43",
-    artist: "saino misaki",
-    rarity: "Promo",
     flavorText:
       "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     nationalPokedexNumbers: [133],
@@ -23536,8 +24839,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     nationalPokedexNumbers: [133],
@@ -23616,8 +24917,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "You Iribi",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [133],
     legalities: {
       unlimited: "Legal",
@@ -23631,7 +24930,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-48",
+    id: "sv2-205",
     name: "Eiscue",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -23679,9 +24978,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "48",
-    artist: "kawayoo",
-    rarity: "Uncommon",
+    number: "205",
     flavorText:
       "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
     nationalPokedexNumbers: [875],
@@ -23692,8 +24989,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/48.png",
-      large: "https://images.pokemontcg.io/sv2/48_hires.png",
+      small: "https://images.pokemontcg.io/sv2/205.png",
+      large: "https://images.pokemontcg.io/sv2/205_hires.png",
     },
   },
   {
@@ -23743,8 +25040,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [875],
     legalities: {
       unlimited: "Legal",
@@ -23801,8 +25096,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Kedamahadaitai Yawarakai",
-    rarity: "Common",
     flavorText:
       "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.",
     nationalPokedexNumbers: [23],
@@ -23815,6 +25108,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/23.png",
       large: "https://images.pokemontcg.io/sv3pt5/23_hires.png",
+    },
+  },
+  {
+    id: "sv5-100",
+    name: "Ekans",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Arbok"],
+    attacks: [
+      {
+        name: "Poison Blend",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused and Poisoned.",
+      },
+      {
+        name: "Bite",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "100",
+    flavorText:
+      "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+    nationalPokedexNumbers: [23],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/100.png",
+      large: "https://images.pokemontcg.io/sv5/100_hires.png",
     },
   },
   {
@@ -23869,8 +25228,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
     nationalPokedexNumbers: [125],
@@ -23936,8 +25293,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "NC Empire",
-    rarity: "Common",
     flavorText:
       "With the coming of a storm, many of these Pokémon will gather under tall trees and sit there waiting for lightning to strike.",
     nationalPokedexNumbers: [125],
@@ -23950,6 +25305,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/125.png",
       large: "https://images.pokemontcg.io/sv3pt5/125_hires.png",
+    },
+  },
+  {
+    id: "sv5-53",
+    name: "Electabuzz",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesTo: ["Electivire"],
+    attacks: [
+      {
+        name: "Chop",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Electric Punch",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "53",
+    flavorText:
+      "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+    nationalPokedexNumbers: [125],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/53.png",
+      large: "https://images.pokemontcg.io/sv5/53_hires.png",
     },
   },
   {
@@ -24004,8 +25425,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
     flavorText:
       "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
     nationalPokedexNumbers: [466],
@@ -24018,6 +25437,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/47.png",
       large: "https://images.pokemontcg.io/swsh9/47_hires.png",
+    },
+  },
+  {
+    id: "sv5-54",
+    name: "Electivire",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "140",
+    types: ["Lightning"],
+    evolvesFrom: "Electabuzz",
+    attacks: [
+      {
+        name: "Short-Circuit Knuckle",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40+",
+        text: "If your opponent has any Water Pokémon in play, this attack does 120 more damage.",
+      },
+      {
+        name: "Electroslug",
+        cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "140",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "54",
+    flavorText:
+      "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
+    nationalPokedexNumbers: [466],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/54.png",
+      large: "https://images.pokemontcg.io/sv5/54_hires.png",
     },
   },
   {
@@ -24072,8 +25557,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "otumami",
-    rarity: "Common",
     flavorText:
       "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
     nationalPokedexNumbers: [309],
@@ -24139,8 +25622,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
     nationalPokedexNumbers: [101],
@@ -24206,8 +25687,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "nagimiso",
-    rarity: "Rare",
     flavorText:
       "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
     nationalPokedexNumbers: [101],
@@ -24264,8 +25743,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "aoki",
-    rarity: "Common",
     flavorText:
       "It's not good at storing electricity yet. This Pokémon sneaks into people's homes, looking for electrical outlets to eat electricity from.",
     nationalPokedexNumbers: [239],
@@ -24331,8 +25808,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
     nationalPokedexNumbers: [605],
@@ -24345,6 +25820,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/79.png",
       large: "https://images.pokemontcg.io/swsh12/79_hires.png",
+    },
+  },
+  {
+    id: "sv5-73",
+    name: "Elgyem",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Psychic"],
+    evolvesTo: ["Beheeyem"],
+    attacks: [
+      {
+        name: "Hide",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "73",
+    flavorText:
+      "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+    nationalPokedexNumbers: [605],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/73.png",
+      large: "https://images.pokemontcg.io/sv5/73_hires.png",
     },
   },
   {
@@ -24396,8 +25936,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
     nationalPokedexNumbers: [587],
@@ -24464,8 +26002,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
     nationalPokedexNumbers: [395],
@@ -24531,8 +26067,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Jiro Sasumo",
-    rarity: "Rare",
     flavorText:
       "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
     nationalPokedexNumbers: [905],
@@ -24601,8 +26135,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "178",
-    artist: "5ban Graphics",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [905],
     legalities: {
       unlimited: "Legal",
@@ -24666,8 +26198,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Nisota Niso",
-    rarity: "Rare Holo",
     flavorText:
       "It is said that when it roars, a volcano erupts somewhere around the globe.",
     nationalPokedexNumbers: [244],
@@ -24732,8 +26262,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "toriyufu",
-    rarity: "Rare",
     flavorText:
       "It is said that when it roars, a volcano erupts somewhere around the globe.",
     nationalPokedexNumbers: [244],
@@ -24802,8 +26330,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [244],
     legalities: {
       unlimited: "Legal",
@@ -24874,8 +26400,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Nurikabe",
-    rarity: "Rare",
     flavorText:
       "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region.",
     nationalPokedexNumbers: [589],
@@ -24945,8 +26469,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     flavorText:
       "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
     nationalPokedexNumbers: [956],
@@ -25001,8 +26523,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -25010,15 +26532,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "10",
-    artist: "Sanosuke Sakuma",
-    rarity: "Promo",
     flavorText:
       "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
     nationalPokedexNumbers: [956],
@@ -25090,8 +26610,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Teeziro",
-    rarity: "Rare",
     flavorText:
       "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
     nationalPokedexNumbers: [956],
@@ -25115,7 +26633,7 @@ const allStandardLegalPokemon = [
     types: ["Grass"],
     evolvesFrom: "Flittle",
     rules: [
-      "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+      "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
       "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
     ],
     abilities: [
@@ -25161,8 +26679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "214",
-    artist: "takuyoa",
-    rarity: "Shiny Ultra Rare",
     nationalPokedexNumbers: [956],
     legalities: {
       unlimited: "Legal",
@@ -25232,8 +26748,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "Cona Nitanda",
-    rarity: "Uncommon",
     flavorText:
       "The tip of its forked tail quivers when it is predicting its opponent's next move.",
     nationalPokedexNumbers: [196],
@@ -25306,8 +26820,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Asako Ito",
-    rarity: "Common",
     flavorText:
       "Though Espurr's expression never changes, behind that blank stare is an intense struggle to contain its devastating psychic power.",
     nationalPokedexNumbers: [677],
@@ -25372,8 +26884,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "kawayoo",
-    rarity: "Uncommon",
     flavorText:
       "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
     nationalPokedexNumbers: [530],
@@ -25386,6 +26896,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/147.png",
       large: "https://images.pokemontcg.io/sv3/147_hires.png",
+    },
+  },
+  {
+    id: "sv5-86",
+    name: "Excadrill",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Fighting"],
+    evolvesFrom: "Drilbur",
+    attacks: [
+      {
+        name: "Mud Shot",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Wild Tackle",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "180",
+        text: "This Pokémon also does 50 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "86",
+    flavorText:
+      "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
+    nationalPokedexNumbers: [530],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/86.png",
+      large: "https://images.pokemontcg.io/sv5/86_hires.png",
     },
   },
   {
@@ -25440,8 +27016,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     nationalPokedexNumbers: [102],
@@ -25507,8 +27081,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "zig",
-    rarity: "Common",
     flavorText:
       "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     nationalPokedexNumbers: [102],
@@ -25567,8 +27139,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
     nationalPokedexNumbers: [102],
@@ -25640,8 +27210,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Kariya",
-    rarity: "Common",
     flavorText:
       "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
     nationalPokedexNumbers: [102],
@@ -25708,8 +27276,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Naoyo Kimura",
-    rarity: "Uncommon",
     flavorText:
       "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
     nationalPokedexNumbers: [103],
@@ -25782,8 +27348,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "Toshinao Aoki",
-    rarity: "Rare",
     flavorText:
       "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
     nationalPokedexNumbers: [103],
@@ -25849,8 +27413,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Shigenori Negishi",
-    rarity: "Uncommon",
     flavorText:
       "When they work together, Exeggutor's three heads can put out powerful psychic energy. Cloudy days make this Pokémon sluggish.",
     nationalPokedexNumbers: [103],
@@ -25922,8 +27484,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Rare",
     flavorText:
       "When they work together, Exeggutor's three heads can put out powerful psychic energy. Cloudy days make this Pokémon sluggish.",
     nationalPokedexNumbers: [103],
@@ -25989,8 +27549,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "LINNE",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon can do more than just shout. To communicate with others of its kind, it'll emit all sorts of sounds from the holes in its body.",
     nationalPokedexNumbers: [295],
@@ -26056,8 +27614,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "Five of them are troopers, and one is the brass. The brass's orders are absolute.",
     nationalPokedexNumbers: [870],
@@ -26122,8 +27678,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
     nationalPokedexNumbers: [870],
@@ -26189,8 +27743,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
     nationalPokedexNumbers: [83],
@@ -26262,8 +27814,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "KG-2000",
-    rarity: "Common",
     flavorText:
       "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
     nationalPokedexNumbers: [83],
@@ -26329,8 +27879,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "155",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.",
     nationalPokedexNumbers: [981],
@@ -26343,6 +27891,75 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/155.png",
       large: "https://images.pokemontcg.io/sv2/155_hires.png",
+    },
+  },
+  {
+    id: "sv5-108",
+    name: "Farigiraf ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "Tera", "ex", "1 Prizer", "Ability"],
+    hp: "260",
+    types: ["Darkness"],
+    evolvesFrom: "Girafarig",
+    rules: [
+      "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+      "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    ],
+    abilities: [
+      {
+        name: "Armor Tail",
+        text: "Prevent all damage done to this Pokémon by attacks from your opponent's Basic Pokémon ex.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dirty Beam",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "108",
+    nationalPokedexNumbers: [981],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/108.png",
+      large: "https://images.pokemontcg.io/sv5/108_hires.png",
     },
   },
   {
@@ -26400,8 +28017,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Gemi",
-    rarity: "Uncommon",
     flavorText:
       "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
     nationalPokedexNumbers: [22],
@@ -26468,8 +28083,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
     nationalPokedexNumbers: [349],
@@ -26528,8 +28141,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Tetsu Kayama",
-    rarity: "Common",
     flavorText:
       "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
     nationalPokedexNumbers: [349],
@@ -26596,8 +28207,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
     nationalPokedexNumbers: [653],
@@ -26610,6 +28219,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/25.png",
       large: "https://images.pokemontcg.io/swsh12/25_hires.png",
+    },
+  },
+  {
+    id: "sv5-41",
+    name: "Feraligatr",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "180",
+    types: ["Water"],
+    evolvesFrom: "Croconaw",
+    abilities: [
+      {
+        name: "Torrential Heart",
+        text: "Once during your turn, you may put 5 damage counters on this Pokémon. If you do, during this turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Giant Wave",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "160",
+        text: "During your next turn, this Pokémon can't use Giant Wave.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "41",
+    flavorText:
+      "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+    nationalPokedexNumbers: [160],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/41.png",
+      large: "https://images.pokemontcg.io/sv5/41_hires.png",
     },
   },
   {
@@ -26670,8 +28345,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
     nationalPokedexNumbers: [597],
@@ -26736,8 +28409,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
     nationalPokedexNumbers: [597],
@@ -26810,8 +28481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
     nationalPokedexNumbers: [598],
@@ -26883,8 +28552,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "SATOSHI NAKAI",
-    rarity: "Uncommon",
     flavorText:
       "Its spikes are harder than steel. This Pokémon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
     nationalPokedexNumbers: [598],
@@ -26949,8 +28616,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
     nationalPokedexNumbers: [926],
@@ -27008,8 +28673,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
     nationalPokedexNumbers: [926],
@@ -27075,8 +28738,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
     nationalPokedexNumbers: [963],
@@ -27135,8 +28796,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
     nationalPokedexNumbers: [963],
@@ -27149,6 +28808,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/61.png",
       large: "https://images.pokemontcg.io/sv3/61_hires.png",
+    },
+  },
+  {
+    id: "sv5-48",
+    name: "Finizen",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Rain Splash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Sharp Fin",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "48",
+    flavorText:
+      "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+    nationalPokedexNumbers: [963],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/48.png",
+      large: "https://images.pokemontcg.io/sv5/48_hires.png",
     },
   },
   {
@@ -27203,8 +28927,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls.",
     nationalPokedexNumbers: [456],
@@ -27270,8 +28992,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Kurata So",
-    rarity: "Uncommon",
     flavorText:
       "Because of its rubbery, electricity-resistant skin, it can store lots of electricity in its fur.",
     nationalPokedexNumbers: [180],
@@ -27322,8 +29042,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -27331,15 +29051,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "15",
-    artist: "0313",
-    rarity: "Promo",
     flavorText:
       "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
     nationalPokedexNumbers: [180],
@@ -27397,8 +29115,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
     nationalPokedexNumbers: [669],
@@ -27411,78 +29127,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/91.png",
       large: "https://images.pokemontcg.io/sv1/91_hires.png",
-    },
-  },
-  {
-    id: "sv1-165",
-    name: "Flamigo",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "110",
-    types: ["Colorless"],
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Flap",
-        damage: "30",
-        text: "",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Colorless", "Colorless", "Colorless"],
-        name: "Nosedive",
-        damage: "110",
-        text: "This Pokémon also does 20 damage to itself.",
-        convertedEnergyCost: 3,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Lightning",
-        value: "×2",
-      },
-    ],
-    resistances: [
-      {
-        type: "Fighting",
-        value: "-30",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "165",
-    artist: "kantaro",
-    rarity: "Uncommon",
-    flavorText:
-      'Thanks to a behavior of theirs known as "synchronizing," an entire flock of these Pokémon can attack simultaneously in perfect harmony.',
-    nationalPokedexNumbers: [973],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/165.png",
-      large: "https://images.pokemontcg.io/sv1/165_hires.png",
     },
   },
   {
@@ -27541,8 +29185,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "170",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
     nationalPokedexNumbers: [973],
@@ -27555,6 +29197,76 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/170.png",
       large: "https://images.pokemontcg.io/sv2/170_hires.png",
+    },
+  },
+  {
+    id: "sv1-165",
+    name: "Flamigo",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Colorless"],
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Flap",
+        damage: "30",
+        text: "",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Colorless", "Colorless", "Colorless"],
+        name: "Nosedive",
+        damage: "110",
+        text: "This Pokémon also does 20 damage to itself.",
+        convertedEnergyCost: 3,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "165",
+    flavorText:
+      'Thanks to a behavior of theirs known as "synchronizing," an entire flock of these Pokémon can attack simultaneously in perfect harmony.',
+    nationalPokedexNumbers: [973],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/165.png",
+      large: "https://images.pokemontcg.io/sv1/165_hires.png",
     },
   },
   {
@@ -27613,8 +29325,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "185",
-    artist: "Hiroki Asanuma",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
     nationalPokedexNumbers: [973],
@@ -27685,8 +29395,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Anesaki Dynamic",
-    rarity: "Common",
     flavorText:
       "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
     nationalPokedexNumbers: [973],
@@ -27752,8 +29460,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
-    artist: "Ryota Murayama",
-    rarity: "Rare",
     flavorText:
       "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
     nationalPokedexNumbers: [136],
@@ -27814,8 +29520,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "Narumi Sato",
-    rarity: "Uncommon",
     flavorText:
       "Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder's sharp talons finish it off.",
     nationalPokedexNumbers: [662],
@@ -27831,7 +29535,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-29",
+    id: "sv2-199",
     name: "Fletchinder",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -27879,9 +29583,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "29",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
+    number: "199",
     flavorText:
       "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
     nationalPokedexNumbers: [662],
@@ -27892,8 +29594,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/29.png",
-      large: "https://images.pokemontcg.io/sv2/29_hires.png",
+      small: "https://images.pokemontcg.io/sv2/199.png",
+      large: "https://images.pokemontcg.io/sv2/199_hires.png",
     },
   },
   {
@@ -27945,8 +29647,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "Its melodious cries are actually warnings. Fletchling will mercilessly peck at anything that enters its territory.",
     nationalPokedexNumbers: [661],
@@ -28010,8 +29710,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "163",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
     nationalPokedexNumbers: [661],
@@ -28073,8 +29771,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Hitoshi Ariga",
-    rarity: "Common",
     flavorText:
       "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     nationalPokedexNumbers: [955],
@@ -28138,8 +29834,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     nationalPokedexNumbers: [955],
@@ -28203,8 +29897,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     nationalPokedexNumbers: [955],
@@ -28268,8 +29960,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     nationalPokedexNumbers: [955],
@@ -28333,8 +30023,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
     nationalPokedexNumbers: [955],
@@ -28398,8 +30086,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
     nationalPokedexNumbers: [955],
@@ -28466,8 +30152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "kodama",
-    rarity: "Uncommon",
     flavorText:
       "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
     nationalPokedexNumbers: [419],
@@ -28526,8 +30210,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Gemi",
-    rarity: "Uncommon",
     flavorText:
       "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
     nationalPokedexNumbers: [419],
@@ -28593,8 +30275,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
     nationalPokedexNumbers: [419],
@@ -28653,8 +30333,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "This Pokémon uses red wavelengths of light to pour its own energy into flowers and draw forth their latent potential.",
     nationalPokedexNumbers: [670],
@@ -28720,8 +30398,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
     nationalPokedexNumbers: [907],
@@ -28737,7 +30413,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-14",
+    id: "sv2-197",
     name: "Floragato",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -28786,9 +30462,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "14",
-    artist: "nagimiso",
-    rarity: "Uncommon",
+    number: "197",
     flavorText:
       "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
     nationalPokedexNumbers: [907],
@@ -28799,8 +30473,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/14.png",
-      large: "https://images.pokemontcg.io/sv2/14_hires.png",
+      small: "https://images.pokemontcg.io/sv2/197.png",
+      large: "https://images.pokemontcg.io/sv2/197_hires.png",
     },
   },
   {
@@ -28854,8 +30528,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Haru Akasaka",
-    rarity: "Uncommon",
     flavorText:
       "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
     nationalPokedexNumbers: [671],
@@ -28868,6 +30540,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/93.png",
       large: "https://images.pokemontcg.io/sv1/93_hires.png",
+    },
+  },
+  {
+    id: "sv5-78",
+    name: "Flutter Mane",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer", "Ability"],
+    hp: "90",
+    types: ["Psychic"],
+    abilities: [
+      {
+        name: "Midnight Fluttering",
+        text: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon has no Abilities, except for Midnight Fluttering.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hex Hurl",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "Put 2 damage counters on your opponent's Benched Pokémon in any way you like.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "78",
+    flavorText:
+      "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
+    nationalPokedexNumbers: [987],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/78.png",
+      large: "https://images.pokemontcg.io/sv5/78_hires.png",
     },
   },
   {
@@ -28922,8 +30659,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
     nationalPokedexNumbers: [330],
@@ -28986,8 +30721,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [330],
     legalities: {
       unlimited: "Legal",
@@ -29045,8 +30778,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "No one knows what the Poké Ball–like pattern on Foongus means or why Foongus has it.",
     nationalPokedexNumbers: [590],
@@ -29112,8 +30843,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "You Iribi",
-    rarity: "Common",
     flavorText:
       "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
     nationalPokedexNumbers: [590],
@@ -29185,8 +30914,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "Lee HyunJung",
-    rarity: "Uncommon",
     flavorText:
       "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
     nationalPokedexNumbers: [205],
@@ -29202,7 +30929,79 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-5",
+    id: "sv5-110",
+    name: "Forretress",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Pineco",
+    attacks: [
+      {
+        name: "Spike Cannon",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "Flip 3 coins. This attack does 30 damage for each heads.",
+      },
+      {
+        name: "Steel Tackle",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "This Pokémon also does 40 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "110",
+    flavorText:
+      "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+    nationalPokedexNumbers: [205],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/110.png",
+      large: "https://images.pokemontcg.io/sv5/110_hires.png",
+    },
+  },
+  {
+    id: "sv2-230",
     name: "Forretress ex",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "Tera", "ex", "1 Prizer", "Ability"],
@@ -29255,9 +31054,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "5",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "230",
     nationalPokedexNumbers: [205],
     legalities: {
       unlimited: "Legal",
@@ -29266,8 +31063,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/5.png",
-      large: "https://images.pokemontcg.io/sv2/5_hires.png",
+      small: "https://images.pokemontcg.io/sv2/230.png",
+      large: "https://images.pokemontcg.io/sv2/230_hires.png",
     },
   },
   {
@@ -29317,8 +31114,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Hataya",
-    rarity: "Uncommon",
     flavorText:
       "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
     nationalPokedexNumbers: [611],
@@ -29334,7 +31129,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-57",
+    id: "sv2-208",
     name: "Frigibax",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -29375,9 +31170,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "57",
-    artist: "Akira Komayama",
-    rarity: "Common",
+    number: "208",
     flavorText:
       "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
     nationalPokedexNumbers: [996],
@@ -29388,8 +31181,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/57.png",
-      large: "https://images.pokemontcg.io/sv2/57_hires.png",
+      small: "https://images.pokemontcg.io/sv2/208.png",
+      large: "https://images.pokemontcg.io/sv2/208_hires.png",
     },
   },
   {
@@ -29442,8 +31235,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "AKIRA EGAWA",
-    rarity: "Common",
     flavorText:
       "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
     nationalPokedexNumbers: [996],
@@ -29508,8 +31299,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Taira Akitsu",
-    rarity: "Shiny Rare",
     flavorText:
       "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
     nationalPokedexNumbers: [996],
@@ -29568,8 +31357,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Atsuya Uki",
-    rarity: "Common",
     flavorText:
       "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
     nationalPokedexNumbers: [656],
@@ -29629,8 +31416,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Tonji Matsuno",
-    rarity: "Uncommon",
     flavorText:
       "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
     nationalPokedexNumbers: [657],
@@ -29697,8 +31482,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Taira Akitsu",
-    rarity: "Rare",
     flavorText:
       "After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokémon was born. Its favorite food is frozen souls.",
     nationalPokedexNumbers: [478],
@@ -29768,8 +31551,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [478],
     legalities: {
       unlimited: "Legal",
@@ -29780,6 +31561,129 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/3.png",
       large: "https://images.pokemontcg.io/sv4/3_hires.png",
+    },
+  },
+  {
+    id: "sv5-46",
+    name: "Frosmoth",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Water"],
+    evolvesFrom: "Snom",
+    attacks: [
+      {
+        name: "Freezing Chill",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "100",
+        text: "During your opponent's next turn, the Defending Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "46",
+    flavorText:
+      "Frosmoth senses air currents with its antennae. It sends its scales drifting on frigid air, making them fall like snow.",
+    nationalPokedexNumbers: [873],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/46.png",
+      large: "https://images.pokemontcg.io/sv5/46_hires.png",
+    },
+  },
+  {
+    id: "sv2-201",
+    name: "Fuecoco",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Fire"],
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Spacing Out",
+        damage: "",
+        text: "Flip a coin. If heads, heal 30 damage from this Pokémon.",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Fire", "Colorless"],
+        name: "Flare",
+        damage: "30",
+        text: "",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "201",
+    flavorText:
+      "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+    nationalPokedexNumbers: [909],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/201.png",
+      large: "https://images.pokemontcg.io/sv2/201_hires.png",
     },
   },
   {
@@ -29832,8 +31736,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Akira Komayama",
-    rarity: "Common",
     flavorText:
       "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco's head and flickers to and fro.",
     nationalPokedexNumbers: [909],
@@ -29876,8 +31778,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -29885,15 +31787,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "2",
-    artist: "Ryuta Fuse",
-    rarity: "Promo",
     flavorText:
       "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
     nationalPokedexNumbers: [909],
@@ -29951,8 +31851,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
     nationalPokedexNumbers: [909],
@@ -29965,72 +31863,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/34.png",
       large: "https://images.pokemontcg.io/sv2/34_hires.png",
-    },
-  },
-  {
-    id: "sv2-35",
-    name: "Fuecoco",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "90",
-    types: ["Fire"],
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Spacing Out",
-        damage: "",
-        text: "Flip a coin. If heads, heal 30 damage from this Pokémon.",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Fire", "Colorless"],
-        name: "Flare",
-        damage: "30",
-        text: "",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Water",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 3,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "35",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
-    flavorText:
-      "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
-    nationalPokedexNumbers: [909],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/35.png",
-      large: "https://images.pokemontcg.io/sv2/35_hires.png",
     },
   },
   {
@@ -30083,8 +31915,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Gemi",
-    rarity: "Common",
     flavorText:
       "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
     nationalPokedexNumbers: [909],
@@ -30139,8 +31969,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "hatachu",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
     nationalPokedexNumbers: [444],
@@ -30200,8 +32028,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Nisota Niso",
-    rarity: "Common",
     flavorText:
       "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
     nationalPokedexNumbers: [444],
@@ -30267,8 +32093,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
     nationalPokedexNumbers: [52],
@@ -30341,8 +32165,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Teeziro",
-    rarity: "Rare",
     flavorText:
       "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
     nationalPokedexNumbers: [863],
@@ -30358,7 +32180,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-184",
+    id: "swsh11-129",
     name: "Galarian Perrserker V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -30416,9 +32238,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "184",
-    artist: "GOSSAN",
-    rarity: "Rare Ultra",
+    number: "129",
     nationalPokedexNumbers: [863],
     legalities: {
       unlimited: "Legal",
@@ -30427,8 +32247,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/184.png",
-      large: "https://images.pokemontcg.io/swsh11/184_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/129.png",
+      large: "https://images.pokemontcg.io/swsh11/129_hires.png",
     },
   },
   {
@@ -30488,8 +32308,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Shigenori Negishi",
-    rarity: "Uncommon",
     flavorText:
       "Living in mud with a high iron content has given it a strong steel body.",
     nationalPokedexNumbers: [618],
@@ -30562,8 +32380,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Atsushi Furusawa",
-    rarity: "Rare Holo",
     flavorText:
       "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
     nationalPokedexNumbers: [475],
@@ -30632,8 +32448,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "TG19",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [475],
     legalities: {
       unlimited: "Legal",
@@ -30690,8 +32504,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
     nationalPokedexNumbers: [596],
@@ -30757,8 +32569,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "Aya Kusube",
-    rarity: "Uncommon",
     flavorText:
       "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
     nationalPokedexNumbers: [569],
@@ -30819,8 +32629,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Nurikabe",
-    rarity: "Rare Holo",
     flavorText:
       "Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.",
     nationalPokedexNumbers: [445],
@@ -30881,8 +32689,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "178",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [445],
     legalities: {
       unlimited: "Legal",
@@ -30948,8 +32754,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [445],
     legalities: {
       unlimited: "Legal",
@@ -31014,8 +32818,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare",
     flavorText:
       "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
     nationalPokedexNumbers: [282],
@@ -31090,8 +32892,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "N-DESIGN Inc.",
-    rarity: "Double Rare",
     flavorText:
       "It has a psychic power that enables it to distort the space around it and see into the future.",
     nationalPokedexNumbers: [282],
@@ -31157,8 +32957,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
     nationalPokedexNumbers: [934],
@@ -31224,8 +33022,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
     nationalPokedexNumbers: [934],
@@ -31289,8 +33085,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
     nationalPokedexNumbers: [92],
@@ -31355,8 +33149,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
     nationalPokedexNumbers: [92],
@@ -31422,8 +33214,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Nobuhiro Imagawa",
-    rarity: "Common",
     flavorText:
       "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
     nationalPokedexNumbers: [92],
@@ -31436,6 +33226,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/55.png",
       large: "https://images.pokemontcg.io/sv4pt5/55_hires.png",
+    },
+  },
+  {
+    id: "sv5-102",
+    name: "Gastly",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Haunter"],
+    attacks: [
+      {
+        name: "Mysterious Beam",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Suffocating Gas",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "102",
+    flavorText:
+      "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+    nationalPokedexNumbers: [92],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/102.png",
+      large: "https://images.pokemontcg.io/sv5/102_hires.png",
     },
   },
   {
@@ -31490,8 +33346,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     flavorText:
       "Its search for food sometimes leads it onto land, where it leaves behind a sticky trail of slime as it passes through.",
     nationalPokedexNumbers: [423],
@@ -31564,8 +33418,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "Narumi Sato",
-    rarity: "Rare Holo",
     flavorText:
       "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing.",
     nationalPokedexNumbers: [94],
@@ -31635,8 +33487,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "Tomokazu Komiya",
-    rarity: "Rare",
     flavorText:
       "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
     nationalPokedexNumbers: [94],
@@ -31702,8 +33552,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Nelnal",
-    rarity: "Uncommon",
     flavorText:
       "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
     nationalPokedexNumbers: [94],
@@ -31716,6 +33564,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/57.png",
       large: "https://images.pokemontcg.io/sv4pt5/57_hires.png",
+    },
+  },
+  {
+    id: "sv5-104",
+    name: "Gengar ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Ability"],
+    hp: "310",
+    types: ["Darkness"],
+    evolvesFrom: "Haunter",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Gnawing Curse",
+        text: "Whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Tricky Steps",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "160",
+        text: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "104",
+    nationalPokedexNumbers: [94],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/104.png",
+      large: "https://images.pokemontcg.io/sv5/104_hires.png",
     },
   },
   {
@@ -31769,8 +33684,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "Uta",
-    rarity: "Common",
     flavorText:
       "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
     nationalPokedexNumbers: [74],
@@ -31842,8 +33755,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare",
     flavorText:
       "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
     nationalPokedexNumbers: [1000],
@@ -31918,8 +33829,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [1000],
     legalities: {
       unlimited: "Legal",
@@ -31971,8 +33880,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "Gible prefers to stay in narrow holes in the sides of caves heated by geothermal energy. This way, Gible can stay warm even during a blizzard.",
     nationalPokedexNumbers: [443],
@@ -32031,8 +33938,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
     nationalPokedexNumbers: [443],
@@ -32103,8 +34008,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "OKUBO",
-    rarity: "Common",
     flavorText:
       "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
     nationalPokedexNumbers: [999],
@@ -32168,8 +34071,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
     nationalPokedexNumbers: [999],
@@ -32240,8 +34141,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
     nationalPokedexNumbers: [999],
@@ -32313,8 +34212,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting.",
     nationalPokedexNumbers: [203],
@@ -32379,8 +34276,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "154",
-    artist: "kirisAki",
-    rarity: "Common",
     flavorText:
       "Though very small, the brain in its tail is still considered an important organ because it emits powerful psychic energy.",
     nationalPokedexNumbers: [203],
@@ -32396,7 +34291,71 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-130",
+    id: "sv5-66",
+    name: "Girafarig",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Psychic Assault",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "66",
+    flavorText:
+      "Girafarig's tail has a small head. It instinctively bites at any foe that approaches the Pokémon from behind.",
+    nationalPokedexNumbers: [203],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/66.png",
+      large: "https://images.pokemontcg.io/sv5/66_hires.png",
+    },
+  },
+  {
+    id: "swsh11-186",
     name: "Giratina V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -32442,9 +34401,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "130",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
+    number: "186",
     nationalPokedexNumbers: [487],
     legalities: {
       unlimited: "Legal",
@@ -32453,12 +34410,12 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/130.png",
-      large: "https://images.pokemontcg.io/swsh11/130_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/186.png",
+      large: "https://images.pokemontcg.io/swsh11/186_hires.png",
     },
   },
   {
-    id: "swsh11-131",
+    id: "swsh11-201",
     name: "Giratina VSTAR",
     supertype: "Pokémon",
     subtypes: ["VSTAR"],
@@ -32505,9 +34462,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "131",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
+    number: "201",
     nationalPokedexNumbers: [487],
     legalities: {
       unlimited: "Legal",
@@ -32516,8 +34471,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/131.png",
-      large: "https://images.pokemontcg.io/swsh11/131_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/201.png",
+      large: "https://images.pokemontcg.io/swsh11/201_hires.png",
     },
   },
   {
@@ -32572,8 +34527,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "saino misaki",
-    rarity: "Rare",
     flavorText:
       "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
     nationalPokedexNumbers: [471],
@@ -32642,8 +34595,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH196",
-    artist: "PLANETA Yamashita",
-    rarity: "Promo",
     nationalPokedexNumbers: [471],
     legalities: {
       unlimited: "Legal",
@@ -32711,8 +34662,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH197",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [471],
     legalities: {
       unlimited: "Legal",
@@ -32778,8 +34727,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "It has a body of ice that won't melt, even with fire. It can instantly freeze moisture in the atmosphere.",
     nationalPokedexNumbers: [362],
@@ -32839,8 +34786,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "Bewitches humans with its helical tail and piercing gaze. Its hidden claws are quite sharp as well, making this Pokémon an exceedingly tricky opponent if antagonized.",
     nationalPokedexNumbers: [431],
@@ -32906,8 +34851,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Jiro Sasumo",
-    rarity: "Rare Holo",
     flavorText:
       "Glastrier emits intense cold from its hooves. It's also a belligerent Pokémon—anything it wants, it takes by force.",
     nationalPokedexNumbers: [896],
@@ -32967,8 +34910,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
     nationalPokedexNumbers: [207],
@@ -33027,8 +34968,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
     nationalPokedexNumbers: [207],
@@ -33086,8 +35025,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     nationalPokedexNumbers: [969],
@@ -33145,8 +35082,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     nationalPokedexNumbers: [969],
@@ -33212,8 +35147,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Sanosuke Sakuma",
-    rarity: "Common",
     flavorText:
       "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     nationalPokedexNumbers: [969],
@@ -33272,8 +35205,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     nationalPokedexNumbers: [969],
@@ -33339,8 +35270,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
     nationalPokedexNumbers: [970],
@@ -33409,8 +35338,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [970],
     legalities: {
       unlimited: "Legal",
@@ -33468,8 +35395,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "Shiburingaru",
-    rarity: "Rare",
     flavorText:
       "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
     nationalPokedexNumbers: [472],
@@ -33535,8 +35460,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     flavorText:
       "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
     nationalPokedexNumbers: [472],
@@ -33597,8 +35520,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Tomokazu Komiya",
-    rarity: "Uncommon",
     flavorText:
       "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
     nationalPokedexNumbers: [44],
@@ -33659,8 +35580,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
     nationalPokedexNumbers: [44],
@@ -33727,8 +35646,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Haru Akasaka",
-    rarity: "Common",
     flavorText:
       "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
     nationalPokedexNumbers: [44],
@@ -33795,8 +35712,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Sekio",
-    rarity: "Uncommon",
     flavorText:
       "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
     nationalPokedexNumbers: [44],
@@ -33862,8 +35777,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Gemi",
-    rarity: "Common",
     flavorText:
       "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
     nationalPokedexNumbers: [673],
@@ -33922,8 +35835,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
     nationalPokedexNumbers: [42],
@@ -33989,8 +35900,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
     nationalPokedexNumbers: [42],
@@ -34056,8 +35965,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Eri Yamaki",
-    rarity: "Common",
     flavorText:
       "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
     nationalPokedexNumbers: [42],
@@ -34123,8 +36030,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "SIE NANAHARA",
-    rarity: "Common",
     flavorText:
       "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
     nationalPokedexNumbers: [118],
@@ -34191,8 +36096,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "otumami",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
     nationalPokedexNumbers: [55],
@@ -34258,8 +36161,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Taira Akitsu",
-    rarity: "Uncommon",
     flavorText:
       "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
     nationalPokedexNumbers: [55],
@@ -34328,8 +36229,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Uta",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [76],
     legalities: {
       unlimited: "Legal",
@@ -34394,8 +36293,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Eske Yoshinob",
-    rarity: "Common",
     flavorText:
       "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
     nationalPokedexNumbers: [622],
@@ -34408,6 +36305,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/82.png",
       large: "https://images.pokemontcg.io/swsh9/82_hires.png",
+    },
+  },
+  {
+    id: "sv5-87",
+    name: "Golett",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Fighting"],
+    evolvesTo: ["Golurk"],
+    attacks: [
+      {
+        name: "Iron Defense",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+      },
+      {
+        name: "Punch",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "87",
+    flavorText:
+      "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+    nationalPokedexNumbers: [622],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/87.png",
+      large: "https://images.pokemontcg.io/sv5/87_hires.png",
     },
   },
   {
@@ -34462,8 +36425,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "otumami",
-    rarity: "Rare Holo",
     flavorText:
       "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
     nationalPokedexNumbers: [768],
@@ -34529,8 +36490,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "nagimiso",
-    rarity: "Rare",
     flavorText:
       "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
     nationalPokedexNumbers: [768],
@@ -34599,8 +36558,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "N-DESIGN Inc.",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [768],
     legalities: {
       unlimited: "Legal",
@@ -34665,8 +36622,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Aya Kusube",
-    rarity: "Rare",
     flavorText:
       "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
     nationalPokedexNumbers: [623],
@@ -34679,6 +36634,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/83.png",
       large: "https://images.pokemontcg.io/swsh9/83_hires.png",
+    },
+  },
+  {
+    id: "sv5-88",
+    name: "Golurk",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "160",
+    types: ["Fighting"],
+    evolvesFrom: "Golett",
+    attacks: [
+      {
+        name: "Iron Defense",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+      },
+      {
+        name: "Fighting Fist",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "88",
+    flavorText:
+      "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+    nationalPokedexNumbers: [623],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/88.png",
+      large: "https://images.pokemontcg.io/sv5/88_hires.png",
     },
   },
   {
@@ -34727,8 +36748,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic.",
     nationalPokedexNumbers: [704],
@@ -34799,8 +36818,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
     nationalPokedexNumbers: [574],
@@ -34872,8 +36889,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
     nationalPokedexNumbers: [576],
@@ -34945,8 +36960,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Aya Kusube",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
     nationalPokedexNumbers: [575],
@@ -34959,6 +36972,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/91.png",
       large: "https://images.pokemontcg.io/sv2/91_hires.png",
+    },
+  },
+  {
+    id: "sv5-38",
+    name: "Gouging Fire ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Ancient"],
+    hp: "230",
+    types: ["Fire"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Heat Blast",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+      {
+        name: "Blaze Blitz",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "260",
+        text: "This Pokémon can't use Blaze Blitz again until it leaves the Active Spot.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "38",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/38.png",
+      large: "https://images.pokemontcg.io/sv5/38_hires.png",
     },
   },
   {
@@ -35018,8 +37096,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "nisimono",
-    rarity: "Uncommon",
     flavorText:
       "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife.",
     nationalPokedexNumbers: [711],
@@ -35085,8 +37161,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
     flavorText:
       "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
     nationalPokedexNumbers: [945],
@@ -35152,8 +37226,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Lee HyunJung",
-    rarity: "Uncommon",
     flavorText:
       "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
     nationalPokedexNumbers: [210],
@@ -35169,7 +37241,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-57",
+    id: "swsh9-159",
     name: "Granbull V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -35221,9 +37293,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "57",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
+    number: "159",
     nationalPokedexNumbers: [210],
     legalities: {
       unlimited: "Legal",
@@ -35232,8 +37302,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/57.png",
-      large: "https://images.pokemontcg.io/swsh9/57_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/159.png",
+      large: "https://images.pokemontcg.io/swsh9/159_hires.png",
     },
   },
   {
@@ -35287,8 +37357,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     flavorText:
       "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
     nationalPokedexNumbers: [853],
@@ -35355,8 +37423,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Uta",
-    rarity: "Uncommon",
     flavorText:
       "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
     nationalPokedexNumbers: [75],
@@ -35369,6 +37435,136 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/75.png",
       large: "https://images.pokemontcg.io/sv3pt5/75_hires.png",
+    },
+  },
+  {
+    id: "sv5-96",
+    name: "Great Tusk",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "140",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Lunge Out",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Wrathful Charge",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "96",
+    flavorText:
+      "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+    nationalPokedexNumbers: [984],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/96.png",
+      large: "https://images.pokemontcg.io/sv5/96_hires.png",
+    },
+  },
+  {
+    id: "sv5-97",
+    name: "Great Tusk",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "140",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Land Collapse",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Discard the top card of your opponent's deck. If you played an Ancient Supporter card from your hand during this turn, discard 3 more cards in this way.",
+      },
+      {
+        name: "Giant Tusk",
+        cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "160",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "97",
+    flavorText:
+      "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+    nationalPokedexNumbers: [984],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/97.png",
+      large: "https://images.pokemontcg.io/sv5/97_hires.png",
     },
   },
   {
@@ -35424,8 +37620,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     flavorText:
       "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     nationalPokedexNumbers: [984],
@@ -35493,8 +37687,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "kawayoo",
-    rarity: "Double Rare",
+    nationalPokedexNumbers: [984],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -35562,8 +37755,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
     nationalPokedexNumbers: [971],
@@ -35627,8 +37818,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
     nationalPokedexNumbers: [971],
@@ -35700,8 +37889,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
     nationalPokedexNumbers: [971],
@@ -35766,8 +37953,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
     nationalPokedexNumbers: [971],
@@ -35834,8 +38019,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "sui",
-    rarity: "Rare",
     flavorText:
       "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
     nationalPokedexNumbers: [820],
@@ -35901,8 +38084,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "152",
-    artist: "kantaro",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
     nationalPokedexNumbers: [820],
@@ -35972,8 +38153,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "179",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [820],
     legalities: {
       unlimited: "Legal",
@@ -36031,8 +38210,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH305",
-    artist: "Taiga Kasai",
-    rarity: "Promo",
     flavorText:
       "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
     nationalPokedexNumbers: [658],
@@ -36086,8 +38263,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -36095,15 +38272,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "54",
-    artist: "takuyoa",
-    rarity: "Promo",
     nationalPokedexNumbers: [658],
     legalities: {
       unlimited: "Legal",
@@ -36161,8 +38336,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Masakazu Fukuda",
-    rarity: "Common",
     flavorText:
       "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction.",
     nationalPokedexNumbers: [88],
@@ -36220,8 +38393,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
     nationalPokedexNumbers: [88],
@@ -36280,8 +38451,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Nisota Niso",
-    rarity: "Common",
     flavorText:
       "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
     nationalPokedexNumbers: [88],
@@ -36348,8 +38517,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "DOM",
-    rarity: "Rare",
     flavorText:
       "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
     nationalPokedexNumbers: [861],
@@ -36417,8 +38584,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
     nationalPokedexNumbers: [388],
@@ -36431,6 +38596,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/7.png",
       large: "https://images.pokemontcg.io/swsh9/7_hires.png",
+    },
+  },
+  {
+    id: "sv5-11",
+    name: "Grotle",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Turtwig",
+    evolvesTo: ["Torterra"],
+    attacks: [
+      {
+        name: "Cut",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Ramming Shell",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "11",
+    flavorText:
+      "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+    nationalPokedexNumbers: [388],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/11.png",
+      large: "https://images.pokemontcg.io/sv5/11_hires.png",
     },
   },
   {
@@ -36483,8 +38715,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Uta",
-    rarity: "Rare",
     flavorText:
       "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
     nationalPokedexNumbers: [383],
@@ -36551,8 +38781,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
     nationalPokedexNumbers: [58],
@@ -36617,8 +38845,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
     nationalPokedexNumbers: [58],
@@ -36676,8 +38902,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
     nationalPokedexNumbers: [58],
@@ -36736,8 +38960,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "Atsushi Furusawa",
-    rarity: "Common",
     flavorText:
       "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
     nationalPokedexNumbers: [58],
@@ -36750,6 +38972,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/58.png",
       large: "https://images.pokemontcg.io/sv3pt5/58_hires.png",
+    },
+  },
+  {
+    id: "sv5-18",
+    name: "Grubbin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Charjabug"],
+    attacks: [
+      {
+        name: "Flock",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Grubbin and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Vise Grip",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "18",
+    flavorText:
+      "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches.",
+    nationalPokedexNumbers: [736],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/18.png",
+      large: "https://images.pokemontcg.io/sv5/18_hires.png",
     },
   },
   {
@@ -36809,8 +39097,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
     nationalPokedexNumbers: [326],
@@ -36877,8 +39163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "Mizue",
-    rarity: "Rare",
     flavorText:
       "Patient by nature, this Pokémon loses control of itself and pounces when it spots its favorite meal—Rattata!",
     nationalPokedexNumbers: [735],
@@ -36944,8 +39228,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "177",
-    artist: "Eri Yamaki",
-    rarity: "Uncommon",
     flavorText:
       "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
     nationalPokedexNumbers: [735],
@@ -37012,8 +39294,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare Holo",
     flavorText:
       "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
     nationalPokedexNumbers: [130],
@@ -37079,8 +39359,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Yuya Oka",
-    rarity: "Rare",
     flavorText:
       "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
     nationalPokedexNumbers: [130],
@@ -37146,8 +39424,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
     nationalPokedexNumbers: [130],
@@ -37217,8 +39493,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     flavorText:
       "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     nationalPokedexNumbers: [130],
@@ -37285,8 +39559,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
     nationalPokedexNumbers: [297],
@@ -37352,8 +39624,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "Hasuno",
-    rarity: "Rare",
     flavorText:
       "It loves challenging others to tests of strength. It has the power to stop a train with a slap.",
     nationalPokedexNumbers: [297],
@@ -37428,8 +39698,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "kawayoo",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [858],
     legalities: {
       unlimited: "Legal",
@@ -37503,8 +39771,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [858],
     legalities: {
       unlimited: "Legal",
@@ -37569,8 +39835,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "This frightful, malevolent spirit can glide through walls, appearing wherever it likes. According to rumor, victims of a Haunter's lick will wither to death day by day.",
     nationalPokedexNumbers: [93],
@@ -37643,8 +39907,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Tomokazu Komiya",
-    rarity: "Uncommon",
     flavorText:
       "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
     nationalPokedexNumbers: [93],
@@ -37704,8 +39966,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "DOM",
-    rarity: "Common",
     flavorText:
       "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
     nationalPokedexNumbers: [93],
@@ -37718,6 +39978,66 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/56.png",
       large: "https://images.pokemontcg.io/sv4pt5/56_hires.png",
+    },
+  },
+  {
+    id: "sv5-103",
+    name: "Haunter",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Darkness"],
+    evolvesFrom: "Gastly",
+    evolvesTo: ["Gengar"],
+    attacks: [
+      {
+        name: "Super Poison Breath",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "103",
+    flavorText:
+      "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+    nationalPokedexNumbers: [93],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/103.png",
+      large: "https://images.pokemontcg.io/sv5/103_hires.png",
     },
   },
   {
@@ -37777,8 +40097,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
     nationalPokedexNumbers: [701],
@@ -37850,8 +40168,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
     nationalPokedexNumbers: [701],
@@ -37916,8 +40232,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
     nationalPokedexNumbers: [701],
@@ -37978,8 +40292,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Uta",
-    rarity: "Rare",
     flavorText:
       "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
     nationalPokedexNumbers: [612],
@@ -38037,8 +40349,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Scav",
-    rarity: "Rare",
     flavorText:
       "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
     nationalPokedexNumbers: [479],
@@ -38096,8 +40406,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "otumami",
-    rarity: "Common",
     flavorText:
       "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
     nationalPokedexNumbers: [631],
@@ -38110,6 +40418,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/39.png",
       large: "https://images.pokemontcg.io/sv3/39_hires.png",
+    },
+  },
+  {
+    id: "sv5-31",
+    name: "Heatmor",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Live Coal",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Licking Flames",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "Flip 3 coins. For each tails, discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "31",
+    flavorText:
+      "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+    nationalPokedexNumbers: [631],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/31.png",
+      large: "https://images.pokemontcg.io/sv5/31_hires.png",
     },
   },
   {
@@ -38169,8 +40542,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Yuya Oka",
-    rarity: "Rare",
     flavorText:
       "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
     nationalPokedexNumbers: [485],
@@ -38239,8 +40610,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [485],
     legalities: {
       unlimited: "Legal",
@@ -38308,8 +40677,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [485],
     legalities: {
       unlimited: "Legal",
@@ -38374,8 +40741,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Akira Komayama",
-    rarity: "Rare",
     flavorText:
       "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
     nationalPokedexNumbers: [695],
@@ -38442,8 +40807,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves.",
     nationalPokedexNumbers: [694],
@@ -38509,8 +40872,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "aoki",
-    rarity: "Common",
     flavorText:
       "This Pokémon has an unparalleled horn. Heracross itself demonstrates tremendous power—it's capable of throwing several people trained in the traditional arts of war at once.",
     nationalPokedexNumbers: [214],
@@ -38523,6 +40884,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/8.png",
       large: "https://images.pokemontcg.io/swsh10/8_hires.png",
+    },
+  },
+  {
+    id: "sv2-194",
+    name: "Heracross",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Grass"],
+    attacks: [
+      {
+        cost: ["Grass", "Grass"],
+        name: "Tackle",
+        damage: "50",
+        text: "",
+        convertedEnergyCost: 2,
+      },
+      {
+        cost: ["Grass", "Grass", "Grass"],
+        name: "Smashing Horn",
+        damage: "110",
+        text: "This attack's damage isn't affected by Resistance.",
+        convertedEnergyCost: 3,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "194",
+    flavorText:
+      "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
+    nationalPokedexNumbers: [214],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/194.png",
+      large: "https://images.pokemontcg.io/sv2/194_hires.png",
     },
   },
   {
@@ -38575,8 +41000,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Taira Akitsu",
-    rarity: "Uncommon",
     flavorText:
       "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
     nationalPokedexNumbers: [214],
@@ -38589,72 +41012,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/2.png",
       large: "https://images.pokemontcg.io/sv1/2_hires.png",
-    },
-  },
-  {
-    id: "sv2-6",
-    name: "Heracross",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "130",
-    types: ["Grass"],
-    attacks: [
-      {
-        cost: ["Grass", "Grass"],
-        name: "Tackle",
-        damage: "50",
-        text: "",
-        convertedEnergyCost: 2,
-      },
-      {
-        cost: ["Grass", "Grass", "Grass"],
-        name: "Smashing Horn",
-        damage: "110",
-        text: "This attack's damage isn't affected by Resistance.",
-        convertedEnergyCost: 3,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 3,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "6",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
-    flavorText:
-      "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
-    nationalPokedexNumbers: [214],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/6.png",
-      large: "https://images.pokemontcg.io/sv2/6_hires.png",
     },
   },
   {
@@ -38709,8 +41066,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "171",
-    artist: "Kariya",
-    rarity: "Common",
     flavorText:
       "The black fur that covers this Pokémon's body is dense and springy. Even sharp fangs bounce right off.",
     nationalPokedexNumbers: [507],
@@ -38777,8 +41132,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
     nationalPokedexNumbers: [449],
@@ -38845,8 +41198,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
     nationalPokedexNumbers: [450],
@@ -38913,8 +41264,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "Kagemaru Himeno",
-    rarity: "Rare",
     flavorText:
       "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
     nationalPokedexNumbers: [59],
@@ -38930,7 +41279,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-84",
+    id: "swsh11tg-TG08",
     name: "Hisuian Arcanine",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -38962,11 +41311,11 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
       series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      printedTotal: 30,
+      total: 30,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -38976,13 +41325,11 @@ const allStandardLegalPokemon = [
       releaseDate: "2022/09/09",
       updatedAt: "2022/09/09 13:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
       },
     },
-    number: "84",
-    artist: "Oswaldo KATO",
-    rarity: "Rare Holo",
+    number: "TG08",
     flavorText:
       "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
     nationalPokedexNumbers: [59],
@@ -38993,8 +41340,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/84.png",
-      large: "https://images.pokemontcg.io/swsh11/84_hires.png",
+      small: "https://images.pokemontcg.io/swsh11tg/TG08.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG08_hires.png",
     },
   },
   {
@@ -39051,8 +41398,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [59],
     legalities: {
       unlimited: "Legal",
@@ -39117,8 +41462,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "Kagemaru Himeno",
-    rarity: "Rare",
     flavorText:
       "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
     nationalPokedexNumbers: [713],
@@ -39185,8 +41528,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Akira Komayama",
-    rarity: "Rare",
     flavorText:
       "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
     nationalPokedexNumbers: [902],
@@ -39253,8 +41594,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare Holo",
     flavorText:
       "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
     nationalPokedexNumbers: [902],
@@ -39320,8 +41659,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
     nationalPokedexNumbers: [550],
@@ -39380,8 +41717,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
     nationalPokedexNumbers: [550],
@@ -39447,8 +41782,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH273",
-    artist: "Shin Nagasawa",
-    rarity: "Promo",
     flavorText:
       "Though it differs from other Basculin in several respects, including demeanor - this one is gentle - I have categorized it as a regional form given the vast array of shared qualities.",
     nationalPokedexNumbers: [550],
@@ -39521,8 +41854,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
     nationalPokedexNumbers: [628],
@@ -39595,8 +41926,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "Jiro Sasumo",
-    rarity: "Rare",
     flavorText:
       "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
     nationalPokedexNumbers: [628],
@@ -39663,8 +41992,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
     nationalPokedexNumbers: [724],
@@ -39733,8 +42060,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Shin Nagasawa",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [724],
     legalities: {
       unlimited: "Legal",
@@ -39802,8 +42127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [724],
     legalities: {
       unlimited: "Legal",
@@ -39868,8 +42191,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
     nationalPokedexNumbers: [101],
@@ -39938,8 +42259,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "172",
-    artist: "5ban Graphics",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [101],
     legalities: {
       unlimited: "Legal",
@@ -39998,8 +42317,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "Akira Komayama",
-    rarity: "Rare Holo",
     flavorText:
       "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
     nationalPokedexNumbers: [706],
@@ -40062,8 +42379,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "187",
-    artist: "5ban Graphics",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [706],
     legalities: {
       unlimited: "Legal",
@@ -40125,8 +42440,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "202",
-    artist: "5ban Graphics",
-    rarity: "Rare Rainbow",
     nationalPokedexNumbers: [706],
     legalities: {
       unlimited: "Legal",
@@ -40191,8 +42504,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "Akira Komayama",
-    rarity: "Common",
     flavorText:
       "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
     nationalPokedexNumbers: [58],
@@ -40252,8 +42563,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
     nationalPokedexNumbers: [58],
@@ -40320,8 +42629,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Mizue",
-    rarity: "Rare Holo",
     flavorText:
       "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
     nationalPokedexNumbers: [549],
@@ -40388,8 +42695,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare",
     flavorText:
       "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
     nationalPokedexNumbers: [549],
@@ -40458,8 +42763,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [549],
     legalities: {
       unlimited: "Legal",
@@ -40527,8 +42830,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [549],
     legalities: {
       unlimited: "Legal",
@@ -40593,8 +42894,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       'Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.',
     nationalPokedexNumbers: [904],
@@ -40661,8 +42960,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "AKIRA EGAWA",
-    rarity: "Uncommon",
     flavorText:
       'Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.',
     nationalPokedexNumbers: [904],
@@ -40728,8 +43025,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
     nationalPokedexNumbers: [211],
@@ -40788,8 +43083,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
     nationalPokedexNumbers: [211],
@@ -40856,8 +43149,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
     nationalPokedexNumbers: [503],
@@ -40926,8 +43217,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Shin Nagasawa",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [503],
     legalities: {
       unlimited: "Legal",
@@ -40995,8 +43284,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [503],
     legalities: {
       unlimited: "Legal",
@@ -41056,8 +43343,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
     nationalPokedexNumbers: [705],
@@ -41124,8 +43409,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
     nationalPokedexNumbers: [215],
@@ -41192,8 +43475,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
     nationalPokedexNumbers: [903],
@@ -41260,8 +43541,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [903],
     legalities: {
       unlimited: "Legal",
@@ -41332,8 +43611,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
     nationalPokedexNumbers: [157],
@@ -41408,8 +43685,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Shin Nagasawa",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [157],
     legalities: {
       unlimited: "Legal",
@@ -41483,8 +43758,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [157],
     legalities: {
       unlimited: "Legal",
@@ -41549,8 +43822,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
     nationalPokedexNumbers: [100],
@@ -41623,8 +43894,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
     nationalPokedexNumbers: [571],
@@ -41693,8 +43962,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "aky CG Works",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [571],
     legalities: {
       unlimited: "Legal",
@@ -41708,7 +43975,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-147",
+    id: "swsh11-203",
     name: "Hisuian Zoroark VSTAR",
     supertype: "Pokémon",
     subtypes: ["VSTAR", "Ability"],
@@ -41761,9 +44028,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "147",
-    artist: "aky CG Works",
-    rarity: "Rare Holo VSTAR",
+    number: "203",
     nationalPokedexNumbers: [571],
     legalities: {
       unlimited: "Legal",
@@ -41772,8 +44037,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/147.png",
-      large: "https://images.pokemontcg.io/swsh11/147_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/203.png",
+      large: "https://images.pokemontcg.io/swsh11/203_hires.png",
     },
   },
   {
@@ -41834,8 +44099,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Akira Komayama",
-    rarity: "Common",
     flavorText:
       "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
     nationalPokedexNumbers: [570],
@@ -41900,8 +44163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "DOM",
-    rarity: "Uncommon",
     flavorText:
       "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
     nationalPokedexNumbers: [107],
@@ -41966,8 +44227,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     flavorText:
       "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
     nationalPokedexNumbers: [106],
@@ -42033,8 +44292,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "ryoma uratsuka",
-    rarity: "Uncommon",
     flavorText:
       "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
     nationalPokedexNumbers: [237],
@@ -42109,8 +44366,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [250],
     legalities: {
       unlimited: "Legal",
@@ -42181,8 +44436,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Shiburingaru",
-    rarity: "Rare",
     flavorText:
       "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
     nationalPokedexNumbers: [430],
@@ -42255,8 +44508,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "aoki",
-    rarity: "Uncommon",
     flavorText:
       "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
     nationalPokedexNumbers: [430],
@@ -42328,8 +44579,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
     nationalPokedexNumbers: [430],
@@ -42345,7 +44594,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-88",
+    id: "swsh9-162",
     name: "Honchkrow V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V", "Ability"],
@@ -42403,9 +44652,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "88",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
+    number: "162",
     nationalPokedexNumbers: [430],
     legalities: {
       unlimited: "Legal",
@@ -42414,8 +44661,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/88.png",
-      large: "https://images.pokemontcg.io/swsh9/88_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/162.png",
+      large: "https://images.pokemontcg.io/swsh9/162_hires.png",
     },
   },
   {
@@ -42468,8 +44715,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "aoki",
-    rarity: "Common",
     flavorText:
       "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
     nationalPokedexNumbers: [679],
@@ -42534,8 +44779,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
     nationalPokedexNumbers: [679],
@@ -42601,8 +44844,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "Sanosuke Sakuma",
-    rarity: "Rare",
     flavorText:
       "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
     nationalPokedexNumbers: [720],
@@ -42671,8 +44912,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [720],
     legalities: {
       unlimited: "Legal",
@@ -42743,8 +44982,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
     nationalPokedexNumbers: [163],
@@ -42757,6 +44994,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/120.png",
       large: "https://images.pokemontcg.io/swsh10/120_hires.png",
+    },
+  },
+  {
+    id: "sv5-126",
+    name: "Hoothoot",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesTo: ["Noctowl"],
+    attacks: [
+      {
+        name: "Silent Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "Your opponent reveals their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "126",
+    flavorText:
+      "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+    nationalPokedexNumbers: [163],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/126.png",
+      large: "https://images.pokemontcg.io/sv5/126_hires.png",
     },
   },
   {
@@ -42802,8 +45104,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from.",
     nationalPokedexNumbers: [187],
@@ -42863,8 +45163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
     nationalPokedexNumbers: [116],
@@ -42930,8 +45228,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "aspara",
-    rarity: "Common",
     flavorText:
       "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
     nationalPokedexNumbers: [116],
@@ -42990,8 +45286,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
     nationalPokedexNumbers: [116],
@@ -43057,8 +45351,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "hncl",
-    rarity: "Common",
     flavorText:
       "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
     nationalPokedexNumbers: [229],
@@ -43124,8 +45416,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Haru Akasaka",
-    rarity: "Uncommon",
     flavorText:
       "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
     nationalPokedexNumbers: [229],
@@ -43194,8 +45484,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "PLANETA Tsuji",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [229],
     legalities: {
       unlimited: "Legal",
@@ -43258,8 +45546,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
     nationalPokedexNumbers: [228],
@@ -43325,8 +45611,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
     nationalPokedexNumbers: [228],
@@ -43392,8 +45676,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
     nationalPokedexNumbers: [228],
@@ -43458,8 +45740,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
     nationalPokedexNumbers: [972],
@@ -43531,8 +45811,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Saya Tsuruta",
-    rarity: "Uncommon",
     flavorText:
       "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
     nationalPokedexNumbers: [972],
@@ -43589,8 +45867,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -43598,15 +45876,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "42",
-    artist: "Pani Kobayashi",
-    rarity: "Promo",
     flavorText:
       "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
     nationalPokedexNumbers: [972],
@@ -43681,8 +45957,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [972],
     legalities: {
       unlimited: "Legal",
@@ -43746,8 +46020,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "Teeziro",
-    rarity: "Rare",
     flavorText:
       "Only the central head has a brain. It is very intelligent, but it thinks only of destruction.",
     nationalPokedexNumbers: [635],
@@ -43820,8 +46092,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Shinji Kanda",
-    rarity: "Uncommon",
     flavorText:
       "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
     nationalPokedexNumbers: [97],
@@ -43893,8 +46163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Toshinao Aoki",
-    rarity: "Uncommon",
     flavorText:
       "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby.",
     nationalPokedexNumbers: [97],
@@ -43966,8 +46234,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Mousho",
-    rarity: "Uncommon",
     flavorText:
       "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
     nationalPokedexNumbers: [97],
@@ -44034,8 +46300,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Rianti Hidayat",
-    rarity: "Common",
     flavorText:
       "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
     nationalPokedexNumbers: [859],
@@ -44102,8 +46366,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Hideki Ishikawa",
-    rarity: "Rare",
     flavorText:
       "When its fighting spirit is set alight, the flames around its waist become especially intense.",
     nationalPokedexNumbers: [727],
@@ -44116,6 +46378,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/32.png",
       large: "https://images.pokemontcg.io/swsh12/32_hires.png",
+    },
+  },
+  {
+    id: "sv5-34",
+    name: "Incineroar ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Ability"],
+    hp: "320",
+    types: ["Fire"],
+    evolvesFrom: "Torracat",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Hustle Play",
+        text: "Attacks used by this Pokémon cost Colorless less for each of your opponent's Benched Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Blaze Blast",
+        cost: ["Fire", "Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 5,
+        damage: "240",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "34",
+    nationalPokedexNumbers: [727],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/34.png",
+      large: "https://images.pokemontcg.io/sv5/34_hires.png",
     },
   },
   {
@@ -44175,8 +46504,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "These intelligent Pokémon touch horns with each other to share information between them.",
     nationalPokedexNumbers: [876],
@@ -44241,8 +46568,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "153",
-    artist: "Kagemaru Himeno",
-    rarity: "Rare",
     flavorText:
       "In search of happy feelings—such as joy and gratitude—Indeedee bustles around, taking diligent care of people and other Pokémon.",
     nationalPokedexNumbers: [876],
@@ -44309,8 +46634,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare Holo",
     flavorText:
       "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
     nationalPokedexNumbers: [392],
@@ -44377,8 +46700,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH252",
-    artist: "Ayaka Yoshida",
-    rarity: "Promo",
     nationalPokedexNumbers: [392],
     legalities: {
       unlimited: "Legal",
@@ -44389,73 +46710,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swshp/SWSH252.png",
       large: "https://images.pokemontcg.io/swshp/SWSH252_hires.png",
-    },
-  },
-  {
-    id: "swsh11-77",
-    name: "Inkay",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "60",
-    types: ["Psychic"],
-    evolvesTo: ["Malamar"],
-    attacks: [
-      {
-        name: "Fickle Attack",
-        cost: ["Psychic"],
-        convertedEnergyCost: 1,
-        damage: "30",
-        text: "Flip a coin. If tails, this attack does nothing.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Darkness",
-        value: "×2",
-      },
-    ],
-    resistances: [
-      {
-        type: "Fighting",
-        value: "-30",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "77",
-    artist: "miki kudo",
-    rarity: "Common",
-    flavorText:
-      "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
-    nationalPokedexNumbers: [686],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/77.png",
-      large: "https://images.pokemontcg.io/swsh11/77_hires.png",
     },
   },
   {
@@ -44510,8 +46764,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
     nationalPokedexNumbers: [686],
@@ -44524,6 +46776,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/121.png",
       large: "https://images.pokemontcg.io/swsh11/121_hires.png",
+    },
+  },
+  {
+    id: "swsh11-77",
+    name: "Inkay",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Psychic"],
+    evolvesTo: ["Malamar"],
+    attacks: [
+      {
+        name: "Fickle Attack",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "77",
+    flavorText:
+      "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
+    nationalPokedexNumbers: [686],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/77.png",
+      large: "https://images.pokemontcg.io/swsh11/77_hires.png",
     },
   },
   {
@@ -44570,8 +46887,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
-    artist: "Kedamahadaitai Yawarakai",
-    rarity: "Common",
     flavorText:
       "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
     nationalPokedexNumbers: [686],
@@ -44584,6 +46899,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/137.png",
       large: "https://images.pokemontcg.io/sv3/137_hires.png",
+    },
+  },
+  {
+    id: "sv5-99",
+    name: "Iron Boulder ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Future"],
+    hp: "240",
+    types: ["Fighting"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Repulsor Axe",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 8 damage counters on the Attacking Pokémon.",
+      },
+      {
+        name: "Power Stomp",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "99",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/99.png",
+      large: "https://images.pokemontcg.io/sv5/99_hires.png",
     },
   },
   {
@@ -44636,8 +47016,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     flavorText:
       "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
     nationalPokedexNumbers: [991],
@@ -44650,6 +47028,142 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/56.png",
       large: "https://images.pokemontcg.io/sv4/56_hires.png",
+    },
+  },
+  {
+    id: "sv5-81",
+    name: "Iron Crown ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Future", "Ability"],
+    hp: "220",
+    types: ["Psychic"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Cobalt Command",
+        text: "Attacks used by your Future Pokémon, except any Iron Crown ex, do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Twin Shotels",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "This attack does 50 damage to 2 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance, or by any effects on those Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "81",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/81.png",
+      large: "https://images.pokemontcg.io/sv5/81_hires.png",
+    },
+  },
+  {
+    id: "sv5-61",
+    name: "Iron Hands",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer"],
+    hp: "140",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Volt Wave",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Superalloy Hands",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "61",
+    flavorText:
+      "This Pokémon shares many similarities with Iron Hands, an object mentioned in a certain expedition journal.",
+    nationalPokedexNumbers: [992],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/61.png",
+      large: "https://images.pokemontcg.io/sv5/61_hires.png",
     },
   },
   {
@@ -44705,8 +47219,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [992],
     legalities: {
       unlimited: "Legal",
@@ -44775,8 +47287,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "158",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
     nationalPokedexNumbers: [993],
@@ -44789,6 +47299,143 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/158.png",
       large: "https://images.pokemontcg.io/sv4/158_hires.png",
+    },
+  },
+  {
+    id: "sv5-139",
+    name: "Iron Jugulis",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Colorless"],
+    abilities: [
+      {
+        name: "Automated Combat",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Blasting Wind",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "139",
+    flavorText:
+      "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+    nationalPokedexNumbers: [993],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/139.png",
+      large: "https://images.pokemontcg.io/sv5/139_hires.png",
+    },
+  },
+  {
+    id: "sv5-25",
+    name: "Iron Leaves ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Future", "Ability"],
+    hp: "220",
+    types: ["Grass"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Rapid Vernier",
+        text: "When you play this Pokémon from your hand onto your Bench during your turn, you may switch it with your Active Pokémon. If you do, you may move any amount of Energy from your other Pokémon to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Prism Edge",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "180",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "25",
+    nationalPokedexNumbers: [1010],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/25.png",
+      large: "https://images.pokemontcg.io/sv5/25_hires.png",
     },
   },
   {
@@ -44841,8 +47488,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "No records exist of this species being caught. Data is lacking, but the Pokémon's traits match up with an object described in an old book.",
     nationalPokedexNumbers: [994],
@@ -44855,6 +47500,142 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/28.png",
       large: "https://images.pokemontcg.io/sv4/28_hires.png",
+    },
+  },
+  {
+    id: "sv5-62",
+    name: "Iron Thorns",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer"],
+    hp: "140",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Destructo-Press",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70×",
+        text: "Reveal the top 5 cards of your deck. This attack does 70 damage for each Future card you find there. Then, discard those Future cards and shuffle the other cards back into your deck.",
+      },
+      {
+        name: "Megaton Lariat",
+        cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "140",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "62",
+    flavorText:
+      "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+    nationalPokedexNumbers: [995],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/62.png",
+      large: "https://images.pokemontcg.io/sv5/62_hires.png",
+    },
+  },
+  {
+    id: "sv5-118",
+    name: "Iron Treads",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Metal"],
+    abilities: [
+      {
+        name: "Dual Core",
+        text: "As long as this Pokémon has a Future Booster Energy Capsule attached, it is Fighting and Metal type.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Wheel Pass",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "118",
+    flavorText:
+      "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal.",
+    nationalPokedexNumbers: [990],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/118.png",
+      large: "https://images.pokemontcg.io/sv5/118_hires.png",
     },
   },
   {
@@ -44916,8 +47697,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     flavorText:
       "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
     nationalPokedexNumbers: [990],
@@ -44984,8 +47763,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "toriyufu",
-    rarity: "Double Rare",
+    nationalPokedexNumbers: [990],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -44995,6 +47773,136 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/66.png",
       large: "https://images.pokemontcg.io/sv4pt5/66_hires.png",
+    },
+  },
+  {
+    id: "sv5-79",
+    name: "Iron Valiant",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer"],
+    hp: "130",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Gemini Laser",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Zen Blade",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "During your next turn, this Pokémon can't use Zen Blade.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "79",
+    flavorText:
+      "It's possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+    nationalPokedexNumbers: [1006],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/79.png",
+      large: "https://images.pokemontcg.io/sv5/79_hires.png",
+    },
+  },
+  {
+    id: "sv5-80",
+    name: "Iron Valiant",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer"],
+    hp: "130",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Calculation",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at the top 4 cards of your deck and put them back in any order.",
+      },
+      {
+        name: "Majestic Sword",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If you played a Future Supporter card from your hand during this turn, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "80",
+    flavorText:
+      "It's possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+    nationalPokedexNumbers: [1006],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/80.png",
+      large: "https://images.pokemontcg.io/sv5/80_hires.png",
     },
   },
   {
@@ -45033,24 +47941,25 @@ const allStandardLegalPokemon = [
     convertedRetreatCost: 2,
     set: {
       id: "svp",
-      name: "Scarlet & Violet Promos",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 29,
-      total: 29,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2022/11/01",
-      updatedAt: "2023/07/20 22:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "68",
-    rarity: "Promo",
+    nationalPokedexNumbers: [1006],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -45115,8 +48024,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "zig",
-    rarity: "Uncommon",
     flavorText:
       "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
     nationalPokedexNumbers: [2],
@@ -45183,8 +48090,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Yuu Nishida",
-    rarity: "Uncommon",
     flavorText:
       "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
     nationalPokedexNumbers: [2],
@@ -45249,8 +48154,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
     nationalPokedexNumbers: [39],
@@ -45316,8 +48219,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
     nationalPokedexNumbers: [39],
@@ -45388,8 +48289,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "It is said to have the ability to grant any wish for just one week every thousand years.",
     nationalPokedexNumbers: [385],
@@ -45464,8 +48363,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "170",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [385],
     legalities: {
       unlimited: "Legal",
@@ -45527,8 +48424,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
-    artist: "sui",
-    rarity: "Rare",
     flavorText:
       "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
     nationalPokedexNumbers: [135],
@@ -45587,8 +48482,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Kedamahadaitai Yawarakai",
-    rarity: "Common",
     flavorText:
       "Joltik latch on to other Pokémon and suck out static electricity. They're often found sticking to Yamper's hindquarters.",
     nationalPokedexNumbers: [595],
@@ -45654,8 +48547,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Naoyo Kimura",
-    rarity: "Rare",
     flavorText:
       "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life.",
     nationalPokedexNumbers: [189],
@@ -45668,79 +48559,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/3.png",
       large: "https://images.pokemontcg.io/sv2/3_hires.png",
-    },
-  },
-  {
-    id: "swsh11-68",
-    name: "Jynx",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "100",
-    types: ["Psychic"],
-    attacks: [
-      {
-        name: "Alluring Dance",
-        cost: ["Colorless", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "",
-        text: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.",
-      },
-      {
-        name: "Super Psy Bolt",
-        cost: ["Psychic", "Colorless", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "80",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Darkness",
-        value: "×2",
-      },
-    ],
-    resistances: [
-      {
-        type: "Fighting",
-        value: "-30",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "68",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
-    flavorText:
-      "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
-    nationalPokedexNumbers: [124],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/68.png",
-      large: "https://images.pokemontcg.io/swsh11/68_hires.png",
     },
   },
   {
@@ -45800,8 +48618,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Tomokazu Komiya",
-    rarity: "Uncommon",
     flavorText:
       "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
     nationalPokedexNumbers: [124],
@@ -45814,6 +48630,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/62.png",
       large: "https://images.pokemontcg.io/swsh12/62_hires.png",
+    },
+  },
+  {
+    id: "swsh11-68",
+    name: "Jynx",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "100",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Alluring Dance",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.",
+      },
+      {
+        name: "Super Psy Bolt",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "68",
+    flavorText:
+      "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
+    nationalPokedexNumbers: [124],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/68.png",
+      large: "https://images.pokemontcg.io/swsh11/68_hires.png",
     },
   },
   {
@@ -45869,8 +48756,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "Ayaka Yoshida",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [124],
     legalities: {
       unlimited: "Legal",
@@ -45928,8 +48813,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
     flavorText:
       "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places.",
     nationalPokedexNumbers: [140],
@@ -45995,8 +48878,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "The cause behind the extinction of this species is unknown. Kabutops were aggressive Pokémon that inhabited warm seas.",
     nationalPokedexNumbers: [141],
@@ -46062,8 +48943,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Mitsuhiro Arita",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
     nationalPokedexNumbers: [64],
@@ -46130,8 +49009,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "nisimono",
-    rarity: "Common",
     flavorText:
       "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
     nationalPokedexNumbers: [14],
@@ -46196,8 +49073,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "165",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "There are records of a lost human child being raised by a childless Kangaskhan.",
     nationalPokedexNumbers: [115],
@@ -46265,8 +49140,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "N-DESIGN Inc.",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [115],
     legalities: {
       unlimited: "Legal",
@@ -46324,8 +49197,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
     nationalPokedexNumbers: [588],
@@ -46391,8 +49262,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "Naoyo Kimura",
-    rarity: "Rare Holo",
     flavorText:
       "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
     nationalPokedexNumbers: [647],
@@ -46458,8 +49327,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Atsushi Furusawa",
-    rarity: "Rare",
     flavorText:
       "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
     nationalPokedexNumbers: [647],
@@ -46472,6 +49339,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/46.png",
       large: "https://images.pokemontcg.io/swsh12/46_hires.png",
+    },
+  },
+  {
+    id: "sv5-44",
+    name: "Keldeo",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Rapid Draw",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Draw 2 cards.",
+      },
+      {
+        name: "Aqua Blade",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "44",
+    flavorText:
+      "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.",
+    nationalPokedexNumbers: [647],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/44.png",
+      large: "https://images.pokemontcg.io/sv5/44_hires.png",
     },
   },
   {
@@ -46531,8 +49463,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
     nationalPokedexNumbers: [941],
@@ -46602,8 +49532,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
     nationalPokedexNumbers: [941],
@@ -46673,8 +49601,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "Nisota Niso",
-    rarity: "Shiny Rare",
     flavorText:
       "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
     nationalPokedexNumbers: [941],
@@ -46740,8 +49666,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
     nationalPokedexNumbers: [983],
@@ -46813,8 +49737,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "Ryota Murayama",
-    rarity: "Uncommon",
     flavorText:
       "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
     nationalPokedexNumbers: [983],
@@ -46881,8 +49803,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare Holo",
     flavorText:
       "With the arrival of a storm at sea, this Pokémon will show itself on the surface. When a Kingdra and a Dragonite meet, a fierce battle ensues.",
     nationalPokedexNumbers: [230],
@@ -46948,8 +49868,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Tonji Matsuno",
-    rarity: "Rare",
     flavorText:
       "Scales shed by this Pokémon have such a splendorous gleam to them that they've been given to royalty as gifts.",
     nationalPokedexNumbers: [230],
@@ -47015,8 +49933,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "Yukiko Baba",
-    rarity: "Uncommon",
     flavorText:
       "Its oversized claw is very powerful, but when it's not in battle, the claw just gets in the way.",
     nationalPokedexNumbers: [99],
@@ -47085,8 +50001,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [99],
     legalities: {
       unlimited: "Legal",
@@ -47154,8 +50068,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [99],
     legalities: {
       unlimited: "Legal",
@@ -47220,8 +50132,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Saya Tsuruta",
-    rarity: "Uncommon",
     flavorText:
       "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
     nationalPokedexNumbers: [281],
@@ -47289,8 +50199,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "Yukiko Baba",
-    rarity: "Uncommon",
     flavorText:
       "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
     nationalPokedexNumbers: [281],
@@ -47362,8 +50270,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "It has a psychic power that enables it to distort the space around it and see into the future.",
     nationalPokedexNumbers: [281],
@@ -47437,8 +50343,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Hataya",
-    rarity: "Uncommon",
     flavorText:
       "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
     nationalPokedexNumbers: [600],
@@ -47505,8 +50409,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "SATOSHI NAKAI",
-    rarity: "Uncommon",
     flavorText:
       "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
     nationalPokedexNumbers: [600],
@@ -47571,8 +50473,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "nagimiso",
-    rarity: "Rare",
     flavorText:
       "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     nationalPokedexNumbers: [950],
@@ -47637,8 +50537,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     nationalPokedexNumbers: [950],
@@ -47706,8 +50604,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [950],
     legalities: {
       unlimited: "Legal",
@@ -47772,8 +50668,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Shin Nagasawa",
-    rarity: "Rare",
     flavorText:
       "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
     nationalPokedexNumbers: [900],
@@ -47840,8 +50734,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare Holo",
     flavorText:
       "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
     nationalPokedexNumbers: [900],
@@ -47910,8 +50802,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [900],
     legalities: {
       unlimited: "Legal",
@@ -47979,8 +50869,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "196",
-    artist: "5ban Graphics",
-    rarity: "Rare Rainbow",
     nationalPokedexNumbers: [900],
     legalities: {
       unlimited: "Legal",
@@ -48043,8 +50931,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
     nationalPokedexNumbers: [707],
@@ -48117,8 +51003,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
     nationalPokedexNumbers: [599],
@@ -48184,8 +51068,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Kyoko Umemoto",
-    rarity: "Common",
     flavorText:
       "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
     nationalPokedexNumbers: [599],
@@ -48258,8 +51140,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Megumi Higuchi",
-    rarity: "Rare",
     flavorText:
       "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
     nationalPokedexNumbers: [601],
@@ -48332,8 +51212,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Akira Komayama",
-    rarity: "Rare",
     flavorText:
       "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
     nationalPokedexNumbers: [601],
@@ -48392,8 +51270,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
     nationalPokedexNumbers: [109],
@@ -48459,8 +51335,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "HYOGONOSUKE",
-    rarity: "Uncommon",
     flavorText:
       "It remains asleep from birth to death as a result of the sedative properties of the leaves that form its diet.",
     nationalPokedexNumbers: [775],
@@ -48525,8 +51399,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
     nationalPokedexNumbers: [1007],
@@ -48539,6 +51411,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/124.png",
       large: "https://images.pokemontcg.io/sv1/124_hires.png",
+    },
+  },
+  {
+    id: "sv5-119",
+    name: "Koraidon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "140",
+    types: ["Dragon"],
+    attacks: [
+      {
+        name: "Primordial Beatdown",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your Ancient Pokémon in play.",
+      },
+      {
+        name: "Shred",
+        cost: ["Fire", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "119",
+    flavorText:
+      "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+    nationalPokedexNumbers: [1007],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/119.png",
+      large: "https://images.pokemontcg.io/sv5/119_hires.png",
     },
   },
   {
@@ -48594,8 +51525,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     flavorText:
       "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
     nationalPokedexNumbers: [1007],
@@ -48663,8 +51592,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [1007],
     legalities: {
       unlimited: "Legal",
@@ -48675,6 +51602,66 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/124.png",
       large: "https://images.pokemontcg.io/sv3/124_hires.png",
+    },
+  },
+  {
+    id: "sv5-120",
+    name: "Koraidon ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Ancient"],
+    hp: "230",
+    types: ["Dragon"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Retribution Strike",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
+      },
+      {
+        name: "Kaiser Tackle",
+        cost: ["Fire", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "280",
+        text: "This Pokémon also does 60 damage to itself.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "120",
+    nationalPokedexNumbers: [1007],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/120.png",
+      large: "https://images.pokemontcg.io/sv5/120_hires.png",
     },
   },
   {
@@ -48728,8 +51715,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
     nationalPokedexNumbers: [98],
@@ -48789,8 +51774,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Masakazu Fukuda",
-    rarity: "Common",
     flavorText:
       "When its antennae hit each other, it sounds like the music of a xylophone.",
     nationalPokedexNumbers: [401],
@@ -48857,8 +51840,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Mitsuhiro Arita",
-    rarity: "Uncommon",
     flavorText:
       "It uses its cutlass-like arms to produce sound, the melody of which varies from individual to individual. It is a worthwhile endeavor to seek out one's favorite tunes.",
     nationalPokedexNumbers: [402],
@@ -48919,8 +51900,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "Krokorok has specialized eyes that enable it to see in the dark. This ability lets Krokorok hunt in the dead of night without getting lost.",
     nationalPokedexNumbers: [552],
@@ -48986,8 +51965,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "kantaro",
-    rarity: "Common",
     flavorText:
       "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
     nationalPokedexNumbers: [552],
@@ -49054,8 +52031,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "Shiburingaru",
-    rarity: "Rare Holo",
     flavorText:
       "This Pokémon is known as the Bully of the Sands. Krookodile's mighty jaws can bite through heavy plates of iron with almost no effort at all.",
     nationalPokedexNumbers: [553],
@@ -49121,8 +52096,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
     nationalPokedexNumbers: [553],
@@ -49188,8 +52161,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Kouki Saitou",
-    rarity: "Rare Holo",
     flavorText:
       "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
     nationalPokedexNumbers: [382],
@@ -49258,8 +52229,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "PLANETA Tsuji",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [382],
     legalities: {
       unlimited: "Legal",
@@ -49273,7 +52242,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-174",
+    id: "swsh11-48",
     name: "Kyurem V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -49325,9 +52294,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "174",
-    artist: "takuyoa",
-    rarity: "Rare Ultra",
+    number: "48",
     nationalPokedexNumbers: [646],
     legalities: {
       unlimited: "Legal",
@@ -49336,12 +52303,12 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/174.png",
-      large: "https://images.pokemontcg.io/swsh11/174_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/48.png",
+      large: "https://images.pokemontcg.io/swsh11/48_hires.png",
     },
   },
   {
-    id: "swsh11-49",
+    id: "swsh11-197",
     name: "Kyurem VMAX",
     supertype: "Pokémon",
     subtypes: ["VMAX", "Ability"],
@@ -49394,9 +52361,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "49",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo VMAX",
+    number: "197",
     nationalPokedexNumbers: [646],
     legalities: {
       unlimited: "Legal",
@@ -49405,8 +52370,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/49.png",
-      large: "https://images.pokemontcg.io/swsh11/49_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/197.png",
+      large: "https://images.pokemontcg.io/swsh11/197_hires.png",
     },
   },
   {
@@ -49468,8 +52433,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
     nationalPokedexNumbers: [305],
@@ -49530,8 +52493,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon appears just before someone passes away, so it's feared as an emissary of death.",
     nationalPokedexNumbers: [608],
@@ -49598,8 +52559,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "Aya Kusube",
-    rarity: "Common",
     flavorText:
       "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
     nationalPokedexNumbers: [608],
@@ -49665,8 +52624,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare",
     flavorText:
       "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
     nationalPokedexNumbers: [645],
@@ -49733,8 +52690,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "aoki",
-    rarity: "Uncommon",
     flavorText:
       "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
     nationalPokedexNumbers: [171],
@@ -49800,8 +52755,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "aspara",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
     nationalPokedexNumbers: [171],
@@ -49860,8 +52813,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Teeziro",
-    rarity: "Rare",
     flavorText:
       "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
     nationalPokedexNumbers: [131],
@@ -49927,8 +52878,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo",
     flavorText:
       "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
     nationalPokedexNumbers: [131],
@@ -49993,8 +52942,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "matazo",
-    rarity: "Uncommon",
     flavorText:
       "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
     nationalPokedexNumbers: [131],
@@ -50059,8 +53006,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "LINNE",
-    rarity: "Uncommon",
     flavorText:
       "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
     nationalPokedexNumbers: [131],
@@ -50125,8 +53070,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Gemi",
-    rarity: "Common",
     flavorText:
       "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
     nationalPokedexNumbers: [131],
@@ -50186,8 +53129,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "The people of ancient times believed that Larvesta fell from the sun.",
     nationalPokedexNumbers: [636],
@@ -50253,8 +53194,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
     nationalPokedexNumbers: [636],
@@ -50314,8 +53253,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
     nationalPokedexNumbers: [246],
@@ -50373,8 +53310,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Haru Akasaka",
-    rarity: "Common",
     flavorText:
       "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
     nationalPokedexNumbers: [246],
@@ -50440,8 +53375,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "KYUPIYAMA",
-    rarity: "Common",
     flavorText:
       "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
     nationalPokedexNumbers: [246],
@@ -50454,6 +53387,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/105.png",
       large: "https://images.pokemontcg.io/sv3/105_hires.png",
+    },
+  },
+  {
+    id: "sv5-67",
+    name: "Latias",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Allure",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw 2 cards.",
+      },
+      {
+        name: "Lagoon Flight",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "67",
+    flavorText:
+      "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+    nationalPokedexNumbers: [380],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/67.png",
+      large: "https://images.pokemontcg.io/sv5/67_hires.png",
     },
   },
   {
@@ -50512,8 +53516,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "chibi",
-    rarity: "Rare",
     flavorText:
       "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
     nationalPokedexNumbers: [381],
@@ -50580,8 +53582,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Atsushi Furusawa",
-    rarity: "Rare",
     flavorText:
       "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
     nationalPokedexNumbers: [470],
@@ -50650,8 +53650,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH194",
-    artist: "PLANETA Yamashita",
-    rarity: "Promo",
     nationalPokedexNumbers: [470],
     legalities: {
       unlimited: "Legal",
@@ -50719,8 +53717,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH195",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [470],
     legalities: {
       unlimited: "Legal",
@@ -50776,8 +53772,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "156",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -50842,8 +53836,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "154",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -50908,8 +53900,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "155",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -50968,8 +53958,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "180",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -51028,8 +54016,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "181",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -51095,8 +54081,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "182",
-    artist: "Atsuko Nishida",
-    rarity: "Common",
     flavorText:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     nationalPokedexNumbers: [915],
@@ -51163,8 +54147,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "Shibuzoh.",
-    rarity: "Uncommon",
     flavorText:
       "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
     nationalPokedexNumbers: [463],
@@ -51177,6 +54159,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/139.png",
       large: "https://images.pokemontcg.io/swsh11/139_hires.png",
+    },
+  },
+  {
+    id: "sv5-125",
+    name: "Lickilicky",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "150",
+    types: ["Colorless"],
+    evolvesFrom: "Lickitung",
+    attacks: [
+      {
+        name: "Body Slam",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Tonguenado",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "70×",
+        text: "Flip 4 coins. This attack does 70 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "125",
+    flavorText:
+      "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
+    nationalPokedexNumbers: [463],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/125.png",
+      large: "https://images.pokemontcg.io/sv5/125_hires.png",
     },
   },
   {
@@ -51224,8 +54272,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
     nationalPokedexNumbers: [108],
@@ -51284,8 +54330,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "Bug Pokémon are Lickitung's main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
     nationalPokedexNumbers: [108],
@@ -51301,7 +54345,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-91",
+    id: "sv5-124",
+    name: "Lickitung",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "100",
+    types: ["Colorless"],
+    evolvesTo: ["Lickilicky"],
+    attacks: [
+      {
+        name: "Tongue Pull",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent reveals their hand. Put up to 2 Basic Pokémon you find there onto your opponent's Bench.",
+      },
+      {
+        name: "Strength",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "124",
+    flavorText:
+      "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+    nationalPokedexNumbers: [108],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/124.png",
+      large: "https://images.pokemontcg.io/sv5/124_hires.png",
+    },
+  },
+  {
+    id: "swshp-SWSH187",
     name: "Liepard",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer", "Ability"],
@@ -51333,27 +54443,25 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "swsh9",
-      name: "Brilliant Stars",
+      id: "swshp",
+      name: "SWSH Black Star Promos",
       series: "Sword & Shield",
-      printedTotal: 172,
-      total: 186,
+      printedTotal: 307,
+      total: 304,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "BRS",
-      releaseDate: "2022/02/25",
-      updatedAt: "2022/02/23 09:45:00",
+      ptcgoCode: "PR-SW",
+      releaseDate: "2019/11/15",
+      updatedAt: "2022/07/23 20:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh9/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh9/logo.png",
+        symbol: "https://images.pokemontcg.io/swshp/symbol.png",
+        logo: "https://images.pokemontcg.io/swshp/logo.png",
       },
     },
-    number: "91",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
+    number: "SWSH187",
     flavorText:
       "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
     nationalPokedexNumbers: [510],
@@ -51364,8 +54472,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/91.png",
-      large: "https://images.pokemontcg.io/swsh9/91_hires.png",
+      small: "https://images.pokemontcg.io/swshp/SWSH187.png",
+      large: "https://images.pokemontcg.io/swshp/SWSH187_hires.png",
     },
   },
   {
@@ -51420,8 +54528,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare",
     flavorText:
       "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
     nationalPokedexNumbers: [510],
@@ -51487,8 +54593,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Yoshioka",
-    rarity: "Common",
     flavorText:
       "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
     nationalPokedexNumbers: [510],
@@ -51547,8 +54651,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "170",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "This Pokémon is far brighter than the average child, and Lillipup won't forget the love it receives or any abuse it suffers.",
     nationalPokedexNumbers: [506],
@@ -51613,8 +54715,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "168",
-    artist: "Nagomi Nijo",
-    rarity: "Uncommon",
     flavorText:
       "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
     nationalPokedexNumbers: [264],
@@ -51674,8 +54774,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot.",
     nationalPokedexNumbers: [667],
@@ -51740,8 +54838,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
     nationalPokedexNumbers: [667],
@@ -51808,8 +54904,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
     nationalPokedexNumbers: [725],
@@ -51822,6 +54916,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/30.png",
       large: "https://images.pokemontcg.io/swsh12/30_hires.png",
+    },
+  },
+  {
+    id: "sv5-32",
+    name: "Litten",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Torracat"],
+    attacks: [
+      {
+        name: "Fake Out",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "32",
+    flavorText:
+      "It spends even the smallest amount of downtime grooming its fur with its tongue. Loose fur gathers in its stomach and serves as fuel for fiery moves.",
+    nationalPokedexNumbers: [725],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/32.png",
+      large: "https://images.pokemontcg.io/sv5/32_hires.png",
     },
   },
   {
@@ -51869,8 +55022,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world.",
     nationalPokedexNumbers: [607],
@@ -51929,8 +55080,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
     nationalPokedexNumbers: [607],
@@ -51996,8 +55145,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
     nationalPokedexNumbers: [920],
@@ -52063,8 +55210,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
     nationalPokedexNumbers: [920],
@@ -52131,8 +55276,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     flavorText:
       "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
     nationalPokedexNumbers: [428],
@@ -52199,8 +55342,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "The force of this Pokémon's loud voice isn't just the sound—it's also the wave of air pressure that blows opponents away and damages them.",
     nationalPokedexNumbers: [294],
@@ -52267,8 +55408,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "GIDORA",
-    rarity: "Rare Holo",
     flavorText:
       "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
     nationalPokedexNumbers: [448],
@@ -52334,8 +55473,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "Nurikabe",
-    rarity: "Uncommon",
     flavorText:
       "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
     nationalPokedexNumbers: [448],
@@ -52351,7 +55488,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swshp-SWSH213",
+    id: "swsh10-78",
     name: "Lucario V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -52385,27 +55522,25 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swshp",
-      name: "SWSH Black Star Promos",
+      id: "swsh10",
+      name: "Astral Radiance",
       series: "Sword & Shield",
-      printedTotal: 307,
-      total: 304,
+      printedTotal: 189,
+      total: 216,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "PR-SW",
-      releaseDate: "2019/11/15",
-      updatedAt: "2022/07/23 20:15:00",
+      ptcgoCode: "ASR",
+      releaseDate: "2022/05/27",
+      updatedAt: "2022/05/27 09:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swshp/symbol.png",
-        logo: "https://images.pokemontcg.io/swshp/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh10/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "SWSH213",
-    artist: "takuyoa",
-    rarity: "Promo",
+    number: "78",
     nationalPokedexNumbers: [448],
     legalities: {
       unlimited: "Legal",
@@ -52414,8 +55549,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swshp/SWSH213.png",
-      large: "https://images.pokemontcg.io/swshp/SWSH213_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/78.png",
+      large: "https://images.pokemontcg.io/swsh10/78_hires.png",
     },
   },
   {
@@ -52473,8 +55608,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH214",
-    artist: "aky CG Works",
-    rarity: "Promo",
     nationalPokedexNumbers: [448],
     legalities: {
       unlimited: "Legal",
@@ -52526,8 +55659,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -52535,15 +55668,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "17",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [448],
     legalities: {
       unlimited: "Legal",
@@ -52616,8 +55747,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "Mitsuhiro Arita",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [249],
     legalities: {
       unlimited: "Legal",
@@ -52691,8 +55820,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [249],
     legalities: {
       unlimited: "Legal",
@@ -52757,8 +55884,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "zig",
-    rarity: "Uncommon",
     flavorText:
       "They traverse the deep waters as if crawling over the seafloor. The fantastic lights of its fins shine like stars in the night sky.",
     nationalPokedexNumbers: [457],
@@ -52774,7 +55899,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-40",
+    id: "swsh9-156",
     name: "Lumineon V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V", "Ability"],
@@ -52826,9 +55951,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "40",
-    artist: "takuyoa",
-    rarity: "Rare Holo V",
+    number: "156",
     nationalPokedexNumbers: [457],
     legalities: {
       unlimited: "Legal",
@@ -52837,8 +55960,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/40.png",
-      large: "https://images.pokemontcg.io/swsh9/40_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/156.png",
+      large: "https://images.pokemontcg.io/swsh9/156_hires.png",
     },
   },
   {
@@ -52898,8 +56021,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "miki kudo",
-    rarity: "Uncommon",
     flavorText:
       "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
     nationalPokedexNumbers: [337],
@@ -52970,8 +56091,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Tetsu Kayama",
-    rarity: "Uncommon",
     flavorText:
       "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
     nationalPokedexNumbers: [337],
@@ -53037,8 +56156,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
     nationalPokedexNumbers: [370],
@@ -53104,8 +56221,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
     nationalPokedexNumbers: [370],
@@ -53170,8 +56285,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love.",
     nationalPokedexNumbers: [370],
@@ -53232,8 +56345,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
     flavorText:
       "By joining its tail with that of another Luxio, this Pokémon can receive some of the other Luxio's electricity and power up its own electric blasts.",
     nationalPokedexNumbers: [404],
@@ -53301,8 +56412,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Eri Yamaki",
-    rarity: "Uncommon",
     flavorText:
       "By joining its tail with that of another Luxio, this Pokémon can receive some of the other Luxio's electricity and power up its own electric blasts.",
     nationalPokedexNumbers: [404],
@@ -53368,8 +56477,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "Narumi Sato",
-    rarity: "Uncommon",
     flavorText:
       "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
     nationalPokedexNumbers: [404],
@@ -53436,8 +56543,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Ayaka Yoshida",
-    rarity: "Rare",
     flavorText:
       "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
     nationalPokedexNumbers: [405],
@@ -53502,8 +56607,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Ryota Murayama",
-    rarity: "Rare",
     flavorText:
       "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
     nationalPokedexNumbers: [405],
@@ -53569,8 +56672,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "aoki",
-    rarity: "Rare",
     flavorText:
       "It can see clearly through walls to track down its prey and seek its lost young.",
     nationalPokedexNumbers: [405],
@@ -53639,8 +56740,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [405],
     legalities: {
       unlimited: "Legal",
@@ -53698,8 +56797,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "kodama",
-    rarity: "Rare",
     flavorText:
       "This form of Lycanroc is reckless. It charges headlong at its opponents, attacking without any care about what injuries it might receive.",
     nationalPokedexNumbers: [745],
@@ -53765,8 +56862,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "Mitsuhiro Arita",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon uses its rocky mane to slash any who approach. It will even disobey its Trainer if it dislikes the orders it was given.",
     nationalPokedexNumbers: [745],
@@ -53779,6 +56874,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/117.png",
       large: "https://images.pokemontcg.io/sv3/117_hires.png",
+    },
+  },
+  {
+    id: "sv5-90",
+    name: "Lycanroc",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Fighting"],
+    evolvesFrom: "Rockruff",
+    attacks: [
+      {
+        name: "Turbo Edge",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Attach up to 2 Basic Fighting Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "90",
+    flavorText:
+      "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts.",
+    nationalPokedexNumbers: [745],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/90.png",
+      large: "https://images.pokemontcg.io/sv5/90_hires.png",
     },
   },
   {
@@ -53835,8 +56989,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "kawayoo",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [745],
     legalities: {
       unlimited: "Legal",
@@ -53900,8 +57052,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Uncommon",
     flavorText:
       "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
     nationalPokedexNumbers: [943],
@@ -53967,8 +57117,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
     nationalPokedexNumbers: [943],
@@ -53981,6 +57129,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/143.png",
       large: "https://images.pokemontcg.io/sv2/143_hires.png",
+    },
+  },
+  {
+    id: "svp-86",
+    name: "Mabosstiff ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "260",
+    types: ["Darkness"],
+    evolvesFrom: "Maschiff",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Daunt",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "During your opponent's next turn, attacks used by the Defending Pokémon do 50 less damage (before applying Weakness and Resistance).",
+      },
+      {
+        name: "Proud Fangs",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "86",
+    nationalPokedexNumbers: [943],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/86.png",
+      large: "https://images.pokemontcg.io/svp/86_hires.png",
     },
   },
   {
@@ -54035,8 +57250,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Nisota Niso",
-    rarity: "Rare Holo",
     flavorText:
       "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
     nationalPokedexNumbers: [68],
@@ -54102,8 +57315,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "Ryuta Fuse",
-    rarity: "Rare",
     flavorText:
       "With four arms that react more quickly than it can think, it can execute many punches at once.",
     nationalPokedexNumbers: [68],
@@ -54172,8 +57383,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "kawayoo",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [68],
     legalities: {
       unlimited: "Legal",
@@ -54241,8 +57450,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [68],
     legalities: {
       unlimited: "Legal",
@@ -54308,8 +57515,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Mitsuhiro Arita",
-    rarity: "Uncommon",
     flavorText:
       "A sturdy creature boasting a robust physique and boundless stamina. Loves training above all else and voluntarily assists with tasks such as construction and clearing land.",
     nationalPokedexNumbers: [67],
@@ -54369,8 +57574,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     flavorText:
       "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
     nationalPokedexNumbers: [67],
@@ -54430,8 +57633,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups.",
     nationalPokedexNumbers: [66],
@@ -54497,8 +57698,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "Ryuta Fuse",
-    rarity: "Common",
     flavorText:
       "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
     nationalPokedexNumbers: [66],
@@ -54555,8 +57754,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "This Pokémon makes its home near volcanoes. At the end of the day, Magby soaks in magma, resting and recovering from the day's fatigue.",
     nationalPokedexNumbers: [240],
@@ -54623,8 +57820,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Pani Kobayashi",
-    rarity: "Rare",
     flavorText:
       "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
     nationalPokedexNumbers: [219],
@@ -54637,6 +57832,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/22.png",
       large: "https://images.pokemontcg.io/swsh11/22_hires.png",
+    },
+  },
+  {
+    id: "sv5-29",
+    name: "Magcargo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "120",
+    types: ["Fire"],
+    evolvesFrom: "Slugma",
+    abilities: [
+      {
+        name: "Lava Zone",
+        text: "Whenever your opponent's Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Burned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Heat Blast",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "29",
+    flavorText:
+      "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+    nationalPokedexNumbers: [219],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/29.png",
+      large: "https://images.pokemontcg.io/sv5/29_hires.png",
     },
   },
   {
@@ -54696,8 +57957,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Rianti Hidayat",
-    rarity: "Rare",
     flavorText:
       "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form.",
     nationalPokedexNumbers: [801],
@@ -54772,8 +58031,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "182",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [801],
     legalities: {
       unlimited: "Legal",
@@ -54838,8 +58095,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "N-DESIGN Inc.",
-    rarity: "Common",
     flavorText:
       "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
     nationalPokedexNumbers: [129],
@@ -54897,8 +58152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     nationalPokedexNumbers: [129],
@@ -54914,7 +58167,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-42",
+    id: "sv2-203",
     name: "Magikarp",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -54955,9 +58208,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "42",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
+    number: "203",
     flavorText:
       "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     nationalPokedexNumbers: [129],
@@ -54968,8 +58219,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/42.png",
-      large: "https://images.pokemontcg.io/sv2/42_hires.png",
+      small: "https://images.pokemontcg.io/sv2/203.png",
+      large: "https://images.pokemontcg.io/sv2/203_hires.png",
     },
   },
   {
@@ -55016,8 +58267,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     nationalPokedexNumbers: [129],
@@ -55084,8 +58333,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
     nationalPokedexNumbers: [126],
@@ -55151,8 +58398,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Toshinao Aoki",
-    rarity: "Common",
     flavorText:
       "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
     nationalPokedexNumbers: [126],
@@ -55218,8 +58463,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
     nationalPokedexNumbers: [126],
@@ -55286,8 +58529,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
     flavorText:
       "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
     nationalPokedexNumbers: [467],
@@ -55353,8 +58594,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Hasuno",
-    rarity: "Rare",
     flavorText:
       "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
     nationalPokedexNumbers: [467],
@@ -55427,8 +58666,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Mitsuhiro Arita",
-    rarity: "Common",
     flavorText:
       "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
     nationalPokedexNumbers: [81],
@@ -55493,8 +58730,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "It moves while constantly hovering. It discharges electromagnetic waves and so on from the units at its sides.",
     nationalPokedexNumbers: [81],
@@ -55559,8 +58794,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     nationalPokedexNumbers: [81],
@@ -55626,8 +58859,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "Masakazu Fukuda",
-    rarity: "Common",
     flavorText:
       "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     nationalPokedexNumbers: [81],
@@ -55693,8 +58924,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     nationalPokedexNumbers: [81],
@@ -55761,8 +58990,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Saya Tsuruta",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
     nationalPokedexNumbers: [82],
@@ -55828,8 +59055,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Shiburingaru",
-    rarity: "Common",
     flavorText:
       "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
     nationalPokedexNumbers: [82],
@@ -55896,8 +59121,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
     nationalPokedexNumbers: [82],
@@ -55964,8 +59187,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Yuka Morii",
-    rarity: "Uncommon",
     flavorText:
       "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
     nationalPokedexNumbers: [82],
@@ -56038,8 +59259,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "GOSSAN",
-    rarity: "Rare Holo",
     flavorText:
       "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being.",
     nationalPokedexNumbers: [462],
@@ -56105,8 +59324,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
     nationalPokedexNumbers: [462],
@@ -56175,8 +59392,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "175",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [462],
     legalities: {
       unlimited: "Legal",
@@ -56244,8 +59459,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [462],
     legalities: {
       unlimited: "Legal",
@@ -56312,8 +59525,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "hncl",
-    rarity: "Double Rare",
     flavorText:
       "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
     nationalPokedexNumbers: [462],
@@ -56373,8 +59584,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
     nationalPokedexNumbers: [296],
@@ -56432,8 +59641,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.",
     nationalPokedexNumbers: [296],
@@ -56506,8 +59713,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Tomokazu Komiya",
-    rarity: "Rare",
     flavorText:
       "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control.",
     nationalPokedexNumbers: [687],
@@ -56573,8 +59778,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "Nelnal",
-    rarity: "Uncommon",
     flavorText:
       "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
     nationalPokedexNumbers: [687],
@@ -56641,8 +59844,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Uta",
-    rarity: "Rare",
     flavorText:
       "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct.",
     nationalPokedexNumbers: [473],
@@ -56708,8 +59909,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "HYOGONOSUKE",
-    rarity: "Rare",
     flavorText:
       "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
     nationalPokedexNumbers: [490],
@@ -56775,8 +59974,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH275",
-    artist: "NC Empire",
-    rarity: "Promo",
     flavorText:
       "It starts life with a wondrous power that permits it to bond with any kind of Pokémon.",
     nationalPokedexNumbers: [490],
@@ -56843,8 +60040,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "GIDORA",
-    rarity: "Rare",
     flavorText:
       "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
     nationalPokedexNumbers: [310],
@@ -56902,8 +60097,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
     nationalPokedexNumbers: [56],
@@ -56968,8 +60161,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
     nationalPokedexNumbers: [56],
@@ -57028,8 +60219,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
     nationalPokedexNumbers: [56],
@@ -57095,8 +60284,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
     nationalPokedexNumbers: [226],
@@ -57153,8 +60340,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "It swims along with a school of Remoraid, and they'll all fight together to repel attackers.",
     nationalPokedexNumbers: [458],
@@ -57219,8 +60404,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Masako Tomii",
-    rarity: "Common",
     flavorText:
       "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
     nationalPokedexNumbers: [556],
@@ -57280,8 +60463,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin.",
     nationalPokedexNumbers: [747],
@@ -57346,8 +60527,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
     nationalPokedexNumbers: [179],
@@ -57363,7 +60542,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-44",
+    id: "sv2-204",
     name: "Marill",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -57404,9 +60583,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "44",
-    artist: "saino misaki",
-    rarity: "Common",
+    number: "204",
     flavorText:
       "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
     nationalPokedexNumbers: [183],
@@ -57417,8 +60594,74 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/44.png",
-      large: "https://images.pokemontcg.io/sv2/44_hires.png",
+      small: "https://images.pokemontcg.io/sv2/204.png",
+      large: "https://images.pokemontcg.io/sv2/204_hires.png",
+    },
+  },
+  {
+    id: "sv5-64",
+    name: "Marill",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesTo: ["Azumarill"],
+    attacks: [
+      {
+        name: "Ball Roll",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Flip a coin until you get tails. This attack does 10 damage for each heads.",
+      },
+      {
+        name: "Magical Shot",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "64",
+    flavorText:
+      "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+    nationalPokedexNumbers: [183],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/64.png",
+      large: "https://images.pokemontcg.io/sv5/64_hires.png",
     },
   },
   {
@@ -57472,8 +60715,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Shinya Komatsu",
-    rarity: "Rare",
     flavorText:
       "When this Pokémon evolved, the skull of its mother fused to it. Marowak's temperament also turned vicious at the same time.",
     nationalPokedexNumbers: [105],
@@ -57531,8 +60772,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
-    artist: "KEIICHIRO ITO",
-    rarity: "Common",
     flavorText:
       "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
     nationalPokedexNumbers: [942],
@@ -57545,72 +60784,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/136.png",
       large: "https://images.pokemontcg.io/sv1/136_hires.png",
-    },
-  },
-  {
-    id: "sv1-135",
-    name: "Maschiff",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "70",
-    types: ["Darkness"],
-    attacks: [
-      {
-        cost: ["Darkness"],
-        name: "Rear Kick",
-        damage: "10",
-        text: "",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Darkness", "Colorless"],
-        name: "Darkness Fang",
-        damage: "20",
-        text: "",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Grass",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless"],
-    convertedRetreatCost: 2,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "135",
-    artist: "kantaro",
-    rarity: "Common",
-    flavorText:
-      "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
-    nationalPokedexNumbers: [942],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/135.png",
-      large: "https://images.pokemontcg.io/sv1/135_hires.png",
     },
   },
   {
@@ -57656,8 +60829,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "DOM",
-    rarity: "Common",
     flavorText:
       "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
     nationalPokedexNumbers: [942],
@@ -57722,8 +60893,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
     nationalPokedexNumbers: [942],
@@ -57736,6 +60905,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/142.png",
       large: "https://images.pokemontcg.io/sv2/142_hires.png",
+    },
+  },
+  {
+    id: "sv1-135",
+    name: "Maschiff",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        cost: ["Darkness"],
+        name: "Rear Kick",
+        damage: "10",
+        text: "",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Darkness", "Colorless"],
+        name: "Darkness Fang",
+        damage: "20",
+        text: "",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "135",
+    flavorText:
+      "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+    nationalPokedexNumbers: [942],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/135.png",
+      large: "https://images.pokemontcg.io/sv1/135_hires.png",
     },
   },
   {
@@ -57789,8 +61022,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Haru Akasaka",
-    rarity: "Uncommon",
     flavorText:
       "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
     nationalPokedexNumbers: [284],
@@ -57856,8 +61087,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "kantaro",
-    rarity: "Uncommon",
     flavorText:
       "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
     nationalPokedexNumbers: [284],
@@ -57870,73 +61099,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/2.png",
       large: "https://images.pokemontcg.io/sv4/2_hires.png",
-    },
-  },
-  {
-    id: "sv1-161",
-    name: "Maushold",
-    supertype: "Pokémon",
-    subtypes: ["Stage 1", "1 Prizer"],
-    hp: "70",
-    types: ["Colorless"],
-    evolvesFrom: "Tandemaus",
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Slap",
-        damage: "40",
-        text: "",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Colorless", "Colorless"],
-        name: "Family Attack",
-        damage: "70×",
-        text: "This attack does 70 damage for each of your Maushold in play.",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "161",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Uncommon",
-    flavorText:
-      "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
-    nationalPokedexNumbers: [925],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/161.png",
-      large: "https://images.pokemontcg.io/sv1/161_hires.png",
     },
   },
   {
@@ -57990,8 +61152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "168",
-    artist: "Saya Tsuruta",
-    rarity: "Uncommon",
     flavorText:
       "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
     nationalPokedexNumbers: [925],
@@ -58004,6 +61164,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/168.png",
       large: "https://images.pokemontcg.io/sv2/168_hires.png",
+    },
+  },
+  {
+    id: "sv1-161",
+    name: "Maushold",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesFrom: "Tandemaus",
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Slap",
+        damage: "40",
+        text: "",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Colorless", "Colorless"],
+        name: "Family Attack",
+        damage: "70×",
+        text: "This attack does 70 damage for each of your Maushold in play.",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "161",
+    flavorText:
+      "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+    nationalPokedexNumbers: [925],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/161.png",
+      large: "https://images.pokemontcg.io/sv1/161_hires.png",
     },
   },
   {
@@ -58058,8 +61283,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "155",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [925],
     legalities: {
       unlimited: "Legal",
@@ -58123,8 +61346,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
     nationalPokedexNumbers: [303],
@@ -58182,8 +61403,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
     nationalPokedexNumbers: [303],
@@ -58254,8 +61473,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "sowsow",
-    rarity: "Uncommon",
     flavorText:
       "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
     nationalPokedexNumbers: [303],
@@ -58268,6 +61485,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/143.png",
       large: "https://images.pokemontcg.io/sv3/143_hires.png",
+    },
+  },
+  {
+    id: "sv5-112",
+    name: "Mawile",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Invite and Strike",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.",
+      },
+      {
+        name: "Sharp Fang",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "112",
+    flavorText:
+      "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+    nationalPokedexNumbers: [303],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/112.png",
+      large: "https://images.pokemontcg.io/sv5/112_hires.png",
     },
   },
   {
@@ -58324,8 +61612,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "takuyoa",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [303],
     legalities: {
       unlimited: "Legal",
@@ -58393,8 +61679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [303],
     legalities: {
       unlimited: "Legal",
@@ -58452,8 +61736,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "Through yoga training, it gained the psychic power to predict its foe's next move.",
     nationalPokedexNumbers: [308],
@@ -58526,8 +61808,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "Aya Kusube",
-    rarity: "Rare Holo",
     flavorText:
       "Through yoga training, it gained the psychic power to predict its foe's next move.",
     nationalPokedexNumbers: [308],
@@ -58593,8 +61873,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Jerky",
-    rarity: "Uncommon",
     flavorText:
       "Through yoga training, it gained the psychic power to predict its foe's next move.",
     nationalPokedexNumbers: [308],
@@ -58607,6 +61885,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/111.png",
       large: "https://images.pokemontcg.io/sv1/111_hires.png",
+    },
+  },
+  {
+    id: "sv5-83",
+    name: "Medicham",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Fighting"],
+    evolvesFrom: "Meditite",
+    attacks: [
+      {
+        name: "Low Sweep",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "High Jump Kick",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "83",
+    flavorText:
+      "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+    nationalPokedexNumbers: [308],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/83.png",
+      large: "https://images.pokemontcg.io/sv5/83_hires.png",
     },
   },
   {
@@ -58667,8 +62011,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Jiro Sasumo",
-    rarity: "Common",
     flavorText:
       "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
     nationalPokedexNumbers: [307],
@@ -58728,8 +62070,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
     nationalPokedexNumbers: [307],
@@ -58787,8 +62127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "It never skips its daily yoga training. It heightens its inner strength through meditation.",
     nationalPokedexNumbers: [307],
@@ -58801,6 +62139,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/110.png",
       large: "https://images.pokemontcg.io/sv1/110_hires.png",
+    },
+  },
+  {
+    id: "sv5-82",
+    name: "Meditite",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Medicham"],
+    attacks: [
+      {
+        name: "Slap",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Kick",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "82",
+    flavorText:
+      "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+    nationalPokedexNumbers: [307],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/82.png",
+      large: "https://images.pokemontcg.io/sv5/82_hires.png",
     },
   },
   {
@@ -58861,8 +62265,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Shigenori Negishi",
-    rarity: "Rare Holo",
     flavorText:
       "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
     nationalPokedexNumbers: [809],
@@ -58875,6 +62277,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/pgo/46.png",
       large: "https://images.pokemontcg.io/pgo/46_hires.png",
+    },
+  },
+  {
+    id: "sv5-117",
+    name: "Melmetal",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "160",
+    types: ["Metal"],
+    evolvesFrom: "Meltan",
+    attacks: [
+      {
+        name: "Hammer In",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "",
+      },
+      {
+        name: "Iron Bash",
+        cost: ["Metal", "Metal", "Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 5,
+        damage: "230",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "117",
+    flavorText:
+      "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+    nationalPokedexNumbers: [809],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/117.png",
+      large: "https://images.pokemontcg.io/sv5/117_hires.png",
     },
   },
   {
@@ -58937,8 +62411,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "sadaji",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [809],
     legalities: {
       unlimited: "Legal",
@@ -59005,8 +62477,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "PLANETA Tsuji",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [809],
     legalities: {
       unlimited: "Legal",
@@ -59079,8 +62549,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "153",
-    artist: "PLANETA Igarashi",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [809],
     legalities: {
       unlimited: "Legal",
@@ -59144,8 +62612,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "Sumiyoshi Kizuki",
-    rarity: "Common",
     flavorText:
       "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
     nationalPokedexNumbers: [808],
@@ -59210,8 +62676,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "152",
-    artist: "Nobuhiro Imagawa",
-    rarity: "Common",
     flavorText:
       "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
     nationalPokedexNumbers: [808],
@@ -59224,6 +62688,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/152.png",
       large: "https://images.pokemontcg.io/sv3/152_hires.png",
+    },
+  },
+  {
+    id: "sv5-116",
+    name: "Meltan",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Metal"],
+    evolvesTo: ["Melmetal"],
+    attacks: [
+      {
+        name: "Headbutt",
+        cost: ["Metal", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "116",
+    flavorText:
+      "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+    nationalPokedexNumbers: [808],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/116.png",
+      large: "https://images.pokemontcg.io/sv5/116_hires.png",
     },
   },
   {
@@ -59277,8 +62806,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "Ryota Murayama",
-    rarity: "Rare",
     flavorText:
       "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
     nationalPokedexNumbers: [908],
@@ -59294,7 +62821,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-15",
+    id: "sv2-231",
     name: "Meowscarada ex",
     supertype: "Pokémon",
     subtypes: ["Stage 2", "ex", "Ability"],
@@ -59346,9 +62873,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "15",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "231",
     nationalPokedexNumbers: [908],
     legalities: {
       unlimited: "Legal",
@@ -59357,8 +62882,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/15.png",
-      large: "https://images.pokemontcg.io/sv2/15_hires.png",
+      small: "https://images.pokemontcg.io/sv2/231.png",
+      large: "https://images.pokemontcg.io/sv2/231_hires.png",
     },
   },
   {
@@ -59419,8 +62944,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Taira Akitsu",
-    rarity: "Uncommon",
     flavorText:
       "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
     nationalPokedexNumbers: [678],
@@ -59486,8 +63009,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Naoki Saito",
-    rarity: "Common",
     flavorText:
       "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
     nationalPokedexNumbers: [52],
@@ -59559,8 +63080,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "zig",
-    rarity: "Rare Holo",
     flavorText:
       "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
     nationalPokedexNumbers: [481],
@@ -59633,8 +63152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Ryuta Fuse",
-    rarity: "Rare Holo",
     flavorText:
       "Because the magnetic powers of these Pokémon get stronger in freezing temperatures, Metagross living on snowy mountains are full of energy.",
     nationalPokedexNumbers: [376],
@@ -59647,6 +63164,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/119.png",
       large: "https://images.pokemontcg.io/swsh12/119_hires.png",
+    },
+  },
+  {
+    id: "sv5-115",
+    name: "Metagross",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "180",
+    types: ["Metal"],
+    evolvesFrom: "Metang",
+    attacks: [
+      {
+        name: "Meteor Mash",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "60",
+        text: "During your next turn, this Pokémon's Meteor Mash attack does 60 more damage (before applying Weakness and Resistance).",
+      },
+      {
+        name: "Luster Blast",
+        cost: ["Metal", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "200",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "115",
+    flavorText:
+      "Because the magnetic powers of these Pokémon get stronger in freezing temperatures, Metagross living on snowy mountains are full of energy.",
+    nationalPokedexNumbers: [376],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/115.png",
+      large: "https://images.pokemontcg.io/sv5/115_hires.png",
     },
   },
   {
@@ -59701,8 +63290,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
     nationalPokedexNumbers: [375],
@@ -59715,6 +63302,79 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/118.png",
       large: "https://images.pokemontcg.io/swsh12/118_hires.png",
+    },
+  },
+  {
+    id: "sv5-114",
+    name: "Metang",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Metal"],
+    evolvesFrom: "Beldum",
+    evolvesTo: ["Metagross"],
+    abilities: [
+      {
+        name: "Metal Maker",
+        text: "Once during your turn, you may look at the top 4 cards of your deck and attach any number of Basic Metal Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards and put them on the bottom of your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Beam",
+        cost: ["Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "114",
+    flavorText:
+      "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
+    nationalPokedexNumbers: [375],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/114.png",
+      large: "https://images.pokemontcg.io/sv5/114_hires.png",
     },
   },
   {
@@ -59769,8 +63429,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
     nationalPokedexNumbers: [11],
@@ -59842,8 +63500,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [151],
     legalities: {
       unlimited: "Legal",
@@ -59913,8 +63569,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
     nationalPokedexNumbers: [150],
@@ -59986,8 +63640,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Atsushi Furusawa",
-    rarity: "Rare Holo",
     flavorText:
       "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
     nationalPokedexNumbers: [150],
@@ -60058,8 +63710,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
     flavorText:
       "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
     nationalPokedexNumbers: [150],
@@ -60134,8 +63784,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Nurikabe",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [150],
     legalities: {
       unlimited: "Legal",
@@ -60209,8 +63857,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [150],
     legalities: {
       unlimited: "Legal",
@@ -60277,8 +63923,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [150],
     legalities: {
       unlimited: "Legal",
@@ -60343,8 +63987,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "In one minute, a well-trained Mienfoo can chop with its arms more than 100 times.",
     nationalPokedexNumbers: [619],
@@ -60410,8 +64052,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "Natsumi Yoshida",
-    rarity: "Common",
     flavorText:
       "Though small, Mienfoo's temperament is fierce. Any creature that approaches Mienfoo carelessly will be greeted with a flurry of graceful attacks.",
     nationalPokedexNumbers: [619],
@@ -60478,8 +64118,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "Shibuzoh.",
-    rarity: "Uncommon",
     flavorText:
       "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
     nationalPokedexNumbers: [620],
@@ -60545,8 +64183,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Mousho",
-    rarity: "Uncommon",
     flavorText:
       "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
     nationalPokedexNumbers: [620],
@@ -60613,8 +64249,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "otumami",
-    rarity: "Rare",
     flavorText:
       "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
     nationalPokedexNumbers: [262],
@@ -60627,6 +64261,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/96.png",
       large: "https://images.pokemontcg.io/swsh10/96_hires.png",
+    },
+  },
+  {
+    id: "sv5-106",
+    name: "Mightyena",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Poochyena",
+    attacks: [
+      {
+        name: "Kick Away",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Sharp Fang",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "106",
+    flavorText:
+      "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+    nationalPokedexNumbers: [262],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/106.png",
+      large: "https://images.pokemontcg.io/sv5/106_hires.png",
     },
   },
   {
@@ -60681,8 +64381,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare",
     flavorText:
       "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
     nationalPokedexNumbers: [350],
@@ -60748,8 +64446,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Atsuya Uki",
-    rarity: "Rare",
     flavorText:
       "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling.",
     nationalPokedexNumbers: [350],
@@ -60815,8 +64511,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "saino misaki",
-    rarity: "Rare Holo",
     flavorText:
       "Miltank produces highly nutritious milk, so it's been supporting the lives of people and other Pokémon since ancient times.",
     nationalPokedexNumbers: [241],
@@ -60874,8 +64568,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
     nationalPokedexNumbers: [241],
@@ -60937,10 +64629,9 @@ const allStandardLegalPokemon = [
       },
     },
     number: "157",
-    artist: "Saya Tsuruta",
-    rarity: "Shiny Rare",
     flavorText:
       "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
+    nationalPokedexNumbers: [439],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -61009,8 +64700,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Ligton",
-    rarity: "Rare",
     flavorText:
       "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier.",
     nationalPokedexNumbers: [778],
@@ -61075,8 +64764,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Kagemaru Himeno",
-    rarity: "Rare",
     flavorText:
       "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
     nationalPokedexNumbers: [778],
@@ -61129,8 +64816,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -61138,15 +64825,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "4",
-    artist: "PLANETA Yamashita",
-    rarity: "Promo",
     nationalPokedexNumbers: [778],
     legalities: {
       unlimited: "Legal",
@@ -61211,8 +64896,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
     nationalPokedexNumbers: [572],
@@ -61225,6 +64908,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/124.png",
       large: "https://images.pokemontcg.io/swsh9/124_hires.png",
+    },
+  },
+  {
+    id: "sv5-136",
+    name: "Minccino",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesTo: ["Cinccino"],
+    attacks: [
+      {
+        name: "Beat",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Cleaning Up",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Discard up to 2 Pokémon Tools from your opponent's Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "136",
+    flavorText:
+      "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+    nationalPokedexNumbers: [572],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/136.png",
+      large: "https://images.pokemontcg.io/sv5/136_hires.png",
     },
   },
   {
@@ -61277,8 +65026,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "OKUBO",
-    rarity: "Uncommon",
     flavorText:
       "This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate.",
     nationalPokedexNumbers: [774],
@@ -61343,8 +65090,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
     nationalPokedexNumbers: [312],
@@ -61409,8 +65154,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
     nationalPokedexNumbers: [1008],
@@ -61426,7 +65169,66 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv1-81",
+    id: "sv5-121",
+    name: "Miraidon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Future", "1 Prizer"],
+    hp: "110",
+    types: ["Dragon"],
+    attacks: [
+      {
+        name: "Peak Acceleration",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "Search your deck for up to 2 Basic Energy cards and attach them to your Future Pokémon in any way you like. Then, shuffle your deck.",
+      },
+      {
+        name: "Sparking Strike",
+        cost: ["Lightning", "Lightning", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "121",
+    flavorText:
+      "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+    nationalPokedexNumbers: [1008],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/121.png",
+      large: "https://images.pokemontcg.io/sv5/121_hires.png",
+    },
+  },
+  {
+    id: "svp-28",
     name: "Miraidon ex",
     supertype: "Pokémon",
     subtypes: ["Basic", "ex", "Ability"],
@@ -61437,18 +65239,18 @@ const allStandardLegalPokemon = [
     ],
     abilities: [
       {
-        type: "Ability",
         name: "Tandem Unit",
         text: "Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.",
+        type: "Ability",
       },
     ],
     attacks: [
       {
-        cost: ["Lightning", "Lightning", "Colorless"],
         name: "Photon Blaster",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
         damage: "220",
         text: "During your next turn, this Pokémon can't attack.",
-        convertedEnergyCost: 3,
       },
     ],
     weaknesses: [
@@ -61460,28 +65262,25 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
-    number: "81",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
-    flavorText:
-      "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+    number: "28",
     nationalPokedexNumbers: [1008],
     legalities: {
       unlimited: "Legal",
@@ -61490,8 +65289,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv1/81.png",
-      large: "https://images.pokemontcg.io/sv1/81_hires.png",
+      small: "https://images.pokemontcg.io/svp/28.png",
+      large: "https://images.pokemontcg.io/svp/28_hires.png",
     },
   },
   {
@@ -61545,8 +65344,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [1008],
     legalities: {
       unlimited: "Legal",
@@ -61557,6 +65354,132 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/79.png",
       large: "https://images.pokemontcg.io/sv3/79_hires.png",
+    },
+  },
+  {
+    id: "sv5-122",
+    name: "Miraidon ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Future"],
+    hp: "220",
+    types: ["Dragon"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Repulsion Bolt",
+        cost: ["Lightning", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "60+",
+        text: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
+      },
+      {
+        name: "Cyber Drive",
+        cost: ["Lightning", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "220",
+        text: "During your next turn, this Pokémon can't use Cyber Drive.",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "122",
+    nationalPokedexNumbers: [1008],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/122.png",
+      large: "https://images.pokemontcg.io/sv5/122_hires.png",
+    },
+  },
+  {
+    id: "svp-87",
+    name: "Miraidon ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "200",
+    types: ["Grass"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Magical Leaf",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Heal 30 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "87",
+    nationalPokedexNumbers: [906],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/87.png",
+      large: "https://images.pokemontcg.io/svp/87_hires.png",
     },
   },
   {
@@ -61610,8 +65533,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "AKIRA EGAWA",
-    rarity: "Common",
     flavorText:
       "It conceals itself in darkness, sending chills up travelers' spines with its childlike weeping. As it observes the frightened travelers with glee, the red orbs upon its chest let off an eerie light.",
     nationalPokedexNumbers: [200],
@@ -61677,8 +65598,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn't deal well with folks who aren't easily frightened.",
     nationalPokedexNumbers: [200],
@@ -61742,8 +65661,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Megumi Higuchi",
-    rarity: "Common",
     flavorText:
       "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
     nationalPokedexNumbers: [200],
@@ -61816,8 +65733,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Ligton",
-    rarity: "Rare",
     flavorText:
       "Its muttered curses can cause awful headaches or terrifying visions that torment others.",
     nationalPokedexNumbers: [429],
@@ -61890,8 +65805,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "kawayoo",
-    rarity: "Rare",
     flavorText:
       "Its muttered curses can cause awful headaches or terrifying visions that torment others.",
     nationalPokedexNumbers: [429],
@@ -61963,8 +65876,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
     nationalPokedexNumbers: [429],
@@ -62023,8 +65934,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "otumami",
-    rarity: "Rare Holo",
     flavorText:
       "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
     nationalPokedexNumbers: [146],
@@ -62083,8 +65992,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH185",
-    artist: "Shinji Kanda",
-    rarity: "Promo",
     flavorText:
       "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
     nationalPokedexNumbers: [146],
@@ -62150,8 +66057,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Pani Kobayashi",
-    rarity: "Rare Holo",
     flavorText:
       "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
     nationalPokedexNumbers: [146],
@@ -62222,8 +66127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare",
     flavorText:
       "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
     nationalPokedexNumbers: [146],
@@ -62291,8 +66194,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "KEIICHIRO ITO",
-    rarity: "Uncommon",
     flavorText:
       "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
     nationalPokedexNumbers: [391],
@@ -62360,8 +66261,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair.",
     nationalPokedexNumbers: [860],
@@ -62420,8 +66319,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
     nationalPokedexNumbers: [877],
@@ -62486,8 +66383,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Cona Nitanda",
-    rarity: "Rare",
     flavorText:
       "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
     nationalPokedexNumbers: [877],
@@ -62556,8 +66451,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [877],
     legalities: {
       unlimited: "Legal",
@@ -62626,8 +66519,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Akira Komayama",
-    rarity: "Rare",
     flavorText:
       "It flutters around at night and steals honey from the Combee hive.",
     nationalPokedexNumbers: [414],
@@ -62699,8 +66590,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "The behavior of this clown-like Pokémon reminds one of pantomime. It creates invisible walls using a force emitted from its fingertips.",
     nationalPokedexNumbers: [122],
@@ -62771,8 +66660,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "OOYAMA",
-    rarity: "Rare",
     flavorText:
       "It's known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
     nationalPokedexNumbers: [122],
@@ -62785,6 +66672,209 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/122.png",
       large: "https://images.pokemontcg.io/sv3pt5/122_hires.png",
+    },
+  },
+  {
+    id: "sv5-63",
+    name: "Mr. Mime",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Look-Alike Show",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent reveals their hand. You may use the effect of a Supporter card you find there as the effect of this attack.",
+      },
+      {
+        name: "Eerie Wave",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "63",
+    flavorText:
+      "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+    nationalPokedexNumbers: [122],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/63.png",
+      large: "https://images.pokemontcg.io/sv5/63_hires.png",
+    },
+  },
+  {
+    id: "sv5-91",
+    name: "Mudbray",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fighting"],
+    evolvesTo: ["Mudsdale"],
+    attacks: [
+      {
+        name: "Smash Kick",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Mud-Slap",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "91",
+    flavorText:
+      "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time.",
+    nationalPokedexNumbers: [749],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/91.png",
+      large: "https://images.pokemontcg.io/sv5/91_hires.png",
+    },
+  },
+  {
+    id: "sv5-92",
+    name: "Mudsdale",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "150",
+    types: ["Fighting"],
+    evolvesFrom: "Mudbray",
+    attacks: [
+      {
+        name: "Mud Stock",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Attach a Basic Fighting Energy card from your discard pile to each of your Benched Pokémon.",
+      },
+      {
+        name: "High Horsepower",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "This Pokémon also does 40 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "92",
+    flavorText:
+      "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery.",
+    nationalPokedexNumbers: [750],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/92.png",
+      large: "https://images.pokemontcg.io/sv5/92_hires.png",
     },
   },
   {
@@ -62839,8 +66929,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Scav",
-    rarity: "Rare",
     flavorText:
       "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
     nationalPokedexNumbers: [89],
@@ -62906,8 +66994,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Haru Akasaka",
-    rarity: "Uncommon",
     flavorText:
       "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
     nationalPokedexNumbers: [89],
@@ -62973,8 +67059,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
     nationalPokedexNumbers: [89],
@@ -62987,80 +67071,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/89.png",
       large: "https://images.pokemontcg.io/sv3pt5/89_hires.png",
-    },
-  },
-  {
-    id: "swsh11-114",
-    name: "Murkrow",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "60",
-    types: ["Darkness"],
-    evolvesTo: ["Honchkrow"],
-    attacks: [
-      {
-        name: "Peck",
-        cost: ["Colorless"],
-        convertedEnergyCost: 1,
-        damage: "10",
-        text: "",
-      },
-      {
-        name: "Wing Attack",
-        cost: ["Darkness", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "30",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Lightning",
-        value: "×2",
-      },
-    ],
-    resistances: [
-      {
-        type: "Fighting",
-        value: "-30",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "114",
-    artist: "Yuka Morii",
-    rarity: "Common",
-    flavorText:
-      "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
-    nationalPokedexNumbers: [198],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/114.png",
-      large: "https://images.pokemontcg.io/swsh11/114_hires.png",
     },
   },
   {
@@ -63121,8 +67131,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Ligton",
-    rarity: "Common",
     flavorText:
       "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
     nationalPokedexNumbers: [198],
@@ -63135,6 +67143,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/106.png",
       large: "https://images.pokemontcg.io/swsh12/106_hires.png",
+    },
+  },
+  {
+    id: "swsh11-114",
+    name: "Murkrow",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Honchkrow"],
+    attacks: [
+      {
+        name: "Peck",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Wing Attack",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "114",
+    flavorText:
+      "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it.",
+    nationalPokedexNumbers: [198],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/114.png",
+      large: "https://images.pokemontcg.io/swsh11/114_hires.png",
     },
   },
   {
@@ -63193,8 +67273,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
     nationalPokedexNumbers: [198],
@@ -63252,8 +67330,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
     nationalPokedexNumbers: [932],
@@ -63318,8 +67394,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
     nationalPokedexNumbers: [932],
@@ -63384,8 +67458,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
     nationalPokedexNumbers: [932],
@@ -63443,8 +67515,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
     nationalPokedexNumbers: [932],
@@ -63503,8 +67573,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
     nationalPokedexNumbers: [933],
@@ -63563,8 +67631,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "KEIICHIRO ITO",
-    rarity: "Common",
     flavorText:
       "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
     nationalPokedexNumbers: [933],
@@ -63637,8 +67703,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
     nationalPokedexNumbers: [177],
@@ -63703,8 +67767,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "sowsow",
-    rarity: "Shiny Rare",
     flavorText:
       "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
     nationalPokedexNumbers: [177],
@@ -63764,8 +67826,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
     nationalPokedexNumbers: [827],
@@ -63824,8 +67884,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
     nationalPokedexNumbers: [827],
@@ -63891,8 +67949,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "Shiburingaru",
-    rarity: "Rare",
     flavorText:
       "Nidoking prides itself on its strength. It's forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
     nationalPokedexNumbers: [34],
@@ -63958,8 +68014,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Teeziro",
-    rarity: "Uncommon",
     flavorText:
       "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
     nationalPokedexNumbers: [31],
@@ -64018,8 +68072,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
     nationalPokedexNumbers: [29],
@@ -64078,8 +68130,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Shiburingaru",
-    rarity: "Common",
     flavorText:
       "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
     nationalPokedexNumbers: [32],
@@ -64146,8 +68196,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Teeziro",
-    rarity: "Uncommon",
     flavorText:
       "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
     nationalPokedexNumbers: [30],
@@ -64214,8 +68262,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
     nationalPokedexNumbers: [33],
@@ -64282,8 +68328,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Shiburingaru",
-    rarity: "Uncommon",
     flavorText:
       "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
     nationalPokedexNumbers: [38],
@@ -64349,8 +68393,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "Yoshioka",
-    rarity: "Uncommon",
     flavorText:
       "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
     nationalPokedexNumbers: [38],
@@ -64419,8 +68461,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "kawayoo",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [38],
     legalities: {
       unlimited: "Legal",
@@ -64491,8 +68531,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
     nationalPokedexNumbers: [164],
@@ -64505,6 +68543,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/121.png",
       large: "https://images.pokemontcg.io/swsh10/121_hires.png",
+    },
+  },
+  {
+    id: "sv5-127",
+    name: "Noctowl",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Colorless"],
+    evolvesFrom: "Hoothoot",
+    attacks: [
+      {
+        name: "Talon Hunt",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "127",
+    flavorText:
+      "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+    nationalPokedexNumbers: [164],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/127.png",
+      large: "https://images.pokemontcg.io/sv5/127_hires.png",
     },
   },
   {
@@ -64553,8 +68656,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.",
     nationalPokedexNumbers: [714],
@@ -64606,8 +68707,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "152",
-    artist: "chibi",
-    rarity: "Common",
     flavorText:
       "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
     nationalPokedexNumbers: [714],
@@ -64666,8 +68765,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "aoki",
-    rarity: "Rare",
     flavorText:
       "Aggressive and cruel, this Pokémon will ruthlessly torment enemies that are helpless in the dark.",
     nationalPokedexNumbers: [715],
@@ -64728,8 +68825,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "153",
-    artist: "Nisota Niso",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [715],
     legalities: {
       unlimited: "Legal",
@@ -64787,8 +68882,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
     nationalPokedexNumbers: [299],
@@ -64854,8 +68947,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "Nobuhiro Imagawa",
-    rarity: "Common",
     flavorText:
       "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
     nationalPokedexNumbers: [299],
@@ -64922,8 +69013,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
     nationalPokedexNumbers: [322],
@@ -64982,8 +69071,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
     nationalPokedexNumbers: [322],
@@ -65049,8 +69136,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
     nationalPokedexNumbers: [322],
@@ -65111,8 +69196,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Mizue",
-    rarity: "Uncommon",
     flavorText:
       "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
     nationalPokedexNumbers: [274],
@@ -65125,6 +69208,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/12.png",
       large: "https://images.pokemontcg.io/swsh11/12_hires.png",
+    },
+  },
+  {
+    id: "sv5-4",
+    name: "Nuzleaf",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Grass"],
+    evolvesFrom: "Seedot",
+    evolvesTo: ["Shiftry"],
+    attacks: [
+      {
+        name: "Corkscrew Punch",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Comet Slap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "Flip 3 coins. This attack does 30 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "4",
+    flavorText:
+      "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+    nationalPokedexNumbers: [274],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/4.png",
+      large: "https://images.pokemontcg.io/sv5/4_hires.png",
     },
   },
   {
@@ -65177,8 +69327,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     nationalPokedexNumbers: [919],
@@ -65236,8 +69384,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     nationalPokedexNumbers: [919],
@@ -65295,8 +69441,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     nationalPokedexNumbers: [919],
@@ -65352,8 +69496,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     nationalPokedexNumbers: [919],
@@ -65419,8 +69561,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
     nationalPokedexNumbers: [224],
@@ -65480,8 +69620,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
     nationalPokedexNumbers: [43],
@@ -65541,8 +69679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
     nationalPokedexNumbers: [43],
@@ -65608,8 +69744,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Midori Harada",
-    rarity: "Common",
     flavorText:
       "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
     nationalPokedexNumbers: [43],
@@ -65668,8 +69802,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
     nationalPokedexNumbers: [43],
@@ -65682,6 +69814,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/43.png",
       large: "https://images.pokemontcg.io/sv3pt5/43_hires.png",
+    },
+  },
+  {
+    id: "svp-102",
+    name: "Oddish",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Razor Leaf",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Grass Knot",
+        cost: ["Grass", "Grass"],
+        convertedEnergyCost: 2,
+        damage: "20×",
+        text: "This attack does 20 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "102",
+    flavorText:
+      "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+    nationalPokedexNumbers: [43],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/102.png",
+      large: "https://images.pokemontcg.io/svp/102_hires.png",
     },
   },
   {
@@ -65735,8 +69932,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "157",
-    artist: "kirisAki",
-    rarity: "Uncommon",
     flavorText:
       "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
     nationalPokedexNumbers: [916],
@@ -65802,8 +69997,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "183",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
     nationalPokedexNumbers: [916],
@@ -65869,8 +70062,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "184",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
     nationalPokedexNumbers: [916],
@@ -65939,8 +70130,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "158",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     flavorText:
       "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
     nationalPokedexNumbers: [916],
@@ -66000,8 +70189,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
     nationalPokedexNumbers: [138],
@@ -66067,8 +70254,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "Akira Komayama",
-    rarity: "Rare",
     flavorText:
       "Omastar's sharp fangs could crush rock, but the Pokémon can attack only the prey that come within reach of its tentacles.",
     nationalPokedexNumbers: [139],
@@ -66137,8 +70322,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Saki Hayashiro",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [139],
     legalities: {
       unlimited: "Legal",
@@ -66203,8 +70386,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Mitsuhiro Arita",
-    rarity: "Common",
     flavorText:
       "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
     nationalPokedexNumbers: [95],
@@ -66270,8 +70451,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
     nationalPokedexNumbers: [95],
@@ -66337,8 +70516,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "Shiburingaru",
-    rarity: "Common",
     flavorText:
       "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
     nationalPokedexNumbers: [95],
@@ -66404,8 +70581,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Sekio",
-    rarity: "Rare",
     flavorText:
       "With waves of its fan—made from leaves and its own fur—Oranguru skillfully gives instructions to other Pokémon.",
     nationalPokedexNumbers: [765],
@@ -66476,8 +70651,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "Toshinao Aoki",
-    rarity: "Uncommon",
     flavorText:
       "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
     nationalPokedexNumbers: [765],
@@ -66546,8 +70719,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "179",
-    artist: "Toyste Beach",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [765],
     legalities: {
       unlimited: "Legal",
@@ -66612,8 +70783,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "yuu",
-    rarity: "Rare Holo",
     flavorText:
       "It's famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
     nationalPokedexNumbers: [826],
@@ -66679,8 +70848,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Oku",
-    rarity: "Uncommon",
     flavorText:
       "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away.",
     nationalPokedexNumbers: [826],
@@ -66745,8 +70912,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Haru Akasaka",
-    rarity: "Rare",
     flavorText:
       "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
     nationalPokedexNumbers: [741],
@@ -66811,8 +70976,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "The energetic, cheerful dance of these Oricorio is popular with children, but the Oricorio themselves are hard to find in Paldea.",
     nationalPokedexNumbers: [741],
@@ -66887,8 +71050,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [483],
     legalities: {
       unlimited: "Legal",
@@ -66962,8 +71123,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [483],
     legalities: {
       unlimited: "Legal",
@@ -67030,8 +71189,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "aky CG Works",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [484],
     legalities: {
       unlimited: "Legal",
@@ -67099,8 +71256,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "aky CG Works",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [484],
     legalities: {
       unlimited: "Legal",
@@ -67169,8 +71324,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "Hitoshi Ariga",
-    rarity: "Rare",
     flavorText:
       "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
     nationalPokedexNumbers: [968],
@@ -67241,8 +71394,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
     nationalPokedexNumbers: [968],
@@ -67302,8 +71453,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       'This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I\'ve conferred upon this shell the name "scalchop.".',
     nationalPokedexNumbers: [501],
@@ -67362,8 +71511,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "HYOGONOSUKE",
-    rarity: "Uncommon",
     flavorText:
       "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
     nationalPokedexNumbers: [417],
@@ -67428,8 +71575,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
     flavorText:
       "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
     nationalPokedexNumbers: [417],
@@ -67495,8 +71640,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
     nationalPokedexNumbers: [964],
@@ -67509,6 +71652,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/62.png",
       large: "https://images.pokemontcg.io/sv3/62_hires.png",
+    },
+  },
+  {
+    id: "sv5-49",
+    name: "Palafin",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "150",
+    types: ["Water"],
+    evolvesFrom: "Finizen",
+    attacks: [
+      {
+        name: "Vanguard Punch",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "130",
+        text: "This Pokémon also does 10 damage to itself for each damage counter on it.",
+      },
+      {
+        name: "Double Hit",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90×",
+        text: "Flip 2 coins. This attack does 90 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "49",
+    flavorText:
+      "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+    nationalPokedexNumbers: [964],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/49.png",
+      large: "https://images.pokemontcg.io/sv5/49_hires.png",
     },
   },
   {
@@ -67562,8 +71771,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
     nationalPokedexNumbers: [980],
@@ -67629,8 +71836,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
     nationalPokedexNumbers: [980],
@@ -67699,8 +71904,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [980],
     legalities: {
       unlimited: "Legal",
@@ -67711,6 +71914,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/130.png",
       large: "https://images.pokemontcg.io/sv2/130_hires.png",
+    },
+  },
+  {
+    id: "sv2-108",
+    name: "Paldean Tauros",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Fighting"],
+    attacks: [
+      {
+        cost: ["Colorless", "Colorless"],
+        name: "Raging Horns",
+        damage: "20+",
+        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
+        convertedEnergyCost: 2,
+      },
+      {
+        cost: ["Fighting", "Fighting", "Colorless"],
+        name: "Combat Tackle",
+        damage: "130",
+        text: "This Pokémon also does 30 damage to itself.",
+        convertedEnergyCost: 3,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "108",
+    flavorText:
+      "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
+    nationalPokedexNumbers: [128],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/108.png",
+      large: "https://images.pokemontcg.io/sv2/108_hires.png",
     },
   },
   {
@@ -67763,8 +72030,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "AKIRA EGAWA",
-    rarity: "Uncommon",
     flavorText:
       "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
     nationalPokedexNumbers: [128],
@@ -67829,8 +72094,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     flavorText:
       "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
     nationalPokedexNumbers: [128],
@@ -67843,72 +72106,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/41.png",
       large: "https://images.pokemontcg.io/sv2/41_hires.png",
-    },
-  },
-  {
-    id: "sv2-108",
-    name: "Paldean Tauros",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "130",
-    types: ["Fighting"],
-    attacks: [
-      {
-        cost: ["Colorless", "Colorless"],
-        name: "Raging Horns",
-        damage: "20+",
-        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
-        convertedEnergyCost: 2,
-      },
-      {
-        cost: ["Fighting", "Fighting", "Colorless"],
-        name: "Combat Tackle",
-        damage: "130",
-        text: "This Pokémon also does 30 damage to itself.",
-        convertedEnergyCost: 3,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Psychic",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless"],
-    convertedRetreatCost: 2,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "108",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
-    flavorText:
-      "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
-    nationalPokedexNumbers: [128],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/108.png",
-      large: "https://images.pokemontcg.io/sv2/108_hires.png",
     },
   },
   {
@@ -67961,8 +72158,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     nationalPokedexNumbers: [194],
@@ -68027,8 +72222,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     nationalPokedexNumbers: [194],
@@ -68087,8 +72280,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     nationalPokedexNumbers: [194],
@@ -68147,8 +72338,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     nationalPokedexNumbers: [194],
@@ -68199,8 +72388,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -68208,15 +72397,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "41",
-    artist: "kirisAki",
-    rarity: "Promo",
     flavorText:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     nationalPokedexNumbers: [194],
@@ -68281,8 +72468,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "Ryuta Fuse",
-    rarity: "Rare",
     flavorText:
       "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
     nationalPokedexNumbers: [484],
@@ -68349,8 +72534,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "Palossand is known as the Beach Nightmare. It pulls its prey down into the sand by controlling the sand itself, and then it sucks out their souls.",
     nationalPokedexNumbers: [770],
@@ -68422,8 +72605,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "HYOGONOSUKE",
-    rarity: "Uncommon",
     flavorText:
       "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
     nationalPokedexNumbers: [770],
@@ -68483,8 +72664,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
     nationalPokedexNumbers: [536],
@@ -68544,8 +72723,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Sanosuke Sakuma",
-    rarity: "Common",
     flavorText:
       "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
     nationalPokedexNumbers: [674],
@@ -68612,8 +72789,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Uta",
-    rarity: "Rare",
     flavorText:
       "This Pokémon is quick to anger, and it has no problem using its prodigious strength to get its way. It lives for duels against Obstagoon.",
     nationalPokedexNumbers: [675],
@@ -68679,8 +72854,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "Natsumi Yoshida",
-    rarity: "Common",
     flavorText:
       "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
     nationalPokedexNumbers: [515],
@@ -68746,8 +72919,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
     nationalPokedexNumbers: [511],
@@ -68813,8 +72984,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "LINNE",
-    rarity: "Common",
     flavorText:
       "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
     nationalPokedexNumbers: [513],
@@ -68874,8 +73043,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
     nationalPokedexNumbers: [46],
@@ -68941,8 +73108,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Common",
     flavorText:
       "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
     nationalPokedexNumbers: [46],
@@ -68958,7 +73123,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-5",
+    id: "swsh11tg-TG01",
     name: "Parasect",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer", "Ability"],
@@ -68990,11 +73155,11 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
       series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      printedTotal: 30,
+      total: 30,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -69004,15 +73169,13 @@ const allStandardLegalPokemon = [
       releaseDate: "2022/09/09",
       updatedAt: "2022/09/09 13:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
       },
     },
-    number: "5",
-    artist: "Pani Kobayashi",
-    rarity: "Rare",
+    number: "TG01",
     flavorText:
-      "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+      "Mushroom-lacking specimens of this Pokémon lie unmoving in the forest, lending credence to the hypothesis that the large mushroom is in control of Parasect's actions.",
     nationalPokedexNumbers: [47],
     legalities: {
       unlimited: "Legal",
@@ -69021,8 +73184,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/5.png",
-      large: "https://images.pokemontcg.io/swsh11/5_hires.png",
+      small: "https://images.pokemontcg.io/swsh11tg/TG01.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG01_hires.png",
     },
   },
   {
@@ -69076,8 +73239,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Uncommon",
     flavorText:
       "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
     nationalPokedexNumbers: [47],
@@ -69135,8 +73296,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "Jerky",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
     nationalPokedexNumbers: [766],
@@ -69201,8 +73360,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "kantaro",
-    rarity: "Common",
     flavorText:
       "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
     nationalPokedexNumbers: [921],
@@ -69260,8 +73417,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
     nationalPokedexNumbers: [921],
@@ -69319,8 +73474,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
     nationalPokedexNumbers: [921],
@@ -69363,8 +73516,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -69372,15 +73525,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "40",
-    artist: "Ryuta Fuse",
-    rarity: "Promo",
     flavorText:
       "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
     nationalPokedexNumbers: [921],
@@ -69446,8 +73597,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
     nationalPokedexNumbers: [922],
@@ -69513,8 +73662,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     flavorText:
       "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
     nationalPokedexNumbers: [922],
@@ -69578,8 +73725,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Mizue",
-    rarity: "Rare",
     flavorText:
       "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
     nationalPokedexNumbers: [923],
@@ -69645,8 +73790,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "kodama",
-    rarity: "Rare",
     flavorText:
       "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
     nationalPokedexNumbers: [922],
@@ -69713,8 +73856,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "aky CG Works",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [923],
     legalities: {
       unlimited: "Legal",
@@ -69778,8 +73919,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
     nationalPokedexNumbers: [624],
@@ -69845,8 +73984,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
     nationalPokedexNumbers: [624],
@@ -69911,8 +74048,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
     nationalPokedexNumbers: [624],
@@ -69977,8 +74112,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "Hitoshi Ariga",
-    rarity: "Common",
     flavorText:
       "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
     nationalPokedexNumbers: [624],
@@ -70050,8 +74183,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "159",
-    artist: "Shinya Komatsu",
-    rarity: "Uncommon",
     flavorText:
       "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
     nationalPokedexNumbers: [279],
@@ -70117,8 +74248,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
     flavorText:
       "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
     nationalPokedexNumbers: [53],
@@ -70178,8 +74307,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
     nationalPokedexNumbers: [548],
@@ -70246,8 +74373,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
     nationalPokedexNumbers: [548],
@@ -70307,8 +74432,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
     nationalPokedexNumbers: [231],
@@ -70374,8 +74497,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "Atsuko Nishida",
-    rarity: "Common",
     flavorText:
       "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
     nationalPokedexNumbers: [231],
@@ -70435,8 +74556,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "AKIRA EGAWA",
-    rarity: "Common",
     flavorText:
       "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon.",
     nationalPokedexNumbers: [708],
@@ -70495,8 +74614,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
     nationalPokedexNumbers: [708],
@@ -70562,8 +74679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "Jiro Sasumo",
-    rarity: "Rare",
     flavorText:
       "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
     nationalPokedexNumbers: [489],
@@ -70633,8 +74748,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     flavorText:
       "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
     nationalPokedexNumbers: [18],
@@ -70709,8 +74822,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "188",
-    artist: "Saki Hayashiro",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [18],
     legalities: {
       unlimited: "Legal",
@@ -70781,8 +74892,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "164",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [18],
     legalities: {
       unlimited: "Legal",
@@ -70846,8 +74955,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "163",
-    artist: "Kariya",
-    rarity: "Uncommon",
     flavorText:
       "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
     nationalPokedexNumbers: [17],
@@ -70911,8 +75018,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
     nationalPokedexNumbers: [17],
@@ -70977,8 +75082,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "162",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
     nationalPokedexNumbers: [16],
@@ -71050,8 +75153,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
     nationalPokedexNumbers: [16],
@@ -71124,8 +75225,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "N-DESIGN Inc.",
-    rarity: "Common",
     flavorText:
       "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
     nationalPokedexNumbers: [519],
@@ -71138,6 +75237,203 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/pgo/61.png",
       large: "https://images.pokemontcg.io/pgo/61_hires.png",
+    },
+  },
+  {
+    id: "sv5-133",
+    name: "Pidove",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "50",
+    types: ["Colorless"],
+    evolvesTo: ["Tranquill"],
+    abilities: [
+      {
+        name: "Emergency Evolution",
+        text: "Once during your turn, if this Pokémon's remaining HP is 30 or less, you may search your deck for an Unfezant or Unfezant ex and put it onto this Pidove to evolve it. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Gust",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "133",
+    flavorText:
+      "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+    nationalPokedexNumbers: [519],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/133.png",
+      large: "https://images.pokemontcg.io/sv5/133_hires.png",
+    },
+  },
+  {
+    id: "swsh12-49",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Lightning"],
+    evolvesTo: ["Raichu"],
+    attacks: [
+      {
+        name: "Pika Strike",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If 1 of your Dedenne used Dede-Short during your last turn, this attack does 180 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh12",
+      name: "Silver Tempest",
+      series: "Sword & Shield",
+      printedTotal: 195,
+      total: 215,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SIT",
+      releaseDate: "2022/11/11",
+      updatedAt: "2022/09/09 11:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh12/logo.png",
+      },
+    },
+    number: "49",
+    flavorText:
+      "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+    nationalPokedexNumbers: [25],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh12/49.png",
+      large: "https://images.pokemontcg.io/swsh12/49_hires.png",
+    },
+  },
+  {
+    id: "swsh11tg-TG05",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "60",
+    types: ["Lightning"],
+    evolvesTo: ["Raichu"],
+    abilities: [
+      {
+        name: "Pika Dash",
+        text: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Whimsy Tackle",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
+      series: "Sword & Shield",
+      printedTotal: 30,
+      total: 30,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
+      },
+    },
+    number: "TG05",
+    flavorText:
+      "Possesses cheek sacs in which it stores electricity. This clever forest-dweller roasts tough berries with an electric shock before consuming them.",
+    nationalPokedexNumbers: [25],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11tg/TG05.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG05_hires.png",
     },
   },
   {
@@ -71185,8 +75481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "Narumi Sato",
-    rarity: "Rare Holo",
     flavorText:
       "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
     nationalPokedexNumbers: [25],
@@ -71246,8 +75540,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "N-DESIGN Inc.",
-    rarity: "Common",
     flavorText:
       "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
     nationalPokedexNumbers: [25],
@@ -71314,8 +75606,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH234",
-    artist: "Ryota Murayama",
-    rarity: "Promo",
     flavorText:
       "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy",
     nationalPokedexNumbers: [25],
@@ -71331,88 +75621,20 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-52",
-    name: "Pikachu",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer", "Ability"],
-    hp: "60",
-    types: ["Lightning"],
-    evolvesTo: ["Raichu"],
-    abilities: [
-      {
-        name: "Pika Dash",
-        text: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
-        type: "Ability",
-      },
-    ],
-    attacks: [
-      {
-        name: "Whimsy Tackle",
-        cost: ["Lightning", "Colorless", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "50",
-        text: "Flip a coin. If tails, this attack does nothing.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "52",
-    artist: "kurumitsu",
-    rarity: "Common",
-    flavorText:
-      "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
-    nationalPokedexNumbers: [25],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/52.png",
-      large: "https://images.pokemontcg.io/swsh11/52_hires.png",
-    },
-  },
-  {
-    id: "swsh12-49",
+    id: "svp-27",
     name: "Pikachu",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
-    hp: "70",
+    hp: "60",
     types: ["Lightning"],
     evolvesTo: ["Raichu"],
     attacks: [
       {
-        name: "Pika Strike",
-        cost: ["Lightning"],
-        convertedEnergyCost: 1,
-        damage: "20+",
-        text: "If 1 of your Dedenne used Dede-Short during your last turn, this attack does 180 more damage.",
+        name: "Adventuring Together",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "30+",
+        text: "This attack does 10 more damage for each of your Benched Pokémon.",
       },
     ],
     weaknesses: [
@@ -71424,39 +75646,37 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "swsh12",
-      name: "Silver Tempest",
-      series: "Sword & Shield",
-      printedTotal: 195,
-      total: 215,
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "SIT",
-      releaseDate: "2022/11/11",
-      updatedAt: "2022/09/09 11:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh12/logo.png",
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
-    number: "49",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
+    number: "27",
     flavorText:
-      "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+      "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
     nationalPokedexNumbers: [25],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
-    regulationMark: "F",
+    regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/swsh12/49.png",
-      large: "https://images.pokemontcg.io/swsh12/49_hires.png",
+      small: "https://images.pokemontcg.io/svp/27.png",
+      large: "https://images.pokemontcg.io/svp/27_hires.png",
     },
   },
   {
@@ -71509,8 +75729,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     nationalPokedexNumbers: [25],
@@ -71523,67 +75741,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/62.png",
       large: "https://images.pokemontcg.io/sv2/62_hires.png",
-    },
-  },
-  {
-    id: "svp-27",
-    name: "Pikachu",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "60",
-    types: ["Lightning"],
-    evolvesTo: ["Raichu"],
-    attacks: [
-      {
-        name: "Adventuring Together",
-        cost: ["Lightning", "Lightning", "Lightning"],
-        convertedEnergyCost: 3,
-        damage: "30+",
-        text: "This attack does 10 more damage for each of your Benched Pokémon.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "svp",
-      name: "Scarlet & Violet Black Star Promos",
-      series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PR-SV",
-      releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/svp/symbol.png",
-        logo: "https://images.pokemontcg.io/svp/logo.png",
-      },
-    },
-    number: "27",
-    artist: "Atsushi Furusawa",
-    rarity: "Promo",
-    flavorText:
-      "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
-    nationalPokedexNumbers: [25],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/svp/27.png",
-      large: "https://images.pokemontcg.io/svp/27_hires.png",
     },
   },
   {
@@ -71637,8 +75794,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     nationalPokedexNumbers: [25],
@@ -71681,8 +75836,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -71690,15 +75845,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "101",
-    artist: "Jiro Sasumo",
-    rarity: "Promo",
     flavorText:
       "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     nationalPokedexNumbers: [25],
@@ -71711,6 +75864,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/svp/101.png",
       large: "https://images.pokemontcg.io/svp/101_hires.png",
+    },
+  },
+  {
+    id: "sv5-51",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Lightning"],
+    evolvesTo: ["Raichu"],
+    attacks: [
+      {
+        name: "Random Spark",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "51",
+    flavorText:
+      "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+    nationalPokedexNumbers: [25],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/51.png",
+      large: "https://images.pokemontcg.io/sv5/51_hires.png",
     },
   },
   {
@@ -71761,8 +75973,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH198",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [25],
     legalities: {
       unlimited: "Legal",
@@ -71782,7 +75992,7 @@ const allStandardLegalPokemon = [
     subtypes: ["Basic", "V"],
     hp: "200",
     types: ["Lightning"],
-    evolvesTo: ["Raichu"],
+    evolvesTo: ["Pikachu VMAX"],
     rules: [
       "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.",
     ],
@@ -71807,8 +76017,8 @@ const allStandardLegalPokemon = [
       id: "swshp",
       name: "SWSH Black Star Promos",
       series: "Sword & Shield",
-      printedTotal: 298,
-      total: 287,
+      printedTotal: 307,
+      total: 304,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -71816,14 +76026,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SW",
       releaseDate: "2019/11/15",
-      updatedAt: "2023/04/15 17:00:00",
+      updatedAt: "2022/07/23 20:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/swshp/symbol.png",
         logo: "https://images.pokemontcg.io/swshp/logo.png",
       },
     },
     number: "SWSH285",
-    rarity: "Promo",
     nationalPokedexNumbers: [25],
     legalities: {
       unlimited: "Legal",
@@ -71844,7 +76053,6 @@ const allStandardLegalPokemon = [
     hp: "310",
     types: ["Lightning"],
     evolvesFrom: "Pikachu V",
-    evolvesTo: ["Raichu"],
     rules: [
       "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.",
     ],
@@ -71876,8 +76084,8 @@ const allStandardLegalPokemon = [
       id: "swshp",
       name: "SWSH Black Star Promos",
       series: "Sword & Shield",
-      printedTotal: 298,
-      total: 287,
+      printedTotal: 307,
+      total: 304,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -71885,14 +76093,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SW",
       releaseDate: "2019/11/15",
-      updatedAt: "2023/04/15 17:00:00",
+      updatedAt: "2022/07/23 20:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/swshp/symbol.png",
         logo: "https://images.pokemontcg.io/swshp/logo.png",
       },
     },
     number: "SWSH286",
-    rarity: "Promo",
     nationalPokedexNumbers: [25],
     legalities: {
       unlimited: "Legal",
@@ -71956,8 +76163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "N-DESIGN Inc.",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [25],
     legalities: {
       unlimited: "Legal",
@@ -71968,6 +76173,63 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/63.png",
       large: "https://images.pokemontcg.io/sv2/63_hires.png",
+    },
+  },
+  {
+    id: "svp-85",
+    name: "Pikachu with Grey Felt Hat",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Pika-Portrait",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for a Pikachu and put it onto your Bench. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "85",
+    flavorText:
+      "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
+    nationalPokedexNumbers: [25],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/85.png",
+      large: "https://images.pokemontcg.io/svp/85_hires.png",
     },
   },
   {
@@ -72023,8 +76285,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "yuu",
-    rarity: "Uncommon",
     flavorText:
       "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
     nationalPokedexNumbers: [221],
@@ -72090,8 +76350,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Saya Tsuruta",
-    rarity: "Uncommon",
     flavorText:
       "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
     nationalPokedexNumbers: [871],
@@ -72149,8 +76407,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
     nationalPokedexNumbers: [871],
@@ -72215,8 +76471,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "miki kudo",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
     nationalPokedexNumbers: [871],
@@ -72274,8 +76528,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
     nationalPokedexNumbers: [204],
@@ -72333,8 +76585,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
     nationalPokedexNumbers: [204],
@@ -72347,6 +76597,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/4.png",
       large: "https://images.pokemontcg.io/sv2/4_hires.png",
+    },
+  },
+  {
+    id: "sv5-2",
+    name: "Pineco",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Forretress"],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "2",
+    flavorText:
+      "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
+    nationalPokedexNumbers: [204],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/2.png",
+      large: "https://images.pokemontcg.io/sv5/2_hires.png",
     },
   },
   {
@@ -72399,8 +76708,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
     nationalPokedexNumbers: [127],
@@ -72460,8 +76767,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Atsushi Furusawa",
-    rarity: "Common",
     flavorText:
       "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
     nationalPokedexNumbers: [393],
@@ -72519,8 +76824,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
     nationalPokedexNumbers: [311],
@@ -72587,8 +76890,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "ryoma uratsuka",
-    rarity: "Rare",
     flavorText:
       "At nightfall, these Pokémon appear on the shores of lakes. They announce their territorial claims by letting out cries that sound like shouting.",
     nationalPokedexNumbers: [186],
@@ -72648,8 +76949,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon's innards showing through the skin.",
     nationalPokedexNumbers: [60],
@@ -72708,8 +77007,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "In rivers with fast-flowing water, this Pokémon will cling to a rock by using its thick lips, which act like a suction cup.",
     nationalPokedexNumbers: [60],
@@ -72777,8 +77074,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Scav",
-    rarity: "Uncommon",
     flavorText:
       "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl's has been used in place of lullabies to get children to go to sleep.",
     nationalPokedexNumbers: [61],
@@ -72845,8 +77140,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
     nationalPokedexNumbers: [61],
@@ -72913,8 +77206,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Teeziro",
-    rarity: "Rare",
     flavorText:
       "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
     nationalPokedexNumbers: [62],
@@ -72980,8 +77271,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "Kurata So",
-    rarity: "Uncommon",
     flavorText:
       "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
     nationalPokedexNumbers: [62],
@@ -73053,8 +77342,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Megumi Mizutani",
-    rarity: "Uncommon",
     flavorText:
       "The tea that composes Polteageist's body has a distinct and enjoyable flavor. Drinking too much, however, can be fatal.",
     nationalPokedexNumbers: [855],
@@ -73114,8 +77401,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Jiro Sasumo",
-    rarity: "Common",
     flavorText:
       "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
     nationalPokedexNumbers: [77],
@@ -73175,8 +77460,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
     nationalPokedexNumbers: [77],
@@ -73242,8 +77525,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Nurikabe",
-    rarity: "Common",
     flavorText:
       "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
     nationalPokedexNumbers: [77],
@@ -73256,6 +77537,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/77.png",
       large: "https://images.pokemontcg.io/sv3pt5/77_hires.png",
+    },
+  },
+  {
+    id: "sv5-26",
+    name: "Ponyta",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Rapidash"],
+    attacks: [
+      {
+        name: "Charge Energy",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Flame Tail",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "26",
+    flavorText:
+      "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
+    nationalPokedexNumbers: [77],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/26.png",
+      large: "https://images.pokemontcg.io/sv5/26_hires.png",
     },
   },
   {
@@ -73310,8 +77657,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Common",
     flavorText:
       "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
     nationalPokedexNumbers: [261],
@@ -73324,6 +77669,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/95.png",
       large: "https://images.pokemontcg.io/swsh10/95_hires.png",
+    },
+  },
+  {
+    id: "sv5-105",
+    name: "Poochyena",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Mightyena"],
+    attacks: [
+      {
+        name: "Gnaw Off",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "105",
+    flavorText:
+      "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+    nationalPokedexNumbers: [261],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/105.png",
+      large: "https://images.pokemontcg.io/sv5/105_hires.png",
     },
   },
   {
@@ -73378,8 +77782,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
     nationalPokedexNumbers: [137],
@@ -73438,8 +77840,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
-    artist: "5ban Graphics",
-    rarity: "Common",
     flavorText:
       "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
     nationalPokedexNumbers: [137],
@@ -73498,8 +77898,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Taiga Kayama",
-    rarity: "Common",
     flavorText:
       "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
     nationalPokedexNumbers: [137],
@@ -73566,8 +77964,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Shibuzoh.",
-    rarity: "Rare",
     flavorText:
       "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z's behavior.",
     nationalPokedexNumbers: [474],
@@ -73633,8 +78029,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "hatachu",
-    rarity: "Rare",
     flavorText:
       "Some say an additional program made this Pokémon evolve, but even academics can't agree on whether Porygon-Z is really an evolution.",
     nationalPokedexNumbers: [474],
@@ -73695,8 +78089,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "OKACHEKE",
-    rarity: "Uncommon",
     flavorText:
       "This is a Porygon that was updated with special data. Porygon2 develops itself by learning about many different subjects all on its own.",
     nationalPokedexNumbers: [233],
@@ -73756,8 +78148,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "After artificial intelligence was implemented in Porygon2, the Pokémon began using a strange language that only other Porygon2 understand.",
     nationalPokedexNumbers: [233],
@@ -73816,8 +78206,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "Ryuta Fuse",
-    rarity: "Common",
     flavorText:
       "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
     nationalPokedexNumbers: [57],
@@ -73883,8 +78271,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
     nationalPokedexNumbers: [57],
@@ -73950,8 +78336,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
     nationalPokedexNumbers: [57],
@@ -74012,8 +78396,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Kagemaru Himeno",
-    rarity: "Uncommon",
     flavorText:
       "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
     nationalPokedexNumbers: [394],
@@ -74086,8 +78468,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
     nationalPokedexNumbers: [476],
@@ -74159,8 +78539,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "takuyoa",
-    rarity: "Uncommon",
     flavorText:
       "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
     nationalPokedexNumbers: [476],
@@ -74227,8 +78605,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "GOSSAN",
-    rarity: "Common",
     flavorText:
       "Suffers perpetual headaches. If the agony grows too great, Psyduck's latent power erupts, contrary to Psyduck's intent. Ergo, I am exploring ways to ease the pain.",
     nationalPokedexNumbers: [54],
@@ -74294,8 +78670,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
     nationalPokedexNumbers: [54],
@@ -74367,8 +78741,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
     nationalPokedexNumbers: [710],
@@ -74436,8 +78808,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "Sumiyoshi Kizuki",
-    rarity: "Uncommon",
     flavorText:
       "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
     nationalPokedexNumbers: [247],
@@ -74496,8 +78866,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "Shigenori Negishi",
-    rarity: "Uncommon",
     flavorText:
       "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
     nationalPokedexNumbers: [247],
@@ -74564,8 +78932,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
     flavorText:
       "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
     nationalPokedexNumbers: [247],
@@ -74625,8 +78991,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
     nationalPokedexNumbers: [509],
@@ -74686,8 +79050,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
     nationalPokedexNumbers: [509],
@@ -74753,8 +79115,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
     nationalPokedexNumbers: [509],
@@ -74821,8 +79181,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
     nationalPokedexNumbers: [432],
@@ -74889,8 +79247,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "Misa Tsutsui",
-    rarity: "Rare Holo",
     flavorText:
       "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat.",
     nationalPokedexNumbers: [668],
@@ -74906,7 +79262,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-32",
+    id: "sv2-200",
     name: "Pyroar",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -74955,9 +79311,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "32",
-    artist: "Uta",
-    rarity: "Uncommon",
+    number: "200",
     flavorText:
       "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve.",
     nationalPokedexNumbers: [668],
@@ -74968,8 +79322,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/32.png",
-      large: "https://images.pokemontcg.io/sv2/32_hires.png",
+      small: "https://images.pokemontcg.io/sv2/200.png",
+      large: "https://images.pokemontcg.io/sv2/200_hires.png",
     },
   },
   {
@@ -75023,8 +79377,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
     nationalPokedexNumbers: [914],
@@ -75040,7 +79392,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-52",
+    id: "sv2-235",
     name: "Quaquaval ex",
     supertype: "Pokémon",
     subtypes: ["Stage 2", "ex"],
@@ -75092,9 +79444,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "52",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "235",
     nationalPokedexNumbers: [914],
     legalities: {
       unlimited: "Legal",
@@ -75103,8 +79453,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/52.png",
-      large: "https://images.pokemontcg.io/sv2/52_hires.png",
+      small: "https://images.pokemontcg.io/sv2/235.png",
+      large: "https://images.pokemontcg.io/sv2/235_hires.png",
     },
   },
   {
@@ -75146,8 +79496,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -75155,15 +79505,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "35",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [914],
     legalities: {
       unlimited: "Legal",
@@ -75226,8 +79574,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
     nationalPokedexNumbers: [912],
@@ -75243,67 +79589,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "svp-3",
-    name: "Quaxly",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "70",
-    types: ["Water"],
-    attacks: [
-      {
-        name: "Water Splash",
-        cost: ["Water", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "20+",
-        text: "Flip a coin. If heads, this attack does 20 more damage.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Lightning",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "svp",
-      name: "Scarlet & Violet Black Star Promos",
-      series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PR-SV",
-      releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/svp/symbol.png",
-        logo: "https://images.pokemontcg.io/svp/logo.png",
-      },
-    },
-    number: "3",
-    artist: "Narumi Sato",
-    rarity: "Promo",
-    flavorText:
-      "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
-    nationalPokedexNumbers: [912],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/svp/3.png",
-      large: "https://images.pokemontcg.io/svp/3_hires.png",
-    },
-  },
-  {
-    id: "sv2-49",
+    id: "sv2-206",
     name: "Quaxly",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -75344,9 +79630,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "49",
-    artist: "sui",
-    rarity: "Common",
+    number: "206",
     flavorText:
       "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
     nationalPokedexNumbers: [912],
@@ -75357,8 +79641,66 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/49.png",
-      large: "https://images.pokemontcg.io/sv2/49_hires.png",
+      small: "https://images.pokemontcg.io/sv2/206.png",
+      large: "https://images.pokemontcg.io/sv2/206_hires.png",
+    },
+  },
+  {
+    id: "svp-3",
+    name: "Quaxly",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Water Splash",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "3",
+    flavorText:
+      "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+    nationalPokedexNumbers: [912],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/3.png",
+      large: "https://images.pokemontcg.io/svp/3_hires.png",
     },
   },
   {
@@ -75404,8 +79746,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Naoki Saito",
-    rarity: "Common",
     flavorText:
       "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
     nationalPokedexNumbers: [912],
@@ -75471,8 +79811,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "kirisAki",
-    rarity: "Uncommon",
     flavorText:
       "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
     nationalPokedexNumbers: [913],
@@ -75488,7 +79826,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-51",
+    id: "sv2-207",
     name: "Quaxwell",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -75537,9 +79875,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "51",
-    artist: "Souichirou Gunjima",
-    rarity: "Uncommon",
+    number: "207",
     flavorText:
       "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
     nationalPokedexNumbers: [913],
@@ -75550,8 +79886,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/51.png",
-      large: "https://images.pokemontcg.io/sv2/51_hires.png",
+      small: "https://images.pokemontcg.io/sv2/207.png",
+      large: "https://images.pokemontcg.io/sv2/207_hires.png",
     },
   },
   {
@@ -75607,8 +79943,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Pani Kobayashi",
-    rarity: "Uncommon",
     flavorText:
       "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
     nationalPokedexNumbers: [156],
@@ -75680,8 +80014,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "Oswaldo KATO",
-    rarity: "Rare",
     flavorText:
       "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
     nationalPokedexNumbers: [954],
@@ -75694,6 +80026,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/99.png",
       large: "https://images.pokemontcg.io/sv2/99_hires.png",
+    },
+  },
+  {
+    id: "sv5-24",
+    name: "Rabsca",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesFrom: "Rellor",
+    abilities: [
+      {
+        name: "Spherical Shield",
+        text: "Prevent all damage from and effects of attacks from your opponent's Pokémon done to your Benched Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Psychic",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "24",
+    flavorText:
+      "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
+    nationalPokedexNumbers: [954],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/24.png",
+      large: "https://images.pokemontcg.io/sv5/24_hires.png",
     },
   },
   {
@@ -75756,8 +80154,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Akira Komayama",
-    rarity: "Radiant Rare",
     flavorText:
       "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
     nationalPokedexNumbers: [65],
@@ -75826,8 +80222,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Masakazu Fukuda",
-    rarity: "Radiant Rare",
     flavorText:
       "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
     nationalPokedexNumbers: [9],
@@ -75896,8 +80290,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Shigenori Negishi",
-    rarity: "Radiant Rare",
     flavorText:
       "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
     nationalPokedexNumbers: [6],
@@ -75967,8 +80359,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Mizue",
-    rarity: "Radiant Rare",
     flavorText:
       "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
     nationalPokedexNumbers: [737],
@@ -76047,8 +80437,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH230",
-    artist: "Souichirou Gunjima",
-    rarity: "Promo",
     flavorText:
       "It has the ability to alter the composition of its body to suit its surrounding environment.",
     nationalPokedexNumbers: [133],
@@ -76111,8 +80499,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Kagemaru Himeno",
-    rarity: "Radiant Rare",
     flavorText:
       "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
     nationalPokedexNumbers: [890],
@@ -76181,8 +80567,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Ryuta Fuse",
-    rarity: "Radiant Rare",
     flavorText:
       "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
     nationalPokedexNumbers: [282],
@@ -76251,8 +80635,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "Souichirou Gunjima",
-    rarity: "Radiant Rare",
     flavorText:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     nationalPokedexNumbers: [658],
@@ -76321,8 +80703,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Masakazu Fukuda",
-    rarity: "Radiant Rare",
     flavorText:
       "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
     nationalPokedexNumbers: [701],
@@ -76384,8 +80764,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "Shigenori Negishi",
-    rarity: "Radiant Rare",
     flavorText:
       "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
     nationalPokedexNumbers: [485],
@@ -76454,8 +80832,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Akira Komayama",
-    rarity: "Radiant Rare",
     flavorText:
       "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
     nationalPokedexNumbers: [903],
@@ -76530,8 +80906,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Ryuta Fuse",
-    rarity: "Radiant Rare",
     flavorText:
       "It is said to have the ability to grant any wish for just one week every thousand years.",
     nationalPokedexNumbers: [385],
@@ -76606,8 +80980,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "Sanosuke Sakuma",
-    rarity: "Radiant Rare",
     flavorText:
       "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
     nationalPokedexNumbers: [208],
@@ -76676,8 +81048,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Kagemaru Himeno",
-    rarity: "Radiant Rare",
     flavorText:
       "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
     nationalPokedexNumbers: [763],
@@ -76746,8 +81116,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Misa Tsutsui",
-    rarity: "Radiant Rare",
     flavorText:
       "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
     nationalPokedexNumbers: [3],
@@ -76763,71 +81131,62 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-53",
-    name: "Raichu",
+    id: "sv5-123",
+    name: "Raging Bolt ex",
     supertype: "Pokémon",
-    subtypes: ["Stage 1", "1 Prizer"],
-    hp: "120",
-    types: ["Lightning"],
-    evolvesFrom: "Pikachu",
+    subtypes: ["Basic", "ex", "Ancient"],
+    hp: "240",
+    types: ["Dragon"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
     attacks: [
       {
-        name: "Thunder Shock",
-        cost: ["Lightning"],
+        name: "Burst Roar",
+        cost: ["Colorless"],
         convertedEnergyCost: 1,
-        damage: "30",
-        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        damage: "",
+        text: "Discard your hand and draw 6 cards.",
       },
       {
-        name: "Ace Spark",
-        cost: ["Lightning", "Colorless", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "100+",
-        text: "If you have used your VSTAR Power, this attack does 120 more damage.",
+        name: "Bellowing Thunder",
+        cost: ["Lightning", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "70×",
+        text: "You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way.",
       },
     ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
       },
     },
-    number: "53",
-    artist: "GIDORA",
-    rarity: "Rare",
-    flavorText:
-      "Its long tail serves as a ground to protect itself from its own high-voltage power.",
-    nationalPokedexNumbers: [26],
+    number: "123",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
-    regulationMark: "F",
+    regulationMark: "H",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/53.png",
-      large: "https://images.pokemontcg.io/swsh11/53_hires.png",
+      small: "https://images.pokemontcg.io/sv5/123.png",
+      large: "https://images.pokemontcg.io/sv5/123_hires.png",
     },
   },
   {
@@ -76882,8 +81241,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "Megumi Mizutani",
-    rarity: "Uncommon",
     flavorText:
       "Its long tail serves as a ground to protect itself from its own high-voltage power.",
     nationalPokedexNumbers: [26],
@@ -76899,7 +81256,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-64",
+    id: "swsh11-53",
+    name: "Raichu",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    evolvesFrom: "Pikachu",
+    attacks: [
+      {
+        name: "Thunder Shock",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Ace Spark",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If you have used your VSTAR Power, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "53",
+    flavorText:
+      "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    nationalPokedexNumbers: [26],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/53.png",
+      large: "https://images.pokemontcg.io/swsh11/53_hires.png",
+    },
+  },
+  {
+    id: "sv2-211",
     name: "Raichu",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -76948,9 +81371,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "64",
-    artist: "Teeziro",
-    rarity: "Uncommon",
+    number: "211",
     flavorText:
       "Its tail discharges electricity into the ground, protecting it from getting shocked.",
     nationalPokedexNumbers: [26],
@@ -76961,8 +81382,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/64.png",
-      large: "https://images.pokemontcg.io/sv2/64_hires.png",
+      small: "https://images.pokemontcg.io/sv2/211.png",
+      large: "https://images.pokemontcg.io/sv2/211_hires.png",
     },
   },
   {
@@ -77016,8 +81437,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Naoyo Kimura",
-    rarity: "Rare",
     flavorText:
       "Its tail discharges electricity into the ground, protecting it from getting shocked.",
     nationalPokedexNumbers: [26],
@@ -77030,6 +81449,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/26.png",
       large: "https://images.pokemontcg.io/sv3pt5/26_hires.png",
+    },
+  },
+  {
+    id: "sv5-52",
+    name: "Raichu",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Lightning"],
+    evolvesFrom: "Pikachu",
+    attacks: [
+      {
+        name: "Collateral Bolts",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "This attack does 50 damage to each Pokémon that has any damage counters on it (both yours and your opponent's), except for this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Electric Ball",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "52",
+    flavorText:
+      "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+    nationalPokedexNumbers: [26],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/52.png",
+      large: "https://images.pokemontcg.io/sv5/52_hires.png",
     },
   },
   {
@@ -77086,8 +81571,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "MUGENUP",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [26],
     legalities: {
       unlimited: "Legal",
@@ -77154,8 +81637,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [243],
     legalities: {
       unlimited: "Legal",
@@ -77219,8 +81700,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "Hataya",
-    rarity: "Common",
     flavorText:
       "Tends to prefer people with a chipper disposition to those who are gloomy, but it has shown no discrimination with regard to age or gender. Needs more research.",
     nationalPokedexNumbers: [280],
@@ -77280,8 +81759,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
     nationalPokedexNumbers: [280],
@@ -77345,8 +81822,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "The horns on its head provide a strong power that enables it to sense people's emotions.",
     nationalPokedexNumbers: [280],
@@ -77413,8 +81888,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Nisota Niso",
-    rarity: "Rare Holo",
     flavorText:
       "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
     nationalPokedexNumbers: [409],
@@ -77481,8 +81954,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Ligton",
-    rarity: "Rare",
     flavorText:
       "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
     nationalPokedexNumbers: [78],
@@ -77549,8 +82020,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Megumi Higuchi",
-    rarity: "Rare Holo",
     flavorText:
       "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
     nationalPokedexNumbers: [78],
@@ -77616,8 +82085,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Nurikabe",
-    rarity: "Uncommon",
     flavorText:
       "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
     nationalPokedexNumbers: [78],
@@ -77630,6 +82097,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/78.png",
       large: "https://images.pokemontcg.io/sv3pt5/78_hires.png",
+    },
+  },
+  {
+    id: "sv5-27",
+    name: "Rapidash",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Free Retreat"],
+    hp: "110",
+    types: ["Fire"],
+    evolvesFrom: "Ponyta",
+    attacks: [
+      {
+        name: "Combustion",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Inferno Onrush",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "27",
+    flavorText:
+      "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+    nationalPokedexNumbers: [78],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/27.png",
+      large: "https://images.pokemontcg.io/sv5/27_hires.png",
     },
   },
   {
@@ -77674,8 +82205,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "sowsow",
-    rarity: "Uncommon",
     flavorText:
       "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
     nationalPokedexNumbers: [20],
@@ -77734,8 +82263,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
     nationalPokedexNumbers: [19],
@@ -77801,8 +82328,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "aoki",
-    rarity: "Rare",
     flavorText:
       "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
     nationalPokedexNumbers: [378],
@@ -77862,8 +82387,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "DOM",
-    rarity: "Rare",
     flavorText:
       "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
     nationalPokedexNumbers: [895],
@@ -77926,8 +82449,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [895],
     legalities: {
       unlimited: "Legal",
@@ -77989,8 +82510,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "201",
-    artist: "PLANETA Yamashita",
-    rarity: "Rare Rainbow",
     nationalPokedexNumbers: [895],
     legalities: {
       unlimited: "Legal",
@@ -78054,8 +82573,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Shiburingaru",
-    rarity: "Rare",
     flavorText:
       "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
     nationalPokedexNumbers: [894],
@@ -78124,8 +82641,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "Eske Yoshinob",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [894],
     legalities: {
       unlimited: "Legal",
@@ -78191,8 +82706,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo VMAX",
     nationalPokedexNumbers: [894],
     legalities: {
       unlimited: "Legal",
@@ -78256,8 +82769,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "Yuya Oka",
-    rarity: "Rare Holo",
     flavorText:
       "There is an enduring legend that states this Pokémon towed continents with ropes.",
     nationalPokedexNumbers: [486],
@@ -78323,8 +82834,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH247",
-    artist: "GOSSAN",
-    rarity: "Promo",
     flavorText:
       "There is an enduring legend that states this Pokémon towed continents with ropes.",
     nationalPokedexNumbers: [486],
@@ -78393,8 +82902,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [486],
     legalities: {
       unlimited: "Legal",
@@ -78462,8 +82969,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [486],
     legalities: {
       unlimited: "Legal",
@@ -78527,8 +83032,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare",
     flavorText:
       "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
     nationalPokedexNumbers: [377],
@@ -78600,8 +83103,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "hatachu",
-    rarity: "Rare",
     flavorText:
       "Registeel's body is made of a strange material that is flexible enough to stretch and shrink but also more durable than any metal.",
     nationalPokedexNumbers: [379],
@@ -78614,73 +83115,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/108.png",
       large: "https://images.pokemontcg.io/swsh10/108_hires.png",
-    },
-  },
-  {
-    id: "swsh11-101",
-    name: "Relicanth",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "90",
-    types: ["Fighting"],
-    attacks: [
-      {
-        name: "Into the Deep",
-        cost: ["Colorless"],
-        convertedEnergyCost: 1,
-        damage: "",
-        text: "Put up to 2 basic Energy cards from your discard pile into your hand.",
-      },
-      {
-        name: "Tackle",
-        cost: ["Colorless", "Colorless", "Colorless"],
-        convertedEnergyCost: 3,
-        damage: "80",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Grass",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "101",
-    artist: "ryoma uratsuka",
-    rarity: "Uncommon",
-    flavorText:
-      "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
-    nationalPokedexNumbers: [369],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/101.png",
-      large: "https://images.pokemontcg.io/swsh11/101_hires.png",
     },
   },
   {
@@ -78734,8 +83168,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "SATOSHI NAKAI",
-    rarity: "Common",
     flavorText:
       "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
     nationalPokedexNumbers: [369],
@@ -78748,6 +83180,136 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/44.png",
       large: "https://images.pokemontcg.io/swsh12/44_hires.png",
+    },
+  },
+  {
+    id: "swsh11-101",
+    name: "Relicanth",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Into the Deep",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Put up to 2 basic Energy cards from your discard pile into your hand.",
+      },
+      {
+        name: "Tackle",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "101",
+    flavorText:
+      "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
+    nationalPokedexNumbers: [369],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/101.png",
+      large: "https://images.pokemontcg.io/swsh11/101_hires.png",
+    },
+  },
+  {
+    id: "sv5-84",
+    name: "Relicanth",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Fighting"],
+    abilities: [
+      {
+        name: "Memory Dive",
+        text: "Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Razor Fin",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "84",
+    flavorText:
+      "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
+    nationalPokedexNumbers: [369],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/84.png",
+      large: "https://images.pokemontcg.io/sv5/84_hires.png",
     },
   },
   {
@@ -78793,8 +83355,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
     nationalPokedexNumbers: [953],
@@ -78852,8 +83412,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Anesaki Dynamic",
-    rarity: "Common",
     flavorText:
       "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
     nationalPokedexNumbers: [953],
@@ -78866,6 +83424,64 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/26.png",
       large: "https://images.pokemontcg.io/sv2/26_hires.png",
+    },
+  },
+  {
+    id: "sv5-23",
+    name: "Rellor",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Slight Intrusion",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "23",
+    flavorText:
+      "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+    nationalPokedexNumbers: [953],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/23.png",
+      large: "https://images.pokemontcg.io/sv5/23_hires.png",
     },
   },
   {
@@ -78912,8 +83528,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Midori Harada",
-    rarity: "Common",
     flavorText:
       "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
     nationalPokedexNumbers: [223],
@@ -78982,8 +83596,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [643],
     legalities: {
       unlimited: "Legal",
@@ -79054,8 +83666,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Masakazu Fukuda",
-    rarity: "Rare Holo",
     flavorText:
       "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
     nationalPokedexNumbers: [579],
@@ -79068,6 +83678,78 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/78.png",
       large: "https://images.pokemontcg.io/swsh12/78_hires.png",
+    },
+  },
+  {
+    id: "sv5-72",
+    name: "Reuniclus",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "120",
+    types: ["Psychic"],
+    evolvesFrom: "Duosion",
+    attacks: [
+      {
+        name: "Summoning Gate",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at the top 8 cards of your deck. You may put any number of Pokémon you find there onto your Bench. Shuffle the other cards back into your deck.",
+      },
+      {
+        name: "Brain Shake",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "100",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "72",
+    flavorText:
+      "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+    nationalPokedexNumbers: [579],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/72.png",
+      large: "https://images.pokemontcg.io/sv5/72_hires.png",
     },
   },
   {
@@ -79127,8 +83809,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
     nationalPokedexNumbers: [966],
@@ -79203,8 +83883,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "156",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [966],
     legalities: {
       unlimited: "Legal",
@@ -79270,8 +83948,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "HYOGONOSUKE",
-    rarity: "Uncommon",
     flavorText:
       "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
     nationalPokedexNumbers: [112],
@@ -79338,8 +84014,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     flavorText:
       "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
     nationalPokedexNumbers: [112],
@@ -79399,8 +84073,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
     nationalPokedexNumbers: [111],
@@ -79466,8 +84138,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "GOSSAN",
-    rarity: "Common",
     flavorText:
       "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
     nationalPokedexNumbers: [111],
@@ -79534,8 +84204,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "It can load up to three projectiles per arm into the holes in its hands. What launches out of those holes could be either rocks or Roggenrola.",
     nationalPokedexNumbers: [464],
@@ -79548,6 +84216,63 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/91.png",
       large: "https://images.pokemontcg.io/swsh11/91_hires.png",
+    },
+  },
+  {
+    id: "sv5-76",
+    name: "Ribombee",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Free Retreat"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesFrom: "Cutiefly",
+    attacks: [
+      {
+        name: "Plentiful Pollen",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your next turn, if the Defending Pokémon is Knocked Out, take 2 more Prize cards.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "76",
+    flavorText:
+      "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
+    nationalPokedexNumbers: [743],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/76.png",
+      large: "https://images.pokemontcg.io/sv5/76_hires.png",
     },
   },
   {
@@ -79595,8 +84320,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience.",
     nationalPokedexNumbers: [447],
@@ -79661,8 +84384,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
-    artist: "chibi",
-    rarity: "Common",
     flavorText:
       "They communicate with one another using their auras. They are able to run all through the night.",
     nationalPokedexNumbers: [447],
@@ -79727,8 +84448,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "They communicate with one another using their auras. They are able to run all through the night.",
     nationalPokedexNumbers: [447],
@@ -79741,6 +84460,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/112.png",
       large: "https://images.pokemontcg.io/sv1/112_hires.png",
+    },
+  },
+  {
+    id: "sv5-109",
+    name: "Roaring Moon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "140",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Vengeance Fletching",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "70+",
+        text: "This attack does 10 more damage for each Ancient card in your discard pile.",
+      },
+      {
+        name: "Speed Wing",
+        cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "109",
+    flavorText:
+      "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+    nationalPokedexNumbers: [1005],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/109.png",
+      large: "https://images.pokemontcg.io/sv5/109_hires.png",
     },
   },
   {
@@ -79779,24 +84563,25 @@ const allStandardLegalPokemon = [
     convertedRetreatCost: 2,
     set: {
       id: "svp",
-      name: "Scarlet & Violet Promos",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 29,
-      total: 29,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2022/11/01",
-      updatedAt: "2023/07/20 22:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "67",
-    rarity: "Promo",
+    nationalPokedexNumbers: [1005],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -79860,8 +84645,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
     nationalPokedexNumbers: [744],
@@ -79928,8 +84711,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
     nationalPokedexNumbers: [744],
@@ -79994,8 +84775,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
     nationalPokedexNumbers: [744],
@@ -80054,8 +84833,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
     nationalPokedexNumbers: [744],
@@ -80068,6 +84845,131 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/116.png",
       large: "https://images.pokemontcg.io/sv3/116_hires.png",
+    },
+  },
+  {
+    id: "sv5-89",
+    name: "Rockruff",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Lycanroc"],
+    attacks: [
+      {
+        name: "Paw Shake Punch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "89",
+    flavorText:
+      "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+    nationalPokedexNumbers: [744],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/89.png",
+      large: "https://images.pokemontcg.io/sv5/89_hires.png",
+    },
+  },
+  {
+    id: "sv5-93",
+    name: "Rolycoly",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fighting"],
+    evolvesTo: ["Carkol"],
+    attacks: [
+      {
+        name: "Rolling Tackle",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Power Gem",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "93",
+    flavorText:
+      "On sunny days, Rolycoly will come out onto grassy plains and roll around. Then it will eat the grass that gets tangled in its wheel-like leg.",
+    nationalPokedexNumbers: [837],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/93.png",
+      large: "https://images.pokemontcg.io/sv5/93_hires.png",
     },
   },
   {
@@ -80119,8 +85021,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "164",
-    artist: "Naoki Saito",
-    rarity: "Common",
     flavorText:
       "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
     nationalPokedexNumbers: [821],
@@ -80180,8 +85080,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
     nationalPokedexNumbers: [315],
@@ -80197,7 +85095,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-15",
+    id: "sv5-8",
+    name: "Roselia",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Roserade"],
+    abilities: [
+      {
+        name: "Poison Point",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Leaf Step",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "8",
+    flavorText:
+      "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+    nationalPokedexNumbers: [315],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/8.png",
+      large: "https://images.pokemontcg.io/sv5/8_hires.png",
+    },
+  },
+  {
+    id: "swsh11tg-TG02",
     name: "Roserade",
     supertype: "Pokémon",
     subtypes: ["Stage 1", "1 Prizer"],
@@ -80229,11 +85193,11 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
       series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      printedTotal: 30,
+      total: 30,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -80243,13 +85207,11 @@ const allStandardLegalPokemon = [
       releaseDate: "2022/09/09",
       updatedAt: "2022/09/09 13:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
       },
     },
-    number: "15",
-    artist: "0313",
-    rarity: "Uncommon",
+    number: "TG02",
     flavorText:
       "After captivating opponents with its sweet scent, it lashes them with its thorny whips.",
     nationalPokedexNumbers: [407],
@@ -80260,8 +85222,74 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/15.png",
-      large: "https://images.pokemontcg.io/swsh11/15_hires.png",
+      small: "https://images.pokemontcg.io/swsh11tg/TG02.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG02_hires.png",
+    },
+  },
+  {
+    id: "sv5-9",
+    name: "Roserade",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Roselia",
+    abilities: [
+      {
+        name: "Poison Point",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Bind Down",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "9",
+    flavorText:
+      "After captivating opponents with its sweet scent, it lashes them with its thorny whips.",
+    nationalPokedexNumbers: [407],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/9.png",
+      large: "https://images.pokemontcg.io/sv5/9_hires.png",
     },
   },
   {
@@ -80315,8 +85343,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities.",
     nationalPokedexNumbers: [479],
@@ -80381,8 +85407,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Research continues on this Pokémon, which could be the power source of a unique motor.",
     nationalPokedexNumbers: [479],
@@ -80440,8 +85464,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Nisota Niso",
-    rarity: "Common",
     flavorText:
       "Research continues on this Pokémon, which could be the power source of a unique motor.",
     nationalPokedexNumbers: [479],
@@ -80457,7 +85479,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-58",
+    id: "swsh11-177",
     name: "Rotom V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V", "Ability"],
@@ -80509,9 +85531,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "58",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
+    number: "177",
     nationalPokedexNumbers: [479],
     legalities: {
       unlimited: "Legal",
@@ -80520,8 +85540,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/58.png",
-      large: "https://images.pokemontcg.io/swsh11/58_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/177.png",
+      large: "https://images.pokemontcg.io/swsh11/177_hires.png",
     },
   },
   {
@@ -80578,8 +85598,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH257",
-    artist: "5ban Graphics",
-    rarity: "Promo",
     nationalPokedexNumbers: [479],
     legalities: {
       unlimited: "Legal",
@@ -80647,8 +85665,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [479],
     legalities: {
       unlimited: "Legal",
@@ -80706,8 +85722,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH220",
-    artist: "sowsow",
-    rarity: "Promo",
     flavorText:
       "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings.",
     nationalPokedexNumbers: [722],
@@ -80766,8 +85780,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
     nationalPokedexNumbers: [722],
@@ -80833,8 +85845,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Eri Yamaki",
-    rarity: "Common",
     flavorText:
       "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
     nationalPokedexNumbers: [627],
@@ -80900,8 +85910,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
     nationalPokedexNumbers: [627],
@@ -80973,8 +85981,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "Shibuzoh.",
-    rarity: "Rare Holo",
     flavorText:
       "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away.",
     nationalPokedexNumbers: [302],
@@ -81039,8 +86045,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
-    artist: "Nagomi Nijo",
-    rarity: "Rare",
     flavorText:
       "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
     nationalPokedexNumbers: [302],
@@ -81053,6 +86057,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/136.png",
       large: "https://images.pokemontcg.io/sv2/136_hires.png",
+    },
+  },
+  {
+    id: "sv5-107",
+    name: "Sableye",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Claw Slash",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Damage Collection",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "You may move any number of damage counters from your opponent's Benched Pokémon to their Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "107",
+    flavorText:
+      "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+    nationalPokedexNumbers: [302],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/107.png",
+      large: "https://images.pokemontcg.io/sv5/107_hires.png",
     },
   },
   {
@@ -81107,8 +86176,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas.",
     nationalPokedexNumbers: [757],
@@ -81174,8 +86241,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "Shiburingaru",
-    rarity: "Common",
     flavorText:
       "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
     nationalPokedexNumbers: [757],
@@ -81242,8 +86307,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "aoki",
-    rarity: "Uncommon",
     flavorText:
       "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
     nationalPokedexNumbers: [758],
@@ -81309,8 +86372,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "Shigenori Negishi",
-    rarity: "Uncommon",
     flavorText:
       "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
     nationalPokedexNumbers: [758],
@@ -81376,8 +86437,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",
     nationalPokedexNumbers: [844],
@@ -81437,8 +86496,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "The desert gets cold at night, so when the sun sets, this Pokémon burrows deep into the sand and sleeps until sunrise.",
     nationalPokedexNumbers: [551],
@@ -81503,8 +86560,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
     nationalPokedexNumbers: [551],
@@ -81570,8 +86625,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
     nationalPokedexNumbers: [27],
@@ -81637,8 +86690,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "kodama",
-    rarity: "Uncommon",
     flavorText:
       "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
     nationalPokedexNumbers: [28],
@@ -81651,6 +86702,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/28.png",
       large: "https://images.pokemontcg.io/sv3pt5/28_hires.png",
+    },
+  },
+  {
+    id: "sv5-98",
+    name: "Sandy Shocks",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "120",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Magnetic Burst",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If you have 3 or more Energy in play, this attack does 70 more damage. This attack's damage isn't affected by Weakness.",
+      },
+      {
+        name: "Power Gem",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "98",
+    flavorText:
+      "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon's traits match up with a creature shown in an expedition journal.",
+    nationalPokedexNumbers: [989],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/98.png",
+      large: "https://images.pokemontcg.io/sv5/98_hires.png",
     },
   },
   {
@@ -81706,8 +86822,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [989],
     legalities: {
       unlimited: "Legal",
@@ -81765,8 +86879,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "Grudges of the dead have possessed a mound of sand and become a Pokémon. Sandygast is fond of the shovel on its head.",
     nationalPokedexNumbers: [769],
@@ -81837,8 +86949,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
     nationalPokedexNumbers: [769],
@@ -81897,8 +87007,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "If you see a Sawk training in the mountains in its single-minded pursuit of strength, it's best to quietly pass by.",
     nationalPokedexNumbers: [539],
@@ -81911,6 +87019,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/81.png",
       large: "https://images.pokemontcg.io/swsh9/81_hires.png",
+    },
+  },
+  {
+    id: "sv5-17",
+    name: "Sawsbuck",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Deerling",
+    abilities: [
+      {
+        name: "Changing Seasons",
+        text: "Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Superpowered Horns",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "17",
+    flavorText:
+      "Sawsbuck in their Autumn Form are known for having very short tempers. The males fight each other incessantly.",
+    nationalPokedexNumbers: [586],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/17.png",
+      large: "https://images.pokemontcg.io/sv5/17_hires.png",
     },
   },
   {
@@ -81963,8 +87137,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "This Pokémon scatters poisonous powder to repel enemies. It will eat different plants depending on where it lives.",
     nationalPokedexNumbers: [664],
@@ -82037,8 +87209,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "kodama",
-    rarity: "Rare",
     flavorText:
       "Bulky pincers account for one third of Scizor's body weight. A single swing of one of these pincers will crush a boulder completely.",
     nationalPokedexNumbers: [212],
@@ -82110,8 +87280,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "otumami",
-    rarity: "Rare",
     flavorText:
       "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
     nationalPokedexNumbers: [212],
@@ -82124,6 +87292,79 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/141.png",
       large: "https://images.pokemontcg.io/sv3/141_hires.png",
+    },
+  },
+  {
+    id: "sv5-111",
+    name: "Scizor ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Metal"],
+    evolvesFrom: "Scyther",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Steel Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Cross Breaker",
+        cost: ["Metal", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "120×",
+        text: "Discard up to 2 Metal Energy from this Pokémon. This attack does 120 damage for each card you discarded in this way.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "111",
+    nationalPokedexNumbers: [212],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/111.png",
+      large: "https://images.pokemontcg.io/sv5/111_hires.png",
     },
   },
   {
@@ -82177,8 +87418,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "KEIICHIRO ITO",
-    rarity: "Uncommon",
     flavorText:
       "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
     nationalPokedexNumbers: [952],
@@ -82244,8 +87483,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "kodama",
-    rarity: "Rare",
     flavorText:
       "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
     nationalPokedexNumbers: [952],
@@ -82258,6 +87495,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/25.png",
       large: "https://images.pokemontcg.io/sv3/25_hires.png",
+    },
+  },
+  {
+    id: "sv5-22",
+    name: "Scovillain ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "260",
+    types: ["Grass"],
+    evolvesFrom: "Capsakid",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Chili Snapper Bind",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned. During your opponent's next turn, that Pokémon can't retreat.",
+      },
+      {
+        name: "Two-Headed Crushing",
+        cost: ["Grass", "Grass"],
+        convertedEnergyCost: 2,
+        damage: "140",
+        text: "Discard a random card from your opponent's hand. Discard the top card of your opponent's deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "22",
+    nationalPokedexNumbers: [952],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/22.png",
+      large: "https://images.pokemontcg.io/sv5/22_hires.png",
     },
   },
   {
@@ -82311,8 +87615,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
-    artist: "Mousho",
-    rarity: "Uncommon",
     flavorText:
       "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
     nationalPokedexNumbers: [560],
@@ -82378,8 +87680,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
     nationalPokedexNumbers: [559],
@@ -82433,27 +87733,27 @@ const allStandardLegalPokemon = [
     convertedRetreatCost: 1,
     set: {
       id: "svp",
-      name: "Scarlet & Violet Promos",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 29,
-      total: 29,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2022/11/01",
-      updatedAt: "2023/07/20 22:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "65",
-    artist: "GIDORA",
-    rarity: "Promo",
     flavorText:
       "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+    nationalPokedexNumbers: [985],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -82463,6 +87763,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/svp/65.png",
       large: "https://images.pokemontcg.io/svp/65_hires.png",
+    },
+  },
+  {
+    id: "sv5-77",
+    name: "Scream Tail",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "Ancient", "1 Prizer"],
+    hp: "90",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Supportive Singing",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 100 damage from 1 of your Benched Ancient Pokémon.",
+      },
+      {
+        name: "Hyper Voice",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "77",
+    flavorText:
+      "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+    nationalPokedexNumbers: [985],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/77.png",
+      large: "https://images.pokemontcg.io/sv5/77_hires.png",
     },
   },
   {
@@ -82510,8 +87881,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
     nationalPokedexNumbers: [123],
@@ -82571,8 +87940,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Uta",
-    rarity: "Common",
     flavorText:
       "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
     nationalPokedexNumbers: [123],
@@ -82632,8 +87999,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.",
     nationalPokedexNumbers: [123],
@@ -82699,8 +88064,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
     nationalPokedexNumbers: [123],
@@ -82764,8 +88127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Hideki Ishikawa",
-    rarity: "Uncommon",
     flavorText:
       "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
     nationalPokedexNumbers: [123],
@@ -82778,6 +88139,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/123.png",
       large: "https://images.pokemontcg.io/sv3pt5/123_hires.png",
+    },
+  },
+  {
+    id: "sv5-1",
+    name: "Scyther",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Grass"],
+    evolvesTo: ["Scizor"],
+    attacks: [
+      {
+        name: "Cut Up",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Slashing Strike",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "During your next turn, this Pokémon can't use Slashing Strike.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "1",
+    flavorText:
+      "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+    nationalPokedexNumbers: [123],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/1.png",
+      large: "https://images.pokemontcg.io/sv5/1_hires.png",
     },
   },
   {
@@ -82833,8 +88260,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "It's the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
     nationalPokedexNumbers: [117],
@@ -82894,8 +88319,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "aspara",
-    rarity: "Uncommon",
     flavorText:
       "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
     nationalPokedexNumbers: [117],
@@ -82955,8 +88378,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "otumami",
-    rarity: "Common",
     flavorText:
       "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
     nationalPokedexNumbers: [117],
@@ -83022,8 +88443,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "SIE NANAHARA",
-    rarity: "Uncommon",
     flavorText:
       "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
     nationalPokedexNumbers: [119],
@@ -83083,8 +88502,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon.",
     nationalPokedexNumbers: [273],
@@ -83097,6 +88514,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/11.png",
       large: "https://images.pokemontcg.io/swsh11/11_hires.png",
+    },
+  },
+  {
+    id: "sv5-3",
+    name: "Seedot",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Nuzleaf"],
+    attacks: [
+      {
+        name: "Rigidify",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Hang Down",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "3",
+    flavorText:
+      "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon.",
+    nationalPokedexNumbers: [273],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/3.png",
+      large: "https://images.pokemontcg.io/sv5/3_hires.png",
     },
   },
   {
@@ -83151,8 +88634,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "GIDORA",
-    rarity: "Common",
     flavorText:
       "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
     nationalPokedexNumbers: [86],
@@ -83211,8 +88692,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "aoki",
-    rarity: "Common",
     flavorText:
       "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
     nationalPokedexNumbers: [86],
@@ -83278,8 +88757,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Misa Tsutsui",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages.",
     nationalPokedexNumbers: [537],
@@ -83348,8 +88825,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Ayaka Yoshida",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [497],
     legalities: {
       unlimited: "Legal",
@@ -83415,8 +88890,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [497],
     legalities: {
       unlimited: "Legal",
@@ -83473,8 +88946,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "Tomokazu Komiya",
-    rarity: "Uncommon",
     flavorText:
       "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.",
     nationalPokedexNumbers: [336],
@@ -83539,8 +89010,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
     nationalPokedexNumbers: [336],
@@ -83605,8 +89074,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
     nationalPokedexNumbers: [336],
@@ -83672,8 +89139,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Tonji Matsuno",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
     nationalPokedexNumbers: [319],
@@ -83686,6 +89151,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/47.png",
       large: "https://images.pokemontcg.io/sv3/47_hires.png",
+    },
+  },
+  {
+    id: "sv5-43",
+    name: "Sharpedo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Water"],
+    evolvesFrom: "Carvanha",
+    attacks: [
+      {
+        name: "Chew Off",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Flip 3 coins. For each heads, discard a random card from your opponent's hand.",
+      },
+      {
+        name: "Jet Headbutt",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "43",
+    flavorText:
+      "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph.",
+    nationalPokedexNumbers: [319],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/43.png",
+      large: "https://images.pokemontcg.io/sv5/43_hires.png",
     },
   },
   {
@@ -83739,8 +89270,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "When the turning of seasons brings the cruel winter to its end and the joyous people give thanks to the heavens, Shaymin appears and covers the withered land with flowers.",
     nationalPokedexNumbers: [492],
@@ -83812,8 +89341,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Yukiko Baba",
-    rarity: "Uncommon",
     flavorText:
       "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
     nationalPokedexNumbers: [492],
@@ -83829,7 +89356,70 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh9-13",
+    id: "sv5-13",
+    name: "Shaymin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "70",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Pinpoint Dive",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "This attack does 60 damage to 1 of your opponent's Benched Pokémon ex or Benched Pokémon V. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Rear Kick",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "13",
+    flavorText:
+      "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+    nationalPokedexNumbers: [492],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/13.png",
+      large: "https://images.pokemontcg.io/sv5/13_hires.png",
+    },
+  },
+  {
+    id: "swsh9-152",
     name: "Shaymin V",
     supertype: "Pokémon",
     subtypes: ["Basic", "V"],
@@ -83881,9 +89471,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "13",
-    artist: "Satoshi Shirai",
-    rarity: "Rare Holo V",
+    number: "152",
     nationalPokedexNumbers: [492],
     legalities: {
       unlimited: "Legal",
@@ -83892,8 +89480,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/13.png",
-      large: "https://images.pokemontcg.io/swsh9/13_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/152.png",
+      large: "https://images.pokemontcg.io/swsh9/152_hires.png",
     },
   },
   {
@@ -83951,8 +89539,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [492],
     legalities: {
       unlimited: "Legal",
@@ -84009,8 +89595,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "Nelnal",
-    rarity: "Common",
     flavorText:
       "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
     nationalPokedexNumbers: [90],
@@ -84077,8 +89661,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "There's speculation that its appearance is determined by what it eats, but the truth remains elusive.",
     nationalPokedexNumbers: [422],
@@ -84152,8 +89734,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Yuka Morii",
-    rarity: "Uncommon",
     flavorText:
       "Although its fossils can be found in layers of primeval rock, nothing but its face has ever been discovered.",
     nationalPokedexNumbers: [410],
@@ -84220,8 +89800,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "kawayoo",
-    rarity: "Rare Holo",
     flavorText:
       "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
     nationalPokedexNumbers: [275],
@@ -84234,6 +89812,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/13.png",
       large: "https://images.pokemontcg.io/swsh11/13_hires.png",
+    },
+  },
+  {
+    id: "sv5-5",
+    name: "Shiftry",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "150",
+    types: ["Grass"],
+    evolvesFrom: "Nuzleaf",
+    attacks: [
+      {
+        name: "Expelling Tornado",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Choose 3 of your opponent's Benched Pokémon. If you do, shuffle all of your opponent's Benched Pokémon that you didn't choose, and all cards attached to those Pokémon, into their deck.",
+      },
+      {
+        name: "Energy Loop",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "140",
+        text: "Put an Energy attached to this Pokémon into your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "5",
+    flavorText:
+      "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+    nationalPokedexNumbers: [275],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/5.png",
+      large: "https://images.pokemontcg.io/sv5/5_hires.png",
     },
   },
   {
@@ -84279,8 +89923,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
     nationalPokedexNumbers: [403],
@@ -84340,8 +89982,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
     nationalPokedexNumbers: [403],
@@ -84406,8 +90046,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
     nationalPokedexNumbers: [403],
@@ -84465,8 +90103,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
     nationalPokedexNumbers: [403],
@@ -84531,8 +90167,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "144",
-    artist: "Akira Komayama",
-    rarity: "Common",
     flavorText:
       "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
     nationalPokedexNumbers: [944],
@@ -84590,8 +90224,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "Anesaki Dynamic",
-    rarity: "Common",
     flavorText:
       "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
     nationalPokedexNumbers: [944],
@@ -84651,8 +90283,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
     nationalPokedexNumbers: [285],
@@ -84710,8 +90340,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
     nationalPokedexNumbers: [285],
@@ -84724,6 +90352,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/3.png",
       large: "https://images.pokemontcg.io/sv1/3_hires.png",
+    },
+  },
+  {
+    id: "sv5-6",
+    name: "Shroomish",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Breloom"],
+    attacks: [
+      {
+        name: "Double Headbutt",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Flip 2 coins. This attack does 10 damage for each heads.",
+      },
+      {
+        name: "Seed Bomb",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "6",
+    flavorText:
+      "If it senses danger, it scatters spores from the top of its head to protect itself.",
+    nationalPokedexNumbers: [285],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/6.png",
+      large: "https://images.pokemontcg.io/sv5/6_hires.png",
     },
   },
   {
@@ -84776,8 +90470,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Kurata So",
-    rarity: "Common",
     flavorText:
       "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
     nationalPokedexNumbers: [213],
@@ -84843,8 +90535,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       'There\'s a proverb that says, "Shun the house where Shuppet gather in the growing dusk."',
     nationalPokedexNumbers: [353],
@@ -84908,8 +90598,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
     nationalPokedexNumbers: [353],
@@ -84981,8 +90669,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "Sumiyoshi Kizuki",
-    rarity: "Uncommon",
     flavorText:
       "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
     nationalPokedexNumbers: [561],
@@ -85054,8 +90740,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
     nationalPokedexNumbers: [561],
@@ -85123,8 +90807,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Kagemaru Himeno",
-    rarity: "Uncommon",
     flavorText:
       "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
     nationalPokedexNumbers: [266],
@@ -85182,8 +90864,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
     nationalPokedexNumbers: [843],
@@ -85249,8 +90929,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
     nationalPokedexNumbers: [516],
@@ -85316,8 +90994,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Kurata So",
-    rarity: "Uncommon",
     flavorText:
       "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
     nationalPokedexNumbers: [512],
@@ -85383,8 +91059,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
     nationalPokedexNumbers: [514],
@@ -85453,8 +91127,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [514],
     legalities: {
       unlimited: "Legal",
@@ -85522,8 +91194,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [514],
     legalities: {
       unlimited: "Legal",
@@ -85586,8 +91256,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
     nationalPokedexNumbers: [854],
@@ -85600,6 +91268,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/97.png",
       large: "https://images.pokemontcg.io/sv3/97_hires.png",
+    },
+  },
+  {
+    id: "sv5-36",
+    name: "Sizzlipede",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesTo: ["Centiskorch"],
+    attacks: [
+      {
+        name: "Heat Dive",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "36",
+    flavorText:
+      "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+    nationalPokedexNumbers: [850],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/36.png",
+      large: "https://images.pokemontcg.io/sv5/36_hires.png",
     },
   },
   {
@@ -85658,8 +91385,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Takeshi Nakamura",
-    rarity: "Uncommon",
     flavorText:
       "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
     nationalPokedexNumbers: [227],
@@ -85725,8 +91450,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "nagimiso",
-    rarity: "Rare",
     flavorText:
       "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
     nationalPokedexNumbers: [911],
@@ -85742,7 +91465,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-37",
+    id: "sv2-233",
     name: "Skeledirge ex",
     supertype: "Pokémon",
     subtypes: ["Stage 2", "ex"],
@@ -85794,9 +91517,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "37",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "233",
     nationalPokedexNumbers: [911],
     legalities: {
       unlimited: "Legal",
@@ -85805,8 +91526,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/37.png",
-      large: "https://images.pokemontcg.io/sv2/37_hires.png",
+      small: "https://images.pokemontcg.io/sv2/233.png",
+      large: "https://images.pokemontcg.io/sv2/233_hires.png",
     },
   },
   {
@@ -85870,8 +91591,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [911],
     legalities: {
       unlimited: "Legal",
@@ -85934,8 +91653,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Until recently, people living in the mountains would ride on the back of these Pokémon to traverse the mountain paths.",
     nationalPokedexNumbers: [672],
@@ -86001,8 +91718,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Uncommon",
     flavorText:
       "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head.",
     nationalPokedexNumbers: [188],
@@ -86015,6 +91730,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/2.png",
       large: "https://images.pokemontcg.io/sv2/2_hires.png",
+    },
+  },
+  {
+    id: "sv5-130",
+    name: "Skitty",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Delcatty"],
+    attacks: [
+      {
+        name: "Call for Family",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Tackle",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "130",
+    flavorText:
+      "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+    nationalPokedexNumbers: [300],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/130.png",
+      large: "https://images.pokemontcg.io/sv5/130_hires.png",
     },
   },
   {
@@ -86069,8 +91850,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "It drifts in the ocean, blending in with floating seaweed. When other Pokémon come to feast on the seaweed, Skrelp feasts on them instead.",
     nationalPokedexNumbers: [690],
@@ -86139,8 +91918,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
-    artist: "MUGENUP",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [435],
     legalities: {
       unlimited: "Legal",
@@ -86198,8 +91975,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries.",
     nationalPokedexNumbers: [819],
@@ -86264,8 +92039,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
     nationalPokedexNumbers: [819],
@@ -86331,8 +92104,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "178",
-    artist: "Taiga Kayama",
-    rarity: "Common",
     flavorText:
       "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
     nationalPokedexNumbers: [819],
@@ -86398,8 +92169,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "162",
-    artist: "Yuya Oka",
-    rarity: "Rare",
     flavorText:
       "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
     nationalPokedexNumbers: [289],
@@ -86468,8 +92237,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Saki Hayashiro",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [289],
     legalities: {
       unlimited: "Legal",
@@ -86525,8 +92292,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "160",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
     nationalPokedexNumbers: [287],
@@ -86591,8 +92356,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
     nationalPokedexNumbers: [988],
@@ -86659,8 +92422,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "Mina Nakai",
-    rarity: "Uncommon",
     flavorText:
       "Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.",
     nationalPokedexNumbers: [80],
@@ -86726,8 +92487,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Shinji Kanda",
-    rarity: "Rare",
     flavorText:
       "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
     nationalPokedexNumbers: [80],
@@ -86799,8 +92558,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "OKACHEKE",
-    rarity: "Uncommon",
     flavorText:
       "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
     nationalPokedexNumbers: [80],
@@ -86876,8 +92633,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [199],
     legalities: {
       unlimited: "Legal",
@@ -86942,8 +92697,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "N-DESIGN Inc.",
-    rarity: "Common",
     flavorText:
       "Slow-witted and oblivious, this Pokémon won't feel any pain if its tail gets eaten. It won't notice when its tail grows back, either.",
     nationalPokedexNumbers: [79],
@@ -86956,72 +92709,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/pgo/19.png",
       large: "https://images.pokemontcg.io/pgo/19_hires.png",
-    },
-  },
-  {
-    id: "sv1-42",
-    name: "Slowpoke",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "70",
-    types: ["Water"],
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Rest",
-        damage: "",
-        text: "This Pokémon is now Asleep. Heal 30 damage from it.",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Water", "Colorless"],
-        name: "Headbutt",
-        damage: "20",
-        text: "",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Lightning",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless"],
-    convertedRetreatCost: 2,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "42",
-    artist: "Narumi Sato",
-    rarity: "Common",
-    flavorText:
-      "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
-    nationalPokedexNumbers: [79],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/42.png",
-      large: "https://images.pokemontcg.io/sv1/42_hires.png",
     },
   },
   {
@@ -87080,8 +92767,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
     nationalPokedexNumbers: [79],
@@ -87094,6 +92779,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/85.png",
       large: "https://images.pokemontcg.io/sv2/85_hires.png",
+    },
+  },
+  {
+    id: "sv1-42",
+    name: "Slowpoke",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Rest",
+        damage: "",
+        text: "This Pokémon is now Asleep. Heal 30 damage from it.",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Water", "Colorless"],
+        name: "Headbutt",
+        damage: "20",
+        text: "",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "42",
+    flavorText:
+      "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+    nationalPokedexNumbers: [79],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/42.png",
+      large: "https://images.pokemontcg.io/sv1/42_hires.png",
     },
   },
   {
@@ -87153,8 +92902,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
     nationalPokedexNumbers: [79],
@@ -87221,8 +92968,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Scav",
-    rarity: "Common",
     flavorText:
       "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
     nationalPokedexNumbers: [218],
@@ -87235,6 +92980,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/21.png",
       large: "https://images.pokemontcg.io/swsh11/21_hires.png",
+    },
+  },
+  {
+    id: "sv5-28",
+    name: "Slugma",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesTo: ["Magcargo"],
+    attacks: [
+      {
+        name: "Roasting Heat",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "If your opponent's Active Pokémon is Burned, this attack does 40 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "28",
+    flavorText:
+      "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+    nationalPokedexNumbers: [218],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/28.png",
+      large: "https://images.pokemontcg.io/sv5/28_hires.png",
     },
   },
   {
@@ -87289,8 +93093,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Mizue",
-    rarity: "Uncommon",
     flavorText:
       "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
     nationalPokedexNumbers: [685],
@@ -87356,8 +93158,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "TG10",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Trainer Gallery Rare Holo",
     flavorText:
       "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.",
     nationalPokedexNumbers: [235],
@@ -87415,8 +93215,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
     nationalPokedexNumbers: [928],
@@ -87432,7 +93230,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv1-21",
+    id: "svp-23",
     name: "Smoliv",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -87440,18 +93238,18 @@ const allStandardLegalPokemon = [
     types: ["Grass"],
     attacks: [
       {
-        cost: ["Grass"],
         name: "Nutrients",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
         damage: "",
         text: "Heal 30 damage from 1 of your Pokémon.",
-        convertedEnergyCost: 1,
       },
       {
-        cost: ["Grass", "Colorless"],
         name: "Spray Fluid",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
         damage: "20",
         text: "",
-        convertedEnergyCost: 2,
       },
     ],
     weaknesses: [
@@ -87463,26 +93261,25 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless"],
     convertedRetreatCost: 1,
     set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
-    number: "21",
-    artist: "Shibuzoh.",
-    rarity: "Common",
+    number: "23",
     flavorText:
       "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
     nationalPokedexNumbers: [928],
@@ -87493,8 +93290,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv1/21.png",
-      large: "https://images.pokemontcg.io/sv1/21_hires.png",
+      small: "https://images.pokemontcg.io/svp/23.png",
+      large: "https://images.pokemontcg.io/svp/23_hires.png",
     },
   },
   {
@@ -87541,8 +93338,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "Masako Tomii",
-    rarity: "Common",
     flavorText:
       "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
     nationalPokedexNumbers: [928],
@@ -87609,8 +93404,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
-    artist: "yuu",
-    rarity: "Common",
     flavorText:
       "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
     nationalPokedexNumbers: [215],
@@ -87668,8 +93461,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
     nationalPokedexNumbers: [215],
@@ -87685,70 +93476,62 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "pgo-55",
-    name: "Snorlax",
+    id: "sv5-45",
+    name: "Snom",
     supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer", "Ability"],
-    hp: "150",
-    types: ["Colorless"],
-    abilities: [
-      {
-        name: "Block",
-        text: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.",
-        type: "Ability",
-      },
-    ],
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Water"],
+    evolvesTo: ["Frosmoth"],
     attacks: [
       {
-        name: "Collapse",
-        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-        convertedEnergyCost: 4,
-        damage: "150",
-        text: "This Pokémon is now Asleep.",
+        name: "Powder Snow",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Your opponent's Active Pokémon is now Asleep.",
       },
     ],
     weaknesses: [
       {
-        type: "Fighting",
+        type: "Metal",
         value: "×2",
       },
     ],
-    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 4,
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
     set: {
-      id: "pgo",
-      name: "Pokémon GO",
-      series: "Sword & Shield",
-      printedTotal: 78,
-      total: 88,
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "PGO",
-      releaseDate: "2022/07/01",
-      updatedAt: "2022/07/06 17:07:00",
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
       images: {
-        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
-        logo: "https://images.pokemontcg.io/pgo/logo.png",
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
       },
     },
-    number: "55",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo",
+    number: "45",
     flavorText:
-      "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
-    nationalPokedexNumbers: [143],
+      "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
+    nationalPokedexNumbers: [872],
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
-    regulationMark: "F",
+    regulationMark: "H",
     images: {
-      small: "https://images.pokemontcg.io/pgo/55.png",
-      large: "https://images.pokemontcg.io/pgo/55_hires.png",
+      small: "https://images.pokemontcg.io/sv5/45.png",
+      large: "https://images.pokemontcg.io/sv5/45_hires.png",
     },
   },
   {
@@ -87802,8 +93585,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "TG10",
-    artist: "Kouki Saitou",
-    rarity: "Trainer Gallery Rare Holo",
     flavorText:
       "This glutton appears in villages without warning and devours the entirety of their rice granaries—such occurrences have long been counted among the gravest of disasters.",
     nationalPokedexNumbers: [143],
@@ -87816,6 +93597,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11tg/TG10.png",
       large: "https://images.pokemontcg.io/swsh11tg/TG10_hires.png",
+    },
+  },
+  {
+    id: "pgo-55",
+    name: "Snorlax",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "150",
+    types: ["Colorless"],
+    abilities: [
+      {
+        name: "Block",
+        text: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Collapse",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150",
+        text: "This Pokémon is now Asleep.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "pgo",
+      name: "Pokémon GO",
+      series: "Sword & Shield",
+      printedTotal: 78,
+      total: 88,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PGO",
+      releaseDate: "2022/07/01",
+      updatedAt: "2022/07/06 17:07:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
+        logo: "https://images.pokemontcg.io/pgo/logo.png",
+      },
+    },
+    number: "55",
+    flavorText:
+      "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+    nationalPokedexNumbers: [143],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/pgo/55.png",
+      large: "https://images.pokemontcg.io/pgo/55_hires.png",
     },
   },
   {
@@ -87868,8 +93714,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "143",
-    artist: "HYOGONOSUKE",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
     nationalPokedexNumbers: [143],
@@ -87936,8 +93780,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.",
     nationalPokedexNumbers: [361],
@@ -87996,8 +93838,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "satoma",
-    rarity: "Common",
     flavorText:
       "It is said that several Snorunt gather under giant leaves and live together in harmony.",
     nationalPokedexNumbers: [361],
@@ -88064,8 +93904,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
-    artist: "Mitsuhiro Arita",
-    rarity: "Common",
     flavorText:
       "One is likely to encounter this Pokémon while out in the snow. There are stories of Snover appearing in human settlements but doing no harm—rather, they bond with the children.",
     nationalPokedexNumbers: [459],
@@ -88123,8 +93961,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Taira Akitsu",
-    rarity: "Common",
     flavorText:
       "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
     nationalPokedexNumbers: [459],
@@ -88190,8 +94026,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
     nationalPokedexNumbers: [209],
@@ -88257,8 +94091,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Ligton",
-    rarity: "Common",
     flavorText:
       "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
     nationalPokedexNumbers: [577],
@@ -88271,6 +94103,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/76.png",
       large: "https://images.pokemontcg.io/swsh12/76_hires.png",
+    },
+  },
+  {
+    id: "sv5-70",
+    name: "Solosis",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "40",
+    types: ["Psychic"],
+    evolvesTo: ["Duosion"],
+    attacks: [
+      {
+        name: "Surprise Attack",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "70",
+    flavorText:
+      "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+    nationalPokedexNumbers: [577],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/70.png",
+      large: "https://images.pokemontcg.io/sv5/70_hires.png",
     },
   },
   {
@@ -88324,8 +94221,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
-    artist: "Sekio",
-    rarity: "Uncommon",
     flavorText:
       "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
     nationalPokedexNumbers: [338],
@@ -88396,8 +94291,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
-    artist: "Tetsu Kayama",
-    rarity: "Uncommon",
     flavorText:
       "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
     nationalPokedexNumbers: [338],
@@ -88469,8 +94362,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
-    artist: "Gemi",
-    rarity: "Common",
     flavorText:
       "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon.",
     nationalPokedexNumbers: [21],
@@ -88542,8 +94433,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "Narumi Sato",
-    rarity: "Rare Holo",
     flavorText:
       "It probes its surroundings with all its senses save one—it doesn't use its sense of sight. Spectrier's kicks are said to separate soul from body.",
     nationalPokedexNumbers: [897],
@@ -88609,8 +94498,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "Spewpa doesn't live in a fixed location. It roams where it pleases across the fields and mountains, building up the energy it needs to evolve.",
     nationalPokedexNumbers: [665],
@@ -88661,8 +94548,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -88670,15 +94557,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "9",
-    artist: "Anesaki Dynamic",
-    rarity: "Promo",
     flavorText:
       "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
     nationalPokedexNumbers: [918],
@@ -88744,8 +94629,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     flavorText:
       "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
     nationalPokedexNumbers: [918],
@@ -88814,8 +94697,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     flavorText:
       "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
     nationalPokedexNumbers: [918],
@@ -88828,6 +94709,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/19.png",
       large: "https://images.pokemontcg.io/sv1/19_hires.png",
+    },
+  },
+  {
+    id: "swsh12-3",
+    name: "Spinarak",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Ariados"],
+    attacks: [
+      {
+        name: "Bug Bite",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "swsh12",
+      name: "Silver Tempest",
+      series: "Sword & Shield",
+      printedTotal: 195,
+      total: 215,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SIT",
+      releaseDate: "2022/11/11",
+      updatedAt: "2022/09/09 11:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh12/logo.png",
+      },
+    },
+    number: "3",
+    flavorText:
+      "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
+    nationalPokedexNumbers: [167],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh12/3.png",
+      large: "https://images.pokemontcg.io/swsh12/3_hires.png",
     },
   },
   {
@@ -88875,8 +94815,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
     nationalPokedexNumbers: [167],
@@ -88936,8 +94874,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Atsuko Nishida",
-    rarity: "Common",
     flavorText:
       "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
     nationalPokedexNumbers: [167],
@@ -88950,67 +94886,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/112.png",
       large: "https://images.pokemontcg.io/swsh11/112_hires.png",
-    },
-  },
-  {
-    id: "swsh12-3",
-    name: "Spinarak",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "60",
-    types: ["Grass"],
-    evolvesTo: ["Ariados"],
-    attacks: [
-      {
-        name: "Bug Bite",
-        cost: ["Grass", "Colorless"],
-        convertedEnergyCost: 2,
-        damage: "30",
-        text: "",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "swsh12",
-      name: "Silver Tempest",
-      series: "Sword & Shield",
-      printedTotal: 195,
-      total: 215,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "SIT",
-      releaseDate: "2022/11/11",
-      updatedAt: "2022/09/09 11:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh12/logo.png",
-      },
-    },
-    number: "3",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
-    flavorText:
-      "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
-    nationalPokedexNumbers: [167],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh12/3.png",
-      large: "https://images.pokemontcg.io/swsh12/3_hires.png",
     },
   },
   {
@@ -89057,8 +94932,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
     nationalPokedexNumbers: [327],
@@ -89123,8 +94996,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "Masakazu Fukuda",
-    rarity: "Common",
     flavorText:
       "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
     nationalPokedexNumbers: [327],
@@ -89190,8 +95061,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Uta",
-    rarity: "Common",
     flavorText:
       "Exactly 108 spirits gathered to become this Pokémon. Apparently there are some ill-natured spirits in the mix.",
     nationalPokedexNumbers: [442],
@@ -89207,7 +95076,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "swsh11-117",
+    id: "swsh11tg-TG09",
     name: "Spiritomb",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer", "Ability"],
@@ -89238,11 +95107,11 @@ const allStandardLegalPokemon = [
     retreatCost: ["Colorless", "Colorless"],
     convertedRetreatCost: 2,
     set: {
-      id: "swsh11",
-      name: "Lost Origin",
+      id: "swsh11tg",
+      name: "Lost Origin Trainer Gallery",
       series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
+      printedTotal: 30,
+      total: 30,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -89252,15 +95121,13 @@ const allStandardLegalPokemon = [
       releaseDate: "2022/09/09",
       updatedAt: "2022/09/09 13:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh11tg/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11tg/logo.png",
       },
     },
-    number: "117",
-    artist: "sui",
-    rarity: "Rare",
+    number: "TG09",
     flavorText:
-      "Exactly 108 spirits gathered to become this Pokémon. Apparently there are some ill-natured spirits in the mix.",
+      "It lays curses by thinking wicked thoughts. Writings tell that this Pokémon was born out of the assembly of five score and eight malevolent spirits.",
     nationalPokedexNumbers: [442],
     legalities: {
       unlimited: "Legal",
@@ -89269,8 +95136,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/117.png",
-      large: "https://images.pokemontcg.io/swsh11/117_hires.png",
+      small: "https://images.pokemontcg.io/swsh11tg/TG09.png",
+      large: "https://images.pokemontcg.io/swsh11tg/TG09_hires.png",
     },
   },
   {
@@ -89323,8 +95190,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
-    artist: "Naoyo Kimura",
-    rarity: "Uncommon",
     flavorText:
       "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
     nationalPokedexNumbers: [442],
@@ -89395,8 +95260,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
-    artist: "Aya Kusube",
-    rarity: "Rare",
     flavorText:
       "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
     nationalPokedexNumbers: [442],
@@ -89468,8 +95331,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
-    artist: "GOSSAN",
-    rarity: "Common",
     flavorText:
       "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
     nationalPokedexNumbers: [325],
@@ -89534,8 +95395,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
     nationalPokedexNumbers: [906],
@@ -89551,67 +95410,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "svp-1",
-    name: "Sprigatito",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "70",
-    types: ["Grass"],
-    attacks: [
-      {
-        name: "Mini Drain",
-        cost: ["Grass"],
-        convertedEnergyCost: 1,
-        damage: "10",
-        text: "Heal 10 damage from this Pokémon.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "svp",
-      name: "Scarlet & Violet Black Star Promos",
-      series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "PR-SV",
-      releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/svp/symbol.png",
-        logo: "https://images.pokemontcg.io/svp/logo.png",
-      },
-    },
-    number: "1",
-    artist: "Yuu Nishida",
-    rarity: "Promo",
-    flavorText:
-      "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
-    nationalPokedexNumbers: [906],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/svp/1.png",
-      large: "https://images.pokemontcg.io/svp/1_hires.png",
-    },
-  },
-  {
-    id: "sv2-12",
+    id: "sv2-196",
     name: "Sprigatito",
     supertype: "Pokémon",
     subtypes: ["Basic", "1 Prizer"],
@@ -89659,9 +95458,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "12",
-    artist: "Megumi Mizutani",
-    rarity: "Common",
+    number: "196",
     flavorText:
       "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
     nationalPokedexNumbers: [906],
@@ -89672,8 +95469,66 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/12.png",
-      large: "https://images.pokemontcg.io/sv2/12_hires.png",
+      small: "https://images.pokemontcg.io/sv2/196.png",
+      large: "https://images.pokemontcg.io/sv2/196_hires.png",
+    },
+  },
+  {
+    id: "svp-1",
+    name: "Sprigatito",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Mini Drain",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Heal 10 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Black Star Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 102,
+      total: 75,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "PR-SV",
+      releaseDate: "2023/01/01",
+      updatedAt: "2023/12/11 23:15:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "1",
+    flavorText:
+      "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+    nationalPokedexNumbers: [906],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/svp/1.png",
+      large: "https://images.pokemontcg.io/svp/1_hires.png",
     },
   },
   {
@@ -89719,8 +95574,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "Naoyo Kimura",
-    rarity: "Common",
     flavorText:
       "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
     nationalPokedexNumbers: [906],
@@ -89791,8 +95644,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "162",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Green-feathered flocks hold the most sway. When they're out searching for food in the mornings and evenings, it gets very noisy.",
     nationalPokedexNumbers: [931],
@@ -89866,8 +95717,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "169",
-    artist: "PLANETA Mochizuki",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [931],
     legalities: {
       unlimited: "Legal",
@@ -89925,8 +95774,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
     nationalPokedexNumbers: [7],
@@ -89992,8 +95839,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "kantaro",
-    rarity: "Common",
     flavorText:
       "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
     nationalPokedexNumbers: [7],
@@ -90036,8 +95881,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -90045,15 +95890,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "48",
-    artist: "Gemi",
-    rarity: "Promo",
     flavorText:
       "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
     nationalPokedexNumbers: [7],
@@ -90112,8 +95955,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia.",
     nationalPokedexNumbers: [234],
@@ -90186,8 +96027,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Narumi Sato",
-    rarity: "Rare",
     flavorText:
       "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
     nationalPokedexNumbers: [398],
@@ -90259,8 +96098,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "150",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
     nationalPokedexNumbers: [398],
@@ -90327,8 +96164,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
     nationalPokedexNumbers: [397],
@@ -90400,8 +96235,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "149",
-    artist: "kantaro",
-    rarity: "Common",
     flavorText:
       "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
     nationalPokedexNumbers: [397],
@@ -90467,8 +96300,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
     nationalPokedexNumbers: [396],
@@ -90532,8 +96363,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
     nationalPokedexNumbers: [396],
@@ -90604,8 +96433,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
     nationalPokedexNumbers: [121],
@@ -90671,8 +96498,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Arai Kiriko",
-    rarity: "Rare",
     flavorText:
       "Starmie swims by spinning its body at high speed. As this Pokémon cruises through the ocean, it absorbs tiny plankton.",
     nationalPokedexNumbers: [121],
@@ -90739,8 +96564,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Eske Yoshinob",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [121],
     legalities: {
       unlimited: "Legal",
@@ -90798,8 +96621,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "If you visit a beach at the end of summer, you'll be able to see groups of Staryu lighting up in a steady rhythm.",
     nationalPokedexNumbers: [120],
@@ -90858,8 +96679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "Arai Kiriko",
-    rarity: "Common",
     flavorText:
       "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
     nationalPokedexNumbers: [120],
@@ -90932,8 +96751,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     flavorText:
       "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
     nationalPokedexNumbers: [208],
@@ -91005,8 +96822,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
-    artist: "Po-Suzuki",
-    rarity: "Rare",
     flavorText:
       "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
     nationalPokedexNumbers: [208],
@@ -91073,8 +96888,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
     nationalPokedexNumbers: [762],
@@ -91141,8 +96954,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Kariya",
-    rarity: "Uncommon",
     flavorText:
       "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
     nationalPokedexNumbers: [762],
@@ -91155,73 +96966,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/9.png",
       large: "https://images.pokemontcg.io/sv4/9_hires.png",
-    },
-  },
-  {
-    id: "swsh11-111",
-    name: "Stonjourner",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "140",
-    types: ["Fighting"],
-    attacks: [
-      {
-        name: "Power Stone",
-        cost: ["Colorless"],
-        convertedEnergyCost: 1,
-        damage: "",
-        text: "Attach up to 2 Fighting Energy cards from your hand to your Pokémon in any way you like.",
-      },
-      {
-        name: "Lost Shot",
-        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
-        convertedEnergyCost: 4,
-        damage: "120",
-        text: "Put the top card of your opponent's deck in the Lost Zone.",
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Grass",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-    convertedRetreatCost: 4,
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "111",
-    artist: "HYOGONOSUKE",
-    rarity: "Rare",
-    flavorText:
-      "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
-    nationalPokedexNumbers: [874],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/111.png",
-      large: "https://images.pokemontcg.io/swsh11/111_hires.png",
     },
   },
   {
@@ -91275,8 +97019,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Hataya",
-    rarity: "Uncommon",
     flavorText:
       "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
     nationalPokedexNumbers: [874],
@@ -91289,6 +97031,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/101.png",
       large: "https://images.pokemontcg.io/swsh12/101_hires.png",
+    },
+  },
+  {
+    id: "swsh11-111",
+    name: "Stonjourner",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "140",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Power Stone",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Attach up to 2 Fighting Energy cards from your hand to your Pokémon in any way you like.",
+      },
+      {
+        name: "Lost Shot",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120",
+        text: "Put the top card of your opponent's deck in the Lost Zone.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "swsh11",
+      name: "Lost Origin",
+      series: "Sword & Shield",
+      printedTotal: 196,
+      total: 217,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "LOR",
+      releaseDate: "2022/09/09",
+      updatedAt: "2022/09/09 13:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh11/logo.png",
+      },
+    },
+    number: "111",
+    flavorText:
+      "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
+    nationalPokedexNumbers: [874],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "F",
+    images: {
+      small: "https://images.pokemontcg.io/swsh11/111.png",
+      large: "https://images.pokemontcg.io/swsh11/111_hires.png",
     },
   },
   {
@@ -91341,8 +97148,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "Yuka Morii",
-    rarity: "Uncommon",
     flavorText:
       "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
     nationalPokedexNumbers: [874],
@@ -91408,8 +97213,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "172",
-    artist: "Keisin",
-    rarity: "Uncommon",
     flavorText:
       "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
     nationalPokedexNumbers: [508],
@@ -91475,8 +97278,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Shinji Kanda",
-    rarity: "Common",
     flavorText:
       "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
     nationalPokedexNumbers: [618],
@@ -91541,8 +97342,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
-    artist: "Sumiyoshi Kizuki",
-    rarity: "Uncommon",
     flavorText:
       "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
     nationalPokedexNumbers: [618],
@@ -91608,8 +97407,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
     nationalPokedexNumbers: [185],
@@ -91675,8 +97472,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "AKIRA EGAWA",
-    rarity: "Common",
     flavorText:
       "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
     nationalPokedexNumbers: [185],
@@ -91741,8 +97536,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "Jerky",
-    rarity: "Uncommon",
     flavorText:
       "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
     nationalPokedexNumbers: [185],
@@ -91802,8 +97595,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "zig",
-    rarity: "Uncommon",
     flavorText:
       "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
     nationalPokedexNumbers: [192],
@@ -91863,8 +97654,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
     nationalPokedexNumbers: [191],
@@ -91923,8 +97712,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
     nationalPokedexNumbers: [283],
@@ -91983,8 +97770,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Yoriyuki Ikegami",
-    rarity: "Common",
     flavorText:
       "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
     nationalPokedexNumbers: [283],
@@ -92050,8 +97835,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "142",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Its cottony wings are full of air, making them light and fluffy to the touch. Swablu takes diligent care of its wings.",
     nationalPokedexNumbers: [333],
@@ -92123,8 +97906,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "169",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
     nationalPokedexNumbers: [333],
@@ -92196,8 +97977,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "152",
-    artist: "HYOGONOSUKE",
-    rarity: "Common",
     flavorText:
       "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
     nationalPokedexNumbers: [333],
@@ -92270,8 +98049,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Sekio",
-    rarity: "Uncommon",
     flavorText:
       "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
     nationalPokedexNumbers: [581],
@@ -92338,8 +98115,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill.",
     nationalPokedexNumbers: [220],
@@ -92406,8 +98181,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Asako Ito",
-    rarity: "Common",
     flavorText:
       "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy.",
     nationalPokedexNumbers: [684],
@@ -92472,8 +98245,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Narumi Sato",
-    rarity: "Uncommon",
     flavorText:
       "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
     nationalPokedexNumbers: [528],
@@ -92540,8 +98311,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Atsushi Furusawa",
-    rarity: "Rare Holo",
     flavorText:
       "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
     nationalPokedexNumbers: [700],
@@ -92599,8 +98368,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
@@ -92665,8 +98432,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
@@ -92732,8 +98497,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "kirisAki",
-    rarity: "Common",
     flavorText:
       "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
@@ -92792,8 +98555,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
@@ -92852,8 +98613,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
@@ -92920,8 +98679,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare",
     flavorText:
       "Talonflame mainly preys upon other bird Pokémon. To intimidate opponents, it sends embers spewing from gaps between its feathers.",
     nationalPokedexNumbers: [663],
@@ -92993,8 +98750,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
-    artist: "Nisota Niso",
-    rarity: "Uncommon",
     flavorText:
       "It has top-notch flying capabilities. It flies around easily, even while carrying prey that weighs more than 220 lbs.",
     nationalPokedexNumbers: [663],
@@ -93007,124 +98762,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/30.png",
       large: "https://images.pokemontcg.io/sv2/30_hires.png",
-    },
-  },
-  {
-    id: "sv1-159",
-    name: "Tandemaus",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "30",
-    types: ["Colorless"],
-    attacks: [
-      {
-        cost: ["Colorless"],
-        name: "Gnaw",
-        damage: "20",
-        text: "",
-        convertedEnergyCost: 1,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "159",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
-    flavorText:
-      "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
-    nationalPokedexNumbers: [924],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/159.png",
-      large: "https://images.pokemontcg.io/sv1/159_hires.png",
-    },
-  },
-  {
-    id: "sv1-160",
-    name: "Tandemaus",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "40",
-    types: ["Colorless"],
-    attacks: [
-      {
-        cost: ["Colorless", "Colorless"],
-        name: "Double Hit",
-        damage: "30×",
-        text: "Flip 2 coins. This attack does 30 damage for each heads.",
-        convertedEnergyCost: 2,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fighting",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv1",
-      name: "Scarlet & Violet",
-      series: "Scarlet & Violet",
-      printedTotal: 198,
-      total: 258,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/03/31",
-      updatedAt: "2023/03/31 15:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
-        logo: "https://images.pokemontcg.io/sv1/logo.png",
-      },
-    },
-    number: "160",
-    artist: "yuu",
-    rarity: "Common",
-    flavorText:
-      "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
-    nationalPokedexNumbers: [924],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv1/160.png",
-      large: "https://images.pokemontcg.io/sv1/160_hires.png",
     },
   },
   {
@@ -93177,8 +98814,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "166",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
     nationalPokedexNumbers: [924],
@@ -93243,8 +98878,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "167",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
     nationalPokedexNumbers: [924],
@@ -93257,6 +98890,120 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/167.png",
       large: "https://images.pokemontcg.io/sv2/167_hires.png",
+    },
+  },
+  {
+    id: "sv1-159",
+    name: "Tandemaus",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "30",
+    types: ["Colorless"],
+    attacks: [
+      {
+        cost: ["Colorless"],
+        name: "Gnaw",
+        damage: "20",
+        text: "",
+        convertedEnergyCost: 1,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "159",
+    flavorText:
+      "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+    nationalPokedexNumbers: [924],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/159.png",
+      large: "https://images.pokemontcg.io/sv1/159_hires.png",
+    },
+  },
+  {
+    id: "sv1-160",
+    name: "Tandemaus",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "40",
+    types: ["Colorless"],
+    attacks: [
+      {
+        cost: ["Colorless", "Colorless"],
+        name: "Double Hit",
+        damage: "30×",
+        text: "Flip 2 coins. This attack does 30 damage for each heads.",
+        convertedEnergyCost: 2,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "160",
+    flavorText:
+      "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+    nationalPokedexNumbers: [924],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/160.png",
+      large: "https://images.pokemontcg.io/sv1/160_hires.png",
     },
   },
   {
@@ -93300,8 +99047,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "153",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
     nationalPokedexNumbers: [924],
@@ -93359,8 +99104,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "154",
-    artist: "Akira Komayama",
-    rarity: "Common",
     flavorText:
       "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
     nationalPokedexNumbers: [924],
@@ -93427,8 +99170,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
-    artist: "kurumitsu",
-    rarity: "Common",
     flavorText:
       "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
     nationalPokedexNumbers: [114],
@@ -93487,8 +99228,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
-    artist: "Aya Kusube",
-    rarity: "Common",
     flavorText:
       "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
     nationalPokedexNumbers: [114],
@@ -93555,8 +99294,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "zig",
-    rarity: "Rare",
     flavorText:
       "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
     nationalPokedexNumbers: [465],
@@ -93624,8 +99361,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
-    artist: "hncl",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [785],
     legalities: {
       unlimited: "Legal",
@@ -93689,8 +99424,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Saya Tsuruta",
-    rarity: "Rare Holo",
     flavorText:
       "Although called a guardian deity, Tapu Lele is devoid of guilt about its cruel disposition and can be described as nature incarnate.",
     nationalPokedexNumbers: [786],
@@ -93748,8 +99481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
     nationalPokedexNumbers: [917],
@@ -93807,8 +99538,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
     nationalPokedexNumbers: [917],
@@ -93873,8 +99602,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
     nationalPokedexNumbers: [917],
@@ -93932,8 +99659,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Kyoko Umemoto",
-    rarity: "Common",
     flavorText:
       "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
     nationalPokedexNumbers: [917],
@@ -93991,8 +99716,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Mina Nakai",
-    rarity: "Common",
     flavorText:
       "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
     nationalPokedexNumbers: [917],
@@ -94057,8 +99780,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "OKACHEKE",
-    rarity: "Uncommon",
     flavorText:
       "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
     nationalPokedexNumbers: [978],
@@ -94117,8 +99838,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "Shibuzoh.",
-    rarity: "Uncommon",
     flavorText:
       "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
     nationalPokedexNumbers: [978],
@@ -94184,8 +99903,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "When Tauros begins whipping itself with its tails, it's a warning that the Pokémon is about to charge with astounding speed.",
     nationalPokedexNumbers: [128],
@@ -94250,8 +99967,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
-    artist: "Takeshi Nakamura",
-    rarity: "Uncommon",
     flavorText:
       "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
     nationalPokedexNumbers: [128],
@@ -94318,8 +100033,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
-    artist: "Nagomi Nijo",
-    rarity: "Common",
     flavorText:
       "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
     nationalPokedexNumbers: [216],
@@ -94385,8 +100098,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea.",
     nationalPokedexNumbers: [72],
@@ -94452,8 +100163,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
-    artist: "miki kudo",
-    rarity: "Uncommon",
     flavorText:
       "Its 80 tentacles can stretch and shrink freely. Tentacruel ensnares prey in a net of spread-out tentacles, delivering venomous stings to its catch.",
     nationalPokedexNumbers: [73],
@@ -94512,8 +100221,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "nagimiso",
-    rarity: "Rare Holo",
     flavorText:
       "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon.",
     nationalPokedexNumbers: [639],
@@ -94580,8 +100287,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Rare",
     flavorText:
       "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
     nationalPokedexNumbers: [828],
@@ -94647,8 +100352,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
-    artist: "SIE NANAHARA",
-    rarity: "Rare",
     flavorText:
       "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
     nationalPokedexNumbers: [828],
@@ -94714,8 +100417,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
     nationalPokedexNumbers: [538],
@@ -94780,8 +100481,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
     nationalPokedexNumbers: [642],
@@ -94846,8 +100545,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "AKIRA EGAWA",
-    rarity: "Rare",
     flavorText:
       "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
     nationalPokedexNumbers: [1003],
@@ -94915,8 +100612,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [1003],
     legalities: {
       unlimited: "Legal",
@@ -94979,8 +100674,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
     nationalPokedexNumbers: [957],
@@ -95045,8 +100738,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
     nationalPokedexNumbers: [957],
@@ -95104,8 +100795,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
     nationalPokedexNumbers: [957],
@@ -95148,8 +100837,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -95157,15 +100846,13 @@ const allStandardLegalPokemon = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "25",
-    artist: "Kouki Saitou",
-    rarity: "Promo",
     flavorText:
       "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
     nationalPokedexNumbers: [957],
@@ -95223,8 +100910,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
     nationalPokedexNumbers: [957],
@@ -95289,8 +100974,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
-    artist: "Teeziro",
-    rarity: "Common",
     flavorText:
       "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
     nationalPokedexNumbers: [957],
@@ -95356,8 +101039,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
     nationalPokedexNumbers: [959],
@@ -95423,8 +101104,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "KEIICHIRO ITO",
-    rarity: "Uncommon",
     flavorText:
       "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
     nationalPokedexNumbers: [959],
@@ -95493,8 +101172,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "240",
-    artist: "takuyoa",
-    rarity: "Ultra Rare",
     nationalPokedexNumbers: [959],
     legalities: {
       unlimited: "Legal",
@@ -95558,8 +101235,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
     nationalPokedexNumbers: [958],
@@ -95625,8 +101300,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
-    artist: "sowsow",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
     nationalPokedexNumbers: [958],
@@ -95685,8 +101358,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
     nationalPokedexNumbers: [958],
@@ -95744,8 +101415,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
     nationalPokedexNumbers: [948],
@@ -95810,8 +101479,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
     nationalPokedexNumbers: [948],
@@ -95877,8 +101544,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
     nationalPokedexNumbers: [948],
@@ -95943,8 +101608,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Souichirou Gunjima",
-    rarity: "Common",
     flavorText:
       "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
     nationalPokedexNumbers: [948],
@@ -96009,8 +101672,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
     nationalPokedexNumbers: [948],
@@ -96076,8 +101737,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
     nationalPokedexNumbers: [949],
@@ -96143,8 +101802,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
     nationalPokedexNumbers: [949],
@@ -96210,8 +101867,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Toshinao Aoki",
-    rarity: "Uncommon",
     flavorText:
       "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
     nationalPokedexNumbers: [949],
@@ -96280,8 +101935,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [949],
     legalities: {
       unlimited: "Legal",
@@ -96344,8 +101997,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
     nationalPokedexNumbers: [777],
@@ -96416,8 +102067,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "151",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
     nationalPokedexNumbers: [777],
@@ -96484,8 +102133,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "sui",
-    rarity: "Rare Holo",
     flavorText:
       "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they've hardly been seen at all.",
     nationalPokedexNumbers: [468],
@@ -96549,8 +102196,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
-    artist: "Cona Nitanda",
-    rarity: "Rare",
     flavorText:
       "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
     nationalPokedexNumbers: [468],
@@ -96617,8 +102262,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Mizue",
-    rarity: "Common",
     flavorText:
       "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
     nationalPokedexNumbers: [175],
@@ -96684,8 +102327,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
-    artist: "Natsumi Yoshida",
-    rarity: "Common",
     flavorText:
       "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
     nationalPokedexNumbers: [175],
@@ -96753,8 +102394,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Tika Matsuno",
-    rarity: "Uncommon",
     flavorText:
       "They say that it will appear before kindhearted, caring people and shower them with happiness.",
     nationalPokedexNumbers: [176],
@@ -96821,8 +102460,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Kyoko Umemoto",
-    rarity: "Uncommon",
     flavorText:
       "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
     nationalPokedexNumbers: [176],
@@ -96888,8 +102525,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Kagemaru Himeno",
-    rarity: "Uncommon",
     flavorText:
       "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
     nationalPokedexNumbers: [324],
@@ -96955,8 +102590,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "Naoyo Kimura",
-    rarity: "Uncommon",
     flavorText:
       "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
     nationalPokedexNumbers: [324],
@@ -97021,8 +102654,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "Kurata So",
-    rarity: "Uncommon",
     flavorText:
       "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
     nationalPokedexNumbers: [324],
@@ -97094,8 +102725,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
-    artist: "Shigenori Negishi",
-    rarity: "Rare",
     flavorText:
       "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     nationalPokedexNumbers: [641],
@@ -97163,8 +102792,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     flavorText:
       "When its mane is standing on end, you can tell it's feeling good. When it isn't feeling well, its fur will lie down flat.",
     nationalPokedexNumbers: [726],
@@ -97177,6 +102804,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/31.png",
       large: "https://images.pokemontcg.io/swsh12/31_hires.png",
+    },
+  },
+  {
+    id: "sv5-33",
+    name: "Torracat",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Fire"],
+    evolvesFrom: "Litten",
+    evolvesTo: ["Incineroar"],
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Flare Strike",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "During your next turn, this Pokémon can't use Flare Strike.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "33",
+    flavorText:
+      "In the midst of battle, the fire pouch on Torracat's neck rings like a bell and produces stronger flames than usual.",
+    nationalPokedexNumbers: [726],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/33.png",
+      large: "https://images.pokemontcg.io/sv5/33_hires.png",
     },
   },
   {
@@ -97231,8 +102925,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "Oswaldo KATO",
-    rarity: "Rare Holo",
     flavorText:
       "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
     nationalPokedexNumbers: [389],
@@ -97245,6 +102937,132 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/8.png",
       large: "https://images.pokemontcg.io/swsh9/8_hires.png",
+    },
+  },
+  {
+    id: "sv5-12",
+    name: "Torterra ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "340",
+    types: ["Grass"],
+    evolvesFrom: "Grotle",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Forest March",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your Grass Pokémon in play.",
+      },
+      {
+        name: "Jungle Hammer",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "Heal 50 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "12",
+    nationalPokedexNumbers: [389],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/12.png",
+      large: "https://images.pokemontcg.io/sv5/12_hires.png",
+    },
+  },
+  {
+    id: "sv5-39",
+    name: "Totodile",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Croconaw"],
+    attacks: [
+      {
+        name: "Big Bite",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "39",
+    flavorText:
+      "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+    nationalPokedexNumbers: [158],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/39.png",
+      large: "https://images.pokemontcg.io/sv5/39_hires.png",
     },
   },
   {
@@ -97299,8 +103117,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Ligton",
-    rarity: "Uncommon",
     flavorText:
       "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat.",
     nationalPokedexNumbers: [748],
@@ -97358,8 +103174,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "Yuu Nishida",
-    rarity: "Common",
     flavorText:
       "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
     nationalPokedexNumbers: [848],
@@ -97418,8 +103232,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "AKIRA EGAWA",
-    rarity: "Common",
     flavorText:
       "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
     nationalPokedexNumbers: [848],
@@ -97478,8 +103290,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Yuka Morii",
-    rarity: "Common",
     flavorText:
       "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
     nationalPokedexNumbers: [848],
@@ -97546,8 +103356,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Uta",
-    rarity: "Uncommon",
     flavorText:
       "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.",
     nationalPokedexNumbers: [454],
@@ -97613,8 +103421,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
-    artist: "Yuya Oka",
-    rarity: "Uncommon",
     flavorText:
       "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
     nationalPokedexNumbers: [454],
@@ -97683,8 +103489,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
-    artist: "Nisota Niso",
-    rarity: "Double Rare",
     flavorText:
       "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
     nationalPokedexNumbers: [454],
@@ -97750,8 +103554,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts.",
     nationalPokedexNumbers: [849],
@@ -97817,8 +103619,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "Many youths admire the way this Pokémon listlessly picks fights and keeps its cool no matter what opponent it faces.",
     nationalPokedexNumbers: [849],
@@ -97888,8 +103688,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [849],
     legalities: {
       unlimited: "Legal",
@@ -97961,8 +103759,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
     nationalPokedexNumbers: [520],
@@ -97975,6 +103771,77 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/pgo/62.png",
       large: "https://images.pokemontcg.io/pgo/62_hires.png",
+    },
+  },
+  {
+    id: "sv5-134",
+    name: "Tranquill",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Free Retreat"],
+    hp: "80",
+    types: ["Colorless"],
+    evolvesFrom: "Pidove",
+    evolvesTo: ["Unfezant"],
+    attacks: [
+      {
+        name: "Speed Dive",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Jet Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "134",
+    flavorText:
+      "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
+    nationalPokedexNumbers: [520],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/134.png",
+      large: "https://images.pokemontcg.io/sv5/134_hires.png",
     },
   },
   {
@@ -98022,8 +103889,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
-    artist: "zig",
-    rarity: "Common",
     flavorText:
       "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
     nationalPokedexNumbers: [328],
@@ -98090,8 +103955,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "Yuya Oka",
-    rarity: "Rare Holo",
     flavorText:
       "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind.",
     nationalPokedexNumbers: [709],
@@ -98157,8 +104020,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
     flavorText:
       "Small roots that extend from the tips of this Pokémon's feet can tie into the trees of the forest and give Trevenant control over them.",
     nationalPokedexNumbers: [709],
@@ -98224,8 +104085,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
-    artist: "Shin Nagasawa",
-    rarity: "Uncommon",
     flavorText:
       "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
     nationalPokedexNumbers: [357],
@@ -98238,6 +104097,70 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/5.png",
       large: "https://images.pokemontcg.io/swsh9/5_hires.png",
+    },
+  },
+  {
+    id: "sv2-195",
+    name: "Tropius",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Grass"],
+    attacks: [
+      {
+        cost: ["Grass"],
+        name: "Leaf Drain",
+        damage: "20",
+        text: "Heal 20 damage from this Pokémon.",
+        convertedEnergyCost: 1,
+      },
+      {
+        cost: ["Grass", "Grass", "Colorless"],
+        name: "Tropic Breeze",
+        damage: "130",
+        text: "Move all Energy from this Pokémon to 1 of your Benched Pokémon.",
+        convertedEnergyCost: 3,
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv2",
+      name: "Paldea Evolved",
+      series: "Scarlet & Violet",
+      printedTotal: 193,
+      total: 279,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/06/09",
+      updatedAt: "2023/06/09 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
+        logo: "https://images.pokemontcg.io/sv2/logo.png",
+      },
+    },
+    number: "195",
+    flavorText:
+      "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+    nationalPokedexNumbers: [357],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv2/195.png",
+      large: "https://images.pokemontcg.io/sv2/195_hires.png",
     },
   },
   {
@@ -98290,8 +104213,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "aoki",
-    rarity: "Common",
     flavorText:
       "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
     nationalPokedexNumbers: [357],
@@ -98304,72 +104225,6 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/7.png",
       large: "https://images.pokemontcg.io/sv1/7_hires.png",
-    },
-  },
-  {
-    id: "sv2-7",
-    name: "Tropius",
-    supertype: "Pokémon",
-    subtypes: ["Basic", "1 Prizer"],
-    hp: "110",
-    types: ["Grass"],
-    attacks: [
-      {
-        cost: ["Grass"],
-        name: "Leaf Drain",
-        damage: "20",
-        text: "Heal 20 damage from this Pokémon.",
-        convertedEnergyCost: 1,
-      },
-      {
-        cost: ["Grass", "Grass", "Colorless"],
-        name: "Tropic Breeze",
-        damage: "130",
-        text: "Move all Energy from this Pokémon to 1 of your Benched Pokémon.",
-        convertedEnergyCost: 3,
-      },
-    ],
-    weaknesses: [
-      {
-        type: "Fire",
-        value: "×2",
-      },
-    ],
-    retreatCost: ["Colorless"],
-    convertedRetreatCost: 1,
-    set: {
-      id: "sv2",
-      name: "Paldea Evolved",
-      series: "Scarlet & Violet",
-      printedTotal: 193,
-      total: 279,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      releaseDate: "2023/06/09",
-      updatedAt: "2023/06/09 15:00:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/sv2/symbol.png",
-        logo: "https://images.pokemontcg.io/sv2/logo.png",
-      },
-    },
-    number: "7",
-    artist: "Taira Akitsu",
-    rarity: "Common",
-    flavorText:
-      "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
-    nationalPokedexNumbers: [357],
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "G",
-    images: {
-      small: "https://images.pokemontcg.io/sv2/7.png",
-      large: "https://images.pokemontcg.io/sv2/7_hires.png",
     },
   },
   {
@@ -98423,8 +104278,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room.",
     nationalPokedexNumbers: [568],
@@ -98490,8 +104343,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Atsushi Furusawa",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx.",
     nationalPokedexNumbers: [763],
@@ -98561,8 +104412,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [763],
     legalities: {
       unlimited: "Legal",
@@ -98573,6 +104422,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/46.png",
       large: "https://images.pokemontcg.io/sv4/46_hires.png",
+    },
+  },
+  {
+    id: "sv5-35",
+    name: "Turtonator",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Spit-Out Shot",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "This attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Steam Artillery",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "35",
+    flavorText:
+      "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation.",
+    nationalPokedexNumbers: [776],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/35.png",
+      large: "https://images.pokemontcg.io/sv5/35_hires.png",
     },
   },
   {
@@ -98627,8 +104541,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "Narumi Sato",
-    rarity: "Common",
     flavorText:
       "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
     nationalPokedexNumbers: [387],
@@ -98641,6 +104553,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh9/6.png",
       large: "https://images.pokemontcg.io/swsh9/6_hires.png",
+    },
+  },
+  {
+    id: "sv5-10",
+    name: "Turtwig",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "80",
+    types: ["Grass"],
+    evolvesTo: ["Grotle"],
+    abilities: [
+      {
+        name: "Solid Shell",
+        text: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Leafage",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "10",
+    flavorText:
+      "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+    nationalPokedexNumbers: [387],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/10.png",
+      large: "https://images.pokemontcg.io/sv5/10_hires.png",
     },
   },
   {
@@ -98687,8 +104665,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
-    artist: "OKUBO",
-    rarity: "Common",
     flavorText:
       "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
     nationalPokedexNumbers: [535],
@@ -98755,8 +104731,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Yukiko Baba",
-    rarity: "Common",
     flavorText:
       "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
     nationalPokedexNumbers: [602],
@@ -98822,8 +104796,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
     nationalPokedexNumbers: [602],
@@ -98890,8 +104862,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "Nisota Niso",
-    rarity: "Rare Holo",
     flavorText:
       "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
     nationalPokedexNumbers: [248],
@@ -98957,8 +104927,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
-    artist: "hncl",
-    rarity: "Rare",
     flavorText:
       "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
     nationalPokedexNumbers: [248],
@@ -99028,8 +104996,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [248],
     legalities: {
       unlimited: "Legal",
@@ -99093,8 +105059,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
-    artist: "rika",
-    rarity: "Uncommon",
     flavorText:
       "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
     nationalPokedexNumbers: [197],
@@ -99167,8 +105131,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     flavorText:
       "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
     nationalPokedexNumbers: [521],
@@ -99181,6 +105143,76 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/pgo/63.png",
       large: "https://images.pokemontcg.io/pgo/63_hires.png",
+    },
+  },
+  {
+    id: "sv5-135",
+    name: "Unfezant",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Free Retreat"],
+    hp: "150",
+    types: ["Colorless"],
+    evolvesFrom: "Tranquill",
+    attacks: [
+      {
+        name: "Opposing Winds",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
+      },
+      {
+        name: "Boundless Power",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "180",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "135",
+    flavorText:
+      "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+    nationalPokedexNumbers: [521],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/135.png",
+      large: "https://images.pokemontcg.io/sv5/135_hires.png",
     },
   },
   {
@@ -99243,8 +105275,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "N-DESIGN Inc.",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [201],
     legalities: {
       unlimited: "Legal",
@@ -99318,8 +105348,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [201],
     legalities: {
       unlimited: "Legal",
@@ -99384,8 +105412,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
-    artist: "nagimiso",
-    rarity: "Rare",
     flavorText:
       "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
     nationalPokedexNumbers: [901],
@@ -99454,8 +105480,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [901],
     legalities: {
       unlimited: "Legal",
@@ -99520,8 +105544,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
-    artist: "Teeziro",
-    rarity: "Uncommon",
     flavorText:
       "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
     nationalPokedexNumbers: [217],
@@ -99593,8 +105615,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "sui",
-    rarity: "Uncommon",
     flavorText:
       "It is said that its emergence gave humans the intelligence to improve their quality of life.",
     nationalPokedexNumbers: [480],
@@ -99654,8 +105674,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
-    artist: "Lee HyunJung",
-    rarity: "Common",
     flavorText:
       "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
     nationalPokedexNumbers: [583],
@@ -99714,8 +105732,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
-    artist: "miki kudo",
-    rarity: "Common",
     flavorText:
       "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
     nationalPokedexNumbers: [582],
@@ -99781,8 +105797,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "Nelnal",
-    rarity: "Uncommon",
     flavorText:
       "People believe this Pokémon formed when two Vanillish stuck together. Its body temperature is roughly 21 degrees Fahrenheit.",
     nationalPokedexNumbers: [584],
@@ -99848,8 +105862,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "kirisAki",
-    rarity: "Rare",
     flavorText:
       "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's.",
     nationalPokedexNumbers: [134],
@@ -99913,8 +105925,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
     nationalPokedexNumbers: [965],
@@ -99978,8 +105988,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
     nationalPokedexNumbers: [965],
@@ -100044,8 +106052,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "154",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
     nationalPokedexNumbers: [965],
@@ -100110,8 +106116,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "155",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
     nationalPokedexNumbers: [965],
@@ -100182,8 +106186,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Tetsu Kayama",
-    rarity: "Common",
     flavorText:
       "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
     nationalPokedexNumbers: [965],
@@ -100248,8 +106250,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Anesaki Dynamic",
-    rarity: "Rare",
     flavorText:
       "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
     nationalPokedexNumbers: [976],
@@ -100314,8 +106314,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     flavorText:
       "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
     nationalPokedexNumbers: [976],
@@ -100380,8 +106378,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
-    artist: "Kagemaru Himeno",
-    rarity: "Uncommon",
     flavorText:
       "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
     nationalPokedexNumbers: [49],
@@ -100447,8 +106443,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
-    artist: "Kagemaru Himeno",
-    rarity: "Uncommon",
     flavorText:
       "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
     nationalPokedexNumbers: [49],
@@ -100508,8 +106502,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
-    artist: "Sekio",
-    rarity: "Common",
     flavorText:
       "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
     nationalPokedexNumbers: [48],
@@ -100575,8 +106567,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
     nationalPokedexNumbers: [48],
@@ -100643,8 +106633,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "KEIICHIRO ITO",
-    rarity: "Rare Holo",
     flavorText:
       "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
     nationalPokedexNumbers: [3],
@@ -100713,8 +106701,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [3],
     legalities: {
       unlimited: "Legal",
@@ -100779,8 +106765,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
-    artist: "Yuya Oka",
-    rarity: "Rare",
     flavorText:
       "It skillfully commands its grubs in battles with its enemies. The grubs are willing to risk their lives to defend Vespiquen.",
     nationalPokedexNumbers: [416],
@@ -100846,8 +106830,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "Megumi Higuchi",
-    rarity: "Uncommon",
     flavorText:
       "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
     nationalPokedexNumbers: [416],
@@ -100923,8 +106905,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [416],
     legalities: {
       unlimited: "Legal",
@@ -100983,8 +106963,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Tomokazu Komiya",
-    rarity: "Uncommon",
     flavorText:
       "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
     nationalPokedexNumbers: [329],
@@ -101050,8 +107028,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
     nationalPokedexNumbers: [494],
@@ -101064,6 +107040,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/23.png",
       large: "https://images.pokemontcg.io/swsh12/23_hires.png",
+    },
+  },
+  {
+    id: "sv5-30",
+    name: "Victini",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Flippity Flap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Shuffle your hand into your deck. Then, draw 6 cards.",
+      },
+      {
+        name: "Singe Off",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Discard a Special Energy from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "30",
+    flavorText:
+      "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+    nationalPokedexNumbers: [494],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/30.png",
+      large: "https://images.pokemontcg.io/sv5/30_hires.png",
     },
   },
   {
@@ -101119,8 +107160,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Saki Hayashiro",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [494],
     legalities: {
       unlimited: "Legal",
@@ -101184,8 +107223,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
-    artist: "Jerky",
-    rarity: "Uncommon",
     flavorText:
       "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
     nationalPokedexNumbers: [71],
@@ -101251,8 +107288,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "161",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     flavorText:
       "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
     nationalPokedexNumbers: [288],
@@ -101265,6 +107300,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/161.png",
       large: "https://images.pokemontcg.io/sv2/161_hires.png",
+    },
+  },
+  {
+    id: "sv5-56",
+    name: "Vikavolt",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "160",
+    types: ["Lightning"],
+    evolvesFrom: "Charjabug",
+    attacks: [
+      {
+        name: "Mach Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Circuit Cannon",
+        cost: ["Lightning", "Lightning"],
+        convertedEnergyCost: 2,
+        damage: "120+",
+        text: "This attack does 80 more damage for each of your Benched Charjabug.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "56",
+    flavorText:
+      "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+    nationalPokedexNumbers: [738],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/56.png",
+      large: "https://images.pokemontcg.io/sv5/56_hires.png",
     },
   },
   {
@@ -101319,8 +107420,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
-    artist: "Jiro Sasumo",
-    rarity: "Rare Holo",
     flavorText:
       "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
     nationalPokedexNumbers: [45],
@@ -101386,8 +107485,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
-    artist: "Sekio",
-    rarity: "Rare",
     flavorText:
       "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
     nationalPokedexNumbers: [45],
@@ -101453,8 +107550,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
     nationalPokedexNumbers: [640],
@@ -101523,8 +107618,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "164",
-    artist: "Saki Hayashiro",
-    rarity: "Rare Ultra",
     nationalPokedexNumbers: [640],
     legalities: {
       unlimited: "Legal",
@@ -101588,8 +107681,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Atsuko Nishida",
-    rarity: "Uncommon",
     flavorText:
       "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
     nationalPokedexNumbers: [666],
@@ -101655,8 +107746,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
-    artist: "Shiburingaru",
-    rarity: "Rare Holo",
     flavorText:
       "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
     nationalPokedexNumbers: [721],
@@ -101721,8 +107810,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
-    artist: "Nisota Niso",
-    rarity: "Rare",
     flavorText:
       "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
     nationalPokedexNumbers: [721],
@@ -101789,8 +107876,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Yuya Oka",
-    rarity: "Rare",
     flavorText:
       "Volcarona scatters burning scales. Some say it does this to start fires. Others say it's trying to rescue those that suffer in the cold.",
     nationalPokedexNumbers: [637],
@@ -101856,8 +107941,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
-    artist: "Yukiko Baba",
-    rarity: "Uncommon",
     flavorText:
       "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
     nationalPokedexNumbers: [637],
@@ -101922,8 +108005,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
     nationalPokedexNumbers: [100],
@@ -101982,8 +108063,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
-    artist: "nagimiso",
-    rarity: "Common",
     flavorText:
       "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
     nationalPokedexNumbers: [100],
@@ -102043,8 +108122,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
     nationalPokedexNumbers: [37],
@@ -102110,8 +108187,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
-    artist: "0313",
-    rarity: "Common",
     flavorText:
       "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
     nationalPokedexNumbers: [37],
@@ -102170,8 +108245,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "kawayoo",
-    rarity: "Common",
     flavorText:
       "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
     nationalPokedexNumbers: [37],
@@ -102238,8 +108311,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
-    artist: "Jiro Sasumo",
-    rarity: "Common",
     flavorText:
       "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
     nationalPokedexNumbers: [320],
@@ -102306,8 +108377,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
-    artist: "kodama",
-    rarity: "Common",
     flavorText:
       "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
     nationalPokedexNumbers: [320],
@@ -102374,8 +108443,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
-    artist: "Shinya Komatsu",
-    rarity: "Uncommon",
     flavorText:
       "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
     nationalPokedexNumbers: [321],
@@ -102442,8 +108509,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Rare",
     flavorText:
       "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
     nationalPokedexNumbers: [321],
@@ -102456,6 +108521,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12pt5/32.png",
       large: "https://images.pokemontcg.io/swsh12pt5/32_hires.png",
+    },
+  },
+  {
+    id: "sv5-50",
+    name: "Walking Wake ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Ancient", "Ability"],
+    hp: "220",
+    types: ["Water"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Azure Seas",
+        text: "Damage from attacks used by this Pokémon isn't affected by any effects on your opponent's Active Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Catharsis Roar",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120+",
+        text: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "50",
+    nationalPokedexNumbers: [1009],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/50.png",
+      large: "https://images.pokemontcg.io/sv5/50_hires.png",
     },
   },
   {
@@ -102511,8 +108642,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "kurumitsu",
-    rarity: "Uncommon",
     flavorText:
       "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
     nationalPokedexNumbers: [8],
@@ -102579,8 +108708,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "kantaro",
-    rarity: "Uncommon",
     flavorText:
       "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
     nationalPokedexNumbers: [8],
@@ -102651,8 +108778,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Saya Tsuruta",
-    rarity: "Common",
     flavorText:
       "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     nationalPokedexNumbers: [940],
@@ -102716,8 +108841,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     nationalPokedexNumbers: [940],
@@ -102788,8 +108911,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     nationalPokedexNumbers: [940],
@@ -102860,8 +108981,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     nationalPokedexNumbers: [940],
@@ -102928,8 +109047,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
-    artist: "Hasuno",
-    rarity: "Uncommon",
     flavorText:
       "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
     nationalPokedexNumbers: [461],
@@ -102996,8 +109113,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH246",
-    artist: "Shin Nagasawa",
-    rarity: "Promo",
     flavorText:
       "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
     nationalPokedexNumbers: [461],
@@ -103063,8 +109178,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "saino misaki",
-    rarity: "Rare",
     flavorText:
       "Evolution made it even more devious. It communicates by clawing signs in boulders.",
     nationalPokedexNumbers: [461],
@@ -103130,8 +109243,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
-    artist: "nisimono",
-    rarity: "Common",
     flavorText:
       "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
     nationalPokedexNumbers: [13],
@@ -103198,8 +109309,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
-    artist: "Jerky",
-    rarity: "Common",
     flavorText:
       "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
     nationalPokedexNumbers: [70],
@@ -103265,8 +109374,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Shibuzoh.",
-    rarity: "Rare",
     flavorText:
       "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
     nationalPokedexNumbers: [110],
@@ -103279,6 +109386,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/110.png",
       large: "https://images.pokemontcg.io/sv3pt5/110_hires.png",
+    },
+  },
+  {
+    id: "sv5-15",
+    name: "Whimsicott",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Cottonee",
+    abilities: [
+      {
+        name: "Wafting Heal",
+        text: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from your Active Grass Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Seed Bomb",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "15",
+    flavorText:
+      "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief.",
+    nationalPokedexNumbers: [547],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/15.png",
+      large: "https://images.pokemontcg.io/sv5/15_hires.png",
     },
   },
   {
@@ -103323,8 +109496,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
-    artist: "KYUPIYAMA",
-    rarity: "Uncommon",
     flavorText:
       "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
     nationalPokedexNumbers: [547],
@@ -103393,8 +109564,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
-    artist: "Saki Hayashiro",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [547],
     legalities: {
       unlimited: "Legal",
@@ -103462,8 +109631,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [547],
     legalities: {
       unlimited: "Legal",
@@ -103528,8 +109695,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
-    artist: "Shinji Kanda",
-    rarity: "Uncommon",
     flavorText:
       "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
     nationalPokedexNumbers: [340],
@@ -103595,8 +109760,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
-    artist: "0313",
-    rarity: "Uncommon",
     flavorText:
       "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
     nationalPokedexNumbers: [340],
@@ -103655,8 +109818,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "148",
-    artist: "sui",
-    rarity: "Common",
     flavorText:
       "When Whismur cries, the sound of its own voice startles it, making the Pokémon cry even louder. It cries until it's exhausted, then it falls asleep.",
     nationalPokedexNumbers: [293],
@@ -103722,8 +109883,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
-    artist: "Hitoshi Ariga",
-    rarity: "Rare",
     flavorText:
       "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
     nationalPokedexNumbers: [40],
@@ -103792,8 +109951,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
-    artist: "Saki Hayashiro",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [40],
     legalities: {
       unlimited: "Legal",
@@ -103856,8 +110013,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "Tika Matsuno",
-    rarity: "Common",
     flavorText:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     nationalPokedexNumbers: [960],
@@ -103915,8 +110070,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     nationalPokedexNumbers: [960],
@@ -103975,8 +110128,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
-    artist: "Pani Kobayashi",
-    rarity: "Common",
     flavorText:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     nationalPokedexNumbers: [960],
@@ -104034,8 +110185,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
-    artist: "Shibuzoh.",
-    rarity: "Common",
     flavorText:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     nationalPokedexNumbers: [960],
@@ -104093,8 +110242,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
-    artist: "Tomokazu Komiya",
-    rarity: "Common",
     flavorText:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     nationalPokedexNumbers: [960],
@@ -104107,6 +110254,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/52.png",
       large: "https://images.pokemontcg.io/sv4/52_hires.png",
+    },
+  },
+  {
+    id: "sv5-47",
+    name: "Wiglett",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Lucky Find",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Aqua Bomb",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "This Pokémon also does 20 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "47",
+    flavorText:
+      "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+    nationalPokedexNumbers: [960],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/47.png",
+      large: "https://images.pokemontcg.io/sv5/47_hires.png",
     },
   },
   {
@@ -104161,8 +110373,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
-    artist: "Miki Tanaka",
-    rarity: "Common",
     flavorText:
       "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
     nationalPokedexNumbers: [767],
@@ -104228,8 +110438,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
     nationalPokedexNumbers: [767],
@@ -104295,8 +110503,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
-    artist: "sowsow",
-    rarity: "Common",
     flavorText:
       "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
     nationalPokedexNumbers: [767],
@@ -104360,8 +110566,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "158",
-    artist: "Kouki Saitou",
-    rarity: "Common",
     flavorText:
       "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
     nationalPokedexNumbers: [278],
@@ -104426,8 +110630,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
-    artist: "Kouki Saitou",
-    rarity: "Rare",
     flavorText:
       "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
     nationalPokedexNumbers: [1001],
@@ -104443,7 +110645,7 @@ const allStandardLegalPokemon = [
     },
   },
   {
-    id: "sv2-27",
+    id: "sv2-232",
     name: "Wo-Chien ex",
     supertype: "Pokémon",
     subtypes: ["Basic", "ex"],
@@ -104494,9 +110696,7 @@ const allStandardLegalPokemon = [
         logo: "https://images.pokemontcg.io/sv2/logo.png",
       },
     },
-    number: "27",
-    artist: "5ban Graphics",
-    rarity: "Double Rare",
+    number: "232",
     nationalPokedexNumbers: [1001],
     legalities: {
       unlimited: "Legal",
@@ -104505,8 +110705,8 @@ const allStandardLegalPokemon = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv2/27.png",
-      large: "https://images.pokemontcg.io/sv2/27_hires.png",
+      small: "https://images.pokemontcg.io/sv2/232.png",
+      large: "https://images.pokemontcg.io/sv2/232_hires.png",
     },
   },
   {
@@ -104562,8 +110762,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "240",
-    artist: "5ban Graphics",
-    rarity: "Hyper Rare",
     nationalPokedexNumbers: [1001],
     legalities: {
       unlimited: "Legal",
@@ -104626,8 +110824,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
     nationalPokedexNumbers: [527],
@@ -104687,8 +110883,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
     nationalPokedexNumbers: [831],
@@ -104755,8 +110949,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
-    artist: "Yuka Morii",
-    rarity: "Rare",
     flavorText:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     nationalPokedexNumbers: [413],
@@ -104823,8 +111015,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
-    artist: "Lee HyunJung",
-    rarity: "Rare",
     flavorText:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     nationalPokedexNumbers: [413],
@@ -104897,8 +111087,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
-    artist: "Ryo Ueda",
-    rarity: "Rare",
     flavorText:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     nationalPokedexNumbers: [413],
@@ -104964,8 +111152,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Uncommon",
     flavorText:
       "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
     nationalPokedexNumbers: [961],
@@ -105024,8 +111210,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     flavorText:
       "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
     nationalPokedexNumbers: [961],
@@ -105091,8 +111275,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
-    artist: "Kouki Saitou",
-    rarity: "Uncommon",
     flavorText:
       "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
     nationalPokedexNumbers: [961],
@@ -105105,6 +111287,75 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/53.png",
       large: "https://images.pokemontcg.io/sv4/53_hires.png",
+    },
+  },
+  {
+    id: "sv5-60",
+    name: "Wugtrio ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "Tera", "ex", "1 Prizer"],
+    hp: "250",
+    types: ["Lightning"],
+    evolvesFrom: "Wiglett",
+    rules: [
+      "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+      "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    ],
+    attacks: [
+      {
+        name: "Tricolor Pump",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard up to 3 Energy cards from your hand. This attack does 60 damage to 1 of your opponent's Pokémon for each Energy card you discarded in this way. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Numbing Hold",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "60",
+    nationalPokedexNumbers: [961],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/60.png",
+      large: "https://images.pokemontcg.io/sv5/60_hires.png",
     },
   },
   {
@@ -105159,8 +111410,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "ryoma uratsuka",
-    rarity: "Common",
     flavorText:
       "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
     nationalPokedexNumbers: [265],
@@ -105233,8 +111482,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
-    artist: "Mizue",
-    rarity: "Rare Holo",
     flavorText:
       "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
     nationalPokedexNumbers: [899],
@@ -105303,8 +111550,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "aky CG Works",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [899],
     legalities: {
       unlimited: "Legal",
@@ -105373,8 +111618,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
-    artist: "Hataya",
-    rarity: "Uncommon",
     flavorText:
       "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
     nationalPokedexNumbers: [178],
@@ -105446,8 +111689,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "152",
-    artist: "nagimiso",
-    rarity: "Shiny Rare",
     flavorText:
       "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
     nationalPokedexNumbers: [178],
@@ -105512,8 +111753,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
-    artist: "Misa Tsutsui",
-    rarity: "Common",
     flavorText:
       "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face.",
     nationalPokedexNumbers: [562],
@@ -105526,6 +111765,65 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/75.png",
       large: "https://images.pokemontcg.io/sv4/75_hires.png",
+    },
+  },
+  {
+    id: "sv5-58",
+    name: "Yamper",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Lightning"],
+    evolvesTo: ["Boltund"],
+    attacks: [
+      {
+        name: "Whimsy Tackle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "58",
+    flavorText:
+      "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
+    nationalPokedexNumbers: [835],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/58.png",
+      large: "https://images.pokemontcg.io/sv5/58_hires.png",
     },
   },
   {
@@ -105571,8 +111869,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
-    artist: "OKACHEKE",
-    rarity: "Common",
     flavorText:
       "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
     nationalPokedexNumbers: [193],
@@ -105639,8 +111935,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
-    artist: "Shin Nagasawa",
-    rarity: "Common",
     flavorText:
       "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
     nationalPokedexNumbers: [193],
@@ -105705,8 +111999,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
-    artist: "Masakazu Fukuda",
-    rarity: "Uncommon",
     flavorText:
       "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
     nationalPokedexNumbers: [469],
@@ -105771,8 +112063,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
-    artist: "KIYOTAKA OSHIYAMA",
-    rarity: "Rare",
     flavorText:
       "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
     nationalPokedexNumbers: [469],
@@ -105832,8 +112122,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     flavorText:
       "Although it will eat anything, it prefers fresh living things, so it marches down streets in search of prey.",
     nationalPokedexNumbers: [734],
@@ -105892,8 +112180,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "176",
-    artist: "saino misaki",
-    rarity: "Common",
     flavorText:
       "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food.",
     nationalPokedexNumbers: [734],
@@ -105964,8 +112250,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
-    artist: "kawayoo",
-    rarity: "Rare",
     flavorText:
       "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
     nationalPokedexNumbers: [717],
@@ -106037,8 +112321,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
-    artist: "nagimiso",
-    rarity: "Rare Holo",
     flavorText:
       "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
     nationalPokedexNumbers: [888],
@@ -106109,8 +112391,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
-    artist: "Tonji Matsuno",
-    rarity: "Rare",
     flavorText:
       "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
     nationalPokedexNumbers: [888],
@@ -106185,8 +112465,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
-    artist: "aky CG Works",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [888],
     legalities: {
       unlimited: "Legal",
@@ -106260,8 +112538,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [888],
     legalities: {
       unlimited: "Legal",
@@ -106331,8 +112607,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
-    artist: "GIDORA",
-    rarity: "Rare Holo",
     flavorText:
       "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
     nationalPokedexNumbers: [889],
@@ -106407,8 +112681,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
-    artist: "PLANETA Mochizuki",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [889],
     legalities: {
       unlimited: "Legal",
@@ -106482,8 +112754,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo VSTAR",
     nationalPokedexNumbers: [889],
     legalities: {
       unlimited: "Legal",
@@ -106546,8 +112816,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "147",
-    artist: "aoki",
-    rarity: "Uncommon",
     flavorText:
       "It's Seviper's archrival. To threaten those it encounters, it fans out the claws on its front paws.",
     nationalPokedexNumbers: [335],
@@ -106605,8 +112873,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "146",
-    artist: "Yuya Oka",
-    rarity: "Common",
     flavorText:
       "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
     nationalPokedexNumbers: [335],
@@ -106672,8 +112938,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
-    artist: "Yuya Oka",
-    rarity: "Rare Holo",
     flavorText:
       "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
     nationalPokedexNumbers: [145],
@@ -106747,8 +113011,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "145",
-    artist: "takuyoa",
-    rarity: "Double Rare",
     nationalPokedexNumbers: [145],
     legalities: {
       unlimited: "Legal",
@@ -106812,8 +113074,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "Shiburingaru",
-    rarity: "Rare Holo",
     flavorText:
       "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
     nationalPokedexNumbers: [893],
@@ -106882,8 +113142,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
-    artist: "5ban Graphics",
-    rarity: "Rare Holo V",
     nationalPokedexNumbers: [893],
     legalities: {
       unlimited: "Legal",
@@ -106947,8 +113205,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     flavorText:
       "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
     nationalPokedexNumbers: [523],
@@ -107013,8 +113269,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
-    artist: "Shiburingaru",
-    rarity: "Rare",
     flavorText:
       "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
     nationalPokedexNumbers: [644],
@@ -107078,8 +113332,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
-    artist: "GOSSAN",
-    rarity: "Rare",
     flavorText:
       "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
     nationalPokedexNumbers: [807],
@@ -107092,6 +113344,71 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/56.png",
       large: "https://images.pokemontcg.io/swsh12/56_hires.png",
+    },
+  },
+  {
+    id: "sv5-57",
+    name: "Zeraora",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Shocking Knuckle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Strong Volt",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "57",
+    flavorText:
+      "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws.",
+    nationalPokedexNumbers: [807],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/57.png",
+      large: "https://images.pokemontcg.io/sv5/57_hires.png",
     },
   },
   {
@@ -107148,8 +113465,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH263",
-    artist: "N-DESIGN Inc.",
-    rarity: "Promo",
     nationalPokedexNumbers: [807],
     legalities: {
       unlimited: "Legal",
@@ -107217,8 +113532,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH264",
-    artist: "N-DESIGN Inc.",
-    rarity: "Promo",
     nationalPokedexNumbers: [807],
     legalities: {
       unlimited: "Legal",
@@ -107284,8 +113597,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "SWSH265",
-    artist: "aky CG Works",
-    rarity: "Promo",
     nationalPokedexNumbers: [807],
     legalities: {
       unlimited: "Legal",
@@ -107349,8 +113660,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "167",
-    artist: "Kagemaru Himeno",
-    rarity: "Common",
     flavorText:
       "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
     nationalPokedexNumbers: [263],
@@ -107408,8 +113717,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
-    artist: "Shigenori Negishi",
-    rarity: "Common",
     flavorText:
       "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
     nationalPokedexNumbers: [41],
@@ -107481,8 +113788,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
-    artist: "Sumiyoshi Kizuki",
-    rarity: "Common",
     flavorText:
       "Zubat live in caves, down where the sun's light won't reach. In the morning, they gather together to keep each other warm as they sleep.",
     nationalPokedexNumbers: [41],
@@ -107548,8 +113853,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     flavorText:
       "The two heads do not get along at all. If you don't give each head the same amount of attention, they'll begin fighting out of jealousy.",
     nationalPokedexNumbers: [634],
@@ -107609,8 +113912,6 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
-    artist: "Misa Tsutsui",
-    rarity: "Rare",
     flavorText:
       "Born when around 10% of Zygarde's cells have been gathered from all over, this form is skilled in close-range combat.",
     nationalPokedexNumbers: [718],
@@ -107626,5 +113927,35 @@ const allStandardLegalPokemon = [
     },
   },
 ];
+
+allStandardLegalPokemon.forEach((pokemon) => {
+  if (!pokemon.rules || !pokemon?.rules[0].includes("Prize cards")) {
+    pokemon.subtypes.push("1 Prizer");
+  }
+  if (!pokemon.retreatCost) pokemon.subtypes.push("Free Retreat");
+  if (pokemon.abilities) pokemon.subtypes.push("Ability");
+});
+
+allStandardLegalPokemon.sort((a, b) =>
+  a.name < b.name ? -1 : a.name > b.name ? 1 : 0
+);
+
+const newSet = allStandardLegalPokemon.filter((card, i) => {
+  if (
+    allStandardLegalPokemon.findIndex(
+      (element) =>
+        element.name === card.name &&
+        element.hp === card.hp &&
+        element?.attacks?.[0]?.text === card?.attacks?.[0]?.text &&
+        element?.attacks?.[1]?.text === card?.attacks?.[1]?.text &&
+        element?.attacks?.[0]?.name === card?.attacks?.[0]?.name &&
+        element?.attacks?.[1]?.name === card?.attacks?.[1]?.name &&
+        element.types[0] === card.types[0]
+    ) !== i
+  )
+    return false;
+  return true;
+});
+console.log("final pokemon", newSet);
 
 export default allStandardLegalPokemon;

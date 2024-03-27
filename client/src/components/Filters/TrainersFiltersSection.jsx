@@ -53,21 +53,8 @@ function TrainerFiltersSection({
         />
       </div>
       <div className="col">
-        <Checkbox
-          value="Rapid Strike"
-          id="RapidStrike"
-          onChange={filterTrainers}
-        />
-        <Checkbox
-          value="Single Strike"
-          id="SingleStrike"
-          onChange={filterTrainers}
-        />
-        <Checkbox
-          value="Fusion Strike"
-          id="FusionStrike"
-          onChange={filterTrainers}
-        />
+        <Checkbox value="Future" onChange={filterTrainers} />
+        <Checkbox value="Ancient" onChange={filterTrainers} />
         <Checkbox value="No Tag" id="noTag" onChange={filterTrainers} />
       </div>
     </form>

@@ -28,8 +28,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "199",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -69,8 +67,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "159",
-    artist: "5ban Graphics",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -118,8 +114,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "152",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -167,8 +161,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "153",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -216,8 +208,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "154",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -258,8 +248,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "152",
-    artist: "5ban Graphics",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -272,7 +260,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-153",
+    id: "swsh11-189",
     name: "Arezu",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -299,9 +287,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "153",
-    artist: "kirisAki",
-    rarity: "Uncommon",
+    number: "189",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -309,8 +295,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/153.png",
-      large: "https://images.pokemontcg.io/swsh11/153_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/189.png",
+      large: "https://images.pokemontcg.io/swsh11/189_hires.png",
     },
   },
   {
@@ -341,8 +327,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "171",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -382,8 +366,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "249",
-    artist: "kantaro",
-    rarity: "Special Illustration Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -424,8 +406,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "77",
-    artist: "kantaro",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -438,7 +418,48 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh9-167",
+    id: "sv5-141",
+    name: "Awakening Drum",
+    supertype: "Trainer",
+    subtypes: ["Item", "Ancient", "ACE SPEC"],
+    rules: [
+      "Draw a card for each of your Ancient Pokémon in play.",
+      "You may play any number of Item cards during your turn.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "141",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/141.png",
+      large: "https://images.pokemontcg.io/sv5/141_hires.png",
+    },
+  },
+  {
+    id: "swsh9-130",
     name: "Barry",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -465,9 +486,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "167",
-    artist: "Yuu Nishida",
-    rarity: "Rare Ultra",
+    number: "130",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -475,8 +494,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/167.png",
-      large: "https://images.pokemontcg.io/swsh9/167_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/130.png",
+      large: "https://images.pokemontcg.io/swsh9/130_hires.png",
     },
   },
   {
@@ -507,8 +526,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "167",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -518,6 +535,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv1/167.png",
       large: "https://images.pokemontcg.io/sv1/167_hires.png",
+    },
+  },
+  {
+    id: "sv5-142",
+    name: "Bianca's Devotion",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Heal all damage from 1 of your Pokémon that has 30 HP or less remaining.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "142",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/142.png",
+      large: "https://images.pokemontcg.io/sv5/142_hires.png",
     },
   },
   {
@@ -548,8 +605,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "155",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -589,8 +644,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "156",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -631,8 +684,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "SWSH227",
-    artist: "Anesaki Dynamic",
-    rarity: "Promo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -673,8 +724,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "132",
-    artist: "GIDORA",
-    rarity: "Rare Holo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -714,8 +763,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "172",
-    artist: "NC Empire",
-    rarity: "Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -728,7 +775,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-154",
+    id: "swsh11-214",
     name: "Box of Disaster",
     supertype: "Trainer",
     subtypes: ["Item", "Pokémon Tool", "No Tag"],
@@ -756,9 +803,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "154",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
+    number: "214",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -766,8 +811,48 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/154.png",
-      large: "https://images.pokemontcg.io/swsh11/154_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/214.png",
+      large: "https://images.pokemontcg.io/swsh11/214_hires.png",
+    },
+  },
+  {
+    id: "sv5-143",
+    name: "Boxed Order",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. Your turn ends.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "143",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/143.png",
+      large: "https://images.pokemontcg.io/sv5/143_hires.png",
     },
   },
   {
@@ -799,8 +884,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "151",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -840,8 +923,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "187",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -881,8 +962,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "173",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -892,6 +971,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv2/173.png",
       large: "https://images.pokemontcg.io/sv2/173_hires.png",
+    },
+  },
+  {
+    id: "sv5-144",
+    name: "Buddy-Buddy Poffin",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "144",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/144.png",
+      large: "https://images.pokemontcg.io/sv5/144_hires.png",
     },
   },
   {
@@ -922,8 +1041,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "174",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -963,8 +1080,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "175",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1005,8 +1120,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "136",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1047,8 +1160,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "83",
-    artist: "Ryuta Fuse",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1089,8 +1200,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "204",
-    artist: "Naoki Saito",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1131,8 +1240,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "153",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1172,8 +1279,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "SWSH296",
-    artist: "Naoki Saito",
-    rarity: "Promo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1186,7 +1291,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh9-168",
+    id: "swsh9-134",
     name: "Cheren's Care",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -1213,9 +1318,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "168",
-    artist: "Ryuta Fuse",
-    rarity: "Rare Ultra",
+    number: "134",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1223,12 +1326,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/168.png",
-      large: "https://images.pokemontcg.io/swsh9/168_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/134.png",
+      large: "https://images.pokemontcg.io/swsh9/134_hires.png",
     },
   },
   {
-    id: "swsh9-135",
+    id: "swsh10-211",
     name: "Choice Belt",
     supertype: "Trainer",
     subtypes: ["Item", "Pokémon Tool", "No Tag"],
@@ -1238,27 +1341,25 @@ const allStandardLegalTrainers = [
       "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
     ],
     set: {
-      id: "swsh9",
-      name: "Brilliant Stars",
+      id: "swsh10",
+      name: "Astral Radiance",
       series: "Sword & Shield",
-      printedTotal: 172,
-      total: 186,
+      printedTotal: 189,
+      total: 216,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "BRS",
-      releaseDate: "2022/02/25",
-      updatedAt: "2022/02/23 09:45:00",
+      ptcgoCode: "ASR",
+      releaseDate: "2022/05/27",
+      updatedAt: "2022/05/27 09:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/swsh9/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh9/logo.png",
+        symbol: "https://images.pokemontcg.io/swsh10/symbol.png",
+        logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "135",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
+    number: "211",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1266,8 +1367,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/135.png",
-      large: "https://images.pokemontcg.io/swsh9/135_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/211.png",
+      large: "https://images.pokemontcg.io/swsh10/211_hires.png",
     },
   },
   {
@@ -1299,8 +1400,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "200",
-    artist: "Hitoshi Ariga",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1310,6 +1409,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/200.png",
       large: "https://images.pokemontcg.io/swsh10/200_hires.png",
+    },
+  },
+  {
+    id: "sv5-145",
+    name: "Ciphermaniac's Codebreaking",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "Future"],
+    rules: [
+      "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "145",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/145.png",
+      large: "https://images.pokemontcg.io/sv5/145_hires.png",
     },
   },
   {
@@ -1340,8 +1479,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "177",
-    artist: "Hitoshi Ariga",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1381,8 +1518,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "78",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1422,8 +1557,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "137",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1436,7 +1569,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-155",
+    id: "swsh11-190",
     name: "Colress's Experiment",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -1463,9 +1596,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "155",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
+    number: "190",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1473,8 +1604,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/155.png",
-      large: "https://images.pokemontcg.io/swsh11/155_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/190.png",
+      large: "https://images.pokemontcg.io/swsh11/190_hires.png",
     },
   },
   {
@@ -1505,8 +1636,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "160",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1547,8 +1676,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "125",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1588,8 +1715,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "161",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1629,8 +1754,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "157",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1671,8 +1794,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "183",
-    artist: "nagimiso",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1713,8 +1834,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "169",
-    artist: "Megumi Mizutani",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1754,8 +1873,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "158",
-    artist: "Tomomi Kaneko",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1796,8 +1913,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "156",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1838,8 +1953,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "139",
-    artist: "Ryo Ueda",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1879,8 +1992,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "169",
-    artist: "inose yukie",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1920,8 +2031,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "162",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1961,8 +2070,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "178",
-    artist: "inose yukie",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2002,8 +2109,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "179",
-    artist: "yuu",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2044,8 +2149,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "126",
-    artist: "Yuu Nishida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2096,8 +2199,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "154",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Rare Holo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2137,8 +2238,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "163",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2179,8 +2278,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "66",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2220,8 +2317,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "170",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2263,8 +2358,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "155",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2305,8 +2398,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "140",
-    artist: "ORBITALLINK Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2347,8 +2438,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "127",
-    artist: "Ryo Ueda",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2389,8 +2478,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "128",
-    artist: "Studio Bora Inc.",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2430,8 +2517,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "159",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2472,8 +2557,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "212",
-    artist: "Toyste Beach",
-    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2483,6 +2566,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh12/212.png",
       large: "https://images.pokemontcg.io/swsh12/212_hires.png",
+    },
+  },
+  {
+    id: "sv5-146",
+    name: "Eri",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Your opponent reveals their hand, and you discard up to 2 Item cards you find there.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "146",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/146.png",
+      large: "https://images.pokemontcg.io/sv5/146_hires.png",
     },
   },
   {
@@ -2513,8 +2636,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "160",
-    artist: "saino misaki",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2524,6 +2645,85 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/160.png",
       large: "https://images.pokemontcg.io/sv3pt5/160_hires.png",
+    },
+  },
+  {
+    id: "sv1-174",
+    name: "Exp. Share",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "When your Active Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may move a Basic Energy from that Pokémon to the Pokémon this card is attached to.",
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
+    ],
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "174",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/174.png",
+      large: "https://images.pokemontcg.io/sv1/174_hires.png",
+    },
+  },
+  {
+    id: "sv5-147",
+    name: "Explorer's Guidance",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "Ancient"],
+    rules: [
+      "Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "147",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/147.png",
+      large: "https://images.pokemontcg.io/sv5/147_hires.png",
     },
   },
   {
@@ -2554,8 +2754,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "180",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2596,8 +2794,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "157",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2638,8 +2834,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "141",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2679,8 +2873,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "181",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2729,8 +2921,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "156",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Rare Holo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2771,8 +2961,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "139",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2813,8 +3001,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "130",
-    artist: "kirisAki",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2855,8 +3041,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "149",
-    artist: "Hideki Ishikawa",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2866,6 +3050,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh12pt5/149.png",
       large: "https://images.pokemontcg.io/swsh12pt5/149_hires.png",
+    },
+  },
+  {
+    id: "sv5-148",
+    name: "Full Metal Lab",
+    supertype: "Trainer",
+    subtypes: ["Stadium", "No Tag"],
+    rules: [
+      "Metal Pokémon (both yours and your opponent's) take 30 less damage from attacks from the opponent's Pokémon (after applying Weakness and Resistance).",
+      "You may play only 1 Stadium card during your turn. Put it into the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "148",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/148.png",
+      large: "https://images.pokemontcg.io/sv5/148_hires.png",
     },
   },
   {
@@ -2897,8 +3121,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "157",
-    artist: "Yusuke Ohmura",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2938,8 +3160,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "164",
-    artist: "5ban Graphics",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2979,8 +3199,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "142",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3021,8 +3239,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "184",
-    artist: "En Morikura",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3062,8 +3278,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "188",
-    artist: "kirisAki",
-    rarity: "Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3103,8 +3317,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "182",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3144,8 +3356,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "161",
-    artist: "hncl",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3185,8 +3395,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "162",
-    artist: "inose yukie",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3227,8 +3435,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "144",
-    artist: "Hideki Ishikawa",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3269,8 +3475,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "132",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3310,8 +3514,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "184",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3352,8 +3554,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "145",
-    artist: "Eske Yoshinob",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3363,6 +3563,127 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/145.png",
       large: "https://images.pokemontcg.io/swsh10/145_hires.png",
+    },
+  },
+  {
+    id: "sv5-150",
+    name: "Hand Trimmer",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "Each player discards cards from their hand until they have 5 cards in their hand. Your opponent discards first. (If a player has 5 or fewer cards in their hand, they do not discard.)",
+      "You may play any number of Item cards during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "150",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/150.png",
+      large: "https://images.pokemontcg.io/sv5/150_hires.png",
+    },
+  },
+  {
+    id: "sv5-151",
+    name: "Heavy Baton",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "If the Pokémon this card is attached to has a Retreat Cost of exactly 4, is in the Active Spot, and is Knocked Out by damage from an attack from your opponent's Pokémon, move up to 3 Basic Energy cards from that Pokémon to your Benched Pokémon in any way you like.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "151",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/151.png",
+      large: "https://images.pokemontcg.io/sv5/151_hires.png",
+    },
+  },
+  {
+    id: "sv5-152",
+    name: "Hero's Cape",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "ACE SPEC"],
+    rules: [
+      "The Pokémon this card is attached to gets +100 HP.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "152",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/152.png",
+      large: "https://images.pokemontcg.io/sv5/152_hires.png",
     },
   },
   {
@@ -3394,8 +3715,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "146",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3435,8 +3754,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "185",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3477,8 +3794,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "186",
-    artist: "kirisAki",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3519,8 +3834,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "207",
-    artist: "Hitoshi Ariga",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3560,8 +3873,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "175",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3601,8 +3912,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "148",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3612,6 +3921,45 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/148.png",
       large: "https://images.pokemontcg.io/swsh10/148_hires.png",
+    },
+  },
+  {
+    id: "sv1-176",
+    name: "Judge",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Each player shuffles their hand into their deck and draws 4 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv1",
+      name: "Scarlet & Violet",
+      series: "Scarlet & Violet",
+      printedTotal: 198,
+      total: 258,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2023/03/31",
+      updatedAt: "2023/03/31 15:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
+      },
+    },
+    number: "176",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/sv1/176.png",
+      large: "https://images.pokemontcg.io/sv1/176_hires.png",
     },
   },
   {
@@ -3643,8 +3991,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "149",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3684,8 +4030,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "237",
-    artist: "Akira Komayama",
-    rarity: "Ultra Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3726,8 +4070,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "143",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3768,8 +4110,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "208",
-    artist: "saino misaki",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3809,8 +4149,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "160",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3851,8 +4189,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "159",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3892,8 +4228,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "165",
-    artist: "Akira Komayama",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3935,8 +4269,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "160",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3976,8 +4308,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "163",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4018,8 +4348,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "189",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4059,8 +4387,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "161",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4101,8 +4427,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "162",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4143,8 +4467,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "88",
-    artist: "ORBITALLINK Inc.",
-    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4184,8 +4506,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "166",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4198,7 +4518,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh9-185",
+    id: "swsh9-144",
     name: "Magma Basin",
     supertype: "Trainer",
     subtypes: ["Stadium", "No Tag"],
@@ -4224,9 +4544,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "185",
-    artist: "ORBITALLINK Inc.",
-    rarity: "Rare Secret",
+    number: "144",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4234,12 +4552,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/185.png",
-      large: "https://images.pokemontcg.io/swsh9/185_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/144.png",
+      large: "https://images.pokemontcg.io/swsh9/144_hires.png",
     },
   },
   {
-    id: "swsh9-171",
+    id: "swsh9-145",
     name: "Marnie's Pride",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -4266,9 +4584,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "171",
-    artist: "Souichirou Gunjima",
-    rarity: "Rare Ultra",
+    number: "145",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4276,8 +4592,90 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/171.png",
-      large: "https://images.pokemontcg.io/swsh9/171_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/145.png",
+      large: "https://images.pokemontcg.io/swsh9/145_hires.png",
+    },
+  },
+  {
+    id: "sv5-153",
+    name: "Master Ball",
+    supertype: "Trainer",
+    subtypes: ["Item", "ACE SPEC"],
+    rules: [
+      "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "153",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/153.png",
+      large: "https://images.pokemontcg.io/sv5/153_hires.png",
+    },
+  },
+  {
+    id: "sv5-154",
+    name: "Maximum Belt",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "ACE SPEC"],
+    rules: [
+      "Attacks used by the Pokémon this card is attached to do 50 more damage to your opponent's Active Pokémon ex (before applying Weakness and Resistance).",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "154",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/154.png",
+      large: "https://images.pokemontcg.io/sv5/154_hires.png",
     },
   },
   {
@@ -4308,8 +4706,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "167",
-    artist: "kirisAki",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4349,8 +4745,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "178",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4391,8 +4785,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "163",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4432,8 +4824,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "179",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4446,7 +4836,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-164",
+    id: "swsh11-209",
     name: "Miss Fortune Sisters",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -4473,9 +4863,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "164",
-    artist: "Souchirou Gunjima",
-    rarity: "Uncommon",
+    number: "209",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4483,8 +4871,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/164.png",
-      large: "https://images.pokemontcg.io/swsh11/164_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/209.png",
+      large: "https://images.pokemontcg.io/swsh11/209_hires.png",
     },
   },
   {
@@ -4515,8 +4903,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "81",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4526,6 +4912,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/81.png",
       large: "https://images.pokemontcg.io/sv4pt5/81_hires.png",
+    },
+  },
+  {
+    id: "sv5-155",
+    name: "Morty's Conviction",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Draw a card for each of your opponent's Benched Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "155",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/155.png",
+      large: "https://images.pokemontcg.io/sv5/155_hires.png",
     },
   },
   {
@@ -4556,8 +4982,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "180",
-    artist: "Sanosuke Sakuma",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4597,8 +5021,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "83",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4638,8 +5060,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "181",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4679,8 +5099,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "168",
-    artist: "Hideki Ishikawa",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4720,8 +5138,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "190",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4761,8 +5177,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "182",
-    artist: "Studio Bora Inc.",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4802,8 +5216,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "85",
-    artist: "Cona Nitanda",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4845,8 +5257,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "165",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4871,8 +5281,8 @@ const allStandardLegalTrainers = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 101,
-      total: 56,
+      printedTotal: 102,
+      total: 75,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -4880,15 +5290,13 @@ const allStandardLegalTrainers = [
       },
       ptcgoCode: "PR-SV",
       releaseDate: "2023/01/01",
-      updatedAt: "2023/10/10 15:15:00",
+      updatedAt: "2023/12/11 23:15:00",
       images: {
         symbol: "https://images.pokemontcg.io/svp/symbol.png",
         logo: "https://images.pokemontcg.io/svp/logo.png",
       },
     },
     number: "45",
-    artist: "Naoki Saito",
-    rarity: "Promo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4928,8 +5336,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "169",
-    artist: "Cona Nitanda",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4969,8 +5375,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "191",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5010,8 +5414,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "183",
-    artist: "yuu",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5021,6 +5423,47 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv1/183.png",
       large: "https://images.pokemontcg.io/sv1/183_hires.png",
+    },
+  },
+  {
+    id: "sv5-156",
+    name: "Perilous Jungle",
+    supertype: "Trainer",
+    subtypes: ["Stadium", "No Tag"],
+    rules: [
+      "During Pokémon Checkup, put 2 more damage counters on each Poisoned non-Darkness Pokémon (both yours and your opponent's).",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
+      "You may play only 1 Stadium card during your turn. Put it into the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "156",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/156.png",
+      large: "https://images.pokemontcg.io/sv5/156_hires.png",
     },
   },
   {
@@ -5051,8 +5494,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "184",
-    artist: "OKACHEKE",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5093,8 +5534,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "137",
-    artist: "Studio Bora Inc.",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5134,8 +5573,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "68",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5175,8 +5612,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "186",
-    artist: "Toyste Beach",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5217,8 +5652,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "138",
-    artist: "Ryo Ueda",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5258,8 +5691,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "192",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5299,8 +5730,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "193",
-    artist: "yuu",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5342,8 +5771,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "146",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5384,8 +5811,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "139",
-    artist: "Ryo Ueda",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5425,8 +5850,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "186",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5436,6 +5859,47 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv2/186.png",
       large: "https://images.pokemontcg.io/sv2/186_hires.png",
+    },
+  },
+  {
+    id: "sv5-157",
+    name: "Prime Catcher",
+    supertype: "Trainer",
+    subtypes: ["Item", "ACE SPEC"],
+    rules: [
+      "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon.",
+      "You may play any number of Item cards during your turn.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "157",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/157.png",
+      large: "https://images.pokemontcg.io/sv5/157_hires.png",
     },
   },
   {
@@ -5466,8 +5930,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "161",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5508,8 +5970,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "162",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5549,8 +6009,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "170",
-    artist: "Megumi Mizutani",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5590,8 +6048,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "171",
-    artist: "hncl",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5632,8 +6088,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "150",
-    artist: "Sanosuke Sakuma",
-    rarity: "Rare Ultra",
     flavorText: "Professor Rowan",
     legalities: {
       unlimited: "Legal",
@@ -5674,8 +6128,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "189",
-    artist: "kirisAki",
-    rarity: "Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5715,8 +6167,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "241",
-    artist: "kirisAki",
-    rarity: "Ultra Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5756,8 +6206,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "164",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5798,8 +6246,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "163",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5840,8 +6286,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "69",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5851,6 +6295,87 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/pgo/69.png",
       large: "https://images.pokemontcg.io/pgo/69_hires.png",
+    },
+  },
+  {
+    id: "sv5-158",
+    name: "Reboot Pod",
+    supertype: "Trainer",
+    subtypes: ["Item", "Future", "ACE SPEC"],
+    rules: [
+      "Attach a Basic Energy card from your discard pile to each of your Future Pokémon.",
+      "You may play any number of Item cards during your turn.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "158",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/158.png",
+      large: "https://images.pokemontcg.io/sv5/158_hires.png",
+    },
+  },
+  {
+    id: "sv5-159",
+    name: "Rescue Board",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "The Retreat Cost of the Pokémon this card is attached to is Colorless less. If that Pokémon's remaining HP is 30 or less, it has no Retreat Cost.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "159",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/159.png",
+      large: "https://images.pokemontcg.io/sv5/159_hires.png",
     },
   },
   {
@@ -5881,8 +6406,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "165",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5922,8 +6445,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "172",
-    artist: "GIDORA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5964,8 +6485,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "166",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6005,8 +6524,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "173",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6046,8 +6563,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "192",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6087,8 +6602,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "193",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6129,8 +6642,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "148",
-    artist: "Nagomi Nijo",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6171,8 +6682,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "206",
-    artist: "Sanosuke Sakuma",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6212,8 +6721,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "194",
-    artist: "nagimiso",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6253,8 +6760,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "187",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6264,6 +6769,46 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv2/187.png",
       large: "https://images.pokemontcg.io/sv2/187_hires.png",
+    },
+  },
+  {
+    id: "sv5-160",
+    name: "Salvatore",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Search your deck for a card that has no Abilities and evolves from 1 of your Pokémon, and put it onto that Pokémon to evolve it. Then, shuffle your deck. You can use this card on a Pokémon you put down when you were setting up to play or on a Pokémon that was put into play this turn.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv5",
+      name: "Temporal Forces",
+      series: "Scarlet & Violet",
+      printedTotal: 162,
+      total: 218,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TEF",
+      releaseDate: "2024/03/22",
+      updatedAt: "2024/03/22 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv5/symbol.png",
+        logo: "https://images.pokemontcg.io/sv5/logo.png",
+      },
+    },
+    number: "160",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv5/160.png",
+      large: "https://images.pokemontcg.io/sv5/160_hires.png",
     },
   },
   {
@@ -6295,8 +6840,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "193",
-    artist: "Megumi Mizutani",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6336,8 +6879,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "174",
-    artist: "yuu",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6386,8 +6927,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "143",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Rare Holo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6428,8 +6967,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "175",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6470,8 +7007,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "70",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6511,8 +7046,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "188",
-    artist: "Toyste Beach",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6554,8 +7087,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "152",
-    artist: "Ryo Ueda",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6595,8 +7126,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "189",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6637,8 +7166,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "153",
-    artist: "ORBITALLINK Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6679,8 +7206,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "144",
-    artist: "Studio Bora Inc.",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6721,8 +7246,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "154",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6762,8 +7285,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "195",
-    artist: "nagimiso",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6804,8 +7325,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "149",
-    artist: "GOSSAN",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6854,8 +7373,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "176",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6904,8 +7421,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "90",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -6954,8 +7469,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "177",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7004,8 +7517,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "178",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7054,8 +7565,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "179",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7095,8 +7604,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "180",
-    artist: "inose yukie",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7136,8 +7643,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "155",
-    artist: "Oswaldo KATO",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7150,7 +7655,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-167",
+    id: "swsh11-195",
     name: "Thorton",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -7177,9 +7682,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "167",
-    artist: "Hideki Ishikawa",
-    rarity: "Uncommon",
+    number: "195",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7187,8 +7690,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/167.png",
-      large: "https://images.pokemontcg.io/swsh11/167_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/195.png",
+      large: "https://images.pokemontcg.io/swsh11/195_hires.png",
     },
   },
   {
@@ -7220,8 +7723,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "168",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7261,8 +7762,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "196",
-    artist: "Oswaldo KATO",
-    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7303,8 +7802,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "156",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7344,8 +7841,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "181",
-    artist: "Naoki Saito",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7358,7 +7853,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh9-186",
+    id: "swsh9-150",
     name: "Ultra Ball",
     supertype: "Trainer",
     subtypes: ["Item", "No Tag"],
@@ -7385,9 +7880,7 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "186",
-    artist: "sadaji",
-    rarity: "Rare Secret",
+    number: "150",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7395,8 +7888,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/186.png",
-      large: "https://images.pokemontcg.io/swsh9/186_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/150.png",
+      large: "https://images.pokemontcg.io/swsh9/150_hires.png",
     },
   },
   {
@@ -7428,8 +7921,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "157",
-    artist: "AYUMI ODASHIMA",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7469,8 +7960,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "197",
-    artist: "Ayaka Yoshida",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7510,8 +7999,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "197",
-    artist: "Studio Bora Inc.",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7552,8 +8039,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "211",
-    artist: "kirisAki",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7594,8 +8079,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "158",
-    artist: "sadaji",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7636,8 +8119,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "194",
-    artist: "Ryuta Fuse",
-    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7679,8 +8160,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "170",
-    artist: "Toyste Beach",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7721,8 +8200,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "167",
-    artist: "Sanosuke Sakuma",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7762,8 +8239,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "198",
-    artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7804,8 +8279,6 @@ const allStandardLegalTrainers = [
       },
     },
     number: "207",
-    artist: "kirisAki",
-    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7818,5 +8291,27 @@ const allStandardLegalTrainers = [
     },
   },
 ];
+
+allStandardLegalTrainers.sort((a, b) =>
+  a.name < b.name ? -1 : a.name > b.name ? 1 : 0
+);
+
+const listOfCardNames = [];
+const newSet = allStandardLegalTrainers.filter((card) => {
+  if (listOfCardNames.includes(card.name)) return false;
+  listOfCardNames.push(card.name);
+  return true;
+});
+
+newSet.forEach((card) => {
+  if (
+    card.subtypes.length === 1 ||
+    (card.subtypes.length === 2 &&
+      card.subtypes.includes("Item") &&
+      card.subtypes.includes("Pokémon Tool"))
+  )
+    card.subtypes.push("No Tag");
+});
+console.log("final trainers", newSet);
 
 export default allStandardLegalTrainers;

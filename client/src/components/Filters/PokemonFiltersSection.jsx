@@ -161,24 +161,6 @@ function PokemonFiltersSection({
         <Checkbox value="VSTAR" onChange={filterPokemon} />
         <Checkbox value="V-UNION" onChange={filterPokemon} />
         <p>Show only:</p>
-        <Checkbox
-          value="Rapid Strike"
-          id="RapidStrike"
-          onChange={showOnly}
-          unchecked={true}
-        />
-        <Checkbox
-          value="Single Strike"
-          id="SingleStrike"
-          onChange={showOnly}
-          unchecked={true}
-        />
-        <Checkbox
-          value="Fusion Strike"
-          id="FusionStrike"
-          onChange={showOnly}
-          unchecked={true}
-        />
         <Checkbox value="Future" onChange={showOnly} unchecked={true} />
         <Checkbox value="Ancient" onChange={showOnly} unchecked={true} />
         <Checkbox value="Radiant" onChange={showOnly} unchecked={true} />
