@@ -5,7 +5,7 @@ import CardSearch from "./components/pages/CardSearch/CardSearch";
 import EventFinder from "./components/pages/EventFinder/EventFinder";
 import TopCutData from "./components/pages/TopCutData/TopCutData";
 import Games from "./components/pages/Games/Games";
-import Store from "./components/pages/Store/Store";
+import Homies from "./components/pages/Homies/Homies";
 import Navbar from "./components/Navbar/Navbar";
 import allStandardLegalCards from "./data/allStandardLegalCards";
 import "./App.css";
@@ -18,9 +18,9 @@ function App() {
         pages={[
           "card-search",
           "event-finder",
+          "homies",
           "top-cut-data",
           "games",
-          "store",
         ]}
       />
       {/* <Route
@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/event-finder" element={<EventFinder />} />
           <Route exact path="/top-cut-data" element={<TopCutData />} />
           <Route exact path="/games" element={<Games />} />
-          <Route exact path="/store" element={<Store />} />
+          <Route exact path="/homies" element={<Homies />} />
           {/*
       <PrivateRoute
         authed={!!user.username}
