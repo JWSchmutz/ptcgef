@@ -5,15 +5,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 const path = require("path");
 app.use(express.json());
-app.use(
-  cors({
-    allowedHeaders: ["authorization", "Content-Type"], // you can change the headers
-    exposedHeaders: ["authorization"], // you can change the headers
-    origin: "https://www.seagrovetcg.com, https://localhost:3001",
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    preflightContinue: false,
-  })
-);
+app.use(cors());
 app.use(express.static(path.join(__dirname, "./client/dist")));
 
 app.get("/addresses", async (req, res) => {
