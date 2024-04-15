@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "concurrently \"node server\" \"cd client && yarn dev\"",
-    "build": "cd client && yarn build && cd .."
+    "dev": "concurrently \"node server\" \"cd client && yarn dev\""
   },
   "dependencies": {
     "axios": "^1.4.0",
