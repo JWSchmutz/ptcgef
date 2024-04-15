@@ -1,0 +1,16 @@
+.homie {
+  padding: 20px;
+  position: relative;
+}
+
+.homie .tournament {
+  padding-top: 8px;
+}
+
+.homie .close {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  top: 0;
+  right: 20px;
+}

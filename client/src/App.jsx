@@ -7,7 +7,7 @@ import TopCutData from "./components/pages/TopCutData/TopCutData";
 import Games from "./components/pages/Games/Games";
 import Homies from "./components/pages/Homies/Homies";
 import Navbar from "./components/Navbar/Navbar";
-import allStandardLegalCards from "./data/allStandardLegalCards";
+// import allStandardLegalCards from "./data/allStandardLegalCards";
 import "./App.css";
 
 function App() {

@@ -51,6 +51,39 @@ app.get("/events", async (req, res) => {
     });
 });
 
+app.get("/players/:id", async (req, res) => {
+  const id = req.params.id;
+  axios
+    .get(`https://www.pokedata.ovh/standings/${id}/masters/${id}_Masters.json`)
+    .then(function (response) {
+      // handle success
+      res.json(response.data);
+    })
+    .catch(function (error) {
+      // handle error
+      console.log(error);
+    })
+    .finally(function () {
+      // always executed
+    });
+});
+
+app.get("/tournaments", async (req, res) => {
+  axios
+    .get(`https://pokedata.ovh/standings/tournaments/`)
+    .then(function (response) {
+      // handle success
+      res.json(response.data);
+    })
+    .catch(function (error) {
+      // handle error
+      console.log(error);
+    })
+    .finally(function () {
+      // always executed
+    });
+});
+
 app.get("*", function (_, res) {
   res.sendFile(
     path.join(__dirname, "./client/dist/index.html"),
