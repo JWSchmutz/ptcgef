@@ -6,6 +6,7 @@ import Homie from "../../Homie/Homie";
 import allPlayersEver from "../../../data/allPlayers";
 
 function Homies() {
+  const [homieChosen, setHomieChosen] = useState(false);
   const [tournament1, setTournament1] = useState({ players: [] });
   const [tournament2, setTournament2] = useState({ players: [] });
   const [tournament3, setTournament3] = useState({ players: [] });
@@ -14,10 +15,13 @@ function Homies() {
   const [homies, setHomies] = useState(
     JSON.parse(localStorage.getItem("homies")) || []
   );
-  const handleSelectChange = (e) => setSelectedHomie(e.target.value);
+  const handleSelectChange = (e) => {
+    setHomieChosen(true);
+    return setSelectedHomie(e.target.value);
+  };
   const handleAddClick = () => {
     console.log(selectedHomie);
-    if (selectedHomie === "Choose a player") return;
+    setHomieChosen(false);
     homies.push(selectedHomie);
     localStorage.setItem("homies", JSON.stringify(homies));
     setHomies([...homies]);
@@ -111,7 +115,7 @@ function Homies() {
         <Input
           id="addHomieInput"
           name="addHomie"
-          label="Find a homie "
+          label="Filter Players"
           type="text"
           value={newHomie}
           handleChange={newHomieTextChange}
@@ -122,16 +126,18 @@ function Homies() {
               value={selectedHomie}
               onChange={(e) => handleSelectChange(e)}
             >
-              <option>Choose a player</option>
+              <option>Choose a homie</option>
               {allPlayers.map((player) => (
                 <option key={player}>{player}</option>
               ))}
             </select>
-            <Button
-              text="+ ADD"
-              handleClick={handleAddClick}
-              classes="add-button"
-            />
+            {homieChosen && (
+              <Button
+                text="+ ADD"
+                handleClick={handleAddClick}
+                classes="add-button"
+              />
+            )}
           </div>
         )}
       </div>

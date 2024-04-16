@@ -1,5 +1,6 @@
 import "./Homie.css";
 import close from "/close.png";
+import Card from "../Card/Card";
 
 function Homie({ homie, tournament1, tournament2, tournament3, setHomies }) {
   const removeFromString = (words, str) => {
@@ -27,16 +28,13 @@ function Homie({ homie, tournament1, tournament2, tournament3, setHomies }) {
   ];
 
   return (
-    <div className="homie">
-      <h3>
-        {homie}{" "}
-        <img
-          className="close"
-          src={close}
-          alt="remove homie"
-          onClick={() => removeHomie(homie)}
-        />
-      </h3>
+    <Card title={homie} className="homie">
+      <img
+        className="close"
+        src={close}
+        alt="remove homie"
+        onClick={() => removeHomie(homie)}
+      />
       {tournament1.player && (
         <div className="tournament tournament1">
           {removeFromString(words, tournament1.name)} <br />
@@ -58,7 +56,7 @@ function Homie({ homie, tournament1, tournament2, tournament3, setHomies }) {
           {tournament3.player.record?.ties}
         </div>
       )}{" "}
-    </div>
+    </Card>
   );
 }
 

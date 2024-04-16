@@ -1,6 +1,11 @@
 .homie {
   padding: 20px;
   position: relative;
+  margin: 20px auto;
+}
+
+.homie .card-header {
+  font-size: 24px;
 }
 
 .homie .tournament {
@@ -11,6 +16,11 @@
   cursor: pointer;
   position: absolute;
   width: 20px;
-  top: 0;
-  right: 20px;
+  top: 5px;
+  right: 10px;
+}
+
+#homies .add-button {
+  display: block;
+  margin: 25px auto;
 }
