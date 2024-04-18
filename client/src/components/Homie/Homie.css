@@ -13,6 +13,11 @@
   padding-top: 8px;
 }
 
+.homie .tournament .imageRotateHorizontal {
+  width: 118px;
+  margin: -20px auto;
+}
+
 .homie .close {
   cursor: pointer;
   position: absolute;

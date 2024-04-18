@@ -1,8 +1,16 @@
 import "./Homie.css";
 import close from "/close.png";
 import Card from "../Card/Card";
+import Loading from "../Loading/Loading.jsx";
 
-function Homie({ homie, tournament1, tournament2, tournament3, setHomies }) {
+function Homie({
+  homie,
+  tournament1,
+  tournament2,
+  tournament3,
+  setHomies,
+  waiting,
+}) {
   const removeFromString = (words, str) => {
     return words.reduce((result, word) => result.replaceAll(word, ""), str);
   };
@@ -55,7 +63,18 @@ function Homie({ homie, tournament1, tournament2, tournament3, setHomies }) {
           {tournament3.player.record?.wins}-{tournament3.player.record?.losses}-
           {tournament3.player.record?.ties}
         </div>
-      )}{" "}
+      )}
+      {waiting ? (
+        <p className="tournament">
+          <Loading />
+        </p>
+      ) : (
+        !tournament1.player &&
+        !tournament2.player &&
+        !tournament3.player && (
+          <p className="tournament">No recent tournaments</p>
+        )
+      )}
     </Card>
   );
 }

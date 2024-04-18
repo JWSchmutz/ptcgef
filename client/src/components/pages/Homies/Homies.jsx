@@ -20,7 +20,6 @@ function Homies() {
     return setSelectedHomie(e.target.value);
   };
   const handleAddClick = () => {
-    console.log(selectedHomie);
     setHomieChosen(false);
     homies.push(selectedHomie);
     localStorage.setItem("homies", JSON.stringify(homies));
@@ -41,7 +40,6 @@ function Homies() {
       const url = `/players/${id}`;
       const response = await fetch(url);
       const data = await response.json();
-      console.log("Data", data);
       if (callBack) return callBack({ players: data, name });
     };
     const getTournaments = () => {
@@ -67,16 +65,6 @@ function Homies() {
         });
     };
     getTournaments();
-    // let i = 0;
-    // const makeTheCall = () => {
-    //   i++;
-    //   if (i < 10) getPlayers("000000" + i.toString());
-    //   if (i >= 10 && i < 100) getPlayers("00000" + i.toString());
-    //   if (i >= 100 && i < 1000) getPlayers("0000" + i.toString());
-    //   if (i >= 1000) getPlayers("000" + i.toString());
-    //   if (i <= 118) makeTheCall();
-    // };
-    // makeTheCall();
   }, [homies]);
   return (
     <main id="homies">
@@ -88,6 +76,7 @@ function Homies() {
               key={homie}
               homie={homie}
               setHomies={setHomies}
+              waiting={tournament1.players.length === 0}
               tournament1={{
                 name: tournament1.name,
                 player: tournament1.players.filter(
