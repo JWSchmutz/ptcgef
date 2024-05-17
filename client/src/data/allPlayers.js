@@ -1,4 +1,7 @@
 const allPlayersEver = [
+  //make a call to every tournament ever by ++ tourney id.
+  //make this into an object with allPlayersEver.list and allPlayersEver.lastTournament
+  //on page load check to see if lastTournament includes the most recent tournament.  If not, make a call to get all new players.
   "Tord Reklev [NO]",
   "Tamao Cameron [GB]",
   "Ryan Moorhouse [GB]",

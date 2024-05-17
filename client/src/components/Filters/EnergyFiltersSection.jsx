@@ -53,21 +53,7 @@ function EnergyFiltersSection({
         <Checkbox value="Special" onChange={filterEnergy} />
       </div>
       <div className="col">
-        <Checkbox
-          value="Rapid Strike"
-          id="RapidStrike"
-          onChange={filterEnergy}
-        />
-        <Checkbox
-          value="Single Strike"
-          id="SingleStrike"
-          onChange={filterEnergy}
-        />
-        <Checkbox
-          value="Fusion Strike"
-          id="FusionStrike"
-          onChange={filterEnergy}
-        />
+        <Checkbox value="ACE SPEC" onChange={filterEnergy} />
         <Checkbox value="No Tag" id="noTag" onChange={filterEnergy} />
       </div>
     </form>
