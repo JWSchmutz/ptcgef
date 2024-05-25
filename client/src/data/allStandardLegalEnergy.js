@@ -1,5 +1,45 @@
 const allStandardLegalEnergy = [
   {
+    id: "sv6-166",
+    name: "Boomerang Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "No Tag"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Colorless Energy.    If this card is discarded by an effect of an attack used by the Pokémon this card is attached to, attach this card from your discard pile to that Pokémon after attacking.",
+    ],
+    set: {
+      id: "sv6",
+      name: "Twilight Masquerade",
+      series: "Scarlet & Violet",
+      printedTotal: 167,
+      total: 226,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TWM",
+      releaseDate: "2024/05/24",
+      updatedAt: "2024/05/23 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv6/symbol.png",
+        logo: "https://images.pokemontcg.io/sv6/logo.png",
+      },
+    },
+    number: "166",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv6/166.png",
+      large: "https://images.pokemontcg.io/sv6/166_hires.png",
+    },
+  },
+  {
     id: "swsh9-151",
     name: "Double Turbo Energy",
     supertype: "Energy",
@@ -27,6 +67,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "151",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -66,6 +107,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "171",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -105,6 +147,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "190",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -114,6 +157,48 @@ const allStandardLegalEnergy = [
     images: {
       small: "https://images.pokemontcg.io/sv2/190.png",
       large: "https://images.pokemontcg.io/sv2/190_hires.png",
+    },
+  },
+  {
+    id: "sv6-167",
+    name: "Legacy Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "ACE SPEC"],
+    rules: [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.    If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, that player takes 1 fewer Prize card. This effect of your Legacy Energy can't be applied more than once per game.",
+      "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck.",
+    ],
+    set: {
+      id: "sv6",
+      name: "Twilight Masquerade",
+      series: "Scarlet & Violet",
+      printedTotal: 167,
+      total: 226,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "TWM",
+      releaseDate: "2024/05/24",
+      updatedAt: "2024/05/23 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv6/symbol.png",
+        logo: "https://images.pokemontcg.io/sv6/logo.png",
+      },
+    },
+    number: "167",
+    rarity: "ACE SPEC Rare",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv6/167.png",
+      large: "https://images.pokemontcg.io/sv6/167_hires.png",
     },
   },
   {
@@ -143,6 +228,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "191",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -181,6 +267,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "182",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -220,6 +307,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "161",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -261,6 +349,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "162",
+    rarity: "ACE SPEC Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -300,6 +389,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "168",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -338,6 +428,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "192",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -377,6 +468,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "193",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -416,6 +508,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "169",
+    rarity: "Uncommon",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -451,6 +544,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "7",
+    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -462,37 +556,38 @@ const allStandardLegalEnergy = [
     },
   },
   {
-    id: "sve-6",
+    id: "sv1-258",
     name: "Basic Fighting Energy",
     supertype: "Energy",
     subtypes: ["Basic", "No Tag"],
     set: {
-      id: "sve",
-      name: "Scarlet & Violet Energies",
+      id: "sv1",
+      name: "Scarlet & Violet",
       series: "Scarlet & Violet",
-      printedTotal: 8,
-      total: 8,
+      printedTotal: 198,
+      total: 258,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
       releaseDate: "2023/03/31",
-      updatedAt: "2023/07/20 15:45:00",
+      updatedAt: "2023/03/31 15:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/sve/symbol.png",
-        logo: "https://images.pokemontcg.io/sve/logo.png",
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
       },
     },
-    number: "6",
+    number: "258",
+    rarity: "Hyper Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
     images: {
-      small: "https://images.pokemontcg.io/sve/6.png",
-      large: "https://images.pokemontcg.io/sve/6_hires.png",
+      small: "https://images.pokemontcg.io/sv1/258.png",
+      large: "https://images.pokemontcg.io/sv1/258_hires.png",
     },
   },
   {
@@ -519,6 +614,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "2",
+    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -553,6 +649,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "278",
+    rarity: "Hyper Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -564,37 +661,38 @@ const allStandardLegalEnergy = [
     },
   },
   {
-    id: "sve-4",
+    id: "sv1-257",
     name: "Basic Lightning Energy",
     supertype: "Energy",
     subtypes: ["Basic", "No Tag"],
     set: {
-      id: "sve",
-      name: "Scarlet & Violet Energies",
+      id: "sv1",
+      name: "Scarlet & Violet",
       series: "Scarlet & Violet",
-      printedTotal: 8,
-      total: 8,
+      printedTotal: 198,
+      total: 258,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
       releaseDate: "2023/03/31",
-      updatedAt: "2023/07/20 15:45:00",
+      updatedAt: "2023/03/31 15:45:00",
       images: {
-        symbol: "https://images.pokemontcg.io/sve/symbol.png",
-        logo: "https://images.pokemontcg.io/sve/logo.png",
+        symbol: "https://images.pokemontcg.io/sv1/symbol.png",
+        logo: "https://images.pokemontcg.io/sv1/logo.png",
       },
     },
-    number: "4",
+    number: "257",
+    rarity: "Hyper Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
       expanded: "Legal",
     },
     images: {
-      small: "https://images.pokemontcg.io/sve/4.png",
-      large: "https://images.pokemontcg.io/sve/4_hires.png",
+      small: "https://images.pokemontcg.io/sv1/257.png",
+      large: "https://images.pokemontcg.io/sv1/257_hires.png",
     },
   },
   {
@@ -621,6 +719,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "8",
+    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -655,6 +754,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "5",
+    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -689,6 +789,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "279",
+    rarity: "Hyper Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -724,6 +825,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "236",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -759,6 +861,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "233",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -794,6 +897,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "284",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -829,6 +933,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "283",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -864,6 +969,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "235",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -899,6 +1005,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "237",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -934,6 +1041,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "232",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -969,6 +1077,7 @@ const allStandardLegalEnergy = [
       },
     },
     number: "231",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -980,27 +1089,4 @@ const allStandardLegalEnergy = [
     },
   },
 ];
-
-const listOfCardNames = [];
-const newSet = allStandardLegalEnergy.filter((card) => {
-  if (listOfCardNames.includes(card.name)) return false;
-  listOfCardNames.push(card.name);
-  return true;
-});
-
-newSet.forEach((card) => {
-  if (!card.subtypes) return (card.subtypes = ["No Tag"]);
-  if (card.subtypes.length < 2) return card.subtypes.push("No Tag");
-});
-const basicEnergyList = newSet.filter((energy) => !energy.rules);
-basicEnergyList.sort((a, b) =>
-  a.name < b.name ? -1 : a.name > b.name ? 1 : 0
-);
-const specialEnergyList = newSet.filter((energy) => energy.rules);
-specialEnergyList.sort((a, b) =>
-  a.name < b.name ? -1 : a.name > b.name ? 1 : 0
-);
-const sortedNewSet = [...specialEnergyList, ...basicEnergyList];
-console.log("final energy", sortedNewSet);
-
 export default allStandardLegalEnergy;
