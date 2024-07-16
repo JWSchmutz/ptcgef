@@ -1,6 +1,6 @@
 const cups = [
   {
-    masters: 25,
+    masters: 27,
     inCut: 8,
     pointsForCut: 10,
     bubbledIn: 5,
