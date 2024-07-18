@@ -1,5 +1,12 @@
 const cups = [
   {
+    masters: 15,
+    inCut: 4,
+    pointsForCut: 10,
+    bubbledIn: 2,
+    bubbledOut: 0,
+  },
+  {
     masters: 27,
     inCut: 8,
     pointsForCut: 10,
@@ -274,7 +281,7 @@ const cups = [
   },
   {
     masters: 13,
-    inCut: 8,
+    inCut: 4,
     pointsForCut: 10,
     bubbledIn: 1,
     bubbledOut: 0,

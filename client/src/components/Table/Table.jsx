@@ -9,7 +9,6 @@ function Table({ title, data }) {
         <thead>
           <tr>
             <th># of Masters</th>
-            <th>Players in cut</th>
             <th>Points for cut</th>
             <th>Bubbled in</th>
             <th>Bubbled out</th>
@@ -19,7 +18,6 @@ function Table({ title, data }) {
           {data.map((tournament, i) => (
             <tr key={i}>
               <td>{tournament.masters}</td>
-              <td>{tournament.inCut}</td>
               <td>{tournament.pointsForCut}</td>
               <td>{tournament.bubbledIn}</td>
               <td>{tournament.bubbledOut}</td>
