@@ -68,6 +68,33 @@ app.get("/players/:id", async (req, res) => {
     });
 });
 
+app.get("/racers", async (req, res) => {
+  const options = {
+    method: "POST",
+    headers: { accept: "application/json", "content-type": "application/json" },
+    body: JSON.stringify({
+      APIKEY: "supercalifragilisticexpialidocious",
+      players: [
+        { name: "Tor*", game: "tcg", division: "master", country: "NOR" },
+      ],
+    }),
+  };
+  axios
+    .post(`https://www.pokedata.ovh/2024/api`, options)
+    .then(function (response) {
+      // handle success
+      console.log(response);
+      res.json(response.data);
+    })
+    .catch(function (error) {
+      // handle error
+      console.log(error);
+    })
+    .finally(function () {
+      // always executed
+    });
+});
+
 app.get("/tournaments", async (req, res) => {
   axios
     .get(`https://pokedata.ovh/standings/tournaments/`)

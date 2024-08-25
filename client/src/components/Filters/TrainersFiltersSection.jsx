@@ -30,7 +30,10 @@ function TrainerFiltersSection({
     newTrainerCardsToShow = newTrainerCardsToShow.filter(
       (card) =>
         card.name.toLowerCase().includes(searchText.toLowerCase()) ||
-        card.rules?.[0]?.toLowerCase().includes(searchText.toLowerCase())
+        card?.rules?.[0]?.toLowerCase().includes(searchText.toLowerCase()) ||
+        card?.rules?.[1]?.toLowerCase().includes(searchText.toLowerCase()) ||
+        card?.rules?.[2]?.toLowerCase().includes(searchText.toLowerCase()) ||
+        card?.rules?.[3]?.toLowerCase().includes(searchText.toLowerCase())
     );
     setCardsToShow(newTrainerCardsToShow);
   }, [trainerTypesToFilterOut, cardsToShow, searchText]);
