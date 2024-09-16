@@ -83,7 +83,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-135",
+    id: "swsh10-199",
     name: "Adaman",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -110,9 +110,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "135",
+    number: "199",
     artist: "Souichirou Gunjima",
-    rarity: "Rare Holo",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -120,8 +120,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/135.png",
-      large: "https://images.pokemontcg.io/swsh10/135_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/199.png",
+      large: "https://images.pokemontcg.io/swsh10/199_hires.png",
     },
   },
   {
@@ -163,6 +163,55 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv4/159.png",
       large: "https://images.pokemontcg.io/sv4/159_hires.png",
+    },
+  },
+  {
+    id: "sv7-129",
+    name: "Antique Cover Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.    At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Protective Cover",
+        text: "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+        type: "Ability",
+      },
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "129",
+    rarity: "Common",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/129.png",
+      large: "https://images.pokemontcg.io/sv7/129_hires.png",
     },
   },
   {
@@ -313,6 +362,55 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "sv7-130",
+    name: "Antique Root Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Primal Root",
+        text: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Basic Pokémon cost Colorless more.",
+        type: "Ability",
+      },
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "130",
+    rarity: "Common",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/130.png",
+      large: "https://images.pokemontcg.io/sv7/130_hires.png",
+    },
+  },
+  {
     id: "swsh11-152",
     name: "Arc Phone",
     supertype: "Trainer",
@@ -352,6 +450,47 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh11/152.png",
       large: "https://images.pokemontcg.io/swsh11/152_hires.png",
+    },
+  },
+  {
+    id: "sv7-131",
+    name: "Area Zero Underdepths",
+    supertype: "Trainer",
+    subtypes: ["Stadium", "No Tag"],
+    rules: [
+      "Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.    If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "131",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/131.png",
+      large: "https://images.pokemontcg.io/sv7/131_hires.png",
     },
   },
   {
@@ -438,7 +577,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "sv1-166",
+    id: "sv1-249",
     name: "Arven",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -464,11 +603,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/sv1/logo.png",
       },
     },
-    number: "166",
-    artist: "GIDORA",
-    rarity: "Uncommon",
-    flavorText:
-      'Thanks to a behavior of theirs known as "synchronizing," an entire flock of these Pokémon can attack simultaneously in perfect harmony.',
+    number: "249",
+    artist: "kantaro",
+    rarity: "Special Illustration Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -476,8 +613,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv1/166.png",
-      large: "https://images.pokemontcg.io/sv1/166_hires.png",
+      small: "https://images.pokemontcg.io/sv1/249.png",
+      large: "https://images.pokemontcg.io/sv1/249_hires.png",
     },
   },
   {
@@ -814,7 +951,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "pgo-64",
+    id: "swshp-SWSH227",
     name: "Blanche",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -823,27 +960,27 @@ const allStandardLegalTrainers = [
       "You may play only 1 Supporter card during your turn.",
     ],
     set: {
-      id: "pgo",
-      name: "Pokémon GO",
+      id: "swshp",
+      name: "SWSH Black Star Promos",
       series: "Sword & Shield",
-      printedTotal: 78,
-      total: 88,
+      printedTotal: 307,
+      total: 304,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
         expanded: "Legal",
       },
-      ptcgoCode: "PGO",
-      releaseDate: "2022/07/01",
-      updatedAt: "2022/07/06 17:07:00",
+      ptcgoCode: "PR-SW",
+      releaseDate: "2019/11/15",
+      updatedAt: "2022/07/23 20:15:00",
       images: {
-        symbol: "https://images.pokemontcg.io/pgo/symbol.png",
-        logo: "https://images.pokemontcg.io/pgo/logo.png",
+        symbol: "https://images.pokemontcg.io/swshp/symbol.png",
+        logo: "https://images.pokemontcg.io/swshp/logo.png",
       },
     },
-    number: "64",
+    number: "SWSH227",
     artist: "Anesaki Dynamic",
-    rarity: "Uncommon",
+    rarity: "Promo",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -851,8 +988,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/pgo/64.png",
-      large: "https://images.pokemontcg.io/pgo/64_hires.png",
+      small: "https://images.pokemontcg.io/swshp/SWSH227.png",
+      large: "https://images.pokemontcg.io/swshp/SWSH227_hires.png",
     },
   },
   {
@@ -1148,6 +1285,47 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "sv7-132",
+    name: "Briar",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "You can use this card only if your opponent has exactly 2 Prize cards remaining.    During this turn, if your opponent's Active Pokémon is Knocked Out by damage from an attack used by your Tera Pokémon, take 1 more Prize card.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "132",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/132.png",
+      large: "https://images.pokemontcg.io/sv7/132_hires.png",
+    },
+  },
+  {
     id: "sv5-144",
     name: "Buddy-Buddy Poffin",
     supertype: "Trainer",
@@ -1356,7 +1534,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "pgo-65",
+    id: "pgo-83",
     name: "Candela",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -1383,9 +1561,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/pgo/logo.png",
       },
     },
-    number: "65",
+    number: "83",
     artist: "Ryuta Fuse",
-    rarity: "Uncommon",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1393,12 +1571,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/pgo/65.png",
-      large: "https://images.pokemontcg.io/pgo/65_hires.png",
+      small: "https://images.pokemontcg.io/pgo/83.png",
+      large: "https://images.pokemontcg.io/pgo/83_hires.png",
     },
   },
   {
-    id: "swsh12-152",
+    id: "swsh12-204",
     name: "Candice",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -1425,9 +1603,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh12/logo.png",
       },
     },
-    number: "152",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
+    number: "204",
+    artist: "Naoki Saito",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1435,8 +1613,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh12/152.png",
-      large: "https://images.pokemontcg.io/swsh12/152_hires.png",
+      small: "https://images.pokemontcg.io/swsh12/204.png",
+      large: "https://images.pokemontcg.io/swsh12/204_hires.png",
     },
   },
   {
@@ -1733,7 +1911,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-137",
+    id: "swsh10-200",
     name: "Choy",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -1760,9 +1938,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "137",
+    number: "200",
     artist: "Hitoshi Ariga",
-    rarity: "Uncommon",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -1770,8 +1948,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/137.png",
-      large: "https://images.pokemontcg.io/swsh10/137_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/200.png",
+      large: "https://images.pokemontcg.io/swsh10/200_hires.png",
     },
   },
   {
@@ -2149,6 +2327,47 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "sv7-133",
+    name: "Crispin",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attach the other to 1 of your Pokémon. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "133",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/133.png",
+      large: "https://images.pokemontcg.io/sv7/133_hires.png",
+    },
+  },
+  {
     id: "swsh12pt5-125",
     name: "Crushing Hammer",
     supertype: "Trainer",
@@ -2273,7 +2492,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-138",
+    id: "swsh10-183",
     name: "Cyllene",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -2300,9 +2519,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "138",
+    number: "183",
     artist: "nagimiso",
-    rarity: "Uncommon",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2310,12 +2529,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/138.png",
-      large: "https://images.pokemontcg.io/swsh10/138_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/183.png",
+      large: "https://images.pokemontcg.io/swsh10/183_hires.png",
     },
   },
   {
-    id: "swsh9-138",
+    id: "swsh9-169",
     name: "Cynthia's Ambition",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -2342,9 +2561,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh9/logo.png",
       },
     },
-    number: "138",
+    number: "169",
     artist: "Megumi Mizutani",
-    rarity: "Uncommon",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -2352,8 +2571,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh9/138.png",
-      large: "https://images.pokemontcg.io/swsh9/138_hires.png",
+      small: "https://images.pokemontcg.io/swsh9/169.png",
+      large: "https://images.pokemontcg.io/swsh9/169_hires.png",
     },
   },
   {
@@ -2644,6 +2863,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv2/178.png",
       large: "https://images.pokemontcg.io/sv2/178_hires.png",
+    },
+  },
+  {
+    id: "sv7-134",
+    name: "Deluxe Bomb",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "ACE SPEC"],
+    rules: [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "134",
+    rarity: "ACE SPEC Rare",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/134.png",
+      large: "https://images.pokemontcg.io/sv7/134_hires.png",
     },
   },
   {
@@ -3708,7 +3969,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh12pt5-131",
+    id: "swsh12pt5-149",
     name: "Friends in Sinnoh",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -3735,9 +3996,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh12pt5/logo.png",
       },
     },
-    number: "131",
-    artist: "Ryuta Fuse",
-    rarity: "Uncommon",
+    number: "149",
+    artist: "Hideki Ishikawa",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3745,8 +4006,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh12pt5/131.png",
-      large: "https://images.pokemontcg.io/swsh12pt5/131_hires.png",
+      small: "https://images.pokemontcg.io/swsh12pt5/149.png",
+      large: "https://images.pokemontcg.io/swsh12pt5/149_hires.png",
     },
   },
   {
@@ -3916,7 +4177,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-143",
+    id: "swsh10-184",
     name: "Gardenia's Vigor",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -3943,9 +4204,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "143",
-    artist: "Yuu Nishida",
-    rarity: "Uncommon",
+    number: "184",
+    artist: "En Morikura",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -3953,8 +4214,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/143.png",
-      large: "https://images.pokemontcg.io/swsh10/143_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/184.png",
+      large: "https://images.pokemontcg.io/swsh10/184_hires.png",
     },
   },
   {
@@ -4081,6 +4342,47 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "sv7-135",
+    name: "Glass Trumpet",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "You can use this card only if you have any Tera Pokémon in play.    Choose up to 2 of your Benched Colorless Pokémon and attach a Basic Energy card from your discard pile to each of them.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "135",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/135.png",
+      large: "https://images.pokemontcg.io/sv7/135_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-162",
     name: "Grabber",
     supertype: "Trainer",
@@ -4119,6 +4421,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/162.png",
       large: "https://images.pokemontcg.io/sv3pt5/162_hires.png",
+    },
+  },
+  {
+    id: "sv7-136",
+    name: "Grand Tree",
+    supertype: "Trainer",
+    subtypes: ["Stadium", "ACE SPEC"],
+    rules: [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "Once during each player's turn, that player may search their deck for a Stage 1 Pokémon that evolves from 1 of their Basic Pokémon and put it onto that Pokémon to evolve it. If that Pokémon was evolved in this way, that player may search their deck for a Stage 2 Pokémon that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, that player shuffles their deck. (Players can't evolve a Basic Pokémon during their first turn or a Basic Pokémon that was put into play this turn.)",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "136",
+    rarity: "ACE SPEC Rare",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/136.png",
+      large: "https://images.pokemontcg.io/sv7/136_hires.png",
     },
   },
   {
@@ -4161,6 +4505,47 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/swsh10/144.png",
       large: "https://images.pokemontcg.io/swsh10/144_hires.png",
+    },
+  },
+  {
+    id: "sv7-137",
+    name: "Gravity Gemstone",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "As long as the Pokémon this card is attached to is in the Active Spot, the Retreat Cost of both Active Pokémon is Colorless more.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "137",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/137.png",
+      large: "https://images.pokemontcg.io/sv7/137_hires.png",
     },
   },
   {
@@ -4628,7 +5013,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-147",
+    id: "swsh10-186",
     name: "Irida",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -4655,9 +5040,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "147",
+    number: "186",
     artist: "kirisAki",
-    rarity: "Rare Holo",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4665,12 +5050,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/147.png",
-      large: "https://images.pokemontcg.io/swsh10/147_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/186.png",
+      large: "https://images.pokemontcg.io/swsh10/186_hires.png",
     },
   },
   {
-    id: "swsh11-158",
+    id: "swsh11-207",
     name: "Iscan",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -4697,9 +5082,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "158",
-    artist: "Akira Komayama",
-    rarity: "Uncommon",
+    number: "207",
+    artist: "Hitoshi Ariga",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4707,8 +5092,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/158.png",
-      large: "https://images.pokemontcg.io/swsh11/158_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/207.png",
+      large: "https://images.pokemontcg.io/swsh11/207_hires.png",
     },
   },
   {
@@ -4960,7 +5345,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "sv1-177",
+    id: "sv1-237",
     name: "Katy",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -4986,9 +5371,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/sv1/logo.png",
       },
     },
-    number: "177",
+    number: "237",
     artist: "Akira Komayama",
-    rarity: "Uncommon",
+    rarity: "Ultra Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -4996,8 +5381,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv1/177.png",
-      large: "https://images.pokemontcg.io/sv1/177_hires.png",
+      small: "https://images.pokemontcg.io/sv1/237.png",
+      large: "https://images.pokemontcg.io/sv1/237_hires.png",
     },
   },
   {
@@ -5085,7 +5470,89 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-159",
+    id: "sv7-138",
+    name: "Kofu",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Put 2 cards from your hand on the bottom of your deck in any order. If you put 2 cards on the bottom of your deck in this way, draw 4 cards. (If you can't put 2 cards from your hand on the bottom of your deck, you can't use this card.)",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "138",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/138.png",
+      large: "https://images.pokemontcg.io/sv7/138_hires.png",
+    },
+  },
+  {
+    id: "sv7-139",
+    name: "Lacey",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Shuffle your hand into your deck. Then, draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 cards instead.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "139",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/139.png",
+      large: "https://images.pokemontcg.io/sv7/139_hires.png",
+    },
+  },
+  {
+    id: "swsh11-208",
     name: "Lady",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -5112,9 +5579,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "159",
+    number: "208",
     artist: "saino misaki",
-    rarity: "Uncommon",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5122,8 +5589,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/159.png",
-      large: "https://images.pokemontcg.io/swsh11/159_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/208.png",
+      large: "https://images.pokemontcg.io/swsh11/208_hires.png",
     },
   },
   {
@@ -5629,7 +6096,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "pgo-67",
+    id: "pgo-88",
     name: "Lure Module",
     supertype: "Trainer",
     subtypes: ["Item", "No Tag"],
@@ -5656,9 +6123,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/pgo/logo.png",
       },
     },
-    number: "67",
+    number: "88",
     artist: "ORBITALLINK Inc.",
-    rarity: "Uncommon",
+    rarity: "Rare Secret",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -5666,8 +6133,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/pgo/67.png",
-      large: "https://images.pokemontcg.io/pgo/67_hires.png",
+      small: "https://images.pokemontcg.io/pgo/88.png",
+      large: "https://images.pokemontcg.io/pgo/88_hires.png",
     },
   },
   {
@@ -6418,6 +6885,47 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "sv7-140",
+    name: "Occa Berry",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "If the Pokémon this card is attached to is damaged by an attack from your opponent's Fire Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "140",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/140.png",
+      large: "https://images.pokemontcg.io/sv7/140_hires.png",
+    },
+  },
+  {
     id: "sv6-159",
     name: "Ogre's Mask",
     supertype: "Trainer",
@@ -6747,6 +7255,47 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv3/191.png",
       large: "https://images.pokemontcg.io/sv3/191_hires.png",
+    },
+  },
+  {
+    id: "sv7-141",
+    name: "Payapa Berry",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "If the Pokémon this card is attached to is damaged by an attack from your opponent's Psychic Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "141",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/141.png",
+      large: "https://images.pokemontcg.io/sv7/141_hires.png",
     },
   },
   {
@@ -7707,7 +8256,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "sv1-190",
+    id: "sv1-241",
     name: "Professor's Research (Professor Turo)",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -7733,9 +8282,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/sv1/logo.png",
       },
     },
-    number: "190",
+    number: "241",
     artist: "kirisAki",
-    rarity: "Rare",
+    rarity: "Ultra Rare",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -7743,8 +8292,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv1/190.png",
-      large: "https://images.pokemontcg.io/sv1/190_hires.png",
+      small: "https://images.pokemontcg.io/sv1/241.png",
+      large: "https://images.pokemontcg.io/sv1/241_hires.png",
     },
   },
   {
@@ -8289,7 +8838,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-150",
+    id: "swsh10-206",
     name: "Roxanne",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -8316,9 +8865,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "150",
-    artist: "Megumi Mizutani",
-    rarity: "Uncommon",
+    number: "206",
+    artist: "Sanosuke Sakuma",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -8326,12 +8875,12 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/150.png",
-      large: "https://images.pokemontcg.io/swsh10/150_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/206.png",
+      large: "https://images.pokemontcg.io/swsh10/206_hires.png",
     },
   },
   {
-    id: "sv3-221",
+    id: "sv3-194",
     name: "Ryme",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -8357,9 +8906,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/sv3/logo.png",
       },
     },
-    number: "221",
+    number: "194",
     artist: "nagimiso",
-    rarity: "Ultra Rare",
+    rarity: "Common",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -8367,8 +8916,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "G",
     images: {
-      small: "https://images.pokemontcg.io/sv3/221.png",
-      large: "https://images.pokemontcg.io/sv3/221_hires.png",
+      small: "https://images.pokemontcg.io/sv3/194.png",
+      large: "https://images.pokemontcg.io/sv3/194_hires.png",
     },
   },
   {
@@ -8543,7 +9092,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh12-164",
+    id: "swsh12-193",
     name: "Serena",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -8570,9 +9119,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh12/logo.png",
       },
     },
-    number: "164",
-    artist: "Ken Sugimori",
-    rarity: "Uncommon",
+    number: "193",
+    artist: "Megumi Mizutani",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -8580,8 +9129,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh12/164.png",
-      large: "https://images.pokemontcg.io/swsh12/164_hires.png",
+      small: "https://images.pokemontcg.io/swsh12/193.png",
+      large: "https://images.pokemontcg.io/swsh12/193_hires.png",
     },
   },
   {
@@ -8757,6 +9306,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/pgo/70.png",
       large: "https://images.pokemontcg.io/pgo/70_hires.png",
+    },
+  },
+  {
+    id: "sv7-142",
+    name: "Sparkling Crystal",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "ACE SPEC"],
+    rules: [
+      "You can't have more than 1 ACE SPEC card in your deck.",
+      "When the Tera Pokémon this card is attached to uses an attack, that attack costs 1 Energy less. (The Energy can be of any type.)",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    set: {
+      id: "sv7",
+      name: "Stellar Crown",
+      series: "Scarlet & Violet",
+      printedTotal: 142,
+      total: 175,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "SCR",
+      releaseDate: "2024/09/13",
+      updatedAt: "2024/09/13 15:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv7/symbol.png",
+        logo: "https://images.pokemontcg.io/sv7/logo.png",
+      },
+    },
+    number: "142",
+    rarity: "ACE SPEC Rare",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv7/142.png",
+      large: "https://images.pokemontcg.io/sv7/142_hires.png",
     },
   },
   {
@@ -9889,7 +10480,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh11-169",
+    id: "swsh11-211",
     name: "Volo",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -9916,9 +10507,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh11/logo.png",
       },
     },
-    number: "169",
+    number: "211",
     artist: "kirisAki",
-    rarity: "Rare Holo",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -9926,8 +10517,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh11/169.png",
-      large: "https://images.pokemontcg.io/swsh11/169_hires.png",
+      small: "https://images.pokemontcg.io/swsh11/211.png",
+      large: "https://images.pokemontcg.io/swsh11/211_hires.png",
     },
   },
   {
@@ -9973,7 +10564,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh12-166",
+    id: "swsh12-194",
     name: "Wallace",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -10000,9 +10591,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh12/logo.png",
       },
     },
-    number: "166",
-    artist: "Megumi Mizutani",
-    rarity: "Uncommon",
+    number: "194",
+    artist: "Ryuta Fuse",
+    rarity: "Rare Ultra",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -10010,8 +10601,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh12/166.png",
-      large: "https://images.pokemontcg.io/swsh12/166_hires.png",
+      small: "https://images.pokemontcg.io/swsh12/194.png",
+      large: "https://images.pokemontcg.io/swsh12/194_hires.png",
     },
   },
   {
@@ -10182,7 +10773,7 @@ const allStandardLegalTrainers = [
     },
   },
   {
-    id: "swsh10-159",
+    id: "swsh10-207",
     name: "Zisu",
     supertype: "Trainer",
     subtypes: ["Supporter", "No Tag"],
@@ -10209,9 +10800,9 @@ const allStandardLegalTrainers = [
         logo: "https://images.pokemontcg.io/swsh10/logo.png",
       },
     },
-    number: "159",
+    number: "207",
     artist: "kirisAki",
-    rarity: "Uncommon",
+    rarity: "Rare Rainbow",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -10219,8 +10810,8 @@ const allStandardLegalTrainers = [
     },
     regulationMark: "F",
     images: {
-      small: "https://images.pokemontcg.io/swsh10/159.png",
-      large: "https://images.pokemontcg.io/swsh10/159_hires.png",
+      small: "https://images.pokemontcg.io/swsh10/207.png",
+      large: "https://images.pokemontcg.io/swsh10/207_hires.png",
     },
   },
 ];

@@ -20,7 +20,7 @@ function App() {
           "event-finder",
           "homies",
           "top-cut-data",
-          "top-X",
+          // "top-X",
         ]}
       />
       {/* <Route
