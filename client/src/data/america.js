@@ -159,7 +159,7 @@ const racers = {
   "Hunter North [CA]": [60],
   "Anthony Kelly [US]": [60],
   "Taylor Whalen [US]": [60],
-  "Junior Chala [US]": [60],
+  "Junior Chala [US]": [100, 60],
   "Ryan Scholes [US]": [60],
   "Daniel Zhou [CA]": [60],
   "Tanner Hurley [US]": [60],
@@ -988,6 +988,10 @@ const racers = {
   "Lyra Kraemer [US]": [20],
   "Michael MacKay [US]": [20],
   "Scott Patchett [CA]": [20],
+  "Steven Hamula [US]": [160],
+  "Zach Lesage [CA]": [160],
+  "Domenick Ritchie[CA]": [80],
+  "Tevon Rossich [US]": [80],
 };
 
 export default racers;
