@@ -18,6 +18,7 @@ function TopCutData() {
         <TableMajor title="Majors" data={majors} />
         <Table title="Cups" data={cups} />
       </div>
+      <p>Notice: Complete data accuracy cannot be guaranteed</p>
     </main>
   );
 }

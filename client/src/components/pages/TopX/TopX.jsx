@@ -4,7 +4,7 @@ import america from "../../../data/america";
 import Button from "../../Button/Button";
 
 function TopX() {
-  const autoInvites = ["Henry Chao [US]"];
+  const autoInvites = ["Henry Chao [US]", "Caleb Gedemer [US]"];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentAmerica, setCurrentAmerica] = useState(america);
 
@@ -56,6 +56,7 @@ function TopX() {
             ))}
         </tbody>
       </table>
+      <p>Notice: Complete data accuracy cannot be guaranteed</p>
     </main>
   );
 }
