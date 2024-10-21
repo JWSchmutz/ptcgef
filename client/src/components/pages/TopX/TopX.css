@@ -10,6 +10,12 @@ p {
 #top-x {
   text-align: center;
 }
+
+#top-x button.reverse {
+  color: var(--primaryDark);
+  background-color: white;
+}
+
 tbody tr:nth-child(odd) {
   background-color: var(--primaryDark);
   color: #fff;

@@ -1,23 +1,48 @@
 import { useState, useEffect } from "react";
 import "./TopX.css";
-import america from "../../../data/america";
+import NA from "../../../data/NA";
+import EU from "../../../data/EU";
+import LA from "../../../data/LA";
+import OC from "../../../data/OC";
+import MESA from "../../../data/MESA";
 import Button from "../../Button/Button";
 
 function TopX() {
-  const autoInvites = ["Henry Chao [US]", "Caleb Gedemer [US]"];
+  const autoInvites = [
+    "Henry Chao [US]",
+    "Caleb Gedemer [US]",
+    "James Cox [NL]",
+    "Yerco Valencia [CL]",
+    "Giovanny Sasso [BR]",
+  ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
-  const [currentAmerica, setCurrentAmerica] = useState(america);
+  const [currentRegionData, setCurrentRegionData] = useState(NA);
+  const [currentRegion, setCurrentRegion] = useState("NA");
 
   useEffect(() => {
-    if (showAutoInvites) return setCurrentAmerica(america);
-    const americaInstance = { ...america };
-    autoInvites.forEach((autoInvitee) => delete americaInstance[autoInvitee]);
-    return setCurrentAmerica(americaInstance);
+    if (showAutoInvites)
+      switch (currentRegion) {
+        case "NA":
+          return setCurrentRegionData(NA);
+        case "EU":
+          return setCurrentRegionData(EU);
+        case "LA":
+          return setCurrentRegionData(LA);
+        case "OC":
+          return setCurrentRegionData(OC);
+        case "MESA":
+          return setCurrentRegionData(MESA);
+      }
+    const CurrentRegionInstance = { ...currentRegionData };
+    autoInvites.forEach(
+      (autoInvitee) => delete CurrentRegionInstance[autoInvitee]
+    );
+    return setCurrentRegionData(CurrentRegionInstance);
   }, [showAutoInvites]);
 
   return (
     <main id="top-x">
-      <h2 className="page-title">Top X Race - (NA Masters Beta)</h2>
+      <h2 className="page-title">Top X Race</h2>
       <h3>CP race excluding locals</h3>
       <Button
         text={showAutoInvites ? "Hide Auto Invites" : "Show Auto Invites"}
@@ -25,6 +50,64 @@ function TopX() {
         square
         classes="show-hide-auto-invites-button"
       />
+      <div className="regionControl">
+        <Button
+          text="EU"
+          handleClick={() => {
+            setCurrentRegion("EU");
+            setCurrentRegionData(EU);
+            setShowAutoInvites(true);
+          }}
+          square
+          color="white"
+          classes="show-hide-auto-invites-button"
+          reverse={currentRegion === "EU" ? true : false}
+        />
+        <Button
+          text="LA"
+          handleClick={() => {
+            setCurrentRegion("LA");
+            setCurrentRegionData(LA);
+            setShowAutoInvites(true);
+          }}
+          square
+          classes="show-hide-auto-invites-button"
+          reverse={currentRegion === "LA" ? true : false}
+        />
+        <Button
+          text="MESA"
+          handleClick={() => {
+            setCurrentRegion("MESA");
+            setCurrentRegionData(MESA);
+            setShowAutoInvites(true);
+          }}
+          square
+          classes="show-hide-auto-invites-button"
+          reverse={currentRegion === "MESA" ? true : false}
+        />
+        <Button
+          text="NA"
+          handleClick={() => {
+            setCurrentRegion("NA");
+            setCurrentRegionData(NA);
+            setShowAutoInvites(true);
+          }}
+          square
+          classes="show-hide-auto-invites-button"
+          reverse={currentRegion === "NA" ? true : false}
+        />
+        <Button
+          text="OC"
+          handleClick={() => {
+            setCurrentRegion("OC");
+            setCurrentRegionData(OC);
+            setShowAutoInvites(true);
+          }}
+          square
+          classes="show-hide-auto-invites-button"
+          reverse={currentRegion === "OC" ? true : false}
+        />
+      </div>
       <table>
         <thead>
           <tr>
@@ -35,23 +118,23 @@ function TopX() {
           </tr>
         </thead>
         <tbody>
-          {Object.keys(currentAmerica)
+          {Object.keys(currentRegionData)
             .sort(
               (a, b) =>
-                currentAmerica[b].reduce((total, num) => total + num, 0) -
-                currentAmerica[a].reduce((total, num) => total + num, 0)
+                currentRegionData[b].reduce((total, num) => total + num, 0) -
+                currentRegionData[a].reduce((total, num) => total + num, 0)
             )
             .map((keyName, i) => (
               <tr className="travelcompany-input" key={i}>
                 <td> {i + 1}</td>
                 <td>{keyName}</td>
                 <td>
-                  {currentAmerica[keyName].reduce(
+                  {currentRegionData[keyName].reduce(
                     (total, num) => total + num,
                     0
                   )}
                 </td>
-                <td>{currentAmerica[keyName].join(", ")}</td>
+                <td>{currentRegionData[keyName].join(", ")}</td>
               </tr>
             ))}
         </tbody>
