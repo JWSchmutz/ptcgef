@@ -227,7 +227,6 @@ const majors = [
       },
     ],
   },
-  ,
   {
     location: "Lille '25",
     masters: 1311,
