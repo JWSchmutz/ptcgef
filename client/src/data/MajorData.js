@@ -227,6 +227,55 @@ const majors = [
       },
     ],
   },
+  ,
+  {
+    location: "Lille '25",
+    masters: 1311,
+    results: [
+      {
+        top: 8,
+        points: 30,
+        in: 4,
+        out: 1,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 3,
+        out: 4,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 12,
+        out: 5,
+      },
+      {
+        top: 64,
+        points: 24,
+        in: 4,
+        out: 14,
+      },
+      {
+        top: 128,
+        points: 16,
+        in: 2,
+        out: 80,
+      },
+      {
+        top: 256,
+        points: 15,
+        in: 48,
+        out: 73,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 21,
+        out: 115,
+      },
+    ],
+  },
 ];
 
 majors.sort((a, b) => parseFloat(b.masters) - parseFloat(a.masters));
