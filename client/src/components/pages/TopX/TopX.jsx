@@ -17,7 +17,9 @@ function TopX() {
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
-  const [currentRegion, setCurrentRegion] = useState("NA");
+  const [currentRegion, setCurrentRegion] = useState(
+    localStorage.getItem("currentRegion") || "NA"
+  );
 
   useEffect(() => {
     if (showAutoInvites)
@@ -57,6 +59,7 @@ function TopX() {
             setCurrentRegion("EU");
             setCurrentRegionData(EU);
             setShowAutoInvites(true);
+            localStorage.setItem("currentRegion", "EU");
           }}
           square
           color="white"
@@ -69,6 +72,7 @@ function TopX() {
             setCurrentRegion("LA");
             setCurrentRegionData(LA);
             setShowAutoInvites(true);
+            localStorage.setItem("currentRegion", "LA");
           }}
           square
           classes="show-hide-auto-invites-button"
@@ -80,6 +84,7 @@ function TopX() {
             setCurrentRegion("MESA");
             setCurrentRegionData(MESA);
             setShowAutoInvites(true);
+            localStorage.setItem("currentRegion", "MESA");
           }}
           square
           classes="show-hide-auto-invites-button"
@@ -91,6 +96,7 @@ function TopX() {
             setCurrentRegion("NA");
             setCurrentRegionData(NA);
             setShowAutoInvites(true);
+            localStorage.setItem("currentRegion", "NA");
           }}
           square
           classes="show-hide-auto-invites-button"
@@ -102,6 +108,7 @@ function TopX() {
             setCurrentRegion("OC");
             setCurrentRegionData(OC);
             setShowAutoInvites(true);
+            localStorage.setItem("currentRegion", "OC");
           }}
           square
           classes="show-hide-auto-invites-button"
