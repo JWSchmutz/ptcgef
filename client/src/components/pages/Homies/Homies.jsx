@@ -68,7 +68,7 @@ function Homies() {
   }, [homies]);
   return (
     <main id="homies">
-      <h2 className="page-title">Homies - Still in Development</h2>
+      <h2 className="page-title">Homies - Beta</h2>
       {homies[0] && (
         <div>
           {homies.map((homie) => (
