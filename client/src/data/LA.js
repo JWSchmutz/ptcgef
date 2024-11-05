@@ -148,10 +148,10 @@ const LAFinishes = {
   "francisco bottero [EC]": [80],
   "Raul Calderon [MX]": [60],
   "wilsonn molina [CL]": [60, 40],
-  "facundo facio [AR]": [60, 40],
+  "facundo facio [AR]": [100, 60, 40],
   "Jose De las Casas [PE]": [60],
-  "Fernando Karolys [EC]": [60],
-  "Alejandro Chacon [CR]": [40],
+  "Fernando Karolys [EC]": [60, 40],
+  "Alejandro Chacon [CR]": [40, 40],
   "Alejandro Luciano Eijo [BR]": [300],
   "João Requena [BR]": [300],
   "Carlos Medina Astete [PE]": [280],
@@ -379,6 +379,8 @@ const LAFinishes = {
   "Yuri Bezerra [BR]": [60],
   "Jessica Brizzante Dias [BR]": [60],
   "Leonardo Braga [BR]": [60],
+  "Federico Gallo [AR]": [80],
+  "Lautaro Soler [AR]": [60],
 };
 
 export default LAFinishes;
