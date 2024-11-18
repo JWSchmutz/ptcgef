@@ -15,6 +15,8 @@ function TopX() {
     "Yerco Valencia [CL]",
     "Giovanny Sasso [BR]",
     "Alberto Conti [IT]",
+    "miloslav posledni [CZ]",
+    "Jeremy Gumila [US]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
