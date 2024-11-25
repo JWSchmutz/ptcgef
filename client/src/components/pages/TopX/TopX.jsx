@@ -17,6 +17,10 @@ function TopX() {
     "Alberto Conti [IT]",
     "miloslav posledni [CZ]",
     "Jeremy Gumila [US]",
+    "Brent Tonisson [AU]",
+    "ILYA KORNILOV [FI]",
+    "Daniel Magda [CZ]",
+    "Landen Kaetler [CA]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
