@@ -9,6 +9,9 @@ import Button from "../../Button/Button";
 
 function TopX() {
   const autoInvites = [
+    "Raz Wolpe [IL]",
+    "Jesse Parker [US]",
+    "Fernando Cifuentes [CL]",
     "Henry Chao [US]",
     "Caleb Gedemer [US]",
     "James Cox [NL]",
