@@ -1,5 +1,53 @@
 const majors = [
   {
+    location: "Sacramento '25",
+    masters: 1705,
+    results: [
+      {
+        top: 8,
+        points: 30,
+        in: 3,
+        out: 1,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 5,
+        out: 15,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 2,
+        out: 10,
+      },
+      {
+        top: 64,
+        points: 25,
+        in: 9,
+        out: 36,
+      },
+      {
+        top: 128,
+        points: 23,
+        in: 7,
+        out: 23,
+      },
+      {
+        top: 256,
+        points: 19,
+        in: 5,
+        out: 22,
+      },
+      {
+        top: 512,
+        points: 13,
+        in: 71,
+        out: 99,
+      },
+    ],
+  },
+  {
     location: "Gdansk '25",
     masters: 1372,
     results: [
