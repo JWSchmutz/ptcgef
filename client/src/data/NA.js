@@ -98,7 +98,7 @@ const NAFinishes = {
   "Grant Monson [US]": [80],
   "Tony Quach [US]": [80],
   "William Whaley [US]": [80],
-  "Gabriel Smart [US]": [280, 200, 80, 80, 80, 40],
+  "Gabriel Smart [US]": [280, 200, 80, 80, 80],
   "Zachary Trybus [US]": [80],
   "Kenneth Mauder [US]": [80, 60, 40],
   "Kenneth Gilman [US]": [325, 80, 40],
