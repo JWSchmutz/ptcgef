@@ -47,7 +47,7 @@ const LAFinishes = {
   "Rodrigo Mathías Villalobos [PE]": [100],
   "Juan David Cruz [CL]": [100, 60],
   "Angel Javier Aranibar Huamaní [PE]": [100],
-  "Francisco Osorio [CL]": [150, 100, 100, 100, 350],
+  "Francisco Osorio [CL]": [350, 150, 100, 100, 100],
   "Jorge Salas [CL]": [120, 100, 60],
   "Matias Matricardi [AR]": [280, 280, 150, 125, 100],
   "Diego Arcos [CL]": [100],
