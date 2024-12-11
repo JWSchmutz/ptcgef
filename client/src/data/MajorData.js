@@ -1,5 +1,153 @@
 const majors = [
   {
+    location: "Stuttgart '25",
+    masters: 1702,
+    results: [
+      {
+        top: 16,
+        points: {
+          wins: 9,
+          losses: 2,
+          ties: 1,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 32,
+        points: {
+          wins: 8,
+          losses: 1,
+          ties: 3,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 64,
+        points: {
+          wins: 8,
+          losses: 3,
+          ties: 1,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 128,
+        points: {
+          wins: 7,
+          losses: 3,
+          ties: 2,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 256,
+        points: {
+          wins: 6,
+          losses: 4,
+          ties: 2,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 512,
+        points: {
+          wins: 4,
+          losses: 3,
+          ties: 1,
+        },
+        in: 1,
+        out: 0,
+      },
+    ],
+  },
+  {
+    location: "Perth '25",
+    masters: 318,
+    results: [
+      {
+        top: 16,
+        points: {
+          wins: 7,
+          losses: 2,
+          ties: 1,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 32,
+        points: {
+          wins: 6,
+          losses: 3,
+          ties: 1,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 64,
+        points: {
+          wins: 5,
+          losses: 3,
+          ties: 0,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 128,
+        points: {
+          wins: 3,
+          losses: 2,
+          ties: 3,
+        },
+        in: 1,
+        out: 0,
+      },
+    ],
+  },
+  {
+    location: "Bogota '25",
+    masters: 225,
+    results: [
+      {
+        top: 16,
+        points: {
+          wins: 6,
+          losses: 3,
+          ties: 0,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 32,
+        points: {
+          wins: 5,
+          losses: 2,
+          ties: 2,
+        },
+        in: 1,
+        out: 0,
+      },
+      {
+        top: 64,
+        points: {
+          wins: 4,
+          losses: 3,
+          ties: 0,
+        },
+        in: 1,
+        out: 0,
+      },
+    ],
+  },
+  {
     location: "Sacramento '25",
     masters: 1705,
     results: [

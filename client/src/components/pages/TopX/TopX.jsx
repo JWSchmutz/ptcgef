@@ -24,6 +24,8 @@ function TopX() {
     "ILYA KORNILOV [FI]",
     "Daniel Magda [CZ]",
     "Landen Kaetler [CA]",
+    "Aarni Karjala [FI]",
+    "Francisco Osorio [CL]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
