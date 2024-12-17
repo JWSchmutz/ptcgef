@@ -143,7 +143,7 @@ const majors = [
     results: [
       {
         top: 8,
-        points: 19,
+        points: 20,
         in: 4,
         out: 1,
       },
