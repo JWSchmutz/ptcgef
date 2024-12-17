@@ -1,8 +1,68 @@
 const majors = [
   {
+    location: "Toronto '25",
+    masters: 2137,
+    results: [
+      {
+        top: 8,
+        points: 32,
+        in: 2,
+        out: 4,
+      },
+      {
+        top: 16,
+        points: 31,
+        in: 4,
+        out: 3,
+      },
+      {
+        top: 32,
+        points: 29,
+        in: 3,
+        out: 11,
+      },
+      {
+        top: 64,
+        points: 28,
+        in: 21,
+        out: 5,
+      },
+      {
+        top: 128,
+        points: 25,
+        in: 9,
+        out: 27,
+      },
+      {
+        top: 256,
+        points: 18,
+        in: 31,
+        out: 38,
+      },
+      {
+        top: 512,
+        points: 16,
+        in: 144,
+        out: 30,
+      },
+      {
+        top: 1024,
+        points: 12,
+        in: 117,
+        out: 19,
+      },
+    ],
+  },
+  {
     location: "Stuttgart '25",
     masters: 1702,
     results: [
+      {
+        top: 8,
+        points: 29,
+        in: 2,
+        out: 0,
+      },
       {
         top: 16,
         points: 28,
@@ -46,6 +106,12 @@ const majors = [
     masters: 318,
     results: [
       {
+        top: 8,
+        points: 23,
+        in: 2,
+        out: 2,
+      },
+      {
         top: 16,
         points: 22,
         in: 6,
@@ -75,6 +141,12 @@ const majors = [
     location: "Bogota '25",
     masters: 225,
     results: [
+      {
+        top: 8,
+        points: 19,
+        in: 4,
+        out: 1,
+      },
       {
         top: 16,
         points: 18,

@@ -98,6 +98,8 @@ const OCFinishes = {
   "Nicolas Musumeci [AU]": [80],
   "Nathan Morgan [AU]": [80],
   "Victor Su [AU]": [80],
+  "Morris Arnold [AU]": [60],
+  "Janette Sacdalan [AU]": [20],
   "Ciaran Bradley [NZ]": [80],
 };
 
