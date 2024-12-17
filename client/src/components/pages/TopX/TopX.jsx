@@ -26,6 +26,7 @@ function TopX() {
     "Landen Kaetler [CA]",
     "Aarni Karjala [FI]",
     "Francisco Osorio [CL]",
+    "Calvin Connor [US]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
