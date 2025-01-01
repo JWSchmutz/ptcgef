@@ -1,0 +1,35 @@
+p {
+  font-size: 30px;
+}
+
+#live-ladder h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#live-ladder {
+  text-align: center;
+}
+
+#live-ladder button.reverse {
+  color: var(--primaryDark);
+  background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--primaryDark);
+  color: #fff;
+}
+
+#live-ladder table {
+  margin: auto;
+}
+
+#live-ladder table td {
+  min-width: 100px;
+  height: 20px;
+}
+
+.show-hide-auto-invites-button {
+  margin: 20px;
+}

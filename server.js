@@ -1,9 +1,14 @@
 const express = require("express");
+const multer = require("multer");
+const fs = require("fs");
 const cors = require("cors");
 const axios = require("axios");
 const app = express();
 const port = process.env.PORT || 3001;
 const path = require("path");
+const upload = multer({ dest: "uploads/" });
+const FormData = require("form-data");
+
 app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, "./client/dist")));
@@ -109,6 +114,175 @@ app.get("/tournaments", async (req, res) => {
     .finally(function () {
       // always executed
     });
+});
+
+app.post("/upload", upload.single("image"), async (req, res) => {
+  const eky1 = "d555efb7c422f380e";
+  const eky2 = "163e4a76";
+  const eky3 = "f25c65079048540";
+  try {
+    const imagePath = path.resolve(req.file.path); // Ensure this points to the uploaded image file
+
+    // Create a FormData instance and append the image file
+    const formData = new FormData();
+    formData.append("image", fs.createReadStream(imagePath)); // Attach the image file
+
+    const response = await axios.post(
+      "https://www.imagetotext.info/api/imageToText",
+      formData,
+      {
+        headers: {
+          ...formData.getHeaders(), // Include form-data-specific headers
+          Authorization: "Bearer " + eky2 + eky1 + eky3,
+        },
+        maxRedirects: 10,
+        timeout: 0,
+      }
+    );
+    const textArray = response.data.result
+      .replace(/(\r\n|\n|\r)/gm, "")
+      .split("<br />");
+    const player1 = {
+      confidence: 100,
+    };
+    const player2 = {
+      confidence: 100,
+    };
+    let secondCase = false;
+    for (let i = textArray.length - 1; i >= 0; i--) {
+      const element = textArray[i];
+      if (parseFloat(element) >= 1000 && parseFloat(element) < 3000) {
+        if (Math.abs(textArray.indexOf("VS") - i) > 2 && !secondCase) {
+          if (!player1.username) {
+            player1.username = textArray[i - 1];
+            player1.elo = parseInt(textArray[i]);
+          } else {
+            player2.username = textArray[i + 1];
+            player2.elo = parseInt(textArray[i]);
+          }
+        } else if (Math.abs(textArray.indexOf("VS") - i) <= 2 || secondCase) {
+          secondCase = true;
+          filteredTextArray = textArray.filter(
+            (el) => el !== "VS" && el !== "LIVE"
+          );
+          const j = filteredTextArray.indexOf(element);
+          if (!player1.username) {
+            player1.username = filteredTextArray[j - 2];
+            player1.elo = parseInt(filteredTextArray[j]);
+            player2.username = filteredTextArray[j - 1];
+          } else {
+            player2.elo = parseInt(textArray[i]);
+          }
+        }
+      }
+    }
+
+    const dp2 = path.join(__dirname, "db2.json");
+
+    // Read the existing JSON file
+    fs.readFile(dp2, "utf8", (err, data) => {
+      if (err) {
+        console.error("Error reading db2.json:", err);
+        return;
+      }
+
+      let jsonArray;
+      try {
+        // Parse the file contents to a JavaScript array
+        jsonArray = JSON.parse(data);
+      } catch (parseErr) {
+        console.error("Error parsing JSON:", parseErr);
+        return;
+      }
+
+      // Push textArray into the existing JSON array
+      jsonArray.push(textArray);
+
+      // Write the updated array back to the file
+      fs.writeFile(
+        dp2,
+        JSON.stringify(jsonArray, null, 2),
+        "utf8",
+        (writeErr) => {
+          if (writeErr) {
+            console.error("Error writing to db2.json:", writeErr);
+            return;
+          }
+          console.log("Successfully updated db2.json");
+        }
+      );
+    });
+
+    const dataPath = path.join(__dirname, "db.json");
+
+    // Read the existing JSON file
+    fs.readFile(dataPath, "utf8", (err, data) => {
+      if (err) {
+        console.error("Error reading data.json:", err);
+        return;
+      }
+
+      let jsonArray;
+      try {
+        // Parse the file contents to a JavaScript array
+        jsonArray = JSON.parse(data);
+      } catch (parseErr) {
+        console.error("Error parsing JSON:", parseErr);
+        return;
+      }
+
+      // Function to update or add a player
+      const upsertPlayer = (player) => {
+        const existingIndex = jsonArray.findIndex(
+          (item) => item.username === player.username
+        );
+
+        if (existingIndex !== -1) {
+          // Overwrite the existing entry
+          jsonArray[existingIndex] = player;
+        } else {
+          // Add as a new entry
+          jsonArray.push(player);
+        }
+      };
+
+      // Update or add player1 and player2
+      upsertPlayer(player1);
+      upsertPlayer(player2);
+
+      // Write the updated array back to the file
+      fs.writeFile(
+        dataPath,
+        JSON.stringify(jsonArray, null, 2),
+        "utf8",
+        (writeErr) => {
+          if (writeErr) {
+            console.error("Error writing to data.json:", writeErr);
+            return;
+          }
+          console.log("Successfully updated data.json");
+          fs.unlink(imagePath, (unlinkErr) => {
+            if (unlinkErr) {
+              console.error("Error deleting file:", unlinkErr);
+              return;
+            }
+            console.log("Successfully deleted the file:", imagePath);
+          });
+        }
+      );
+    });
+    res.json({
+      message: "Image uploaded and processed successfully!",
+      player1,
+      player2,
+      textArray, // Optionally send the text array back if needed
+    });
+  } catch (error) {
+    console.error(
+      "Error:",
+      error.response ? error.response.data : error.message
+    );
+  }
 });
 
 app.get("*", function (_, res) {

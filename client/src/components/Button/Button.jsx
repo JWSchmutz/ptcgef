@@ -8,14 +8,18 @@ export default function Button({
   reverse,
   square,
   classes,
+  disabled,
+  style,
 }) {
   return (
     <button
+      disabled={disabled}
       type={type}
       className={`button ${reverse ? "reverse" : ""} ${
         square ? "square" : ""
       } ${`${classes ? classes : ""}`}`}
       onClick={handleClick}
+      style={style}
     >
       {text}
     </button>

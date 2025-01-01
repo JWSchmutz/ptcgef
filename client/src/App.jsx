@@ -5,6 +5,7 @@ import CardSearch from "./components/pages/CardSearch/CardSearch";
 import EventFinder from "./components/pages/EventFinder/EventFinder";
 import TopCutData from "./components/pages/TopCutData/TopCutData";
 import TopX from "./components/pages/TopX/TopX";
+import LiveLadder from "./components/pages/LiveLadder/LiveLadder";
 import Homies from "./components/pages/Homies/Homies";
 import Navbar from "./components/Navbar/Navbar";
 // import allStandardLegalCards from "./data/allStandardLegalCards";
@@ -21,6 +22,7 @@ function App() {
           "homies",
           "top-cut-data",
           "top-X",
+          "live-ladder",
         ]}
       />
       {/* <Route
@@ -36,6 +38,7 @@ function App() {
           <Route exact path="/top-cut-data" element={<TopCutData />} />
           <Route exact path="/top-x" element={<TopX />} />
           <Route exact path="/homies" element={<Homies />} />
+          <Route exact path="/live-ladder" element={<LiveLadder />} />
           {/*
       <PrivateRoute
         authed={!!user.username}
