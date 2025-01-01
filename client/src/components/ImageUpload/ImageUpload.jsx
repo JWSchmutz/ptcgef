@@ -1,15 +1,44 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
-import { addDoc, collection } from "firebase/firestore";
+import {
+  collection,
+  addDoc,
+  query,
+  where,
+  getDocs,
+  doc,
+  setDoc,
+} from "firebase/firestore";
 import db from "../../firebase";
 
 const ImageUpload = () => {
   const postNewDocument = async (newDocument) => {
+    console.log("gere 1");
     try {
-      const docRef = await addDoc(collection(db, "liveLadder"), newDocument);
-      console.log("Document added with ID: ", docRef.id);
+      console.log("gere 2");
+
+      // Query to check if a document with the same username exists
+      const q = query(
+        collection(db, "liveLadder"),
+        where("username", "==", newDocument.username)
+      );
+      const querySnapshot = await getDocs(q);
+      console.log(querySnapshot);
+      if (!querySnapshot.empty) {
+        console.log("gere 3");
+
+        // If document with the username exists, update the document
+        const existingDoc = querySnapshot.docs[0]; // Take the first matching document
+        const docRef = doc(db, "liveLadder", existingDoc.id); // Reference to the existing document
+        await setDoc(docRef, newDocument); // Replace the existing document
+      } else {
+        console.log("gere 4");
+
+        // If no document with the username exists, add a new document
+        await addDoc(collection(db, "liveLadder"), newDocument);
+      }
     } catch (e) {
-      console.error("Error adding document: ", e);
+      console.error("Error adding/updating document: ", e);
     }
   };
 
@@ -57,7 +86,7 @@ const ImageUpload = () => {
       postNewDocument(result.player1);
       postNewDocument(result.player2);
       alert("Image uploaded successfully!");
-      window.location.reload();
+      // window.location.reload();
     } catch (err) {
       setError(err.message);
     } finally {

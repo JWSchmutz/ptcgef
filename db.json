@@ -1,8 +1,7 @@
 [
   {
-    "confidence": 100,
     "username": "Seagrove",
-    "elo": 1659
+    "elo": 1645
   },
   {
     "username": "jun0712",
@@ -33,5 +32,9 @@
     "confidence": 100,
     "username": "Pokemo",
     "elo": 1632
+  },
+  {
+    "username": "Pokémo",
+    "elo": 1609
   }
 ]
