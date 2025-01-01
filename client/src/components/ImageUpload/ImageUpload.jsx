@@ -1,7 +1,18 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
+import { addDoc, collection } from "firebase/firestore";
+import db from "../../firebase";
 
 const ImageUpload = () => {
+  const postNewDocument = async (newDocument) => {
+    try {
+      const docRef = await addDoc(collection(db, "liveLadder"), newDocument);
+      console.log("Document added with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+  };
+
   const [image, setImage] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
   const [uploading, setUploading] = useState(false);
@@ -43,12 +54,13 @@ const ImageUpload = () => {
       }
 
       const result = await response.json();
+      postNewDocument(result.player1);
+      postNewDocument(result.player2);
       alert("Image uploaded successfully!");
     } catch (err) {
       setError(err.message);
     } finally {
       setUploading(false);
-      window.location.reload();
     }
   };
 

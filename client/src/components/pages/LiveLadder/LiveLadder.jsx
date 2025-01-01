@@ -1,9 +1,45 @@
 import { useState, useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
 import "./LiveLadder.css";
-import Live from "../../../../../db.json";
+import db from "../../../firebase";
 import ImageUpload from "../../ImageUpload/ImageUpload";
 
 function LiveLadder() {
+  const [data, setData] = useState([]); // State to hold the fetched data
+  const [loading, setLoading] = useState(true); // State to track loading state
+  const [error, setError] = useState(null); // State to track any errors
+  useEffect(() => {
+    // Define an asynchronous function to fetch data
+    const fetchData = async () => {
+      try {
+        // Reference to your Firestore collection
+        const querySnapshot = await getDocs(collection(db, "liveLadder"));
+
+        // Map through the documents and extract the data
+        const fetchedData = querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+
+        setData(fetchedData); // Set the data to state
+      } catch (err) {
+        setError(err.message); // Set error if any
+      } finally {
+        setLoading(false); // Set loading to false after data is fetched
+      }
+    };
+
+    fetchData(); // Call the fetch function
+  }, []); // Empty dependency array means it runs once after the component mounts
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
   return (
     <main id="live-ladder">
       <h2 className="page-title">
@@ -20,7 +56,7 @@ function LiveLadder() {
           </tr>
         </thead>
         <tbody>
-          {Live.map((player, i) => (
+          {data.map((player, i) => (
             <tr className="travelcompany-input" key={i}>
               <td> {i + 1}</td>
               <td>{player.username}</td>

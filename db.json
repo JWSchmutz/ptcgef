@@ -2,7 +2,7 @@
   {
     "confidence": 100,
     "username": "Seagrove",
-    "elo": 1647
+    "elo": 1659
   },
   {
     "username": "jun0712",
@@ -28,5 +28,10 @@
     "confidence": 100,
     "username": "chibikonan1",
     "elo": 1654
+  },
+  {
+    "confidence": 100,
+    "username": "Pokemo",
+    "elo": 1632
   }
 ]

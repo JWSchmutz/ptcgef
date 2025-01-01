@@ -142,12 +142,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     const textArray = response.data.result
       .replace(/(\r\n|\n|\r)/gm, "")
       .split("<br />");
-    const player1 = {
-      confidence: 100,
-    };
-    const player2 = {
-      confidence: 100,
-    };
+    const player1 = {};
+    const player2 = {};
     let secondCase = false;
     for (let i = textArray.length - 1; i >= 0; i--) {
       const element = textArray[i];
