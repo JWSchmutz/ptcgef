@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./LiveLadder.css";
 import Live from "../../../../../db.json";
 import ImageUpload from "../../ImageUpload/ImageUpload";
-import Button from "../../Button/Button";
 
 function LiveLadder() {
   return (
