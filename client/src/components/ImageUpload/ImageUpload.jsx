@@ -57,6 +57,7 @@ const ImageUpload = () => {
       postNewDocument(result.player1);
       postNewDocument(result.player2);
       alert("Image uploaded successfully!");
+      window.location.reload();
     } catch (err) {
       setError(err.message);
     } finally {
