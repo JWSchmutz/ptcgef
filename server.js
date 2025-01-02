@@ -160,6 +160,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Pokem") return false;
       else if (ele === "PokeMay") return false;
       else if (ele === "Pokemon") return false;
+      else if (ele === "PokeNoy Pokémo") return false;
+
       return true;
     });
     console.log(textArray);
