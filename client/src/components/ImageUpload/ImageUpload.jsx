@@ -12,6 +12,7 @@ import {
 import db from "../../firebase";
 
 const ImageUpload = () => {
+  const [player, setPlayer] = useState(true);
   const postNewDocument = async (newDocument) => {
     console.log("gere 1");
     try {
@@ -31,11 +32,15 @@ const ImageUpload = () => {
         const existingDoc = querySnapshot.docs[0]; // Take the first matching document
         const docRef = doc(db, "liveLadder", existingDoc.id); // Reference to the existing document
         await setDoc(docRef, newDocument); // Replace the existing document
+        if (player) alert("player 1 added");
+        setPlayer(!player);
       } else {
         console.log("gere 4");
 
         // If no document with the username exists, add a new document
         await addDoc(collection(db, "liveLadder"), newDocument);
+        if (player) alert("player 2 added");
+        setPlayer(!player);
       }
     } catch (e) {
       console.error("Error adding/updating document: ", e);
@@ -86,7 +91,6 @@ const ImageUpload = () => {
       postNewDocument(result.player1);
       postNewDocument(result.player2);
       alert("Image uploaded successfully!");
-      window.location.reload();
     } catch (err) {
       setError(err.message);
     } finally {

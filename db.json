@@ -1,7 +1,7 @@
 [
   {
     "username": "Seagrove",
-    "elo": 1647
+    "elo": 1631
   },
   {
     "username": "jun0712",
@@ -35,5 +35,9 @@
   {
     "username": "Pokémo",
     "elo": 1609
+  },
+  {
+    "elo": 1610,
+    "username": "mingzuo"
   }
 ]
