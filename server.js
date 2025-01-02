@@ -152,7 +152,6 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         return true;
       }
       if (ele.length > 15 || ele.length < 3) return false;
-      else if (ele === "LIVE") return false;
       else if (ele === "Pokemo") return false;
       else if (ele === "Pokémon") return false;
       else if (ele === "Pokémo") return false;
@@ -161,6 +160,10 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "PokeMay") return false;
       else if (ele === "Pokemon") return false;
       else if (ele === "PokeNoy Pokémo") return false;
+      else if (ele === "CUP") return false;
+      else if (ele === "PLAYERS") return false;
+      else if (ele === "battle!") return false;
+      else if (ele.includes("LIVE")) return false;
 
       return true;
     });
@@ -190,35 +193,6 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       player2.username = textArray[1];
       player2.elo = parseInt(textArray[4]);
     }
-
-    // let secondCase = false;
-    // for (let i = textArray.length - 1; i >= 0; i--) {
-    //   const element = textArray[i];
-    //   if (parseFloat(element) >= 1000 && parseFloat(element) < 3000) {
-    //     if (Math.abs(textArray.indexOf("VS") - i) > 2 && !secondCase) {
-    //       if (!player1.username) {
-    //         player1.username = textArray[i - 1];
-    //         player1.elo = parseInt(textArray[i]);
-    //       } else {
-    //         player2.username = textArray[i + 1];
-    //         player2.elo = parseInt(textArray[i]);
-    //       }
-    //     } else if (Math.abs(textArray.indexOf("VS") - i) <= 2 || secondCase) {
-    //       secondCase = true;
-    //       filteredTextArray = textArray.filter(
-    //         (el) => el !== "VS" && el !== "LIVE"
-    //       );
-    //       const j = filteredTextArray.indexOf(element);
-    //       if (!player1.username) {
-    //         player1.username = filteredTextArray[j - 2];
-    //         player1.elo = parseInt(filteredTextArray[j]);
-    //         player2.username = filteredTextArray[j - 1];
-    //       } else {
-    //         player2.elo = parseInt(textArray[i]);
-    //       }
-    //     }
-    //   }
-    // }
 
     const dp2 = path.join(__dirname, "db2.json");
 
