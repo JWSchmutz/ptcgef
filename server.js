@@ -164,6 +164,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "PLAYERS") return false;
       else if (ele === "battle!") return false;
       else if (ele === "Рокому") return false;
+      else if (ele === "compassion.") return false;
       else if (ele.includes("LIVE")) return false;
 
       return true;
