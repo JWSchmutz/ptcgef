@@ -139,39 +139,84 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         timeout: 0,
       }
     );
-    const textArray = response.data.result
+    let textArray = response.data.result
       .replace(/(\r\n|\n|\r)/gm, "")
       .split("<br />");
     const player1 = {};
     const player2 = {};
-    let secondCase = false;
-    for (let i = textArray.length - 1; i >= 0; i--) {
-      const element = textArray[i];
-      if (parseFloat(element) >= 1000 && parseFloat(element) < 3000) {
-        if (Math.abs(textArray.indexOf("VS") - i) > 2 && !secondCase) {
-          if (!player1.username) {
-            player1.username = textArray[i - 1];
-            player1.elo = parseInt(textArray[i]);
-          } else {
-            player2.username = textArray[i + 1];
-            player2.elo = parseInt(textArray[i]);
-          }
-        } else if (Math.abs(textArray.indexOf("VS") - i) <= 2 || secondCase) {
-          secondCase = true;
-          filteredTextArray = textArray.filter(
-            (el) => el !== "VS" && el !== "LIVE"
-          );
-          const j = filteredTextArray.indexOf(element);
-          if (!player1.username) {
-            player1.username = filteredTextArray[j - 2];
-            player1.elo = parseInt(filteredTextArray[j]);
-            player2.username = filteredTextArray[j - 1];
-          } else {
-            player2.elo = parseInt(textArray[i]);
-          }
-        }
+
+    textArray = textArray.filter((ele) => {
+      if (ele === "V" || ele === "VS" || ele === "S") return true;
+      if (parseInt(ele) > 0) {
+        if (ele.length !== 4) return false;
+        return true;
       }
+      if (ele.length > 15 || ele.length < 3) return false;
+      else if (ele === "LIVE") return false;
+      else if (ele === "Pokemo") return false;
+      else if (ele === "Pokémon") return false;
+      else if (ele === "Pokémo") return false;
+      else if (ele === "PokeMa") return false;
+      else if (ele === "Pokem") return false;
+      else if (ele === "PokeMay") return false;
+      else if (ele === "Pokemon") return false;
+      return true;
+    });
+    console.log(textArray);
+    if (textArray.length !== 5) return;
+    if (
+      textArray.indexOf("VS") === 2 ||
+      textArray.indexOf("V") === 2 ||
+      textArray.indexOf("S") === 2
+    ) {
+      console.log("here 1");
+
+      player1.elo = parseInt(textArray[0]);
+      player1.username = textArray[1];
+      player2.username = textArray[3];
+      player2.elo = parseInt(textArray[4]);
     }
+    if (
+      textArray.indexOf("VS") === 3 ||
+      textArray.indexOf("V") === 3 ||
+      textArray.indexOf("S") === 3
+    ) {
+      console.log("here 2");
+
+      player1.elo = parseInt(textArray[0]);
+      player1.username = textArray[2];
+      player2.username = textArray[1];
+      player2.elo = parseInt(textArray[4]);
+    }
+
+    // let secondCase = false;
+    // for (let i = textArray.length - 1; i >= 0; i--) {
+    //   const element = textArray[i];
+    //   if (parseFloat(element) >= 1000 && parseFloat(element) < 3000) {
+    //     if (Math.abs(textArray.indexOf("VS") - i) > 2 && !secondCase) {
+    //       if (!player1.username) {
+    //         player1.username = textArray[i - 1];
+    //         player1.elo = parseInt(textArray[i]);
+    //       } else {
+    //         player2.username = textArray[i + 1];
+    //         player2.elo = parseInt(textArray[i]);
+    //       }
+    //     } else if (Math.abs(textArray.indexOf("VS") - i) <= 2 || secondCase) {
+    //       secondCase = true;
+    //       filteredTextArray = textArray.filter(
+    //         (el) => el !== "VS" && el !== "LIVE"
+    //       );
+    //       const j = filteredTextArray.indexOf(element);
+    //       if (!player1.username) {
+    //         player1.username = filteredTextArray[j - 2];
+    //         player1.elo = parseInt(filteredTextArray[j]);
+    //         player2.username = filteredTextArray[j - 1];
+    //       } else {
+    //         player2.elo = parseInt(textArray[i]);
+    //       }
+    //     }
+    //   }
+    // }
 
     const dp2 = path.join(__dirname, "db2.json");
 
@@ -271,7 +316,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       message: "Image uploaded and processed successfully!",
       player1,
       player2,
-      textArray, // Optionally send the text array back if needed
+      textArray,
     });
   } catch (error) {
     console.error(
