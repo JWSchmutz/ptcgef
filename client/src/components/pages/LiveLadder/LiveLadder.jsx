@@ -21,6 +21,8 @@ function LiveLadder() {
           ...doc.data(),
         }));
 
+        fetchedData.sort((a, b) => parseFloat(b.elo) - parseFloat(a.elo));
+
         setData(fetchedData); // Set the data to state
       } catch (err) {
         setError(err.message); // Set error if any
