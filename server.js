@@ -157,6 +157,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Pokémo") return false;
       else if (ele === "PokeMa") return false;
       else if (ele === "Pokem") return false;
+      else if (ele === "Poke") return false;
       else if (ele === "PokeMay") return false;
       else if (ele === "Pokemon") return false;
       else if (ele === "PokeNoy Pokémo") return false;
@@ -167,6 +168,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "compassion.") return false;
       else if (ele === "shorts!") return false;
       else if (ele === "grudge.") return false;
+      else if (ele === "PokeMoy") return false;
+      else if (ele === "my opponent.") return false;
       else if (ele.includes("LIVE")) return false;
 
       return true;
