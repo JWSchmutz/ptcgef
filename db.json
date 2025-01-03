@@ -1,7 +1,7 @@
 [
   {
     "username": "Seagrove",
-    "elo": 1629
+    "elo": 1680
   },
   {
     "username": "jun0712",
@@ -52,5 +52,21 @@
   {
     "username": "Gassy9869",
     "elo": 1807
+  },
+  {
+    "elo": 1624,
+    "username": "Zonedarknight"
+  },
+  {
+    "elo": 1672,
+    "username": "Korosuke98765"
+  },
+  {
+    "username": "2023",
+    "elo": null
+  },
+  {
+    "elo": 1662,
+    "username": "Aran443"
   }
 ]
