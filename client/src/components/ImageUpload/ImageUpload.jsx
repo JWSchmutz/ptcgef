@@ -12,12 +12,8 @@ import {
 import db from "../../firebase";
 
 const ImageUpload = () => {
-  const [player, setPlayer] = useState(true);
   const postNewDocument = async (newDocument) => {
-    console.log("gere 1");
     try {
-      console.log("gere 2");
-
       // Query to check if a document with the same username exists
       const q = query(
         collection(db, "liveLadder"),
@@ -26,31 +22,31 @@ const ImageUpload = () => {
       const querySnapshot = await getDocs(q);
       console.log(querySnapshot);
       if (!querySnapshot.empty) {
-        console.log("gere 3");
-
         // If document with the username exists, update the document
         const existingDoc = querySnapshot.docs[0]; // Take the first matching document
         const docRef = doc(db, "liveLadder", existingDoc.id); // Reference to the existing document
         await setDoc(docRef, newDocument); // Replace the existing document
-        if (player) alert("player 1 added");
-        setPlayer(!player);
+        alert("player added");
       } else {
-        console.log("gere 4");
-
         // If no document with the username exists, add a new document
         await addDoc(collection(db, "liveLadder"), newDocument);
-        if (player) alert("player 2 added");
-        setPlayer(!player);
+        alert("player added");
       }
     } catch (e) {
       console.error("Error adding/updating document: ", e);
     }
   };
 
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   const [image, setImage] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(null);
+
+  const handleImageLoad = (event) => {
+    const { naturalWidth, naturalHeight } = event.target;
+    setDimensions({ width: naturalWidth, height: naturalHeight });
+  };
 
   const handlePaste = (e) => {
     const items = e.clipboardData.items;
@@ -70,10 +66,10 @@ const ImageUpload = () => {
       setError("No image to upload!");
       return;
     }
-
+    console.log(dimensions);
     const formData = new FormData();
     formData.append("image", image);
-
+    formData.append("dimensions", JSON.stringify(dimensions));
     setUploading(true);
     setError(null);
 
@@ -113,6 +109,7 @@ const ImageUpload = () => {
           src={previewUrl}
           alt="Preview"
           style={{ maxWidth: "100%", marginTop: "10px" }}
+          onLoad={handleImageLoad}
         />
       )}
       <br />

@@ -7,7 +7,10 @@ const app = express();
 const port = process.env.PORT || 3001;
 const path = require("path");
 const upload = multer({ dest: "uploads/" });
+const bodyParser = require("body-parser");
 const FormData = require("form-data");
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.json());
 app.use(cors());
@@ -117,9 +120,12 @@ app.get("/tournaments", async (req, res) => {
 });
 
 app.post("/upload", upload.single("image"), async (req, res) => {
+  let isPhone = false;
   const eky1 = "d555efb7c422f380e";
   const eky2 = "163e4a76";
   const eky3 = "f25c65079048540";
+  const dimensions = JSON.parse(req.body.dimensions);
+  if (dimensions.width < dimensions.height) isPhone = true;
   try {
     const imagePath = path.resolve(req.file.path); // Ensure this points to the uploaded image file
 
@@ -153,30 +159,30 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       }
       if (ele.length > 15 || ele.length < 3) return false;
       else if (ele === "Pokemo") return false;
-      else if (ele === "Pokémon") return false;
-      else if (ele === "Pokémo") return false;
-      else if (ele === "PokeMa") return false;
       else if (ele === "Pokem") return false;
       else if (ele === "Poke") return false;
-      else if (ele === "PokeMay") return false;
+      else if (ele === "Peken") return false;
       else if (ele === "Pokemon") return false;
-      else if (ele === "PokeNoy Pokémo") return false;
       else if (ele === "CUP") return false;
       else if (ele === "PLAYERS") return false;
       else if (ele === "battle!") return false;
-      else if (ele === "Рокому") return false;
-      else if (ele === "Роком") return false;
-      else if (ele === "Рокомо") return false;
       else if (ele === "compassion.") return false;
       else if (ele === "shorts!") return false;
       else if (ele === "grudge.") return false;
-      else if (ele === "PokeMoy") return false;
       else if (ele === "my opponent.") return false;
       else if (ele === "compassion") return false;
       else if (ele === "me.") return false;
       else if (ele === "2023") return false;
       else if (ele === "2024") return false;
       else if (ele === "2025") return false;
+      else if (
+        ele.includes("Pokém") ||
+        ele.includes("PokeNo") ||
+        ele.includes("PokeM") ||
+        ele.includes("Роком")
+      )
+        return false;
+      else if (ele.includes(".") || ele.includes("!")) return false;
       else if (ele.includes("bro?")) return false;
       else if (ele.includes("LIVE")) return false;
 
@@ -184,28 +190,23 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     });
     console.log(textArray, textArray.length);
     if (
-      textArray.indexOf("VS") === 2 ||
-      textArray.indexOf("V") === 2 ||
-      textArray.indexOf("S") === 2
+      (textArray.indexOf("VS") === 2 ||
+        textArray.indexOf("V") === 2 ||
+        textArray.indexOf("S") === 2) &&
+      !isPhone
     ) {
-      console.log("here 1");
-
       player1.elo = parseInt(textArray[0]);
       player1.username = textArray[1];
       player2.username = textArray[3];
       player2.elo = parseInt(textArray[4]);
     }
-    if (
-      textArray.indexOf("VS") === 3 ||
-      textArray.indexOf("V") === 3 ||
-      textArray.indexOf("S") === 3
-    ) {
-      console.log("here 2");
-
+    if (isPhone) {
+      console.log("here");
+      textArray = textArray.filter((el) => !["V", "S", "VS"].includes(el));
       player1.elo = parseInt(textArray[0]);
       player1.username = textArray[2];
       player2.username = textArray[1];
-      player2.elo = parseInt(textArray[4]);
+      player2.elo = parseInt(textArray[3]);
     }
 
     const dp2 = path.join(__dirname, "db2.json");
