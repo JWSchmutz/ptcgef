@@ -182,7 +182,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         ele.includes("Роком")
       )
         return false;
-      else if (ele.includes(".") || ele.includes("!")) return false;
+      else if (ele.includes(".") || ele.includes("!") || ele.includes("?"))
+        return false;
       else if (ele.includes("bro?")) return false;
       else if (ele.includes("LIVE")) return false;
 
