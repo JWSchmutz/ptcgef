@@ -167,6 +167,8 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "CUP") return false;
       else if (ele === "PLAYERS") return false;
       else if (ele === "compassion") return false;
+      else if (ele === "Angham") return false;
+      else if (ele === "Anaheim") return false;
       else if (ele === "bottle") return false;
       else if (ele === "2023") return false;
       else if (ele === "2024") return false;
@@ -185,7 +187,6 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         ele.includes("&")
       )
         return false;
-      else if (ele.includes("bro?")) return false;
       else if (ele.includes("LIVE")) return false;
 
       return true;
