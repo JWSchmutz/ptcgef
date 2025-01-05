@@ -161,7 +161,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         else if (ele === "2023") return false;
         else if (ele === "2024") return false;
         else if (ele === "2025") return false;
-
+        console.log(ele);
         return true;
       }
 
