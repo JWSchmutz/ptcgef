@@ -210,6 +210,14 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       player1.username = textArray[2];
       player2.username = textArray[1];
       player2.elo = parseInt(textArray[3]);
+      //[03, manuel, 51, jhollen]
+      console.log(player2.elo);
+      if (isNaN(player2.elo)) {
+        player1.elo = parseInt(textArray[0]);
+        player1.username = textArray[3];
+        player2.username = textArray[1];
+        player2.elo = parseInt(textArray[2]);
+      }
     }
 
     const dp2 = path.join(__dirname, "db2.json");
