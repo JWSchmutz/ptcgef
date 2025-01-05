@@ -150,13 +150,21 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       .split("<br />");
     const player1 = {};
     const player2 = {};
+    console.log(textArray);
 
     textArray = textArray.filter((ele) => {
       if (ele === "V" || ele === "VS" || ele === "S") return true;
+      console.log(ele);
+
       if (parseInt(ele) > 0) {
         if (ele.length !== 4) return false;
+        else if (ele === "2023") return false;
+        else if (ele === "2024") return false;
+        else if (ele === "2025") return false;
+
         return true;
       }
+
       if (ele.length > 15 || ele.length < 3) return false;
       else if (ele === "Pokemo") return false;
       else if (ele === "Pokem") return false;
@@ -170,13 +178,11 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Angham") return false;
       else if (ele === "Anaheim") return false;
       else if (ele === "bottle") return false;
-      else if (ele === "2023") return false;
-      else if (ele === "2024") return false;
-      else if (ele === "2025") return false;
       else if (
         ele.includes("Pokém") ||
         ele.includes("PokeNo") ||
         ele.includes("PokeM") ||
+        ele.includes("POKEM") ||
         ele.includes("Роком")
       )
         return false;
