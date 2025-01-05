@@ -161,6 +161,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Pokemo") return false;
       else if (ele === "Pokem") return false;
       else if (ele === "Poke") return false;
+      else if (ele === "Pokey") return false;
       else if (ele === "Peken") return false;
       else if (ele === "Pokemon") return false;
       else if (ele === "CUP") return false;
@@ -171,7 +172,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "grudge.") return false;
       else if (ele === "my opponent.") return false;
       else if (ele === "compassion") return false;
-      else if (ele === "me.") return false;
+      else if (ele === "bottle") return false;
       else if (ele === "2023") return false;
       else if (ele === "2024") return false;
       else if (ele === "2025") return false;
@@ -182,7 +183,12 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         ele.includes("Роком")
       )
         return false;
-      else if (ele.includes(".") || ele.includes("!") || ele.includes("?"))
+      else if (
+        ele.includes(".") ||
+        ele.includes("!") ||
+        ele.includes("?") ||
+        ele.includes("&")
+      )
         return false;
       else if (ele.includes("bro?")) return false;
       else if (ele.includes("LIVE")) return false;
