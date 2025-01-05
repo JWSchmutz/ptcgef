@@ -166,11 +166,6 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Pokemon") return false;
       else if (ele === "CUP") return false;
       else if (ele === "PLAYERS") return false;
-      else if (ele === "battle!") return false;
-      else if (ele === "compassion.") return false;
-      else if (ele === "shorts!") return false;
-      else if (ele === "grudge.") return false;
-      else if (ele === "my opponent.") return false;
       else if (ele === "compassion") return false;
       else if (ele === "bottle") return false;
       else if (ele === "2023") return false;
