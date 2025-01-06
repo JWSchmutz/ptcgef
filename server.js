@@ -178,6 +178,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "Angham") return false;
       else if (ele === "Anaheim") return false;
       else if (ele === "bottle") return false;
+      else if (ele === "STATS") return false;
       else if (
         ele.includes("Pokém") ||
         ele.includes("PokeNo") ||
