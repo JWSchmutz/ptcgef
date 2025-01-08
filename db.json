@@ -1,7 +1,7 @@
 [
   {
     "username": "Seagrove",
-    "elo": 1680
+    "elo": 1629
   },
   {
     "username": "jun0712",
@@ -106,8 +106,8 @@
     "username": "Angham"
   },
   {
-    "username": "ManuelWPA",
-    "elo": 1651
+    "elo": 1692,
+    "username": "ManuelWPA"
   },
   {
     "elo": 1603,
@@ -124,5 +124,29 @@
   {
     "username": "molerator",
     "elo": 1850
+  },
+  {
+    "username": "marcieline",
+    "elo": 1688
+  },
+  {
+    "elo": 1784,
+    "username": "Fumitaro"
+  },
+  {
+    "username": "I hope",
+    "elo": null
+  },
+  {
+    "username": "Naeryan94",
+    "elo": 1702
+  },
+  {
+    "username": "liehunters",
+    "elo": 1696
+  },
+  {
+    "elo": 1572,
+    "username": "Wynderea"
   }
 ]

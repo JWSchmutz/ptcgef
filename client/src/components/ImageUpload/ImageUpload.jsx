@@ -84,8 +84,8 @@ const ImageUpload = () => {
       }
 
       const result = await response.json();
-      postNewDocument(result.player1);
-      postNewDocument(result.player2);
+      if (result.player1.elo) postNewDocument(result.player1);
+      if (result.player2.elo) postNewDocument(result.player2);
       alert("Image uploaded successfully!");
     } catch (err) {
       setError(err.message);

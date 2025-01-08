@@ -151,7 +151,6 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     const player1 = {};
     const player2 = {};
     console.log(textArray);
-
     textArray = textArray.filter((ele) => {
       if (ele === "V" || ele === "VS" || ele === "S") return true;
       console.log(ele);
@@ -175,6 +174,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       else if (ele === "CUP") return false;
       else if (ele === "PLAYERS") return false;
       else if (ele === "compassion") return false;
+      else if (ele === "I could Win") return false;
       else if (ele === "Angham") return false;
       else if (ele === "Anaheim") return false;
       else if (ele === "bottle") return false;
