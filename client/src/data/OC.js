@@ -1,7 +1,7 @@
 const OCFinishes = {
-  "Brent Tonisson [AU]": [480, 280, 125, 125, 125],
+  "Brent Tonisson [AU]": [480, 300, 280, 125, 125],
   "Kaiwen Cabbabe [AU]": [280, 125, 120, 80],
-  "Ryan Bielak [AU]": [40, 40],
+  "Ryan Bielak [AU]": [40, 40, 40],
   "Tim Franklin [AU]": [280, 200, 125],
   "Henry Brand [AU]": [80],
   "Matthew Burris [AU]": [200, 125, 40, 40],
@@ -100,6 +100,7 @@ const OCFinishes = {
   "Victor Su [AU]": [80],
   "Morris Arnold [AU]": [60],
   "Janette Sacdalan [AU]": [20],
+  "Zane Roach [NZ]": [60],
   "Ciaran Bradley [NZ]": [80],
 };
 

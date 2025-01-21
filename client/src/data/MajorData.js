@@ -1,5 +1,89 @@
 const majors = [
   {
+    location: "Rio de Janeiro '25",
+    masters: 1139,
+    results: [
+      {
+        top: 16,
+        points: 27,
+        in: 2,
+        out: 3,
+      },
+      {
+        top: 32,
+        points: 26,
+        in: 13,
+        out: 7,
+      },
+      {
+        top: 64,
+        points: 24,
+        in: 5,
+        out: 5,
+      },
+      {
+        top: 128,
+        points: 22,
+        in: 33,
+        out: 3,
+      },
+      {
+        top: 256,
+        points: 14,
+        in: 7,
+        out: 46,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 83,
+        out: 8,
+      },
+    ],
+  },
+  {
+    location: "Birmingham '25",
+    masters: 2018,
+    results: [
+      {
+        top: 16,
+        points: 28,
+        in: 4,
+        out: 14,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 2,
+        out: 16,
+      },
+      {
+        top: 64,
+        points: 26,
+        in: 16,
+        out: 3,
+      },
+      {
+        top: 128,
+        points: 24,
+        in: 16,
+        out: 19,
+      },
+      {
+        top: 256,
+        points: 21,
+        in: 25,
+        out: 9,
+      },
+      {
+        top: 512,
+        points: 14,
+        in: 54,
+        out: 27,
+      },
+    ],
+  },
+  {
     location: "Toronto '25",
     masters: 2137,
     results: [

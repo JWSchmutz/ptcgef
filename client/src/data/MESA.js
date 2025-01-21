@@ -6,7 +6,8 @@ const MESAFinishes = {
   "Raz Shamir [IL]": [80],
   "Michael Jordan [ZA]": [80],
   "Harel Manhaim [IL]": [40],
-  "Raz Wolpe [IL]": [380],
+  "Raz Wolpe [IL]": [380, 80],
+  "Faisal Alrajhi [KW]": [60],
   "Jateen Algu [ZA]": [80],
 };
 

@@ -22,7 +22,7 @@ function LiveLadder() {
         }));
 
         fetchedData.sort((a, b) => parseFloat(b.elo) - parseFloat(a.elo));
-
+        console.log(fetchedData);
         setData(fetchedData); // Set the data to state
       } catch (err) {
         setError(err.message); // Set error if any
@@ -46,7 +46,8 @@ function LiveLadder() {
     <main id="live-ladder">
       <h2 className="page-title">
         Live Ladder Rankings
-        <br /> PRE BETA VERSION
+        <br />
+        BETA VERSION
       </h2>
       <ImageUpload></ImageUpload>
       <table>

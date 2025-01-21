@@ -321,6 +321,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         }
       );
     });
+    res.end;
     res.json({
       message: "Image uploaded and processed successfully!",
       player1,
