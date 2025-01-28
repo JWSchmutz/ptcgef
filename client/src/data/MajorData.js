@@ -1,8 +1,68 @@
 const majors = [
   {
+    location: "San Antonio '25",
+    masters: 2400,
+    results: [
+      {
+        top: 8,
+        points: 32,
+        in: 3,
+        out: 3,
+      },
+      {
+        top: 16,
+        points: 31,
+        in: 5,
+        out: 7,
+      },
+      {
+        top: 32,
+        points: 30,
+        in: 9,
+        out: 3,
+      },
+      {
+        top: 64,
+        points: 28,
+        in: 17,
+        out: 17,
+      },
+      {
+        top: 128,
+        points: 26,
+        in: 30,
+        out: 2,
+      },
+      {
+        top: 256,
+        points: 18,
+        in: 6,
+        out: 67,
+      },
+      {
+        top: 512,
+        points: 16,
+        in: 106,
+        out: 74,
+      },
+      {
+        top: 1024,
+        points: 12,
+        in: 67,
+        out: 69,
+      },
+    ],
+  },
+  {
     location: "Rio de Janeiro '25",
     masters: 1139,
     results: [
+      {
+        top: 8,
+        points: 29,
+        in: 2,
+        out: 2,
+      },
       {
         top: 16,
         points: 27,
@@ -45,6 +105,12 @@ const majors = [
     location: "Birmingham '25",
     masters: 2018,
     results: [
+      {
+        top: 8,
+        points: 30,
+        in: 5,
+        out: 1,
+      },
       {
         top: 16,
         points: 28,
