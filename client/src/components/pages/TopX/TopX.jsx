@@ -29,6 +29,7 @@ function TopX() {
     "Calvin Connor [US]",
     "Öjvind Svinhufvud [FI]",
     "Fabrizio Inga Silva [PE]",
+    "Benjamin Hebert [CA]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
