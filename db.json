@@ -1,7 +1,7 @@
 [
   {
     "username": "Seagrove",
-    "elo": 1629
+    "elo": 1833
   },
   {
     "username": "jun0712",
@@ -172,5 +172,33 @@
   {
     "username": "wizsam1",
     "elo": 1909
+  },
+  {
+    "elo": 1686,
+    "username": "mtbrooks222"
+  },
+  {
+    "username": "MandE1234",
+    "elo": 1711
+  },
+  {
+    "elo": 1630,
+    "username": "Paken"
+  },
+  {
+    "username": "tsutsu0830",
+    "elo": 1618
+  },
+  {
+    "elo": 1630,
+    "username": "vampweekend"
+  },
+  {
+    "elo": 1867,
+    "username": "VitorLugon"
+  },
+  {
+    "elo": 1768,
+    "username": "odalgard"
   }
 ]
