@@ -37,7 +37,7 @@ const OCFinishes = {
   "Samuel Cohen [AU]": [100],
   "Mitch Knuckey [AU]": [100],
   "Matthew Bray [AU]": [100],
-  "Justin Hoy [AU]": [100],
+  "Justin Hoy [AU]": [280, 100],
   "Luke Schmitt [AU]": [100],
   "Alicia Keizer [AU]": [100],
   "Dylan van der Riet [AU]": [100],

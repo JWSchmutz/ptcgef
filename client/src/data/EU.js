@@ -1066,7 +1066,6 @@ const EUFinishes = {
   "Simone Beltramello [IT]": [40],
   "Vincent Marcus Munk [DK]": [40],
   "Michael Vandamme [BE]": [40],
-  "Justin Hoy [AT]": [280],
   "Sheldon Kuppan [GB]": [125],
   "Armando Arce [PR]": [160],
   "Patrik Holler [CZ]": [160, 60],
