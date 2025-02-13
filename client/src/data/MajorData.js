@@ -1,5 +1,53 @@
 const majors = [
   {
+    location: "Merida '25",
+    masters: 1151,
+    results: [
+      {
+        top: 8,
+        points: 28,
+        in: 2,
+        out: 6,
+      },
+      {
+        top: 16,
+        points: 27,
+        in: 2,
+        out: 5,
+      },
+      {
+        top: 32,
+        points: 26,
+        in: 11,
+        out: 4,
+      },
+      {
+        top: 64,
+        points: 23,
+        in: 1,
+        out: 31,
+      },
+      {
+        top: 128,
+        points: 21,
+        in: 14,
+        out: 1,
+      },
+      {
+        top: 256,
+        points: 14,
+        in: 25,
+        out: 47,
+      },
+      {
+        top: 512,
+        points: 11,
+        in: 1,
+        out: 88,
+      },
+    ],
+  },
+  {
     location: "San Antonio '25",
     masters: 2400,
     results: [
