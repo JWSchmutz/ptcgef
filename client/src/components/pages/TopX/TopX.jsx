@@ -30,6 +30,10 @@ function TopX() {
     "Öjvind Svinhufvud [FI]",
     "Fabrizio Inga Silva [PE]",
     "Benjamin Hebert [CA]",
+    "NATALIE Millar [AU]",
+    "Xander Pero [US]",
+    "Simone Fiorito [IT]",
+    "Christian Solis [US]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
