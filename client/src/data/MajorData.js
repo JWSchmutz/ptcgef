@@ -1,5 +1,95 @@
 const majors = [
   {
+    location: "EUIC '25",
+    masters: 3361,
+    results: [
+      {
+        top: 8,
+        points: 33,
+        in: 4,
+        out: 0,
+      },
+      {
+        top: 16,
+        points: 31,
+        in: 2,
+        out: 9,
+      },
+      {
+        top: 32,
+        points: 30,
+        in: 7,
+        out: 7,
+      },
+      {
+        top: 64,
+        points: 29,
+        in: 25,
+        out: 9,
+      },
+      {
+        top: 128,
+        points: 27,
+        in: 16,
+        out: 5,
+      },
+      {
+        top: 256,
+        points: 24,
+        in: 25,
+        out: 18,
+      },
+      {
+        top: 512,
+        points: 17,
+        in: 32,
+        out: 74,
+      },
+      {
+        top: 1024,
+        points: 15,
+        in: 171,
+        out: 38,
+      },
+    ],
+  },
+  {
+    location: "Puerto Rico '25",
+    masters: 299,
+    results: [
+      {
+        top: 8,
+        points: 23,
+        in: 5,
+        out: 0,
+      },
+      {
+        top: 16,
+        points: 22,
+        in: 8,
+        out: 0,
+      },
+      {
+        top: 32,
+        points: 19,
+        in: 6,
+        out: 7,
+      },
+      {
+        top: 64,
+        points: 15,
+        in: 12,
+        out: 2,
+      },
+      {
+        top: 128,
+        points: 16,
+        in: 9,
+        out: 14,
+      },
+    ],
+  },
+  {
     location: "Merida '25",
     masters: 1151,
     results: [
