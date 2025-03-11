@@ -1,5 +1,95 @@
 const majors = [
   {
+    location: "Vancouver '25",
+    masters: 1314,
+    results: [
+      {
+        top: 8,
+        points: 29,
+        in: 3,
+        out: 4,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 4,
+        out: 5,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 11,
+        out: 0,
+      },
+      {
+        top: 64,
+        points: 25,
+        in: 13,
+        out: 5,
+      },
+      {
+        top: 128,
+        points: 22,
+        in: 2,
+        out: 23,
+      },
+      {
+        top: 256,
+        points: 15,
+        in: 22,
+        out: 39,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 35,
+        out: 46,
+      },
+    ],
+  },
+  {
+    location: "Fortaleza '25",
+    masters: 715,
+    results: [
+      {
+        top: 8,
+        points: 26,
+        in: 6,
+        out: 4,
+      },
+      {
+        top: 16,
+        points: 25,
+        in: 4,
+        out: 4,
+      },
+      {
+        top: 32,
+        points: 23,
+        in: 9,
+        out: 6,
+      },
+      {
+        top: 64,
+        points: 22,
+        in: 26,
+        out: 1,
+      },
+      {
+        top: 128,
+        points: 15,
+        in: 5,
+        out: 33,
+      },
+      {
+        top: 256,
+        points: 13,
+        in: 60,
+        out: 11,
+      },
+    ],
+  },
+  {
     location: "EUIC '25",
     masters: 3361,
     results: [

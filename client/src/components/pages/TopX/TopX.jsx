@@ -35,6 +35,8 @@ function TopX() {
     "Simone Fiorito [IT]",
     "Christian Solis [US]",
     "Azul Garcia Griego [US]",
+    "Andrew Hedrick [US]",
+    "Vinícius fernandez [BR]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
