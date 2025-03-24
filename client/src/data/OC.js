@@ -1,7 +1,7 @@
 const OCFinishes = {
   "Brent Tonisson [AU]": [480, 300, 280, 160, 125],
   "Kaiwen Cabbabe [AU]": [280, 125, 120, 80],
-  "Ryan Bielak [AU]": [80, 40, 40, 40],
+  "Ryan Bielak [AU]": [80, 80, 40, 40, 40],
   "Justin Hoy [AU]": [280, 100, 100],
   "Tim Franklin [AU]": [280, 200, 125, 120],
   "Henry Brand [AU]": [125, 80],
@@ -107,4 +107,5 @@ const OCFinishes = {
   "Jamison Bulloch [AU]": [80],
   "Sylas Golding [AU]": [40],
 };
+
 export default OCFinishes;

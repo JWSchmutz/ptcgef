@@ -37,6 +37,7 @@ function TopX() {
     "Azul Garcia Griego [US]",
     "Andrew Hedrick [US]",
     "Vinícius fernandez [BR]",
+    "Isaiah Bradner [US]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
