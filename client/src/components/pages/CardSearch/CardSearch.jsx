@@ -35,7 +35,7 @@ function CardSearch() {
   return (
     <FilterContext.Provider value={{ cardsToShow: "hi", setCardsToShow }}>
       <SearchContext.Provider value={{ searchText, setSearchText }}>
-        <CardApi></CardApi>
+        {/* <CardApi></CardApi> */}
         <div id="card-search">
           <h2 className="page-title">Card Search</h2>
           {showModal && (
