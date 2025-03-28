@@ -32,6 +32,9 @@ function CardApi() {
             allStandardLegalCards = allStandardLegalCards.filter(
               (card) => card.regulationMark !== "E"
             );
+            allStandardLegalCards = allStandardLegalCards.filter(
+              (card) => card.regulationMark !== "F"
+            );
             const allStandardLegalPokemon = allStandardLegalCards.filter(
               (card) => card.supertype === "Pokémon"
             );

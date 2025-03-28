@@ -40,46 +40,6 @@ const allStandardLegalEnergy = [
     },
   },
   {
-    id: "swsh9-151",
-    name: "Double Turbo Energy",
-    supertype: "Energy",
-    subtypes: ["Special", "No Tag"],
-    rules: [
-      "As long as this card is attached to a Pokémon, it provides ColorlessColorless Energy. The attacks of the Pokémon this card is attached to do 20 less damage to your opponent's Pokémon (before applying Weakness and Resistance).",
-    ],
-    set: {
-      id: "swsh9",
-      name: "Brilliant Stars",
-      series: "Sword & Shield",
-      printedTotal: 172,
-      total: 186,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "BRS",
-      releaseDate: "2022/02/25",
-      updatedAt: "2022/02/23 09:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh9/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh9/logo.png",
-      },
-    },
-    number: "151",
-    rarity: "Uncommon",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh9/151.png",
-      large: "https://images.pokemontcg.io/swsh9/151_hires.png",
-    },
-  },
-  {
     id: "sv8-191",
     name: "Enriching Energy",
     supertype: "Energy",
@@ -118,46 +78,6 @@ const allStandardLegalEnergy = [
     images: {
       small: "https://images.pokemontcg.io/sv8/191.png",
       large: "https://images.pokemontcg.io/sv8/191_hires.png",
-    },
-  },
-  {
-    id: "swsh11-171",
-    name: "Gift Energy",
-    supertype: "Energy",
-    subtypes: ["Special", "No Tag"],
-    rules: [
-      "As long as this card is attached to a Pokémon, it provides Colorless Energy. If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, draw cards until you have 7 cards in your hand.",
-    ],
-    set: {
-      id: "swsh11",
-      name: "Lost Origin",
-      series: "Sword & Shield",
-      printedTotal: 196,
-      total: 217,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "LOR",
-      releaseDate: "2022/09/09",
-      updatedAt: "2022/09/09 13:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh11/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh11/logo.png",
-      },
-    },
-    number: "171",
-    rarity: "Uncommon",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh11/171.png",
-      large: "https://images.pokemontcg.io/swsh11/171_hires.png",
     },
   },
   {
@@ -403,46 +323,6 @@ const allStandardLegalEnergy = [
     },
   },
   {
-    id: "swsh12-168",
-    name: "Regenerative Energy",
-    supertype: "Energy",
-    subtypes: ["Special", "No Tag"],
-    rules: [
-      "As long as this card is attached to a Pokémon, it provides Colorless Energy. Whenever you play a Pokémon from your hand to evolve the Pokémon V this card is attached to, heal 100 damage from that Pokémon.",
-    ],
-    set: {
-      id: "swsh12",
-      name: "Silver Tempest",
-      series: "Sword & Shield",
-      printedTotal: 195,
-      total: 215,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "SIT",
-      releaseDate: "2022/11/11",
-      updatedAt: "2022/09/09 11:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh12/logo.png",
-      },
-    },
-    number: "168",
-    rarity: "Uncommon",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh12/168.png",
-      large: "https://images.pokemontcg.io/swsh12/168_hires.png",
-    },
-  },
-  {
     id: "sv2-192",
     name: "Reversal Energy",
     supertype: "Energy",
@@ -479,6 +359,46 @@ const allStandardLegalEnergy = [
     images: {
       small: "https://images.pokemontcg.io/sv2/192.png",
       large: "https://images.pokemontcg.io/sv2/192_hires.png",
+    },
+  },
+  {
+    id: "sv9-159",
+    name: "Spiky Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "No Tag"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+    ],
+    set: {
+      id: "sv9",
+      name: "Journey Together",
+      series: "Scarlet & Violet",
+      printedTotal: 159,
+      total: 190,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "JTG",
+      releaseDate: "2025/03/28",
+      updatedAt: "2025/03/27 16:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv9/symbol.png",
+        logo: "https://images.pokemontcg.io/sv9/logo.png",
+      },
+    },
+    number: "159",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv9/159.png",
+      large: "https://images.pokemontcg.io/sv9/159_hires.png",
     },
   },
   {
@@ -519,46 +439,6 @@ const allStandardLegalEnergy = [
     images: {
       small: "https://images.pokemontcg.io/sv2/193.png",
       large: "https://images.pokemontcg.io/sv2/193_hires.png",
-    },
-  },
-  {
-    id: "swsh12-169",
-    name: "V Guard Energy",
-    supertype: "Energy",
-    subtypes: ["Special", "No Tag"],
-    rules: [
-      "As long as this card is attached to a Pokémon, it provides Colorless Energy. The Pokémon this card is attached to takes 30 less damage from attacks from your opponent's Pokémon V (after applying Weakness and Resistance). This effect can't be applied more than once at a time to the same Pokémon.",
-    ],
-    set: {
-      id: "swsh12",
-      name: "Silver Tempest",
-      series: "Sword & Shield",
-      printedTotal: 195,
-      total: 215,
-      legalities: {
-        unlimited: "Legal",
-        standard: "Legal",
-        expanded: "Legal",
-      },
-      ptcgoCode: "SIT",
-      releaseDate: "2022/11/11",
-      updatedAt: "2022/09/09 11:45:00",
-      images: {
-        symbol: "https://images.pokemontcg.io/swsh12/symbol.png",
-        logo: "https://images.pokemontcg.io/swsh12/logo.png",
-      },
-    },
-    number: "169",
-    rarity: "Uncommon",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "F",
-    images: {
-      small: "https://images.pokemontcg.io/swsh12/169.png",
-      large: "https://images.pokemontcg.io/swsh12/169_hires.png",
     },
   },
   {
