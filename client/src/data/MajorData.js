@@ -1,5 +1,41 @@
 const majors = [
   {
+    location: "Brisbane '25",
+    masters: 470,
+    results: [
+      {
+        top: 8,
+        points: 24,
+        in: 3,
+        out: 2,
+      },
+      {
+        top: 16,
+        points: 22,
+        in: 5,
+        out: 5,
+      },
+      {
+        top: 32,
+        points: 20,
+        in: 1,
+        out: 12,
+      },
+      {
+        top: 64,
+        points: 18,
+        in: 5,
+        out: 3,
+      },
+      {
+        top: 128,
+        points: 13,
+        in: 6,
+        out: 37,
+      },
+    ],
+  },
+  {
     location: "Stockholm '25",
     masters: 815,
     results: [

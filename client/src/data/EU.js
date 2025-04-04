@@ -872,7 +872,7 @@ const EUFinishes = {
   "Andrea Pio Prencipe [IT]": [80],
   "Alex Stephenson [UK]": [80],
   "Theocharis Iakovidis [CY]": [80],
-  "Elizabeth Willet [DK]": [100, 80, 60, 60, 60],
+  "Elizabeth Willet [DK]": [125, 100, 80, 60, 60],
   "José Enrique Bravo Gómez [ES]": [60],
   "Nino Brodar [HR]": [60],
   "Kieran Rowe [UK]": [100, 60, 40],
