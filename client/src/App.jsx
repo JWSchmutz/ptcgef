@@ -22,7 +22,7 @@ function App() {
           "homies",
           "top-cut-data",
           "top-X",
-          "live-ladder",
+          // "live-ladder",
         ]}
       />
       {/* <Route
@@ -38,7 +38,7 @@ function App() {
           <Route exact path="/top-cut-data" element={<TopCutData />} />
           <Route exact path="/top-x" element={<TopX />} />
           <Route exact path="/homies" element={<Homies />} />
-          <Route exact path="/live-ladder" element={<LiveLadder />} />
+          {/* <Route exact path="/live-ladder" element={<LiveLadder />} /> */}
           {/*
       <PrivateRoute
         authed={!!user.username}
