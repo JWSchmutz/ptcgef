@@ -5,7 +5,7 @@ const MESAFinishes = {
   "Amir Oppenheim-Nevo [IL]": [80],
   "Raz Shamir [IL]": [80],
   "Michael Jordan [ZA]": [80],
-  "Harel Manhaim [IL]": [80, 40, 20],
+  "Harel Manhaim [IL]": [80, 40, 20, 20],
   "Raz Wolpe [IL]": [380, 80],
   "Faisal Alrajhi [KW]": [60],
   "Jonah Alter [ZA]": [80, 40],

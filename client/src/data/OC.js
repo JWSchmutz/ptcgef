@@ -5,7 +5,7 @@ const OCFinishes = {
   "Justin Hoy [AU]": [280, 100, 100, 80],
   "Tim Franklin [AU]": [325, 280, 200, 125, 120],
   "Henry Brand [AU]": [160, 125, 80],
-  "Matthew Burris [AU]": [200, 125, 80, 40, 40],
+  "Matthew Burris [AU]": [200, 125, 125, 80, 40],
   "Andres Flores [FM]": [125],
   "Lucas Hamilton-Foster [AU]": [300, 280, 80],
   "Yuhao Xia [AU]": [280, 80],

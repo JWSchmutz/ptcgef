@@ -212,7 +212,7 @@ const EUFinishes = {
   "Michael Clazzer [IT]": [125, 120, 60, 60, 60],
   "Yarno Van der fraenen [BE]": [60, 40],
   "Vianney Leroy [FR]": [160, 80, 80, 60, 60],
-  "Christian Fontenot [DK]": [200, 100, 80, 60, 40],
+  "Christian Fontenot [DK]": [200, 100, 100, 80, 60],
   "SEBASTIEN MARQUES [FR]": [60],
   "Steven Mills [UK]": [60, 60, 40, 40],
   "Daniel Rinaldi [IT]": [80, 60, 60, 40],
