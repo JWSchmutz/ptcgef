@@ -1,5 +1,59 @@
 const majors = [
   {
+    location: "Atlanta '25",
+    masters: 2684,
+    results: [
+      {
+        top: 16,
+        points: 32,
+        in: 5,
+        out: 1,
+      },
+      {
+        top: 16,
+        points: 31,
+        in: 7,
+        out: 5,
+      },
+      {
+        top: 32,
+        points: 30,
+        in: 11,
+        out: 1,
+      },
+      {
+        top: 64,
+        points: 28,
+        in: 13,
+        out: 19,
+      },
+      {
+        top: 128,
+        points: 26,
+        in: 29,
+        out: 12,
+      },
+      {
+        top: 256,
+        points: 21,
+        in: 7,
+        out: 0,
+      },
+      {
+        top: 512,
+        points: 16,
+        in: 79,
+        out: 130,
+      },
+      {
+        top: 1024,
+        points: 13,
+        in: 148,
+        out: 42,
+      },
+    ],
+  },
+  {
     location: "Brisbane '25",
     masters: 470,
     results: [
