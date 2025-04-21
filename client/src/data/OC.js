@@ -1,5 +1,5 @@
 const OCFinishes = {
-  "Brent Tonisson [AU]": [480, 300, 280, 160, 125],
+  "Brent Tonisson [AU]": [480, 350, 300, 280, 160],
   "Kaiwen Cabbabe [AU]": [280, 125, 120, 80],
   "Ryan Bielak [AU]": [80, 80, 40, 40, 40],
   "Justin Hoy [AU]": [280, 100, 100, 80],
