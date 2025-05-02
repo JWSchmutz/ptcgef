@@ -39,6 +39,8 @@ function TopX() {
     "Vinícius fernandez [BR]",
     "Isaiah Bradner [US]",
     "Gabriel Smart [US]",
+    "Yoann Barszezak [FR]",
+    "Juan Andree [CL]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);

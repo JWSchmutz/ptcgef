@@ -1,5 +1,71 @@
 const majors = [
   {
+    location: "Seville  '25",
+    masters: 817,
+    results: [
+      {
+        top: 8,
+        points: 26,
+        in: 4,
+        out: 2,
+      },
+      {
+        top: 16,
+        points: 25,
+        in: 6,
+        out: 4,
+      },
+      {
+        top: 32,
+        points: 23,
+        in: 3,
+        out: 11,
+      },
+      {
+        top: 64,
+        points: 22,
+        in: 21,
+        out: 6,
+      },
+      {
+        top: 128,
+        points: 17,
+        in: 2,
+        out: 0,
+      },
+      {
+        top: 256,
+        points: 13,
+        in: 42,
+        out: 36,
+      },
+    ],
+  },
+  {
+    location: "Johannesburg '25",
+    masters: 85,
+    results: [
+      {
+        top: 8,
+        points: 17,
+        in: 5,
+        out: 1,
+      },
+      {
+        top: 16,
+        points: 14,
+        in: 3,
+        out: 1,
+      },
+      {
+        top: 32,
+        points: 11,
+        in: 4,
+        out: 0,
+      },
+    ],
+  },
+  {
     location: "Monterrey  '25",
     masters: 1327,
     results: [
