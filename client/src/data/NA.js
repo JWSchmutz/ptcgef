@@ -229,7 +229,7 @@ const NAFinishes = {
   "Luke Townsend [US]": [60, 60],
   "Parker Greenwald [US]": [60, 40, 20],
   "Kevin Abernathy [US]": [60],
-  "Dre Alderette [US]": [100, 100, 80, 60, 60],
+  "Dre Alderette [US]": [100, 100, 80, 80, 60],
   "Aiden Toler [US]": [80, 60, 60, 40],
   "Travis Beckwith [US]": [125, 100, 80, 60, 60],
   "Jery Jensen [US]": [60],
