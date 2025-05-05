@@ -1,5 +1,53 @@
 const majors = [
   {
+    location: "Milwaukee  '25",
+    masters: 1657,
+    results: [
+      {
+        top: 8,
+        points: 29,
+        in: 3,
+        out: 6,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 2,
+        out: 12,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 4,
+        out: 5,
+      },
+      {
+        top: 64,
+        points: 25,
+        in: 10,
+        out: 27,
+      },
+      {
+        top: 128,
+        points: 23,
+        in: 10,
+        out: 22,
+      },
+      {
+        top: 256,
+        points: 19,
+        in: 11,
+        out: 7,
+      },
+      {
+        top: 512,
+        points: 13,
+        in: 88,
+        out: 56,
+      },
+    ],
+  },
+  {
     location: "Seville  '25",
     masters: 817,
     results: [

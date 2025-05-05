@@ -41,6 +41,7 @@ function TopX() {
     "Gabriel Smart [US]",
     "Yoann Barszezak [FR]",
     "Juan Andree [CL]",
+    "Christian LaBella [CA]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
