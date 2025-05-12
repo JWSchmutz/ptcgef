@@ -14,7 +14,7 @@ const NAFinishes = {
   "Ian Robb [US]": [280, 280, 160, 100, 80],
   "Grafton Roll [US]": [160],
   "Jeremy Gibson [US]": [160, 100, 80, 40],
-  "Joseph Figliano [US]": [160, 80, 40, 40],
+  "Joe Figliano [US]": [160, 160, 80, 60, 40],
   "Hasan Kunukcu [US]": [280, 160, 40],
   "Maxwell Johnson [US]": [160, 100, 80, 80, 80],
   "George Illidge [US]": [160, 100, 80, 20],
@@ -930,7 +930,7 @@ const NAFinishes = {
   "Paul DeJesus [US]": [20],
   "Michael Moskal [US]": [20],
   "Edwin Cohetero [US]": [20],
-  "Tyler Crouthamel [US]": [80, 40, 40, 20],
+  "Nicole Crouthamel [US]": [100, 80, 60, 40, 40],
   "Anthony Dolan [US]": [40, 20],
   "David Cline [US]": [20],
   "Tristan Fink [US]": [20],
@@ -2743,7 +2743,6 @@ const NAFinishes = {
   "Giovanni Sierra [US]": [100],
   "Yoshii Ma [US]": [100],
   "Edward Rivera [US]": [100],
-  "Nicole Crouthamel [US]": [100, 60, 40],
   "Ash Ledonne [US]": [100],
   "Gabriel Perez [US]": [80, 60],
   "Matthew Suarez [US]": [80],
@@ -2753,7 +2752,6 @@ const NAFinishes = {
   "Karl Alvarez [US]": [80],
   "Ernesto Torres [US]": [80],
   "Emanuel Rivera [US]": [80],
-  "Dre Alderette Jr [US]": [80],
   "Daniel Kutinsky [US]": [80],
   "Joshua Arroyo [US]": [80],
   "Anthony Padilla [US]": [80],
@@ -2770,7 +2768,6 @@ const NAFinishes = {
   "Leah Roy [US]": [80],
   "Jose Bravo [US]": [80],
   "Hedmar Vázquez [US]": [80],
-  "Joe Figliano [US]": [160, 60],
   "Sean Clough [US]": [125],
   "Rob Flores [US]": [100],
   "Kennan Mell [US]": [100],
@@ -3634,4 +3631,5 @@ const NAFinishes = {
   "Hélène Moreau [CA]": [40],
   "Marc Macias [US]": [40],
 };
+
 export default NAFinishes;
