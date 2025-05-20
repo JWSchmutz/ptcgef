@@ -1,5 +1,5 @@
 const MESAFinishes = {
-  "Darren Ho [ZA]": [40],
+  "Darren Ho [ZA]": [60, 40],
   "Sheldon Kuppan [ZA]": [160, 125, 100, 100, 80],
   "David Kramer [IL]": [100, 40],
   "Amir Oppenheim-Nevo [IL]": [80],
@@ -29,6 +29,7 @@ const MESAFinishes = {
   "Sashin Naidoo [ZA]": [125],
   "Steven Changfoot [ZA]": [125],
   "AJ Smit [ZA]": [125],
+  "Kaan Cekli [TR]": [80],
   "Jateen Algu [ZA]": [80],
   "Aaqil Sedien [ZA]": [100],
   "Kamelesan Pillay [ZA]": [40],

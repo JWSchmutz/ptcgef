@@ -1,5 +1,143 @@
 const majors = [
   {
+    location: "Santiago '25",
+    masters: 1249,
+    results: [
+      {
+        top: 8,
+        points: 28,
+        in: 1,
+        out: 4,
+      },
+      {
+        top: 16,
+        points: 27,
+        in: 4,
+        out: 2,
+      },
+      {
+        top: 32,
+        points: 26,
+        in: 14,
+        out: 3,
+      },
+      {
+        top: 64,
+        points: 24,
+        in: 8,
+        out: 7,
+      },
+      {
+        top: 128,
+        points: 21,
+        in: 2,
+        out: 18,
+      },
+      {
+        top: 256,
+        points: 14,
+        in: 23,
+        out: 55,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 55,
+        out: 37,
+      },
+    ],
+  },
+  {
+    location: "Utrecht '25",
+    masters: 1241,
+    results: [
+      {
+        top: 8,
+        points: 29,
+        in: 3,
+        out: 0,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 8,
+        out: 2,
+      },
+      {
+        top: 32,
+        points: 26,
+        in: 9,
+        out: 7,
+      },
+      {
+        top: 64,
+        points: 25,
+        in: 25,
+        out: 3,
+      },
+      {
+        top: 128,
+        points: 22,
+        in: 19,
+        out: 17,
+      },
+      {
+        top: 256,
+        points: 15,
+        in: 40,
+        out: 14,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 57,
+        out: 38,
+      },
+    ],
+  },
+  {
+    location: "Melbourne  '25",
+    masters: 563,
+    results: [
+      {
+        top: 8,
+        points: 26,
+        in: 4,
+        out: 3,
+      },
+      {
+        top: 16,
+        points: 25,
+        in: 5,
+        out: 0,
+      },
+      {
+        top: 32,
+        points: 23,
+        in: 9,
+        out: 3,
+      },
+      {
+        top: 64,
+        points: 20,
+        in: 5,
+        out: 8,
+      },
+      {
+        top: 128,
+        points: 14,
+        in: 8,
+        out: 23,
+      },
+      {
+        top: 256,
+        points: 11,
+        in: 3,
+        out: 28,
+      },
+    ],
+  },
+  {
     location: "Milwaukee  '25",
     masters: 1657,
     results: [
