@@ -1,56 +1,80 @@
 const majors = [
   {
+    location: "Johannesburg '25",
+    masters: 94,
+    results: [
+      {
+        top: 8,
+        points: 17,
+        in: 2,
+        out: 0,
+      },
+      {
+        top: 16,
+        points: 14,
+        in: 3,
+        out: 4,
+      },
+      {
+        top: 32,
+        points: 11,
+        in: 1,
+        out: 0,
+      },
+    ],
+  },
+  {
+    location: "Portland '25",
+    masters: 1688,
+    results: [
+      {
+        top: 8,
+        points: 29,
+        in: 3,
+        out: 6,
+      },
+      {
+        top: 16,
+        points: 28,
+        in: 2,
+        out: 8,
+      },
+      {
+        top: 32,
+        points: 27,
+        in: 8,
+        out: 2,
+      },
+      {
+        top: 64,
+        points: 25,
+        in: 4,
+        out: 25,
+      },
+      {
+        top: 128,
+        points: 23,
+        in: 23,
+        out: 20,
+      },
+      {
+        top: 256,
+        points: 19,
+        in: 5,
+        out: 15,
+      },
+      {
+        top: 512,
+        points: 13,
+        in: 88,
+        out: 67,
+      },
+    ],
+  },
+  {
     location: "Santiago '25",
     masters: 1249,
     results: [
-      {
-        location: "Portland '25",
-        masters: 1688,
-        results: [
-          {
-            top: 8,
-            points: 29,
-            in: 3,
-            out: 6,
-          },
-          {
-            top: 16,
-            points: 28,
-            in: 2,
-            out: 8,
-          },
-          {
-            top: 32,
-            points: 27,
-            in: 8,
-            out: 2,
-          },
-          {
-            top: 64,
-            points: 25,
-            in: 4,
-            out: 25,
-          },
-          {
-            top: 128,
-            points: 23,
-            in: 23,
-            out: 20,
-          },
-          {
-            top: 256,
-            points: 19,
-            in: 5,
-            out: 15,
-          },
-          {
-            top: 512,
-            points: 13,
-            in: 88,
-            out: 67,
-          },
-        ],
-      },
       {
         top: 8,
         points: 28,
