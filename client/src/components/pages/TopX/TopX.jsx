@@ -44,6 +44,7 @@ function TopX() {
     "Christian LaBella [CA]",
     "Joah Wiegner [DE]",
     "William Azevedo [BR]",
+    "Michael Davidson [US]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
