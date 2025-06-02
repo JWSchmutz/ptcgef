@@ -1,5 +1,53 @@
 const majors = [
   {
+    location: "Bologna '25",
+    masters: 1239,
+    results: [
+      {
+        top: 16,
+        points: 26,
+        in: 2,
+        out: 6,
+      },
+      {
+        top: 16,
+        points: 27,
+        in: 2,
+        out: 3,
+      },
+      {
+        top: 32,
+        points: 26,
+        in: 13,
+        out: 4,
+      },
+      {
+        top: 64,
+        points: 24,
+        in: 8,
+        out: 6,
+      },
+      {
+        top: 128,
+        points: 22,
+        in: 27,
+        out: 9,
+      },
+      {
+        top: 256,
+        points: 14,
+        in: 5,
+        out: 72,
+      },
+      {
+        top: 512,
+        points: 12,
+        in: 49,
+        out: 34,
+      },
+    ],
+  },
+  {
     location: "Johannesburg '25",
     masters: 94,
     results: [

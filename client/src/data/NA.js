@@ -1281,7 +1281,7 @@ const NAFinishes = {
   "Patrick McCarthy [US]": [40],
   "Amy Jones [US]": [40, 40, 40, 20, 20],
   "Jason Resto [US]": [40],
-  "Kamil Colatosti [CA]": [280, 100, 60, 40, 40],
+  "Kamil Colatosti [CA]": [280, 160, 100, 60, 40],
   "Ryan Harris [US]": [80, 80, 80, 80, 60],
   "Aidan Tauber [US]": [80, 60, 40],
   "Zachary Bokhari [US]": [100, 100, 80, 60, 40],
