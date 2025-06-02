@@ -402,6 +402,46 @@ const allStandardLegalEnergy = [
     },
   },
   {
+    id: "sv10-182",
+    name: "Team Rocket's Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "No Tag"],
+    rules: [
+      "This card can only be attached to a Team Rocket's Pokémon. If this card is attached to anything other than a Team Rocket's Pokémon, discard this card.  As long as this card is attached to a Pokémon, it provides 2 in any combination of Psychic Energy and Darkness Energy.",
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "182",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/182.png",
+      large: "https://images.pokemontcg.io/sv10/182_hires.png",
+    },
+  },
+  {
     id: "sv2-193",
     name: "Therapeutic Energy",
     supertype: "Energy",

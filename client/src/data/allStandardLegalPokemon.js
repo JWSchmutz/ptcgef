@@ -67,6 +67,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-60",
+    name: "Abomasnow",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "150",
+    types: ["Water"],
+    evolvesFrom: "Snover",
+    attacks: [
+      {
+        name: "Lunge Out",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "",
+      },
+      {
+        name: "Frozen Wood",
+        cost: ["Water", "Water", "Water", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120+",
+        text: "If this Pokémon has 2 or more Grass Energy attached, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "60",
+    artist: "kamonabe",
+    rarity: "Uncommon",
+    flavorText:
+      "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+    nationalPokedexNumbers: [460],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/60.png",
+      large: "https://images.pokemontcg.io/sv10/60_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-63",
     name: "Abra",
     supertype: "Pokémon",
@@ -441,7 +509,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "13",
+    artist: "Kazumasa Yasukuni",
     rarity: "Uncommon",
+    flavorText:
+      "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
     nationalPokedexNumbers: [617],
     legalities: {
       unlimited: "Legal",
@@ -1149,6 +1220,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "75",
+    artist: "PLANETA Mochizuki",
     rarity: "Double Rare",
     nationalPokedexNumbers: [869],
     legalities: {
@@ -1405,7 +1477,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "44",
+    artist: "svlt",
     rarity: "Common",
+    flavorText:
+      "If you step on a Geodude sleeping on the ground, you'll hear a zapping sound and feel a tingling shock throughout your entire body.",
     nationalPokedexNumbers: [74],
     legalities: {
       unlimited: "Legal",
@@ -1470,7 +1545,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "46",
+    artist: "Takeshi Nakamura",
     rarity: "Uncommon",
+    flavorText:
+      "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
     nationalPokedexNumbers: [76],
     legalities: {
       unlimited: "Legal",
@@ -1536,7 +1614,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "45",
+    artist: "HYOGONOSUKE",
     rarity: "Common",
+    flavorText:
+      "Graveler's entire body is electrically charged due to the stones it likes to eat. It is a very quick-tempered Pokémon.",
     nationalPokedexNumbers: [75],
     legalities: {
       unlimited: "Legal",
@@ -1607,7 +1688,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "57",
+    artist: "Uta",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon sets the bone it holds on fire and dances through the night as a way to mourn its fallen allies.",
     nationalPokedexNumbers: [105],
     legalities: {
       unlimited: "Legal",
@@ -2118,6 +2202,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "11",
+    artist: "PLANETA Mochizuki",
     rarity: "Double Rare",
     nationalPokedexNumbers: [591],
     legalities: {
@@ -2160,8 +2245,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -2229,8 +2314,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -2389,6 +2474,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/100.png",
       large: "https://images.pokemontcg.io/sv8/100_hires.png",
+    },
+  },
+  {
+    id: "sv10-92",
+    name: "Annihilape",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "150",
+    types: ["Fighting"],
+    evolvesFrom: "Primeape",
+    abilities: [
+      {
+        name: "Lose Cool",
+        text: "If this Pokémon has 2 or more damage counters on it, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Impact Blow",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "160",
+        text: "During your next turn, this Pokémon can't use Impact Blow.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "92",
+    artist: "Shiburingaru",
+    rarity: "Rare",
+    flavorText:
+      "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
+    nationalPokedexNumbers: [979],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/92.png",
+      large: "https://images.pokemontcg.io/sv10/92_hires.png",
     },
   },
   {
@@ -2759,6 +2912,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-16",
+    name: "Applin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "40",
+    types: ["Grass"],
+    evolvesTo: ["Flapple"],
+    attacks: [
+      {
+        name: "Mini Drain",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Heal 10 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "16",
+    artist: "Tetsu Kayama",
+    rarity: "Common",
+    flavorText:
+      "It grows by eating the flesh of an apple. Applin uses its own body fluid to strengthen the apple's skin and prevent it from rotting.",
+    nationalPokedexNumbers: [840],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/16.png",
+      large: "https://images.pokemontcg.io/sv10/16_hires.png",
+    },
+  },
+  {
     id: "sv5-101",
     name: "Arbok",
     supertype: "Pokémon",
@@ -3029,6 +3243,75 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-23",
+    name: "Arboliva ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "310",
+    types: ["Grass"],
+    evolvesFrom: "Dolliv",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Oil Salvo",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Choose 1 of your opponent's Pokémon 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 20 damage to it. This damage isn't affected by Weakness or Resistance.",
+      },
+      {
+        name: "Aroma Shot",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "This Pokémon recovers from all Special Conditions.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "23",
+    artist: "PLANETA Tsuji",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [930],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/23.png",
+      large: "https://images.pokemontcg.io/sv10/23_hires.png",
+    },
+  },
+  {
     id: "svp-11",
     name: "Arcanine",
     supertype: "Pokémon",
@@ -3064,8 +3347,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -3161,6 +3444,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/59.png",
       large: "https://images.pokemontcg.io/sv3pt5/59_hires.png",
+    },
+  },
+  {
+    id: "sv10-28",
+    name: "Arcanine",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "140",
+    types: ["Fire"],
+    evolvesFrom: "Growlithe",
+    attacks: [
+      {
+        name: "Flare",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Punishing Fang",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If your opponent's Active Pokémon is a Darkness Pokémon, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "28",
+    artist: "Nisota Niso",
+    rarity: "Uncommon",
+    flavorText:
+      "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+    nationalPokedexNumbers: [59],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/28.png",
+      large: "https://images.pokemontcg.io/sv10/28_hires.png",
     },
   },
   {
@@ -3812,8 +4163,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -3968,6 +4319,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-62",
+    name: "Arrokuda",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Barraskewda"],
+    attacks: [
+      {
+        name: "Reckless Charge",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "62",
+    artist: "OKUBO",
+    rarity: "Common",
+    flavorText:
+      "Arrokuda can swim quickly only in a straight line. The ones that become sluggish from overeating are the first to be targeted by flocks of Wattrel.",
+    nationalPokedexNumbers: [846],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/62.png",
+      large: "https://images.pokemontcg.io/sv10/62_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-144",
     name: "Articuno",
     supertype: "Pokémon",
@@ -4096,7 +4508,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "32",
+    artist: "Takumi Wada",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
     nationalPokedexNumbers: [144],
     legalities: {
       unlimited: "Legal",
@@ -4107,6 +4522,399 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/32.png",
       large: "https://images.pokemontcg.io/sv9/32_hires.png",
+    },
+  },
+  {
+    id: "sv10-159",
+    name: "Arven's Greedent",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "120",
+    types: ["Colorless"],
+    evolvesFrom: "Arven's Skwovet",
+    abilities: [
+      {
+        name: "Greedy Order",
+        text: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put up to 2 Arven's Sandwich cards from your discard pile into your hand.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Rolling Tackle",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "159",
+    artist: "Akira Komayama",
+    rarity: "Rare",
+    flavorText:
+      "If it spots a berry tree, it will immediately go to gather berries without a sideways glance—even if it's in the middle of a battle.",
+    nationalPokedexNumbers: [820],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/159.png",
+      large: "https://images.pokemontcg.io/sv10/159_hires.png",
+    },
+  },
+  {
+    id: "sv10-139",
+    name: "Arven's Mabosstiff ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Darkness"],
+    evolvesFrom: "Arven's Maschiff",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Vigorous Tackle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If this Pokémon has no damage counters on it, this attack does 120 more damage.",
+      },
+      {
+        name: "Boss Headbutt",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "210",
+        text: "During your next turn, this Pokémon can't use Boss Headbutt.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "139",
+    artist: "akagi",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [943],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/139.png",
+      large: "https://images.pokemontcg.io/sv10/139_hires.png",
+    },
+  },
+  {
+    id: "sv10-138",
+    name: "Arven's Maschiff",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Stampede",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Confront",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "138",
+    artist: "Mina Nakai",
+    rarity: "Common",
+    flavorText:
+      "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+    nationalPokedexNumbers: [942],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/138.png",
+      large: "https://images.pokemontcg.io/sv10/138_hires.png",
+    },
+  },
+  {
+    id: "sv10-158",
+    name: "Arven's Skwovet",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Greedent"],
+    attacks: [
+      {
+        name: "Gnaw Through",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "158",
+    artist: "Oswaldo KATO",
+    rarity: "Common",
+    flavorText:
+      "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
+    nationalPokedexNumbers: [819],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/158.png",
+      large: "https://images.pokemontcg.io/sv10/158_hires.png",
+    },
+  },
+  {
+    id: "sv10-109",
+    name: "Arven's Toedscool",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Slight Intrusion",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "109",
+    artist: "Fujimoto Gold",
+    rarity: "Common",
+    flavorText:
+      "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+    nationalPokedexNumbers: [948],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/109.png",
+      large: "https://images.pokemontcg.io/sv10/109_hires.png",
+    },
+  },
+  {
+    id: "sv10-110",
+    name: "Arven's Toedscruel",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "140",
+    types: ["Fighting"],
+    evolvesFrom: "Arven's Toedscool",
+    attacks: [
+      {
+        name: "Pull",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      },
+      {
+        name: "Reckless Charge",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "110",
+    artist: "Yuya Oka",
+    rarity: "Uncommon",
+    flavorText:
+      "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+    nationalPokedexNumbers: [949],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/110.png",
+      large: "https://images.pokemontcg.io/sv10/110_hires.png",
     },
   },
   {
@@ -4226,7 +5034,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "124",
+    artist: "Minahamu",
     rarity: "Common",
+    flavorText:
+      "Audino's sense of hearing is superb. Not even a pebble rolling along over a mile away will escape Audino's ears.",
     nationalPokedexNumbers: [531],
     legalities: {
       unlimited: "Legal",
@@ -4665,7 +5476,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "112",
+    artist: "Miki Tanaka",
     rarity: "Common",
+    flavorText:
+      "Its steel-hard head can shatter boulders. It longingly hopes for wings to grow so it can fly.",
     nationalPokedexNumbers: [371],
     legalities: {
       unlimited: "Legal",
@@ -4802,7 +5616,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "60",
+    artist: "Anesaki Dynamic",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
     nationalPokedexNumbers: [354],
     legalities: {
       unlimited: "Legal",
@@ -4956,6 +5773,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/108.png",
       large: "https://images.pokemontcg.io/sv3/108_hires.png",
+    },
+  },
+  {
+    id: "sv10-63",
+    name: "Barraskewda",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Water"],
+    evolvesFrom: "Arrokuda",
+    attacks: [
+      {
+        name: "Sharp Fin",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Dive",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "63",
+    artist: "Kyoko Umemoto",
+    rarity: "Uncommon",
+    flavorText:
+      "It spins its tail fins to leap from the water, then viciously bites down on Wingull flying close to the water's surface.",
+    nationalPokedexNumbers: [847],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/63.png",
+      large: "https://images.pokemontcg.io/sv10/63_hires.png",
     },
   },
   {
@@ -5358,7 +6243,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "61",
+    artist: "Izucch",
     rarity: "Common",
+    flavorText:
+      "The magnetic force generated by its body repels the ground's natural magnetism, letting it float.",
     nationalPokedexNumbers: [374],
     legalities: {
       unlimited: "Legal",
@@ -5534,8 +6422,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -6071,8 +6959,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -6237,6 +7125,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-42",
+    name: "Blaziken",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "170",
+    types: ["Fire"],
+    evolvesFrom: "Combusken",
+    attacks: [
+      {
+        name: "Heat Blast",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+      {
+        name: "Inferno Kick Flurry",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "Discard 2 Energy from this Pokémon. This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "42",
+    artist: "Kazumasa Yasukuni",
+    rarity: "Rare",
+    flavorText:
+      "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+    nationalPokedexNumbers: [257],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/42.png",
+      large: "https://images.pokemontcg.io/sv10/42_hires.png",
+    },
+  },
+  {
     id: "sv9-24",
     name: "Blaziken ex",
     supertype: "Pokémon",
@@ -6291,6 +7247,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "24",
+    artist: "takuyoa",
     rarity: "Double Rare",
     nationalPokedexNumbers: [257],
     legalities: {
@@ -7083,7 +8040,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "101",
+    artist: "Gemi",
     rarity: "Common",
+    flavorText:
+      "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
     nationalPokedexNumbers: [962],
     legalities: {
       unlimited: "Legal",
@@ -8058,6 +9018,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv5/7.png",
       large: "https://images.pokemontcg.io/sv5/7_hires.png",
+    },
+  },
+  {
+    id: "sv10-6",
+    name: "Breloom",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Shroomish",
+    attacks: [
+      {
+        name: "Damage Rush",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+      },
+      {
+        name: "Mega Drain",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "Heal 30 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "6",
+    artist: "nisimono",
+    rarity: "Common",
+    flavorText:
+      "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+    nationalPokedexNumbers: [286],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/6.png",
+      large: "https://images.pokemontcg.io/sv10/6_hires.png",
     },
   },
   {
@@ -9063,6 +10091,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-57",
+    name: "Buizel",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Floatzel"],
+    attacks: [
+      {
+        name: "Tail Whap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Wave Splash",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "57",
+    artist: "Ayako Ozaki",
+    rarity: "Common",
+    flavorText:
+      "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+    nationalPokedexNumbers: [418],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/57.png",
+      large: "https://images.pokemontcg.io/sv10/57_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-1",
     name: "Bulbasaur",
     supertype: "Pokémon",
@@ -9150,8 +10246,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -9412,7 +10508,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "3",
+    artist: "satoma",
     rarity: "Rare",
+    flavorText:
+      "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
     nationalPokedexNumbers: [12],
     legalities: {
       unlimited: "Legal",
@@ -10480,7 +11579,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "1",
+    artist: "Shimaris Yukichi",
     rarity: "Common",
+    flavorText:
+      "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
     nationalPokedexNumbers: [10],
     legalities: {
       unlimited: "Legal",
@@ -11067,8 +12169,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -11162,6 +12264,75 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/54.png",
       large: "https://images.pokemontcg.io/sv8/54_hires.png",
+    },
+  },
+  {
+    id: "sv10-65",
+    name: "Cetitan ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex", "Ability"],
+    hp: "300",
+    types: ["Water"],
+    evolvesFrom: "Cetoddle",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Snow Camouflage",
+        text: "Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Crushing Press",
+        cost: ["Water", "Water", "Water", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "140+",
+        text: "You may discard a Stadium in play. If you do, this attack does 140 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "65",
+    artist: "kawayoo",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [975],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/65.png",
+      large: "https://images.pokemontcg.io/sv10/65_hires.png",
     },
   },
   {
@@ -11469,6 +12640,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/53.png",
       large: "https://images.pokemontcg.io/sv8/53_hires.png",
+    },
+  },
+  {
+    id: "sv10-64",
+    name: "Cetoddle",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "100",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Frost Smash",
+        cost: ["Water", "Water", "Water", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "64",
+    artist: "sui",
+    rarity: "Common",
+    flavorText:
+      "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+    nationalPokedexNumbers: [974],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/64.png",
+      large: "https://images.pokemontcg.io/sv10/64_hires.png",
     },
   },
   {
@@ -12840,8 +14078,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -14041,7 +15279,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "126",
+    artist: "En Morikura",
     rarity: "Uncommon",
+    flavorText:
+      "The oil that seeps from its body is really smooth. For people troubled by bad skin, this oil is an effective treatment.",
     nationalPokedexNumbers: [573],
     legalities: {
       unlimited: "Legal",
@@ -14119,6 +15360,67 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv7/28.png",
       large: "https://images.pokemontcg.io/sv7/28_hires.png",
+    },
+  },
+  {
+    id: "sv10-54",
+    name: "Clamperl",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Water"],
+    evolvesTo: ["Huntail", "Gorebyss"],
+    attacks: [
+      {
+        name: "Shell Press",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "54",
+    artist: "Miki Tanaka",
+    rarity: "Common",
+    flavorText:
+      "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls.",
+    nationalPokedexNumbers: [366],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/54.png",
+      large: "https://images.pokemontcg.io/sv10/54_hires.png",
     },
   },
   {
@@ -14802,8 +16104,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -15397,7 +16699,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "23",
+    artist: "Fujimoto Gold",
     rarity: "Uncommon",
+    flavorText:
+      "When it enters battle, the flame inside its body burns stronger. Its kicks have outstanding destructive power.",
     nationalPokedexNumbers: [256],
     legalities: {
       unlimited: "Legal",
@@ -15408,6 +16713,75 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/23.png",
       large: "https://images.pokemontcg.io/sv9/23_hires.png",
+    },
+  },
+  {
+    id: "sv10-41",
+    name: "Combusken",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Fire"],
+    evolvesFrom: "Torchic",
+    evolvesTo: ["Blaziken"],
+    attacks: [
+      {
+        name: "Combustion",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Double Kick",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40×",
+        text: "Flip 2 coins. This attack does 40 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "41",
+    artist: "yuu",
+    rarity: "Common",
+    flavorText:
+      "It boosts its concentration by emitting harsh cries. Its kicks have outstanding destructive power.",
+    nationalPokedexNumbers: [256],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/41.png",
+      large: "https://images.pokemontcg.io/sv10/41_hires.png",
     },
   },
   {
@@ -15671,7 +17045,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "110",
+    artist: "Ryuta Fuse",
     rarity: "Uncommon",
+    flavorText:
+      "Copperajah are prideful, cantankerous Pokémon. Specimens with vibrant green skin command the respect of others of their kind.",
     nationalPokedexNumbers: [879],
     legalities: {
       unlimited: "Legal",
@@ -15756,6 +17133,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/150.png",
       large: "https://images.pokemontcg.io/sv2/150_hires.png",
+    },
+  },
+  {
+    id: "sv10-111",
+    name: "Cornerstone Mask Ogerpon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Rock Kagura",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Fighting Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Mountain Ramming",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Discard the top card of your opponent's deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "111",
+    artist: "Kazumasa Yasukuni",
+    rarity: "Uncommon",
+    flavorText:
+      "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.",
+    nationalPokedexNumbers: [1017],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/111.png",
+      large: "https://images.pokemontcg.io/sv10/111_hires.png",
     },
   },
   {
@@ -16601,7 +18045,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "137",
+    artist: "Tomomi Ozaki",
     rarity: "Common",
+    flavorText:
+      "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
     nationalPokedexNumbers: [845],
     legalities: {
       unlimited: "Legal",
@@ -17464,6 +18911,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-12",
+    name: "Crustle",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "150",
+    types: ["Grass"],
+    evolvesFrom: "Dwebble",
+    abilities: [
+      {
+        name: "Mysterious Rock Inn",
+        text: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Superb Scissors",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "12",
+    artist: "Po-Suzuki",
+    rarity: "Rare",
+    flavorText:
+      "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
+    nationalPokedexNumbers: [558],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/12.png",
+      large: "https://images.pokemontcg.io/sv10/12_hires.png",
+    },
+  },
+  {
     id: "sv3-55",
     name: "Cryogonal",
     supertype: "Pokémon",
@@ -17830,7 +19345,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "76",
+    artist: "Mugi Hamada",
     rarity: "Common",
+    flavorText:
+      "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
     nationalPokedexNumbers: [104],
     legalities: {
       unlimited: "Legal",
@@ -18030,7 +19548,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "109",
+    artist: "kodama",
     rarity: "Common",
+    flavorText:
+      "Cufant can lift loads weighing five tons. In the mornings, it heads into caves with its herd, in search of the ore on which these Pokémon feed.",
     nationalPokedexNumbers: [878],
     legalities: {
       unlimited: "Legal",
@@ -18381,8 +19902,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -18515,8 +20036,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -18611,6 +20132,514 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/159.png",
       large: "https://images.pokemontcg.io/sv8/159_hires.png",
+    },
+  },
+  {
+    id: "sv10-52",
+    name: "Cynthia's Feebas",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "30",
+    types: ["Water"],
+    evolvesTo: ["Milotic"],
+    attacks: [
+      {
+        name: "Undulate",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "52",
+    artist: "kamonabe",
+    rarity: "Common",
+    flavorText:
+      "This tough Pokémon is perfectly fine even in dirty water. However, due to its ragged, shabby appearance, it isn't popular.",
+    nationalPokedexNumbers: [349],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/52.png",
+      large: "https://images.pokemontcg.io/sv10/52_hires.png",
+    },
+  },
+  {
+    id: "sv10-103",
+    name: "Cynthia's Gabite",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Fighting"],
+    evolvesFrom: "Cynthia's Gible",
+    evolvesTo: ["Garchomp"],
+    abilities: [
+      {
+        name: "Champion's Call",
+        text: "Once during your turn, you may search your deck for a Cynthia's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dragonslice",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "103",
+    artist: "Taira Akitsu",
+    rarity: "Common",
+    flavorText:
+      "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+    nationalPokedexNumbers: [444],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/103.png",
+      large: "https://images.pokemontcg.io/sv10/103_hires.png",
+    },
+  },
+  {
+    id: "sv10-104",
+    name: "Cynthia's Garchomp ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Free Retreat"],
+    hp: "330",
+    types: ["Fighting"],
+    evolvesFrom: "Cynthia's Gabite",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Corkscrew Dive",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "100",
+        text: "You may draw cards until you have 6 cards in your hand.",
+      },
+      {
+        name: "Draconic Buster",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "260",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "104",
+    artist: "5ban Graphics",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [445],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/104.png",
+      large: "https://images.pokemontcg.io/sv10/104_hires.png",
+    },
+  },
+  {
+    id: "sv10-102",
+    name: "Cynthia's Gible",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Gabite"],
+    attacks: [
+      {
+        name: "Rock Hurl",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "This attack's damage isn't affected by Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "102",
+    artist: "Tomomi Ozaki",
+    rarity: "Common",
+    flavorText:
+      "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+    nationalPokedexNumbers: [443],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/102.png",
+      large: "https://images.pokemontcg.io/sv10/102_hires.png",
+    },
+  },
+  {
+    id: "sv10-53",
+    name: "Cynthia's Milotic",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Water"],
+    evolvesFrom: "Cynthia's Feebas",
+    attacks: [
+      {
+        name: "Aqua Split",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "This attack also does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "53",
+    artist: "You Iribi",
+    rarity: "Uncommon",
+    flavorText:
+      "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
+    nationalPokedexNumbers: [350],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/53.png",
+      large: "https://images.pokemontcg.io/sv10/53_hires.png",
+    },
+  },
+  {
+    id: "sv10-7",
+    name: "Cynthia's Roselia",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Roserade"],
+    attacks: [
+      {
+        name: "Spike Sting",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "7",
+    artist: "nisimono",
+    rarity: "Common",
+    flavorText:
+      "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+    nationalPokedexNumbers: [315],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/7.png",
+      large: "https://images.pokemontcg.io/sv10/7_hires.png",
+    },
+  },
+  {
+    id: "sv10-8",
+    name: "Cynthia's Roserade",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Cynthia's Roselia",
+    abilities: [
+      {
+        name: "Cheer On to Glory",
+        text: "Attacks used by your Cynthia's Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Leaf Step",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "8",
+    artist: "En Morikura",
+    rarity: "Rare",
+    flavorText:
+      "The poison in its right hand is quick acting. The poison in its left hand is slow acting. Both are life threatening.",
+    nationalPokedexNumbers: [407],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/8.png",
+      large: "https://images.pokemontcg.io/sv10/8_hires.png",
+    },
+  },
+  {
+    id: "sv10-129",
+    name: "Cynthia's Spiritomb",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Raging Curse",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "This attack does 10 damage for each damage counter on all of your Benched Cynthia's Pokémon. This attack's damage isn't affected by Weakness.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "129",
+    artist: "satoma",
+    rarity: "Uncommon",
+    flavorText:
+      "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+    nationalPokedexNumbers: [442],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/129.png",
+      large: "https://images.pokemontcg.io/sv10/129_hires.png",
     },
   },
   {
@@ -18852,8 +20881,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -20381,7 +22410,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "70",
+    artist: "Sanosuke Sakuma",
     rarity: "Common",
+    flavorText:
+      "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
     nationalPokedexNumbers: [781],
     legalities: {
       unlimited: "Legal",
@@ -20450,6 +22482,79 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/135.png",
       large: "https://images.pokemontcg.io/sv8/135_hires.png",
+    },
+  },
+  {
+    id: "svp-180",
+    name: "Dialga ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "220",
+    types: ["Metal"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Time Bellow",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Draw a card.",
+      },
+      {
+        name: "Metal Blast",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "This attack does 20 more damage for each Metal Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "180",
+    artist: "PLANETA Tsuji",
+    rarity: "Promo",
+    nationalPokedexNumbers: [483],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/180.png",
+      large: "https://images.pokemontcg.io/svp/180_hires.png",
     },
   },
   {
@@ -20889,6 +22994,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-17",
+    name: "Dipplin",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Grass"],
+    evolvesFrom: "Applin",
+    attacks: [
+      {
+        name: "Energy Loop",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Put an Energy attached to this Pokémon into your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "17",
+    artist: "Shigenori Negishi",
+    rarity: "Common",
+    flavorText:
+      "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place.",
+    nationalPokedexNumbers: [1011],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/17.png",
+      large: "https://images.pokemontcg.io/sv10/17_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-132",
     name: "Ditto",
     supertype: "Pokémon",
@@ -21222,6 +23388,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-22",
+    name: "Dolliv",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Grass"],
+    evolvesFrom: "Smoliv",
+    attacks: [
+      {
+        name: "Nutrients",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 40 damage from 1 of your Pokémon.",
+      },
+      {
+        name: "Tackle",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "22",
+    artist: "Felicia Chen",
+    rarity: "Common",
+    flavorText:
+      "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+    nationalPokedexNumbers: [929],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/22.png",
+      large: "https://images.pokemontcg.io/sv10/22_hires.png",
+    },
+  },
+  {
     id: "sv1-61",
     name: "Dondozo",
     supertype: "Pokémon",
@@ -21322,8 +23556,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -21418,6 +23652,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/55.png",
       large: "https://images.pokemontcg.io/sv4/55_hires.png",
+    },
+  },
+  {
+    id: "sv10-66",
+    name: "Dondozo ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "260",
+    types: ["Water"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Avenging Billow",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
+      },
+      {
+        name: "Dynamic Dive",
+        cost: ["Water", "Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120+",
+        text: "You may do 120 more damage. If you do, this Pokémon also does 50 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "66",
+    artist: "N-DESIGN Inc.",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [977],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/66.png",
+      large: "https://images.pokemontcg.io/sv10/66_hires.png",
     },
   },
   {
@@ -22315,7 +24617,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "130",
+    artist: "Tetsu Kayama",
     rarity: "Common",
+    flavorText:
+      "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
     nationalPokedexNumbers: [780],
     legalities: {
       unlimited: "Legal",
@@ -23283,7 +25588,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "115",
+    artist: "kawayoo",
     rarity: "Common",
+    flavorText:
+      "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
     nationalPokedexNumbers: [621],
     legalities: {
       unlimited: "Legal",
@@ -23625,6 +25933,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "121",
+    artist: "5ban Graphics",
     rarity: "Double Rare",
     nationalPokedexNumbers: [982],
     legalities: {
@@ -23947,7 +26256,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "120",
+    artist: "Asako Ito",
     rarity: "Common",
+    flavorText:
+      "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
     nationalPokedexNumbers: [206],
     legalities: {
       unlimited: "Legal",
@@ -24284,7 +26596,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "14",
+    artist: "KEIICHIRO ITO",
     rarity: "Common",
+    flavorText:
+      "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles.",
     nationalPokedexNumbers: [632],
     legalities: {
       unlimited: "Legal",
@@ -24639,6 +26954,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-11",
+    name: "Dwebble",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Crustle"],
+    attacks: [
+      {
+        name: "Ascension",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "11",
+    artist: "Kanami Ogata",
+    rarity: "Common",
+    flavorText:
+      "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
+    nationalPokedexNumbers: [557],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/11.png",
+      large: "https://images.pokemontcg.io/sv10/11_hires.png",
+    },
+  },
+  {
     id: "sv3-68",
     name: "Eelektrik",
     supertype: "Pokémon",
@@ -24894,8 +27270,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -25900,6 +28276,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-68",
+    name: "Electabuzz",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesTo: ["Electivire"],
+    attacks: [
+      {
+        name: "Electroslug",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "68",
+    artist: "Amelicart",
+    rarity: "Common",
+    flavorText:
+      "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+    nationalPokedexNumbers: [125],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/68.png",
+      large: "https://images.pokemontcg.io/sv10/68_hires.png",
+    },
+  },
+  {
     id: "sv5-54",
     name: "Electivire",
     supertype: "Pokémon",
@@ -26030,6 +28467,143 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv7/47.png",
       large: "https://images.pokemontcg.io/sv7/47_hires.png",
+    },
+  },
+  {
+    id: "sv10-69",
+    name: "Electivire ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "280",
+    types: ["Lightning"],
+    evolvesFrom: "Electabuzz",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Dual Bolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "High-Voltage Press",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "180+",
+        text: "If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "69",
+    artist: "PLANETA Mochizuki",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [466],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/69.png",
+      large: "https://images.pokemontcg.io/sv10/69_hires.png",
+    },
+  },
+  {
+    id: "sv10-75",
+    name: "Electrike",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Lightning"],
+    evolvesTo: ["Manectric"],
+    attacks: [
+      {
+        name: "Rear Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Tiny Bolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "75",
+    artist: "Narano",
+    rarity: "Common",
+    flavorText:
+      "It stores electricity in its fur. It gives off sparks from all over its body in seasons when the air is dry.",
+    nationalPokedexNumbers: [309],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/75.png",
+      large: "https://images.pokemontcg.io/sv10/75_hires.png",
     },
   },
   {
@@ -26540,7 +29114,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "102",
+    artist: "Takumi Wada",
     rarity: "Uncommon",
+    flavorText:
+      "It charges its enemies, lances at the ready. An image of one of its duels is captured in a famous painting of Escavalier clashing with Sirfetch'd.",
     nationalPokedexNumbers: [589],
     legalities: {
       unlimited: "Legal",
@@ -26664,8 +29241,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -27248,6 +29825,594 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/141.png",
       large: "https://images.pokemontcg.io/sv8/141_hires.png",
+    },
+  },
+  {
+    id: "sv10-32",
+    name: "Ethan's Cyndaquil",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Quilava"],
+    attacks: [
+      {
+        name: "Ember",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "32",
+    artist: "Susumu Maeya",
+    rarity: "Common",
+    flavorText:
+      "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+    nationalPokedexNumbers: [155],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/32.png",
+      large: "https://images.pokemontcg.io/sv10/32_hires.png",
+    },
+  },
+  {
+    id: "sv10-39",
+    name: "Ethan's Ho-Oh ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Ability"],
+    hp: "230",
+    types: ["Fire"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Golden Flame",
+        text: "Once during your turn, you may attach up to 2 Basic Fire Energy cards from your hand to 1 of your Benched Ethan's Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Shining Feathers",
+        cost: ["Fire", "Fire", "Fire", "Fire"],
+        convertedEnergyCost: 4,
+        damage: "160",
+        text: "Heal 50 damage from each of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "39",
+    artist: "aky CG Works",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [250],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/39.png",
+      large: "https://images.pokemontcg.io/sv10/39_hires.png",
+    },
+  },
+  {
+    id: "sv10-36",
+    name: "Ethan's Magcargo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Fire"],
+    evolvesFrom: "Ethan's Slugma",
+    abilities: [
+      {
+        name: "Melt Away",
+        text: "If this Pokémon has no Energy attached, it has no Retreat Cost.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Lava Burst",
+        cost: ["Fire", "Fire", "Fire"],
+        convertedEnergyCost: 3,
+        damage: "70×",
+        text: "Discard up to 5 Fire Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "36",
+    artist: "kodama",
+    rarity: "Rare",
+    flavorText:
+      "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
+    nationalPokedexNumbers: [219],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/36.png",
+      large: "https://images.pokemontcg.io/sv10/36_hires.png",
+    },
+  },
+  {
+    id: "sv10-71",
+    name: "Ethan's Pichu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "30",
+    types: ["Lightning"],
+    evolvesTo: ["Pikachu"],
+    attacks: [
+      {
+        name: "Zapping Draw",
+        cost: [],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Draw a card.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "71",
+    artist: "Narumi Sato",
+    rarity: "Common",
+    flavorText:
+      "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously.",
+    nationalPokedexNumbers: [172],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/71.png",
+      large: "https://images.pokemontcg.io/sv10/71_hires.png",
+    },
+  },
+  {
+    id: "sv10-1",
+    name: "Ethan's Pinsir",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Vise Grip",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Rallying Horn",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70+",
+        text: "If any of your Ethan's Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "1",
+    artist: "GIDORA",
+    rarity: "Uncommon",
+    flavorText:
+      "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
+    nationalPokedexNumbers: [127],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/1.png",
+      large: "https://images.pokemontcg.io/sv10/1_hires.png",
+    },
+  },
+  {
+    id: "sv10-33",
+    name: "Ethan's Quilava",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "100",
+    types: ["Fire"],
+    evolvesFrom: "Ethan's Cyndaquil",
+    evolvesTo: ["Typhlosion"],
+    abilities: [
+      {
+        name: "Bonded by the Journey",
+        text: "Once during your turn, you may search your deck for an Ethan's Adventure card, reveal it, and put it into your hand. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Combustion",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "33",
+    artist: "Souichirou Gunjima",
+    rarity: "Common",
+    flavorText:
+      "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes.",
+    nationalPokedexNumbers: [156],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/33.png",
+      large: "https://images.pokemontcg.io/sv10/33_hires.png",
+    },
+  },
+  {
+    id: "sv10-35",
+    name: "Ethan's Slugma",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesTo: ["Magcargo"],
+    attacks: [
+      {
+        name: "Steady Firebreathing",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "35",
+    artist: "Sanosuke Sakuma",
+    rarity: "Common",
+    flavorText:
+      "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+    nationalPokedexNumbers: [218],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/35.png",
+      large: "https://images.pokemontcg.io/sv10/35_hires.png",
+    },
+  },
+  {
+    id: "sv10-93",
+    name: "Ethan's Sudowoodo",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Impound",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+      {
+        name: "Try to Imitate",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Flip a coin. If heads, choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "93",
+    artist: "OKACHEKE",
+    rarity: "Common",
+    flavorText:
+      "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+    nationalPokedexNumbers: [185],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/93.png",
+      large: "https://images.pokemontcg.io/sv10/93_hires.png",
+    },
+  },
+  {
+    id: "sv10-34",
+    name: "Ethan's Typhlosion",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "170",
+    types: ["Fire"],
+    evolvesFrom: "Ethan's Quilava",
+    attacks: [
+      {
+        name: "Buddy Blast",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "40+",
+        text: "This attack does 60 more damage for each Ethan's Adventure card in your discard pile.",
+      },
+      {
+        name: "Steam Artillery",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "34",
+    artist: "danciao",
+    rarity: "Rare",
+    flavorText:
+      "It has a secret, devastating move. It rubs its blazing fur to cause huge explosions.",
+    nationalPokedexNumbers: [157],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/34.png",
+      large: "https://images.pokemontcg.io/sv10/34_hires.png",
     },
   },
   {
@@ -29838,8 +33003,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -29907,8 +33072,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -31522,6 +34687,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-58",
+    name: "Floatzel",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Water"],
+    evolvesFrom: "Buizel",
+    attacks: [
+      {
+        name: "Whirlpool",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Discard an Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Aqua Slash",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "58",
+    artist: "Shibuzoh.",
+    rarity: "Uncommon",
+    flavorText:
+      "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+    nationalPokedexNumbers: [419],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/58.png",
+      large: "https://images.pokemontcg.io/sv10/58_hires.png",
+    },
+  },
+  {
     id: "sv1-92",
     name: "Floette",
     supertype: "Pokémon",
@@ -31829,7 +35062,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "17",
+    artist: "Felicia Chen",
     rarity: "Common",
+    flavorText:
+      "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
     nationalPokedexNumbers: [907],
     legalities: {
       unlimited: "Legal",
@@ -32178,6 +35414,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-13",
+    name: "Fomantis",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Lurantis"],
+    attacks: [
+      {
+        name: "Cut Up",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "13",
+    artist: "mashu",
+    rarity: "Common",
+    flavorText:
+      "Fomantis hates having its naps interrupted. It fires off beams using energy it gathers by bathing in the sun.",
+    nationalPokedexNumbers: [753],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/13.png",
+      large: "https://images.pokemontcg.io/sv10/13_hires.png",
+    },
+  },
+  {
     id: "sv3-9",
     name: "Foongus",
     supertype: "Pokémon",
@@ -32289,7 +35586,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "10",
+    artist: "Saboteri",
     rarity: "Common",
+    flavorText:
+      "This Pokémon prefers damp places. It spurts out poison spores to repel approaching enemies.",
     nationalPokedexNumbers: [590],
     legalities: {
       unlimited: "Legal",
@@ -32447,6 +35747,80 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv5/110.png",
       large: "https://images.pokemontcg.io/sv5/110_hires.png",
+    },
+  },
+  {
+    id: "sv10-140",
+    name: "Forretress",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Pineco",
+    attacks: [
+      {
+        name: "Iron Shake-Up",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "You may move any amount of Metal Energy from your Pokémon to your other Pokémon in any way you like.",
+      },
+      {
+        name: "Hurricane of Needles",
+        cost: ["Metal", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "80×",
+        text: "Flip 4 coins. This attack does 80 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "140",
+    artist: "Wintr Wandr",
+    rarity: "Uncommon",
+    flavorText:
+      "It's usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.",
+    nationalPokedexNumbers: [205],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/140.png",
+      large: "https://images.pokemontcg.io/sv10/140_hires.png",
     },
   },
   {
@@ -33429,8 +36803,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -33882,7 +37256,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "119",
+    artist: "Tomomi Ozaki",
     rarity: "Common",
+    flavorText:
+      "It raises its offspring inside a long, narrow nest. Once they're old enough, it takes them outside the nest to prepare them for independence.",
     nationalPokedexNumbers: [162],
     legalities: {
       unlimited: "Legal",
@@ -34013,7 +37390,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "106",
+    artist: "Aya Kusube",
     rarity: "Common",
+    flavorText:
+      "Living in mud with a high iron content has given it a strong steel body.",
     nationalPokedexNumbers: [618],
     legalities: {
       unlimited: "Legal",
@@ -37969,6 +41349,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-56",
+    name: "Gorebyss",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Water"],
+    evolvesFrom: "Clamperl",
+    attacks: [
+      {
+        name: "Crescendo Wave",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "This attack does 30 damage for each Water Energy attached to this Pokémon. Before doing damage, you may attach any number of Basic Water Energy cards from your hand to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "56",
+    artist: "Naoyo Kimura",
+    rarity: "Rare",
+    flavorText:
+      "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
+    nationalPokedexNumbers: [368],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/56.png",
+      large: "https://images.pokemontcg.io/sv10/56_hires.png",
+    },
+  },
+  {
     id: "sv7-10",
     name: "Gossifleur",
     supertype: "Pokémon",
@@ -38619,8 +42060,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -39644,7 +43085,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "132",
+    artist: "Jerky",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
     nationalPokedexNumbers: [820],
     legalities: {
       unlimited: "Legal",
@@ -39765,8 +43209,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -40163,7 +43607,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "73",
+    artist: "Nisota Niso",
     rarity: "Uncommon",
+    flavorText:
+      "It lives deep within the forest. Even after evolving into this splendid form, it hasn't given up on its petty misdeeds and pranks.",
     nationalPokedexNumbers: [861],
     legalities: {
       unlimited: "Legal",
@@ -40562,6 +44009,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/58.png",
       large: "https://images.pokemontcg.io/sv3pt5/58_hires.png",
+    },
+  },
+  {
+    id: "sv10-27",
+    name: "Growlithe",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesTo: ["Arcanine"],
+    attacks: [
+      {
+        name: "Live Coal",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Dig Claws",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "27",
+    artist: "ryoma uratsuka",
+    rarity: "Common",
+    flavorText:
+      "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+    nationalPokedexNumbers: [58],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/27.png",
+      large: "https://images.pokemontcg.io/sv10/27_hires.png",
     },
   },
   {
@@ -41682,6 +45197,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-44",
+    name: "Hearthflame Mask Ogerpon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Fire Kagura",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Searing Flame",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "44",
+    artist: "HYOGONOSUKE",
+    rarity: "Uncommon",
+    flavorText:
+      "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.",
+    nationalPokedexNumbers: [1017],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/44.png",
+      large: "https://images.pokemontcg.io/sv10/44_hires.png",
+    },
+  },
+  {
     id: "sv6-40",
     name: "Hearthflame Mask Ogerpon ex",
     supertype: "Pokémon",
@@ -41807,6 +45389,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/13.png",
       large: "https://images.pokemontcg.io/sv4pt5/13_hires.png",
+    },
+  },
+  {
+    id: "sv10-43",
+    name: "Heat Rotom",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Singe",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+      {
+        name: "Gadget Show",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "43",
+    artist: "Dsuke",
+    rarity: "Common",
+    flavorText:
+      "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+    nationalPokedexNumbers: [479],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/43.png",
+      large: "https://images.pokemontcg.io/sv10/43_hires.png",
     },
   },
   {
@@ -42663,6 +46312,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-105",
+    name: "Hippopotas",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Fighting"],
+    evolvesTo: ["Hippowdon"],
+    attacks: [
+      {
+        name: "Push Down",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "105",
+    artist: "Minahamu",
+    rarity: "Common",
+    flavorText:
+      "It shrouds itself in sand to ward off germs. It travels easily through the sands of the desert.",
+    nationalPokedexNumbers: [449],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/105.png",
+      large: "https://images.pokemontcg.io/sv10/105_hires.png",
+    },
+  },
+  {
     id: "sv8pt5-53",
     name: "Hippowdon",
     supertype: "Pokémon",
@@ -42725,6 +46435,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8pt5/53.png",
       large: "https://images.pokemontcg.io/sv8pt5/53_hires.png",
+    },
+  },
+  {
+    id: "sv10-106",
+    name: "Hippowdon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "160",
+    types: ["Fighting"],
+    evolvesFrom: "Hippopotas",
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+      {
+        name: "Super Sandstorm",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "This attack also does 40 damage to each Benched Pokémon that has any damage counters on it (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "106",
+    artist: "Minahamu",
+    rarity: "Uncommon",
+    flavorText:
+      "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+    nationalPokedexNumbers: [450],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/106.png",
+      large: "https://images.pokemontcg.io/sv10/106_hires.png",
     },
   },
   {
@@ -43598,7 +47376,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "108",
+    artist: "GIDORA",
     rarity: "Uncommon",
+    flavorText:
+      "Although its wings have partly turned to steel and become heavy as a result, this Pokémon flies through the skies with ease.",
     nationalPokedexNumbers: [823],
     legalities: {
       unlimited: "Legal",
@@ -43670,7 +47451,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "134",
+    artist: "Souichirou Gunjima",
     rarity: "Common",
+    flavorText:
+      "This intelligent Pokémon will quickly learn how to use any tool it can hold in its beak or its talons.",
     nationalPokedexNumbers: [822],
     legalities: {
       unlimited: "Legal",
@@ -43733,7 +47517,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "138",
+    artist: "Saboteri",
     rarity: "Uncommon",
+    flavorText:
+      "Cramorant instinctively swallow everything whole. They're at their most formidable when they're struggling to swallow overly large prey.",
     nationalPokedexNumbers: [845],
     legalities: {
       unlimited: "Legal",
@@ -43798,7 +47585,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "136",
+    artist: "Ryota Murayama",
     rarity: "Rare",
+    flavorText:
+      "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
     nationalPokedexNumbers: [832],
     legalities: {
       unlimited: "Legal",
@@ -43869,7 +47659,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "133",
+    artist: "Shinya Mizuno",
     rarity: "Common",
+    flavorText:
+      "The females are fussier than the males. If another creature dirties a female Rookidee's wings, it'll peck the offender relentlessly in a burning rage.",
     nationalPokedexNumbers: [821],
     legalities: {
       unlimited: "Legal",
@@ -43934,7 +47727,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "87",
+    artist: "Sanosuke Sakuma",
     rarity: "Uncommon",
+    flavorText:
+      "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",
     nationalPokedexNumbers: [844],
     legalities: {
       unlimited: "Legal",
@@ -43999,7 +47795,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "86",
+    artist: "aspara",
     rarity: "Common",
+    flavorText:
+      "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
     nationalPokedexNumbers: [843],
     legalities: {
       unlimited: "Legal",
@@ -44063,7 +47862,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "117",
+    artist: "GOSSAN",
     rarity: "Rare",
+    flavorText:
+      "This gluttonous Pokémon eats constantly, apart from when it's asleep. It devours nearly 900 pounds of food per day.",
     nationalPokedexNumbers: [143],
     legalities: {
       unlimited: "Legal",
@@ -44121,7 +47923,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "135",
+    artist: "Tomomi Ozaki",
     rarity: "Common",
+    flavorText:
+      "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
     nationalPokedexNumbers: [831],
     legalities: {
       unlimited: "Legal",
@@ -44194,6 +47999,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "111",
+    artist: "aky CG Works",
     rarity: "Double Rare",
     nationalPokedexNumbers: [888],
     legalities: {
@@ -45294,8 +49100,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -45438,8 +49244,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -45465,6 +49271,142 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/svp/162.png",
       large: "https://images.pokemontcg.io/svp/162_hires.png",
+    },
+  },
+  {
+    id: "sv10-55",
+    name: "Huntail",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "110",
+    types: ["Water"],
+    evolvesFrom: "Clamperl",
+    abilities: [
+      {
+        name: "Diver's Catch",
+        text: "When 1 of your Water Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, you may put all Basic Water Energy attached to that Pokémon into your hand instead of the discard pile.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Wave Splash",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "55",
+    artist: "Scav",
+    rarity: "Uncommon",
+    flavorText:
+      "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen.",
+    nationalPokedexNumbers: [367],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/55.png",
+      large: "https://images.pokemontcg.io/sv10/55_hires.png",
+    },
+  },
+  {
+    id: "sv10-18",
+    name: "Hydrapple",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "170",
+    types: ["Grass"],
+    evolvesFrom: "Dipplin",
+    attacks: [
+      {
+        name: "Hydra Breath",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard 6 Basic Grass Energy cards from your hand, and Knock Out your opponent's Active Pokémon. If you can't discard 6 cards in this way, this attack does nothing.",
+      },
+      {
+        name: "Whip Smash",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "18",
+    artist: "Anesaki Dynamic",
+    rarity: "Rare",
+    flavorText:
+      "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.",
+    nationalPokedexNumbers: [1019],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/18.png",
+      large: "https://images.pokemontcg.io/sv10/18_hires.png",
     },
   },
   {
@@ -46057,7 +49999,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "71",
+    artist: "Haru Akasaka",
     rarity: "Common",
+    flavorText:
+      "They live in groups, pestering and playing pranks on each other to polish their troublemaking skills.",
     nationalPokedexNumbers: [859],
     legalities: {
       unlimited: "Legal",
@@ -46523,6 +50468,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "53",
+    artist: "5ban Graphics",
     rarity: "Double Rare",
     nationalPokedexNumbers: [939],
     legalities: {
@@ -46586,7 +50532,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "48",
+    artist: "GOTO minori",
     rarity: "Uncommon",
+    flavorText:
+      "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
     nationalPokedexNumbers: [101],
     legalities: {
       unlimited: "Legal",
@@ -46657,7 +50606,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "55",
+    artist: "chibi",
     rarity: "Rare",
+    flavorText:
+      "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
     nationalPokedexNumbers: [941],
     legalities: {
       unlimited: "Legal",
@@ -46714,7 +50666,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "52",
+    artist: "kurumitsu",
     rarity: "Common",
+    flavorText:
+      "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
     nationalPokedexNumbers: [938],
     legalities: {
       unlimited: "Legal",
@@ -46772,7 +50727,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "47",
+    artist: "Kazumasa Yasukuni",
     rarity: "Common",
+    flavorText:
+      "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
     nationalPokedexNumbers: [100],
     legalities: {
       unlimited: "Legal",
@@ -46835,7 +50793,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "54",
+    artist: "Akira Komayama",
     rarity: "Common",
+    flavorText:
+      "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     nationalPokedexNumbers: [940],
     legalities: {
       unlimited: "Legal",
@@ -49646,6 +53607,139 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-151",
+    name: "Kangaskhan",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Dizzy Punch",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90×",
+        text: "Flip 2 coins. This attack does 90 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "151",
+    artist: "Sanosuke Sakuma",
+    rarity: "Common",
+    flavorText:
+      "There are records of a lost human child being raised by a childless Kangaskhan.",
+    nationalPokedexNumbers: [115],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/151.png",
+      large: "https://images.pokemontcg.io/sv10/151_hires.png",
+    },
+  },
+  {
+    id: "svp-202",
+    name: "Kangaskhan",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Call for Family",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Mega Punch",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "202",
+    artist: "Uta",
+    rarity: "Promo",
+    flavorText:
+      "Although it's carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+    nationalPokedexNumbers: [115],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/202.png",
+      large: "https://images.pokemontcg.io/svp/202_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-115",
     name: "Kangaskhan ex",
     supertype: "Pokémon",
@@ -49757,7 +53851,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "9",
+    artist: "Yuka Morii",
     rarity: "Common",
+    flavorText:
+      "It spits a liquid from its mouth to melt through Shelmet's shell. Karrablast doesn't eat the shell— it eats only the contents.",
     nationalPokedexNumbers: [588],
     legalities: {
       unlimited: "Legal",
@@ -49878,7 +53975,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "122",
+    artist: "0313",
     rarity: "Common",
+    flavorText:
+      "It changes its hue to blend into its surroundings. If no one takes notice of it for too long, it will pout and never reveal itself.",
     nationalPokedexNumbers: [352],
     legalities: {
       unlimited: "Legal",
@@ -50566,8 +54666,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -51119,7 +55219,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "90",
+    artist: "Shinya Komatsu",
     rarity: "Uncommon",
+    flavorText:
+      "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     nationalPokedexNumbers: [950],
     legalities: {
       unlimited: "Legal",
@@ -51589,7 +55692,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "91",
+    artist: "Rond",
     rarity: "Common",
+    flavorText:
+      "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
     nationalPokedexNumbers: [109],
     legalities: {
       unlimited: "Legal",
@@ -51646,7 +55752,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "129",
+    artist: "Natsumi Yoshida",
     rarity: "Common",
+    flavorText:
+      "Komala spends its entire life sleeping. It feeds on leaves that contain a potent poison only Komala can break down.",
     nationalPokedexNumbers: [775],
     legalities: {
       unlimited: "Legal",
@@ -52106,6 +56215,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "svp-197",
+    name: "Koraidon ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Fighting"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Claw Slash",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Revenge Buster",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "197",
+    artist: "PLANETA Tsuji",
+    rarity: "Promo",
+    nationalPokedexNumbers: [1007],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/197.png",
+      large: "https://images.pokemontcg.io/svp/197_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-98",
     name: "Krabby",
     supertype: "Pokémon",
@@ -52304,6 +56480,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv1/117.png",
       large: "https://images.pokemontcg.io/sv1/117_hires.png",
+    },
+  },
+  {
+    id: "svp-178",
+    name: "Kyogre ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Water"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Winding Waves",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "You may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Tidal Surge",
+        cost: ["Water", "Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "230",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "178",
+    artist: "takuyoa",
+    rarity: "Promo",
+    nationalPokedexNumbers: [382],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/178.png",
+      large: "https://images.pokemontcg.io/svp/178_hires.png",
     },
   },
   {
@@ -53279,7 +57522,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "28",
+    artist: "Kyoko Umemoto",
     rarity: "Common",
+    flavorText:
+      "In ancient times, Larvesta was worshiped as the emissary of the sun. However, it was also viewed as a burden since it often caused forest fires.",
     nationalPokedexNumbers: [636],
     legalities: {
       unlimited: "Legal",
@@ -53521,7 +57767,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "80",
+    artist: "Dsuke",
     rarity: "Common",
+    flavorText:
+      "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
     nationalPokedexNumbers: [246],
     legalities: {
       unlimited: "Legal",
@@ -53648,8 +57897,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -54511,7 +58760,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "139",
+    artist: "OKACHEKE",
     rarity: "Common",
+    flavorText:
+      "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
     nationalPokedexNumbers: [915],
     legalities: {
       unlimited: "Legal",
@@ -55022,6 +59274,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "56",
+    artist: "5ban Graphics",
     rarity: "Double Rare",
     nationalPokedexNumbers: [35],
     legalities: {
@@ -55086,7 +59339,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "68",
+    artist: "Narumi Sato",
     rarity: "Common",
+    flavorText:
+      "It uses its vine to pick flowers. The flowers that Comfey attaches to itself develop healing properties.",
     nationalPokedexNumbers: [764],
     legalities: {
       unlimited: "Legal",
@@ -55142,7 +59398,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "66",
+    artist: "Saya Tsuruta",
     rarity: "Common",
+    flavorText:
+      "When it senses the auras of people or Pokémon who are having fun, it will draw close and give them a painful poke with its long proboscis.",
     nationalPokedexNumbers: [742],
     legalities: {
       unlimited: "Legal",
@@ -55205,7 +59464,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "67",
+    artist: "mashu",
     rarity: "Rare",
+    flavorText:
+      "Ribombee can sense when people or Pokémon are feeling down, and it will cheer them up with handmade pollen puffs.",
     nationalPokedexNumbers: [743],
     legalities: {
       unlimited: "Legal",
@@ -55270,7 +59532,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "7",
+    artist: "Jiro Sasumo",
     rarity: "Common",
+    flavorText:
+      "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
     nationalPokedexNumbers: [549],
     legalities: {
       unlimited: "Legal",
@@ -55966,7 +60231,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "100",
+    artist: "AKIRA EGAWA",
     rarity: "Uncommon",
+    flavorText:
+      "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can't stay in this mode for long.",
     nationalPokedexNumbers: [920],
     legalities: {
       unlimited: "Legal",
@@ -56025,7 +60293,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "36",
+    artist: "Mousho",
     rarity: "Common",
+    flavorText:
+      "Old folklore in Kitakami tells of a mischievous child who was reborn as a Pokémon.",
     nationalPokedexNumbers: [271],
     legalities: {
       unlimited: "Legal",
@@ -56141,7 +60412,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "35",
+    artist: "Ayako Ozaki",
     rarity: "Common",
+    flavorText:
+      "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pokémon that are covered in mud.",
     nationalPokedexNumbers: [270],
     legalities: {
       unlimited: "Legal",
@@ -56328,8 +60602,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -56546,7 +60820,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "37",
+    artist: "Jerky",
     rarity: "Rare",
+    flavorText:
+      "There are structures throughout its whole body that produce energy when hit by sound waves with a cheerful rhythm.",
     nationalPokedexNumbers: [272],
     legalities: {
       unlimited: "Legal",
@@ -56760,6 +61037,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3/92.png",
       large: "https://images.pokemontcg.io/sv3/92_hires.png",
+    },
+  },
+  {
+    id: "sv10-14",
+    name: "Lurantis",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Fomantis",
+    attacks: [
+      {
+        name: "Razor Leaf",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Petal Blade Dance",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "130",
+        text: "Discard 2 Basic Grass Energy cards from your hand. If you can't discard 2 cards in this way, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "14",
+    artist: "Masako Tomii",
+    rarity: "Uncommon",
+    flavorText:
+      "By masquerading as a bug Pokémon, it lowers the guard of actual bug Pokémon lured in by a scent of sweet flowers. Its sickles bring them down.",
+    nationalPokedexNumbers: [754],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/14.png",
+      large: "https://images.pokemontcg.io/sv10/14_hires.png",
     },
   },
   {
@@ -57273,7 +61618,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "85",
+    artist: "Shiburingaru",
     rarity: "Rare",
+    flavorText:
+      "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts.",
     nationalPokedexNumbers: [745],
     legalities: {
       unlimited: "Legal",
@@ -57527,8 +61875,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -58006,7 +62354,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "107",
+    artist: "rika",
     rarity: "Rare",
+    flavorText:
+      "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form.",
     nationalPokedexNumbers: [801],
     legalities: {
       unlimited: "Legal",
@@ -58376,7 +62727,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "20",
+    artist: "Naoyo Kimura",
     rarity: "Common",
+    flavorText:
+      "Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,200 degrees Fahrenheit.",
     nationalPokedexNumbers: [126],
     legalities: {
       unlimited: "Legal",
@@ -58508,7 +62862,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "21",
+    artist: "Tonji Matsuno",
     rarity: "Rare",
+    flavorText:
+      "When shooting 3,600 degree Fahrenheit fireballs from its arms, its body takes on a whitish hue from the intense heat.",
     nationalPokedexNumbers: [467],
     legalities: {
       unlimited: "Legal",
@@ -59562,6 +63919,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "79",
+    artist: "Nisota Niso",
     rarity: "Double Rare",
     nationalPokedexNumbers: [473],
     legalities: {
@@ -59573,6 +63931,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/79.png",
       large: "https://images.pokemontcg.io/sv9/79_hires.png",
+    },
+  },
+  {
+    id: "sv10-76",
+    name: "Manectric",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    evolvesFrom: "Electrike",
+    attacks: [
+      {
+        name: "Zap Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Flash Impact",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "This attack also does 40 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "76",
+    artist: "Izucch",
+    rarity: "Uncommon",
+    flavorText:
+      "It rarely appears before people. It is said to nest where lightning has fallen.",
+    nationalPokedexNumbers: [310],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/76.png",
+      large: "https://images.pokemontcg.io/sv10/76_hires.png",
     },
   },
   {
@@ -59819,6 +64245,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-90",
+    name: "Mankey",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Primeape"],
+    attacks: [
+      {
+        name: "Wild Kick",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "90",
+    artist: "Ayako Ozaki",
+    rarity: "Common",
+    flavorText:
+      "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+    nationalPokedexNumbers: [56],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/90.png",
+      large: "https://images.pokemontcg.io/sv10/90_hires.png",
+    },
+  },
+  {
     id: "sv8-40",
     name: "Mantine",
     supertype: "Pokémon",
@@ -60057,7 +64544,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "8",
+    artist: "Dsuke",
     rarity: "Uncommon",
+    flavorText:
+      "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
     nationalPokedexNumbers: [556],
     legalities: {
       unlimited: "Legal",
@@ -60172,8 +64662,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -60443,6 +64933,514 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/73.png",
       large: "https://images.pokemontcg.io/sv8/73_hires.png",
+    },
+  },
+  {
+    id: "sv10-136",
+    name: "Marnie's Grimmsnarl ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Ability"],
+    hp: "320",
+    types: ["Darkness"],
+    evolvesFrom: "Marnie's Morgrem",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Punk Up",
+        text: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 5 Basic Darkness Energy cards and attach them to your Marnie's Pokémon in any way you like. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Shadow Bullet",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "180",
+        text: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "136",
+    artist: "PLANETA Mochizuki",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [861],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/136.png",
+      large: "https://images.pokemontcg.io/sv10/136_hires.png",
+    },
+  },
+  {
+    id: "sv10-134",
+    name: "Marnie's Impidimp",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Morgrem"],
+    attacks: [
+      {
+        name: "Filch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Corkscrew Punch",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "134",
+    artist: "KEIICHIRO ITO",
+    rarity: "Common",
+    flavorText:
+      "The reason this Pokémon causes trouble for those it feels close to is because Impidimp itself gets irritable if it can't absorb negative emotions.",
+    nationalPokedexNumbers: [859],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/134.png",
+      large: "https://images.pokemontcg.io/sv10/134_hires.png",
+    },
+  },
+  {
+    id: "sv10-131",
+    name: "Marnie's Liepard",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Marnie's Purrloin",
+    attacks: [
+      {
+        name: "Pointy Claws",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "70+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "131",
+    artist: "Hasuno",
+    rarity: "Uncommon",
+    flavorText:
+      "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+    nationalPokedexNumbers: [510],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/131.png",
+      large: "https://images.pokemontcg.io/sv10/131_hires.png",
+    },
+  },
+  {
+    id: "sv10-135",
+    name: "Marnie's Morgrem",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Marnie's Impidimp",
+    evolvesTo: ["Grimmsnarl"],
+    attacks: [
+      {
+        name: "Corkscrew Punch",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "135",
+    artist: "NC Empire",
+    rarity: "Uncommon",
+    flavorText:
+      "Morgrem prefers dirty tactics, like ambushing, because it doesn't have confidence in its brawn.",
+    nationalPokedexNumbers: [860],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/135.png",
+      large: "https://images.pokemontcg.io/sv10/135_hires.png",
+    },
+  },
+  {
+    id: "sv10-137",
+    name: "Marnie's Morpeko",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Spiky Wheel",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "20+",
+        text: "This attack does 40 more damage for each Darkness Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "137",
+    artist: "Mina Nakai",
+    rarity: "Common",
+    flavorText:
+      "Morpeko eats seeds constantly to keep its hunger at bay. If it's hungry for too long, it grows wild and brutish.",
+    nationalPokedexNumbers: [877],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/137.png",
+      large: "https://images.pokemontcg.io/sv10/137_hires.png",
+    },
+  },
+  {
+    id: "sv10-130",
+    name: "Marnie's Purrloin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Liepard"],
+    attacks: [
+      {
+        name: "Pointy Nails",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 40 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "130",
+    artist: "REND",
+    rarity: "Common",
+    flavorText:
+      "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+    nationalPokedexNumbers: [509],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/130.png",
+      large: "https://images.pokemontcg.io/sv10/130_hires.png",
+    },
+  },
+  {
+    id: "sv10-133",
+    name: "Marnie's Scrafty",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Marnie's Scraggy",
+    attacks: [
+      {
+        name: "Rear Kick",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Wild Tackle",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "133",
+    artist: "Kazumasa Yasukuni",
+    rarity: "Uncommon",
+    flavorText:
+      "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+    nationalPokedexNumbers: [560],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/133.png",
+      large: "https://images.pokemontcg.io/sv10/133_hires.png",
+    },
+  },
+  {
+    id: "sv10-132",
+    name: "Marnie's Scraggy",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Scrafty"],
+    attacks: [
+      {
+        name: "Crunch",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "Discard an Energy from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "132",
+    artist: "Teeziro",
+    rarity: "Common",
+    flavorText:
+      "It stretches its saggy skin up to its neck to protect itself. Among Scraggy, individuals with saggier skin apparently garner more respect.",
+    nationalPokedexNumbers: [559],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/132.png",
+      large: "https://images.pokemontcg.io/sv10/132_hires.png",
     },
   },
   {
@@ -61624,6 +66622,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-100",
+    name: "Medicham",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Fighting"],
+    evolvesFrom: "Meditite",
+    attacks: [
+      {
+        name: "Harmonious Spirit Palm",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "50+",
+        text: "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "100",
+    artist: "Whisker",
+    rarity: "Uncommon",
+    flavorText:
+      "Through yoga training, it gained the psychic power to predict its foe's next move.",
+    nationalPokedexNumbers: [308],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/100.png",
+      large: "https://images.pokemontcg.io/sv10/100_hires.png",
+    },
+  },
+  {
     id: "sv7-80",
     name: "Medicham ex",
     supertype: "Pokémon",
@@ -61939,6 +66998,67 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv7/78.png",
       large: "https://images.pokemontcg.io/sv7/78_hires.png",
+    },
+  },
+  {
+    id: "sv10-99",
+    name: "Meditite",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Medicham"],
+    attacks: [
+      {
+        name: "Steady Punch",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "99",
+    artist: "MINAMINAMI Take",
+    rarity: "Common",
+    flavorText:
+      "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+    nationalPokedexNumbers: [307],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/99.png",
+      large: "https://images.pokemontcg.io/sv10/99_hires.png",
     },
   },
   {
@@ -62621,7 +67741,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "18",
+    artist: "kodama",
     rarity: "Rare",
+    flavorText:
+      "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
     nationalPokedexNumbers: [908],
     legalities: {
       unlimited: "Legal",
@@ -63100,7 +68223,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "63",
+    artist: "Mitsuhiro Arita",
     rarity: "Rare",
+    flavorText:
+      "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer.",
     nationalPokedexNumbers: [376],
     legalities: {
       unlimited: "Legal",
@@ -63247,7 +68373,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "62",
+    artist: "Oswaldo KATO",
     rarity: "Common",
+    flavorText:
+      "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
     nationalPokedexNumbers: [375],
     legalities: {
       unlimited: "Legal",
@@ -63374,7 +68503,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "2",
+    artist: "OKUBO",
     rarity: "Common",
+    flavorText:
+      "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
     nationalPokedexNumbers: [11],
     legalities: {
       unlimited: "Legal",
@@ -64150,7 +69282,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "74",
+    artist: "Shibuzoh.",
     rarity: "Common",
+    flavorText:
+      "When attacked, it tackles its foe and covers them in cream. With its foe either blinded or astonished by deliciousness, Milcery flees.",
     nationalPokedexNumbers: [868],
     legalities: {
       unlimited: "Legal",
@@ -64656,8 +69791,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -64746,6 +69881,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "69",
+    artist: "PLANETA Igarashi",
     rarity: "Double Rare",
     nationalPokedexNumbers: [778],
     legalities: {
@@ -64872,7 +70008,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "125",
+    artist: "Oswaldo KATO",
     rarity: "Common",
+    flavorText:
+      "These Pokémon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
     nationalPokedexNumbers: [572],
     legalities: {
       unlimited: "Legal",
@@ -65179,8 +70318,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -65608,6 +70747,399 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-49",
+    name: "Misty's Gyarados",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "180",
+    types: ["Water"],
+    evolvesFrom: "Misty's Magikarp",
+    attacks: [
+      {
+        name: "Splashing Panic",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "70×",
+        text: "Discard the top 7 cards of your deck, and this attack does 70 damage for each Misty's Pokémon that you discarded in this way.",
+      },
+      {
+        name: "Waterfall",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "49",
+    artist: "GOSSAN",
+    rarity: "Rare",
+    flavorText:
+      "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+    nationalPokedexNumbers: [130],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/49.png",
+      large: "https://images.pokemontcg.io/sv10/49_hires.png",
+    },
+  },
+  {
+    id: "sv10-50",
+    name: "Misty's Lapras",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Swim Together",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Misty's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Surf",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "50",
+    artist: "En Morikura",
+    rarity: "Common",
+    flavorText:
+      "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+    nationalPokedexNumbers: [131],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/50.png",
+      large: "https://images.pokemontcg.io/sv10/50_hires.png",
+    },
+  },
+  {
+    id: "sv10-48",
+    name: "Misty's Magikarp",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "30",
+    types: ["Water"],
+    evolvesTo: ["Gyarados"],
+    abilities: [
+      {
+        name: "So Submerged",
+        text: "As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent's Pokémon done to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Splash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "48",
+    artist: "Shimaris Yukichi",
+    rarity: "Common",
+    flavorText:
+      "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+    nationalPokedexNumbers: [129],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/48.png",
+      large: "https://images.pokemontcg.io/sv10/48_hires.png",
+    },
+  },
+  {
+    id: "sv10-45",
+    name: "Misty's Psyduck",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Golduck"],
+    abilities: [
+      {
+        name: "Flustered Leap",
+        text: "Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Sprinkle Water",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "45",
+    artist: "Yuu Nishida",
+    rarity: "Uncommon",
+    flavorText:
+      "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+    nationalPokedexNumbers: [54],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/45.png",
+      large: "https://images.pokemontcg.io/sv10/45_hires.png",
+    },
+  },
+  {
+    id: "sv10-47",
+    name: "Misty's Starmie",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Water"],
+    evolvesFrom: "Misty's Staryu",
+    attacks: [
+      {
+        name: "Abrupt Flash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "60+",
+        text: "If this Pokémon evolved from Misty's Staryu during this turn, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "47",
+    artist: "Natsumi Yoshida",
+    rarity: "Uncommon",
+    flavorText:
+      "Starmie swims by spinning its body at high speed. As this Pokémon cruises through the ocean, it absorbs tiny plankton.",
+    nationalPokedexNumbers: [121],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/47.png",
+      large: "https://images.pokemontcg.io/sv10/47_hires.png",
+    },
+  },
+  {
+    id: "sv10-46",
+    name: "Misty's Staryu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Starmie"],
+    attacks: [
+      {
+        name: "Bubble Beam",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "46",
+    artist: "Shinya Komatsu",
+    rarity: "Common",
+    flavorText:
+      "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+    nationalPokedexNumbers: [120],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/46.png",
+      large: "https://images.pokemontcg.io/sv10/46_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-146",
     name: "Moltres",
     supertype: "Pokémon",
@@ -65925,7 +71457,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "72",
+    artist: "Lee HyunJung",
     rarity: "Common",
+    flavorText:
+      "This Pokémon absorbs negative emotions and turns them into energy. It's popular with people who tend to think gloomy thoughts.",
     nationalPokedexNumbers: [860],
     legalities: {
       unlimited: "Legal",
@@ -66126,6 +71661,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv7/8.png",
       large: "https://images.pokemontcg.io/sv7/8_hires.png",
+    },
+  },
+  {
+    id: "sv10-9",
+    name: "Mow Rotom",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Trimming Mower",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Discard a Stadium in play.",
+      },
+      {
+        name: "Gadget Show",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "9",
+    artist: "Rianti Hidayat",
+    rarity: "Common",
+    flavorText:
+      "The lawn mower is one of the household appliances that led to the development of the Rotom Dex.",
+    nationalPokedexNumbers: [479],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/9.png",
+      large: "https://images.pokemontcg.io/sv10/9_hires.png",
     },
   },
   {
@@ -66330,7 +71932,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "58",
+    artist: "GOTO minori",
     rarity: "Common",
+    flavorText:
+      "It's known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
     nationalPokedexNumbers: [122],
     legalities: {
       unlimited: "Legal",
@@ -66412,6 +72017,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-107",
+    name: "Mudbray",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Fighting"],
+    evolvesTo: ["Mudsdale"],
+    attacks: [
+      {
+        name: "Running Charge",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40×",
+        text: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "107",
+    artist: "Aliya Chen",
+    rarity: "Common",
+    flavorText:
+      "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time.",
+    nationalPokedexNumbers: [749],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/107.png",
+      large: "https://images.pokemontcg.io/sv10/107_hires.png",
+    },
+  },
+  {
     id: "sv5-92",
     name: "Mudsdale",
     supertype: "Pokémon",
@@ -66477,6 +72143,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv5/92.png",
       large: "https://images.pokemontcg.io/sv5/92_hires.png",
+    },
+  },
+  {
+    id: "sv10-108",
+    name: "Mudsdale",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "150",
+    types: ["Fighting"],
+    evolvesFrom: "Mudbray",
+    abilities: [
+      {
+        name: "Mud Coat",
+        text: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Heavy Impact",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "108",
+    artist: "Uta",
+    rarity: "Uncommon",
+    flavorText:
+      "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery.",
+    nationalPokedexNumbers: [750],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/108.png",
+      large: "https://images.pokemontcg.io/sv10/108_hires.png",
     },
   },
   {
@@ -66875,7 +72609,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "27",
+    artist: "nagimiso",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon's power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
     nationalPokedexNumbers: [555],
     legalities: {
       unlimited: "Legal",
@@ -66940,7 +72677,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "26",
+    artist: "Gemi",
     rarity: "Common",
+    flavorText:
+      "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
     nationalPokedexNumbers: [554],
     legalities: {
       unlimited: "Legal",
@@ -66998,7 +72738,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "49",
+    artist: "Iori Suzuki",
     rarity: "Common",
+    flavorText:
+      "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
     nationalPokedexNumbers: [595],
     legalities: {
       unlimited: "Legal",
@@ -67070,7 +72813,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "104",
+    artist: "KEIICHIRO ITO",
     rarity: "Common",
+    flavorText:
+      "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
     nationalPokedexNumbers: [600],
     legalities: {
       unlimited: "Legal",
@@ -67134,7 +72880,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "103",
+    artist: "Saboteri",
     rarity: "Common",
+    flavorText:
+      "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
     nationalPokedexNumbers: [599],
     legalities: {
       unlimited: "Legal",
@@ -67205,7 +72954,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "105",
+    artist: "matazo",
     rarity: "Uncommon",
+    flavorText:
+      "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
     nationalPokedexNumbers: [601],
     legalities: {
       unlimited: "Legal",
@@ -67263,7 +73015,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "96",
+    artist: "Keisin",
     rarity: "Common",
+    flavorText:
+      "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
     nationalPokedexNumbers: [509],
     legalities: {
       unlimited: "Legal",
@@ -67321,7 +73076,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "116",
+    artist: "rika",
     rarity: "Rare",
+    flavorText:
+      "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
     nationalPokedexNumbers: [643],
     legalities: {
       unlimited: "Legal",
@@ -67391,7 +73149,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "64",
+    artist: "Shiburingaru",
     rarity: "Common",
+    flavorText:
+      "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands.",
     nationalPokedexNumbers: [561],
     legalities: {
       unlimited: "Legal",
@@ -67459,6 +73220,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "98",
+    artist: "takuyoa",
     rarity: "Double Rare",
     nationalPokedexNumbers: [571],
     legalities: {
@@ -67517,7 +73279,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "97",
+    artist: "Jiro Sasumo",
     rarity: "Common",
+    flavorText:
+      "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
     nationalPokedexNumbers: [570],
     legalities: {
       unlimited: "Legal",
@@ -68976,7 +74741,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "127",
+    artist: "Tomokazu Komiya",
     rarity: "Common",
+    flavorText:
+      "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
     nationalPokedexNumbers: [714],
     legalities: {
       unlimited: "Legal",
@@ -69045,7 +74813,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "128",
+    artist: "Anesaki Dynamic",
     rarity: "Rare",
+    flavorText:
+      "Ultrasonic waves emitted by a Noivern can pulverize a large boulder. This Pokémon has a cruel disposition.",
     nationalPokedexNumbers: [715],
     legalities: {
       unlimited: "Legal",
@@ -69318,6 +75089,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv6/101.png",
       large: "https://images.pokemontcg.io/sv6/101_hires.png",
+    },
+  },
+  {
+    id: "sv10-97",
+    name: "Nosepass",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Fighting"],
+    evolvesTo: ["Probopass"],
+    attacks: [
+      {
+        name: "Headbutt",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Rock Throw",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "97",
+    artist: "Oku",
+    rarity: "Common",
+    flavorText:
+      "The magnet in Nosepass's nose provides an unerring compass, making this Pokémon an excellent partner for Trainers going on a journey.",
+    nationalPokedexNumbers: [299],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/97.png",
+      large: "https://images.pokemontcg.io/sv10/97_hires.png",
     },
   },
   {
@@ -69858,7 +75697,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "19",
+    artist: "Ayako Ozaki",
     rarity: "Common",
+    flavorText:
+      "It's highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents.",
     nationalPokedexNumbers: [919],
     legalities: {
       unlimited: "Legal",
@@ -69990,7 +75832,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "34",
+    artist: "Toshinao Aoki",
     rarity: "Uncommon",
+    flavorText:
+      "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
     nationalPokedexNumbers: [224],
     legalities: {
       unlimited: "Legal",
@@ -70165,8 +76010,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -70450,7 +76295,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "140",
+    artist: "Mina Nakai",
     rarity: "Uncommon",
+    flavorText:
+      "This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.",
     nationalPokedexNumbers: [916],
     legalities: {
       unlimited: "Legal",
@@ -71453,7 +77301,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "65",
+    artist: "aspara",
     rarity: "Common",
+    flavorText:
+      "This form of Oricorio has sipped purple nectar. It uses ethereal dance steps to call forth the spirits of the dead.",
     nationalPokedexNumbers: [741],
     legalities: {
       unlimited: "Legal",
@@ -71784,8 +77635,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -72342,6 +78193,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "94",
+    artist: "PLANETA Tsuji",
     rarity: "Double Rare",
     nationalPokedexNumbers: [980],
     legalities: {
@@ -73033,8 +78885,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -73110,7 +78962,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "93",
+    artist: "Lee HyunJung",
     rarity: "Common",
+    flavorText:
+      "It's dangerous for Wooper to travel alone. They line up in groups of three or four and help each other as they walk around the wetlands.",
     nationalPokedexNumbers: [194],
     legalities: {
       unlimited: "Legal",
@@ -73640,7 +79495,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "83",
+    artist: "Yuriko Akase",
     rarity: "Common",
+    flavorText:
+      "Wanting to make sure it's taken seriously, Pancham's always giving others a glare. But if it's not focusing, it ends up smiling.",
     nationalPokedexNumbers: [674],
     legalities: {
       unlimited: "Legal",
@@ -73770,7 +79628,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "99",
+    artist: "nagimiso",
     rarity: "Uncommon",
+    flavorText:
+      "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
     nationalPokedexNumbers: [675],
     legalities: {
       unlimited: "Legal",
@@ -74154,7 +80015,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "4",
+    artist: "Ayako Ozaki",
     rarity: "Common",
+    flavorText:
+      "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
     nationalPokedexNumbers: [46],
     legalities: {
       unlimited: "Legal",
@@ -74286,7 +80150,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "5",
+    artist: "Tetsu Kayama",
     rarity: "Common",
+    flavorText:
+      "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
     nationalPokedexNumbers: [47],
     legalities: {
       unlimited: "Legal",
@@ -74627,8 +80494,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -75209,8 +81076,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -75274,8 +81141,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -75503,7 +81370,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "39",
+    artist: "Nelnal",
     rarity: "Uncommon",
+    flavorText:
+      "It protects its young in its beak. It bobs on waves, resting on them on days when the waters are calm.",
     nationalPokedexNumbers: [279],
     legalities: {
       unlimited: "Legal",
@@ -75693,7 +81563,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "6",
+    artist: "Shibuzoh.",
     rarity: "Common",
+    flavorText:
+      "If the leaves on its head are pruned with regularity, this Pokémon can be grown into a fine plump shape.",
     nationalPokedexNumbers: [548],
     legalities: {
       unlimited: "Legal",
@@ -76602,8 +82475,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -76729,8 +82602,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -76919,8 +82792,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -77114,8 +82987,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -77199,7 +83072,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "78",
+    artist: "Aliya Chen",
     rarity: "Common",
+    flavorText:
+      "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
     nationalPokedexNumbers: [221],
     legalities: {
       unlimited: "Legal",
@@ -77514,6 +83390,67 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv5/2.png",
       large: "https://images.pokemontcg.io/sv5/2_hires.png",
+    },
+  },
+  {
+    id: "sv10-4",
+    name: "Pineco",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Forretress"],
+    attacks: [
+      {
+        name: "Hang Down",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "4",
+    artist: "YASHIRO Nanaco",
+    rarity: "Common",
+    flavorText:
+      "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    nationalPokedexNumbers: [204],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/4.png",
+      large: "https://images.pokemontcg.io/sv10/4_hires.png",
     },
   },
   {
@@ -78564,6 +84501,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-29",
+    name: "Ponyta",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Rapidash"],
+    attacks: [
+      {
+        name: "Double Headbutt",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Flip 2 coins. This attack does 10 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "29",
+    artist: "Ayako Ozaki",
+    rarity: "Common",
+    flavorText:
+      "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
+    nationalPokedexNumbers: [77],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/29.png",
+      large: "https://images.pokemontcg.io/sv10/29_hires.png",
+    },
+  },
+  {
     id: "sv5-105",
     name: "Poochyena",
     supertype: "Pokémon",
@@ -79200,6 +85198,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-91",
+    name: "Primeape",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "110",
+    types: ["Fighting"],
+    evolvesFrom: "Mankey",
+    attacks: [
+      {
+        name: "Drag Off",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "91",
+    artist: "GOTO minori",
+    rarity: "Common",
+    flavorText:
+      "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+    nationalPokedexNumbers: [57],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/91.png",
+      large: "https://images.pokemontcg.io/sv10/91_hires.png",
+    },
+  },
+  {
     id: "sv3-146",
     name: "Probopass",
     supertype: "Pokémon",
@@ -79338,6 +85397,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv6/102.png",
       large: "https://images.pokemontcg.io/sv6/102_hires.png",
+    },
+  },
+  {
+    id: "sv10-98",
+    name: "Probopass",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "140",
+    types: ["Fighting"],
+    evolvesFrom: "Nosepass",
+    attacks: [
+      {
+        name: "Power Gem",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Mountain Drop",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70+",
+        text: "If a Stadium is in play, this attack does 70 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "98",
+    artist: "sowsow",
+    rarity: "Uncommon",
+    flavorText:
+      "It controls three units called Mini-Noses using magnetic force. With them, it can attack a foe from three directions.",
+    nationalPokedexNumbers: [476],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/98.png",
+      large: "https://images.pokemontcg.io/sv10/98_hires.png",
     },
   },
   {
@@ -79720,7 +85847,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "81",
+    artist: "Scav",
     rarity: "Common",
+    flavorText:
+      "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
     nationalPokedexNumbers: [247],
     legalities: {
       unlimited: "Legal",
@@ -80026,8 +86156,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -80294,8 +86424,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -80418,8 +86548,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -81090,6 +87220,75 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-25",
+    name: "Rabsca ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "250",
+    types: ["Grass"],
+    evolvesFrom: "Rellor",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Upside-Down Draw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw 3 cards from the bottom of your deck.",
+      },
+      {
+        name: "Psychic",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "20+",
+        text: "This attack does 90 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "25",
+    artist: "N-DESIGN Inc.",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [954],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/25.png",
+      large: "https://images.pokemontcg.io/sv10/25_hires.png",
+    },
+  },
+  {
     id: "sv7-111",
     name: "Raging Bolt",
     supertype: "Pokémon",
@@ -81666,6 +87865,74 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-30",
+    name: "Rapidash",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "110",
+    types: ["Fire"],
+    evolvesFrom: "Ponyta",
+    abilities: [
+      {
+        name: "Hurried Gait",
+        text: "Once during your turn, you may draw a card.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Fire Mane",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "30",
+    artist: "SIE NANAHARA",
+    rarity: "Uncommon",
+    flavorText:
+      "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
+    nationalPokedexNumbers: [78],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/30.png",
+      large: "https://images.pokemontcg.io/sv10/30_hires.png",
+    },
+  },
+  {
     id: "sv3pt5-20",
     name: "Raticate",
     supertype: "Pokémon",
@@ -81834,7 +88101,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "42",
+    artist: "Takumi Wada",
     rarity: "Uncommon",
+    flavorText:
+      "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
     nationalPokedexNumbers: [378],
     legalities: {
       unlimited: "Legal",
@@ -81955,7 +88225,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "82",
+    artist: "Uta",
     rarity: "Rare",
+    flavorText:
+      "Cutting-edge technology was used to study the internals of this Pokémon's rock body, but nothing was found—not even a brain or a heart.",
     nationalPokedexNumbers: [377],
     legalities: {
       unlimited: "Legal",
@@ -81966,6 +88239,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/82.png",
       large: "https://images.pokemontcg.io/sv9/82_hires.png",
+    },
+  },
+  {
+    id: "sv10-101",
+    name: "Regirock ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Fighting"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Regi Charge",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Attach up to 2 Basic Fighting Energy cards from your discard pile to this Pokémon.",
+      },
+      {
+        name: "Giant Rock",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "140+",
+        text: "If your opponent's Active Pokémon is a Stage 2 Pokémon, this attack does 140 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "101",
+    artist: "Nisota Niso",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [377],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/101.png",
+      large: "https://images.pokemontcg.io/sv10/101_hires.png",
     },
   },
   {
@@ -82452,7 +88793,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "33",
+    artist: "Minahamu",
     rarity: "Common",
+    flavorText:
+      "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
     nationalPokedexNumbers: [223],
     legalities: {
       unlimited: "Legal",
@@ -82576,6 +88920,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "30",
+    artist: "PLANETA Mochizuki",
     rarity: "Double Rare",
     nationalPokedexNumbers: [643],
     legalities: {
@@ -82852,8 +89197,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -84156,7 +90501,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "84",
+    artist: "Yoshimi Miyoshi",
     rarity: "Common",
+    flavorText:
+      "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
     nationalPokedexNumbers: [744],
     legalities: {
       unlimited: "Legal",
@@ -84628,6 +90976,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-77",
+    name: "Rotom",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Astonish",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+      },
+      {
+        name: "Gadget Show",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "77",
+    artist: "Yoshimi Miyoshi",
+    rarity: "Common",
+    flavorText:
+      "Its electricity-like body can enter some kinds of machines and take control in order to make mischief.",
+    nationalPokedexNumbers: [479],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/77.png",
+      large: "https://images.pokemontcg.io/sv10/77_hires.png",
+    },
+  },
+  {
     id: "sv3-13",
     name: "Rowlet",
     supertype: "Pokémon",
@@ -84998,6 +91413,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "114",
+    artist: "toriyufu",
     rarity: "Double Rare",
     nationalPokedexNumbers: [373],
     legalities: {
@@ -86820,6 +93236,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "svp-188",
+    name: "Scrafty",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Scraggy",
+    attacks: [
+      {
+        name: "Nab 'n' Dash",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a number of cards up to the number of your Benched Pokémon and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "High Jump Kick",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "188",
+    artist: "OKUBO",
+    rarity: "Promo",
+    flavorText:
+      "As halfhearted as this Pokémon's kicks may seem, they pack enough power to shatter Conkeldurr's concrete pillars.",
+    nationalPokedexNumbers: [560],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/188.png",
+      large: "https://images.pokemontcg.io/svp/188_hires.png",
+    },
+  },
+  {
     id: "sv4pt5-60",
     name: "Scraggy",
     supertype: "Pokémon",
@@ -86884,6 +93367,66 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4pt5/60.png",
       large: "https://images.pokemontcg.io/sv4pt5/60_hires.png",
+    },
+  },
+  {
+    id: "svp-186",
+    name: "Scraggy",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Scrafty"],
+    attacks: [
+      {
+        name: "Kick Shot",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "186",
+    artist: "OKUBO",
+    rarity: "Promo",
+    flavorText:
+      "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon.",
+    nationalPokedexNumbers: [559],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/186.png",
+      large: "https://images.pokemontcg.io/svp/186_hires.png",
     },
   },
   {
@@ -87999,7 +94542,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "118",
+    artist: "Taiga Kayama",
     rarity: "Common",
+    flavorText:
+      "This Pokémon is extremely cautious. Its supple tail is well muscled and firm to the touch.",
     nationalPokedexNumbers: [161],
     legalities: {
       unlimited: "Legal",
@@ -88408,6 +94954,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-10",
+    name: "Shaymin",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "80",
+    types: ["Grass"],
+    abilities: [
+      {
+        name: "Flower Curtain",
+        text: "Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Smash Kick",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "10",
+    artist: "tono",
+    rarity: "Uncommon",
+    flavorText:
+      "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+    nationalPokedexNumbers: [492],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/10.png",
+      large: "https://images.pokemontcg.io/sv10/10_hires.png",
+    },
+  },
+  {
     id: "sv9-113",
     name: "Shelgon",
     supertype: "Pokémon",
@@ -88454,7 +95067,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "113",
+    artist: "Julie Hang",
     rarity: "Common",
+    flavorText:
+      "The cells within its shell transform with explosive speed, preparing it for evolution.",
     nationalPokedexNumbers: [372],
     legalities: {
       unlimited: "Legal",
@@ -88630,7 +95246,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "12",
+    artist: "Toshinao Aoki",
     rarity: "Common",
+    flavorText:
+      "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason.",
     nationalPokedexNumbers: [616],
     legalities: {
       unlimited: "Legal",
@@ -89129,8 +95748,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -89346,6 +95965,67 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-5",
+    name: "Shroomish",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Breloom"],
+    attacks: [
+      {
+        name: "Rolling Tackle",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "5",
+    artist: "IKEDA Saki",
+    rarity: "Common",
+    flavorText:
+      "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+    nationalPokedexNumbers: [285],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/5.png",
+      large: "https://images.pokemontcg.io/sv10/5_hires.png",
+    },
+  },
+  {
     id: "sv3-5",
     name: "Shuckle",
     supertype: "Pokémon",
@@ -89527,7 +96207,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "59",
+    artist: "miki kudo",
     rarity: "Common",
+    flavorText:
+      "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
     nationalPokedexNumbers: [353],
     legalities: {
       unlimited: "Legal",
@@ -90464,6 +97147,79 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-141",
+    name: "Skarmory",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Roost",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 50 damage from this Pokémon. During your next turn, this Pokémon can't retreat.",
+      },
+      {
+        name: "Metal Claw",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "141",
+    artist: "Shin Nagasawa",
+    rarity: "Common",
+    flavorText:
+      "Its sturdy, heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+    nationalPokedexNumbers: [227],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/141.png",
+      large: "https://images.pokemontcg.io/sv10/141_hires.png",
+    },
+  },
+  {
     id: "sv1-38",
     name: "Skeledirge",
     supertype: "Pokémon",
@@ -91124,7 +97880,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "131",
+    artist: "sowsow",
     rarity: "Common",
+    flavorText:
+      "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
     nationalPokedexNumbers: [819],
     legalities: {
       unlimited: "Legal",
@@ -92578,6 +99337,66 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-21",
+    name: "Smoliv",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "21",
+    artist: "Yuka Morii",
+    rarity: "Common",
+    flavorText:
+      "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+    nationalPokedexNumbers: [928],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/21.png",
+      large: "https://images.pokemontcg.io/sv10/21_hires.png",
+    },
+  },
+  {
     id: "sv8-75",
     name: "Smoochum",
     supertype: "Pokémon",
@@ -93041,8 +99860,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -93382,6 +100201,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv2/10.png",
       large: "https://images.pokemontcg.io/sv2/10_hires.png",
+    },
+  },
+  {
+    id: "sv10-59",
+    name: "Snover",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "90",
+    types: ["Water"],
+    evolvesTo: ["Abomasnow"],
+    attacks: [
+      {
+        name: "Light Punch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Icicle",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "59",
+    artist: "Tomokazu Komiya",
+    rarity: "Common",
+    flavorText:
+      "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+    nationalPokedexNumbers: [459],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/59.png",
+      large: "https://images.pokemontcg.io/sv10/59_hires.png",
     },
   },
   {
@@ -93890,8 +100777,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -94491,8 +101378,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -94692,7 +101579,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "16",
+    artist: "Mina Nakai",
     rarity: "Common",
+    flavorText:
+      "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
     nationalPokedexNumbers: [906],
     legalities: {
       unlimited: "Legal",
@@ -94743,8 +101633,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -94960,7 +101850,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "141",
+    artist: "sowsow",
     rarity: "Common",
+    flavorText:
+      "Green-feathered flocks hold the most sway. When they're out searching for food in the mornings and evenings, it gets very noisy.",
     nationalPokedexNumbers: [931],
     legalities: {
       unlimited: "Legal",
@@ -94971,6 +101864,72 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/141.png",
       large: "https://images.pokemontcg.io/sv9/141_hires.png",
+    },
+  },
+  {
+    id: "sv10-160",
+    name: "Squawkabilly",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Push Down",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "You may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "160",
+    artist: "Julie Hang",
+    rarity: "Common",
+    flavorText:
+      "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+    nationalPokedexNumbers: [931],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/160.png",
+      large: "https://images.pokemontcg.io/sv10/160_hires.png",
     },
   },
   {
@@ -95141,8 +102100,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -95718,6 +102677,504 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/9.png",
       large: "https://images.pokemontcg.io/sv4/9_hires.png",
+    },
+  },
+  {
+    id: "sv10-83",
+    name: "Steven's Baltoy",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Psychic"],
+    evolvesTo: ["Claydol"],
+    attacks: [
+      {
+        name: "Summoning Sign",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Steven's Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Psychic Sphere",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "83",
+    artist: "Tonji Matsuno",
+    rarity: "Common",
+    flavorText:
+      "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+    nationalPokedexNumbers: [343],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/83.png",
+      large: "https://images.pokemontcg.io/sv10/83_hires.png",
+    },
+  },
+  {
+    id: "sv10-143",
+    name: "Steven's Beldum",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Metal"],
+    evolvesTo: ["Metang"],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "143",
+    artist: "Takeshi Nakamura",
+    rarity: "Common",
+    flavorText:
+      "The magnetic force generated by its body repels the ground's natural magnetism, letting it float.",
+    nationalPokedexNumbers: [374],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/143.png",
+      large: "https://images.pokemontcg.io/sv10/143_hires.png",
+    },
+  },
+  {
+    id: "sv10-86",
+    name: "Steven's Carbink",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "80",
+    types: ["Psychic"],
+    abilities: [
+      {
+        name: "Stone Palace",
+        text: "As long as this Pokémon is on your Bench, all of your Steven's Pokémon take 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). The effect of Stone Palace doesn't stack.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Magical Shot",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "86",
+    artist: "Ligton",
+    rarity: "Common",
+    flavorText:
+      "It has slept underground for hundreds of millions of years since its birth. It's occasionally found during the excavation of caves.",
+    nationalPokedexNumbers: [703],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/86.png",
+      large: "https://images.pokemontcg.io/sv10/86_hires.png",
+    },
+  },
+  {
+    id: "sv10-84",
+    name: "Steven's Claydol",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Psychic"],
+    evolvesFrom: "Steven's Baltoy",
+    attacks: [
+      {
+        name: "Eerie Light",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+      {
+        name: "Clay Blast",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "220",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "84",
+    artist: "nagimiso",
+    rarity: "Uncommon",
+    flavorText:
+      "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+    nationalPokedexNumbers: [344],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/84.png",
+      large: "https://images.pokemontcg.io/sv10/84_hires.png",
+    },
+  },
+  {
+    id: "sv10-145",
+    name: "Steven's Metagross ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Ability"],
+    hp: "340",
+    types: ["Metal"],
+    evolvesFrom: "Steven's Metang",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "X-Boot",
+        text: "Once during your turn, you may search your deck for a Basic Psychic Energy card, a Basic Metal Energy card, or 1 of each and attach them to your Psychic Pokémon and Metal Pokémon in any way you like. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Metal Stomp",
+        cost: ["Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "145",
+    artist: "PLANETA Mochizuki",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [376],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/145.png",
+      large: "https://images.pokemontcg.io/sv10/145_hires.png",
+    },
+  },
+  {
+    id: "sv10-144",
+    name: "Steven's Metang",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Metal"],
+    evolvesFrom: "Steven's Beldum",
+    evolvesTo: ["Metagross"],
+    attacks: [
+      {
+        name: "Metal Slash",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "144",
+    artist: "Anesaki Dynamic",
+    rarity: "Uncommon",
+    flavorText:
+      "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
+    nationalPokedexNumbers: [375],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/144.png",
+      large: "https://images.pokemontcg.io/sv10/144_hires.png",
+    },
+  },
+  {
+    id: "sv10-142",
+    name: "Steven's Skarmory",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Razor Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Sonic Double",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "142",
+    artist: "Nisota Niso",
+    rarity: "Common",
+    flavorText:
+      "Its sturdy, heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+    nationalPokedexNumbers: [227],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/142.png",
+      large: "https://images.pokemontcg.io/sv10/142_hires.png",
     },
   },
   {
@@ -96763,6 +104220,78 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-157",
+    name: "Swellow",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Free Retreat"],
+    hp: "100",
+    types: ["Colorless"],
+    evolvesFrom: "Taillow",
+    attacks: [
+      {
+        name: "Add On",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw 3 cards.",
+      },
+      {
+        name: "Speed Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "157",
+    artist: "Souichirou Gunjima",
+    rarity: "Common",
+    flavorText:
+      "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+    nationalPokedexNumbers: [277],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/157.png",
+      large: "https://images.pokemontcg.io/sv10/157_hires.png",
+    },
+  },
+  {
     id: "sv9-77",
     name: "Swinub",
     supertype: "Pokémon",
@@ -96814,7 +104343,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "77",
+    artist: "REND",
     rarity: "Common",
+    flavorText:
+      "It searches for food by digging into the ground with its snout. Even frozen ground doesn't give it any trouble.",
     nationalPokedexNumbers: [220],
     legalities: {
       unlimited: "Legal",
@@ -97537,6 +105069,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv6/73.png",
       large: "https://images.pokemontcg.io/sv6/73_hires.png",
+    },
+  },
+  {
+    id: "sv10-156",
+    name: "Taillow",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Swellow"],
+    attacks: [
+      {
+        name: "Wing Attack",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "156",
+    artist: "Ayako Ozaki",
+    rarity: "Common",
+    flavorText:
+      "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
+    nationalPokedexNumbers: [276],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/156.png",
+      large: "https://images.pokemontcg.io/sv10/156_hires.png",
     },
   },
   {
@@ -98525,6 +106124,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "51",
+    artist: "PLANETA Igarashi",
     rarity: "Double Rare",
     nationalPokedexNumbers: [785],
     legalities: {
@@ -99277,6 +106877,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "sv10-152",
+    name: "Tauros",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Horn Attack",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Clean Hit",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50+",
+        text: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "152",
+    artist: "yuu",
+    rarity: "Common",
+    flavorText:
+      "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+    nationalPokedexNumbers: [128],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/152.png",
+      large: "https://images.pokemontcg.io/sv10/152_hires.png",
+    },
+  },
+  {
     id: "sv6-24",
     name: "Teal Mask Ogerpon",
     supertype: "Pokémon",
@@ -99340,6 +107007,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv6/24.png",
       large: "https://images.pokemontcg.io/sv6/24_hires.png",
+    },
+  },
+  {
+    id: "sv10-26",
+    name: "Teal Mask Ogerpon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Grass Kagura",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Ogre's Hammer",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "During your next turn, this Pokémon can't use Ogre's Hammer.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "26",
+    artist: "Tomomi Ozaki",
+    rarity: "Uncommon",
+    flavorText:
+      "This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.",
+    nationalPokedexNumbers: [1017],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/26.png",
+      large: "https://images.pokemontcg.io/sv10/26_hires.png",
     },
   },
   {
@@ -99409,6 +107143,3106 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv6/25.png",
       large: "https://images.pokemontcg.io/sv6/25_hires.png",
+    },
+  },
+  {
+    id: "sv10-74",
+    name: "Team Rocket's Ampharos",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "140",
+    types: ["Lightning"],
+    evolvesFrom: "Team Rocket's Flaaffy",
+    abilities: [
+      {
+        name: "Darkest Impulse",
+        text: "Whenever your opponent plays a Pokémon from their hand to evolve 1 of their Pokémon, put 4 damage counters on that Pokémon. The effect of Darkest Impulse doesn't stack.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Head Bolt",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "74",
+    artist: "Shiburingaru",
+    rarity: "Uncommon",
+    flavorText:
+      "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+    nationalPokedexNumbers: [181],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/74.png",
+      large: "https://images.pokemontcg.io/sv10/74_hires.png",
+    },
+  },
+  {
+    id: "sv10-113",
+    name: "Team Rocket's Arbok",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Ekans",
+    abilities: [
+      {
+        name: "Potent Glare",
+        text: "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon that has an Ability from their hand, except for Team Rocket's Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Spinning Tail",
+        cost: ["Darkness", "Darkness", "Darkness"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "113",
+    artist: "Teeziro",
+    rarity: "Uncommon",
+    flavorText:
+      "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+    nationalPokedexNumbers: [24],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/113.png",
+      large: "https://images.pokemontcg.io/sv10/113_hires.png",
+    },
+  },
+  {
+    id: "sv10-51",
+    name: "Team Rocket's Articuno",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "120",
+    types: ["Water"],
+    abilities: [
+      {
+        name: "Repelling Veil",
+        text: "Prevent all effects of attacks used by your opponent's Pokémon done to your Basic Team Rocket's Pokémon. (Existing effects are not removed. Damage is not an effect.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dark Frost",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60+",
+        text: "If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "51",
+    artist: "Mitsuhiro Arita",
+    rarity: "Rare",
+    flavorText:
+      "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
+    nationalPokedexNumbers: [144],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/51.png",
+      large: "https://images.pokemontcg.io/sv10/51_hires.png",
+    },
+  },
+  {
+    id: "sv10-15",
+    name: "Team Rocket's Blipbug",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Dottler"],
+    attacks: [
+      {
+        name: "Searching Eyes",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at 1 of your opponent's face-down Prize cards.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "15",
+    artist: "buchi",
+    rarity: "Common",
+    flavorText:
+      "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+    nationalPokedexNumbers: [824],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/15.png",
+      large: "https://images.pokemontcg.io/sv10/15_hires.png",
+    },
+  },
+  {
+    id: "sv10-85",
+    name: "Team Rocket's Chingling",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "30",
+    types: ["Psychic"],
+    evolvesTo: ["Chimecho"],
+    attacks: [
+      {
+        name: "Chiming Commotion",
+        cost: [],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard a random card from your opponent's hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "85",
+    artist: "Mina Nakai",
+    rarity: "Common",
+    flavorText:
+      "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
+    nationalPokedexNumbers: [433],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/85.png",
+      large: "https://images.pokemontcg.io/sv10/85_hires.png",
+    },
+  },
+  {
+    id: "sv10-122",
+    name: "Team Rocket's Crobat ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex", "Ability"],
+    hp: "310",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Golbat",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Biting Spree",
+        text: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent's Pokémon and put 2 damage counters on each of them.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Assassin's Return",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "You may put this Pokémon into your hand. (Discard all cards attached to this Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "122",
+    artist: "5ban Graphics",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [169],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/122.png",
+      large: "https://images.pokemontcg.io/sv10/122_hires.png",
+    },
+  },
+  {
+    id: "sv10-88",
+    name: "Team Rocket's Dottler",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "80",
+    types: ["Psychic"],
+    evolvesFrom: "Team Rocket's Blipbug",
+    evolvesTo: ["Orbeetle"],
+    attacks: [
+      {
+        name: "Disruptive Radar",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at the top 5 cards of your opponent's deck and put them back in any order.",
+      },
+      {
+        name: "Super Psy Bolt",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "88",
+    artist: "Scav",
+    rarity: "Common",
+    flavorText:
+      "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+    nationalPokedexNumbers: [825],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/88.png",
+      large: "https://images.pokemontcg.io/sv10/88_hires.png",
+    },
+  },
+  {
+    id: "sv10-79",
+    name: "Team Rocket's Drowzee",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Psychic"],
+    evolvesTo: ["Hypno"],
+    attacks: [
+      {
+        name: "Hypnotic Ray",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Your opponent's Active Pokémon is now Asleep.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "79",
+    artist: "matazo",
+    rarity: "Common",
+    flavorText:
+      "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
+    nationalPokedexNumbers: [96],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/79.png",
+      large: "https://images.pokemontcg.io/sv10/79_hires.png",
+    },
+  },
+  {
+    id: "sv10-112",
+    name: "Team Rocket's Ekans",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Arbok"],
+    attacks: [
+      {
+        name: "Drag Down",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Gnaw",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "112",
+    artist: "KEIICHIRO ITO",
+    rarity: "Common",
+    flavorText:
+      "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however.",
+    nationalPokedexNumbers: [23],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/112.png",
+      large: "https://images.pokemontcg.io/sv10/112_hires.png",
+    },
+  },
+  {
+    id: "sv10-73",
+    name: "Team Rocket's Flaaffy",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesFrom: "Team Rocket's Mareep",
+    evolvesTo: ["Ampharos"],
+    attacks: [
+      {
+        name: "Thunder Shock",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "73",
+    artist: "Jerky",
+    rarity: "Common",
+    flavorText:
+      "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    nationalPokedexNumbers: [180],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/73.png",
+      large: "https://images.pokemontcg.io/sv10/73_hires.png",
+    },
+  },
+  {
+    id: "sv10-121",
+    name: "Team Rocket's Golbat",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Zubat",
+    evolvesTo: ["Crobat"],
+    abilities: [
+      {
+        name: "Sneaky Bite",
+        text: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Confuse Ray",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "121",
+    artist: "AKIRA EGAWA",
+    rarity: "Uncommon",
+    flavorText:
+      "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
+    nationalPokedexNumbers: [42],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/121.png",
+      large: "https://images.pokemontcg.io/sv10/121_hires.png",
+    },
+  },
+  {
+    id: "sv10-123",
+    name: "Team Rocket's Grimer",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesTo: ["Muk"],
+    attacks: [
+      {
+        name: "Corrosive Sludge",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "At the end of your opponent's next turn, discard the Defending Pokémon and all attached cards.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "123",
+    artist: "Mousho",
+    rarity: "Common",
+    flavorText:
+      "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+    nationalPokedexNumbers: [88],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/123.png",
+      large: "https://images.pokemontcg.io/sv10/123_hires.png",
+    },
+  },
+  {
+    id: "sv10-38",
+    name: "Team Rocket's Houndoom",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Fire"],
+    evolvesFrom: "Team Rocket's Houndour",
+    attacks: [
+      {
+        name: "Cruel Coal",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned and Confused.",
+      },
+      {
+        name: "Scorching Fire",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "38",
+    artist: "Anesaki Dynamic",
+    rarity: "Uncommon",
+    flavorText:
+      "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    nationalPokedexNumbers: [229],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/38.png",
+      large: "https://images.pokemontcg.io/sv10/38_hires.png",
+    },
+  },
+  {
+    id: "sv10-37",
+    name: "Team Rocket's Houndour",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Houndoom"],
+    attacks: [
+      {
+        name: "Steady Firebreathing",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "37",
+    artist: "Krgc",
+    rarity: "Common",
+    flavorText:
+      "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+    nationalPokedexNumbers: [228],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/37.png",
+      large: "https://images.pokemontcg.io/sv10/37_hires.png",
+    },
+  },
+  {
+    id: "sv10-80",
+    name: "Team Rocket's Hypno",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Team Rocket's Drowzee",
+    attacks: [
+      {
+        name: "Psyshot",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Bench Manipulation",
+        cost: ["Psychic", "Psychic", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "80×",
+        text: "Your opponent flips a coin for each of their Benched Pokémon. This attack does 80 damage to your opponent's Active Pokémon for each tails. This attack's damage isn't affected by Weakness or Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "80",
+    artist: "Yuya Oka",
+    rarity: "Uncommon",
+    flavorText:
+      "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+    nationalPokedexNumbers: [97],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/80.png",
+      large: "https://images.pokemontcg.io/sv10/80_hires.png",
+    },
+  },
+  {
+    id: "sv10-125",
+    name: "Team Rocket's Koffing",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Ability"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Weezing"],
+    abilities: [
+      {
+        name: "Smog Signals",
+        text: 'If this Pokémon is in the Active Spot and is damaged by an attack from your opponent\'s Pokémon (even if this Pokémon is Knocked Out), search your deck for up to 2 Pokémon that have "Koffing" in their name and put them onto your Bench. Then, shuffle your deck.',
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Leaking Gas",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "125",
+    artist: "kodama",
+    rarity: "Common",
+    flavorText:
+      "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
+    nationalPokedexNumbers: [109],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/125.png",
+      large: "https://images.pokemontcg.io/sv10/125_hires.png",
+    },
+  },
+  {
+    id: "sv10-94",
+    name: "Team Rocket's Larvitar",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Pupitar"],
+    attacks: [
+      {
+        name: "Mountain Munch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Discard the top card of your opponent's deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "94",
+    artist: "Kuroimori",
+    rarity: "Common",
+    flavorText:
+      "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+    nationalPokedexNumbers: [246],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/94.png",
+      large: "https://images.pokemontcg.io/sv10/94_hires.png",
+    },
+  },
+  {
+    id: "sv10-72",
+    name: "Team Rocket's Mareep",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Lightning"],
+    evolvesTo: ["Flaaffy"],
+    attacks: [
+      {
+        name: "Procurement",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Tiny Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "72",
+    artist: "Teeziro",
+    rarity: "Common",
+    flavorText:
+      "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+    nationalPokedexNumbers: [179],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/72.png",
+      large: "https://images.pokemontcg.io/sv10/72_hires.png",
+    },
+  },
+  {
+    id: "sv10-149",
+    name: "Team Rocket's Meowth",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesTo: ["Persian"],
+    attacks: [
+      {
+        name: "Paw-cket Pilfer",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+      },
+      {
+        name: "Fury Swipes",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20×",
+        text: "Flip 3 coins. This attack does 20 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "149",
+    artist: "Megumi Mizutani",
+    rarity: "Common",
+    flavorText:
+      "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+    nationalPokedexNumbers: [52],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/149.png",
+      large: "https://images.pokemontcg.io/sv10/149_hires.png",
+    },
+  },
+  {
+    id: "sv10-81",
+    name: "Team Rocket's Mewtwo ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex", "Ability"],
+    hp: "280",
+    types: ["Psychic"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Power Saver",
+        text: "This Pokémon can't attack unless you have 4 or more Team Rocket's Pokémon in play.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Erasure Ball",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160+",
+        text: "You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "81",
+    artist: "aky CG Works",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [150],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/81.png",
+      large: "https://images.pokemontcg.io/sv10/81_hires.png",
+    },
+  },
+  {
+    id: "sv10-87",
+    name: "Team Rocket's Mimikyu",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer", "Free Retreat"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Gemstone Mimicry",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Choose 1 of your opponent's Active Tera Pokémon's attacks and use it as this attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "87",
+    artist: "DOM",
+    rarity: "Uncommon",
+    flavorText:
+      "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+    nationalPokedexNumbers: [778],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/87.png",
+      large: "https://images.pokemontcg.io/sv10/87_hires.png",
+    },
+  },
+  {
+    id: "sv10-31",
+    name: "Team Rocket's Moltres ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "220",
+    types: ["Fire"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Flame Screen",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Evil Incineration",
+        cost: ["Fire", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "",
+        text: "Discard a Team Rocket's Energy from this Pokémon. If you do, discard your opponent's Active Pokémon and all attached cards.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "31",
+    artist: "5ban Graphics",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [146],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/31.png",
+      large: "https://images.pokemontcg.io/sv10/31_hires.png",
+    },
+  },
+  {
+    id: "sv10-124",
+    name: "Team Rocket's Muk",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "150",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Grimer",
+    attacks: [
+      {
+        name: "Gooped Up",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.",
+      },
+      {
+        name: "Hazardous Venom",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100×",
+        text: "This attack does 100 damage for each Special Condition affecting your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "124",
+    artist: "Uta",
+    rarity: "Uncommon",
+    flavorText:
+      "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+    nationalPokedexNumbers: [89],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/124.png",
+      large: "https://images.pokemontcg.io/sv10/124_hires.png",
+    },
+  },
+  {
+    id: "sv10-127",
+    name: "Team Rocket's Murkrow",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesTo: ["Honchkrow"],
+    attacks: [
+      {
+        name: "Deceit",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Torment",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "127",
+    artist: "Mugi Hamada",
+    rarity: "Uncommon",
+    flavorText:
+      "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    nationalPokedexNumbers: [198],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/127.png",
+      large: "https://images.pokemontcg.io/sv10/127_hires.png",
+    },
+  },
+  {
+    id: "sv10-119",
+    name: "Team Rocket's Nidoking ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "330",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Nidorino",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Tainted Horn",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.",
+      },
+      {
+        name: "Kingly Impact",
+        cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "240",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "119",
+    artist: "5ban Graphics",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [34],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/119.png",
+      large: "https://images.pokemontcg.io/sv10/119_hires.png",
+    },
+  },
+  {
+    id: "sv10-116",
+    name: "Team Rocket's Nidoqueen",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer"],
+    hp: "170",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Nidorina",
+    attacks: [
+      {
+        name: "Love Impact",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "60+",
+        text: 'If a Pokémon that has "Nidoking" in its name is on your Bench, this attack does 120 more damage.',
+      },
+      {
+        name: "Mega Kick",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "130",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "116",
+    artist: "hncl",
+    rarity: "Uncommon",
+    flavorText:
+      "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
+    nationalPokedexNumbers: [31],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/116.png",
+      large: "https://images.pokemontcg.io/sv10/116_hires.png",
+    },
+  },
+  {
+    id: "sv10-114",
+    name: "Team Rocket's Nidoran♀",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Nidorina"],
+    attacks: [
+      {
+        name: "Surprise Attack",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "114",
+    artist: "REND",
+    rarity: "Common",
+    flavorText:
+      "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
+    nationalPokedexNumbers: [29],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/114.png",
+      large: "https://images.pokemontcg.io/sv10/114_hires.png",
+    },
+  },
+  {
+    id: "sv10-117",
+    name: "Team Rocket's Nidoran♂",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Nidorino"],
+    attacks: [
+      {
+        name: "Pierce",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Hammer In",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "117",
+    artist: "buchi",
+    rarity: "Common",
+    flavorText:
+      "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
+    nationalPokedexNumbers: [32],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/117.png",
+      large: "https://images.pokemontcg.io/sv10/117_hires.png",
+    },
+  },
+  {
+    id: "sv10-115",
+    name: "Team Rocket's Nidorina",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Nidoran♀",
+    evolvesTo: ["Nidoqueen"],
+    attacks: [
+      {
+        name: "Dark Awakening",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Choose up to 2 of your Darkness Pokémon. For each of those Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
+      },
+      {
+        name: "Scratch",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "115",
+    artist: "Taiga Kasai",
+    rarity: "Common",
+    flavorText:
+      "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
+    nationalPokedexNumbers: [30],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/115.png",
+      large: "https://images.pokemontcg.io/sv10/115_hires.png",
+    },
+  },
+  {
+    id: "sv10-118",
+    name: "Team Rocket's Nidorino",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Nidoran♂",
+    evolvesTo: ["Nidoking"],
+    attacks: [
+      {
+        name: "Hammer In",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Horn Rend",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60+",
+        text: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "118",
+    artist: "KEIICHIRO ITO",
+    rarity: "Common",
+    flavorText:
+      "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+    nationalPokedexNumbers: [33],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/118.png",
+      large: "https://images.pokemontcg.io/sv10/118_hires.png",
+    },
+  },
+  {
+    id: "sv10-89",
+    name: "Team Rocket's Orbeetle",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Team Rocket's Dottler",
+    abilities: [
+      {
+        name: "Rocket Brain",
+        text: "As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket's Pokémon to another of your Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Psychic",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40+",
+        text: "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "89",
+    artist: "Shin Nagasawa",
+    rarity: "Uncommon",
+    flavorText:
+      "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away.",
+    nationalPokedexNumbers: [826],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/89.png",
+      large: "https://images.pokemontcg.io/sv10/89_hires.png",
+    },
+  },
+  {
+    id: "sv10-150",
+    name: "Team Rocket's Persian ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "260",
+    types: ["Colorless"],
+    evolvesFrom: "Team Rocket's Meowth",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Haughty Order",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Reveal the top 10 cards of your opponent's deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent's deck.",
+      },
+      {
+        name: "Cruel Slash",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "150",
+    artist: "5ban Graphics",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [53],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/150.png",
+      large: "https://images.pokemontcg.io/sv10/150_hires.png",
+    },
+  },
+  {
+    id: "sv10-153",
+    name: "Team Rocket's Porygon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Porygon2"],
+    attacks: [
+      {
+        name: "Hacking",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard a card from your hand. If you do, your opponent discards a card from their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "153",
+    artist: "Oswaldo KATO",
+    rarity: "Common",
+    flavorText:
+      "It is an artificial Pokémon. Since it doesn't breathe, people are excited by its potential to be useful in any environment.",
+    nationalPokedexNumbers: [137],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/153.png",
+      large: "https://images.pokemontcg.io/sv10/153_hires.png",
+    },
+  },
+  {
+    id: "sv10-155",
+    name: "Team Rocket's Porygon-Z",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "140",
+    types: ["Colorless"],
+    evolvesFrom: "Team Rocket's Porygon2",
+    abilities: [
+      {
+        name: "Reconstitute",
+        text: "You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "R Command",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20×",
+        text: 'This attack does 20 damage for each Supporter card that has "Team Rocket" in its name in your discard pile.',
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "155",
+    artist: "Anesaki Dynamic",
+    rarity: "Uncommon",
+    flavorText:
+      "An additional program was installed to create a more advanced Pokémon, but it was apparently flawed. Porygon-Z moves oddly as a result.",
+    nationalPokedexNumbers: [474],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/155.png",
+      large: "https://images.pokemontcg.io/sv10/155_hires.png",
+    },
+  },
+  {
+    id: "sv10-154",
+    name: "Team Rocket's Porygon2",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Colorless"],
+    evolvesFrom: "Team Rocket's Porygon",
+    evolvesTo: ["Porygon-Z"],
+    attacks: [
+      {
+        name: "R Command",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "20×",
+        text: 'This attack does 20 damage for each Supporter card that has "Team Rocket" in its name in your discard pile.',
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "154",
+    artist: "Takeshi Nakamura",
+    rarity: "Common",
+    flavorText:
+      "This artificial Pokémon evolved thanks to cutting- edge science. It sometimes displays behavior that is not in its programming.",
+    nationalPokedexNumbers: [233],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/154.png",
+      large: "https://images.pokemontcg.io/sv10/154_hires.png",
+    },
+  },
+  {
+    id: "sv10-95",
+    name: "Team Rocket's Pupitar",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "100",
+    types: ["Fighting"],
+    evolvesFrom: "Team Rocket's Larvitar",
+    evolvesTo: ["Tyranitar"],
+    attacks: [
+      {
+        name: "Explosive Ascension",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "95",
+    artist: "Izucch",
+    rarity: "Common",
+    flavorText:
+      "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+    nationalPokedexNumbers: [247],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/95.png",
+      large: "https://images.pokemontcg.io/sv10/95_hires.png",
+    },
+  },
+  {
+    id: "sv10-148",
+    name: "Team Rocket's Raticate",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "90",
+    types: ["Colorless"],
+    evolvesFrom: "Team Rocket's Rattata",
+    attacks: [
+      {
+        name: "Reckless Abandon",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "90",
+        text: "Flip 2 coins. If both of them are tails, this Pokémon also does 90 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "148",
+    artist: "Uninori",
+    rarity: "Common",
+    flavorText:
+      "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+    nationalPokedexNumbers: [20],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/148.png",
+      large: "https://images.pokemontcg.io/sv10/148_hires.png",
+    },
+  },
+  {
+    id: "sv10-147",
+    name: "Team Rocket's Rattata",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Colorless"],
+    evolvesTo: ["Raticate"],
+    attacks: [
+      {
+        name: "Dangerous Incisors",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "147",
+    artist: "Dsuke",
+    rarity: "Common",
+    flavorText:
+      "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+    nationalPokedexNumbers: [19],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/147.png",
+      large: "https://images.pokemontcg.io/sv10/147_hires.png",
+    },
+  },
+  {
+    id: "sv10-128",
+    name: "Team Rocket's Sneasel",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesTo: ["Weavile"],
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Strike the Sleeper",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "This attack does 20 damage to 1 of your opponent's Benched Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "128",
+    artist: "GIDORA",
+    rarity: "Rare",
+    flavorText:
+      "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+    nationalPokedexNumbers: [215],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/128.png",
+      large: "https://images.pokemontcg.io/sv10/128_hires.png",
+    },
+  },
+  {
+    id: "sv10-20",
+    name: "Team Rocket's Spidops",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer", "Ability"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Team Rocket's Tarountula",
+    abilities: [
+      {
+        name: "Charging Up",
+        text: "Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Rocket Rush",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your Team Rocket's Pokémon in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "20",
+    artist: "Taiga Kasai",
+    rarity: "Rare",
+    flavorText:
+      "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    nationalPokedexNumbers: [918],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/20.png",
+      large: "https://images.pokemontcg.io/sv10/20_hires.png",
+    },
+  },
+  {
+    id: "sv10-19",
+    name: "Team Rocket's Tarountula",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Take Down",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "19",
+    artist: "Saboteri",
+    rarity: "Common",
+    flavorText:
+      "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
+    nationalPokedexNumbers: [917],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/19.png",
+      large: "https://images.pokemontcg.io/sv10/19_hires.png",
+    },
+  },
+  {
+    id: "sv10-96",
+    name: "Team Rocket's Tyranitar",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "1 Prizer", "Ability"],
+    hp: "180",
+    types: ["Fighting"],
+    evolvesFrom: "Team Rocket's Pupitar",
+    abilities: [
+      {
+        name: "Sand Stream",
+        text: "During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent's Basic Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Demolition Tackle",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "180",
+        text: "Discard an Energy from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "96",
+    artist: "Ryuta Fuse",
+    rarity: "Rare",
+    flavorText:
+      "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+    nationalPokedexNumbers: [248],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/96.png",
+      large: "https://images.pokemontcg.io/sv10/96_hires.png",
+    },
+  },
+  {
+    id: "sv10-126",
+    name: "Team Rocket's Weezing",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Darkness"],
+    evolvesFrom: "Team Rocket's Koffing",
+    attacks: [
+      {
+        name: "Explode Together Now",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40×",
+        text: 'This attack does 40 damage for each Pokémon in play that has "Koffing" or "Weezing" in its name (both yours and your opponent\'s).',
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "126",
+    artist: "matazo",
+    rarity: "Uncommon",
+    flavorText:
+      "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
+    nationalPokedexNumbers: [110],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/126.png",
+      large: "https://images.pokemontcg.io/sv10/126_hires.png",
+    },
+  },
+  {
+    id: "sv10-82",
+    name: "Team Rocket's Wobbuffet",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Rocket Mirror",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Move all damage counters from 1 of your Benched Team Rocket's Pokémon to your opponent's Active Pokémon.",
+      },
+      {
+        name: "Headbutt Bounce",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "82",
+    artist: "Kazumasa Yasukuni",
+    rarity: "Rare",
+    flavorText:
+      "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+    nationalPokedexNumbers: [202],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/82.png",
+      large: "https://images.pokemontcg.io/sv10/82_hires.png",
+    },
+  },
+  {
+    id: "sv10-70",
+    name: "Team Rocket's Zapdos",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Jamming Wing",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+      },
+      {
+        name: "Wicked Thunder",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60+",
+        text: "If this Pokémon has any Team Rocket's Energy attached, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "70",
+    artist: "Nurikabe",
+    rarity: "Rare",
+    flavorText:
+      "Zapdos is a legendary bird Pokémon. It's said that when Zapdos rubs its feathers together, lightning will fall immediately after.",
+    nationalPokedexNumbers: [145],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/70.png",
+      large: "https://images.pokemontcg.io/sv10/70_hires.png",
+    },
+  },
+  {
+    id: "sv10-120",
+    name: "Team Rocket's Zubat",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "50",
+    types: ["Darkness"],
+    evolvesTo: ["Golbat"],
+    attacks: [
+      {
+        name: "Poison Spray",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "120",
+    artist: "toi8",
+    rarity: "Common",
+    flavorText:
+      "Zubat live in caves, down where the sun's light won't reach. In the morning, they gather together to keep each other warm as they sleep.",
+    nationalPokedexNumbers: [41],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/120.png",
+      large: "https://images.pokemontcg.io/sv10/120_hires.png",
     },
   },
   {
@@ -100358,8 +111192,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -100685,8 +111519,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -101470,7 +112304,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "88",
+    artist: "osare",
     rarity: "Common",
+    flavorText:
+      "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
     nationalPokedexNumbers: [948],
     legalities: {
       unlimited: "Legal",
@@ -101801,7 +112638,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "89",
+    artist: "Masako Tomii",
     rarity: "Uncommon",
+    flavorText:
+      "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
     nationalPokedexNumbers: [949],
     legalities: {
       unlimited: "Legal",
@@ -102055,7 +112895,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "50",
+    artist: "Susumu Maeya",
     rarity: "Common",
+    flavorText:
+      "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
     nationalPokedexNumbers: [777],
     legalities: {
       unlimited: "Legal",
@@ -102495,7 +113338,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "22",
+    artist: "OKACHEKE",
     rarity: "Common",
+    flavorText:
+      "In its belly, it has a sac filled with burning fire, meaning that Torchic feels as warm as a hot-water bottle if you hug it.",
     nationalPokedexNumbers: [255],
     legalities: {
       unlimited: "Legal",
@@ -102506,6 +113352,74 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/22.png",
       large: "https://images.pokemontcg.io/sv9/22_hires.png",
+    },
+  },
+  {
+    id: "sv10-40",
+    name: "Torchic",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Combusken"],
+    attacks: [
+      {
+        name: "Collect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Combustion",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "40",
+    artist: "Tika Matsuno",
+    rarity: "Common",
+    flavorText:
+      "Torchic feels toasty warm if you hug it. It has a flame sac inside its belly, and the flames burn continuously as long as Torchic has life in it.",
+    nationalPokedexNumbers: [255],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/40.png",
+      large: "https://images.pokemontcg.io/sv10/40_hires.png",
     },
   },
   {
@@ -102692,7 +113606,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "25",
+    artist: "kodama",
     rarity: "Common",
+    flavorText:
+      "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
     nationalPokedexNumbers: [324],
     legalities: {
       unlimited: "Legal",
@@ -104020,7 +114937,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "123",
+    artist: "Atsuya Uki",
     rarity: "Common",
+    flavorText:
+      "Delicious fruits grew out from around its neck because it always ate the same kind of fruit.",
     nationalPokedexNumbers: [357],
     legalities: {
       unlimited: "Legal",
@@ -104739,7 +115659,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "95",
+    artist: "AKIRA EGAWA",
     rarity: "Rare",
+    flavorText:
+      "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
     nationalPokedexNumbers: [248],
     legalities: {
       unlimited: "Legal",
@@ -106274,6 +117197,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "43",
+    artist: "5ban Graphics",
     rarity: "Double Rare",
     nationalPokedexNumbers: [976],
     legalities: {
@@ -107407,7 +118331,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "15",
+    artist: "Anesaki Dynamic",
     rarity: "Uncommon",
+    flavorText:
+      "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
     nationalPokedexNumbers: [640],
     legalities: {
       unlimited: "Legal",
@@ -107739,6 +118666,7 @@ const allStandardLegalPokemon = [
       },
     },
     number: "31",
+    artist: "5ban Graphics",
     rarity: "Double Rare",
     nationalPokedexNumbers: [721],
     legalities: {
@@ -107929,7 +118857,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "29",
+    artist: "Mitsuhiro Arita",
     rarity: "Uncommon",
+    flavorText:
+      "This Pokémon scatters burning scales. Most of the danger of these scales is not in their heat—it's in the way they rob the surrounding air of oxygen.",
     nationalPokedexNumbers: [637],
     legalities: {
       unlimited: "Legal",
@@ -108359,7 +119290,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "40",
+    artist: "Shinya Mizuno",
     rarity: "Common",
+    flavorText:
+      "When it sucks in a large volume of seawater, it becomes like a big, bouncy ball. It eats a ton of food daily.",
     nationalPokedexNumbers: [320],
     legalities: {
       unlimited: "Legal",
@@ -108417,7 +119351,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "41",
+    artist: "Takeshi Nakamura",
     rarity: "Rare",
+    flavorText:
+      "Its immense size is the reason for its popularity. Wailord watching is a favorite sightseeing activity in various parts of the world.",
     nationalPokedexNumbers: [321],
     legalities: {
       unlimited: "Legal",
@@ -108696,6 +119633,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv3pt5/8.png",
       large: "https://images.pokemontcg.io/sv3pt5/8_hires.png",
+    },
+  },
+  {
+    id: "sv10-61",
+    name: "Wash Rotom",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "80",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Manual Wash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Heal 10 damage from each of your Pokémon.",
+      },
+      {
+        name: "Gadget Show",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "61",
+    artist: "miki kudo",
+    rarity: "Common",
+    flavorText:
+      "This Rotom has entered a washing machine. It nods with satisfaction after it floods the surrounding area.",
+    nationalPokedexNumbers: [479],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/61.png",
+      large: "https://images.pokemontcg.io/sv10/61_hires.png",
     },
   },
   {
@@ -109494,7 +120498,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "92",
+    artist: "KEIICHIRO ITO",
     rarity: "Uncommon",
+    flavorText:
+      "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
     nationalPokedexNumbers: [110],
     legalities: {
       unlimited: "Legal",
@@ -109505,6 +120512,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv9/92.png",
       large: "https://images.pokemontcg.io/sv9/92_hires.png",
+    },
+  },
+  {
+    id: "sv10-67",
+    name: "Wellspring Mask Ogerpon",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "110",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Water Kagura",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Water Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Bubble Drain",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Heal 30 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "67",
+    artist: "rika",
+    rarity: "Uncommon",
+    flavorText:
+      "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.",
+    nationalPokedexNumbers: [1017],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/67.png",
+      large: "https://images.pokemontcg.io/sv10/67_hires.png",
     },
   },
   {
@@ -110653,7 +121727,10 @@ const allStandardLegalPokemon = [
       },
     },
     number: "38",
+    artist: "Mékayu",
     rarity: "Common",
+    flavorText:
+      "It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.",
     nationalPokedexNumbers: [278],
     legalities: {
       unlimited: "Legal",
@@ -111090,8 +122167,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -111522,6 +122599,73 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "svp-179",
+    name: "Xerneas ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "210",
+    types: ["Psychic"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Aurora Beam",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Rising Horns",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "179",
+    artist: "PLANETA Igarashi",
+    rarity: "Promo",
+    nationalPokedexNumbers: [716],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/179.png",
+      large: "https://images.pokemontcg.io/svp/179_hires.png",
+    },
+  },
+  {
     id: "sv4-75",
     name: "Yamask",
     supertype: "Pokémon",
@@ -111717,6 +122861,287 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv5/58.png",
       large: "https://images.pokemontcg.io/sv5/58_hires.png",
+    },
+  },
+  {
+    id: "sv10-2",
+    name: "Yanma",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Yanmega"],
+    attacks: [
+      {
+        name: "Whirlwind",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Razor Wing",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "2",
+    artist: "svlt",
+    rarity: "Common",
+    flavorText:
+      "As Yanma surveys its territory, it periodically stops to hover in place by flapping its wings at high speeds.",
+    nationalPokedexNumbers: [193],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/2.png",
+      large: "https://images.pokemontcg.io/sv10/2_hires.png",
+    },
+  },
+  {
+    id: "svp-185",
+    name: "Yanma",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Yanmega"],
+    attacks: [
+      {
+        name: "Silent Wing",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "Your opponent reveals their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "185",
+    artist: "Dsuke",
+    rarity: "Promo",
+    flavorText:
+      "It can see in all directions without moving its big eyes, helping it spot both attackers and prey right away.",
+    nationalPokedexNumbers: [193],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/185.png",
+      large: "https://images.pokemontcg.io/svp/185_hires.png",
+    },
+  },
+  {
+    id: "svp-187",
+    name: "Yanmega",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Yanma",
+    attacks: [
+      {
+        name: "Gyro Shockwave",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "Switch this Pokémon with 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "187",
+    artist: "Dsuke",
+    rarity: "Promo",
+    flavorText:
+      "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+    nationalPokedexNumbers: [469],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/187.png",
+      large: "https://images.pokemontcg.io/svp/187_hires.png",
+    },
+  },
+  {
+    id: "sv10-3",
+    name: "Yanmega ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex", "Ability"],
+    hp: "280",
+    types: ["Grass"],
+    evolvesFrom: "Yanma",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Buzzing Boost",
+        text: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic Grass Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Jet Cyclone",
+        cost: ["Grass", "Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "210",
+        text: "Move 3 Energy from this Pokémon to 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "3",
+    artist: "takuyoa",
+    rarity: "Double Rare",
+    nationalPokedexNumbers: [469],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/3.png",
+      large: "https://images.pokemontcg.io/sv10/3_hires.png",
     },
   },
   {
@@ -111991,6 +123416,145 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv4/136.png",
       large: "https://images.pokemontcg.io/sv4/136_hires.png",
+    },
+  },
+  {
+    id: "svp-198",
+    name: "Zacian ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "220",
+    types: ["Metal"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Steel Armament",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Search your deck for a Basic Metal Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Slashing Strike",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "210",
+        text: "During your next turn, this Pokémon can't use Slashing Strike.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "198",
+    artist: "PLANETA Mochizuki",
+    rarity: "Promo",
+    nationalPokedexNumbers: [888],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/198.png",
+      large: "https://images.pokemontcg.io/svp/198_hires.png",
+    },
+  },
+  {
+    id: "sv10-146",
+    name: "Zamazenta",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "130",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Strong Bash",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "146",
+    artist: "Mitsuhiro Arita",
+    rarity: "Rare",
+    flavorText:
+      "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+    nationalPokedexNumbers: [889],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/146.png",
+      large: "https://images.pokemontcg.io/sv10/146_hires.png",
     },
   },
   {
@@ -112289,8 +123853,8 @@ const allStandardLegalPokemon = [
       id: "svp",
       name: "Scarlet & Violet Black Star Promos",
       series: "Scarlet & Violet",
-      printedTotal: 165,
-      total: 165,
+      printedTotal: 215,
+      total: 196,
       legalities: {
         unlimited: "Legal",
         standard: "Legal",
@@ -112456,6 +124020,72 @@ const allStandardLegalPokemon = [
     },
   },
   {
+    id: "svp-199",
+    name: "Zarude",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "120",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Pluck Off",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Basic Grass Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Hammer Whip",
+        cost: ["Grass", "Grass", "Grass"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "199",
+    artist: "Uninori",
+    rarity: "Promo",
+    flavorText:
+      "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
+    nationalPokedexNumbers: [893],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/199.png",
+      large: "https://images.pokemontcg.io/svp/199_hires.png",
+    },
+  },
+  {
     id: "sv4-63",
     name: "Zebstrika",
     supertype: "Pokémon",
@@ -112585,6 +124215,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv8/63.png",
       large: "https://images.pokemontcg.io/sv8/63_hires.png",
+    },
+  },
+  {
+    id: "svp-201",
+    name: "Zebstrika",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "1 Prizer"],
+    hp: "120",
+    types: ["Lightning"],
+    evolvesFrom: "Blitzle",
+    attacks: [
+      {
+        name: "Full Speed",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard your hand and draw 6 cards.",
+      },
+      {
+        name: "Head Bolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "svp",
+      name: "Scarlet & Violet Promos",
+      series: "Scarlet & Violet",
+      printedTotal: 150,
+      total: 148,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      releaseDate: "2022/11/01",
+      updatedAt: "2023/07/20 22:45:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/svp/symbol.png",
+        logo: "https://images.pokemontcg.io/svp/logo.png",
+      },
+    },
+    number: "201",
+    artist: "Krgc",
+    rarity: "Promo",
+    flavorText:
+      "Once the herd hears thunder, it chases after the storm clouds so that the Blitzle in the group can use the lightning to charge up.",
+    nationalPokedexNumbers: [523],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/svp/201.png",
+      large: "https://images.pokemontcg.io/svp/201_hires.png",
     },
   },
   {
@@ -112775,6 +124472,73 @@ const allStandardLegalPokemon = [
     images: {
       small: "https://images.pokemontcg.io/sv7/55.png",
       large: "https://images.pokemontcg.io/sv7/55_hires.png",
+    },
+  },
+  {
+    id: "sv10-78",
+    name: "Zeraora",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "1 Prizer"],
+    hp: "100",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+      {
+        name: "Thunder Raid",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "Discard all Energy from this Pokémon, and this attack does 210 damage to 1 of your opponent's Benched Pokémon ex. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    set: {
+      id: "sv10",
+      name: "Destined Rivals",
+      series: "Scarlet & Violet",
+      printedTotal: 182,
+      total: 244,
+      legalities: {
+        unlimited: "Legal",
+        standard: "Legal",
+        expanded: "Legal",
+      },
+      ptcgoCode: "DRI",
+      releaseDate: "2025/05/30",
+      updatedAt: "2025/05/29 22:00:00",
+      images: {
+        symbol: "https://images.pokemontcg.io/sv10/symbol.png",
+        logo: "https://images.pokemontcg.io/sv10/logo.png",
+      },
+    },
+    number: "78",
+    artist: "Ryuta Fuse",
+    rarity: "Rare",
+    flavorText:
+      "Electricity sparks from the pads on its limbs. Wherever Zeraora runs, lightning flashes and thunder echoes.",
+    nationalPokedexNumbers: [807],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/sv10/78.png",
+      large: "https://images.pokemontcg.io/sv10/78_hires.png",
     },
   },
   {
