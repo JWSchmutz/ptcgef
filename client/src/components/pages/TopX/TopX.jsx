@@ -45,6 +45,7 @@ function TopX() {
     "Joah Wiegner [DE]",
     "William Azevedo [BR]",
     "Michael Davidson [US]",
+    "Simon Tschan [CH]",
   ];
   const [showAutoInvites, setShowAutoInvites] = useState(true);
   const [currentRegionData, setCurrentRegionData] = useState(NA);
