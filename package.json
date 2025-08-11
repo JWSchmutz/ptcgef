@@ -9,6 +9,7 @@
     "build": "cd client && yarn run build && cd .. && yarn run dev"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
     "axios": "^1.4.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
