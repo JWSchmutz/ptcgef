@@ -188,7 +188,7 @@ app.get("/events", async (req, res) => {
         _latitudeInDataFetchStatus: 1,
         longitude: longi,
         _longitudeInDataFetchStatus: 1,
-        range: "50",
+        range: "250",
         _rangeInDataFetchStatus: 1,
         iskm: "False",
         _iskmInDataFetchStatus: 1,
@@ -199,7 +199,7 @@ app.get("/events", async (req, res) => {
       GAPI: "AIzaSyAXzdVpFJq7oPTepVgdX7NgBy5AutT_YCo",
       UserLocale: "en-US",
       isSearchByEnter: false,
-      Range: "50",
+      Range: "250",
       LocaleFooter:
         "{'LocaleId':1,'Label':'English US','Order':2,'Is_Active':true,'SelectRegionText':'Select Your Region','HomePageLink':'https://www.pokemon.com/us/','HomePageImgLink':'https://assets.pokemon.com/static2/_ui/img/footer/pokemon_company.png','BBBCaruLink':'https://caru.bbbprograms.org/seal/Confirmation/1596150491','BBBCaruImgLink':'https://caru.bbb.org/seal/thepokemoncompanyinternational-seal-1596150491.png','SocialLinkFacebook':'https://www.facebook.com/pokemon/','SocialLinkTwitter':'https://www.twitter.com/pokemon/','SocialLinkInstagram':'https://www.instagram.com/pokemon/','SocialLinkYoutube':'https://www.youtube.com/user/pokemon/','TermsOfUseText':'Terms of Use','TermsOfUseLink':'https://www.pokemon.com/us/terms-of-use/','PrivacyNoticeText':'Privacy Notice','PrivacyNoticeLink':'https://www.pokemon.com/us/privacy-notice/','LegalText':'Legal Information','LegalLink':'https://www.pokemon.com/us/legal/','NintendoLink':'https://www.nintendo.com/','NintendoImgLink':'https://media.nintendo.com/share/nclood/stable/en-us/modules/nav/images/logo-nintendo.svg','NintendoSwitchLink':'https://www.nintendo.com/switch/','NintendoSwitchImgLink':'https://www.nintendo.com/content/dam/noa/en_US/images/switch/switch-logo.svg','RatingSystemText':'ESRB','RatingSystemLink':'https://www.esrb.org/','LeavingSiteYoutubeTextBody':'Notice: If you click on the YouTube video above, you will leave Pokemon.com. The PokÃ©mon Company International is not responsible for the content of any linked website that is not operated by The PokÃ©mon Company International. Please note that these websitesâ€™ privacy policies and security practices may differ from The PokÃ©mon Company Internationalâ€™s standards.','LeavingSiteTextHeader':'You are about to leave a site operated by The PokÃ©mon Company International, Inc.','LeavingSiteTextBody':'The PokÃ©mon Company International is not responsible for the content of any linked website that is not operated by The PokÃ©mon Company International. Please note that these websitesâ€™ privacy policies and security practices may differ from The PokÃ©mon Company Internationalâ€™s standards.','LeavingSiteTextCancel':'Cancel','LeavingSiteTextContinue':'Continue','CopyrightTextPokemon':'Â©2025 PokÃ©mon.','CopyrightTextNintendo':'Â©1995â€“2025 Nintendo / Creatures Inc. / GAME FREAK Inc.','CopyrightTextSpikechunsoft':'Â©1993â€“2025 Spike Chunsoft.','NintendoTrademarkText':'PokÃ©mon and Nintendo Switch are trademarks of Nintendo.','CustomerServiceText':'Customer Service','CustomerServiceLink':'https://support.pokemon.com','CookiePageText':'Cookie Page','CookiePageLink':'https://www.pokemon.com/us/cookie-page/','HeaderLocaleCode':'en'}",
       Username: "",
@@ -233,7 +233,7 @@ app.get("/events", async (req, res) => {
           "x-csrftoken": "T6C+9iB49TLra4jEsMeSckDMNhQ=",
           cookie:
             "visid_incap_3066823=/DahcEisRVKyYbnPQ9CY31HeMWcAAAAAQUIPAAAAAAAmqUjK7zcxLFG4KOJ4RLGE; visid_incap_3029391=lNZTfpqoRxCJU+ReBCXR2S92O2cAAAAAQUIPAAAAAAAOasjgKHFmL98A51/R6KmM; visid_incap_3154303=6yehEc/+Tl+BV3tLJKVoNkIaUmcAAAAAQUIPAAAAAAAAzjf2X7OIayRdjXt+L7OL; OptanonAlertBoxClosed=2025-03-26T21:35:52.077Z; _ga=GA1.1.1125921179.1745432155; visid_incap_2832311=MqHaZTpWQ++kcqlDvwm6j1ECGWgAAAAAQUIPAAAAAADDf4Zg+vQamVyVsnuefk6N; _ga_V0JTVBC6Y3=GS2.1.s1748197681$o3$g0$t1748197681$j0$l0$h0; visid_incap_3039444=icBhO6/+TwGdgj2NLLbnLsQgV2gAAAAAQUIPAAAAAAAjS3+jr2WwP+aR8owrDQVc; visid_incap_3018525=MPfixuf+TCallFiRD0zY2c4ZkmgAAAAAQUIPAAAAAAAtjcz52iL9AzLjO1vmIXUq; visid_incap_2884021=GGf+2MzRRVSNKqFtT5Tzp3QrkmgAAAAAQUIPAAAAAACzveaSSnUVAUGm9bjlJJ+F; visid_incap_3028897=bUVK28ZRQG+zLBDE4J/CZ3UrkmgAAAAAQUIPAAAAAAAvnc91mHmMR50xxAH4PwKb; visid_incap_2897837=oWjm3H+hQ8mL3o+s9ZpbRTxZkmgAAAAAQUIPAAAAAAA+isKEBN8wiNU2cYzdG+rL; osVisitor=179f3362-8497-428b-a4a4-e89b130cfa66; nr1Users=lid%3dAnonymous%3btuu%3d0%3bexp%3d0%3brhs%3dXBC1ss1nOgYW1SmqUjSxLucVOAg%3d%3bhmc%3dThNnmd8MNPF6REGQagFzFdcuRI0%3d; nr2Users=crf%3dT6C%2b9iB49TLra4jEsMeSckDMNhQ%3d%3buid%3d0%3bunm%3d; incap_ses_764_2884021=LnnNMKHTfA/Tc5LqQkaaCjJ7k2gAAAAAAxCDs2pJYrwTOETR61Xc/w==; nlbi_2897837=I/WycVisBgk2Pj4ctxGxdQAAAABoYcTEb+2AKK3CM+o9S/0f; OptanonConsent=isGpcEnabled=0&datestamp=Wed+Aug+06+2025+17%3A56%3A44+GMT%2B0200+(heure+d%E2%80%99%C3%A9t%C3%A9+d%E2%80%99Europe+centrale)&version=6.33.0&isIABGlobal=false&hosts=&consentId=e1590636-c02b-4884-bd6a-2c50b040c259&interactionCount=2&landingPath=NotLandingPage&groups=C0002%3A0%2CC0001%3A1%2CC0004%3A0%2CC0003%3A0&AwaitingReconsent=false&geolocation=BE%3BWAL; nlbi_2884021=2r5uWWLZiTj0cXlKgQq3qwAAAADyJxS6bAcki9N5QLcOf4+j; incap_ses_764_2897837=cuTEAXqdhxYQaZrqQkaaCkWGk2gAAAAATbYL6LmMdFyOjTwkGouQ/Q==; nlbi_2897837_2147483392=A/VOMXuZfQhDQOvWtxGxdQAAAADmlf0RF5khSMmWyd6mfSN7; incap_ses_985_2897837=NRO1H6CbEVaf4jlPWGyrDauMk2gAAAAAt6fy2t8npkJirZHHy4XRaA==; reese84=3:V4QbRz/4/GCKRrzZY3IqDQ==:i1ooHBvzdP7F1TIje2Yyrp50LvrDsyfdopPjhVYbVk62xTtTNUTzVRW9nwsNhulQSiITFzIHtkeeRfuPUXunsNjT2il/EyMbM/i0T4xEIraiBuLkrYkOraVtCD7TFlbBwfZVCzxZ/hg5MSUgM+dWboUOtmoPC6OKDgto+8f9q5Qcz2KyazmcQk1c9cfiFTFAJTM23000CbJHJEFzAxloXz+j5ShthuRKGrEpWqniFl+zd5ZHTLS54rx4k9Z2A+w63hqx2A3aHHaHgX5rpVZzjg70jZfoMOXayM/rf8hxuwybTNUfjxPrThINPxONMVxdF6eQ4IlbYzMeIDY/aN6B50gshLy7XWqs7fApvdPDQuUQ+1xJ7hVNWJdCA/paras/1+V/gi+2Vk8BVi6DaJgh0/8z3h+Za8Tn0kl49F5x95yBJWhT14oAwzGSS5I5+kcwTDwZlrOy8wsGtpVAfaxI1g==:fHKVk2f+Zrwn2GjPgyU8wwMM/ww52H0KEr8eDTTjTKw=; _dd_s=rum=1&id=d7d92333-329a-4a91-b9e1-6825481c4ff1&created=1754500275336&expire=1754501175337; incap_ses_985_2884021=gRoQYv5jdwZzRzpPWGyrDb+Mk2gAAAAAMkmuXY4tYrBWtH0kZTNwqg==",
-          Referer: `https://events.pokemon.com/EventLocator/Home?iskm=false&longitude=${longi}&latitude=${lati}&locale=en-US&range=50`,
+          Referer: `https://events.pokemon.com/EventLocator/Home?iskm=false&longitude=${longi}&latitude=${lati}&locale=en-US&range=250`,
         },
       }
     )
@@ -513,10 +513,10 @@ app.get("/events", async (req, res) => {
     eventsFromStoreBody.screenData.variables.display_id = displayId;
     eventsFromStoreBody.screenData.variables.latitude = lat;
     eventsFromStoreBody.screenData.variables.longitude = long;
-    eventsFromStoreBody.screenData.variables.range = "50";
+    eventsFromStoreBody.screenData.variables.range = "250";
     eventsFromStoreBody.screenData.variables.storename = storeName;
 
-    eventsFromStoreBody.clientVariables.Range = "50";
+    eventsFromStoreBody.clientVariables.Range = "250";
     eventsFromStoreBody.clientVariables.Latitude = lat;
     eventsFromStoreBody.clientVariables.Longitude = long;
     const axios = require("axios");
