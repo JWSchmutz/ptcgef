@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "concurrently \"node server\" \"cd client && yarn dev\"",
-    "build": "cd client && yarn run build && cd .. && yarn run dev"
+    "dev": "concurrently \"node server\" \"cd client && yarn dev\""
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
