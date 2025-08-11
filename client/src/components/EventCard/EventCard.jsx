@@ -4,6 +4,7 @@ import formatDate from "../Date/Date";
 import Colors from "../../data/Colors.js";
 
 function EventCard({ event }) {
+  console.log("Event Card", event.tags);
   return (
     <a
       href={event.pokemon_url}
@@ -14,7 +15,7 @@ function EventCard({ event }) {
         key={event.guid}
         children={
           <>
-            <h4>{formatDate(event?.start_datetime)}</h4>
+            <h4>{formatDate(event?.startDate)}</h4>
             <span
               style={{
                 position: "absolute",
@@ -40,27 +41,27 @@ function EventCard({ event }) {
           </>
         }
         title={`${event?.name} ${
-          event?.tags?.includes("league_challenge")
+          event.tags.includes("league_challenge")
             ? "League Challenge"
-            : event?.tags?.includes("league_cup")
+            : event.tags.includes("league_cup")
             ? "League Cup"
-            : event?.tags?.includes("prerelease")
+            : event.tags.includes("prerelease")
             ? "Pre-Release"
             : "Other"
         }`}
         backgroundColor={`${
-          event?.tags?.includes("league_challenge")
+          event.tags.includes("league_challenge")
             ? Colors.primaryDark
-            : event?.tags?.includes("league_cup")
+            : event.tags.includes("league_cup")
             ? Colors.primary
-            : event?.tags?.includes("prerelease")
+            : event.tags.includes("prerelease")
             ? Colors.dark
             : "white"
         }`}
         color={`${
-          event?.tags?.includes("league_challenge") ||
-          event?.tags?.includes("league_cup") ||
-          event?.tags?.includes("prerelease")
+          event.tags.includes("league_challenge") ||
+          event.tags.includes("league_cup") ||
+          event.tags.includes("prerelease")
             ? "white"
             : "black"
         }`}

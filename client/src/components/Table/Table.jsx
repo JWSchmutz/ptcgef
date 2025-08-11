@@ -1,7 +1,6 @@
 import React from "react";
 import "./Table.css";
 function Table({ title, data }) {
-  console.log(data);
   return (
     <div className="table-holder">
       <h3>{title}</h3>

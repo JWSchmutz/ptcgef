@@ -81,7 +81,6 @@ function PokemonFiltersSection({
       );
       setOnlyShowPokemonThatAre(newOnlyShowPokemonThatAre);
     }
-    console.log(onlyShowPokemonThatAre);
   };
 
   useEffect(() => {

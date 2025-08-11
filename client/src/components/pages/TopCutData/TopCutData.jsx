@@ -10,7 +10,6 @@ function TopCutData() {
   majors.sort((a, b) => {
     return a.masters - b.masters;
   });
-  console.log(majors, cups);
   return (
     <main id="top-cut-data">
       <h2 className="page-title">Top Cut Data</h2>

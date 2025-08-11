@@ -22,7 +22,6 @@ function LiveLadder() {
         }));
 
         fetchedData.sort((a, b) => parseFloat(b.elo) - parseFloat(a.elo));
-        console.log(fetchedData);
         setData(fetchedData); // Set the data to state
       } catch (err) {
         setError(err.message); // Set error if any

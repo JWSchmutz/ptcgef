@@ -20,7 +20,6 @@ const ImageUpload = () => {
         where("username", "==", newDocument.username)
       );
       const querySnapshot = await getDocs(q);
-      console.log(querySnapshot);
       if (!querySnapshot.empty) {
         // If document with the username exists, update the document
         const existingDoc = querySnapshot.docs[0]; // Take the first matching document
@@ -66,7 +65,6 @@ const ImageUpload = () => {
       setError("No image to upload!");
       return;
     }
-    console.log(dimensions);
     const formData = new FormData();
     formData.append("image", image);
     formData.append("dimensions", JSON.stringify(dimensions));

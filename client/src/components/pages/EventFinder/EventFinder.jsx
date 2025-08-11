@@ -161,62 +161,27 @@ function EventFinder() {
       .then((response) => response.json())
       .then((data) => {
         data.sort((p1, p2) =>
-          p1.start_datetime < p2.start_datetime
-            ? -1
-            : p1.start_datetime > p2.start_datetime
-            ? 1
-            : 0
+          p1.startDate < p2.startDate ? -1 : p1.startDate > p2.startDate ? 1 : 0
         );
 
-        data.forEach((event) => {
-          if (event.address.city === "STATESVILLE")
-            console.log(event.products, event);
-        });
-        const tcgOnlyData = data.filter((event) =>
-          event.products.includes("tcg")
-        );
-
-        tcgOnlyData.map(function (item) {
-          delete item.when;
-          delete item.status;
-          delete item.products;
-          delete item.premier_event_series_guid;
-          delete item.payment_options;
-          delete item.name;
-          item.price = item.metadata.on_site_admission;
-          delete item.metadata;
-          delete item.local_id;
-          delete item.league_guid;
-          delete item.large_event_guid;
-          delete item.has_registration_skus;
-          delete item.has_registration_options;
-          delete item.contact_information;
-          item.name = item.address.name;
-          item.city = item.address.city;
-          delete item.address;
-          delete item.activity_type;
+        data.map(function (item) {
+          item.price = item.admission;
+          item.name = item.name;
           return item;
         });
 
-        setAllEvents(
-          tcgOnlyData.filter(
-            (event) =>
-              event.tags.includes("league_challenge") ||
-              event.tags.includes("league_cup") ||
-              event.tags.includes("prerelease")
-          )
-        );
+        setAllEvents(data);
         return getDesiredEvents();
       });
   }, [coordinates]);
 
   const getDesiredEvents = () => {
     let eventsToShow = [...allEvents];
-    if (!showChallenges)
+    if (!showChallenges) {
       eventsToShow = eventsToShow.filter(
         (event) => !event.tags.includes("league_challenge")
       );
-    else
+    } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
           event.tags.includes("prerelease") ||
@@ -224,11 +189,12 @@ function EventFinder() {
           (event.tags.includes("league_challenge") &&
             event.distance < Number(challengeDistance))
       );
-    if (!showCups)
+    }
+    if (!showCups) {
       eventsToShow = eventsToShow.filter(
         (event) => !event.tags.includes("league_cup")
       );
-    else
+    } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
           event.tags.includes("league_challenge") ||
@@ -236,11 +202,12 @@ function EventFinder() {
           (event.tags.includes("league_cup") &&
             event.distance < Number(cupDistance))
       );
-    if (!showPrereleases)
+    }
+    if (!showPrereleases) {
       eventsToShow = eventsToShow.filter(
         (event) => !event.tags.includes("prerelease")
       );
-    else
+    } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
           event.tags.includes("league_challenge") ||
@@ -248,6 +215,7 @@ function EventFinder() {
           (event.tags.includes("prerelease") &&
             event.distance < Number(prereleaseDistance))
       );
+    }
 
     setEvents(eventsToShow, setIsLoading(false));
   };
