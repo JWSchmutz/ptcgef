@@ -15,7 +15,7 @@ function EventCard({ event }) {
         key={event.guid}
         children={
           <>
-            <h4>{formatDate(event?.date)}</h4>
+            <h4>{formatDate(event?.when)}</h4>
             <span
               style={{
                 position: "absolute",

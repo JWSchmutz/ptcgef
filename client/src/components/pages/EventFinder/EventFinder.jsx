@@ -339,6 +339,11 @@ function EventFinder() {
           </div>
           <div className="eventSection">
             <h3 className="sub-title">Tournaments</h3>
+            <p>
+              Tournament listings based on original TO input and will not show
+              any updates. Please check with your TO or pokemon.com before
+              traveling.
+            </p>
             <div className="eventHolder">
               {isLoading ? (
                 <Loading />

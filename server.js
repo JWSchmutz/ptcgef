@@ -63,12 +63,35 @@ app.get("/events", async (req, res) => {
     )
     .then((results) => {
       filteredMerged = results.data.map((event) => {
-        return (event.distance = getStoreDistance(
+        delete event.TCaccounts;
+        delete event.Third_party_registration_website;
+        delete event.category;
+        delete event.contact_data;
+        event.price === event.cost;
+        delete event.cost;
+        delete event.date_added;
+        delete event.juniors;
+        delete event.seniors;
+        delete event.masters;
+        delete event.league;
+        delete event.postal_code;
+        delete event.product;
+        event.distance = getStoreDistance(
           lati,
           longi,
           event.latitude,
           event.longitude
-        ));
+        );
+        delete event.latitude;
+        delete event.longitude;
+        delete event.status;
+        delete event.totalPlayers;
+        delete event.tournament_completed;
+        delete event.tournament_date;
+        delete event.status;
+        delete event.state;
+
+        return event;
       });
       res.json(results.data);
     })
