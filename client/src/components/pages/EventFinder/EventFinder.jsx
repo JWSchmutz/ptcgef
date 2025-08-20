@@ -180,10 +180,10 @@ function EventFinder() {
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          (event.type === "Pre Release" ||
-            event.type === "League Cup" ||
-            event.type === "League Challenge") &&
-          event.distance < Number(challengeDistance)
+          event.type === "Pre Release" ||
+          event.type === "League Cup" ||
+          (event.type === "League Challenge" &&
+            event.distance < Number(challengeDistance))
       );
       console.log("after !showChallenges else", eventsToShow);
     }
@@ -195,10 +195,9 @@ function EventFinder() {
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          (event.type === "League Challenge" ||
-            event.type === "Pre Release" ||
-            event.type === "League Cup") &&
-          event.distance < Number(cupDistance)
+          event.type === "League Challenge" ||
+          event.type === "Pre Release" ||
+          (event.type === "League Cup" && event.distance < Number(cupDistance))
       );
       console.log("after !showCups else", eventsToShow);
     }
@@ -210,10 +209,10 @@ function EventFinder() {
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          (event.type === "League Challenge" ||
-            event.type === "League Cup" ||
-            event.type === "Pre Release") &&
-          event.distance < Number(prereleaseDistance)
+          event.type === "League Challenge" ||
+          event.type === "League Cup" ||
+          (event.type === "Pre Release" &&
+            event.distance < Number(prereleaseDistance))
       );
       console.log("after !showPre else", eventsToShow);
     }
