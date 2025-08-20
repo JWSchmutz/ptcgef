@@ -81,6 +81,27 @@ const allStandardLegalEnergy = [
     },
   },
   {
+    id: "rsv10pt5-86",
+    name: "Ignition Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "No Tag"],
+    rules: [
+      "If this card is attached to 1 of your Pokémon, discard it at the end of your turn.  As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to an Evolution Pokémon, it provides ColorlessColorlessColorless Energy instead.",
+    ],
+    number: "86",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/86.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/86_hires.png",
+    },
+  },
+  {
     id: "sv2-190",
     name: "Jet Energy",
     supertype: "Energy",
