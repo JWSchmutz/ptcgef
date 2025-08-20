@@ -160,16 +160,10 @@ function EventFinder() {
     fetch(`/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         data.sort((p1, p2) =>
-          p1.startDate < p2.startDate ? -1 : p1.startDate > p2.startDate ? 1 : 0
+          p1.date < p2.date ? -1 : p1.date > p2.date ? 1 : 0
         );
-
-        data.map(function (item) {
-          item.price = item.admission;
-          item.name = item.name;
-          return item;
-        });
-
         setAllEvents(data);
         return getDesiredEvents();
       });
@@ -177,46 +171,53 @@ function EventFinder() {
 
   const getDesiredEvents = () => {
     let eventsToShow = [...allEvents];
+    console.log(eventsToShow);
     if (!showChallenges) {
       eventsToShow = eventsToShow.filter(
-        (event) => !event.tags.includes("league_challenge")
+        (event) => event.type !== "League Challenge"
       );
+      console.log("after !showChallenges", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          event.tags.includes("prerelease") ||
-          event.tags.includes("league_cup") ||
-          (event.tags.includes("league_challenge") &&
-            event.distance < Number(challengeDistance))
+          (event.type === "Pre Release" ||
+            event.type === "League Cup" ||
+            event.type === "League Challenge") &&
+          event.distance < Number(challengeDistance)
       );
+      console.log("after !showChallenges else", eventsToShow);
     }
     if (!showCups) {
       eventsToShow = eventsToShow.filter(
-        (event) => !event.tags.includes("league_cup")
+        (event) => event.type !== "League Cup"
       );
+      console.log("after !showCups", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          event.tags.includes("league_challenge") ||
-          event.tags.includes("prerelease") ||
-          (event.tags.includes("league_cup") &&
-            event.distance < Number(cupDistance))
+          (event.type === "League Challenge" ||
+            event.type === "Pre Release" ||
+            event.type === "League Cup") &&
+          event.distance < Number(cupDistance)
       );
+      console.log("after !showCups else", eventsToShow);
     }
     if (!showPrereleases) {
       eventsToShow = eventsToShow.filter(
-        (event) => !event.tags.includes("prerelease")
+        (event) => event.type !== "Pre Release"
       );
+      console.log("after !showPre", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
-          event.tags.includes("league_challenge") ||
-          event.tags.includes("league_cup") ||
-          (event.tags.includes("prerelease") &&
-            event.distance < Number(prereleaseDistance))
+          (event.type === "League Challenge" ||
+            event.type === "League Cup" ||
+            event.type === "Pre Release") &&
+          event.distance < Number(prereleaseDistance)
       );
+      console.log("after !showPre else", eventsToShow);
     }
-
+    console.log("final", eventsToShow);
     setEvents(eventsToShow, setIsLoading(false));
   };
 
@@ -347,9 +348,10 @@ function EventFinder() {
                   No events to show. Please refine your search.
                 </p>
               ) : (
-                events.map((event) => (
-                  <EventCard event={event} key={event.guid} />
-                ))
+                events.map((event) => {
+                  console.log("events", events);
+                  return <EventCard event={event} key={event.guid} />;
+                })
               )}
             </div>
           </div>
