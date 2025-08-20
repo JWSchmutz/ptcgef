@@ -344,6 +344,27 @@ const allStandardLegalEnergy = [
     },
   },
   {
+    id: "zsv10pt5-86",
+    name: "Prism Energy",
+    supertype: "Energy",
+    subtypes: ["Special", "No Tag"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.",
+    ],
+    number: "86",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/86.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/86_hires.png",
+    },
+  },
+  {
     id: "sv2-192",
     name: "Reversal Energy",
     supertype: "Energy",

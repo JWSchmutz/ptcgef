@@ -10473,6 +10473,178 @@ const allStandardLegalTrainers = [
       large: "https://images.pokemontcg.io/rsv10pt5/85_hires.png",
     },
   },
+  {
+    id: "zsv10pt5-79",
+    name: "Air Balloon",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool", "No Tag"],
+    rules: [
+      "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
+    ],
+    number: "79",
+    artist: "Studio Bora Inc.",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/79.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/79_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-80",
+    name: "Antique Cover Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Protective Cover",
+        text: "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+        type: "Ability",
+      },
+    ],
+    number: "60",
+    artist: "DOM",
+    rarity: "Common",
+    flavorText:
+      "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/80.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/80_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-81",
+    name: "Energy Coin",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "81",
+    artist: "Toyste Beach",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/81.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/81_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-82",
+    name: "Fennel",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Heal 40 damage from each of your Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "82",
+    artist: "Yuu Nishida",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/82.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/82_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-83",
+    name: "N's Plan",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Move up to 2 Energy from your Benched Pokémon to your Active Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "83",
+    artist: "hncl",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/83.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/83_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-84",
+    name: "Pokégear 3.0",
+    supertype: "Trainer",
+    subtypes: ["Item", "No Tag"],
+    rules: [
+      "Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "84",
+    artist: "Toyste Beach",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/84.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/84_hires.png",
+    },
+  },
+  {
+    id: "zsv10pt5-85",
+    name: "Professor's Research",
+    supertype: "Trainer",
+    subtypes: ["Supporter", "No Tag"],
+    rules: [
+      "Discard your hand and draw 7 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "85",
+    artist: "Taira Akitsu",
+    rarity: "Uncommon",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "G",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/85.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/85_hires.png",
+    },
+  },
 ];
 
 export default allStandardLegalTrainers;
