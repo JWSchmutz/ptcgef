@@ -156,6 +156,7 @@ function EventFinder() {
   ]);
 
   useEffect(() => {
+    console.log("eventFinder use effect");
     if (!coordinates) return;
     setIsLoading(true);
     if (Date.now() - localStorage.getItem("lastFetched") < 21600000) {
@@ -165,7 +166,6 @@ function EventFinder() {
     fetch(`/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         data.sort((p1, p2) =>
           p1.date < p2.date ? -1 : p1.date > p2.date ? 1 : 0
         );
@@ -177,12 +177,10 @@ function EventFinder() {
 
   const getDesiredEvents = () => {
     let eventsToShow = [...allEvents];
-    console.log(eventsToShow);
     if (!showChallenges) {
       eventsToShow = eventsToShow.filter(
         (event) => event.type !== "League Challenge"
       );
-      console.log("after !showChallenges", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
@@ -191,13 +189,11 @@ function EventFinder() {
           (event.type === "League Challenge" &&
             event.distance < Number(challengeDistance))
       );
-      console.log("after !showChallenges else", eventsToShow);
     }
     if (!showCups) {
       eventsToShow = eventsToShow.filter(
         (event) => event.type !== "League Cup"
       );
-      console.log("after !showCups", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
@@ -205,13 +201,11 @@ function EventFinder() {
           event.type === "Pre Release" ||
           (event.type === "League Cup" && event.distance < Number(cupDistance))
       );
-      console.log("after !showCups else", eventsToShow);
     }
     if (!showPrereleases) {
       eventsToShow = eventsToShow.filter(
         (event) => event.type !== "Pre Release"
       );
-      console.log("after !showPre", eventsToShow);
     } else {
       eventsToShow = eventsToShow.filter(
         (event) =>
@@ -220,7 +214,6 @@ function EventFinder() {
           (event.type === "Pre Release" &&
             event.distance < Number(prereleaseDistance))
       );
-      console.log("after !showPre else", eventsToShow);
     }
     if (fetched) {
       localStorage.setItem("events", JSON.stringify(eventsToShow));
@@ -362,7 +355,6 @@ function EventFinder() {
                 </p>
               ) : (
                 events.map((event) => {
-                  console.log("events", events);
                   return <EventCard event={event} key={event.guid} />;
                 })
               )}
