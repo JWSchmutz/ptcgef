@@ -23,8 +23,8 @@ function EventCard({ event }) {
                 left: "10px",
               }}
             >
-              {event?.price &&
-                `$${event?.price?.replace("$", "").replace(".00", "")}`}
+              {event?.cost &&
+                `$${event?.cost?.replace("$", "").replace(".00", "")}`}
             </span>
             <span
               style={{

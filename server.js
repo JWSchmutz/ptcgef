@@ -67,8 +67,6 @@ app.get("/events", async (req, res) => {
         delete event.Third_party_registration_website;
         delete event.category;
         delete event.contact_data;
-        event.price === event.cost;
-        delete event.cost;
         delete event.date_added;
         delete event.juniors;
         delete event.seniors;

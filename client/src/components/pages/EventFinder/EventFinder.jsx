@@ -157,6 +157,10 @@ function EventFinder() {
   useEffect(() => {
     if (!coordinates) return;
     setIsLoading(true);
+    if (Date.now() - localStorage.getItem("lastFetched") < 21600000) {
+      setAllEvents(JSON.parse(localStorage.getItem("events")));
+      return getDesiredEvents();
+    }
     fetch(`/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
@@ -216,7 +220,10 @@ function EventFinder() {
       );
       console.log("after !showPre else", eventsToShow);
     }
-    console.log("final", eventsToShow);
+    if (!isLoading) {
+      localStorage.setItem("events", JSON.stringify(eventsToShow));
+      localStorage.setItem("lastFetched", Date.now());
+    }
     setEvents(eventsToShow, setIsLoading(false));
   };
 
@@ -346,7 +353,7 @@ function EventFinder() {
             </p>
             <div className="eventHolder">
               {isLoading ? (
-                <Loading />
+                <Loading text="Checking for new events." />
               ) : !events.length ? (
                 <p style={{ color: "white" }}>
                   No events to show. Please refine your search.
