@@ -8,6 +8,7 @@ import Loading from "../../Loading/Loading";
 import EventCard from "../../EventCard/EventCard";
 function EventFinder() {
   const [isLoading, setIsLoading] = useState(true);
+  const [fetched, setFetched] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [allEvents, setAllEvents] = useState([]);
   const [events, setEvents] = useState([]);
@@ -169,6 +170,7 @@ function EventFinder() {
           p1.date < p2.date ? -1 : p1.date > p2.date ? 1 : 0
         );
         setAllEvents(data);
+        setFetched(true);
         return getDesiredEvents();
       });
   }, [coordinates]);
@@ -220,7 +222,7 @@ function EventFinder() {
       );
       console.log("after !showPre else", eventsToShow);
     }
-    if (!isLoading) {
+    if (fetched) {
       localStorage.setItem("events", JSON.stringify(eventsToShow));
       localStorage.setItem("lastFetched", Date.now());
     }
