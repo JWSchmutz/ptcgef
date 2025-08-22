@@ -40,6 +40,7 @@ function Homies() {
       const url = `/players/${id}`;
       const response = await fetch(url);
       const data = await response.json();
+      console.log(name, data);
       if (callBack) return callBack({ players: data, name });
     };
     const getTournaments = () => {
@@ -62,6 +63,7 @@ function Homies() {
             setTournament3,
             data[data.length - 3].name
           );
+          console.log(data.length);
         });
     };
     getTournaments();

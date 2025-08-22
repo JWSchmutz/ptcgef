@@ -47,6 +47,7 @@ function EventFinder() {
     setIsLoading(true);
     localStorage.removeItem("x-coordinates");
     localStorage.removeItem("y-coordinates");
+    localStorage.removeItem("lastFetched");
     setCoordinates("");
   };
 
@@ -216,7 +217,7 @@ function EventFinder() {
       );
     }
     if (fetched) {
-      localStorage.setItem("events", JSON.stringify(eventsToShow));
+      localStorage.setItem("events", JSON.stringify(allEvents));
       localStorage.setItem("lastFetched", Date.now());
     }
     setEvents(eventsToShow, setIsLoading(false));
