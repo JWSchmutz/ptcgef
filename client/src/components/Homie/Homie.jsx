@@ -72,7 +72,11 @@ function Homie({
         !tournament1.player &&
         !tournament2.player &&
         !tournament3.player && (
-          <p className="tournament">No recent tournaments</p>
+          <p className="tournament">
+            <span style={{ fontWeight: "bold" }}>No recent tournaments</span>
+            <br /> If you believe this is an error, try closing this card and
+            doing a new search. Players names are sometimes changed in RK9.
+          </p>
         )
       )}
     </Card>
