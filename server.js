@@ -102,7 +102,7 @@ app.get("/events", async (req, res) => {
 app.get("/players/:id", async (req, res) => {
   const id = req.params.id;
   axios
-    .get(`https://www.pokedata.ovh/standings/${id}/masters/${id}_Masters.json`)
+    .get(`https://www.pokedata.ovh/apiv2/tcg/id/${id}/division/masters/light`)
     .then(function (response) {
       // handle success
       res.json(response.data);
