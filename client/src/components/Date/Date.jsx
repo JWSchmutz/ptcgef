@@ -1,5 +1,3 @@
-import React from "react";
-
 function formatTime(hours, minutes) {
   const period = hours >= 12 ? "pm" : "am";
   const formattedHours = hours % 12 || 12;
@@ -7,7 +5,7 @@ function formatTime(hours, minutes) {
   return `${formattedHours}:${formattedMinutes}${period}`;
 }
 
-function formatDate(dateTimeString) {
+function formatDate(apiDateTimeString) {
   const months = [
     "Jan",
     "Feb",
@@ -23,24 +21,40 @@ function formatDate(dateTimeString) {
     "Dec",
   ];
 
-  const date = new Date(dateTimeString);
-  const month = months[date.getMonth()];
-  const day = date.getDate();
-  const hour = date.getHours() + 4;
-  const minute = date.getMinutes();
+  // Step 1: Parse the API string as Eastern Time
+  const [datePart, timePart] = apiDateTimeString.split("T");
+  const [year, month, day] = datePart.split("-").map(Number);
+  const [hour, minute, second] = timePart
+    .replace("Z", "")
+    .split(":")
+    .map(Number);
+
+  // Eastern Time offset (EDT is UTC-4, EST is UTC-5)
+  // Using Date.UTC to handle proper conversion to local timezone automatically
+  const easternDateUTC = new Date(
+    Date.UTC(year, month - 1, day, hour + 4, minute, second)
+  );
+
+  // Step 2: Get local time components
+  const localDate = easternDateUTC;
+  const localMonth = months[localDate.getMonth()];
+  const localDay = localDate.getDate();
+  const localHour = localDate.getHours();
+  const localMinute = localDate.getMinutes();
 
   const suffix =
-    day === 1 || day === 21 || day === 31
+    localDay === 1 || localDay === 21 || localDay === 31
       ? "st"
-      : day === 2 || day === 22
+      : localDay === 2 || localDay === 22
       ? "nd"
-      : day === 3 || day === 23
+      : localDay === 3 || localDay === 23
       ? "rd"
       : "th";
 
-  const formattedDate = `${month} ${day}${suffix}`;
-  const formattedTime = formatTime(hour, minute);
+  const formattedDate = `${localMonth} ${localDay}${suffix}`;
+  const formattedTime = formatTime(localHour, localMinute);
 
   return `${formattedDate} at ${formattedTime}`;
 }
+
 export default formatDate;

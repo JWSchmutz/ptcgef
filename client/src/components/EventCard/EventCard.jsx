@@ -4,6 +4,7 @@ import formatDate from "../Date/Date";
 import Colors from "../../data/Colors.js";
 
 function EventCard({ event }) {
+  console.log(event);
   return (
     <a
       href={event.pokemon_url}
@@ -40,7 +41,11 @@ function EventCard({ event }) {
           </>
         }
         title={`${event?.name} ${
-          event.type === "League Challenge"
+          event?.name.endsWith("Cup") ||
+          event?.name.endsWith("Challenge") ||
+          event?.name.endsWith("Release")
+            ? ""
+            : event.type === "League Challenge"
             ? "League Challenge"
             : event.type === "League Cup"
             ? "League Cup"
