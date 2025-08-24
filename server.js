@@ -59,7 +59,7 @@ app.get("/events", async (req, res) => {
 
   axios
     .get(
-      `https://pokedata.ovh/events/api/_tcg/cups/challenges/_latitude/${lati}/_longitude/${longi}/_radius/250/_unit/miles/_start/${today}`
+      `https://pokedata.ovh/events/api/_tcg/cups/challenges/pre/_latitude/${lati}/_longitude/${longi}/_radius/250/_unit/miles/_start/${today}`
     )
     .then((results) => {
       filteredMerged = results.data.map((event) => {
