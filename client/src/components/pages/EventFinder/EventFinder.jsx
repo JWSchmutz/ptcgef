@@ -166,6 +166,13 @@ function EventFinder() {
     fetch(`/events?x=${coordinates.x}&y=${coordinates.y}`)
       .then((response) => response.json())
       .then((data) => {
+        data.forEach((event) => {
+          if (event.name === "Gemini Games League Challenge") {
+            console.log(event.name);
+            console.log(typeof event.when);
+            console.log(event.when);
+          }
+        });
         data.sort((p1, p2) =>
           p1.date < p2.date ? -1 : p1.date > p2.date ? 1 : 0
         );

@@ -4,6 +4,8 @@ import formatDate from "../Date/Date";
 import Colors from "../../data/Colors.js";
 
 function EventCard({ event }) {
+  if (event.name === "Gemini Games League Challenge")
+    console.log("event.when in event card", typeof event.when, event.when);
   return (
     <a
       href={event.pokemon_url}

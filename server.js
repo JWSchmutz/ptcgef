@@ -63,6 +63,8 @@ app.get("/events", async (req, res) => {
     )
     .then((results) => {
       filteredMerged = results.data.map((event) => {
+        if (event.name === "Gemini Games League Challenge")
+          console.log("event.when pre change", typeof event.when, event.when);
         delete event.TCaccounts;
         delete event.Third_party_registration_website;
         delete event.category;
@@ -89,6 +91,8 @@ app.get("/events", async (req, res) => {
         delete event.status;
         delete event.state;
         event.when = event.when.replace(" ", "T");
+        if (event.name === "Gemini Games League Challenge")
+          console.log("event.when post change", typeof event.when, event.when);
         return event;
       });
       res.json(results.data);
