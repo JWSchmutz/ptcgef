@@ -6,6 +6,8 @@ function formatTime(hours, minutes) {
 }
 
 function formatDate(apiDateTimeString) {
+  const date = new Date(apiDateTimeString); // JS parses it in local timezone
+
   const months = [
     "Jan",
     "Feb",
@@ -21,40 +23,24 @@ function formatDate(apiDateTimeString) {
     "Dec",
   ];
 
-  // Step 1: Parse the API string as Eastern Time
-  const [datePart, timePart] = apiDateTimeString.split("T");
-  const [year, month, day] = datePart.split("-").map(Number);
-  const [hour, minute, second] = timePart
-    .replace("Z", "")
-    .split(":")
-    .map(Number);
-
-  // Eastern Time offset (EDT is UTC-4, EST is UTC-5)
-  // Using Date.UTC to handle proper conversion to local timezone automatically
-  const easternDateUTC = new Date(
-    Date.UTC(year, month - 1, day, hour + 4, minute, second)
-  );
-
-  // Step 2: Get local time components
-  const localDate = easternDateUTC;
-  const localMonth = months[localDate.getMonth()];
-  const localDay = localDate.getDate();
-  const localHour = localDate.getHours();
-  const localMinute = localDate.getMinutes();
-
+  const day = date.getDate();
   const suffix =
-    localDay === 1 || localDay === 21 || localDay === 31
+    day === 1 || day === 21 || day === 31
       ? "st"
-      : localDay === 2 || localDay === 22
+      : day === 2 || day === 22
       ? "nd"
-      : localDay === 3 || localDay === 23
+      : day === 3 || day === 23
       ? "rd"
       : "th";
 
-  const formattedDate = `${localMonth} ${localDay}${suffix}`;
-  const formattedTime = formatTime(localHour, localMinute);
+  const formattedDate = `${months[date.getMonth()]} ${day}${suffix}`;
 
-  return `${formattedDate} at ${formattedTime}`;
+  const hours = date.getHours();
+  const minutes = date.getMinutes().toString().padStart(2, "0");
+  const period = hours >= 12 ? "PM" : "AM";
+  const formattedHours = hours % 12 || 12;
+
+  return `${formattedDate} at ${formattedHours}:${minutes} ${period}`;
 }
 
 export default formatDate;

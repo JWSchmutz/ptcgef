@@ -88,8 +88,7 @@ app.get("/events", async (req, res) => {
         delete event.tournament_date;
         delete event.status;
         delete event.state;
-        event.when = event.when.replace(" ", "T") + "Z";
-
+        event.when = event.when.replace(" ", "T");
         return event;
       });
       res.json(results.data);
