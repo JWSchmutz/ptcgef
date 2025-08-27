@@ -88,10 +88,8 @@ app.get("/events", async (req, res) => {
         delete event.tournament_date;
         delete event.status;
         delete event.state;
-        if (event.name.includes("Gemini")) console.log(event.when);
         event.when = event.when.replace(" ", "T");
         event.when = new Date(event.when);
-        if (event.name.includes("Gemini")) console.log(event.when);
         return event;
       });
       res.json(results.data);
