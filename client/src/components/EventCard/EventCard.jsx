@@ -3,6 +3,8 @@ import formatDate from "../Date/Date";
 import Colors from "../../data/Colors.js";
 
 function EventCard({ event }) {
+  console.log(event.when);
+  console.log(typeof event.when);
   return (
     <a
       href={event.pokemon_url}

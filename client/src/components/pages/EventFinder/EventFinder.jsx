@@ -169,6 +169,8 @@ function EventFinder() {
         data.sort((p1, p2) =>
           p1.date < p2.date ? -1 : p1.date > p2.date ? 1 : 0
         );
+        console.log(typeof data[0].when);
+        console.log(data[0].when);
         setAllEvents(data);
         setFetched(true);
         return getDesiredEvents();
