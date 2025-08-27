@@ -88,8 +88,8 @@ app.get("/events", async (req, res) => {
         delete event.tournament_date;
         delete event.status;
         delete event.state;
-        event.when = event.when.replace(" ", "T");
-        event.when = new Date(event.when);
+        event.when = event.when.replace(" ", "T") + "Z";
+
         return event;
       });
       res.json(results.data);
@@ -156,6 +156,216 @@ app.get("/tournaments", async (req, res) => {
     .finally(function () {
       // always executed
     });
+});
+
+app.post("/upload", upload.single("image"), async (req, res) => {
+  let isPhone = false;
+  const eky1 = "d555efb7c422f380e";
+  const eky2 = "163e4a76";
+  const eky3 = "f25c65079048540";
+  const dimensions = JSON.parse(req.body.dimensions);
+  if (dimensions.width < dimensions.height) isPhone = true;
+  try {
+    const imagePath = path.resolve(req.file.path); // Ensure this points to the uploaded image file
+
+    // Create a FormData instance and append the image file
+    const formData = new FormData();
+    formData.append("image", fs.createReadStream(imagePath)); // Attach the image file
+
+    const response = await axios.post(
+      "https://www.imagetotext.info/api/imageToText",
+      formData,
+      {
+        headers: {
+          ...formData.getHeaders(), // Include form-data-specific headers
+          Authorization: "Bearer " + eky2 + eky1 + eky3,
+        },
+        maxRedirects: 10,
+        timeout: 0,
+      }
+    );
+    let textArray = response.data.result
+      .replace(/(\r\n|\n|\r)/gm, "")
+      .split("<br />");
+    const player1 = {};
+    const player2 = {};
+    textArray = textArray.filter((ele) => {
+      if (ele === "V" || ele === "VS" || ele === "S") return true;
+      if (parseInt(ele) > 0) {
+        if (ele.length !== 4) return false;
+        else if (ele === "2023") return false;
+        else if (ele === "2024") return false;
+        else if (ele === "2025") return false;
+        return true;
+      }
+
+      if (ele.length > 15 || ele.length < 3) return false;
+      else if (ele === "Pokemo") return false;
+      else if (ele === "Pokem") return false;
+      else if (ele === "Poke") return false;
+      else if (ele === "Pokey") return false;
+      else if (ele === "Peken") return false;
+      else if (ele === "Pokemon") return false;
+      else if (ele === "CUP") return false;
+      else if (ele === "PLAYERS") return false;
+      else if (ele === "compassion") return false;
+      else if (ele === "I could Win") return false;
+      else if (ele === "Angham") return false;
+      else if (ele === "Anaheim") return false;
+      else if (ele === "bottle") return false;
+      else if (ele === "STATS") return false;
+      else if (ele === "Paken") return false;
+      else if (ele === "YOKOHAMA") return false;
+      else if (
+        ele.includes("Pokém") ||
+        ele.includes("PokeNo") ||
+        ele.includes("PokeM") ||
+        ele.includes("PokéM") ||
+        ele.includes("POKEM") ||
+        ele.includes("Роком")
+      )
+        return false;
+      else if (
+        ele.includes(".") ||
+        ele.includes("!") ||
+        ele.includes("?") ||
+        ele.includes("&")
+      )
+        return false;
+      else if (ele.includes("LIVE")) return false;
+
+      return true;
+    });
+    if (
+      (textArray.indexOf("VS") === 2 ||
+        textArray.indexOf("V") === 2 ||
+        textArray.indexOf("S") === 2) &&
+      !isPhone
+    ) {
+      player1.elo = parseInt(textArray[0]);
+      player1.username = textArray[1];
+      player2.username = textArray[3];
+      player2.elo = parseInt(textArray[4]);
+    }
+    if (isPhone) {
+      textArray = textArray.filter((el) => !["V", "S", "VS"].includes(el));
+      player1.elo = parseInt(textArray[0]);
+      player1.username = textArray[2];
+      player2.username = textArray[1];
+      player2.elo = parseInt(textArray[3]);
+      //[03, manuel, 51, jhollen]
+      if (isNaN(player2.elo)) {
+        player1.elo = parseInt(textArray[0]);
+        player1.username = textArray[3];
+        player2.username = textArray[1];
+        player2.elo = parseInt(textArray[2]);
+      }
+    }
+
+    const dp2 = path.join(__dirname, "db2.json");
+
+    // Read the existing JSON file
+    fs.readFile(dp2, "utf8", (err, data) => {
+      if (err) {
+        console.error("Error reading db2.json:", err);
+        return;
+      }
+
+      let jsonArray;
+      try {
+        // Parse the file contents to a JavaScript array
+        jsonArray = JSON.parse(data);
+      } catch (parseErr) {
+        console.error("Error parsing JSON:", parseErr);
+        return;
+      }
+
+      // Push textArray into the existing JSON array
+      jsonArray.push(textArray);
+
+      // Write the updated array back to the file
+      fs.writeFile(
+        dp2,
+        JSON.stringify(jsonArray, null, 2),
+        "utf8",
+        (writeErr) => {
+          if (writeErr) {
+            console.error("Error writing to db2.json:", writeErr);
+            return;
+          }
+        }
+      );
+    });
+
+    const dataPath = path.join(__dirname, "db.json");
+
+    // Read the existing JSON file
+    fs.readFile(dataPath, "utf8", (err, data) => {
+      if (err) {
+        console.error("Error reading data.json:", err);
+        return;
+      }
+
+      let jsonArray;
+      try {
+        // Parse the file contents to a JavaScript array
+        jsonArray = JSON.parse(data);
+      } catch (parseErr) {
+        console.error("Error parsing JSON:", parseErr);
+        return;
+      }
+
+      // Function to update or add a player
+      const upsertPlayer = (player) => {
+        const existingIndex = jsonArray.findIndex(
+          (item) => item.username === player.username
+        );
+
+        if (existingIndex !== -1) {
+          // Overwrite the existing entry
+          jsonArray[existingIndex] = player;
+        } else {
+          // Add as a new entry
+          jsonArray.push(player);
+        }
+      };
+
+      // Update or add player1 and player2
+      upsertPlayer(player1);
+      upsertPlayer(player2);
+
+      // Write the updated array back to the file
+      fs.writeFile(
+        dataPath,
+        JSON.stringify(jsonArray, null, 2),
+        "utf8",
+        (writeErr) => {
+          if (writeErr) {
+            console.error("Error writing to data.json:", writeErr);
+            return;
+          }
+          fs.unlink(imagePath, (unlinkErr) => {
+            if (unlinkErr) {
+              console.error("Error deleting file:", unlinkErr);
+              return;
+            }
+          });
+        }
+      );
+    });
+    res.end;
+    res.json({
+      message: "Image uploaded and processed successfully!",
+      player1,
+      player2,
+      textArray,
+    });
+  } catch (error) {
+    console.error(
+      "Error:",
+      error.response ? error.response.data : error.message
+    );
+  }
 });
 
 app.get("*", function (_, res) {

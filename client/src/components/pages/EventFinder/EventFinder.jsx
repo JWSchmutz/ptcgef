@@ -157,6 +157,7 @@ function EventFinder() {
   ]);
 
   useEffect(() => {
+    console.log("eventFinder use effect");
     if (!coordinates) return;
     setIsLoading(true);
     if (Date.now() - localStorage.getItem("lastFetched") < 21600000) {
