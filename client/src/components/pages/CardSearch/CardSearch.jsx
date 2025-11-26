@@ -9,7 +9,7 @@ import SearchContext from "../../../context/search-context";
 import PokemonCard from "../../PokemonCard/PokemonCard";
 import "./CardSearch.css";
 import CardApi from "../../CardApi/CardApi.jsx";
-// import "../../../data/originalJsonResponse.js";
+import "../../../data/allStandardLegalCards.js";
 
 function CardSearch() {
   const [showAll, setShowAll] = useState(false);
