@@ -8,7 +8,6 @@ import FilterContext from "../../../context/filter-context";
 import SearchContext from "../../../context/search-context";
 import PokemonCard from "../../PokemonCard/PokemonCard";
 import "./CardSearch.css";
-import CardApi from "../../CardApi/CardApi.jsx";
 import "../../../data/allStandardLegalCards.js";
 
 function CardSearch() {
@@ -35,7 +34,6 @@ function CardSearch() {
   return (
     <FilterContext.Provider value={{ cardsToShow: "hi", setCardsToShow }}>
       <SearchContext.Provider value={{ searchText, setSearchText }}>
-        {/* <CardApi></CardApi> */}
         <div id="card-search">
           <h2 className="page-title">Card Search</h2>
           {showModal && (

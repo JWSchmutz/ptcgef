@@ -42,6 +42,7 @@ let allStandardLegalCards = [
 
 console.log("aslc", allStandardLegalCards);
 
+// Remove unwanted fields
 allStandardLegalCards.forEach((card) => {
   delete card.cardmarket;
   delete card.tcgplayer;
@@ -50,48 +51,124 @@ allStandardLegalCards.forEach((card) => {
   delete card.legality;
 });
 
+// Sorting helpers
 let byName = (a, b) => {
-  if (a.name < b.name) {
-    return -1;
-  }
-  if (a.name > b.name) {
-    return 1;
-  }
+  if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
   return 0;
 };
 
-console.log(
-  "Pokémon",
-  allStandardLegalCards
-    .filter(
-      (card) => card.regulationMark !== "G" && card.supertype === "Pokémon",
-    )
-    .sort(byName),
-);
-console.log(
-  "trainer",
-  allStandardLegalCards
-    .filter(
-      (card) => card.regulationMark !== "G" && card.supertype === "Trainer",
-    )
-    .sort(byName),
-);
 let bySubtype = (a, b) => {
-  if (a.subtypes[0] < b.subtypes[0]) {
-    return 1;
-  }
-  if (a.subtypes[0] > b.subtypes[0]) {
-    return -1;
-  }
+  if (a.subtypes?.[0] < b.subtypes?.[0]) return 1;
+  if (a.subtypes?.[0] > b.subtypes?.[0]) return -1;
   return 0;
 };
 
-console.log(
-  "energy",
-  allStandardLegalCards
-    .filter(
-      (card) => card.regulationMark !== "G" && card.supertype === "Energy",
-    )
-    .sort(byName)
-    .sort(bySubtype),
+// --- KEY GENERATORS ---
+
+// Trainers & Energy share the same structure
+function getTrainerOrEnergyKey(card) {
+  return JSON.stringify({
+    name: card.name,
+    supertype: card.supertype,
+    subtypes: card.subtypes,
+    rules: card.rules ? [...card.rules].sort() : [],
+    regulationMark: card.regulationMark,
+    hp: card.hp,
+    evolvesTo: card.evolvesTo,
+    abilities: card.abilities,
+    types: card.types,
+    attacks: card.attacks,
+    weaknesses: card.weaknesses,
+    retreatCost: card.retreatCost,
+    convertedRetreatCost: card.convertedRetreatCost,
+    nationalPokedexNumbers: card.nationalPokedexNumbers,
+  });
+}
+
+// Pokémon need their own key because they have more gameplay fields
+function getPokemonKey(card) {
+  return JSON.stringify({
+    name: card.name,
+    supertype: card.supertype,
+    subtypes: card.subtypes,
+    hp: card.hp,
+    types: card.types,
+    evolvesFrom: card.evolvesFrom,
+    evolvesTo: card.evolvesTo,
+    abilities: card.abilities,
+    attacks: card.attacks,
+    weaknesses: card.weaknesses,
+    resistances: card.resistances,
+    retreatCost: card.retreatCost,
+    regulationMark: card.regulationMark,
+    nationalPokedexNumbers: card.nationalPokedexNumbers,
+  });
+}
+
+// --- GENERIC GROUPING FUNCTION ---
+function groupAndStack(cards, keyFn) {
+  const unique = [];
+
+  cards.forEach((card) => {
+    const key = keyFn(card);
+    const match = unique.find((c) => keyFn(c) === key);
+
+    if (match) {
+      match.altArts.push({
+        id: card.id,
+        number: card.number,
+        images: card.images,
+        flavorText: card.flavorText ?? "",
+      });
+    } else {
+      unique.push({
+        ...card,
+        altArts: [
+          {
+            id: card.id,
+            number: card.number,
+            images: card.images,
+            flavorText: card.flavorText ?? "",
+          },
+        ],
+      });
+    }
+  });
+
+  return unique;
+}
+
+// --- ENERGY ---
+const energyCards = allStandardLegalCards.filter(
+  (card) => card.regulationMark !== "G" && card.supertype === "Energy",
 );
+
+const uniqueEnergy = groupAndStack(energyCards, getTrainerOrEnergyKey);
+console.log("energy (stacked)", uniqueEnergy.sort(byName).sort(bySubtype));
+
+// --- TRAINERS ---
+const trainerCards = allStandardLegalCards.filter(
+  (card) => card.regulationMark !== "G" && card.supertype === "Trainer",
+);
+
+const uniqueTrainers = groupAndStack(trainerCards, getTrainerOrEnergyKey);
+console.log("trainer (stacked)", uniqueTrainers.sort(byName));
+
+// Remove repeats: keep only first variant for each unique card
+const seenKeys = new Set();
+const filteredUniqueTrainers = uniqueTrainers.filter((card) => {
+  const key = getTrainerOrEnergyKey(card);
+  if (seenKeys.has(key)) return false;
+  seenKeys.add(key);
+  return true;
+});
+console.log("trainer (stacked, filtered)", filteredUniqueTrainers);
+
+// --- POKÉMON ---
+const pokemonCards = allStandardLegalCards.filter(
+  (card) => card.regulationMark !== "G" && card.supertype === "Pokémon",
+);
+
+const uniquePokemon = groupAndStack(pokemonCards, getPokemonKey);
+console.log("pokemon (stacked)", uniquePokemon.sort(byName));
