@@ -16,6 +16,7 @@ import sv10 from "./legalSets/sv10.json";
 import svp from "./legalSets/svp.json";
 import me1 from "./legalSets/me1.json";
 import me2 from "./legalSets/me2.json";
+import me2pt5 from "./legalSets/me2pt5.json";
 
 // Merge all arrays into one big array
 let allStandardLegalCards = [
@@ -36,6 +37,7 @@ let allStandardLegalCards = [
   ...svp,
   ...me1,
   ...me2,
+  ...me2pt5,
 ];
 
 console.log("aslc", allStandardLegalCards);
@@ -61,14 +63,18 @@ let byName = (a, b) => {
 console.log(
   "Pokémon",
   allStandardLegalCards
-    .filter((card) => card.supertype === "Pokémon")
-    .sort(byName)
+    .filter(
+      (card) => card.regulationMark !== "G" && card.supertype === "Pokémon",
+    )
+    .sort(byName),
 );
 console.log(
   "trainer",
   allStandardLegalCards
-    .filter((card) => card.supertype === "Trainer")
-    .sort(byName)
+    .filter(
+      (card) => card.regulationMark !== "G" && card.supertype === "Trainer",
+    )
+    .sort(byName),
 );
 let bySubtype = (a, b) => {
   if (a.subtypes[0] < b.subtypes[0]) {
@@ -83,7 +89,9 @@ let bySubtype = (a, b) => {
 console.log(
   "energy",
   allStandardLegalCards
-    .filter((card) => card.supertype === "Energy")
+    .filter(
+      (card) => card.regulationMark !== "G" && card.supertype === "Energy",
+    )
     .sort(byName)
-    .sort(bySubtype)
+    .sort(bySubtype),
 );

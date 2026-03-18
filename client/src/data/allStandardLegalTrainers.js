@@ -105,6 +105,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-180",
+    name: "Acerola's Mischief",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if your opponent has 2 or fewer Prize cards remaining.  Choose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "180",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-180/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-180/large",
+    },
+  },
+  {
     id: "me1-166",
     name: "Air Balloon",
     supertype: "Trainer",
@@ -123,6 +144,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/166.png",
       large: "https://images.pokemontcg.io/me1/166_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-181",
+    name: "Air Balloon",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "181",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-181/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-181/large",
     },
   },
   {
@@ -251,6 +293,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv5/140.png",
       large: "https://images.pokemontcg.io/sv5/140_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-182",
+    name: "Anthea & Concordia",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you have N's Darmanitan, N's Zoroark ex, N's Vanilluxe, N's Klinklang, N's Reshiram, and N's Zekrom in play.  During this turn, if your opponent's Active Pokémon is Knocked Out by damage from an attack used by your N's Pokémon, take 3 more Prize cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "182",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-182/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-182/large",
+    },
+  },
+  {
+    id: "me2pt5-254",
+    name: "Anthea & Concordia",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you have N's Darmanitan, N's Zoroark ex, N's Vanilluxe, N's Klinklang, N's Reshiram, and N's Zekrom in play.  During this turn, if your opponent's Active Pokémon is Knocked Out by damage from an attack used by your N's Pokémon, take 3 more Prize cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "254",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-254/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-254/large",
     },
   },
   {
@@ -1182,6 +1266,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-255",
+    name: "Black Belt's Training",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "During this turn, attacks used by your Pokémon do 40 more damage to your opponent's Active Pokémon ex (before applying Weakness and Resistance).",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "255",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-255/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-255/large",
+    },
+  },
+  {
     id: "me2-86",
     name: "Blowtorch",
     supertype: "Trainer",
@@ -1242,6 +1347,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/114.png",
       large: "https://images.pokemontcg.io/me1/114_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-183",
+    name: "Boss's Orders",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "183",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-183/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-183/large",
+    },
+  },
+  {
+    id: "me2pt5-256",
+    name: "Boss's Orders",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "256",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-256/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-256/large",
     },
   },
   {
@@ -1645,6 +1792,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-184",
+    name: "Buddy-Buddy Poffin",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "184",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-184/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-184/large",
+    },
+  },
+  {
     id: "sv6-143",
     name: "Bug Catching Set",
     supertype: "Trainer",
@@ -1747,6 +1915,69 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv8/165.png",
       large: "https://images.pokemontcg.io/sv8/165_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-185",
+    name: "Canari",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Search your deck for up to 4 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "185",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-185/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-185/large",
+    },
+  },
+  {
+    id: "me2pt5-257",
+    name: "Canari",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Search your deck for up to 4 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "257",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-257/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-257/large",
+    },
+  },
+  {
+    id: "me2pt5-291",
+    name: "Canari",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Search your deck for up to 4 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "291",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-291/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-291/large",
     },
   },
   {
@@ -1936,6 +2167,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv6pt5/94.png",
       large: "https://images.pokemontcg.io/sv6pt5/94_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-258",
+    name: "Cheren",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Draw 3 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "258",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-258/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-258/large",
     },
   },
   {
@@ -2402,6 +2654,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv8/249.png",
       large: "https://images.pokemontcg.io/sv8/249_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-186",
+    name: "Counter Gain",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost Colorless less.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "186",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-186/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-186/large",
+    },
+  },
+  {
+    id: "me2pt5-259",
+    name: "Counter Gain",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost Colorless less.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "259",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-259/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-259/large",
     },
   },
   {
@@ -3878,6 +4172,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-187",
+    name: "Fighting Gong",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Search your deck for a Basic Fighting Energy card or a Basic Fighting Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "187",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-187/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-187/large",
+    },
+  },
+  {
     id: "me2-89",
     name: "Firebreather",
     supertype: "Trainer",
@@ -3938,6 +4253,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/117.png",
       large: "https://images.pokemontcg.io/me1/117_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-188",
+    name: "Forest of Vitality",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Each player's Grass Pokémon can evolve into Grass Pokémon during the turn they play those Pokémon, except during their first turn.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "188",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-188/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-188/large",
     },
   },
   {
@@ -4295,6 +4631,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv8pt5/110.png",
       large: "https://images.pokemontcg.io/sv8pt5/110_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-189",
+    name: "Glass Trumpet",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You can use this card only if you have any Tera Pokémon in play.  Choose up to 2 of your Benched Colorless Pokémon and attach a Basic Energy card from your discard pile to each of them.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "189",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-189/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-189/large",
+    },
+  },
+  {
+    id: "me2pt5-260",
+    name: "Glass Trumpet",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You can use this card only if you have any Tera Pokémon in play.  Choose up to 2 of your Benched Colorless Pokémon and attach a Basic Energy card from your discard pile to each of them.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "260",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-260/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-260/large",
     },
   },
   {
@@ -4933,6 +5311,48 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-190",
+    name: "Iris's Fighting Spirit",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Draw cards until you have 6 cards in your hand.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "190",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-190/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-190/large",
+    },
+  },
+  {
+    id: "me2pt5-292",
+    name: "Iris's Fighting Spirit",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you discard another card from your hand.  Draw cards until you have 6 cards in your hand.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "292",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-292/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-292/large",
+    },
+  },
+  {
     id: "me1-118",
     name: "Iron Defender",
     supertype: "Trainer",
@@ -5056,6 +5476,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv10/243.png",
       large: "https://images.pokemontcg.io/sv10/243_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-261",
+    name: "Jamming Tower",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Pokémon Tools attached to each Pokémon (both yours and your opponent's) have no effect.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "261",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-261/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-261/large",
     },
   },
   {
@@ -5837,6 +6278,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-191",
+    name: "Light Ball",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "Attacks used by the Pikachu ex this card is attached to do 50 more damage to your opponent's Active Pokémon ex (before applying Weakness and Resistance).",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "191",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-191/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-191/large",
+    },
+  },
+  {
     id: "me1-119",
     name: "Lillie's Determination",
     supertype: "Trainer",
@@ -5897,6 +6359,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/184.png",
       large: "https://images.pokemontcg.io/me1/184_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-192",
+    name: "Lillie's Determination",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "192",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-192/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-192/large",
     },
   },
   {
@@ -6346,6 +6829,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-193",
+    name: "Mega Signal",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "193",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-193/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-193/large",
+    },
+  },
+  {
     id: "sv8-182",
     name: "Megaton Blower",
     supertype: "Trainer",
@@ -6684,6 +7188,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-194",
+    name: "Mystery Garden",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have Psychic Pokémon in play.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "194",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-194/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-194/large",
+    },
+  },
+  {
     id: "sv9-152",
     name: "N's Castle",
     supertype: "Trainer",
@@ -6723,6 +7248,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv9/153.png",
       large: "https://images.pokemontcg.io/sv9/153_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-195",
+    name: "N's PP Up",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Attach a Basic Energy card from your discard pile to 1 of your Benched N's Pokémon.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "195",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-195/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-195/large",
+    },
+  },
+  {
+    id: "me2pt5-262",
+    name: "N's PP Up",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Attach a Basic Energy card from your discard pile to 1 of your Benched N's Pokémon.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "262",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-262/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-262/large",
     },
   },
   {
@@ -6976,6 +7543,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/173.png",
       large: "https://images.pokemontcg.io/me1/173_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-196",
+    name: "Night Stretcher",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "196",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-196/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-196/large",
+    },
+  },
+  {
+    id: "me2pt5-197",
+    name: "Nighttime Mine",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Attacks used by each Tera Pokémon in play (both yours and your opponent's) cost Colorless more.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "197",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-197/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-197/large",
     },
   },
   {
@@ -7653,6 +8262,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-198",
+    name: "Poké Pad",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Search your deck for a Pokémon that doesn't have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "198",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-198/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-198/large",
+    },
+  },
+  {
     id: "sv6pt5-62",
     name: "Poké Vital A",
     supertype: "Trainer",
@@ -7988,6 +8618,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/me1/174.png",
       large: "https://images.pokemontcg.io/me1/174_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-199",
+    name: "Premium Power Pro",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "During this turn, attacks used by your Fighting Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "199",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-199/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-199/large",
     },
   },
   {
@@ -9642,6 +10293,48 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-200",
+    name: "Surfer",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw cards until you have 5 cards in your hand.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "200",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-200/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-200/large",
+    },
+  },
+  {
+    id: "me2pt5-293",
+    name: "Surfer",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw cards until you have 5 cards in your hand.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "293",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-293/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-293/large",
+    },
+  },
+  {
     id: "me1-129",
     name: "Surfing Beach",
     supertype: "Trainer",
@@ -9834,6 +10527,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-201",
+    name: "Team Rocket's Archer",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if any of your Team Rocket's Pokémon were Knocked Out during your opponent's last turn.  Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "201",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-201/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-201/large",
+    },
+  },
+  {
     id: "sv10-171",
     name: "Team Rocket's Ariana",
     supertype: "Trainer",
@@ -9897,6 +10611,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-202",
+    name: "Team Rocket's Ariana",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Draw cards until you have 5 cards in your hand. If all of your Pokémon in play are Team Rocket's Pokémon, draw cards until you have 8 cards in your hand instead.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "202",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-202/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-202/large",
+    },
+  },
+  {
     id: "sv10-172",
     name: "Team Rocket's Bother-Bot",
     supertype: "Trainer",
@@ -9936,6 +10671,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv10/173.png",
       large: "https://images.pokemontcg.io/sv10/173_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-203",
+    name: "Team Rocket's Factory",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      'Once during each player\'s turn, if they played a Supporter card that has "Team Rocket" in its name from their hand this turn, they may draw 2 cards.',
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "203",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-203/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-203/large",
     },
   },
   {
@@ -10002,6 +10758,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-204",
+    name: "Team Rocket's Giovanni",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch your Active Team Rocket's Pokémon with 1 of your Benched Team Rocket's Pokémon. If you do, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "204",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-204/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-204/large",
+    },
+  },
+  {
     id: "sv10-175",
     name: "Team Rocket's Great Ball",
     supertype: "Trainer",
@@ -10020,6 +10797,49 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv10/175.png",
       large: "https://images.pokemontcg.io/sv10/175_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-205",
+    name: "Team Rocket's Great Ball",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Flip a coin. If heads, search your deck for an Evolution Team Rocket's Pokémon, reveal it, and put it into your hand. If tails, search your deck for a Basic Team Rocket's Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "205",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-205/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-205/large",
+    },
+  },
+  {
+    id: "me2pt5-206",
+    name: "Team Rocket's Hypnotizer",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If the Team Rocket's Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Team Rocket's Pokémon is Knocked Out), the Attacking Pokémon is now Asleep.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "206",
+    nationalPokedexNumbers: [97],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-206/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-206/large",
     },
   },
   {
@@ -10065,6 +10885,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-207",
+    name: "Team Rocket's Petrel",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "207",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-207/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-207/large",
+    },
+  },
+  {
     id: "sv10-177",
     name: "Team Rocket's Proton",
     supertype: "Trainer",
@@ -10107,6 +10948,27 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-208",
+    name: "Team Rocket's Proton",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "If you go first, you may use this card during your first turn.  Search your deck for up to 3 Basic Team Rocket's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "208",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-208/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-208/large",
+    },
+  },
+  {
     id: "sv10-178",
     name: "Team Rocket's Transceiver",
     supertype: "Trainer",
@@ -10125,6 +10987,48 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv10/178.png",
       large: "https://images.pokemontcg.io/sv10/178_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-209",
+    name: "Team Rocket's Transceiver",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      'Search your deck for a Supporter card that has "Team Rocket" in its name, reveal it, and put it into your hand. Then, shuffle your deck.',
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "209",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-209/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-209/large",
+    },
+  },
+  {
+    id: "me2pt5-263",
+    name: "Team Rocket's Transceiver",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      'Search your deck for a Supporter card that has "Team Rocket" in its name, reveal it, and put it into your hand. Then, shuffle your deck.',
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "263",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-263/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-263/large",
     },
   },
   {
@@ -10167,6 +11071,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv10/180.png",
       large: "https://images.pokemontcg.io/sv10/180_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-210",
+    name: "Team Rocket's Watchtower",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Colorless Pokémon in play (both yours and your opponent's) have no Abilities.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "210",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-210/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-210/large",
     },
   },
   {
@@ -10477,6 +11402,48 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-211",
+    name: "Thick Scale",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "The Dragon Pokémon this card is attached to takes 50 less damage from attacks from your opponent's Grass, Fire, Water, or Lightning Pokémon (after applying Weakness and Resistance).",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    number: "211",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-211/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-211/large",
+    },
+  },
+  {
+    id: "me2pt5-212",
+    name: "Tool Scrapper",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent's) and discard them.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "212",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-212/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-212/large",
+    },
+  },
+  {
     id: "sv3-196",
     name: "Town Store",
     supertype: "Trainer",
@@ -10689,6 +11656,48 @@ const allStandardLegalTrainers = [
     },
   },
   {
+    id: "me2pt5-213",
+    name: "Ultra Ball",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "213",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-213/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-213/large",
+    },
+  },
+  {
+    id: "me2pt5-264",
+    name: "Ultra Ball",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "264",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-264/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-264/large",
+    },
+  },
+  {
     id: "sv6-165",
     name: "Unfair Stamp",
     supertype: "Trainer",
@@ -10709,6 +11718,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv6/165.png",
       large: "https://images.pokemontcg.io/sv6/165_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-214",
+    name: "Urbain",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Draw 3 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "214",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-214/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-214/large",
     },
   },
   {
@@ -10751,6 +11781,27 @@ const allStandardLegalTrainers = [
     images: {
       small: "https://images.pokemontcg.io/sv1/197.png",
       large: "https://images.pokemontcg.io/sv1/197_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-215",
+    name: "Waitress",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Look at the top 6 cards of your deck and attach a Basic Energy card you find there to 1 of your Pokémon. Shuffle the other cards back into your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "215",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-215/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-215/large",
     },
   },
   {

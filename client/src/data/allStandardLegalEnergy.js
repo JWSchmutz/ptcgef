@@ -226,6 +226,26 @@ const allStandardLegalEnergy = [
     },
   },
   {
+    id: "me2pt5-216",
+    name: "Prism Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.",
+    ],
+    number: "216",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-216/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-216/large",
+    },
+  },
+  {
     id: "sv2-192",
     name: "Reversal Energy",
     supertype: "Energy",
@@ -323,6 +343,26 @@ const allStandardLegalEnergy = [
     images: {
       small: "https://images.pokemontcg.io/sv10/182.png",
       large: "https://images.pokemontcg.io/sv10/182_hires.png",
+    },
+  },
+  {
+    id: "me2pt5-217",
+    name: "Team Rocket's Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "This card can only be attached to a Team Rocket's Pokémon. If this card is attached to anything other than a Team Rocket's Pokémon, discard this card.  As long as this card is attached to a Pokémon, it provides 2 in any combination of Psychic Energy and Darkness Energy.",
+    ],
+    number: "217",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me2pt5-217/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-217/large",
     },
   },
   {
