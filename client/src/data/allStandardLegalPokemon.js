@@ -79596,4 +79596,13 @@ const allStandardLegalPokemon = [
     ],
   },
 ];
+
+allStandardLegalPokemon.forEach((pokemon) => {
+  if (!pokemon.rules || !pokemon?.rules[0].includes("Prize cards")) {
+    pokemon.subtypes.push("1 Prizer");
+  }
+  if (!pokemon.retreatCost) pokemon.subtypes.push("Free Retreat");
+  if (pokemon.abilities) pokemon.subtypes.push("Ability");
+});
+
 export default allStandardLegalPokemon;
