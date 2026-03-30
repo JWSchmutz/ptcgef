@@ -18,6 +18,8 @@ import me1 from "./legalSets/me1.json";
 import me2 from "./legalSets/me2.json";
 import me2pt5 from "./legalSets/me2pt5.json";
 import me3 from "./legalSets/me3.json";
+import bwz from "./legalSets/bwz.json";
+import bwr from "./legalSets/bwr.json";
 
 // Merge all arrays into one big array
 let allStandardLegalCards = [
@@ -36,6 +38,8 @@ let allStandardLegalCards = [
   ...sv9,
   ...sv10,
   ...svp,
+  ...bwz,
+  ...bwr,
   ...me1,
   ...me2,
   ...me2pt5,

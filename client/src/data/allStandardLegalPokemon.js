@@ -331,6 +331,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-9",
+    name: "Accelgor",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Shelmet",
+    attacks: [
+      {
+        name: "Acid Spray",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "9",
+    flavorText:
+      "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+    nationalPokedexNumbers: [617],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/9.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/9_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-9",
+        number: "9",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/9.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/9_hires.png",
+        },
+        flavorText:
+          "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+      },
+      {
+        id: "rsv10pt5-94",
+        number: "94",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/94.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/94_hires.png",
+        },
+        flavorText:
+          "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+      },
+    ],
+  },
+  {
     id: "me3-58",
     name: "Aegislash",
     supertype: "Pokémon",
@@ -1294,6 +1356,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-24",
+    name: "Alomomola",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Water"],
+    abilities: [
+      {
+        name: "Gentle Fin",
+        text: "Once during your turn, if this Pokémon is in the Active Spot, you may put a Basic Pokémon with 70 HP or less from your discard pile onto your Bench.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Waterfall",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "24",
+    flavorText:
+      "The special membrane enveloping Alomomola has the ability to heal wounds.",
+    nationalPokedexNumbers: [594],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/24.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/24_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-24",
+        number: "24",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/24.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/24_hires.png",
+        },
+        flavorText:
+          "The special membrane enveloping Alomomola has the ability to heal wounds.",
+      },
+      {
+        id: "zsv10pt5-108",
+        number: "108",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/108.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/108_hires.png",
+        },
+        flavorText:
+          "The special membrane enveloping Alomomola has the ability to heal wounds.",
+      },
+    ],
+  },
+  {
     id: "sv8-134",
     name: "Altaria",
     supertype: "Pokémon",
@@ -1517,6 +1647,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-11",
+    name: "Amoonguss",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Foongus",
+    attacks: [
+      {
+        name: "Dangerous Reaction",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 120 more damage.",
+      },
+      {
+        name: "Seed Bomb",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "11",
+    flavorText:
+      "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+    nationalPokedexNumbers: [591],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/11.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/11_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-11",
+        number: "11",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/11.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/11_hires.png",
+        },
+        flavorText:
+          "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+      },
+      {
+        id: "zsv10pt5-96",
+        number: "96",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/96.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/96_hires.png",
+        },
+        flavorText:
+          "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
       },
     ],
   },
@@ -2486,6 +2685,138 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-50",
+    name: "Archen",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Fighting"],
+    evolvesFrom: "Antiuqe Plume Fossil",
+    evolvesTo: ["Archeops"],
+    attacks: [
+      {
+        name: "Acrobatics",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "Flip 2 coins. This attack does 30 more damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "50",
+    flavorText:
+      "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+    nationalPokedexNumbers: [566],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/50.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/50_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-50",
+        number: "50",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/50.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/50_hires.png",
+        },
+        flavorText:
+          "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+      },
+      {
+        id: "rsv10pt5-131",
+        number: "131",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/131.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/131_hires.png",
+        },
+        flavorText:
+          "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-51",
+    name: "Archeops",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "140",
+    types: ["Fighting"],
+    evolvesFrom: "Archen",
+    abilities: [
+      {
+        name: "Ancient Wing",
+        text: "Once during your turn, if this Pokémon is in the Active Spot, you may devolve 1 of your opponent's evolved Pokémon by putting the highest Stage Evolution card on it into your opponent's hand.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Rock Throw",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "51",
+    flavorText:
+      "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+    nationalPokedexNumbers: [567],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/51.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/51_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-51",
+        number: "51",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/51.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/51_hires.png",
+        },
+        flavorText:
+          "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+      },
+      {
+        id: "rsv10pt5-132",
+        number: "132",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/132.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/132_hires.png",
+        },
+        flavorText:
+          "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+      },
+    ],
+  },
+  {
     id: "sv6-5",
     name: "Ariados",
     supertype: "Pokémon",
@@ -3389,6 +3720,67 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-74",
+    name: "Audino",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "100",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Return",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "You may draw cards until you have 6 cards in your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "74",
+    flavorText:
+      "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+    nationalPokedexNumbers: [531],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/74.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/74_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-74",
+        number: "74",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/74.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/74_hires.png",
+        },
+        flavorText:
+          "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+      },
+      {
+        id: "zsv10pt5-151",
+        number: "151",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/151.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/151_hires.png",
+        },
+        flavorText:
+          "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+      },
+    ],
+  },
+  {
     id: "me3-24",
     name: "Aurorus",
     supertype: "Pokémon",
@@ -3500,6 +3892,62 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/44_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-68",
+    name: "Axew",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Dragon"],
+    evolvesTo: ["Fraxure"],
+    attacks: [
+      {
+        name: "Gather Strength",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "68",
+    flavorText:
+      "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+    nationalPokedexNumbers: [610],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/68.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/68_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-68",
+        number: "68",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/68.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/68_hires.png",
+        },
+        flavorText:
+          "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+      },
+      {
+        id: "zsv10pt5-145",
+        number: "145",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/145.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/145_hires.png",
+        },
+        flavorText:
+          "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
       },
     ],
   },
@@ -4025,6 +4473,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-24",
+    name: "Basculin",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Bared Fangs",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "24",
+    flavorText:
+      "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+    nationalPokedexNumbers: [550],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/24.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/24_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-24",
+        number: "24",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/24.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/24_hires.png",
+        },
+        flavorText:
+          "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+      },
+      {
+        id: "rsv10pt5-108",
+        number: "108",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/108.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/108_hires.png",
+        },
+        flavorText:
+          "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+      },
+    ],
+  },
+  {
     id: "me1-9",
     name: "Bayleef",
     supertype: "Pokémon",
@@ -4120,6 +4636,75 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me2pt5-9/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-26",
+    name: "Beartic",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "150",
+    types: ["Water"],
+    evolvesFrom: "Cubchoo",
+    attacks: [
+      {
+        name: "Continuous Headbutt",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "50×",
+        text: "Flip a coin until you get tails. This attack does 50 damage for each heads.",
+      },
+      {
+        name: "Sheer Cold",
+        cost: ["Water", "Water", "Water", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150",
+        text: "During your opponent's next turn, the Defending Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "26",
+    flavorText:
+      "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    nationalPokedexNumbers: [614],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/26.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/26_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-26",
+        number: "26",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/26.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/26_hires.png",
+        },
+        flavorText:
+          "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+      },
+      {
+        id: "zsv10pt5-110",
+        number: "110",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/110.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/110_hires.png",
+        },
+        flavorText:
+          "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
       },
     ],
   },
@@ -4247,6 +4832,81 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-41",
+    name: "Beheeyem",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Psychic"],
+    evolvesFrom: "Elgyem",
+    attacks: [
+      {
+        name: "Calm Mind",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 40 damage from this Pokémon.",
+      },
+      {
+        name: "Psychic",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "41",
+    flavorText:
+      "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+    nationalPokedexNumbers: [606],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/41.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/41_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-41",
+        number: "41",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/41.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/41_hires.png",
+        },
+        flavorText:
+          "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+      },
+      {
+        id: "zsv10pt5-121",
+        number: "121",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/121.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/121_hires.png",
+        },
+        flavorText:
+          "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
       },
     ],
   },
@@ -4662,6 +5322,81 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-65",
+    name: "Bisharp",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Metal"],
+    evolvesFrom: "Pawniard",
+    attacks: [
+      {
+        name: "Cut Up",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Finishing Blow",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60+",
+        text: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "65",
+    flavorText:
+      "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+    nationalPokedexNumbers: [625],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/65.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/65_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-65",
+        number: "65",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/65.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/65_hires.png",
+        },
+        flavorText:
+          "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+      },
+      {
+        id: "zsv10pt5-143",
+        number: "143",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/143.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/143_hires.png",
+        },
+        flavorText:
+          "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-147",
     name: "Bisharp",
     supertype: "Pokémon",
@@ -5035,6 +5770,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-31",
+    name: "Blitzle",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    evolvesTo: ["Zebstrika"],
+    attacks: [
+      {
+        name: "Smash Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Zap Kick",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "31",
+    flavorText:
+      "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+    nationalPokedexNumbers: [522],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/31.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/31_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-31",
+        number: "31",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/31.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/31_hires.png",
+        },
+        flavorText:
+          "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+      },
+      {
+        id: "rsv10pt5-114",
+        number: "114",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/114.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/114_hires.png",
+        },
+        flavorText:
+          "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-25",
     name: "Bloodmoon Ursaluna",
     supertype: "Pokémon",
@@ -5189,6 +5993,76 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8pt5/168_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-47",
+    name: "Boldore",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Fighting"],
+    evolvesFrom: "Roggenrola",
+    evolvesTo: ["Gigalith"],
+    attacks: [
+      {
+        name: "Smack Down",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If your opponent's Active Pokémon has Fighting Resistance, this attack does 50 more damage.",
+      },
+      {
+        name: "Power Gem",
+        cost: ["Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "47",
+    flavorText:
+      "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+    nationalPokedexNumbers: [525],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/47.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/47_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-47",
+        number: "47",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/47.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/47_hires.png",
+        },
+        flavorText:
+          "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+      },
+      {
+        id: "rsv10pt5-128",
+        number: "128",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/128.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/128_hires.png",
+        },
+        flavorText:
+          "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
       },
     ],
   },
@@ -5526,6 +6400,82 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-77",
+    name: "Bouffalant ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "220",
+    types: ["Colorless"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Bouffer",
+        text: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Gold Breaker",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "77",
+    nationalPokedexNumbers: [626],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/77.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/77_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-77",
+        number: "77",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/77.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/77_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-162",
+        number: "162",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/162.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/162_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-170",
+        number: "170",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/170.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/170_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-21",
     name: "Brambleghast",
     supertype: "Pokémon",
@@ -5825,6 +6775,81 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/214_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-78",
+    name: "Braviary",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Colorless"],
+    evolvesFrom: "Rufflet",
+    attacks: [
+      {
+        name: "Aerial Ace",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40+",
+        text: "Flip a coin. If heads, this attack does 40 more damage.",
+      },
+      {
+        name: "Speed Wing",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "130",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "78",
+    flavorText:
+      "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+    nationalPokedexNumbers: [628],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/78.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/78_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-78",
+        number: "78",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/78.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/78_hires.png",
+        },
+        flavorText:
+          "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+      },
+      {
+        id: "zsv10pt5-155",
+        number: "155",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/155.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/155_hires.png",
+        },
+        flavorText:
+          "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
       },
     ],
   },
@@ -7445,6 +8470,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-23",
+    name: "Carracosta",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "180",
+    types: ["Water"],
+    evolvesFrom: "Tirtouga",
+    abilities: [
+      {
+        name: "Mighty Shell",
+        text: "Prevent all damage from and effects of attacks done to this Pokémon by your opponent's Pokémon that have any Special Energy attached.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Big Bite",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "23",
+    flavorText:
+      "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+    nationalPokedexNumbers: [565],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/23.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/23_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-23",
+        number: "23",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/23.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/23_hires.png",
+        },
+        flavorText:
+          "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+      },
+      {
+        id: "zsv10pt5-107",
+        number: "107",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/107.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/107_hires.png",
+        },
+        flavorText:
+          "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+      },
+    ],
+  },
+  {
     id: "sv5-42",
     name: "Carvanha",
     supertype: "Pokémon",
@@ -8470,6 +9564,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It absorbs spirits, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-18",
+    name: "Chandelure",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "150",
+    types: ["Fire"],
+    evolvesFrom: "Lampent",
+    attacks: [
+      {
+        name: "Incendiary Pillar",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "50+",
+        text: "If you have 10 or more Basic Fire Energy cards in your discard pile, this attack does 100 more damage.",
+      },
+      {
+        name: "Burn It All Up",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "180",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "18",
+    flavorText:
+      "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+    nationalPokedexNumbers: [609],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/18.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/18_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-18",
+        number: "18",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/18.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/18_hires.png",
+        },
+        flavorText:
+          "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+      },
+      {
+        id: "rsv10pt5-103",
+        number: "103",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/103.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/103_hires.png",
+        },
+        flavorText:
+          "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
       },
     ],
   },
@@ -9880,6 +11043,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-76",
+    name: "Cinccino",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Colorless"],
+    evolvesFrom: "Minccino",
+    attacks: [
+      {
+        name: "Do the Wave",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "This attack does 20 more damage for each of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "76",
+    flavorText:
+      "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+    nationalPokedexNumbers: [573],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/76.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/76_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-76",
+        number: "76",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/76.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/76_hires.png",
+        },
+        flavorText:
+          "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+      },
+      {
+        id: "zsv10pt5-153",
+        number: "153",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/153.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/153_hires.png",
+        },
+        flavorText:
+          "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+      },
+    ],
+  },
+  {
     id: "me1-28",
     name: "Cinderace",
     supertype: "Pokémon",
@@ -10603,6 +11828,80 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-66",
+    name: "Cobalion",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Righteous Edge",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Discard a Special Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Metal Arms",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "66",
+    flavorText:
+      "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+    nationalPokedexNumbers: [638],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/66.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/66_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-66",
+        number: "66",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/66.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/66_hires.png",
+        },
+        flavorText:
+          "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+      },
+      {
+        id: "zsv10pt5-144",
+        number: "144",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/144.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/144_hires.png",
+        },
+        flavorText:
+          "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+      },
+    ],
+  },
+  {
     id: "sv8-83",
     name: "Cofagrigus",
     supertype: "Pokémon",
@@ -10661,6 +11960,81 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/83_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-40",
+    name: "Cofagrigus",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Psychic"],
+    evolvesFrom: "Yamask",
+    attacks: [
+      {
+        name: "Extended Damagriiigus",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Move all damage counters from 1 of your Benched Pokémon to 1 of your opponent's Pokémon.",
+      },
+      {
+        name: "Perplex",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "40",
+    flavorText:
+      "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+    nationalPokedexNumbers: [563],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/40.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/40_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-40",
+        number: "40",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/40.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/40_hires.png",
+        },
+        flavorText:
+          "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+      },
+      {
+        id: "rsv10pt5-123",
+        number: "123",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/123.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/123_hires.png",
+        },
+        flavorText:
+          "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
       },
     ],
   },
@@ -10882,6 +12256,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-49",
+    name: "Conkeldurr",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "140",
+    types: ["Fighting"],
+    evolvesFrom: "Gurdurr",
+    abilities: [
+      {
+        name: "Craftsmanship",
+        text: "This Pokémon gets +40 HP for each Fighting Energy attached to it.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Swing Around",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100+",
+        text: "Flip 2 coins. This attack does 50 more damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "49",
+    flavorText:
+      "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+    nationalPokedexNumbers: [534],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/49.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/49_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-49",
+        number: "49",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/49.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/49_hires.png",
+        },
+        flavorText:
+          "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+      },
+      {
+        id: "zsv10pt5-127",
+        number: "127",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/127.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/127_hires.png",
+        },
+        flavorText:
+          "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
       },
     ],
   },
@@ -11326,6 +12769,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8pt5/7_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-4",
+    name: "Cottonee",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Whimsicott"],
+    attacks: [
+      {
+        name: "Absorb",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Heal 10 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "4",
+    flavorText:
+      "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+    nationalPokedexNumbers: [546],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/4.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/4_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-4",
+        number: "4",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/4.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/4_hires.png",
+        },
+        flavorText:
+          "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+      },
+      {
+        id: "rsv10pt5-90",
+        number: "90",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/90.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/90_hires.png",
+        },
+        flavorText:
+          "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
       },
     ],
   },
@@ -12272,6 +13777,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-52",
+    name: "Crustle",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "150",
+    types: ["Fighting"],
+    evolvesFrom: "Dwebble",
+    abilities: [
+      {
+        name: "Sturdy",
+        text: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Stone Edge",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "Flip a coin. If heads, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "52",
+    flavorText:
+      "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+    nationalPokedexNumbers: [558],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/52.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/52_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-52",
+        number: "52",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/52.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/52_hires.png",
+        },
+        flavorText:
+          "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+      },
+      {
+        id: "zsv10pt5-130",
+        number: "130",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/130.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/130_hires.png",
+        },
+        flavorText:
+          "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+      },
+    ],
+  },
+  {
     id: "sv8-47",
     name: "Cryogonal",
     supertype: "Pokémon",
@@ -12323,6 +13897,136 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/47_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-27",
+    name: "Cryogonal",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Drag Off",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 20 damage to the new Active Pokémon.",
+      },
+      {
+        name: "Icicle",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "27",
+    flavorText:
+      "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+    nationalPokedexNumbers: [615],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/27.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/27_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-27",
+        number: "27",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/27.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/27_hires.png",
+        },
+        flavorText:
+          "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+      },
+      {
+        id: "zsv10pt5-111",
+        number: "111",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/111.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/111_hires.png",
+        },
+        flavorText:
+          "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-25",
+    name: "Cubchoo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Beartic"],
+    attacks: [
+      {
+        name: "Snotted Up",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "During your opponent's next turn, the Defending Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "25",
+    flavorText:
+      "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+    nationalPokedexNumbers: [613],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/25.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/25_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-25",
+        number: "25",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/25.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/25_hires.png",
+        },
+        flavorText:
+          "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+      },
+      {
+        id: "zsv10pt5-109",
+        number: "109",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/109.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/109_hires.png",
+        },
+        flavorText:
+          "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
       },
     ],
   },
@@ -13526,6 +15230,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-14",
+    name: "Darmanitan",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Fire"],
+    evolvesFrom: "Darumaka",
+    attacks: [
+      {
+        name: "Searing Flame",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+      {
+        name: "Smashing Headbutt",
+        cost: ["Fire", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "180",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "14",
+    flavorText:
+      "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
+    nationalPokedexNumbers: [555],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/14.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/14_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-14",
+        number: "14",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/14.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/14_hires.png",
+        },
+        flavorText:
+          "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
+      },
+      {
+        id: "zsv10pt5-98",
+        number: "98",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/98.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/98_hires.png",
+        },
+        flavorText:
+          "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
+      },
+    ],
+  },
+  {
     id: "me2-16",
     name: "Darmanitan",
     supertype: "Pokémon",
@@ -13746,6 +15519,68 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-13",
+    name: "Darumaka",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesTo: ["Darmanitan"],
+    attacks: [
+      {
+        name: "Will-O-Wisp",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "13",
+    flavorText:
+      "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+    nationalPokedexNumbers: [554],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/13.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/13_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-13",
+        number: "13",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/13.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/13_hires.png",
+        },
+        flavorText:
+          "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+      },
+      {
+        id: "zsv10pt5-97",
+        number: "97",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/97.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/97_hires.png",
+        },
+        flavorText:
+          "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
       },
     ],
   },
@@ -14114,6 +15949,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-6",
+    name: "Deerling",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Sawsbuck"],
+    attacks: [
+      {
+        name: "Rear Kick",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "6",
+    flavorText:
+      "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+    nationalPokedexNumbers: [585],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/6.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/6_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-6",
+        number: "6",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/6.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/6_hires.png",
+        },
+        flavorText:
+          "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+      },
+      {
+        id: "rsv10pt5-91",
+        number: "91",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/91.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/91_hires.png",
+        },
+        flavorText:
+          "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+      },
+    ],
+  },
+  {
     id: "sv8-117",
     name: "Deino",
     supertype: "Pokémon",
@@ -14166,6 +16063,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/117_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-65",
+    name: "Deino",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesTo: ["Zweilous"],
+    attacks: [
+      {
+        name: "Body Slam",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Darkness Fang",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "65",
+    flavorText:
+      "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+    nationalPokedexNumbers: [633],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/65.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/65_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-65",
+        number: "65",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/65.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/65_hires.png",
+        },
+        flavorText:
+          "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+      },
+      {
+        id: "rsv10pt5-146",
+        number: "146",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/146.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/146_hires.png",
+        },
+        flavorText:
+          "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
       },
     ],
   },
@@ -14479,6 +16445,69 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me3-19/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-22",
+    name: "Dewott",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Water"],
+    evolvesFrom: "Oshawott",
+    evolvesTo: ["Samurott"],
+    attacks: [
+      {
+        name: "Energized Shell",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "This attack does 30 damage for each Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "22",
+    flavorText:
+      "Strict training is how it learns its flowing double-scalchop technique.",
+    nationalPokedexNumbers: [502],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/22.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/22_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-22",
+        number: "22",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/22.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/22_hires.png",
+        },
+        flavorText:
+          "Strict training is how it learns its flowing double-scalchop technique.",
+      },
+      {
+        id: "rsv10pt5-106",
+        number: "106",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/106.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/106_hires.png",
+        },
+        flavorText:
+          "Strict training is how it learns its flowing double-scalchop technique.",
       },
     ],
   },
@@ -16367,6 +18396,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-45",
+    name: "Drilbur",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Excadrill"],
+    attacks: [
+      {
+        name: "Mud-Slap",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Corkscrew Punch",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "45",
+    flavorText:
+      "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+    nationalPokedexNumbers: [529],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/45.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/45_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-45",
+        number: "45",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/45.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/45_hires.png",
+        },
+        flavorText:
+          "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+      },
+      {
+        id: "zsv10pt5-124",
+        number: "124",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/124.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/124_hires.png",
+        },
+        flavorText:
+          "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+      },
+    ],
+  },
+  {
     id: "me1-40",
     name: "Drizzile",
     supertype: "Pokémon",
@@ -16521,6 +18619,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-71",
+    name: "Druddigon",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Dragon"],
+    attacks: [
+      {
+        name: "Shred",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+      },
+      {
+        name: "Ambush",
+        cost: ["Fire", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90+",
+        text: "Flip a coin. If heads, this attack does 60 more damage.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "71",
+    flavorText:
+      "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+    nationalPokedexNumbers: [621],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/71.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/71_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-71",
+        number: "71",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/71.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/71_hires.png",
+        },
+        flavorText:
+          "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+      },
+      {
+        id: "rsv10pt5-151",
+        number: "151",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/151.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/151_hires.png",
+        },
+        flavorText:
+          "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+      },
+    ],
+  },
+  {
     id: "sv7-125",
     name: "Dubwool",
     supertype: "Pokémon",
@@ -16638,6 +18798,81 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-25",
+    name: "Ducklett",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Swanna"],
+    attacks: [
+      {
+        name: "Firefighting",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Discard a Fire Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Wing Attack",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "25",
+    flavorText:
+      "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
+    nationalPokedexNumbers: [580],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/25.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/25_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-25",
+        number: "25",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/25.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/25_hires.png",
+        },
+        flavorText:
+          "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
+      },
+      {
+        id: "rsv10pt5-109",
+        number: "109",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/109.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/109_hires.png",
+        },
+        flavorText:
+          "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
       },
     ],
   },
@@ -16957,6 +19192,82 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-38",
+    name: "Duosion",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesFrom: "Solosis",
+    evolvesTo: ["Reuniclus"],
+    attacks: [
+      {
+        name: "Cellular Evolution",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
+      },
+      {
+        name: "Spray Fluid",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "38",
+    flavorText:
+      "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+    nationalPokedexNumbers: [578],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/38.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/38_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-38",
+        number: "38",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/38.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/38_hires.png",
+        },
+        flavorText:
+          "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+      },
+      {
+        id: "zsv10pt5-119",
+        number: "119",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/119.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/119_hires.png",
+        },
+        flavorText:
+          "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+      },
+    ],
+  },
+  {
     id: "sv7-106",
     name: "Duraludon",
     supertype: "Pokémon",
@@ -17189,6 +19500,80 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/14_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-70",
+    name: "Durant",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Bite Together",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If Durant is on your Bench, this attack does 20 more damage.",
+      },
+      {
+        name: "Vise Grip",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "70",
+    flavorText:
+      "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+    nationalPokedexNumbers: [632],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/70.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/70_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-70",
+        number: "70",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/70.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/70_hires.png",
+        },
+        flavorText:
+          "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+      },
+      {
+        id: "rsv10pt5-150",
+        number: "150",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/150.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/150_hires.png",
+        },
+        flavorText:
+          "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
       },
     ],
   },
@@ -17628,6 +20013,145 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-51",
+    name: "Dwebble",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Crustle"],
+    attacks: [
+      {
+        name: "Flail",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "This attack does 10 damage for each damage counter on this Pokémon.",
+      },
+      {
+        name: "Dig Claws",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "51",
+    flavorText:
+      "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+    nationalPokedexNumbers: [557],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/51.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/51_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-51",
+        number: "51",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/51.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/51_hires.png",
+        },
+        flavorText:
+          "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+      },
+      {
+        id: "zsv10pt5-129",
+        number: "129",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/129.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/129_hires.png",
+        },
+        flavorText:
+          "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-31",
+    name: "Eelektrik",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesFrom: "Tynamo",
+    evolvesTo: ["Eelektross"],
+    abilities: [
+      {
+        name: "Dynamotor",
+        text: "Once during your turn, you may attach a Basic Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Electric Ball",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "31",
+    flavorText:
+      "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+    nationalPokedexNumbers: [603],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/31.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/31_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-31",
+        number: "31",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/31.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/31_hires.png",
+        },
+        flavorText:
+          "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+      },
+      {
+        id: "zsv10pt5-114",
+        number: "114",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/114.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/114_hires.png",
+        },
+        flavorText:
+          "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-60",
     name: "Eelektrik",
     supertype: "Pokémon",
@@ -17683,6 +20207,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-32",
+    name: "Eelektross",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Lightning"],
+    evolvesFrom: "Eelektrik",
+    attacks: [
+      {
+        name: "Thunder Fang",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "60",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Buzz Flip",
+        cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100×",
+        text: "Flip 4 coins. This attack does 100 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "32",
+    flavorText:
+      "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    nationalPokedexNumbers: [604],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/32.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/32_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-32",
+        number: "32",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/32.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/32_hires.png",
+        },
+        flavorText:
+          "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+      },
+      {
+        id: "zsv10pt5-115",
+        number: "115",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/115.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/115_hires.png",
+        },
+        flavorText:
+          "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
       },
     ],
   },
@@ -18736,6 +21329,150 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-40",
+    name: "Elgyem",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    evolvesTo: ["Beheeyem"],
+    attacks: [
+      {
+        name: "Slight Shift",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Move an Energy from 1 of your opponent's Pokémon to another of their Pokémon.",
+      },
+      {
+        name: "Beam",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "40",
+    flavorText:
+      "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+    nationalPokedexNumbers: [605],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/40.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/40_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-40",
+        number: "40",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/40.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/40_hires.png",
+        },
+        flavorText:
+          "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+      },
+      {
+        id: "zsv10pt5-120",
+        number: "120",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/120.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/120_hires.png",
+        },
+        flavorText:
+          "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-13",
+    name: "Emboar",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "180",
+    types: ["Fire"],
+    evolvesFrom: "Pignite",
+    abilities: [
+      {
+        name: "Inferno Fandango",
+        text: "As often as you like during your turn, you may attach a Basic Fire Energy card from your hand to 1 of your Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Heat Crash",
+        cost: ["Fire", "Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "13",
+    flavorText:
+      "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    nationalPokedexNumbers: [500],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/13.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/13_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-13",
+        number: "13",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/13.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/13_hires.png",
+        },
+        flavorText:
+          "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+      },
+      {
+        id: "rsv10pt5-98",
+        number: "98",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/98.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/98_hires.png",
+        },
+        flavorText:
+          "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+      },
+    ],
+  },
+  {
     id: "sv6-69",
     name: "Emolga",
     supertype: "Pokémon",
@@ -18781,6 +21518,72 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-29",
+    name: "Emolga",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Call for Family",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Static Shock",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    number: "29",
+    flavorText:
+      "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
+    nationalPokedexNumbers: [587],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/29.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/29_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-29",
+        number: "29",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/29.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/29_hires.png",
+        },
+        flavorText:
+          "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
+      },
+      {
+        id: "zsv10pt5-112",
+        number: "112",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/112.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/112_hires.png",
+        },
+        flavorText:
+          "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
       },
     ],
   },
@@ -19432,6 +22235,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/102_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-60",
+    name: "Escavalier",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Karrablast",
+    attacks: [
+      {
+        name: "Wild Lances",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "90",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "60",
+    flavorText:
+      "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    nationalPokedexNumbers: [589],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/60.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/60_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-60",
+        number: "60",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/60.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/60_hires.png",
+        },
+        flavorText:
+          "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+      },
+      {
+        id: "zsv10pt5-138",
+        number: "138",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/138.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/138_hires.png",
+        },
+        flavorText:
+          "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
       },
     ],
   },
@@ -20590,6 +23461,83 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-46",
+    name: "Excadrill ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Fighting"],
+    evolvesFrom: "Drilbur",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Piercing Drill",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Rock Tumble",
+        cost: ["Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "This attack's damage isn't affected by Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "46",
+    nationalPokedexNumbers: [530],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/46.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/46_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-46",
+        number: "46",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/46.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/46_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-160",
+        number: "160",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/160.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/160_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-168",
+        number: "168",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/168.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/168_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-1",
     name: "Exeggcute",
     supertype: "Pokémon",
@@ -21589,6 +24537,156 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-68",
+    name: "Ferroseed",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Metal"],
+    evolvesTo: ["Ferrothorn"],
+    attacks: [
+      {
+        name: "Zzzt",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Metal Claw",
+        cost: ["Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "68",
+    flavorText:
+      "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+    nationalPokedexNumbers: [597],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/68.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/68_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-68",
+        number: "68",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/68.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/68_hires.png",
+        },
+        flavorText:
+          "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+      },
+      {
+        id: "rsv10pt5-148",
+        number: "148",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/148.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/148_hires.png",
+        },
+        flavorText:
+          "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-69",
+    name: "Ferrothorn",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Metal"],
+    evolvesFrom: "Ferroseed",
+    attacks: [
+      {
+        name: "Power Whip",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "This attack does 20 damage to 1 of your opponent's Pokémon for each Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Metal Claw",
+        cost: ["Metal", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "130",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "69",
+    flavorText:
+      "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+    nationalPokedexNumbers: [598],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/69.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/69_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-69",
+        number: "69",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/69.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/69_hires.png",
+        },
+        flavorText:
+          "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+      },
+      {
+        id: "rsv10pt5-149",
+        number: "149",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/149.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/149_hires.png",
+        },
+        flavorText:
+          "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
       },
     ],
   },
@@ -23304,6 +26402,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-10",
+    name: "Foongus",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Grass"],
+    evolvesTo: ["Amoonguss"],
+    attacks: [
+      {
+        name: "Toxic Spore",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "10",
+    flavorText:
+      "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
+    nationalPokedexNumbers: [590],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/10.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/10_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-10",
+        number: "10",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/10.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/10_hires.png",
+        },
+        flavorText:
+          "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
+      },
+      {
+        id: "zsv10pt5-95",
+        number: "95",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/95.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/95_hires.png",
+        },
+        flavorText:
+          "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
+      },
+    ],
+  },
+  {
     id: "sv5-110",
     name: "Forretress",
     supertype: "Pokémon",
@@ -23487,6 +26647,138 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/77_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-69",
+    name: "Fraxure",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Dragon"],
+    evolvesFrom: "Axew",
+    evolvesTo: ["Haxorus"],
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Boundless Power",
+        cost: ["Fighting", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "90",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "69",
+    flavorText:
+      "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+    nationalPokedexNumbers: [611],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/69.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/69_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-69",
+        number: "69",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/69.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/69_hires.png",
+        },
+        flavorText:
+          "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+      },
+      {
+        id: "zsv10pt5-146",
+        number: "146",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/146.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/146_hires.png",
+        },
+        flavorText:
+          "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-44",
+    name: "Frillish",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Psychic"],
+    evolvesTo: ["Jellicent"],
+    attacks: [
+      {
+        name: "Oceanic Gloom",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "During your opponent's next turn, they can't play any Item cards from their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "44",
+    flavorText:
+      "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+    nationalPokedexNumbers: [592],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/44.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/44_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-44",
+        number: "44",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/44.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/44_hires.png",
+        },
+        flavorText:
+          "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+      },
+      {
+        id: "rsv10pt5-126",
+        number: "126",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/126.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/126_hires.png",
+        },
+        flavorText:
+          "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
       },
     ],
   },
@@ -24508,6 +27800,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-34",
+    name: "Galvantula",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesFrom: "Joltik",
+    attacks: [
+      {
+        name: "Discharge",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "50×",
+        text: "Discard all Lightning Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "34",
+    flavorText:
+      "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+    nationalPokedexNumbers: [596],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/34.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/34_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-34",
+        number: "34",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/34.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/34_hires.png",
+        },
+        flavorText:
+          "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+      },
+      {
+        id: "rsv10pt5-117",
+        number: "117",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/117.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/117_hires.png",
+        },
+        flavorText:
+          "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+      },
+    ],
+  },
+  {
     id: "sv7-51",
     name: "Galvantula ex",
     supertype: "Pokémon",
@@ -24582,6 +27936,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/168_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-60",
+    name: "Garbodor",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Darkness"],
+    evolvesFrom: "Trubbish",
+    attacks: [
+      {
+        name: "Suffocating Gas",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Gunk Shot",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "60",
+    flavorText:
+      "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+    nationalPokedexNumbers: [569],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/60.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/60_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-60",
+        number: "60",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/60.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/60_hires.png",
+        },
+        flavorText:
+          "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+      },
+      {
+        id: "rsv10pt5-141",
+        number: "141",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/141.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/141_hires.png",
+        },
+        flavorText:
+          "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
       },
     ],
   },
@@ -25046,6 +28469,88 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-67",
+    name: "Genesect ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "220",
+    types: ["Metal"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Metallic Signal",
+        text: "Once during your turn, you may search your deck for up to 2 Evolution Metal Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Protect Charge",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "67",
+    nationalPokedexNumbers: [649],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/67.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/67_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-67",
+        number: "67",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/67.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/67_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-161",
+        number: "161",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/161.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/161_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-169",
+        number: "169",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/169.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/169_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-50",
     name: "Gengar",
     supertype: "Pokémon",
@@ -25290,6 +28795,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/me1/99_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-48",
+    name: "Gigalith",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Fighting"],
+    evolvesFrom: "Boldore",
+    attacks: [
+      {
+        name: "Vengeful Cannon",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20×",
+        text: "This attack does 20 damage for each damage counter on all of your Benched Fighting Pokémon.",
+      },
+      {
+        name: "Heavy Impact",
+        cost: ["Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "48",
+    flavorText:
+      "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+    nationalPokedexNumbers: [526],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/48.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/48_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-48",
+        number: "48",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/48.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/48_hires.png",
+        },
+        flavorText:
+          "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+      },
+      {
+        id: "rsv10pt5-129",
+        number: "129",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/129.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/129_hires.png",
+        },
+        flavorText:
+          "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
       },
     ],
   },
@@ -26447,6 +30021,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-42",
+    name: "Golett",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Psychic"],
+    evolvesTo: ["Golurk"],
+    attacks: [
+      {
+        name: "Best Punch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "42",
+    flavorText:
+      "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+    nationalPokedexNumbers: [622],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/42.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/42_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-42",
+        number: "42",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/42.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/42_hires.png",
+        },
+        flavorText:
+          "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+      },
+      {
+        id: "zsv10pt5-122",
+        number: "122",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/122.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/122_hires.png",
+        },
+        flavorText:
+          "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+      },
+    ],
+  },
+  {
     id: "sv5-88",
     name: "Golurk",
     supertype: "Pokémon",
@@ -26502,6 +30144,81 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-43",
+    name: "Golurk",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "160",
+    types: ["Psychic"],
+    evolvesFrom: "Golett",
+    attacks: [
+      {
+        name: "Double Smash",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80×",
+        text: "Flip 2 coins. This attack does 80 damage for each heads.",
+      },
+      {
+        name: "Golurk Hammer",
+        cost: ["Psychic", "Psychic", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 5,
+        damage: "200",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "43",
+    flavorText:
+      "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+    nationalPokedexNumbers: [623],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/43.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/43_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-43",
+        number: "43",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/43.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/43_hires.png",
+        },
+        flavorText:
+          "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+      },
+      {
+        id: "zsv10pt5-123",
+        number: "123",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/123.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/123_hires.png",
+        },
+        flavorText:
+          "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
       },
     ],
   },
@@ -26600,6 +30317,215 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/10_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-41",
+    name: "Gothita",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesTo: ["Gothorita"],
+    attacks: [
+      {
+        name: "Super Psy Bolt",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "41",
+    flavorText:
+      "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+    nationalPokedexNumbers: [574],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/41.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/41_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-41",
+        number: "41",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/41.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/41_hires.png",
+        },
+        flavorText:
+          "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+      },
+      {
+        id: "rsv10pt5-124",
+        number: "124",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/124.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/124_hires.png",
+        },
+        flavorText:
+          "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-43",
+    name: "Gothitelle",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "150",
+    types: ["Psychic"],
+    evolvesFrom: "Gothorita",
+    abilities: [
+      {
+        name: "Distorted Future",
+        text: "Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent shuffle their hand into their deck and draw 3 cards.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Synchro Shot",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "90+",
+        text: "If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "43",
+    flavorText:
+      "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+    nationalPokedexNumbers: [576],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/43.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/43_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-43",
+        number: "43",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/43.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/43_hires.png",
+        },
+        flavorText:
+          "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-42",
+    name: "Gothorita",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Psychic"],
+    evolvesFrom: "Gothita",
+    evolvesTo: ["Gothitelle"],
+    attacks: [
+      {
+        name: "Fortunate Eye",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at the top 5 cards of your opponent's deck and put them back in any order.",
+      },
+      {
+        name: "Psyshot",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "42",
+    flavorText:
+      "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+    nationalPokedexNumbers: [575],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/42.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/42_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-42",
+        number: "42",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/42.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/42_hires.png",
+        },
+        flavorText:
+          "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+      },
+      {
+        id: "rsv10pt5-125",
+        number: "125",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/125.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/125_hires.png",
+        },
+        flavorText:
+          "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
       },
     ],
   },
@@ -28313,6 +32239,76 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-48",
+    name: "Gurdurr",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Fighting"],
+    evolvesFrom: "Timburr",
+    evolvesTo: ["Conkeldurr"],
+    attacks: [
+      {
+        name: "Low Kick",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Hammer Arm",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "Discard the top card of your opponent's deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "48",
+    flavorText:
+      "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+    nationalPokedexNumbers: [533],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/48.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/48_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-48",
+        number: "48",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/48.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/48_hires.png",
+        },
+        flavorText:
+          "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      },
+      {
+        id: "zsv10pt5-126",
+        number: "126",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/126.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/126_hires.png",
+        },
+        flavorText:
+          "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      },
+    ],
+  },
+  {
     id: "me1-73",
     name: "Hariyama",
     supertype: "Pokémon",
@@ -28777,6 +32773,69 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-70",
+    name: "Haxorus",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Dragon"],
+    evolvesFrom: "Fraxure",
+    attacks: [
+      {
+        name: "Cross-Cut",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80+",
+        text: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 80 more damage.",
+      },
+      {
+        name: "Axe Blast",
+        cost: ["Fighting", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "70",
+    flavorText:
+      "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+    nationalPokedexNumbers: [612],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/70.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/70_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-70",
+        number: "70",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/70.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/70_hires.png",
+        },
+        flavorText:
+          "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+      },
+      {
+        id: "zsv10pt5-147",
+        number: "147",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/147.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/147_hires.png",
+        },
+        flavorText:
+          "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+      },
+    ],
+  },
+  {
     id: "sv10-44",
     name: "Hearthflame Mask Ogerpon",
     supertype: "Pokémon",
@@ -29037,6 +33096,74 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-19",
+    name: "Heatmor",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Licking Catch",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 in any combination of Fire Pokémon and Basic Fire Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Fire Claws",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "19",
+    flavorText:
+      "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
+    nationalPokedexNumbers: [631],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/19.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/19_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-19",
+        number: "19",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/19.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/19_hires.png",
+        },
+        flavorText:
+          "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
+      },
+      {
+        id: "rsv10pt5-104",
+        number: "104",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/104.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/104_hires.png",
+        },
+        flavorText:
+          "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
       },
     ],
   },
@@ -29687,6 +33814,76 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-75",
+    name: "Herdier",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Colorless"],
+    evolvesFrom: "Lillipup",
+    evolvesTo: ["Stoutland"],
+    attacks: [
+      {
+        name: "Roar",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Lunge Out",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "75",
+    flavorText:
+      "It has black, cape-like fur that is very hard and decreases the amount of damage it receives.",
+    nationalPokedexNumbers: [507],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/75.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/75_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-75",
+        number: "75",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/75.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/75_hires.png",
+        },
+        flavorText:
+          "It has black, cape-like fur that is very hard and decreases the amount of damage it receives.",
+      },
+      {
+        id: "rsv10pt5-155",
+        number: "155",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/155.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/155_hires.png",
+        },
+        flavorText:
+          "It has black, cape-like fur that is very hard and decreases the amount of damage it receives.",
       },
     ],
   },
@@ -32124,6 +36321,83 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/240.png",
           large: "https://images.pokemontcg.io/sv8/240_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-67",
+    name: "Hydreigon ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "330",
+    types: ["Darkness"],
+    evolvesFrom: "Zweilous",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Greedy Eater",
+        text: "If your opponent's Basic Pokémon is Knocked Out by damage from an attack used by this Pokémon, take 1 more Prize card.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dark Bite",
+        cost: ["Darkness", "Darkness", "Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 5,
+        damage: "200",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "67",
+    nationalPokedexNumbers: [635],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/67.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/67_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-67",
+        number: "67",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/67.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/67_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-161",
+        number: "161",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/161.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/161_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-169",
+        number: "169",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/169.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/169_hires.png",
         },
         flavorText: "",
       },
@@ -34598,6 +38872,89 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-45",
+    name: "Jellicent ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Psychic"],
+    evolvesFrom: "Frillish",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Oceanic Curse",
+        text: "As long as this Pokémon is in the Active Spot, your opponent can't play any Item cards or Pokémon Tool cards from their hand.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Power Press",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80+",
+        text: "If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "45",
+    nationalPokedexNumbers: [593],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/45.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/45_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-45",
+        number: "45",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/45.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/45_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-160",
+        number: "160",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/160.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/160_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-168",
+        number: "168",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/168.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/168_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2-76",
     name: "Jigglypuff",
     supertype: "Pokémon",
@@ -34881,6 +39238,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/150_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-33",
+    name: "Joltik",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Lightning"],
+    evolvesTo: ["Galvantula"],
+    attacks: [
+      {
+        name: "Surprise Attack",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "33",
+    flavorText:
+      "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+    nationalPokedexNumbers: [595],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/33.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/33_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-33",
+        number: "33",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/33.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/33_hires.png",
+        },
+        flavorText:
+          "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
+      },
+      {
+        id: "rsv10pt5-116",
+        number: "116",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/116.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/116_hires.png",
+        },
+        flavorText:
+          "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
       },
     ],
   },
@@ -35232,6 +39651,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-9",
+    name: "Karrablast",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Escavalier"],
+    abilities: [
+      {
+        name: "Stimulated Evolution",
+        text: "If you have Shelmet in play, this Pokémon can evolve during your first turn or the turn you play it.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Horn Attack",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "9",
+    flavorText:
+      "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+    nationalPokedexNumbers: [588],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/9.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/9_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-9",
+        number: "9",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/9.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/9_hires.png",
+        },
+        flavorText:
+          "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+      },
+      {
+        id: "zsv10pt5-94",
+        number: "94",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/94.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/94_hires.png",
+        },
+        flavorText:
+          "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+      },
+    ],
+  },
+  {
     id: "sv8-150",
     name: "Kecleon",
     supertype: "Pokémon",
@@ -35398,6 +39886,82 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-30",
+    name: "Keldeo ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "210",
+    types: ["Water"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Gale Thrust",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",
+      },
+      {
+        name: "Sonic Edge",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "30",
+    nationalPokedexNumbers: [647],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/30.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/30_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-30",
+        number: "30",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/30.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/30_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-159",
+        number: "159",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/159.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/159_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-167",
+        number: "167",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/167.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/167_hires.png",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -35974,6 +40538,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-62",
+    name: "Klang",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Metal"],
+    evolvesFrom: "Klink",
+    evolvesTo: ["Klinklang"],
+    attacks: [
+      {
+        name: "Hard Gears",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "62",
+    flavorText:
+      "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+    nationalPokedexNumbers: [600],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/62.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/62_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-62",
+        number: "62",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/62.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/62_hires.png",
+        },
+        flavorText:
+          "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+      },
+      {
+        id: "zsv10pt5-140",
+        number: "140",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/140.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/140_hires.png",
+        },
+        flavorText:
+          "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+      },
+    ],
+  },
+  {
     id: "sv9-90",
     name: "Klawf",
     supertype: "Pokémon",
@@ -36206,6 +40839,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-61",
+    name: "Klink",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Metal"],
+    evolvesTo: ["Klang"],
+    attacks: [
+      {
+        name: "Hard Gears",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "During your opponent's next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "61",
+    flavorText:
+      "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+    nationalPokedexNumbers: [599],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/61.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/61_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-61",
+        number: "61",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/61.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/61_hires.png",
+        },
+        flavorText:
+          "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+      },
+      {
+        id: "zsv10pt5-139",
+        number: "139",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/139.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/139_hires.png",
+        },
+        flavorText:
+          "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+      },
+    ],
+  },
+  {
     id: "sv7-101",
     name: "Klinklang",
     supertype: "Pokémon",
@@ -36264,6 +40965,81 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/101_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-63",
+    name: "Klinklang",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "150",
+    types: ["Metal"],
+    evolvesFrom: "Klang",
+    abilities: [
+      {
+        name: "Gear Coating",
+        text: "All of your Pokémon that have any Metal Energy attached take 20 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hammer In",
+        cost: ["Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "63",
+    flavorText:
+      "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
+    nationalPokedexNumbers: [599],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/63.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/63_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-63",
+        number: "63",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/63.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/63_hires.png",
+        },
+        flavorText:
+          "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
+      },
+      {
+        id: "zsv10pt5-141",
+        number: "141",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/141.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/141_hires.png",
+        },
+        flavorText:
+          "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
       },
     ],
   },
@@ -36690,6 +41466,69 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-58",
+    name: "Krokorok",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Sandile",
+    evolvesTo: ["Krookodile"],
+    attacks: [
+      {
+        name: "Tighten Up",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "Your opponent discards 2 cards from their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "58",
+    flavorText:
+      "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+    nationalPokedexNumbers: [552],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/58.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/58_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-58",
+        number: "58",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/58.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/58_hires.png",
+        },
+        flavorText:
+          "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+      },
+      {
+        id: "zsv10pt5-136",
+        number: "136",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/136.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/136_hires.png",
+        },
+        flavorText:
+          "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+      },
+    ],
+  },
+  {
     id: "me2-65",
     name: "Krokorok",
     supertype: "Pokémon",
@@ -36746,6 +41585,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-59",
+    name: "Krookodile",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Darkness"],
+    evolvesFrom: "Krokorok",
+    attacks: [
+      {
+        name: "Tighten Up",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "Your opponent discards 2 cards from their hand.",
+      },
+      {
+        name: "Cursed Slug",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120+",
+        text: "If your opponent has 3 or fewer cards in their hand, this attack does 120 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "59",
+    flavorText:
+      "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+    nationalPokedexNumbers: [553],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/59.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/59_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-59",
+        number: "59",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/59.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/59_hires.png",
+        },
+        flavorText:
+          "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+      },
+      {
+        id: "zsv10pt5-137",
+        number: "137",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/137.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/137_hires.png",
+        },
+        flavorText:
+          "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
       },
     ],
   },
@@ -36913,6 +41821,82 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-28",
+    name: "Kyurem ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Water"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Slash",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Blizzard Burst",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "This attack also does 10 damage to each of your opponent's Benched Pokémon for each Prize card your opponent has taken. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "28",
+    nationalPokedexNumbers: [646],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/28.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/28_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-28",
+        number: "28",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/28.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/28_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-157",
+        number: "157",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/157.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/157_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-165",
+        number: "165",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/165.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/165_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-121",
     name: "Lairon",
     supertype: "Pokémon",
@@ -37049,6 +42033,69 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-17",
+    name: "Lampent",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Fire"],
+    evolvesFrom: "Litwick",
+    evolvesTo: ["Chandelure"],
+    attacks: [
+      {
+        name: "Fire Blast",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "17",
+    flavorText:
+      "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+    nationalPokedexNumbers: [608],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/17.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/17_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-17",
+        number: "17",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/17.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/17_hires.png",
+        },
+        flavorText:
+          "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+      },
+      {
+        id: "rsv10pt5-102",
+        number: "102",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/102.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/102_hires.png",
+        },
+        flavorText:
+          "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+      },
+    ],
+  },
+  {
     id: "sv8-110",
     name: "Landorus",
     supertype: "Pokémon",
@@ -37100,6 +42147,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/110_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-53",
+    name: "Landorus",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Abundant Harvest",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Attach a Basic Fighting Energy card from your discard pile to this Pokémon.",
+      },
+      {
+        name: "Earthquake",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "This attack also does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "53",
+    flavorText:
+      "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+    nationalPokedexNumbers: [645],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/53.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/53_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-53",
+        number: "53",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/53.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/53_hires.png",
+        },
+        flavorText:
+          "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+      },
+      {
+        id: "zsv10pt5-131",
+        number: "131",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/131.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/131_hires.png",
+        },
+        flavorText:
+          "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
       },
     ],
   },
@@ -38004,6 +43119,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-15",
+    name: "Larvesta",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Fire"],
+    evolvesTo: ["Volcarona"],
+    attacks: [
+      {
+        name: "Peck Off",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "15",
+    flavorText:
+      "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+    nationalPokedexNumbers: [636],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/15.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/15_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-15",
+        number: "15",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/15.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/15_hires.png",
+        },
+        flavorText:
+          "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+      },
+      {
+        id: "zsv10pt5-99",
+        number: "99",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/99.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/99_hires.png",
+        },
+        flavorText:
+          "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-47",
     name: "Larvitar",
     supertype: "Pokémon",
@@ -38504,6 +43681,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-3",
+    name: "Leavanny",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Swadloon",
+    attacks: [
+      {
+        name: "Healing Wrapping",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 100 damage from each of your Basic Pokémon.",
+      },
+      {
+        name: "X-Scissor",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "90+",
+        text: "Flip a coin. If heads, this attack does 40 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "3",
+    flavorText:
+      "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+    nationalPokedexNumbers: [542],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/3.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/3_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-3",
+        number: "3",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/3.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/3_hires.png",
+        },
+        flavorText:
+          "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+      },
+      {
+        id: "rsv10pt5-89",
+        number: "89",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/89.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/89_hires.png",
+        },
+        flavorText:
+          "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+      },
+    ],
+  },
+  {
     id: "sv7-126",
     name: "Lechonk",
     supertype: "Pokémon",
@@ -38846,6 +44092,68 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-56",
+    name: "Liepard",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Darkness"],
+    evolvesFrom: "Purrloin",
+    attacks: [
+      {
+        name: "Knock Off",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Discard a random card from your opponent's hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "56",
+    flavorText:
+      "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+    nationalPokedexNumbers: [510],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/56.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/56_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-56",
+        number: "56",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/56.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/56_hires.png",
+        },
+        flavorText:
+          "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+      },
+      {
+        id: "rsv10pt5-137",
+        number: "137",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/137.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/137_hires.png",
+        },
+        flavorText:
+          "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
       },
     ],
   },
@@ -39274,6 +44582,137 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-7",
+    name: "Lilligant",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Petilil",
+    attacks: [
+      {
+        name: "Bemusing Aroma",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and Poisoned. If tails, your opponent's Active Pokémon is now Confused.",
+      },
+      {
+        name: "Cut",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "7",
+    flavorText:
+      "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+    nationalPokedexNumbers: [549],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/7.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/7_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-7",
+        number: "7",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/7.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/7_hires.png",
+        },
+        flavorText:
+          "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      },
+      {
+        id: "zsv10pt5-92",
+        number: "92",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/92.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/92_hires.png",
+        },
+        flavorText:
+          "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-74",
+    name: "Lillipup",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Herdier"],
+    attacks: [
+      {
+        name: "Play Rough",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "74",
+    flavorText:
+      "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+    nationalPokedexNumbers: [506],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/74.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/74_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-74",
+        number: "74",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/74.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/74_hires.png",
+        },
+        flavorText:
+          "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+      },
+      {
+        id: "rsv10pt5-154",
+        number: "154",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/154.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/154_hires.png",
+        },
+        flavorText:
+          "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+      },
+    ],
+  },
+  {
     id: "me2-82",
     name: "Linoone",
     supertype: "Pokémon",
@@ -39564,6 +45003,68 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-16",
+    name: "Litwick",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Fire"],
+    evolvesTo: ["Lampent"],
+    attacks: [
+      {
+        name: "Brighten and Burn",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Look at the top card of your deck. You may discard that card.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "16",
+    flavorText:
+      "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+    nationalPokedexNumbers: [607],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/16.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/16_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-16",
+        number: "16",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/16.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/16_hires.png",
+        },
+        flavorText:
+          "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+      },
+      {
+        id: "rsv10pt5-101",
+        number: "101",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/101.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/101_hires.png",
+        },
+        flavorText:
+          "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
       },
     ],
   },
@@ -41728,6 +47229,81 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-64",
+    name: "Mandibuzz",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Darkness"],
+    evolvesFrom: "Vullaby",
+    abilities: [
+      {
+        name: "Look for Prey",
+        text: "Once during your turn, you may use this Ability. Your opponent reveals their hand, and you put a Basic Pokémon with 70 HP or less that you find there onto your opponent's Bench.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Cutting Wind",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "64",
+    flavorText:
+      "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+    nationalPokedexNumbers: [630],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/64.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/64_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-64",
+        number: "64",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/64.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/64_hires.png",
+        },
+        flavorText:
+          "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+      },
+      {
+        id: "rsv10pt5-145",
+        number: "145",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/145.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/145_hires.png",
+        },
+        flavorText:
+          "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-139",
     name: "Mandibuzz ex",
     supertype: "Pokémon",
@@ -42117,6 +47693,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/160_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-8",
+    name: "Maractus",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "100",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Lively Needles",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If this Pokémon was healed during this turn, this attack does 100 more damage.",
+      },
+      {
+        name: "Pierce",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "8",
+    flavorText:
+      "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+    nationalPokedexNumbers: [556],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/8.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/8_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-8",
+        number: "8",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/8.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/8_hires.png",
+        },
+        flavorText:
+          "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+      },
+      {
+        id: "zsv10pt5-93",
+        number: "93",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/93.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/93_hires.png",
+        },
+        flavorText:
+          "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
       },
     ],
   },
@@ -46290,6 +51934,88 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-44",
+    name: "Meloetta ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "200",
+    types: ["Psychic"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Debut Performance",
+        text: "If you go first, this Pokémon can use attacks during your first turn.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Echoed Voice",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your next turn, this Pokémon's Echoed Voice attack does 80 more damage (before applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "44",
+    nationalPokedexNumbers: [648],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/44.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/44_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-44",
+        number: "44",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/44.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/44_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-159",
+        number: "159",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/159.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/159_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-167",
+        number: "167",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/167.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/167_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-116",
     name: "Meltan",
     supertype: "Pokémon",
@@ -47351,6 +53077,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-52",
+    name: "Mienfoo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Fighting"],
+    evolvesTo: ["Mienshao"],
+    attacks: [
+      {
+        name: "Kick",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "52",
+    flavorText:
+      "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+    nationalPokedexNumbers: [619],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/52.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/52_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-52",
+        number: "52",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/52.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/52_hires.png",
+        },
+        flavorText:
+          "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+      },
+      {
+        id: "rsv10pt5-133",
+        number: "133",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/133.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/133_hires.png",
+        },
+        flavorText:
+          "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+      },
+    ],
+  },
+  {
     id: "sv7-84",
     name: "Mienshao",
     supertype: "Pokémon",
@@ -47396,6 +53184,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/84_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-53",
+    name: "Mienshao",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Fighting"],
+    evolvesFrom: "Mienfoo",
+    attacks: [
+      {
+        name: "Low Sweep",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Smash Uppercut",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "80",
+        text: "This attack's damage isn't affected by Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "53",
+    flavorText:
+      "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+    nationalPokedexNumbers: [620],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/53.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/53_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-53",
+        number: "53",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/53.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/53_hires.png",
+        },
+        flavorText:
+          "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+      },
+      {
+        id: "rsv10pt5-134",
+        number: "134",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/134.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/134_hires.png",
+        },
+        flavorText:
+          "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
       },
     ],
   },
@@ -48179,6 +54036,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/125_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-75",
+    name: "Minccino",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Cinccino"],
+    attacks: [
+      {
+        name: "Tail Slap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20×",
+        text: "Flip 2 coins. This attack does 20 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "75",
+    flavorText:
+      "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+    nationalPokedexNumbers: [572],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/75.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/75_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-75",
+        number: "75",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/75.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/75_hires.png",
+        },
+        flavorText:
+          "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+      },
+      {
+        id: "zsv10pt5-152",
+        number: "152",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/152.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/152_hires.png",
+        },
+        flavorText:
+          "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
       },
     ],
   },
@@ -50065,6 +55984,81 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-35",
+    name: "Munna",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesTo: ["Musharna"],
+    attacks: [
+      {
+        name: "Rest",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "This Pokémon is now Asleep. Heal 30 damage from it.",
+      },
+      {
+        name: "Mumble",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "35",
+    flavorText:
+      "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+    nationalPokedexNumbers: [517],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/35.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/35_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-35",
+        number: "35",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/35.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/35_hires.png",
+        },
+        flavorText:
+          "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+      },
+      {
+        id: "zsv10pt5-116",
+        number: "116",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/116.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/116_hires.png",
+        },
+        flavorText:
+          "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+      },
+    ],
+  },
+  {
     id: "me2-57",
     name: "Murkrow",
     supertype: "Pokémon",
@@ -50119,6 +56113,81 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-36",
+    name: "Musharna",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Psychic"],
+    evolvesFrom: "Munna",
+    attacks: [
+      {
+        name: "Dream Calling",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "You may search your deck for any number of Fennel cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Sleep Pulse",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "Your opponent's Active Pokémon is now Asleep.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "36",
+    flavorText:
+      "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+    nationalPokedexNumbers: [518],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/36.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/36_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-36",
+        number: "36",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/36.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/36_hires.png",
+        },
+        flavorText:
+          "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+      },
+      {
+        id: "zsv10pt5-117",
+        number: "117",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/117.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/117_hires.png",
+        },
+        flavorText:
+          "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
       },
     ],
   },
@@ -53441,6 +59510,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-21",
+    name: "Oshawott",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Dewott"],
+    attacks: [
+      {
+        name: "Tackle",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Water Gun",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "21",
+    flavorText:
+      "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+    nationalPokedexNumbers: [501],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/21.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/21_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-21",
+        number: "21",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/21.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/21_hires.png",
+        },
+        flavorText:
+          "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+      },
+      {
+        id: "rsv10pt5-105",
+        number: "105",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/105.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/105_hires.png",
+        },
+        flavorText:
+          "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+      },
+    ],
+  },
+  {
     id: "svp-158",
     name: "Pachirisu",
     supertype: "Pokémon",
@@ -54271,6 +60409,76 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-20",
+    name: "Palpitoad",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Water"],
+    evolvesFrom: "Tympole",
+    evolvesTo: ["Seismitoad"],
+    attacks: [
+      {
+        name: "Round",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40×",
+        text: "This attack does 40 damage for each of your Pokémon in play that has the Round attack.",
+      },
+      {
+        name: "Wave Splash",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "20",
+    flavorText:
+      "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+    nationalPokedexNumbers: [536],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/20.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/20_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-20",
+        number: "20",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/20.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/20_hires.png",
+        },
+        flavorText:
+          "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+      },
+      {
+        id: "zsv10pt5-104",
+        number: "104",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/104.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/104_hires.png",
+        },
+        flavorText:
+          "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+      },
+    ],
+  },
+  {
     id: "sv7-85",
     name: "Pancham",
     supertype: "Pokémon",
@@ -54602,6 +60810,144 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-17",
+    name: "Panpour",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    evolvesTo: ["Simipour"],
+    attacks: [
+      {
+        name: "Collect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Scratch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "17",
+    flavorText:
+      "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+    nationalPokedexNumbers: [515],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/17.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/17_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-17",
+        number: "17",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/17.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/17_hires.png",
+        },
+        flavorText:
+          "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+      },
+      {
+        id: "zsv10pt5-101",
+        number: "101",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/101.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/101_hires.png",
+        },
+        flavorText:
+          "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-4",
+    name: "Pansage",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Simisage"],
+    attacks: [
+      {
+        name: "Collect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Scratch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "4",
+    flavorText:
+      "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+    nationalPokedexNumbers: [511],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/4.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/4_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-4",
+        number: "4",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/4.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/4_hires.png",
+        },
+        flavorText:
+          "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+      },
+      {
+        id: "zsv10pt5-89",
+        number: "89",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/89.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/89_hires.png",
+        },
+        flavorText:
+          "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+      },
+    ],
+  },
+  {
     id: "sv8-22",
     name: "Pansear",
     supertype: "Pokémon",
@@ -54647,6 +60993,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/22_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-14",
+    name: "Pansear",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Simisear"],
+    attacks: [
+      {
+        name: "Collect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Scratch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "14",
+    flavorText:
+      "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+    nationalPokedexNumbers: [513],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/14.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/14_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-14",
+        number: "14",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/14.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/14_hires.png",
+        },
+        flavorText:
+          "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+      },
+      {
+        id: "rsv10pt5-99",
+        number: "99",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/99.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/99_hires.png",
+        },
+        flavorText:
+          "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
       },
     ],
   },
@@ -54800,6 +61215,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/111_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-72",
+    name: "Patrat",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Watchog"],
+    attacks: [
+      {
+        name: "Procurement",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Gnaw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "72",
+    flavorText:
+      "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+    nationalPokedexNumbers: [504],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/72.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/72_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-72",
+        number: "72",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/72.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/72_hires.png",
+        },
+        flavorText:
+          "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+      },
+      {
+        id: "rsv10pt5-152",
+        number: "152",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/152.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/152_hires.png",
+        },
+        flavorText:
+          "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
       },
     ],
   },
@@ -55059,6 +61543,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/svp/111_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-64",
+    name: "Pawniard",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Metal"],
+    evolvesTo: ["Bisharp"],
+    attacks: [
+      {
+        name: "Corner",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "64",
+    flavorText:
+      "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+    nationalPokedexNumbers: [624],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/64.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/64_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-64",
+        number: "64",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/64.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/64_hires.png",
+        },
+        flavorText:
+          "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+      },
+      {
+        id: "zsv10pt5-142",
+        number: "142",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/142.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/142_hires.png",
+        },
+        flavorText:
+          "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
       },
     ],
   },
@@ -55563,6 +62115,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-6",
+    name: "Petilil",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Lilligant"],
+    attacks: [
+      {
+        name: "Hide",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+      {
+        name: "Leafage",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "6",
+    flavorText:
+      "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+    nationalPokedexNumbers: [548],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/6.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/6_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-6",
+        number: "6",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/6.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/6_hires.png",
+        },
+        flavorText:
+          "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+      },
+      {
+        id: "zsv10pt5-91",
+        number: "91",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/91.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/91_hires.png",
+        },
+        flavorText:
+          "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+      },
+    ],
+  },
+  {
     id: "sv8-102",
     name: "Phanpy",
     supertype: "Pokémon",
@@ -55802,6 +62423,151 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-71",
+    name: "Pidove",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    evolvesTo: ["Tranquill"],
+    attacks: [
+      {
+        name: "Scout",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent reveals their hand.",
+      },
+      {
+        name: "Stampede",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "71",
+    flavorText:
+      "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+    nationalPokedexNumbers: [519],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/71.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/71_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-71",
+        number: "71",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/71.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/71_hires.png",
+        },
+        flavorText:
+          "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+      },
+      {
+        id: "zsv10pt5-148",
+        number: "148",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/148.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/148_hires.png",
+        },
+        flavorText:
+          "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-12",
+    name: "Pignite",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Fire"],
+    evolvesFrom: "Tepig",
+    evolvesTo: ["Emboar"],
+    attacks: [
+      {
+        name: "Combustion",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Heat Crash",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "12",
+    flavorText:
+      "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+    nationalPokedexNumbers: [499],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/12.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/12_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-12",
+        number: "12",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/12.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/12_hires.png",
+        },
+        flavorText:
+          "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+      },
+      {
+        id: "rsv10pt5-97",
+        number: "97",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/97.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/97_hires.png",
+        },
+        flavorText:
+          "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
       },
     ],
   },
@@ -57844,6 +64610,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/81_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-55",
+    name: "Purrloin",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Darkness"],
+    evolvesTo: ["Liepard"],
+    attacks: [
+      {
+        name: "Invite Evil",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Darkness Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "55",
+    flavorText:
+      "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
+    nationalPokedexNumbers: [509],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/55.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/55_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-55",
+        number: "55",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/55.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/55_hires.png",
+        },
+        flavorText:
+          "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
+      },
+      {
+        id: "rsv10pt5-136",
+        number: "136",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/136.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/136_hires.png",
+        },
+        flavorText:
+          "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
       },
     ],
   },
@@ -60196,6 +67024,91 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-20",
+    name: "Reshiram ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Fire"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Slash",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Blazing Burst",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130+",
+        text: "This attack does 50 more damage for each Prize card your opponent has taken. Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "20",
+    nationalPokedexNumbers: [643],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/20.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/20_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-20",
+        number: "20",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/20.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/20_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-158",
+        number: "158",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/158.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/158_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-166",
+        number: "166",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/166.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/166_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-173",
+        number: "173",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/173.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/173_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-72",
     name: "Reuniclus",
     supertype: "Pokémon",
@@ -60267,6 +67180,71 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-39",
+    name: "Reuniclus",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "140",
+    types: ["Psychic"],
+    evolvesFrom: "Duosion",
+    attacks: [
+      {
+        name: "Cellular Ascension",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "For each of your Benched Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
+      },
+      {
+        name: "Evo-Lariat",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40+",
+        text: "This attack does 40 more damage for each of your Evolution Pokémon in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "39",
+    flavorText:
+      "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+    nationalPokedexNumbers: [579],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/39.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/39_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-39",
+        number: "39",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/39.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/39_hires.png",
+        },
+        flavorText:
+          "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
       },
     ],
   },
@@ -61142,6 +68120,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-46",
+    name: "Roggenrola",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Fighting"],
+    evolvesTo: ["Boldore"],
+    attacks: [
+      {
+        name: "Harden",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less.",
+      },
+      {
+        name: "Rolling Rocks",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "46",
+    flavorText:
+      "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+    nationalPokedexNumbers: [524],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/46.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/46_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-46",
+        number: "46",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/46.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/46_hires.png",
+        },
+        flavorText:
+          "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+      },
+      {
+        id: "rsv10pt5-127",
+        number: "127",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/127.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/127_hires.png",
+        },
+        flavorText:
+          "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+      },
+    ],
+  },
+  {
     id: "sv5-93",
     name: "Rolycoly",
     supertype: "Pokémon",
@@ -61804,6 +68851,81 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-77",
+    name: "Rufflet",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesTo: ["Braviary"],
+    attacks: [
+      {
+        name: "Peck",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Glide",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "77",
+    flavorText:
+      "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+    nationalPokedexNumbers: [627],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/77.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/77_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-77",
+        number: "77",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/77.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/77_hires.png",
+        },
+        flavorText:
+          "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+      },
+      {
+        id: "zsv10pt5-154",
+        number: "154",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/154.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/154_hires.png",
+        },
+        flavorText:
+          "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+      },
+    ],
+  },
+  {
     id: "sv5-107",
     name: "Sableye",
     supertype: "Pokémon",
@@ -62276,6 +69398,137 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-23",
+    name: "Samurott",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Water"],
+    evolvesFrom: "Dewott",
+    abilities: [
+      {
+        name: "Torrential Whirlpool",
+        text: "Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon. If you do, switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Energized Slash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "This attack does 50 more damage for each Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "23",
+    flavorText:
+      "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+    nationalPokedexNumbers: [503],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/23.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/23_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-23",
+        number: "23",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/23.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/23_hires.png",
+        },
+        flavorText:
+          "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+      },
+      {
+        id: "rsv10pt5-107",
+        number: "107",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/107.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/107_hires.png",
+        },
+        flavorText:
+          "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-57",
+    name: "Sandile",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Krokorok"],
+    attacks: [
+      {
+        name: "Tighten Up",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Your opponent discards a card from their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "57",
+    flavorText:
+      "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+    nationalPokedexNumbers: [551],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/57.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/57_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-57",
+        number: "57",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/57.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/57_hires.png",
+        },
+        flavorText:
+          "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+      },
+      {
+        id: "zsv10pt5-135",
+        number: "135",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/135.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/135_hires.png",
+        },
+        flavorText:
+          "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+      },
+    ],
+  },
+  {
     id: "me2-64",
     name: "Sandile",
     supertype: "Pokémon",
@@ -62743,6 +69996,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-49",
+    name: "Sawk",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Elbow Strike",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Rising Chop",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "90",
+        text: "If your opponent's Active Pokémon isn't a Pokémon ex, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "49",
+    flavorText:
+      "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+    nationalPokedexNumbers: [539],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/49.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/49_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-49",
+        number: "49",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/49.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/49_hires.png",
+        },
+        flavorText:
+          "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+      },
+      {
+        id: "rsv10pt5-130",
+        number: "130",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/130.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/130_hires.png",
+        },
+        flavorText:
+          "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+      },
+    ],
+  },
+  {
     id: "sv5-17",
     name: "Sawsbuck",
     supertype: "Pokémon",
@@ -62808,6 +70129,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Sawsbuck in their Autumn Form are known for having very short tempers. The males fight each other incessantly.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-7",
+    name: "Sawsbuck",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Grass"],
+    evolvesFrom: "Deerling",
+    attacks: [
+      {
+        name: "Push Down",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Solar Beam",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "7",
+    flavorText:
+      "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+    nationalPokedexNumbers: [586],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/7.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/7_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-7",
+        number: "7",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/7.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/7_hires.png",
+        },
+        flavorText:
+          "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+      },
+      {
+        id: "rsv10pt5-92",
+        number: "92",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/92.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/92_hires.png",
+        },
+        flavorText:
+          "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
       },
     ],
   },
@@ -63038,6 +70428,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-56",
+    name: "Scolipede",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Darkness"],
+    evolvesFrom: "Whirlipede",
+    abilities: [
+      {
+        name: "Poison Point",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Venoshock",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "90+",
+        text: "If your opponent's Active Pokémon is Poisoned, this attack does 90 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "56",
+    flavorText:
+      "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+    nationalPokedexNumbers: [545],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/56.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/56_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-56",
+        number: "56",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/56.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/56_hires.png",
+        },
+        flavorText:
+          "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      },
+      {
+        id: "zsv10pt5-134",
+        number: "134",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/134.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/134_hires.png",
+        },
+        flavorText:
+          "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
       },
     ],
   },
@@ -63324,6 +70783,137 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/216_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-58",
+    name: "Scrafty",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Scraggy",
+    attacks: [
+      {
+        name: "Ruffians Attack",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "60×",
+        text: "Flip a coin for each Darkness Pokémon you have in play. This attack does 60 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "58",
+    flavorText:
+      "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+    nationalPokedexNumbers: [560],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/58.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/58_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-58",
+        number: "58",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/58.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/58_hires.png",
+        },
+        flavorText:
+          "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+      },
+      {
+        id: "rsv10pt5-139",
+        number: "139",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/139.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/139_hires.png",
+        },
+        flavorText:
+          "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-57",
+    name: "Scraggy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Scrafty"],
+    attacks: [
+      {
+        name: "Headbutt",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Invade",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "57",
+    flavorText:
+      "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+    nationalPokedexNumbers: [559],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/57.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/57_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-57",
+        number: "57",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/57.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/57_hires.png",
+        },
+        flavorText:
+          "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+      },
+      {
+        id: "rsv10pt5-138",
+        number: "138",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/138.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/138_hires.png",
+        },
+        flavorText:
+          "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
       },
     ],
   },
@@ -64026,6 +71616,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-21",
+    name: "Seismitoad",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Water"],
+    evolvesFrom: "Palpitoad",
+    attacks: [
+      {
+        name: "Round",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70×",
+        text: "This attack does 70 damage for each of your Pokémon in play that has the Round attack.",
+      },
+      {
+        name: "Hyper Voice",
+        cost: ["Water", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "160",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "21",
+    flavorText:
+      "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+    nationalPokedexNumbers: [537],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/21.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/21_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-21",
+        number: "21",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/21.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/21_hires.png",
+        },
+        flavorText:
+          "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+      },
+      {
+        id: "zsv10pt5-105",
+        number: "105",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/105.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/105_hires.png",
+        },
+        flavorText:
+          "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+      },
+    ],
+  },
+  {
     id: "sv9-118",
     name: "Sentret",
     supertype: "Pokémon",
@@ -64127,6 +71786,153 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me3-6/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-3",
+    name: "Serperior ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "320",
+    types: ["Grass"],
+    evolvesFrom: "Servine",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Regal Cheer",
+        text: "Attacks used by your Pokémon do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Command the Grass",
+        cost: ["Grass", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150",
+        text: "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "3",
+    nationalPokedexNumbers: [497],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/3.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/3_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-3",
+        number: "3",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/3.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/3_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-156",
+        number: "156",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/156.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/156_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-164",
+        number: "164",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/164.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/164_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-2",
+    name: "Servine",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Snivy",
+    evolvesTo: ["Serperior"],
+    attacks: [
+      {
+        name: "Wrap",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+      {
+        name: "Vine Whip",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "2",
+    flavorText:
+      "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+    nationalPokedexNumbers: [496],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/2.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/2_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-2",
+        number: "2",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/2.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/2_hires.png",
+        },
+        flavorText:
+          "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      },
+      {
+        id: "zsv10pt5-88",
+        number: "88",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/88.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/88_hires.png",
+        },
+        flavorText:
+          "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
       },
     ],
   },
@@ -64234,6 +72040,68 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-1",
+    name: "Sewaddle",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Grass"],
+    evolvesTo: ["Swadloon"],
+    attacks: [
+      {
+        name: "Bug Bite",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "1",
+    flavorText:
+      "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+    nationalPokedexNumbers: [540],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/1.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/1_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-1",
+        number: "1",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/1.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/1_hires.png",
+        },
+        flavorText:
+          "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+      },
+      {
+        id: "rsv10pt5-87",
+        number: "87",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/87.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/87_hires.png",
+        },
+        flavorText:
+          "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
       },
     ],
   },
@@ -64738,6 +72606,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/12_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-8",
+    name: "Shelmet",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Grass"],
+    evolvesTo: ["Accelgor"],
+    abilities: [
+      {
+        name: "Stimulated Evolution",
+        text: "If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Headbutt Bounce",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "8",
+    flavorText:
+      "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+    nationalPokedexNumbers: [616],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/8.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/8_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-8",
+        number: "8",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/8.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/8_hires.png",
+        },
+        flavorText:
+          "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+      },
+      {
+        id: "rsv10pt5-93",
+        number: "93",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/93.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/93_hires.png",
+        },
+        flavorText:
+          "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
       },
     ],
   },
@@ -65489,6 +73426,80 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-38",
+    name: "Sigilyph",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Reflect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Telekinesis",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "This attack does 70 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "38",
+    flavorText:
+      "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+    nationalPokedexNumbers: [561],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/38.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/38_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-38",
+        number: "38",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/38.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/38_hires.png",
+        },
+        flavorText:
+          "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+      },
+      {
+        id: "rsv10pt5-121",
+        number: "121",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/121.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/121_hires.png",
+        },
+        flavorText:
+          "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-12",
     name: "Silcoon",
     supertype: "Pokémon",
@@ -65548,6 +73559,130 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-18",
+    name: "Simipour",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Water"],
+    evolvesFrom: "Panpour",
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "18",
+    flavorText:
+      "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+    nationalPokedexNumbers: [516],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/18.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/18_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-18",
+        number: "18",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/18.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/18_hires.png",
+        },
+        flavorText:
+          "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+      },
+      {
+        id: "zsv10pt5-102",
+        number: "102",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/102.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/102_hires.png",
+        },
+        flavorText:
+          "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-5",
+    name: "Simisage",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Pansage",
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "5",
+    flavorText:
+      "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+    nationalPokedexNumbers: [512],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/5.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/5_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-5",
+        number: "5",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/5.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/5_hires.png",
+        },
+        flavorText:
+          "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+      },
+      {
+        id: "zsv10pt5-90",
+        number: "90",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/90.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/90_hires.png",
+        },
+        flavorText:
+          "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+      },
+    ],
+  },
+  {
     id: "sv8-23",
     name: "Simisear",
     supertype: "Pokémon",
@@ -65593,6 +73728,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/23_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-15",
+    name: "Simisear",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Fire"],
+    evolvesFrom: "Pansear",
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "15",
+    flavorText:
+      "It loves sweets because they become energy for the fire burning inside its body.",
+    nationalPokedexNumbers: [514],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/15.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/15_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-15",
+        number: "15",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/15.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/15_hires.png",
+        },
+        flavorText:
+          "It loves sweets because they become energy for the fire burning inside its body.",
+      },
+      {
+        id: "rsv10pt5-100",
+        number: "100",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/100.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/100_hires.png",
+        },
+        flavorText:
+          "It loves sweets because they become energy for the fire burning inside its body.",
       },
     ],
   },
@@ -67310,6 +75507,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-1",
+    name: "Snivy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Grass"],
+    evolvesTo: ["Servine"],
+    attacks: [
+      {
+        name: "Tackle",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Vine Whip",
+        cost: ["Grass", "Grass"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "1",
+    flavorText:
+      "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+    nationalPokedexNumbers: [495],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/1.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/1_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-1",
+        number: "1",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/1.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/1_hires.png",
+        },
+        flavorText:
+          "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+      },
+      {
+        id: "zsv10pt5-87",
+        number: "87",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/87.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/87_hires.png",
+        },
+        flavorText:
+          "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+      },
+    ],
+  },
+  {
     id: "me3-4",
     name: "Snivy",
     supertype: "Pokémon",
@@ -68186,6 +76452,74 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-37",
+    name: "Solosis",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Psychic"],
+    evolvesTo: ["Duosion"],
+    attacks: [
+      {
+        name: "Rollout",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "37",
+    flavorText:
+      "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+    nationalPokedexNumbers: [577],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/37.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/37_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-37",
+        number: "37",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/37.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/37_hires.png",
+        },
+        flavorText:
+          "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+      },
+      {
+        id: "zsv10pt5-118",
+        number: "118",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/118.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/118_hires.png",
+        },
+        flavorText:
+          "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
       },
     ],
   },
@@ -69701,6 +78035,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-76",
+    name: "Stoutland",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Colorless"],
+    evolvesFrom: "Herdier",
+    attacks: [
+      {
+        name: "Odor Sleuth",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.",
+      },
+      {
+        name: "Special Fang",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100+",
+        text: "If this Pokémon has any Special Energy attached, this attack does 100 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "76",
+    flavorText:
+      "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+    nationalPokedexNumbers: [508],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/76.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/76_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-76",
+        number: "76",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/76.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/76_hires.png",
+        },
+        flavorText:
+          "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+      },
+      {
+        id: "rsv10pt5-156",
+        number: "156",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/156.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/156_hires.png",
+        },
+        flavorText:
+          "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-52",
     name: "Stufful",
     supertype: "Pokémon",
@@ -69868,6 +78271,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/202_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-35",
+    name: "Stunfisk",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Muddy Bolt",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If this Pokémon has any Fighting Energy attached, this attack does 20 more damage.",
+      },
+      {
+        name: "Flop",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "35",
+    flavorText:
+      "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+    nationalPokedexNumbers: [618],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/35.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/35_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-35",
+        number: "35",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/35.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/35_hires.png",
+        },
+        flavorText:
+          "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+      },
+      {
+        id: "rsv10pt5-118",
+        number: "118",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/118.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/118_hires.png",
+        },
+        flavorText:
+          "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
       },
     ],
   },
@@ -70272,6 +78743,76 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-2",
+    name: "Swadloon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Grass"],
+    evolvesFrom: "Sewaddle",
+    evolvesTo: ["Leavanny"],
+    abilities: [
+      {
+        name: "Healing Leaves",
+        text: "Once during your turn, you may heal 20 damage from your Active Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Bug Buzz",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "2",
+    flavorText:
+      "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+    nationalPokedexNumbers: [541],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/2.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/2_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-2",
+        number: "2",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/2.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/2_hires.png",
+        },
+        flavorText:
+          "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+      },
+      {
+        id: "rsv10pt5-88",
+        number: "88",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/88.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/88_hires.png",
+        },
+        flavorText:
+          "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+      },
+    ],
+  },
+  {
     id: "sv7-92",
     name: "Swalot",
     supertype: "Pokémon",
@@ -70389,6 +78930,81 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It's said that many artists have taken inspiration from the sight of a Swanna performing a beautiful dance in the light of dawn.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-26",
+    name: "Swanna",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Water"],
+    evolvesFrom: "Ducklett",
+    attacks: [
+      {
+        name: "Flap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Air Slash",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "26",
+    flavorText:
+      "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+    nationalPokedexNumbers: [581],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/26.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/26_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-26",
+        number: "26",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/26.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/26_hires.png",
+        },
+        flavorText:
+          "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+      },
+      {
+        id: "rsv10pt5-110",
+        number: "110",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/110.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/110_hires.png",
+        },
+        flavorText:
+          "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
       },
     ],
   },
@@ -70680,6 +79296,81 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me2pt5-93/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-37",
+    name: "Swoobat",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Psychic"],
+    evolvesFrom: "Woobat",
+    attacks: [
+      {
+        name: "Happy Return",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Put 1 of your Benched Pokémon and all attached cards into your hand.",
+      },
+      {
+        name: "Gust",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "37",
+    flavorText:
+      "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+    nationalPokedexNumbers: [528],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/37.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/37_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-37",
+        number: "37",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/37.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/37_hires.png",
+        },
+        flavorText:
+          "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+      },
+      {
+        id: "rsv10pt5-120",
+        number: "120",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/120.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/120_hires.png",
+        },
+        flavorText:
+          "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
       },
     ],
   },
@@ -75402,6 +84093,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-11",
+    name: "Tepig",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    evolvesTo: ["Pignite"],
+    attacks: [
+      {
+        name: "Tackle",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Rollout",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "11",
+    flavorText:
+      "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+    nationalPokedexNumbers: [498],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/11.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/11_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-11",
+        number: "11",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/11.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/11_hires.png",
+        },
+        flavorText:
+          "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+      },
+      {
+        id: "rsv10pt5-96",
+        number: "96",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/96.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/96_hires.png",
+        },
+        flavorText:
+          "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-29",
     name: "Tepig",
     supertype: "Pokémon",
@@ -75689,6 +84449,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-54",
+    name: "Terrakion",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "140",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Retaliate",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50+",
+        text: "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 80 more damage.",
+      },
+      {
+        name: "Land Crush",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "54",
+    flavorText:
+      "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+    nationalPokedexNumbers: [639],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/54.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/54_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-54",
+        number: "54",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/54.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/54_hires.png",
+        },
+        flavorText:
+          "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+      },
+      {
+        id: "rsv10pt5-135",
+        number: "135",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/135.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/135_hires.png",
+        },
+        flavorText:
+          "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+      },
+    ],
+  },
+  {
     id: "me1-90",
     name: "Thievul",
     supertype: "Pokémon",
@@ -75741,6 +84569,125 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/me1/90_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-50",
+    name: "Throh",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Shoulder Throw",
+        cost: ["Fighting", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120-",
+        text: "This attack does 30 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "50",
+    flavorText:
+      "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+    nationalPokedexNumbers: [538],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/50.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/50_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-50",
+        number: "50",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/50.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/50_hires.png",
+        },
+        flavorText:
+          "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+      },
+      {
+        id: "zsv10pt5-128",
+        number: "128",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/128.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/128_hires.png",
+        },
+        flavorText:
+          "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-33",
+    name: "Thundurus",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Charge",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Disaster Volt",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "33",
+    flavorText:
+      "Countless charred remains mar the landscape of places through which Thundurus has passed.",
+    nationalPokedexNumbers: [642],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/33.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/33_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-33",
+        number: "33",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/33.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/33_hires.png",
+        },
+        flavorText:
+          "Countless charred remains mar the landscape of places through which Thundurus has passed.",
       },
     ],
   },
@@ -75873,6 +84820,75 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It fights by swinging a piece of lumber around. It is close to evolving when it can handle heavy lumber without difficulty.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-47",
+    name: "Timburr",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fighting"],
+    evolvesTo: ["Gurdurr"],
+    attacks: [
+      {
+        name: "Low Kick",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Strength",
+        cost: ["Fighting", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "47",
+    flavorText:
+      "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+    nationalPokedexNumbers: [532],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/47.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/47_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-47",
+        number: "47",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/47.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/47_hires.png",
+        },
+        flavorText:
+          "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+      },
+      {
+        id: "zsv10pt5-125",
+        number: "125",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/125.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/125_hires.png",
+        },
+        flavorText:
+          "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
       },
     ],
   },
@@ -76152,6 +85168,76 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/37_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-22",
+    name: "Tirtouga",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Water"],
+    evolvesFrom: "Antique Cover Fossil",
+    evolvesTo: ["Carracosta"],
+    attacks: [
+      {
+        name: "Ancient Seaweed",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "This attack does 30 damage for each Item card in your opponent's discard pile.",
+      },
+      {
+        name: "Surf",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "22",
+    flavorText:
+      "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+    nationalPokedexNumbers: [564],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/22.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/22_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-22",
+        number: "22",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/22.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/22_hires.png",
+        },
+        flavorText:
+          "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+      },
+      {
+        id: "zsv10pt5-106",
+        number: "106",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/106.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/106_hires.png",
+        },
+        flavorText:
+          "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
       },
     ],
   },
@@ -77172,6 +86258,70 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-78",
+    name: "Tornadus",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Wrapped in Wind",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Attach a Basic Energy card from your hand to this Pokémon.",
+      },
+      {
+        name: "Hurricane",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "78",
+    flavorText:
+      "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+    nationalPokedexNumbers: [641],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/78.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/78_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-78",
+        number: "78",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/78.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/78_hires.png",
+        },
+        flavorText:
+          "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+      },
+    ],
+  },
+  {
     id: "sv5-33",
     name: "Torracat",
     supertype: "Pokémon",
@@ -77700,6 +86850,73 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-72",
+    name: "Tranquill",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Colorless"],
+    evolvesFrom: "Pidove",
+    evolvesTo: ["Unfezant"],
+    attacks: [
+      {
+        name: "Fly",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "Flip a coin. If tails, this attack does nothing. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "72",
+    flavorText:
+      "It can return to its Trainer's location regardless of the distance separating them.",
+    nationalPokedexNumbers: [520],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/72.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/72_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-72",
+        number: "72",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/72.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/72_hires.png",
+        },
+        flavorText:
+          "It can return to its Trainer's location regardless of the distance separating them.",
+      },
+      {
+        id: "zsv10pt5-149",
+        number: "149",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/149.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/149_hires.png",
+        },
+        flavorText:
+          "It can return to its Trainer's location regardless of the distance separating them.",
+      },
+    ],
+  },
+  {
     id: "sv8-104",
     name: "Trapinch",
     supertype: "Pokémon",
@@ -77924,6 +87141,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/123_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-59",
+    name: "Trubbish",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Garbodor"],
+    attacks: [
+      {
+        name: "Drool",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Sludge Bomb",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "59",
+    flavorText:
+      "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+    nationalPokedexNumbers: [568],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/59.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/59_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-59",
+        number: "59",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/59.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/59_hires.png",
+        },
+        flavorText:
+          "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+      },
+      {
+        id: "rsv10pt5-140",
+        number: "140",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/140.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/140_hires.png",
+        },
+        flavorText:
+          "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
       },
     ],
   },
@@ -78209,6 +87495,128 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-19",
+    name: "Tympole",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Water"],
+    evolvesTo: ["Palpitoad"],
+    attacks: [
+      {
+        name: "Round",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20×",
+        text: "This attack does 20 damage for each of your Pokémon in play that has the Round attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "19",
+    flavorText:
+      "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+    nationalPokedexNumbers: [535],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/19.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/19_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-19",
+        number: "19",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/19.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/19_hires.png",
+        },
+        flavorText:
+          "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+      },
+      {
+        id: "zsv10pt5-103",
+        number: "103",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/103.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/103_hires.png",
+        },
+        flavorText:
+          "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-30",
+    name: "Tynamo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Lightning"],
+    evolvesTo: ["Eelektrik"],
+    attacks: [
+      {
+        name: "Hold Still",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 10 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    number: "30",
+    flavorText:
+      "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+    nationalPokedexNumbers: [602],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/30.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/30_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-30",
+        number: "30",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/30.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/30_hires.png",
+        },
+        flavorText:
+          "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+      },
+      {
+        id: "zsv10pt5-113",
+        number: "113",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/113.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/113_hires.png",
+        },
+        flavorText:
+          "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
       },
     ],
   },
@@ -78661,6 +88069,79 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-73",
+    name: "Unfezant",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "150",
+    types: ["Colorless"],
+    evolvesFrom: "Tranquill",
+    attacks: [
+      {
+        name: "Add On",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw 4 cards.",
+      },
+      {
+        name: "Swift Flight",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "73",
+    flavorText:
+      "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+    nationalPokedexNumbers: [521],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/73.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/73_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-73",
+        number: "73",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/73.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/73_hires.png",
+        },
+        flavorText:
+          "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+      },
+      {
+        id: "zsv10pt5-150",
+        number: "150",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/150.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/150_hires.png",
+        },
+        flavorText:
+          "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+      },
+    ],
+  },
+  {
     id: "sv8-78",
     name: "Uxie",
     supertype: "Pokémon",
@@ -78711,6 +88192,214 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/78_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-28",
+    name: "Vanillish",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Water"],
+    evolvesFrom: "Vanillite",
+    evolvesTo: ["Vanilluxe"],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Ice Beam",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "28",
+    flavorText:
+      "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+    nationalPokedexNumbers: [583],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/28.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/28_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-28",
+        number: "28",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/28.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/28_hires.png",
+        },
+        flavorText:
+          "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+      },
+      {
+        id: "rsv10pt5-112",
+        number: "112",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/112.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/112_hires.png",
+        },
+        flavorText:
+          "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-27",
+    name: "Vanillite",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Water"],
+    evolvesTo: ["Vanillish"],
+    attacks: [
+      {
+        name: "Beat",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Ice Edge",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "27",
+    flavorText:
+      "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+    nationalPokedexNumbers: [582],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/27.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/27_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-27",
+        number: "27",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/27.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/27_hires.png",
+        },
+        flavorText:
+          "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+      },
+      {
+        id: "rsv10pt5-111",
+        number: "111",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/111.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/111_hires.png",
+        },
+        flavorText:
+          "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-29",
+    name: "Vanilluxe",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "150",
+    types: ["Water"],
+    evolvesFrom: "Vanillish",
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "",
+      },
+      {
+        name: "Double Freeze",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90×",
+        text: "Flip 2 coins. This attack does 90 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "29",
+    flavorText:
+      "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
+    nationalPokedexNumbers: [584],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/29.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/29_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-29",
+        number: "29",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/29.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/29_hires.png",
+        },
+        flavorText:
+          "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
+      },
+      {
+        id: "rsv10pt5-113",
+        number: "113",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/113.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/113_hires.png",
+        },
+        flavorText:
+          "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
       },
     ],
   },
@@ -79135,6 +88824,68 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-54",
+    name: "Venipede",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesTo: ["Whirlipede"],
+    attacks: [
+      {
+        name: "Poison Spray",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "54",
+    flavorText:
+      "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+    nationalPokedexNumbers: [543],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/54.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/54_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-54",
+        number: "54",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/54.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/54_hires.png",
+        },
+        flavorText:
+          "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+      },
+      {
+        id: "zsv10pt5-132",
+        number: "132",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/132.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/132_hires.png",
+        },
+        flavorText:
+          "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+      },
+    ],
+  },
+  {
     id: "sv8-105",
     name: "Vibrava",
     supertype: "Pokémon",
@@ -79363,6 +89114,77 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/21_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-12",
+    name: "Victini",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "V-Force",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "12",
+    flavorText:
+      "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+    nationalPokedexNumbers: [494],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/12.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/12_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-12",
+        number: "12",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/12.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/12_hires.png",
+        },
+        flavorText:
+          "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+      },
+      {
+        id: "zsv10pt5-171",
+        number: "171",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/171.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/171_hires.png",
+        },
+        flavorText:
+          "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+      },
+      {
+        id: "rsv10pt5-172",
+        number: "172",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/172.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/172_hires.png",
+        },
+        flavorText:
+          "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
       },
     ],
   },
@@ -79662,6 +89484,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/15_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-10",
+    name: "Virizion",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Giga Drain",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+      },
+      {
+        name: "Emerald Blade",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "10",
+    flavorText:
+      "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+    nationalPokedexNumbers: [640],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/10.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/10_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-10",
+        number: "10",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/10.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/10_hires.png",
+        },
+        flavorText:
+          "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+      },
+      {
+        id: "rsv10pt5-95",
+        number: "95",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/95.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/95_hires.png",
+        },
+        flavorText:
+          "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
       },
     ],
   },
@@ -80136,6 +90026,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "zsv10pt5-16",
+    name: "Volcarona",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Fire"],
+    evolvesFrom: "Larvesta",
+    abilities: [
+      {
+        name: "Torrid Scales",
+        text: "You must discard a Basic Fire Energy card from your hand in order to use this Ability. Once during your turn, you may make your opponent's Active Pokémon Burned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Fire Wing",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "16",
+    flavorText:
+      "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+    nationalPokedexNumbers: [637],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/16.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/16_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-16",
+        number: "16",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/16.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/16_hires.png",
+        },
+        flavorText:
+          "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+      },
+      {
+        id: "zsv10pt5-100",
+        number: "100",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/100.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/100_hires.png",
+        },
+        flavorText:
+          "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+      },
+    ],
+  },
+  {
     id: "me2pt5-58",
     name: "Voltorb ex",
     supertype: "Pokémon",
@@ -80183,6 +90142,74 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me2pt5-58/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-63",
+    name: "Vullaby",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Mandibuzz"],
+    attacks: [
+      {
+        name: "Playful Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "63",
+    flavorText:
+      "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
+    nationalPokedexNumbers: [629],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/63.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/63_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-63",
+        number: "63",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/63.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/63_hires.png",
+        },
+        flavorText:
+          "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
+      },
+      {
+        id: "rsv10pt5-144",
+        number: "144",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/144.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/144_hires.png",
+        },
+        flavorText:
+          "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
       },
     ],
   },
@@ -80837,6 +90864,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-73",
+    name: "Watchog",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Colorless"],
+    evolvesFrom: "Patrat",
+    attacks: [
+      {
+        name: "Focus Energy",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "During your next turn, this Pokémon's Hyper Fang attack's base damage is 240.",
+      },
+      {
+        name: "Hyper Fang",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "80",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "73",
+    flavorText:
+      "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+    nationalPokedexNumbers: [505],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/73.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/73_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-73",
+        number: "73",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/73.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/73_hires.png",
+        },
+        flavorText:
+          "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+      },
+      {
+        id: "rsv10pt5-153",
+        number: "153",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/153.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/153_hires.png",
+        },
+        flavorText:
+          "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+      },
+    ],
+  },
+  {
     id: "sv6-75",
     name: "Wattrel",
     supertype: "Pokémon",
@@ -81309,6 +91405,81 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-5",
+    name: "Whimsicott ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "230",
+    types: ["Grass"],
+    evolvesFrom: "Cottonee",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Energy Gift",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+      },
+      {
+        name: "Wondrous Cotton",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "50×",
+        text: "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    number: "5",
+    nationalPokedexNumbers: [547],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/5.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/5_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-5",
+        number: "5",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/5.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/5_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-157",
+        number: "157",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/157.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/157_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-165",
+        number: "165",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/165.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/165_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-116",
     name: "Whirlipede",
     supertype: "Pokémon",
@@ -81365,6 +91536,69 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-55",
+    name: "Whirlipede",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Venipede",
+    evolvesTo: ["Scolipede"],
+    attacks: [
+      {
+        name: "Venoshock",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "55",
+    flavorText:
+      "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+    nationalPokedexNumbers: [544],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/55.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/55_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-55",
+        number: "55",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/55.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/55_hires.png",
+        },
+        flavorText:
+          "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+      },
+      {
+        id: "zsv10pt5-133",
+        number: "133",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/133.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/133_hires.png",
+        },
+        flavorText:
+          "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
       },
     ],
   },
@@ -81602,6 +91836,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/15_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-36",
+    name: "Woobat",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    evolvesTo: ["Swoobat"],
+    attacks: [
+      {
+        name: "Heart Stamp",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "36",
+    flavorText:
+      "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+    nationalPokedexNumbers: [527],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/36.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/36_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-36",
+        number: "36",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/36.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/36_hires.png",
+        },
+        flavorText:
+          "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+      },
+      {
+        id: "rsv10pt5-119",
+        number: "119",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/119.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/119_hires.png",
+        },
+        flavorText:
+          "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
       },
     ],
   },
@@ -82000,6 +92302,74 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/82_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-39",
+    name: "Yamask",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    evolvesTo: ["Cofagrigus"],
+    attacks: [
+      {
+        name: "Focused Wish",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "39",
+    flavorText:
+      "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+    nationalPokedexNumbers: [562],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/39.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/39_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-39",
+        number: "39",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/39.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/39_hires.png",
+        },
+        flavorText:
+          "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+      },
+      {
+        id: "rsv10pt5-122",
+        number: "122",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/122.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/122_hires.png",
+        },
+        flavorText:
+          "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
       },
     ],
   },
@@ -82987,6 +93357,160 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-32",
+    name: "Zebstrika",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Lightning"],
+    evolvesFrom: "Blitzle",
+    attacks: [
+      {
+        name: "Smash Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Electrobullet",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "32",
+    flavorText:
+      "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    nationalPokedexNumbers: [523],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/32.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/32_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-32",
+        number: "32",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/32.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/32_hires.png",
+        },
+        flavorText:
+          "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+      },
+      {
+        id: "rsv10pt5-115",
+        number: "115",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/115.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/115_hires.png",
+        },
+        flavorText:
+          "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-34",
+    name: "Zekrom ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Lightning"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Slash",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+      {
+        name: "Voltage Burst",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130+",
+        text: "This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "34",
+    nationalPokedexNumbers: [644],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/34.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/34_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-34",
+        number: "34",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/34.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/34_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-158",
+        number: "158",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/158.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/158_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-166",
+        number: "166",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/166.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/166_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-172",
+        number: "172",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/172.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/172_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-57",
     name: "Zeraora",
     supertype: "Pokémon",
@@ -83265,6 +93789,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "rsv10pt5-62",
+    name: "Zoroark",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Zorua",
+    attacks: [
+      {
+        name: "Mind Jack",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your opponent's Benched Pokémon.",
+      },
+      {
+        name: "Foul Play",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "",
+        text: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "62",
+    flavorText:
+      "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    nationalPokedexNumbers: [571],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/62.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/62_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-62",
+        number: "62",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/62.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/62_hires.png",
+        },
+        flavorText:
+          "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+      },
+      {
+        id: "rsv10pt5-143",
+        number: "143",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/143.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/143_hires.png",
+        },
+        flavorText:
+          "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-31",
     name: "Zorua",
     supertype: "Pokémon",
@@ -83326,6 +93919,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/75_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-61",
+    name: "Zorua",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    evolvesTo: ["Zoroark"],
+    attacks: [
+      {
+        name: "Take Down",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "61",
+    flavorText:
+      "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+    nationalPokedexNumbers: [570],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/61.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/61_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-61",
+        number: "61",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/61.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/61_hires.png",
+        },
+        flavorText:
+          "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+      },
+      {
+        id: "rsv10pt5-142",
+        number: "142",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/142.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/142_hires.png",
+        },
+        flavorText:
+          "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
       },
     ],
   },
@@ -83445,6 +94100,76 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/118_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-66",
+    name: "Zweilous",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Darkness"],
+    evolvesFrom: "Deino",
+    evolvesTo: ["Hydreigon"],
+    attacks: [
+      {
+        name: "Double Hit",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40×",
+        text: "Flip 2 coins. This attack does 40 damage for each heads.",
+      },
+      {
+        name: "Pitch-Black Fangs",
+        cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "66",
+    flavorText:
+      "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+    nationalPokedexNumbers: [634],
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/66.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/66_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-66",
+        number: "66",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/66.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/66_hires.png",
+        },
+        flavorText:
+          "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+      },
+      {
+        id: "rsv10pt5-147",
+        number: "147",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/147.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/147_hires.png",
+        },
+        flavorText:
+          "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
       },
     ],
   },

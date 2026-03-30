@@ -94,14 +94,14 @@ const allStandardLegalEnergy = [
     ],
   },
   {
-    id: "me2-124",
+    id: "rsv10pt5-86",
     name: "Ignition Energy",
     supertype: "Energy",
     subtypes: ["Special"],
     rules: [
       "If this card is attached to 1 of your Pokémon, discard it at the end of your turn.  As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to an Evolution Pokémon, it provides ColorlessColorlessColorless Energy instead.",
     ],
-    number: "124",
+    number: "86",
     legalities: {
       unlimited: "Legal",
       standard: "Legal",
@@ -109,10 +109,19 @@ const allStandardLegalEnergy = [
     },
     regulationMark: "I",
     images: {
-      small: "https://images.pokemontcg.io/me2/124.png",
-      large: "https://images.pokemontcg.io/me2/124_hires.png",
+      small: "https://images.pokemontcg.io/rsv10pt5/86.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/86_hires.png",
     },
     altArts: [
+      {
+        id: "rsv10pt5-86",
+        number: "86",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/86.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/86_hires.png",
+        },
+        flavorText: "",
+      },
       {
         id: "me2-124",
         number: "124",
@@ -284,25 +293,34 @@ const allStandardLegalEnergy = [
     ],
   },
   {
-    id: "me2pt5-216",
+    id: "zsv10pt5-86",
     name: "Prism Energy",
     supertype: "Energy",
     subtypes: ["Special"],
     rules: [
       "As long as this card is attached to a Pokémon, it provides Colorless Energy.  If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time.",
     ],
-    number: "216",
+    number: "86",
     legalities: {
-      standard: "Legal",
       unlimited: "Legal",
+      standard: "Legal",
       expanded: "Legal",
     },
     regulationMark: "I",
     images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-216/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-216/large",
+      small: "https://images.pokemontcg.io/zsv10pt5/86.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/86_hires.png",
     },
     altArts: [
+      {
+        id: "zsv10pt5-86",
+        number: "86",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/86.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/86_hires.png",
+        },
+        flavorText: "",
+      },
       {
         id: "me2pt5-216",
         number: "216",

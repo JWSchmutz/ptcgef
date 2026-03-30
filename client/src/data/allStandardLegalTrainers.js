@@ -123,6 +123,39 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "zsv10pt5-79",
+    name: "Air Balloon",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
+    ],
+    number: "79",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/79.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/79_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-79",
+        number: "79",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/79.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/79_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me1-166",
     name: "Air Balloon",
     supertype: "Trainer",
@@ -361,6 +394,49 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "zsv10pt5-80",
+    name: "Antique Cover Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Protective Cover",
+        text: "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+        type: "Ability",
+      },
+    ],
+    number: "60",
+    flavorText:
+      "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "H",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/80.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/80_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-80",
+        number: "60",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/80.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/80_hires.png",
+        },
+        flavorText:
+          "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+      },
+    ],
+  },
+  {
     id: "me3-68",
     name: "Antique Jaw Fossil",
     supertype: "Trainer",
@@ -395,6 +471,45 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-68/small",
           large: "https://images.scrydex.com/pokemon/me3-68/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-79",
+    name: "Antique Plume Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Plume Protection",
+        text: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks from your opponent's Pokémon.",
+        type: "Ability",
+      },
+    ],
+    number: "79",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/79.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/79_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-79",
+        number: "79",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/79.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/79_hires.png",
         },
         flavorText: "",
       },
@@ -1034,6 +1149,39 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "rsv10pt5-80",
+    name: "Brave Bangle",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If the Pokémon this card is attached to doesn't have a Rule Box, the attacks it uses do 30 more damage to your opponent's Active Pokémon ex (before applying Weakness and Resistance). (Pokémon ex, Pokémon V, etc. have Rule Boxes.)",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
+    ],
+    number: "80",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/80.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/80_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-80",
+        number: "80",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/80.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/80_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-132",
     name: "Briar",
     supertype: "Trainer",
@@ -1531,7 +1679,7 @@ const allStandardLegalTrainers = [
     ],
   },
   {
-    id: "me2pt5-258",
+    id: "rsv10pt5-81",
     name: "Cheren",
     supertype: "Trainer",
     subtypes: ["Supporter"],
@@ -1539,18 +1687,27 @@ const allStandardLegalTrainers = [
       "Draw 3 cards.",
       "You may play only 1 Supporter card during your turn.",
     ],
-    number: "258",
+    number: "81",
     legalities: {
-      standard: "Legal",
       unlimited: "Legal",
+      standard: "Legal",
       expanded: "Legal",
     },
     regulationMark: "I",
     images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-258/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-258/large",
+      small: "https://images.pokemontcg.io/rsv10pt5/81.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/81_hires.png",
     },
     altArts: [
+      {
+        id: "rsv10pt5-81",
+        number: "81",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/81.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/81_hires.png",
+        },
+        flavorText: "",
+      },
       {
         id: "me2pt5-258",
         number: "258",
@@ -2507,6 +2664,38 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "zsv10pt5-81",
+    name: "Energy Coin",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "81",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/81.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/81_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-81",
+        number: "81",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/81.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/81_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv10-164",
     name: "Energy Recycler",
     supertype: "Trainer",
@@ -2542,6 +2731,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-108/small",
           large: "https://images.scrydex.com/pokemon/me3-108/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-82",
+    name: "Energy Retrieval",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Put up to 2 Basic Energy cards from your discard pile into your hand.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "82",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/82.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/82_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-82",
+        number: "82",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/82.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/82_hires.png",
         },
         flavorText: "",
       },
@@ -2871,6 +3092,47 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8pt5/107.png",
           large: "https://images.pokemontcg.io/sv8pt5/107_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-82",
+    name: "Fennel",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Heal 40 damage from each of your Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "82",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/82.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/82_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-82",
+        number: "82",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/82.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/82_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-162",
+        number: "162",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/162.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/162_hires.png",
         },
         flavorText: "",
       },
@@ -3568,6 +3830,47 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "rsv10pt5-83",
+    name: "Harlequin",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards, and your opponent draws 3 cards. If tails, you draw 3 cards, and your opponent draws 5 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "83",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/83.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/83_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-83",
+        number: "83",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/83.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/83_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-163",
+        number: "163",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/163.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/163_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-151",
     name: "Hassel",
     supertype: "Trainer",
@@ -3668,6 +3971,56 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv5/152.png",
           large: "https://images.pokemontcg.io/sv5/152_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "rsv10pt5-84",
+    name: "Hilda",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Search your deck for an Evolution Pokémon and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "84",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/rsv10pt5/84.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/84_hires.png",
+    },
+    altArts: [
+      {
+        id: "rsv10pt5-84",
+        number: "84",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/84.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/84_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-164",
+        number: "164",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/164.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/164_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "rsv10pt5-171",
+        number: "171",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/171.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/171_hires.png",
         },
         flavorText: "",
       },
@@ -5442,6 +5795,56 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "zsv10pt5-83",
+    name: "N's Plan",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Move up to 2 Energy from your Benched Pokémon to your Active Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "83",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/83.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/83_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-83",
+        number: "83",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/83.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/83_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-163",
+        number: "163",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/163.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/163_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "zsv10pt5-170",
+        number: "170",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/170.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/170_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-79",
     name: "Naveen",
     supertype: "Trainer",
@@ -6001,6 +6404,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv6pt5/62.png",
           large: "https://images.pokemontcg.io/sv6pt5/62_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "zsv10pt5-84",
+    name: "Pokégear 3.0",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "84",
+    legalities: {
+      unlimited: "Legal",
+      standard: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.pokemontcg.io/zsv10pt5/84.png",
+      large: "https://images.pokemontcg.io/zsv10pt5/84_hires.png",
+    },
+    altArts: [
+      {
+        id: "zsv10pt5-84",
+        number: "84",
+        images: {
+          small: "https://images.pokemontcg.io/zsv10pt5/84.png",
+          large: "https://images.pokemontcg.io/zsv10pt5/84_hires.png",
         },
         flavorText: "",
       },
@@ -8099,7 +8534,7 @@ const allStandardLegalTrainers = [
     ],
   },
   {
-    id: "me2pt5-212",
+    id: "rsv10pt5-85",
     name: "Tool Scrapper",
     supertype: "Trainer",
     subtypes: ["Item"],
@@ -8107,18 +8542,27 @@ const allStandardLegalTrainers = [
       "Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent's) and discard them.",
       "You may play any number of Item cards during your turn.",
     ],
-    number: "212",
+    number: "85",
     legalities: {
-      standard: "Legal",
       unlimited: "Legal",
+      standard: "Legal",
       expanded: "Legal",
     },
     regulationMark: "I",
     images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-212/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-212/large",
+      small: "https://images.pokemontcg.io/rsv10pt5/85.png",
+      large: "https://images.pokemontcg.io/rsv10pt5/85_hires.png",
     },
     altArts: [
+      {
+        id: "rsv10pt5-85",
+        number: "85",
+        images: {
+          small: "https://images.pokemontcg.io/rsv10pt5/85.png",
+          large: "https://images.pokemontcg.io/rsv10pt5/85_hires.png",
+        },
+        flavorText: "",
+      },
       {
         id: "me2pt5-212",
         number: "212",
