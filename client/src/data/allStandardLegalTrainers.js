@@ -361,6 +361,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-68",
+    name: "Antique Jaw Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Intimidating Jaw",
+        text: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 30 less damage (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    number: "68",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-68/small",
+      large: "https://images.scrydex.com/pokemon/me3-68/large",
+    },
+    altArts: [
+      {
+        id: "me3-68",
+        number: "68",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-68/small",
+          large: "https://images.scrydex.com/pokemon/me3-68/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-130",
     name: "Antique Root Fossil",
     supertype: "Trainer",
@@ -395,6 +435,46 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv7/130.png",
           large: "https://images.pokemontcg.io/sv7/130_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-69",
+    name: "Antique Sail Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.  At any time during your turn, you may discard this card from play.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    abilities: [
+      {
+        name: "Protective Sail",
+        text: "Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    number: "69",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-69/small",
+      large: "https://images.scrydex.com/pokemon/me3-69/large",
+    },
+    altArts: [
+      {
+        id: "me3-69",
+        number: "69",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-69/small",
+          large: "https://images.scrydex.com/pokemon/me3-69/large",
         },
         flavorText: "",
       },
@@ -1754,6 +1834,47 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-70",
+    name: "Core Memory",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "The Mega Zygarde ex this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)",
+      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    ],
+    attacks: [
+      {
+        name: "Geobuster",
+        cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 4,
+        damage: "350",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    number: "70",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-70/small",
+      large: "https://images.scrydex.com/pokemon/me3-70/large",
+    },
+    altArts: [
+      {
+        id: "me3-70",
+        number: "70",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-70/small",
+          large: "https://images.scrydex.com/pokemon/me3-70/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-169",
     name: "Counter Gain",
     supertype: "Trainer",
@@ -1890,6 +2011,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8pt5/171.png",
           large: "https://images.pokemontcg.io/sv8pt5/171_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-71",
+    name: "Crushing Hammer",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "71",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-71/small",
+      large: "https://images.scrydex.com/pokemon/me3-71/large",
+    },
+    altArts: [
+      {
+        id: "me3-71",
+        number: "71",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-71/small",
+          large: "https://images.scrydex.com/pokemon/me3-71/large",
         },
         flavorText: "",
       },
@@ -2383,6 +2536,47 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me3-108",
+        number: "108",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-108/small",
+          large: "https://images.scrydex.com/pokemon/me3-108/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-72",
+    name: "Energy Search",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "72",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-72/small",
+      large: "https://images.scrydex.com/pokemon/me3-72/large",
+    },
+    altArts: [
+      {
+        id: "me3-72",
+        number: "72",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-72/small",
+          large: "https://images.scrydex.com/pokemon/me3-72/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -2413,6 +2607,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8/176.png",
           large: "https://images.pokemontcg.io/sv8/176_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-73",
+    name: "Energy Swatter",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "73",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-73/small",
+      large: "https://images.scrydex.com/pokemon/me3-73/large",
+    },
+    altArts: [
+      {
+        id: "me3-73",
+        number: "73",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-73/small",
+          large: "https://images.scrydex.com/pokemon/me3-73/large",
         },
         flavorText: "",
       },
@@ -2864,6 +3090,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-188/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-188/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-109",
+        number: "109",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-109/small",
+          large: "https://images.scrydex.com/pokemon/me3-109/large",
         },
         flavorText: "",
       },
@@ -3439,6 +3674,38 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-74",
+    name: "Hole-Digging Shovel",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Discard the top 2 cards of your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "74",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-74/small",
+      large: "https://images.scrydex.com/pokemon/me3-74/large",
+    },
+    altArts: [
+      {
+        id: "me3-74",
+        number: "74",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-74/small",
+          large: "https://images.scrydex.com/pokemon/me3-74/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-147",
     name: "Hop's Bag",
     supertype: "Trainer",
@@ -3622,6 +3889,56 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/me1/118.png",
           large: "https://images.pokemontcg.io/me1/118_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-75",
+    name: "Jacinthe",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Heal 150 damage from 1 of your Psychic Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "75",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-75/small",
+      large: "https://images.scrydex.com/pokemon/me3-75/large",
+    },
+    altArts: [
+      {
+        id: "me3-75",
+        number: "75",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-75/small",
+          large: "https://images.scrydex.com/pokemon/me3-75/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-110",
+        number: "110",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-110/small",
+          large: "https://images.scrydex.com/pokemon/me3-110/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-122",
+        number: "122",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-122/small",
+          large: "https://images.scrydex.com/pokemon/me3-122/large",
         },
         flavorText: "",
       },
@@ -3827,6 +4144,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8/245.png",
           large: "https://images.pokemontcg.io/sv8/245_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-76",
+    name: "Judge",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Each player shuffles their hand into their deck and draws 4 cards.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "76",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-76/small",
+      large: "https://images.scrydex.com/pokemon/me3-76/large",
+    },
+    altArts: [
+      {
+        id: "me3-76",
+        number: "76",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-76/small",
+          large: "https://images.scrydex.com/pokemon/me3-76/large",
         },
         flavorText: "",
       },
@@ -4535,6 +4884,79 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-77",
+    name: "Lumiose City",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Once during each player's turn, that player may search their deck for a Basic Pokémon and put it onto their Bench. Then, that player shuffles their deck. If a player searches their deck in this way, their turn ends.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
+    ],
+    number: "77",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-77/small",
+      large: "https://images.scrydex.com/pokemon/me3-77/large",
+    },
+    altArts: [
+      {
+        id: "me3-77",
+        number: "77",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-77/small",
+          large: "https://images.scrydex.com/pokemon/me3-77/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-111",
+        number: "111",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-111/small",
+          large: "https://images.scrydex.com/pokemon/me3-111/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-78",
+    name: "Lumiose Galette",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Heal 20 damage and remove a Special Condition from your Active Pokémon.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "78",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-78/small",
+      large: "https://images.scrydex.com/pokemon/me3-78/large",
+    },
+    altArts: [
+      {
+        id: "me3-78",
+        number: "78",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-78/small",
+          large: "https://images.scrydex.com/pokemon/me3-78/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-153",
     name: "Master Ball",
     supertype: "Trainer",
@@ -5020,6 +5442,47 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-79",
+    name: "Naveen",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand. (If you can't draw any cards in this way, you can't use this card.)",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "79",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-79/small",
+      large: "https://images.scrydex.com/pokemon/me3-79/large",
+    },
+    altArts: [
+      {
+        id: "me3-79",
+        number: "79",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-79/small",
+          large: "https://images.scrydex.com/pokemon/me3-79/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-112",
+        number: "112",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-112/small",
+          large: "https://images.scrydex.com/pokemon/me3-112/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-60",
     name: "Neutralization Zone",
     supertype: "Trainer",
@@ -5429,6 +5892,38 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-80",
+    name: "Poké Ball",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "80",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-80/small",
+      large: "https://images.scrydex.com/pokemon/me3-80/large",
+    },
+    altArts: [
+      {
+        id: "me3-80",
+        number: "80",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-80/small",
+          large: "https://images.scrydex.com/pokemon/me3-80/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2pt5-198",
     name: "Poké Pad",
     supertype: "Trainer",
@@ -5455,6 +5950,24 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-198/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-198/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-81",
+        number: "81",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-81/small",
+          large: "https://images.scrydex.com/pokemon/me3-81/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-113",
+        number: "113",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-113/small",
+          large: "https://images.scrydex.com/pokemon/me3-113/large",
         },
         flavorText: "",
       },
@@ -5488,6 +6001,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv6pt5/62.png",
           large: "https://images.pokemontcg.io/sv6pt5/62_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-82",
+    name: "Pokémon Catcher",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "82",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-82/small",
+      large: "https://images.scrydex.com/pokemon/me3-82/large",
+    },
+    altArts: [
+      {
+        id: "me3-82",
+        number: "82",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-82/small",
+          large: "https://images.scrydex.com/pokemon/me3-82/large",
         },
         flavorText: "",
       },
@@ -5552,6 +6097,38 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv9/154.png",
           large: "https://images.pokemontcg.io/sv9/154_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-83",
+    name: "Potion",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Heal 30 damage from 1 of your Pokémon.",
+      "You may play any number of Item cards during your turn.",
+    ],
+    number: "83",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-83/small",
+      large: "https://images.scrydex.com/pokemon/me3-83/large",
+    },
+    altArts: [
+      {
+        id: "me3-83",
+        number: "83",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-83/small",
+          large: "https://images.scrydex.com/pokemon/me3-83/large",
         },
         flavorText: "",
       },
@@ -6065,6 +6642,56 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me3-84",
+    name: "Rosa's Encouragement",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if you have more Prize cards remaining than your opponent.  Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "84",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-84/small",
+      large: "https://images.scrydex.com/pokemon/me3-84/large",
+    },
+    altArts: [
+      {
+        id: "me3-84",
+        number: "84",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-84/small",
+          large: "https://images.scrydex.com/pokemon/me3-84/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-114",
+        number: "114",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-114/small",
+          large: "https://images.scrydex.com/pokemon/me3-114/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-123",
+        number: "123",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-123/small",
+          large: "https://images.scrydex.com/pokemon/me3-123/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-127",
     name: "Roto-Stick",
     supertype: "Trainer",
@@ -6164,6 +6791,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv10/168.png",
           large: "https://images.pokemontcg.io/sv10/168_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-115",
+        number: "115",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-115/small",
+          large: "https://images.scrydex.com/pokemon/me3-115/large",
         },
         flavorText: "",
       },
@@ -6726,6 +7362,47 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv10/181.png",
           large: "https://images.pokemontcg.io/sv10/181_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-85",
+    name: "Tarragon",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Put up to 4 in any combination of Fighting Pokémon and Basic Fighting Energy cards from your discard pile into your hand.",
+      "You may play only 1 Supporter card during your turn.",
+    ],
+    number: "85",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-85/small",
+      large: "https://images.scrydex.com/pokemon/me3-85/large",
+    },
+    altArts: [
+      {
+        id: "me3-85",
+        number: "85",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-85/small",
+          large: "https://images.scrydex.com/pokemon/me3-85/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me3-116",
+        number: "116",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-116/small",
+          large: "https://images.scrydex.com/pokemon/me3-116/large",
         },
         flavorText: "",
       },
@@ -7778,6 +8455,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me3-117",
+        number: "117",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-117/small",
+          large: "https://images.scrydex.com/pokemon/me3-117/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -7822,4 +8508,5 @@ const allStandardLegalTrainers = [
     ],
   },
 ];
+
 export default allStandardLegalTrainers;

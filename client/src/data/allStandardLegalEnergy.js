@@ -63,6 +63,37 @@ const allStandardLegalEnergy = [
     ],
   },
   {
+    id: "me3-86",
+    name: "Growing Grass Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Grass Energy. The Grass Pokémon this card is attached to gets +20 HP.",
+    ],
+    number: "86",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-86/small",
+      large: "https://images.scrydex.com/pokemon/me3-86/large",
+    },
+    altArts: [
+      {
+        id: "me3-86",
+        number: "86",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-86/small",
+          large: "https://images.scrydex.com/pokemon/me3-86/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2-124",
     name: "Ignition Energy",
     supertype: "Energy",
@@ -284,6 +315,37 @@ const allStandardLegalEnergy = [
     ],
   },
   {
+    id: "me3-87",
+    name: "Rocky Fighting Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Fighting Energy. Prevent all effects of attacks used by your opponent's Pokémon done to the Fighting Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)",
+    ],
+    number: "87",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-87/small",
+      large: "https://images.scrydex.com/pokemon/me3-87/large",
+    },
+    altArts: [
+      {
+        id: "me3-87",
+        number: "87",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-87/small",
+          large: "https://images.scrydex.com/pokemon/me3-87/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-159",
     name: "Spiky Energy",
     supertype: "Energy",
@@ -352,34 +414,43 @@ const allStandardLegalEnergy = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "me2pt5-217",
-    name: "Team Rocket's Energy",
-    supertype: "Energy",
-    subtypes: ["Special"],
-    rules: [
-      "This card can only be attached to a Team Rocket's Pokémon. If this card is attached to anything other than a Team Rocket's Pokémon, discard this card.  As long as this card is attached to a Pokémon, it provides 2 in any combination of Psychic Energy and Darkness Energy.",
-    ],
-    number: "217",
-    legalities: {
-      standard: "Legal",
-      unlimited: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-217/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-217/large",
-    },
-    altArts: [
       {
         id: "me2pt5-217",
         number: "217",
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-217/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-217/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me3-88",
+    name: "Telepathic Psychic Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Psychic Energy. When you attach this card from your hand to a Psychic Pokémon, search your deck for up to 2 Basic Psychic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+    ],
+    number: "88",
+    legalities: {
+      standard: "Not Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me3-88/small",
+      large: "https://images.scrydex.com/pokemon/me3-88/large",
+    },
+    altArts: [
+      {
+        id: "me3-88",
+        number: "88",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me3-88/small",
+          large: "https://images.scrydex.com/pokemon/me3-88/large",
         },
         flavorText: "",
       },

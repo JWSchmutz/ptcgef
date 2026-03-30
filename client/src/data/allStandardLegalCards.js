@@ -17,6 +17,7 @@ import svp from "./legalSets/svp.json";
 import me1 from "./legalSets/me1.json";
 import me2 from "./legalSets/me2.json";
 import me2pt5 from "./legalSets/me2pt5.json";
+import me3 from "./legalSets/me3.json";
 
 // Merge all arrays into one big array
 let allStandardLegalCards = [
@@ -38,6 +39,7 @@ let allStandardLegalCards = [
   ...me1,
   ...me2,
   ...me2pt5,
+  ...me3,
 ];
 
 console.log("aslc", allStandardLegalCards);
