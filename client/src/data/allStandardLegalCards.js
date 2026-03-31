@@ -1,51 +1,6 @@
-// Import each JSON set directly
-import sv1 from "./legalSets/sv1.json";
-import sv2 from "./legalSets/sv2.json";
-import sv3 from "./legalSets/sv3.json";
-import sv3pt5 from "./legalSets/sv3pt5.json";
-import sv4 from "./legalSets/sv4.json";
-import sv4pt5 from "./legalSets/sv4pt5.json";
-import sv5 from "./legalSets/sv5.json";
-import sv6 from "./legalSets/sv6.json";
-import sv6pt5 from "./legalSets/sv6pt5.json";
-import sv7 from "./legalSets/sv7.json";
-import sv8 from "./legalSets/sv8.json";
-import sv8pt5 from "./legalSets/sv8pt5.json";
-import sv9 from "./legalSets/sv9.json";
-import sv10 from "./legalSets/sv10.json";
-import svp from "./legalSets/svp.json";
-import me1 from "./legalSets/me1.json";
-import me2 from "./legalSets/me2.json";
-import me2pt5 from "./legalSets/me2pt5.json";
-import me3 from "./legalSets/me3.json";
-import bwz from "./legalSets/bwz.json";
-import bwr from "./legalSets/bwr.json";
+const modules = import.meta.glob("./legalSets/*.json", { eager: true });
 
-// Merge all arrays into one big array
-let allStandardLegalCards = [
-  ...sv1,
-  ...sv2,
-  ...sv3,
-  ...sv3pt5,
-  ...sv4,
-  ...sv4pt5,
-  ...sv5,
-  ...sv6,
-  ...sv6pt5,
-  ...sv7,
-  ...sv8,
-  ...sv8pt5,
-  ...sv9,
-  ...sv10,
-  ...svp,
-  ...bwz,
-  ...bwr,
-  ...me1,
-  ...me2,
-  ...me2pt5,
-  ...me3,
-];
-
+const allStandardLegalCards = Object.values(modules).flatMap((m) => m.default);
 console.log("aslc", allStandardLegalCards);
 
 // Remove unwanted fields
@@ -77,58 +32,45 @@ function getTrainerOrEnergyKey(card) {
   return JSON.stringify({
     name: card.name,
     supertype: card.supertype,
-    subtypes: card.subtypes,
+    subtypes: card.subtypes ? [...card.subtypes].sort() : [],
     rules: card.rules ? [...card.rules].sort() : [],
-    regulationMark: card.regulationMark,
-    hp: card.hp,
-    evolvesTo: card.evolvesTo,
-    abilities: card.abilities,
-    types: card.types,
-    attacks: card.attacks,
-    weaknesses: card.weaknesses,
-    retreatCost: card.retreatCost,
-    convertedRetreatCost: card.convertedRetreatCost,
-    nationalPokedexNumbers: card.nationalPokedexNumbers,
   });
 }
 
 // Pokémon need their own key because they have more gameplay fields
 function getPokemonKey(card) {
+  if (card.name.includes("Clefairy ex")) console.log(card);
   return JSON.stringify({
     name: card.name,
     supertype: card.supertype,
-    subtypes: card.subtypes,
+    subtypes: card.subtypes ? [...card.subtypes].sort() : [],
     hp: card.hp,
     types: card.types,
     evolvesFrom: card.evolvesFrom,
-    evolvesTo: card.evolvesTo,
     abilities: card.abilities,
     attacks: card.attacks,
     weaknesses: card.weaknesses,
     resistances: card.resistances,
     retreatCost: card.retreatCost,
-    regulationMark: card.regulationMark,
-    nationalPokedexNumbers: card.nationalPokedexNumbers,
   });
 }
 
 // --- GENERIC GROUPING FUNCTION ---
 function groupAndStack(cards, keyFn) {
-  const unique = [];
+  const map = new Map();
 
-  cards.forEach((card) => {
+  for (const card of cards) {
     const key = keyFn(card);
-    const match = unique.find((c) => keyFn(c) === key);
 
-    if (match) {
-      match.altArts.push({
+    if (map.has(key)) {
+      map.get(key).altArts.push({
         id: card.id,
         number: card.number,
         images: card.images,
         flavorText: card.flavorText ?? "",
       });
     } else {
-      unique.push({
+      map.set(key, {
         ...card,
         altArts: [
           {
@@ -140,9 +82,9 @@ function groupAndStack(cards, keyFn) {
         ],
       });
     }
-  });
+  }
 
-  return unique;
+  return Array.from(map.values());
 }
 
 // --- ENERGY ---

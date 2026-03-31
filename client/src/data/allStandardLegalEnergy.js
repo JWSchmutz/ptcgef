@@ -404,40 +404,40 @@ const allStandardLegalEnergy = [
     ],
   },
   {
-    id: "sv10-182",
+    id: "me2pt5-217",
     name: "Team Rocket's Energy",
     supertype: "Energy",
     subtypes: ["Special"],
     rules: [
       "This card can only be attached to a Team Rocket's Pokémon. If this card is attached to anything other than a Team Rocket's Pokémon, discard this card.  As long as this card is attached to a Pokémon, it provides 2 in any combination of Psychic Energy and Darkness Energy.",
     ],
-    number: "182",
+    number: "217",
     legalities: {
-      unlimited: "Legal",
       standard: "Legal",
+      unlimited: "Legal",
       expanded: "Legal",
     },
     regulationMark: "I",
     images: {
-      small: "https://images.pokemontcg.io/sv10/182.png",
-      large: "https://images.pokemontcg.io/sv10/182_hires.png",
+      small: "https://images.scrydex.com/pokemon/me2pt5-217/small",
+      large: "https://images.scrydex.com/pokemon/me2pt5-217/large",
     },
     altArts: [
-      {
-        id: "sv10-182",
-        number: "182",
-        images: {
-          small: "https://images.pokemontcg.io/sv10/182.png",
-          large: "https://images.pokemontcg.io/sv10/182_hires.png",
-        },
-        flavorText: "",
-      },
       {
         id: "me2pt5-217",
         number: "217",
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-217/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-217/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "sv10-182",
+        number: "182",
+        images: {
+          small: "https://images.pokemontcg.io/sv10/182.png",
+          large: "https://images.pokemontcg.io/sv10/182_hires.png",
         },
         flavorText: "",
       },
