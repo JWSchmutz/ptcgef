@@ -8952,4 +8952,12 @@ const allStandardLegalTrainers = [
     ],
   },
 ];
+
+allStandardLegalTrainers.forEach((trainer) => {
+  trainer.name = trainer.name.replace("Pokémon", "Pokemon");
+  trainer.rules.forEach((rule) => {
+    rule = rule.replace("Pokémon", "Pokemon");
+  });
+});
+
 export default allStandardLegalTrainers;

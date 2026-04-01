@@ -667,4 +667,12 @@ const allStandardLegalEnergy = [
     ],
   },
 ];
+
+allStandardLegalEnergy.forEach((energy) => {
+  energy.name = energy.name.replace("Pokémon", "Pokemon");
+  energy.rules?.forEach((rule) => {
+    rule = rule.replace("Pokémon", "Pokemon");
+  });
+});
+
 export default allStandardLegalEnergy;

@@ -92172,6 +92172,17 @@ const allStandardLegalPokemon = [
 ];
 
 allStandardLegalPokemon.forEach((pokemon) => {
+  pokemon.name = pokemon.name.replace("Pokémon", "Pokemon");
+
+  pokemon.attacks?.forEach((attack) => {
+    attack.name = attack.name.replace("Pokémon", "Pokemon");
+    attack.text = attack.text.replace("Pokémon", "Pokemon");
+  });
+
+  pokemon.abilities?.forEach((ability) => {
+    ability.name = ability.name.replace("Pokémon", "Pokemon");
+    ability.text = ability.text.replace("Pokémon", "Pokemon");
+  });
   if (!pokemon.rules || !pokemon?.rules[0].includes("Prize cards")) {
     pokemon.subtypes.push("1 Prizer");
   }
