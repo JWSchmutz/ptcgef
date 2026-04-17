@@ -153,29 +153,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "me1-166",
-    name: "Air Balloon",
-    supertype: "Trainer",
-    subtypes: ["Pokémon Tool"],
-    rules: [
-      "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
-      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
-    ],
-    number: "166",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.pokemontcg.io/me1/166.png",
-      large: "https://images.pokemontcg.io/me1/166_hires.png",
-    },
-    altArts: [
       {
         id: "me1-166",
         number: "166",
@@ -394,37 +371,6 @@ const allStandardLegalTrainers = [
         flavorText:
           "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
       },
-    ],
-  },
-  {
-    id: "sv7-129",
-    name: "Antique Cover Fossil",
-    supertype: "Trainer",
-    subtypes: ["Item"],
-    hp: "60",
-    rules: [
-      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.    At any time during your turn, you may discard this card from play.",
-      "You may play any number of Item cards during your turn.",
-    ],
-    abilities: [
-      {
-        name: "Protective Cover",
-        text: "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
-        type: "Ability",
-      },
-    ],
-    number: "129",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv7/129.png",
-      large: "https://images.pokemontcg.io/sv7/129_hires.png",
-    },
-    altArts: [
       {
         id: "sv7-129",
         number: "129",
@@ -634,29 +580,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-94",
-    name: "Area Zero Underdepths",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.  If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "94",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/94.png",
-      large: "https://images.pokemontcg.io/sv8pt5/94_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-94",
         number: "94",
@@ -1594,29 +1517,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-103",
-    name: "Carmine",
-    supertype: "Trainer",
-    subtypes: ["Supporter"],
-    rules: [
-      "If you go first, you may use this card during your first turn.  Discard your hand and draw 5 cards.",
-      "You may play only 1 Supporter card during your turn.",
-    ],
-    number: "103",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/103.png",
-      large: "https://images.pokemontcg.io/sv8pt5/103_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-103",
         number: "103",
@@ -2070,30 +1970,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8-169",
-    name: "Counter Gain",
-    supertype: "Trainer",
-    subtypes: ["Pokémon Tool"],
-    rules: [
-      "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost Colorless less.",
-      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
-      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
-    ],
-    number: "169",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8/169.png",
-      large: "https://images.pokemontcg.io/sv8/169_hires.png",
-    },
-    altArts: [
       {
         id: "sv8-169",
         number: "169",
@@ -3168,29 +3044,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-108",
-    name: "Festival Grounds",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Each Pokémon that has any Energy attached (both yours and your opponent's) recovers from all Special Conditions and can't be affected by any Special Conditions.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "108",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/108.png",
-      large: "https://images.pokemontcg.io/sv8pt5/108_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-108",
         number: "108",
@@ -3323,29 +3176,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "me2pt5-188",
-    name: "Forest of Vitality",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Each player's Grass Pokémon can evolve into Grass Pokémon during the turn they play those Pokémon, except during their first turn.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
-    ],
-    number: "188",
-    legalities: {
-      standard: "Legal",
-      unlimited: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-188/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-188/large",
-    },
-    altArts: [
       {
         id: "me2pt5-188",
         number: "188",
@@ -3511,43 +3341,20 @@ const allStandardLegalTrainers = [
         flavorText: "",
       },
       {
-        id: "sv8pt5-110",
-        number: "110",
-        images: {
-          small: "https://images.pokemontcg.io/sv8pt5/110.png",
-          large: "https://images.pokemontcg.io/sv8pt5/110_hires.png",
-        },
-        flavorText: "",
-      },
-    ],
-  },
-  {
-    id: "sv7-135",
-    name: "Glass Trumpet",
-    supertype: "Trainer",
-    subtypes: ["Item"],
-    rules: [
-      "You can use this card only if you have any Tera Pokémon in play.    Choose up to 2 of your Benched Colorless Pokémon and attach a Basic Energy card from your discard pile to each of them.",
-      "You may play any number of Item cards during your turn.",
-    ],
-    number: "135",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv7/135.png",
-      large: "https://images.pokemontcg.io/sv7/135_hires.png",
-    },
-    altArts: [
-      {
         id: "sv7-135",
         number: "135",
         images: {
           small: "https://images.pokemontcg.io/sv7/135.png",
           large: "https://images.pokemontcg.io/sv7/135_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "sv8pt5-110",
+        number: "110",
+        images: {
+          small: "https://images.pokemontcg.io/sv8pt5/110.png",
+          large: "https://images.pokemontcg.io/sv8pt5/110_hires.png",
         },
         flavorText: "",
       },
@@ -4327,29 +4134,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv10-243",
-    name: "Jamming Tower",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Pokémon Tools attached to each Pokémon (both yours and your opponent's) have no effect.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "243",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv10/243.png",
-      large: "https://images.pokemontcg.io/sv10/243_hires.png",
-    },
-    altArts: [
       {
         id: "sv10-243",
         number: "243",
@@ -4359,29 +4143,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv6-153",
-    name: "Jamming Tower",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Pokémon Tools attached to each Pokémon (both yours and your opponent's) have no effect.",
-      "You may play only 1 Stadium card during your turn. Put it into the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "153",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv6/153.png",
-      large: "https://images.pokemontcg.io/sv6/153_hires.png",
-    },
-    altArts: [
       {
         id: "sv6-153",
         number: "153",
@@ -5406,30 +5167,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-117",
-    name: "Maximum Belt",
-    supertype: "Trainer",
-    subtypes: ["Pokémon Tool", "ACE SPEC"],
-    rules: [
-      "You can't have more than 1 ACE SPEC card in your deck.",
-      "Attacks used by the Pokémon this card is attached to do 50 more damage to your opponent's Active Pokémon ex (before applying Weakness and Resistance).",
-      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
-    ],
-    number: "117",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/117.png",
-      large: "https://images.pokemontcg.io/sv8pt5/117_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-117",
         number: "117",
@@ -5678,29 +5415,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "me2pt5-194",
-    name: "Mystery Garden",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have Psychic Pokémon in play.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can’t be played.",
-    ],
-    number: "194",
-    legalities: {
-      standard: "Legal",
-      unlimited: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-194/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-194/large",
-    },
-    altArts: [
       {
         id: "me2pt5-194",
         number: "194",
@@ -6724,30 +6438,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-119",
-    name: "Prime Catcher",
-    supertype: "Trainer",
-    subtypes: ["Item", "ACE SPEC"],
-    rules: [
-      "You can't have more than 1 ACE SPEC card in your deck.",
-      "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon.",
-      "You may play any number of Item cards during your turn.",
-    ],
-    number: "119",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/119.png",
-      large: "https://images.pokemontcg.io/sv8pt5/119_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-119",
         number: "119",
@@ -7001,44 +6691,20 @@ const allStandardLegalTrainers = [
         flavorText: "",
       },
       {
-        id: "sv8pt5-126",
-        number: "126",
-        images: {
-          small: "https://images.pokemontcg.io/sv8pt5/126.png",
-          large: "https://images.pokemontcg.io/sv8pt5/126_hires.png",
-        },
-        flavorText: "",
-      },
-    ],
-  },
-  {
-    id: "sv6-225",
-    name: "Rescue Board",
-    supertype: "Trainer",
-    subtypes: ["Pokémon Tool"],
-    rules: [
-      "The Retreat Cost of the Pokémon this card is attached to is Colorless less. If that Pokémon's remaining HP is 30 or less, it has no Retreat Cost.",
-      "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
-      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached.",
-    ],
-    number: "225",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv6/225.png",
-      large: "https://images.pokemontcg.io/sv6/225_hires.png",
-    },
-    altArts: [
-      {
         id: "sv6-225",
         number: "225",
         images: {
           small: "https://images.pokemontcg.io/sv6/225.png",
           large: "https://images.pokemontcg.io/sv6/225_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "sv8pt5-126",
+        number: "126",
+        images: {
+          small: "https://images.pokemontcg.io/sv8pt5/126.png",
+          large: "https://images.pokemontcg.io/sv8pt5/126_hires.png",
         },
         flavorText: "",
       },
@@ -7363,30 +7029,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv8pt5-128",
-    name: "Scoop Up Cyclone",
-    supertype: "Trainer",
-    subtypes: ["Item", "ACE SPEC"],
-    rules: [
-      "You can't have more than 1 ACE SPEC card in your deck.",
-      "Put 1 of your Pokémon and all attached cards into your hand.",
-      "You may play any number of Item cards during your turn.",
-    ],
-    number: "128",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "H",
-    images: {
-      small: "https://images.pokemontcg.io/sv8pt5/128.png",
-      large: "https://images.pokemontcg.io/sv8pt5/128_hires.png",
-    },
-    altArts: [
       {
         id: "sv8pt5-128",
         number: "128",
@@ -8014,29 +7656,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv10-173",
-    name: "Team Rocket's Factory",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      'Once during each player\'s turn, if they played a Supporter card that has "Team Rocket" in its name from their hand this turn, they may draw 2 cards.',
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "173",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.pokemontcg.io/sv10/173.png",
-      large: "https://images.pokemontcg.io/sv10/173_hires.png",
-    },
-    altArts: [
       {
         id: "sv10-173",
         number: "173",
@@ -8393,29 +8012,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "sv10-180",
-    name: "Team Rocket's Watchtower",
-    supertype: "Trainer",
-    subtypes: ["Stadium"],
-    rules: [
-      "Colorless Pokémon in play (both yours and your opponent's) have no Abilities.",
-      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played.",
-    ],
-    number: "180",
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.pokemontcg.io/sv10/180.png",
-      large: "https://images.pokemontcg.io/sv10/180_hires.png",
-    },
-    altArts: [
       {
         id: "sv10-180",
         number: "180",
@@ -8678,29 +8274,6 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
-    ],
-  },
-  {
-    id: "me2pt5-213",
-    name: "Ultra Ball",
-    supertype: "Trainer",
-    subtypes: ["Item"],
-    rules: [
-      "You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-      "You may play any number of Item cards during your turn.",
-    ],
-    number: "213",
-    legalities: {
-      standard: "Legal",
-      unlimited: "Legal",
-      expanded: "Legal",
-    },
-    regulationMark: "I",
-    images: {
-      small: "https://images.scrydex.com/pokemon/me2pt5-213/small",
-      large: "https://images.scrydex.com/pokemon/me2pt5-213/large",
-    },
-    altArts: [
       {
         id: "me2pt5-213",
         number: "213",
