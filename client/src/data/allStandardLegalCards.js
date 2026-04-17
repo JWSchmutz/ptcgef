@@ -31,9 +31,6 @@ let bySubtype = (a, b) => {
 function getTrainerOrEnergyKey(card) {
   return JSON.stringify({
     name: card.name,
-    supertype: card.supertype,
-    subtypes: card.subtypes ? [...card.subtypes].sort() : [],
-    rules: card.rules ? [...card.rules].sort() : [],
   });
 }
 
