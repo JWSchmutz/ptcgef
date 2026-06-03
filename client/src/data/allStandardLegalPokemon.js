@@ -1779,6 +1779,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-29",
+    name: "Ampharos",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Lightning"],
+    evolvesFrom: "Flaaffy",
+    abilities: [
+      {
+        name: "Synchro Pulse",
+        text: "If you have the same number of cards in your hand as your opponent, attacks used by this Pokémon do 80 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Flashing Bolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "140",
+        text: "During your next turn, this Pokémon can't use Flashing Bolt.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "29",
+    flavorText:
+      "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    nationalPokedexNumbers: [181],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-29/small",
+      large: "https://images.scrydex.com/pokemon/me4-29/large",
+    },
+    altArts: [
+      {
+        id: "me4-29",
+        number: "29",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-29/small",
+          large: "https://images.scrydex.com/pokemon/me4-29/large",
+        },
+        flavorText:
+          "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      },
+      {
+        id: "me4-90",
+        number: "90",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-90/small",
+          large: "https://images.scrydex.com/pokemon/me4-90/large",
+        },
+        flavorText:
+          "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      },
+    ],
+  },
+  {
     id: "svp-109",
     name: "Ampharos",
     supertype: "Pokémon",
@@ -3846,6 +3915,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-24",
+    name: "Avalugg",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "160",
+    types: ["Water"],
+    evolvesFrom: "Bergmite",
+    attacks: [
+      {
+        name: "Iceberg Breaker",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "60×",
+        text: "Discard the top 6 cards of your deck, and this attack does 60 damage for each Basic Water Energy card you discarded in this way.",
+      },
+      {
+        name: "Frost Stamp",
+        cost: ["Water", "Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "160",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "24",
+    flavorText:
+      "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
+    nationalPokedexNumbers: [713],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-24/small",
+      large: "https://images.scrydex.com/pokemon/me4-24/large",
+    },
+    altArts: [
+      {
+        id: "me4-24",
+        number: "24",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-24/small",
+          large: "https://images.scrydex.com/pokemon/me4-24/large",
+        },
+        flavorText:
+          "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-68",
     name: "Axew",
     supertype: "Pokémon",
@@ -4275,6 +4403,57 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/112_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-46",
+    name: "Baltoy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Continuous Spin",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30×",
+        text: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "46",
+    flavorText:
+      "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+    nationalPokedexNumbers: [343],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-46/small",
+      large: "https://images.scrydex.com/pokemon/me4-46/large",
+    },
+    altArts: [
+      {
+        id: "me4-46",
+        number: "46",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-46/small",
+          large: "https://images.scrydex.com/pokemon/me4-46/large",
+        },
+        flavorText:
+          "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
       },
     ],
   },
@@ -4780,6 +4959,67 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-3",
+    name: "Beedrill ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "310",
+    types: ["Grass"],
+    evolvesFrom: "Kakuna",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Rumbling Bees",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "110×",
+        text: "This attack does 110 damage for each of your Beedrill and Beedrill ex in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "3",
+    nationalPokedexNumbers: [15],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-3/small",
+      large: "https://images.scrydex.com/pokemon/me4-3/large",
+    },
+    altArts: [
+      {
+        id: "me4-3",
+        number: "3",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-3/small",
+          large: "https://images.scrydex.com/pokemon/me4-3/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-98",
+        number: "98",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-98/small",
+          large: "https://images.scrydex.com/pokemon/me4-98/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-41",
     name: "Beheeyem",
     supertype: "Pokémon",
@@ -4909,6 +5149,70 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+      },
+    ],
+  },
+  {
+    id: "me4-59",
+    name: "Beldum",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Headbutt",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Beam",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "59",
+    flavorText:
+      "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
+    nationalPokedexNumbers: [374],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-59/small",
+      large: "https://images.scrydex.com/pokemon/me4-59/large",
+    },
+    altArts: [
+      {
+        id: "me4-59",
+        number: "59",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-59/small",
+          large: "https://images.scrydex.com/pokemon/me4-59/large",
+        },
+        flavorText:
+          "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
       },
     ],
   },
@@ -5095,6 +5399,64 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "What appear to be eyeballs are actually organs for discharging the electricity generated by Bellibolt's belly-button dynamo.",
+      },
+    ],
+  },
+  {
+    id: "me4-23",
+    name: "Bergmite",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Chilly",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Frost Breath",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "23",
+    flavorText:
+      "It blocks opponents' attacks with the ice that shields its body. If the ice breaks, this Pokémon uses cold air to quickly create new ice.",
+    nationalPokedexNumbers: [712],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-23/small",
+      large: "https://images.scrydex.com/pokemon/me4-23/large",
+    },
+    altArts: [
+      {
+        id: "me4-23",
+        number: "23",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-23/small",
+          large: "https://images.scrydex.com/pokemon/me4-23/large",
+        },
+        flavorText:
+          "It blocks opponents' attacks with the ice that shields its body. If the ice breaks, this Pokémon uses cold air to quickly create new ice.",
       },
     ],
   },
@@ -6474,6 +6836,58 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/rsv10pt5/170_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-12",
+    name: "Braixen",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Fire"],
+    evolvesFrom: "Fennekin",
+    attacks: [
+      {
+        name: "Flamethrower",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "80",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "12",
+    flavorText:
+      "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
+    nationalPokedexNumbers: [654],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-12/small",
+      large: "https://images.scrydex.com/pokemon/me4-12/large",
+    },
+    altArts: [
+      {
+        id: "me4-12",
+        number: "12",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-12/small",
+          large: "https://images.scrydex.com/pokemon/me4-12/large",
+        },
+        flavorText:
+          "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
       },
     ],
   },
@@ -8357,6 +8771,57 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "The temperature inside its body increases when it experiences strong emotions. It rolls around frantically while spewing flames.",
+      },
+    ],
+  },
+  {
+    id: "me4-4",
+    name: "Carnivine",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Chomp Whole",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If your opponent's Active Pokémon has no Retreat Cost, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "4",
+    flavorText:
+      "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+    nationalPokedexNumbers: [455],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-4/small",
+      large: "https://images.scrydex.com/pokemon/me4-4/large",
+    },
+    altArts: [
+      {
+        id: "me4-4",
+        number: "4",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-4/small",
+          large: "https://images.scrydex.com/pokemon/me4-4/large",
+        },
+        flavorText:
+          "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
       },
     ],
   },
@@ -10328,6 +10793,133 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-7",
+    name: "Chesnaught",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "180",
+    types: ["Grass"],
+    evolvesFrom: "Quilladin",
+    abilities: [
+      {
+        name: "Needly Armor",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), place 3 damage counters on the Attacking Pokémon for each Grass Energy attached to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Impound",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "7",
+    flavorText:
+      "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    nationalPokedexNumbers: [652],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-7/small",
+      large: "https://images.scrydex.com/pokemon/me4-7/large",
+    },
+    altArts: [
+      {
+        id: "me4-7",
+        number: "7",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-7/small",
+          large: "https://images.scrydex.com/pokemon/me4-7/large",
+        },
+        flavorText:
+          "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+      },
+    ],
+  },
+  {
+    id: "me4-5",
+    name: "Chespin",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Beat",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Spike Sting",
+        cost: ["Grass", "Grass"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "5",
+    flavorText:
+      "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+    nationalPokedexNumbers: [650],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-5/small",
+      large: "https://images.scrydex.com/pokemon/me4-5/large",
+    },
+    altArts: [
+      {
+        id: "me4-5",
+        number: "5",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-5/small",
+          large: "https://images.scrydex.com/pokemon/me4-5/large",
+        },
+        flavorText:
+          "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+      },
+      {
+        id: "me4-87",
+        number: "87",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-87/small",
+          large: "https://images.scrydex.com/pokemon/me4-87/large",
+        },
+        flavorText:
+          "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+      },
+    ],
+  },
+  {
     id: "sv7-43",
     name: "Chewtle",
     supertype: "Pokémon",
@@ -11064,6 +11656,83 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-73",
+    name: "Cinccino ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "240",
+    types: ["Colorless"],
+    evolvesFrom: "Minccino",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Smooth Coat",
+        text: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Energized Slap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40×",
+        text: "This attack does 40 damage for each Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "73",
+    nationalPokedexNumbers: [573],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-73/small",
+      large: "https://images.scrydex.com/pokemon/me4-73/large",
+    },
+    altArts: [
+      {
+        id: "me4-73",
+        number: "73",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-73/small",
+          large: "https://images.scrydex.com/pokemon/me4-73/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-105",
+        number: "105",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-105/small",
+          large: "https://images.scrydex.com/pokemon/me4-105/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-119",
+        number: "119",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-119/small",
+          large: "https://images.scrydex.com/pokemon/me4-119/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me1-28",
     name: "Cinderace",
     supertype: "Pokémon",
@@ -11371,6 +12040,68 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/me1/141_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-47",
+    name: "Claydol",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Fighting"],
+    evolvesFrom: "Baltoy",
+    attacks: [
+      {
+        name: "Devolution Ray",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "47",
+    flavorText:
+      "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+    nationalPokedexNumbers: [344],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-47/small",
+      large: "https://images.scrydex.com/pokemon/me4-47/large",
+    },
+    altArts: [
+      {
+        id: "me4-47",
+        number: "47",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-47/small",
+          large: "https://images.scrydex.com/pokemon/me4-47/large",
+        },
+        flavorText:
+          "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+      },
+      {
+        id: "me4-92",
+        number: "92",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-92/small",
+          large: "https://images.scrydex.com/pokemon/me4-92/large",
+        },
+        flavorText:
+          "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
       },
     ],
   },
@@ -11815,6 +12546,79 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+      },
+    ],
+  },
+  {
+    id: "me4-64",
+    name: "Cobalion ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "210",
+    types: ["Metal"],
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Metal Road",
+        text: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Metal Energy from your other Pokémon to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Power Tackle",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "64",
+    nationalPokedexNumbers: [638],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-64/small",
+      large: "https://images.scrydex.com/pokemon/me4-64/large",
+    },
+    altArts: [
+      {
+        id: "me4-64",
+        number: "64",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-64/small",
+          large: "https://images.scrydex.com/pokemon/me4-64/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-103",
+        number: "103",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-103/small",
+          large: "https://images.scrydex.com/pokemon/me4-103/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -13411,6 +14215,81 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/23_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-51",
+    name: "Crobat",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "130",
+    types: ["Darkness"],
+    evolvesFrom: "Golbat",
+    abilities: [
+      {
+        name: "Nighttime Maneuvers",
+        text: "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Poison Sound Wave",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "80",
+        text: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "51",
+    flavorText:
+      "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+    nationalPokedexNumbers: [169],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-51/small",
+      large: "https://images.scrydex.com/pokemon/me4-51/large",
+    },
+    altArts: [
+      {
+        id: "me4-51",
+        number: "51",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-51/small",
+          large: "https://images.scrydex.com/pokemon/me4-51/large",
+        },
+        flavorText:
+          "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+      },
+      {
+        id: "me4-93",
+        number: "93",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-93/small",
+          large: "https://images.scrydex.com/pokemon/me4-93/large",
+        },
+        flavorText:
+          "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
       },
     ],
   },
@@ -16155,6 +17034,356 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-18",
+    name: "Delibird",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Pleasing Present",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Each player may attach up to 3 Basic Energy cards from their hand to their Pokémon in any way they like. Your opponent does this first.",
+      },
+      {
+        name: "Flap",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "18",
+    flavorText:
+      "It carries food rolled up in its tail. It has a habit of sharing food with people lost in the mountains.",
+    nationalPokedexNumbers: [225],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-18/small",
+      large: "https://images.scrydex.com/pokemon/me4-18/large",
+    },
+    altArts: [
+      {
+        id: "me4-18",
+        number: "18",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-18/small",
+          large: "https://images.scrydex.com/pokemon/me4-18/large",
+        },
+        flavorText:
+          "It carries food rolled up in its tail. It has a habit of sharing food with people lost in the mountains.",
+      },
+    ],
+  },
+  {
+    id: "me4-13",
+    name: "Delphox",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Fire"],
+    evolvesFrom: "Braixen",
+    abilities: [
+      {
+        name: "Flaring Magic",
+        text: "Once during your turn, you may discard a Basic Fire Energy card from your hand in order to use this Ability. Draw cards until you have 7 cards in your hand.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Energized Storm",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each Energy attached to all Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "13",
+    flavorText:
+      "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+    nationalPokedexNumbers: [655],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-13/small",
+      large: "https://images.scrydex.com/pokemon/me4-13/large",
+    },
+    altArts: [
+      {
+        id: "me4-13",
+        number: "13",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-13/small",
+          large: "https://images.scrydex.com/pokemon/me4-13/large",
+        },
+        flavorText:
+          "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+      },
+    ],
+  },
+  {
+    id: "me4-31",
+    name: "Deoxys",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Genome Charge",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Psychic Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Psychic",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "31",
+    flavorText:
+      "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+    nationalPokedexNumbers: [386],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-31/small",
+      large: "https://images.scrydex.com/pokemon/me4-31/large",
+    },
+    altArts: [
+      {
+        id: "me4-31",
+        number: "31",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-31/small",
+          large: "https://images.scrydex.com/pokemon/me4-31/large",
+        },
+        flavorText:
+          "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      },
+    ],
+  },
+  {
+    id: "me4-32",
+    name: "Deoxys",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Psyspear",
+        cost: ["Psychic", "Psychic", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "32",
+    flavorText:
+      "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+    nationalPokedexNumbers: [386],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-32/small",
+      large: "https://images.scrydex.com/pokemon/me4-32/large",
+    },
+    altArts: [
+      {
+        id: "me4-32",
+        number: "32",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-32/small",
+          large: "https://images.scrydex.com/pokemon/me4-32/large",
+        },
+        flavorText:
+          "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      },
+    ],
+  },
+  {
+    id: "me4-33",
+    name: "Deoxys",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Psy Protection",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "33",
+    flavorText:
+      "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+    nationalPokedexNumbers: [386],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-33/small",
+      large: "https://images.scrydex.com/pokemon/me4-33/large",
+    },
+    altArts: [
+      {
+        id: "me4-33",
+        number: "33",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-33/small",
+          large: "https://images.scrydex.com/pokemon/me4-33/large",
+        },
+        flavorText:
+          "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      },
+    ],
+  },
+  {
+    id: "me4-34",
+    name: "Deoxys",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "100",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Psyspeed",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "You may draw cards until you have 5 cards in your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "34",
+    flavorText:
+      "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+    nationalPokedexNumbers: [386],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-34/small",
+      large: "https://images.scrydex.com/pokemon/me4-34/large",
+    },
+    altArts: [
+      {
+        id: "me4-34",
+        number: "34",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-34/small",
+          large: "https://images.scrydex.com/pokemon/me4-34/large",
+        },
+        flavorText:
+          "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      },
+    ],
+  },
+  {
     id: "me2-22",
     name: "Dewgong",
     supertype: "Pokémon",
@@ -17127,6 +18356,65 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv10/211_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-45",
+    name: "Donphan",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "150",
+    types: ["Fighting"],
+    evolvesFrom: "Phanpy",
+    attacks: [
+      {
+        name: "No Reprieve",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+      },
+      {
+        name: "Smashing Headbutt",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "180",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "45",
+    flavorText:
+      "Donphan is normally a calm Pokemon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
+    nationalPokedexNumbers: [232],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-45/small",
+      large: "https://images.scrydex.com/pokemon/me4-45/large",
+    },
+    altArts: [
+      {
+        id: "me4-45",
+        number: "45",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-45/small",
+          large: "https://images.scrydex.com/pokemon/me4-45/large",
+        },
+        flavorText:
+          "Donphan is normally a calm Pokemon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
       },
     ],
   },
@@ -21233,6 +22521,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-30",
+    name: "Emolga",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Minor Errand-Running",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Sky Return",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Put this Pokémon and all attached cards into your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "30",
+    flavorText:
+      "The energy made in its cheeks' electric pouches is stored inside its patagial membranes and released while it is gliding.",
+    nationalPokedexNumbers: [587],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-30/small",
+      large: "https://images.scrydex.com/pokemon/me4-30/large",
+    },
+    altArts: [
+      {
+        id: "me4-30",
+        number: "30",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-30/small",
+          large: "https://images.scrydex.com/pokemon/me4-30/large",
+        },
+        flavorText:
+          "The energy made in its cheeks' electric pouches is stored inside its patagial membranes and released while it is gliding.",
+      },
+    ],
+  },
+  {
     id: "sv6-69",
     name: "Emolga",
     supertype: "Pokémon",
@@ -22259,6 +23605,63 @@ const allStandardLegalPokemon = [
           large: "https://images.scrydex.com/pokemon/me3-95/large",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-36",
+    name: "Espurr",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Buddy Attack",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "If you played Emma from your hand during this turn, this attack does 60 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "36",
+    flavorText:
+      "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
+    nationalPokedexNumbers: [677],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-36/small",
+      large: "https://images.scrydex.com/pokemon/me4-36/large",
+    },
+    altArts: [
+      {
+        id: "me4-36",
+        number: "36",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-36/small",
+          large: "https://images.scrydex.com/pokemon/me4-36/large",
+        },
+        flavorText:
+          "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
       },
     ],
   },
@@ -24081,6 +25484,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-11",
+    name: "Fennekin",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Call for Family",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Steady Firebreathing",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "11",
+    flavorText:
+      "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    nationalPokedexNumbers: [653],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-11/small",
+      large: "https://images.scrydex.com/pokemon/me4-11/large",
+    },
+    altArts: [
+      {
+        id: "me4-11",
+        number: "11",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-11/small",
+          large: "https://images.scrydex.com/pokemon/me4-11/large",
+        },
+        flavorText:
+          "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+      },
+    ],
+  },
+  {
     id: "sv5-41",
     name: "Feraligatr",
     supertype: "Pokémon",
@@ -24274,6 +25735,63 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-62",
+    name: "Ferroseed",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Rolling Tackle",
+        cost: ["Metal", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "62",
+    flavorText:
+      "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+    nationalPokedexNumbers: [597],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-62/small",
+      large: "https://images.scrydex.com/pokemon/me4-62/large",
+    },
+    altArts: [
+      {
+        id: "me4-62",
+        number: "62",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-62/small",
+          large: "https://images.scrydex.com/pokemon/me4-62/large",
+        },
+        flavorText:
+          "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+      },
+    ],
+  },
+  {
     id: "rsv10pt5-69",
     name: "Ferrothorn",
     supertype: "Pokémon",
@@ -24345,6 +25863,71 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+      },
+    ],
+  },
+  {
+    id: "me4-63",
+    name: "Ferrothorn",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Ferroseed",
+    abilities: [
+      {
+        name: "Startling Drop",
+        text: "During your opponent's turn, if this Pokémon is discarded from your deck by an effect of an attack or Ability from your opponent's Pokémon, or by an effect of your opponent's Item or Supporter cards, discard the top 8 cards of your opponent's deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Special Whip",
+        cost: ["Metal", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "70+",
+        text: "If this Pokémon has any Special Energy attached, this attack does 70 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "63",
+    flavorText:
+      "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+    nationalPokedexNumbers: [598],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-63/small",
+      large: "https://images.scrydex.com/pokemon/me4-63/large",
+    },
+    altArts: [
+      {
+        id: "me4-63",
+        number: "63",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-63/small",
+          large: "https://images.scrydex.com/pokemon/me4-63/large",
+        },
+        flavorText:
+          "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
       },
     ],
   },
@@ -24728,6 +26311,58 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/35_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-28",
+    name: "Flaaffy",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Lightning"],
+    evolvesFrom: "Mareep",
+    attacks: [
+      {
+        name: "Disconnect",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "During your opponent's next turn, they can't play any Item cards from their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "28",
+    flavorText:
+      "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
+    nationalPokedexNumbers: [180],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-28/small",
+      large: "https://images.scrydex.com/pokemon/me4-28/large",
+    },
+    altArts: [
+      {
+        id: "me4-28",
+        number: "28",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-28/small",
+          large: "https://images.scrydex.com/pokemon/me4-28/large",
+        },
+        flavorText:
+          "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
       },
     ],
   },
@@ -26396,6 +28031,74 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-20",
+    name: "Froakie",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Collect",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Draw a card.",
+      },
+      {
+        name: "Water Gun",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "20",
+    flavorText:
+      "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+    nationalPokedexNumbers: [656],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-20/small",
+      large: "https://images.scrydex.com/pokemon/me4-20/large",
+    },
+    altArts: [
+      {
+        id: "me4-20",
+        number: "20",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-20/small",
+          large: "https://images.scrydex.com/pokemon/me4-20/large",
+        },
+        flavorText:
+          "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+      },
+      {
+        id: "me4-88",
+        number: "88",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-88/small",
+          large: "https://images.scrydex.com/pokemon/me4-88/large",
+        },
+        flavorText:
+          "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watch ful eye on its surroundings.",
+      },
+    ],
+  },
+  {
     id: "sv6-56",
     name: "Froakie",
     supertype: "Pokémon",
@@ -26500,6 +28203,75 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv7/39_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-21",
+    name: "Frogadier",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Water"],
+    evolvesFrom: "Froakie",
+    attacks: [
+      {
+        name: "Summoning Jutsu",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Aqua Edge",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "21",
+    flavorText:
+      "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+    nationalPokedexNumbers: [657],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-21/small",
+      large: "https://images.scrydex.com/pokemon/me4-21/large",
+    },
+    altArts: [
+      {
+        id: "me4-21",
+        number: "21",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-21/small",
+          large: "https://images.scrydex.com/pokemon/me4-21/large",
+        },
+        flavorText:
+          "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+      },
+      {
+        id: "me4-89",
+        number: "89",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-89/small",
+          large: "https://images.scrydex.com/pokemon/me4-89/large",
+        },
+        flavorText:
+          "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
       },
     ],
   },
@@ -27618,6 +29390,65 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+      },
+    ],
+  },
+  {
+    id: "me4-57",
+    name: "Garbodor",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Darkness"],
+    evolvesFrom: "Trubbish",
+    abilities: [
+      {
+        name: "Gloomy Garbage",
+        text: "Attacks used by your opponent's Active Pokémon that has a Pokémon Tool attached do 20 less damage (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Sludge Bomb",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "57",
+    flavorText:
+      "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+    nationalPokedexNumbers: [569],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-57/small",
+      large: "https://images.scrydex.com/pokemon/me4-57/large",
+    },
+    altArts: [
+      {
+        id: "me4-57",
+        number: "57",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-57/small",
+          large: "https://images.scrydex.com/pokemon/me4-57/large",
+        },
+        flavorText:
+          "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
       },
     ],
   },
@@ -29344,6 +31175,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-50",
+    name: "Golbat",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Darkness"],
+    evolvesFrom: "Zubat",
+    attacks: [
+      {
+        name: "Covert Flight",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "50",
+    flavorText:
+      "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+    nationalPokedexNumbers: [42],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-50/small",
+      large: "https://images.scrydex.com/pokemon/me4-50/large",
+    },
+    altArts: [
+      {
+        id: "me4-50",
+        number: "50",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-50/small",
+          large: "https://images.scrydex.com/pokemon/me4-50/large",
+        },
+        flavorText:
+          "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-28",
     name: "Golbat",
     supertype: "Pokémon",
@@ -29661,6 +31550,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-26",
+    name: "Golisopod",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Water"],
+    evolvesFrom: "Wimpod",
+    attacks: [
+      {
+        name: "Critical Slash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+      {
+        name: "Boundless Power",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "26",
+    flavorText:
+      "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
+    nationalPokedexNumbers: [768],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-26/small",
+      large: "https://images.scrydex.com/pokemon/me4-26/large",
+    },
+    altArts: [
+      {
+        id: "me4-26",
+        number: "26",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-26/small",
+          large: "https://images.scrydex.com/pokemon/me4-26/large",
+        },
+        flavorText:
+          "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-43",
     name: "Golurk",
     supertype: "Pokémon",
@@ -29791,6 +31739,104 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+      },
+    ],
+  },
+  {
+    id: "me4-68",
+    name: "Goodra",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Dragon"],
+    evolvesFrom: "Sliggoo",
+    abilities: [
+      {
+        name: "Slimy Sliding",
+        text: "When your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, Energy for its Retreat Cost is not discarded, and they don't switch Pokémon. The effect of Slimy Sliding doesn't stack.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dragon Pulse",
+        cost: ["Water", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "160",
+        text: "Discard the top card of your deck.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "68",
+    flavorText:
+      "This very friendly dragon Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+    nationalPokedexNumbers: [706],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-68/small",
+      large: "https://images.scrydex.com/pokemon/me4-68/large",
+    },
+    altArts: [
+      {
+        id: "me4-68",
+        number: "68",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-68/small",
+          large: "https://images.scrydex.com/pokemon/me4-68/large",
+        },
+        flavorText:
+          "This very friendly dragon Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+      },
+    ],
+  },
+  {
+    id: "me4-66",
+    name: "Goomy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Dragon"],
+    attacks: [
+      {
+        name: "Absorb",
+        cost: ["Water", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Heal 30 damage from this Pokémon.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "66",
+    flavorText:
+      "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
+    nationalPokedexNumbers: [704],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-66/small",
+      large: "https://images.scrydex.com/pokemon/me4-66/large",
+    },
+    altArts: [
+      {
+        id: "me4-66",
+        number: "66",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-66/small",
+          large: "https://images.scrydex.com/pokemon/me4-66/large",
+        },
+        flavorText:
+          "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
       },
     ],
   },
@@ -30254,6 +32300,80 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/svp/144.png",
           large: "https://images.pokemontcg.io/svp/144_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-41",
+    name: "Gourgeist ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Psychic"],
+    evolvesFrom: "Pumpkaboo",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Horrifying Rondo",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "This attack does 50 more damage for each of your Benched Pokémon that has any damage counters on it.",
+      },
+      {
+        name: "Ghostly Touch",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "140",
+        text: "Discard a random card from your opponent's hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "41",
+    nationalPokedexNumbers: [711],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-41/small",
+      large: "https://images.scrydex.com/pokemon/me4-41/large",
+    },
+    altArts: [
+      {
+        id: "me4-41",
+        number: "41",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-41/small",
+          large: "https://images.scrydex.com/pokemon/me4-41/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-102",
+        number: "102",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-102/small",
+          large: "https://images.scrydex.com/pokemon/me4-102/large",
         },
         flavorText: "",
       },
@@ -33753,6 +35873,64 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime.",
+      },
+    ],
+  },
+  {
+    id: "me4-10",
+    name: "Ho-Oh",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Flames of Revival",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Put up to 3 Basic Pokémon from your discard pile onto your Bench.",
+      },
+      {
+        name: "Bright Wing",
+        cost: ["Fire", "Fire", "Fire"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "Discard a Fire Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "10",
+    flavorText:
+      "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+    nationalPokedexNumbers: [250],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-10/small",
+      large: "https://images.scrydex.com/pokemon/me4-10/large",
+    },
+    altArts: [
+      {
+        id: "me4-10",
+        number: "10",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-10/small",
+          large: "https://images.scrydex.com/pokemon/me4-10/large",
+        },
+        flavorText:
+          "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
       },
     ],
   },
@@ -38601,6 +40779,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-2",
+    name: "Kakuna",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Grass"],
+    evolvesFrom: "Weedle",
+    abilities: [
+      {
+        name: "Exoskeleton",
+        text: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hang Down",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "2",
+    flavorText:
+      "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+    nationalPokedexNumbers: [14],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-2/small",
+      large: "https://images.scrydex.com/pokemon/me4-2/large",
+    },
+    altArts: [
+      {
+        id: "me4-2",
+        number: "2",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-2/small",
+          large: "https://images.scrydex.com/pokemon/me4-2/large",
+        },
+        flavorText:
+          "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+      },
+    ],
+  },
+  {
     id: "sv10-151",
     name: "Kangaskhan",
     supertype: "Pokémon",
@@ -38891,6 +41128,64 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/122_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-19",
+    name: "Keldeo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Shoot Through",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Reflect Energy",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "19",
+    flavorText:
+      "Keldeo has strengthened its resolve for battle filling its body with power and changing its form.",
+    nationalPokedexNumbers: [647],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-19/small",
+      large: "https://images.scrydex.com/pokemon/me4-19/large",
+    },
+    altArts: [
+      {
+        id: "me4-19",
+        number: "19",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-19/small",
+          large: "https://images.scrydex.com/pokemon/me4-19/large",
+        },
+        flavorText:
+          "Keldeo has strengthened its resolve for battle filling its body with power and changing its form.",
       },
     ],
   },
@@ -40721,6 +43016,65 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+      },
+    ],
+  },
+  {
+    id: "me4-55",
+    name: "Krookodile ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "320",
+    types: ["Darkness"],
+    evolvesFrom: "Krokorok",
+    rules: [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Corner",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80",
+        text: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+      {
+        name: "Strong Bite",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140+",
+        text: "If this Pokémon has a Pokémon Tool attached, this attack does 140 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "55",
+    nationalPokedexNumbers: [553],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-55/small",
+      large: "https://images.scrydex.com/pokemon/me4-55/large",
+    },
+    altArts: [
+      {
+        id: "me4-55",
+        number: "55",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-55/small",
+          large: "https://images.scrydex.com/pokemon/me4-55/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -43788,6 +46142,57 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-14",
+    name: "Litleo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Tackle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "14",
+    flavorText:
+      "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+    nationalPokedexNumbers: [667],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-14/small",
+      large: "https://images.scrydex.com/pokemon/me4-14/large",
+    },
+    altArts: [
+      {
+        id: "me4-14",
+        number: "14",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-14/small",
+          large: "https://images.scrydex.com/pokemon/me4-14/large",
+        },
+        flavorText:
+          "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-15",
     name: "Litleo",
     supertype: "Pokémon",
@@ -46723,6 +49128,57 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-27",
+    name: "Mareep",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Thunder Wave",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "27",
+    flavorText:
+      "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
+    nationalPokedexNumbers: [179],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-27/small",
+      large: "https://images.scrydex.com/pokemon/me4-27/large",
+    },
+    altArts: [
+      {
+        id: "me4-27",
+        number: "27",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-27/small",
+          large: "https://images.scrydex.com/pokemon/me4-27/large",
+        },
+        flavorText:
+          "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
+      },
+    ],
+  },
+  {
     id: "svp-107",
     name: "Mareep",
     supertype: "Pokémon",
@@ -48917,6 +51373,77 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-65",
+    name: "Mega Dragalge ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "MEGA", "ex"],
+    hp: "330",
+    types: ["Dragon"],
+    evolvesFrom: "Skrelp",
+    rules: [
+      "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Corrosive Liquid",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Discard all Pokémon Tools and Special Energy from all of your opponent's Pokémon.",
+      },
+      {
+        name: "Pernicious Poison",
+        cost: ["Water", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, place 16 damage counters on that Pokémon instead of 1.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "65",
+    nationalPokedexNumbers: [691],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-65/small",
+      large: "https://images.scrydex.com/pokemon/me4-65/large",
+    },
+    altArts: [
+      {
+        id: "me4-65",
+        number: "65",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-65/small",
+          large: "https://images.scrydex.com/pokemon/me4-65/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-104",
+        number: "104",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-104/small",
+          large: "https://images.scrydex.com/pokemon/me4-104/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-118",
+        number: "118",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-118/small",
+          large: "https://images.scrydex.com/pokemon/me4-118/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2pt5-152",
     name: "Mega Dragonite ex",
     supertype: "Pokémon",
@@ -49200,6 +51727,82 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-35",
+    name: "Mega Floette ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "MEGA", "ex"],
+    hp: "250",
+    types: ["Psychic"],
+    rules: [
+      "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Gentle Light",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Heal 30 damage from each Pokémon (both yours and your opponent's).",
+      },
+      {
+        name: "Eternity Bloom",
+        cost: ["Psychic", "Psychic", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "Search your deck for up to 4 Basic Psychic Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "35",
+    nationalPokedexNumbers: [670],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-35/small",
+      large: "https://images.scrydex.com/pokemon/me4-35/large",
+    },
+    altArts: [
+      {
+        id: "me4-35",
+        number: "35",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-35/small",
+          large: "https://images.scrydex.com/pokemon/me4-35/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-101",
+        number: "101",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-101/small",
+          large: "https://images.scrydex.com/pokemon/me4-101/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-117",
+        number: "117",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-117/small",
+          large: "https://images.scrydex.com/pokemon/me4-117/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2pt5-47",
     name: "Mega Froslass ex",
     supertype: "Pokémon",
@@ -49272,6 +51875,65 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-275/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-275/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-48",
+    name: "Mega Gallade ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "MEGA", "ex"],
+    hp: "350",
+    types: ["Fighting"],
+    evolvesFrom: "Kirlia",
+    rules: [
+      "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Gale Slash",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "50+",
+        text: "If this Pokémon has no damage counters on it, this attack does 150 more damage.",
+      },
+      {
+        name: "Marvelous Edge",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "240",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "48",
+    nationalPokedexNumbers: [475],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-48/small",
+      large: "https://images.scrydex.com/pokemon/me4-48/large",
+    },
+    altArts: [
+      {
+        id: "me4-48",
+        number: "48",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-48/small",
+          large: "https://images.scrydex.com/pokemon/me4-48/large",
         },
         flavorText: "",
       },
@@ -49459,6 +52121,92 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-284/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-284/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-22",
+    name: "Mega Greninja ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "MEGA", "ex"],
+    hp: "350",
+    types: ["Water"],
+    evolvesFrom: "Frogadier",
+    rules: [
+      "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Mortal Shuriken",
+        text: "Once during your turn, if this Pokémon is in the Active Spot, you may discard a Basic Water Energy card from your hand in order to use this Ability. Place 6 damage counters on 1 of your opponent's Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Ninja Spinner",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "120+",
+        text: "You may put a Water Energy attached to this Pokémon into your hand and have this attack do 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "22",
+    nationalPokedexNumbers: [658],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-22/small",
+      large: "https://images.scrydex.com/pokemon/me4-22/large",
+    },
+    altArts: [
+      {
+        id: "me4-22",
+        number: "22",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-22/small",
+          large: "https://images.scrydex.com/pokemon/me4-22/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-100",
+        number: "100",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-100/small",
+          large: "https://images.scrydex.com/pokemon/me4-100/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-116",
+        number: "116",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-116/small",
+          large: "https://images.scrydex.com/pokemon/me4-116/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-122",
+        number: "122",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-122/small",
+          large: "https://images.scrydex.com/pokemon/me4-122/large",
         },
         flavorText: "",
       },
@@ -50122,6 +52870,74 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-272/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-272/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-15",
+    name: "Mega Pyroar ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "MEGA", "ex"],
+    hp: "340",
+    types: ["Fire"],
+    evolvesFrom: "Litleo",
+    rules: [
+      "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Ferocious Bellow",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80",
+        text: "During your opponent's next turn, attacks used by the Defending Pokémon do 50 less damage (before applying Weakness and Resistance).",
+      },
+      {
+        name: "Fiery Big Bang",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "290-",
+        text: "This attack does 10 less damage for each damage counter on this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "15",
+    nationalPokedexNumbers: [668],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-15/small",
+      large: "https://images.scrydex.com/pokemon/me4-15/large",
+    },
+    altArts: [
+      {
+        id: "me4-15",
+        number: "15",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-15/small",
+          large: "https://images.scrydex.com/pokemon/me4-15/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-99",
+        number: "99",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-99/small",
+          large: "https://images.scrydex.com/pokemon/me4-99/large",
         },
         flavorText: "",
       },
@@ -51284,6 +54100,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-37",
+    name: "Meowstic",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Psychic"],
+    evolvesFrom: "Espurr",
+    attacks: [
+      {
+        name: "Tricky Steps",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80",
+        text: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "37",
+    flavorText:
+      "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+    nationalPokedexNumbers: [678],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-37/small",
+      large: "https://images.scrydex.com/pokemon/me4-37/large",
+    },
+    altArts: [
+      {
+        id: "me4-37",
+        number: "37",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-37/small",
+          large: "https://images.scrydex.com/pokemon/me4-37/large",
+        },
+        flavorText:
+          "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+      },
+    ],
+  },
+  {
     id: "sv8-85",
     name: "Meowstic",
     supertype: "Pokémon",
@@ -51553,6 +54427,71 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-61",
+    name: "Metagross",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "180",
+    types: ["Metal"],
+    evolvesFrom: "Metang",
+    attacks: [
+      {
+        name: "Bounce Back",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "60",
+        text: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+      {
+        name: "Metallic Hammer",
+        cost: ["Metal", "Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150+",
+        text: "You may discard 3 Metal Energy from this Pokémon and have this attack do 150 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "61",
+    flavorText:
+      "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+    nationalPokedexNumbers: [376],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-61/small",
+      large: "https://images.scrydex.com/pokemon/me4-61/large",
+    },
+    altArts: [
+      {
+        id: "me4-61",
+        number: "61",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-61/small",
+          large: "https://images.scrydex.com/pokemon/me4-61/large",
+        },
+        flavorText:
+          "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      },
+    ],
+  },
+  {
     id: "sv5-115",
     name: "Metagross",
     supertype: "Pokémon",
@@ -51686,6 +54625,81 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/63_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-60",
+    name: "Metang",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Metal"],
+    evolvesFrom: "Beldum",
+    attacks: [
+      {
+        name: "Metal Claw",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "",
+      },
+      {
+        name: "Guard Press",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70",
+        text: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "60",
+    flavorText:
+      "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+    nationalPokedexNumbers: [375],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-60/small",
+      large: "https://images.scrydex.com/pokemon/me4-60/large",
+    },
+    altArts: [
+      {
+        id: "me4-60",
+        number: "60",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-60/small",
+          large: "https://images.scrydex.com/pokemon/me4-60/large",
+        },
+        flavorText:
+          "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+      },
+      {
+        id: "me4-94",
+        number: "94",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-94/small",
+          large: "https://images.scrydex.com/pokemon/me4-94/large",
+        },
+        flavorText:
+          "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
       },
     ],
   },
@@ -52940,6 +55954,57 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+      },
+    ],
+  },
+  {
+    id: "me4-72",
+    name: "Minccino",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Take Down",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "72",
+    flavorText:
+      "These Pokemon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
+    nationalPokedexNumbers: [572],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-72/small",
+      large: "https://images.scrydex.com/pokemon/me4-72/large",
+    },
+    altArts: [
+      {
+        id: "me4-72",
+        number: "72",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-72/small",
+          large: "https://images.scrydex.com/pokemon/me4-72/large",
+        },
+        flavorText:
+          "These Pokemon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
       },
     ],
   },
@@ -56336,6 +59401,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-9",
+    name: "Ninetales",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Fire"],
+    evolvesFrom: "Vulpix",
+    attacks: [
+      {
+        name: "Nine-Tailed Transfer",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
+      },
+      {
+        name: "Will-O-Wisp",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "9",
+    flavorText:
+      "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+    nationalPokedexNumbers: [38],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-9/small",
+      large: "https://images.scrydex.com/pokemon/me4-9/large",
+    },
+    altArts: [
+      {
+        id: "me4-9",
+        number: "9",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-9/small",
+          large: "https://images.scrydex.com/pokemon/me4-9/large",
+        },
+        flavorText:
+          "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+      },
+    ],
+  },
+  {
     id: "sv6-27",
     name: "Ninetales",
     supertype: "Pokémon",
@@ -57537,6 +60661,65 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv9/19_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-17",
+    name: "Octillery",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Water"],
+    evolvesFrom: "Remoraid",
+    attacks: [
+      {
+        name: "Jet of Ink",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.",
+      },
+      {
+        name: "Tantrum",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "120",
+        text: "This Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "17",
+    flavorText:
+      "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+    nationalPokedexNumbers: [224],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-17/small",
+      large: "https://images.scrydex.com/pokemon/me4-17/large",
+    },
+    altArts: [
+      {
+        id: "me4-17",
+        number: "17",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-17/small",
+          large: "https://images.scrydex.com/pokemon/me4-17/large",
+        },
+        flavorText:
+          "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
       },
     ],
   },
@@ -60122,6 +63305,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-70",
+    name: "Patrat",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    abilities: [
+      {
+        name: "Watchful Eye",
+        text: "Damage counters on each Pokémon (both yours and your opponent's) can't be moved to other Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "70",
+    flavorText:
+      "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+    nationalPokedexNumbers: [504],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-70/small",
+      large: "https://images.scrydex.com/pokemon/me4-70/large",
+    },
+    altArts: [
+      {
+        id: "me4-70",
+        number: "70",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-70/small",
+          large: "https://images.scrydex.com/pokemon/me4-70/large",
+        },
+        flavorText:
+          "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+      },
+    ],
+  },
+  {
     id: "me2-32",
     name: "Pawmi",
     supertype: "Pokémon",
@@ -60971,6 +64212,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-44",
+    name: "Phanpy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Mud-Slap",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Rollout",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "44",
+    flavorText:
+      "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
+    nationalPokedexNumbers: [231],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-44/small",
+      large: "https://images.scrydex.com/pokemon/me4-44/large",
+    },
+    altArts: [
+      {
+        id: "me4-44",
+        number: "44",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-44/small",
+          large: "https://images.scrydex.com/pokemon/me4-44/large",
+        },
+        flavorText:
+          "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
+      },
+    ],
+  },
+  {
     id: "sv8-102",
     name: "Phanpy",
     supertype: "Pokémon",
@@ -61025,6 +64324,70 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/205_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-38",
+    name: "Phantump",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    abilities: [
+      {
+        name: "Spiteful Evolution",
+        text: "Once during your turn, you may use this Ability. Choose a card in your hand that evolves from this Pokémon and put it onto this Pokémon to evolve it. If you do, place 2 damage counters on the Pokémon you evolved in this way. You can't use this Ability during your first turn.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Mumble",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "38",
+    flavorText:
+      "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+    nationalPokedexNumbers: [708],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-38/small",
+      large: "https://images.scrydex.com/pokemon/me4-38/large",
+    },
+    altArts: [
+      {
+        id: "me4-38",
+        number: "38",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-38/small",
+          large: "https://images.scrydex.com/pokemon/me4-38/large",
+        },
+        flavorText:
+          "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
       },
     ],
   },
@@ -63158,6 +66521,63 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-40",
+    name: "Pumpkaboo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Stampede",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "40",
+    flavorText:
+      "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
+    nationalPokedexNumbers: [710],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-40/small",
+      large: "https://images.scrydex.com/pokemon/me4-40/large",
+    },
+    altArts: [
+      {
+        id: "me4-40",
+        number: "40",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-40/small",
+          large: "https://images.scrydex.com/pokemon/me4-40/large",
+        },
+        flavorText:
+          "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-48",
     name: "Pupitar",
     supertype: "Pokémon",
@@ -63693,6 +67113,123 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/51_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-6",
+    name: "Quilladin",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Grass"],
+    evolvesFrom: "Chespin",
+    attacks: [
+      {
+        name: "Leafy Charge",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Search your deck for a Basic Grass Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Vine Whip",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "6",
+    flavorText:
+      "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+    nationalPokedexNumbers: [651],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-6/small",
+      large: "https://images.scrydex.com/pokemon/me4-6/large",
+    },
+    altArts: [
+      {
+        id: "me4-6",
+        number: "6",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-6/small",
+          large: "https://images.scrydex.com/pokemon/me4-6/large",
+        },
+        flavorText:
+          "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+      },
+    ],
+  },
+  {
+    id: "me4-52",
+    name: "Qwilfish",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Darkness"],
+    abilities: [
+      {
+        name: "Poison Point",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Venoshock",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "52",
+    flavorText:
+      "Experienced fishers say they try to catch Qwilfish in the brief moment that these Pokemon become defenseless just after launching poisonous spikes.",
+    nationalPokedexNumbers: [211],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-52/small",
+      large: "https://images.scrydex.com/pokemon/me4-52/large",
+    },
+    altArts: [
+      {
+        id: "me4-52",
+        number: "52",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-52/small",
+          large: "https://images.scrydex.com/pokemon/me4-52/large",
+        },
+        flavorText:
+          "Experienced fishers say they try to catch Qwilfish in the brief moment that these Pokemon become defenseless just after launching poisonous spikes.",
       },
     ],
   },
@@ -65307,6 +68844,57 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+      },
+    ],
+  },
+  {
+    id: "me4-16",
+    name: "Remoraid",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Sharp Fin",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "16",
+    flavorText:
+      "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+    nationalPokedexNumbers: [223],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-16/small",
+      large: "https://images.scrydex.com/pokemon/me4-16/large",
+    },
+    altArts: [
+      {
+        id: "me4-16",
+        number: "16",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-16/small",
+          large: "https://images.scrydex.com/pokemon/me4-16/large",
+        },
+        flavorText:
+          "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
       },
     ],
   },
@@ -72793,6 +76381,116 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-58",
+    name: "Skrelp",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Hook",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "58",
+    flavorText:
+      "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
+    nationalPokedexNumbers: [690],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-58/small",
+      large: "https://images.scrydex.com/pokemon/me4-58/large",
+    },
+    altArts: [
+      {
+        id: "me4-58",
+        number: "58",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-58/small",
+          large: "https://images.scrydex.com/pokemon/me4-58/large",
+        },
+        flavorText:
+          "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
+      },
+    ],
+  },
+  {
+    id: "me4-54",
+    name: "Skuntank",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Darkness"],
+    evolvesFrom: "Stunky",
+    attacks: [
+      {
+        name: "Rear Kick",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "40",
+        text: "",
+      },
+      {
+        name: "Smash Turn",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Switch this Pokémon with 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "54",
+    flavorText:
+      "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+    nationalPokedexNumbers: [435],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-54/small",
+      large: "https://images.scrydex.com/pokemon/me4-54/large",
+    },
+    altArts: [
+      {
+        id: "me4-54",
+        number: "54",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-54/small",
+          large: "https://images.scrydex.com/pokemon/me4-54/large",
+        },
+        flavorText:
+          "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+      },
+    ],
+  },
+  {
     id: "sv9-131",
     name: "Skwovet",
     supertype: "Pokémon",
@@ -72971,6 +76669,62 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/212_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-67",
+    name: "Sliggoo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Dragon"],
+    evolvesFrom: "Goomy",
+    attacks: [
+      {
+        name: "Gentle Slap",
+        cost: ["Water", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "70",
+        text: "",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "67",
+    flavorText:
+      "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+    nationalPokedexNumbers: [705],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-67/small",
+      large: "https://images.scrydex.com/pokemon/me4-67/large",
+    },
+    altArts: [
+      {
+        id: "me4-67",
+        number: "67",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-67/small",
+          large: "https://images.scrydex.com/pokemon/me4-67/large",
+        },
+        flavorText:
+          "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+      },
+      {
+        id: "me4-95",
+        number: "95",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-95/small",
+          large: "https://images.scrydex.com/pokemon/me4-95/large",
+        },
+        flavorText:
+          "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
       },
     ],
   },
@@ -76711,6 +80465,115 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-53",
+    name: "Stunky",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "53",
+    flavorText:
+      "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
+    nationalPokedexNumbers: [434],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-53/small",
+      large: "https://images.scrydex.com/pokemon/me4-53/large",
+    },
+    altArts: [
+      {
+        id: "me4-53",
+        number: "53",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-53/small",
+          large: "https://images.scrydex.com/pokemon/me4-53/large",
+        },
+        flavorText:
+          "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
+      },
+    ],
+  },
+  {
+    id: "me4-43",
+    name: "Sudowoodo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Trials and Trip-ulations",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Search your deck for up to 2 Transformation Tome cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Rock Hurl",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This attack's damage isn't affected by Resistance.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "43",
+    flavorText:
+      "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+    nationalPokedexNumbers: [185],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-43/small",
+      large: "https://images.scrydex.com/pokemon/me4-43/large",
+    },
+    altArts: [
+      {
+        id: "me4-43",
+        number: "43",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-43/small",
+          large: "https://images.scrydex.com/pokemon/me4-43/large",
+        },
+        flavorText:
+          "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+      },
+    ],
+  },
+  {
     id: "me2-26",
     name: "Suicune",
     supertype: "Pokémon",
@@ -78734,6 +82597,67 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv8/226_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-69",
+    name: "Tauros",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Target Together",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "",
+        text: "Choose 1 of your opponent's Pokémon and flip a coin for each of your Pokémon in play that has \"Tauros\" in its name. This attack does 50 damage to the chosen Pokémon for each heads. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "69",
+    flavorText:
+      "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
+    nationalPokedexNumbers: [128],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-69/small",
+      large: "https://images.scrydex.com/pokemon/me4-69/large",
+    },
+    altArts: [
+      {
+        id: "me4-69",
+        number: "69",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-69/small",
+          large: "https://images.scrydex.com/pokemon/me4-69/large",
+        },
+        flavorText:
+          "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
+      },
+      {
+        id: "me4-96",
+        number: "96",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-96/small",
+          large: "https://images.scrydex.com/pokemon/me4-96/large",
+        },
+        flavorText:
+          "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
       },
     ],
   },
@@ -85104,6 +89028,71 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-39",
+    name: "Trevenant",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Phantump",
+    attacks: [
+      {
+        name: "Cursed Roots",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokémon.",
+      },
+      {
+        name: "Overwhelming Pain",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "60+",
+        text: "This attack does 10 more damage for each damage counter on all of your opponent's Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "39",
+    flavorText:
+      "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+    nationalPokedexNumbers: [709],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-39/small",
+      large: "https://images.scrydex.com/pokemon/me4-39/large",
+    },
+    altArts: [
+      {
+        id: "me4-39",
+        number: "39",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-39/small",
+          large: "https://images.scrydex.com/pokemon/me4-39/large",
+        },
+        flavorText:
+          "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+      },
+    ],
+  },
+  {
     id: "sv6-13",
     name: "Trevenant",
     supertype: "Pokémon",
@@ -85289,6 +89278,57 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+      },
+    ],
+  },
+  {
+    id: "me4-56",
+    name: "Trubbish",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Acid Spray",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "56",
+    flavorText:
+      "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+    nationalPokedexNumbers: [568],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-56/small",
+      large: "https://images.scrydex.com/pokemon/me4-56/large",
+    },
+    altArts: [
+      {
+        id: "me4-56",
+        number: "56",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-56/small",
+          large: "https://images.scrydex.com/pokemon/me4-56/large",
+        },
+        flavorText:
+          "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
       },
     ],
   },
@@ -88378,6 +92418,57 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-8",
+    name: "Vulpix",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Singe",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "8",
+    flavorText:
+      "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+    nationalPokedexNumbers: [37],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-8/small",
+      large: "https://images.scrydex.com/pokemon/me4-8/large",
+    },
+    altArts: [
+      {
+        id: "me4-8",
+        number: "8",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-8/small",
+          large: "https://images.scrydex.com/pokemon/me4-8/large",
+        },
+        flavorText:
+          "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+      },
+    ],
+  },
+  {
     id: "sv6-26",
     name: "Vulpix",
     supertype: "Pokémon",
@@ -88927,6 +93018,75 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-71",
+    name: "Watchog",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Colorless"],
+    evolvesFrom: "Patrat",
+    attacks: [
+      {
+        name: "Snap Inspection",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Flip 3 coins. If any of them are heads, your opponent reveals their hand. For each heads, choose a card you find there and shuffle it into your opponent's deck.",
+      },
+      {
+        name: "Low Kick",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "50",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "71",
+    flavorText:
+      "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+    nationalPokedexNumbers: [505],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-71/small",
+      large: "https://images.scrydex.com/pokemon/me4-71/large",
+    },
+    altArts: [
+      {
+        id: "me4-71",
+        number: "71",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-71/small",
+          large: "https://images.scrydex.com/pokemon/me4-71/large",
+        },
+        flavorText:
+          "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+      },
+      {
+        id: "me4-97",
+        number: "97",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-97/small",
+          large: "https://images.scrydex.com/pokemon/me4-97/large",
+        },
+        flavorText:
+          "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+      },
+    ],
+  },
+  {
     id: "sv6-75",
     name: "Wattrel",
     supertype: "Pokémon",
@@ -89122,6 +93282,57 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/14_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-1",
+    name: "Weedle",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Surprise Attack",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "1",
+    flavorText:
+      "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    nationalPokedexNumbers: [13],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-1/small",
+      large: "https://images.scrydex.com/pokemon/me4-1/large",
+    },
+    altArts: [
+      {
+        id: "me4-1",
+        number: "1",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-1/small",
+          large: "https://images.scrydex.com/pokemon/me4-1/large",
+        },
+        flavorText:
+          "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
       },
     ],
   },
@@ -89726,6 +93937,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me4-25",
+    name: "Wimpod",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Gnaw",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "",
+      },
+      {
+        name: "Corkscrew Punch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "25",
+    flavorText:
+      "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+    nationalPokedexNumbers: [767],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-25/small",
+      large: "https://images.scrydex.com/pokemon/me4-25/large",
+    },
+    altArts: [
+      {
+        id: "me4-25",
+        number: "25",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-25/small",
+          large: "https://images.scrydex.com/pokemon/me4-25/large",
+        },
+        flavorText:
+          "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+      },
+    ],
+  },
+  {
     id: "sv9-38",
     name: "Wingull",
     supertype: "Pokémon",
@@ -90181,6 +94450,67 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/me1/64_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-42",
+    name: "Xerneas",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Geo Storm",
+        cost: ["Psychic", "Psychic", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "30×",
+        text: "This attack does 30 damage for each Psychic Energy attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "42",
+    flavorText:
+      "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+    nationalPokedexNumbers: [716],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-42/small",
+      large: "https://images.scrydex.com/pokemon/me4-42/large",
+    },
+    altArts: [
+      {
+        id: "me4-42",
+        number: "42",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-42/small",
+          large: "https://images.scrydex.com/pokemon/me4-42/large",
+        },
+        flavorText:
+          "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+      },
+      {
+        id: "me4-91",
+        number: "91",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-91/small",
+          large: "https://images.scrydex.com/pokemon/me4-91/large",
+        },
+        flavorText:
+          "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
       },
     ],
   },
@@ -91977,6 +96307,61 @@ const allStandardLegalPokemon = [
           large: "https://images.pokemontcg.io/sv6pt5/75_hires.png",
         },
         flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-49",
+    name: "Zubat",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Supersonic",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "",
+        text: "Your opponent's Active Pokémon is now Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "49",
+    flavorText:
+      "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+    nationalPokedexNumbers: [41],
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-49/small",
+      large: "https://images.scrydex.com/pokemon/me4-49/large",
+    },
+    altArts: [
+      {
+        id: "me4-49",
+        number: "49",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-49/small",
+          large: "https://images.scrydex.com/pokemon/me4-49/large",
+        },
+        flavorText:
+          "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
       },
     ],
   },

@@ -1,5 +1,54 @@
 const allStandardLegalTrainers = [
   {
+    id: "me4-76",
+    name: "AZ's Tranquility",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Switch your Active Pokémon with 1 of your Benched Pokémon. If you moved a Pokémon ex to your Bench in this way, heal 80 damage from that Pokémon.",
+    ],
+    number: "76",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-76/small",
+      large: "https://images.scrydex.com/pokemon/me4-76/large",
+    },
+    altArts: [
+      {
+        id: "me4-76",
+        number: "76",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-76/small",
+          large: "https://images.scrydex.com/pokemon/me4-76/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-106",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-106/small",
+          large: "https://images.scrydex.com/pokemon/me4-106/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-120",
+        number: "120",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-120/small",
+          large: "https://images.scrydex.com/pokemon/me4-120/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-54",
     name: "Academy at Night",
     supertype: "Trainer",
@@ -117,6 +166,37 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-180/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-180/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-74",
+    name: "Adversity Policy",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If the Pokémon this card is attached to has Weakness to your opponent's Active Pokémon's type, is in the Active Spot, and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), draw 3 cards.",
+    ],
+    number: "74",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "I",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-74/small",
+      large: "https://images.scrydex.com/pokemon/me4-74/large",
+    },
+    altArts: [
+      {
+        id: "me4-74",
+        number: "74",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-74/small",
+          large: "https://images.scrydex.com/pokemon/me4-74/large",
         },
         flavorText: "",
       },
@@ -284,6 +364,37 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv5/140.png",
           large: "https://images.pokemontcg.io/sv5/140_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-75",
+    name: "Ange Floette",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "You can put this card into play only if you discard a Prism Tower in play, and you can put this card into play during the same turn you play Prism Tower.\nEach Mega Floette ex in play (both yours and your opponent's) gets +150 HP.",
+    ],
+    number: "75",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-75/small",
+      large: "https://images.scrydex.com/pokemon/me4-75/large",
+    },
+    altArts: [
+      {
+        id: "me4-75",
+        number: "75",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-75/small",
+          large: "https://images.scrydex.com/pokemon/me4-75/large",
         },
         flavorText: "",
       },
@@ -2540,6 +2651,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-77",
+    name: "Emma",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Your opponent reveals their hand, and you draw a card for each Pokémon you find there.",
+    ],
+    number: "77",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-77/small",
+      large: "https://images.scrydex.com/pokemon/me4-77/large",
+    },
+    altArts: [
+      {
+        id: "me4-77",
+        number: "77",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-77/small",
+          large: "https://images.scrydex.com/pokemon/me4-77/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-107",
+        number: "107",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-107/small",
+          large: "https://images.scrydex.com/pokemon/me4-107/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-81",
     name: "Energy Coin",
     supertype: "Trainer",
@@ -2639,6 +2790,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/rsv10pt5/82.png",
           large: "https://images.pokemontcg.io/rsv10pt5/82_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-108",
+        number: "108",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-108/small",
+          large: "https://images.scrydex.com/pokemon/me4-108/large",
         },
         flavorText: "",
       },
@@ -3499,6 +3659,37 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-78",
+    name: "Great Haul Net",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "Choose 1 or both:\n• Shuffle up to 3 Water Pokémon from your discard pile into your deck.\n• Shuffle up to 3 Basic Water Energy cards from your discard pile into your deck.",
+    ],
+    number: "78",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-78/small",
+      large: "https://images.scrydex.com/pokemon/me4-78/large",
+    },
+    altArts: [
+      {
+        id: "me4-78",
+        number: "78",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-78/small",
+          large: "https://images.scrydex.com/pokemon/me4-78/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2-90",
     name: "Grimsley's Move",
     supertype: "Trainer",
@@ -4322,6 +4513,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/me2/91.png",
           large: "https://images.pokemontcg.io/me2/91_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-109",
+        number: "109",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-109/small",
+          large: "https://images.scrydex.com/pokemon/me4-109/large",
         },
         flavorText: "",
       },
@@ -5977,6 +6177,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-79",
+    name: "Philippe",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Attach up to 2 Basic Metal Energy cards from your discard pile to 1 of your Metal Pokémon.",
+    ],
+    number: "79",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-79/small",
+      large: "https://images.scrydex.com/pokemon/me4-79/large",
+    },
+    altArts: [
+      {
+        id: "me4-79",
+        number: "79",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-79/small",
+          large: "https://images.scrydex.com/pokemon/me4-79/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-110",
+        number: "110",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-110/small",
+          large: "https://images.scrydex.com/pokemon/me4-110/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "svp-114",
     name: "Picnicker",
     supertype: "Trainer",
@@ -6450,6 +6690,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-80",
+    name: "Prism Tower",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      "Once during each player's turn, that player may discard 2 cards from their hand in order to draw a card.",
+    ],
+    number: "80",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-80/small",
+      large: "https://images.scrydex.com/pokemon/me4-80/large",
+    },
+    altArts: [
+      {
+        id: "me4-80",
+        number: "80",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-80/small",
+          large: "https://images.scrydex.com/pokemon/me4-80/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-111",
+        number: "111",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-111/small",
+          large: "https://images.scrydex.com/pokemon/me4-111/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2-92",
     name: "Punk Helmet",
     supertype: "Trainer",
@@ -6825,6 +7105,55 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-81",
+    name: "Roxie's Performance",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "During your opponent's next turn, their Poisoned Pokémon can't retreat. (This includes newly Poisoned Pokémon.)",
+    ],
+    number: "81",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-81/small",
+      large: "https://images.scrydex.com/pokemon/me4-81/large",
+    },
+    altArts: [
+      {
+        id: "me4-81",
+        number: "81",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-81/small",
+          large: "https://images.scrydex.com/pokemon/me4-81/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-112",
+        number: "112",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-112/small",
+          large: "https://images.scrydex.com/pokemon/me4-112/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-121",
+        number: "121",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-121/small",
+          large: "https://images.scrydex.com/pokemon/me4-121/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-157",
     name: "Ruffian",
     supertype: "Trainer",
@@ -7150,6 +7479,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me4-82",
+    name: "Special Red Card",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You can use this card only if your opponent has 3 or fewer Prize cards remaining.\n\nYour opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 3 cards.",
+    ],
+    number: "82",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-82/small",
+      large: "https://images.scrydex.com/pokemon/me4-82/large",
+    },
+    altArts: [
+      {
+        id: "me4-82",
+        number: "82",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-82/small",
+          large: "https://images.scrydex.com/pokemon/me4-82/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-113",
+        number: "113",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-113/small",
+          large: "https://images.scrydex.com/pokemon/me4-113/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv10-169",
     name: "Spikemuth Gym",
     supertype: "Trainer",
@@ -7331,6 +7700,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/me1/129.png",
           large: "https://images.pokemontcg.io/me1/129_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-114",
+        number: "114",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-114/small",
+          large: "https://images.scrydex.com/pokemon/me4-114/large",
         },
         flavorText: "",
       },
@@ -8165,6 +8543,46 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-212/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-212/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me4-115",
+        number: "115",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-115/small",
+          large: "https://images.scrydex.com/pokemon/me4-115/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-83",
+    name: "Transformation Tome",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: [
+      "You must play 2 Transformation Tome cards at once. (This effect works one time for 2 cards.)\n \nChoose a Basic Pokémon in your discard pile and switch it with 1 of your Basic Pokémon in play. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.",
+    ],
+    number: "83",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-83/small",
+      large: "https://images.scrydex.com/pokemon/me4-83/large",
+    },
+    altArts: [
+      {
+        id: "me4-83",
+        number: "83",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-83/small",
+          large: "https://images.scrydex.com/pokemon/me4-83/large",
         },
         flavorText: "",
       },

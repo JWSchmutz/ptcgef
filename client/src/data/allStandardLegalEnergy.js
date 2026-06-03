@@ -31,6 +31,37 @@ const allStandardLegalEnergy = [
     ],
   },
   {
+    id: "me4-84",
+    name: "Bubbly Water Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Water Energy.\n\nThe Water Pokémon this card is attached to recovers from all Special Conditions and can't be affected by any Special Conditions.",
+    ],
+    number: "84",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-84/small",
+      large: "https://images.scrydex.com/pokemon/me4-84/large",
+    },
+    altArts: [
+      {
+        id: "me4-84",
+        number: "84",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-84/small",
+          large: "https://images.scrydex.com/pokemon/me4-84/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-191",
     name: "Enriching Energy",
     supertype: "Energy",
@@ -229,6 +260,37 @@ const allStandardLegalEnergy = [
     ],
   },
   {
+    id: "me4-85",
+    name: "Magnetic Metal Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Metal Energy.\n\nThe Metal Pokémon this card is attached to has no Retreat Cost.",
+    ],
+    number: "85",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-85/small",
+      large: "https://images.scrydex.com/pokemon/me4-85/large",
+    },
+    altArts: [
+      {
+        id: "me4-85",
+        number: "85",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-85/small",
+          large: "https://images.scrydex.com/pokemon/me4-85/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-161",
     name: "Mist Energy",
     supertype: "Energy",
@@ -287,6 +349,37 @@ const allStandardLegalEnergy = [
         images: {
           small: "https://images.pokemontcg.io/sv5/162.png",
           large: "https://images.pokemontcg.io/sv5/162_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me4-86",
+    name: "Nitro Fire Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Fire Energy.\n \nIf this card is discarded by an effect of an attack used by the Fire Pokémon this card is attached to, put this card into your hand after attack damage and effects.",
+    ],
+    number: "86",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me4-86/small",
+      large: "https://images.scrydex.com/pokemon/me4-86/large",
+    },
+    altArts: [
+      {
+        id: "me4-86",
+        number: "86",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me4-86/small",
+          large: "https://images.scrydex.com/pokemon/me4-86/large",
         },
         flavorText: "",
       },
