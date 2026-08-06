@@ -442,6 +442,45 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me5-72",
+    name: "Antique Armor Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.\n \nAt any time during your turn, you may discard this card from play.",
+    ],
+    abilities: [
+      {
+        name: "Protective Armor",
+        text: "As long as this Pokémon is in the Active Spot, all of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    number: "72",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-72/small",
+      large: "https://images.scrydex.com/pokemon/me5-72/large",
+    },
+    altArts: [
+      {
+        id: "me5-72",
+        number: "72",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-72/small",
+          large: "https://images.scrydex.com/pokemon/me5-72/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-80",
     name: "Antique Cover Fossil",
     supertype: "Trainer",
@@ -653,6 +692,45 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me5-73",
+    name: "Antique Skull Fossil",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    hp: "60",
+    rules: [
+      "Play this card as if it were a 60-HP Basic Colorless Pokémon. This card can't be affected by any Special Conditions and can't retreat.\n \nAt any time during your turn, you may discard this card from play.",
+    ],
+    abilities: [
+      {
+        name: "Spiny Skull",
+        text: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), place 3 damage counters on the Attacking Pokémon.",
+        type: "Ability",
+      },
+    ],
+    number: "73",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-73/small",
+      large: "https://images.scrydex.com/pokemon/me5-73/large",
+    },
+    altArts: [
+      {
+        id: "me5-73",
+        number: "73",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-73/small",
+          large: "https://images.scrydex.com/pokemon/me5-73/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-131",
     name: "Area Zero Underdepths",
     supertype: "Trainer",
@@ -795,6 +873,37 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8/163.png",
           large: "https://images.pokemontcg.io/sv8/163_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-74",
+    name: "Backtrack Badge",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "Once during your turn, after you flip any coins for an attack of the Colorless Pokémon this card is attached to, you may ignore all results of those coin flips and begin flipping those coins again.",
+    ],
+    number: "74",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-74/small",
+      large: "https://images.scrydex.com/pokemon/me5-74/large",
+    },
+    altArts: [
+      {
+        id: "me5-74",
+        number: "74",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-74/small",
+          large: "https://images.scrydex.com/pokemon/me5-74/large",
         },
         flavorText: "",
       },
@@ -1210,6 +1319,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/rsv10pt5/80.png",
           large: "https://images.pokemontcg.io/rsv10pt5/80_hires.png",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-104",
+        number: "104",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-104/small",
+          large: "https://images.scrydex.com/pokemon/me5-104/large",
         },
         flavorText: "",
       },
@@ -2190,6 +2308,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me5-105",
+        number: "105",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-105/small",
+          large: "https://images.scrydex.com/pokemon/me5-105/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -2293,6 +2420,44 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv6pt5/58.png",
           large: "https://images.pokemontcg.io/sv6pt5/58_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-75",
+    name: "Dark Bell",
+    supertype: "Trainer",
+    subtypes: ["Item"],
+    rules: ["Both Active non-Darkness Pokémon are now Confused."],
+    number: "75",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-75/small",
+      large: "https://images.scrydex.com/pokemon/me5-75/large",
+    },
+    altArts: [
+      {
+        id: "me5-75",
+        number: "75",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-75/small",
+          large: "https://images.scrydex.com/pokemon/me5-75/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-106",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-106/small",
+          large: "https://images.scrydex.com/pokemon/me5-106/large",
         },
         flavorText: "",
       },
@@ -2931,6 +3096,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me5-107",
+        number: "107",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-107/small",
+          large: "https://images.scrydex.com/pokemon/me5-107/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -3357,6 +3531,37 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me5-76",
+    name: "Fossil Quarry",
+    supertype: "Trainer",
+    subtypes: ["Stadium"],
+    rules: [
+      'Once during each player\'s turn, that player may search their deck for up to 2 Item cards that have "Antique" in their name and put them onto their Bench. Then, that player shuffles their deck.',
+    ],
+    number: "76",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-76/small",
+      large: "https://images.scrydex.com/pokemon/me5-76/large",
+    },
+    altArts: [
+      {
+        id: "me5-76",
+        number: "76",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-76/small",
+          large: "https://images.scrydex.com/pokemon/me5-76/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-109",
     name: "Friends in Paldea",
     supertype: "Trainer",
@@ -3456,6 +3661,55 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv5/149.png",
           large: "https://images.pokemontcg.io/sv5/149_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-77",
+    name: "Gladion's Final Battle",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only when it is the last card in your hand.\nDuring this turn, attacks used by your Pokémon that don't have a Rule Box do 80 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance). (Pokémon ex, Pokémon V_atk, etc. have Rule Boxes.)",
+    ],
+    number: "77",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-77/small",
+      large: "https://images.scrydex.com/pokemon/me5-77/large",
+    },
+    altArts: [
+      {
+        id: "me5-77",
+        number: "77",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-77/small",
+          large: "https://images.scrydex.com/pokemon/me5-77/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-108",
+        number: "108",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-108/small",
+          large: "https://images.scrydex.com/pokemon/me5-108/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-118",
+        number: "118",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-118/small",
+          large: "https://images.scrydex.com/pokemon/me5-118/large",
         },
         flavorText: "",
       },
@@ -3725,6 +3979,55 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/me2/120.png",
           large: "https://images.pokemontcg.io/me2/120_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-78",
+    name: "Gwynn",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Discard up to 2 Pokémon that don't have a Rule Box from your hand, and draw 3 cards for each card you discarded in this way. (Pokémon ex, Pokémon V_atk, etc. have Rule Boxes.)",
+    ],
+    number: "78",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-78/small",
+      large: "https://images.scrydex.com/pokemon/me5-78/large",
+    },
+    altArts: [
+      {
+        id: "me5-78",
+        number: "78",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-78/small",
+          large: "https://images.scrydex.com/pokemon/me5-78/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-109",
+        number: "109",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-109/small",
+          large: "https://images.scrydex.com/pokemon/me5-109/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-119",
+        number: "119",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-119/small",
+          large: "https://images.scrydex.com/pokemon/me5-119/large",
         },
         flavorText: "",
       },
@@ -4243,6 +4546,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me5-110",
+        number: "110",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-110/small",
+          large: "https://images.scrydex.com/pokemon/me5-110/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -4449,6 +4761,37 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8/245.png",
           large: "https://images.pokemontcg.io/sv8/245_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-79",
+    name: "Jett",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Draw a card for each of your opponent's Mega Evolution Pokémon ex in play.",
+    ],
+    number: "79",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-79/small",
+      large: "https://images.scrydex.com/pokemon/me5-79/large",
+    },
+    altArts: [
+      {
+        id: "me5-79",
+        number: "79",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-79/small",
+          large: "https://images.scrydex.com/pokemon/me5-79/large",
         },
         flavorText: "",
       },
@@ -5521,6 +5864,46 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8/183.png",
           large: "https://images.pokemontcg.io/sv8/183_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-80",
+    name: "Misty's Vitality",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Search your deck for up to 4 Basic Water Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck. Your turn ends.",
+    ],
+    number: "80",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-80/small",
+      large: "https://images.scrydex.com/pokemon/me5-80/large",
+    },
+    altArts: [
+      {
+        id: "me5-80",
+        number: "80",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-80/small",
+          large: "https://images.scrydex.com/pokemon/me5-80/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-111",
+        number: "111",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-111/small",
+          large: "https://images.scrydex.com/pokemon/me5-111/large",
         },
         flavorText: "",
       },
@@ -7195,6 +7578,46 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me5-81",
+    name: "Rust Syndicate Grunt",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.\n\nDiscard an Energy from 1 of your opponent's Pokémon.",
+    ],
+    number: "81",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-81/small",
+      large: "https://images.scrydex.com/pokemon/me5-81/large",
+    },
+    altArts: [
+      {
+        id: "me5-81",
+        number: "81",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-81/small",
+          large: "https://images.scrydex.com/pokemon/me5-81/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-112",
+        number: "112",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-112/small",
+          large: "https://images.scrydex.com/pokemon/me5-112/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-115",
     name: "Sacred Ash",
     supertype: "Trainer",
@@ -8616,6 +9039,46 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.pokemontcg.io/sv8pt5/131.png",
           large: "https://images.pokemontcg.io/sv8pt5/131_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-82",
+    name: "Tremendous Bomb",
+    supertype: "Trainer",
+    subtypes: ["Pokémon Tool"],
+    rules: [
+      "If the Pokémon this card is attached to isn't a Mega Evolution Pokémon ex, is in the Active Spot, and takes 240 or more damage from an attack from your opponent's Mega Evolution Pokémon ex (even if this Pokémon is Knocked Out), place 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card.",
+    ],
+    number: "82",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-82/small",
+      large: "https://images.scrydex.com/pokemon/me5-82/large",
+    },
+    altArts: [
+      {
+        id: "me5-82",
+        number: "82",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-82/small",
+          large: "https://images.scrydex.com/pokemon/me5-82/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me5-113",
+        number: "113",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-113/small",
+          large: "https://images.scrydex.com/pokemon/me5-113/large",
         },
         flavorText: "",
       },

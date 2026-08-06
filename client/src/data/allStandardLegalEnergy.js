@@ -457,6 +457,37 @@ const allStandardLegalEnergy = [
     ],
   },
   {
+    id: "me5-83",
+    name: "Shadowy Darkness Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Darkness Energy.\n \nAs long as the Darkness Pokémon this card is attached to is on your Bench, prevent all damage done to it by attacks from your opponent's Pokémon.",
+    ],
+    number: "83",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-83/small",
+      large: "https://images.scrydex.com/pokemon/me5-83/large",
+    },
+    altArts: [
+      {
+        id: "me5-83",
+        number: "83",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-83/small",
+          large: "https://images.scrydex.com/pokemon/me5-83/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-159",
     name: "Spiky Energy",
     supertype: "Energy",
@@ -562,6 +593,37 @@ const allStandardLegalEnergy = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-88/small",
           large: "https://images.scrydex.com/pokemon/me3-88/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me5-84",
+    name: "Voltaic Lightning Energy",
+    supertype: "Energy",
+    subtypes: ["Special"],
+    rules: [
+      "As long as this card is attached to a Pokémon, it provides Lightning Energy.\n \nAttacks used by the Lightning Pokémon this card is attached to do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+    ],
+    number: "84",
+    legalities: {
+      standard: "Legal",
+      unlimited: "Legal",
+      expanded: "Legal",
+    },
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me5-84/small",
+      large: "https://images.scrydex.com/pokemon/me5-84/large",
+    },
+    altArts: [
+      {
+        id: "me5-84",
+        number: "84",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me5-84/small",
+          large: "https://images.scrydex.com/pokemon/me5-84/large",
         },
         flavorText: "",
       },
