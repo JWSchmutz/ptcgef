@@ -1044,6 +1044,66 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-2",
+    name: "Alolan Exeggutor",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "150",
+    types: ["Grass"],
+    evolvesFrom: "Exeggcute",
+    abilities: [
+      {
+        name: "Scale Up",
+        text: "If this Pokémon has 6 or more Grass Energy attached, it gets +250 HP.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Mega Drain",
+        cost: ["Grass", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "150",
+        text: "Heal 50 damage from this Pokémon",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "2",
+    nationalPokedexNumbers: [103],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-2/small",
+      large: "https://images.scrydex.com/pokemon/me55-2/large",
+    },
+    altArts: [
+      {
+        id: "me55-2",
+        number: "2",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-2/small",
+          large: "https://images.scrydex.com/pokemon/me55-2/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-129",
+        number: "129",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-129/small",
+          large: "https://images.scrydex.com/pokemon/me55-129/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-133",
     name: "Alolan Exeggutor ex",
     supertype: "Pokémon",
@@ -1350,6 +1410,58 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv9/57.png",
           large: "https://images.pokemontcg.io/sv9/57_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-89",
+    name: "Alolan Meowth",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Pay Day",
+        cost: [],
+        convertedEnergyCost: 0,
+        damage: "10",
+        text: "Draw a card.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "89",
+    nationalPokedexNumbers: [52],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-89/small",
+      large: "https://images.scrydex.com/pokemon/me55-89/large",
+    },
+    altArts: [
+      {
+        id: "me55-89",
+        number: "89",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-89/small",
+          large: "https://images.scrydex.com/pokemon/me55-89/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-139",
+        number: "139",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-139/small",
+          large: "https://images.scrydex.com/pokemon/me55-139/large",
         },
         flavorText: "",
       },
@@ -2598,6 +2710,60 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-123",
+    name: "Arceus VSTAR",
+    supertype: "Pokémon",
+    subtypes: ["VSTAR"],
+    hp: "280",
+    types: ["Colorless"],
+    evolvesFrom: "Arceus V",
+    rules: [
+      "When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Starbirth",
+        text: "During your turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Trinity Nova",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon V in any way you like. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "123",
+    nationalPokedexNumbers: [493],
+    regulationMark: "F",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-123/small",
+      large: "https://images.scrydex.com/pokemon/me55c-123/large",
+    },
+    altArts: [
+      {
+        id: "me55c-123",
+        number: "123",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-123/small",
+          large: "https://images.scrydex.com/pokemon/me55c-123/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2-75",
     name: "Archaludon",
     supertype: "Pokémon",
@@ -3441,6 +3607,64 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-18",
+    name: "Articuno",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Water"],
+    abilities: [
+      {
+        name: "Frosty Flapping",
+        text: "Once during your turn, if you have Moltres and Zapdos in play, you may use this Ability. Attach a Basic Water Energy card from your hand to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hail",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        text: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "18",
+    nationalPokedexNumbers: [144],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-18/small",
+      large: "https://images.scrydex.com/pokemon/me55-18/large",
+    },
+    altArts: [
+      {
+        id: "me55-18",
+        number: "18",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-18/small",
+          large: "https://images.scrydex.com/pokemon/me55-18/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-132",
+        number: "132",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-132/small",
+          large: "https://images.scrydex.com/pokemon/me55-132/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-32",
     name: "Articuno",
     supertype: "Pokémon",
@@ -4255,6 +4479,50 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/80.png",
           large: "https://images.pokemontcg.io/sv8/80_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-68",
+    name: "Azumarill",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Marill",
+    attacks: [
+      {
+        name: "Body Slam",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "68",
+    nationalPokedexNumbers: [184],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-68/small",
+      large: "https://images.scrydex.com/pokemon/me55-68/large",
+    },
+    altArts: [
+      {
+        id: "me55-68",
+        number: "68",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-68/small",
+          large: "https://images.scrydex.com/pokemon/me55-68/large",
         },
         flavorText: "",
       },
@@ -8990,6 +9258,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-57",
+    name: "Buzzwole-GX",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "GX"],
+    hp: "190",
+    types: ["Fighting"],
+    rules: [
+      "When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Jet Punch",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Knuckle Impact",
+        cost: ["Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "160",
+        text: "This Pokémon can't attack during your next turn.",
+      },
+      {
+        name: "Absorption-GX",
+        cost: ["Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 3,
+        damage: "40×",
+        text: "This attack does 40 damage for each of your remaining Prize cards. (You can't use more than 1 GX attack in a game.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "57",
+    nationalPokedexNumbers: [794],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-57/small",
+      large: "https://images.scrydex.com/pokemon/me55c-57/large",
+    },
+    altArts: [
+      {
+        id: "me55c-57",
+        number: "57",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-57/small",
+          large: "https://images.scrydex.com/pokemon/me55c-57/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2pt5-28",
     name: "Camerupt",
     supertype: "Pokémon",
@@ -10609,6 +10936,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-75",
+    name: "Chandelure",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "140",
+    types: ["Psychic"],
+    evolvesFrom: "Lampent",
+    attacks: [
+      {
+        name: "Eerie Glow",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "130",
+        text: "Your opponent's Active Pokémon is now Burned and Confused.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "75",
+    nationalPokedexNumbers: [609],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-75/small",
+      large: "https://images.scrydex.com/pokemon/me55-75/large",
+    },
+    altArts: [
+      {
+        id: "me55-75",
+        number: "75",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-75/small",
+          large: "https://images.scrydex.com/pokemon/me55-75/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-137",
+        number: "137",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-137/small",
+          large: "https://images.scrydex.com/pokemon/me55-137/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-38",
     name: "Chandelure",
     supertype: "Pokémon",
@@ -10991,6 +11377,62 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/33.png",
           large: "https://images.pokemontcg.io/sv8/33_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-4",
+    name: "Charizard",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "120",
+    types: ["Fire"],
+    evolvesFrom: "Charmeleon",
+    abilities: [
+      {
+        name: "Energy Burn",
+        text: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+        type: "Pokémon Power",
+      },
+    ],
+    attacks: [
+      {
+        name: "Fire Spin",
+        cost: ["Fire", "Fire", "Fire", "Fire"],
+        convertedEnergyCost: 4,
+        damage: "100",
+        text: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "4",
+    nationalPokedexNumbers: [6],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-4/small",
+      large: "https://images.scrydex.com/pokemon/me55c-4/large",
+    },
+    altArts: [
+      {
+        id: "me55c-4",
+        number: "4",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-4/small",
+          large: "https://images.scrydex.com/pokemon/me55c-4/large",
         },
         flavorText: "",
       },
@@ -11463,6 +11905,103 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+      },
+    ],
+  },
+  {
+    id: "me55-7",
+    name: "Cherrim",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Grass"],
+    evolvesFrom: "Cherubi",
+    attacks: [
+      {
+        name: "Energy Gift",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+      },
+      {
+        name: "Leafage",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "7",
+    nationalPokedexNumbers: [421],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-7/small",
+      large: "https://images.scrydex.com/pokemon/me55-7/large",
+    },
+    altArts: [
+      {
+        id: "me55-7",
+        number: "7",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-7/small",
+          large: "https://images.scrydex.com/pokemon/me55-7/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-6",
+    name: "Cherubi",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Hide",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+      {
+        name: "Flop",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "6",
+    nationalPokedexNumbers: [420],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-6/small",
+      large: "https://images.scrydex.com/pokemon/me55-6/large",
+    },
+    altArts: [
+      {
+        id: "me55-6",
+        number: "6",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-6/small",
+          large: "https://images.scrydex.com/pokemon/me55-6/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -13592,6 +14131,54 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-77",
+    name: "Comfey",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Comforting Aroma",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Heal 80 damage from 1 of your Benched Pokémon.",
+      },
+      {
+        name: "Magical Shot",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "77",
+    nationalPokedexNumbers: [764],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-77/small",
+      large: "https://images.scrydex.com/pokemon/me55-77/large",
+    },
+    altArts: [
+      {
+        id: "me55-77",
+        number: "77",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-77/small",
+          large: "https://images.scrydex.com/pokemon/me55-77/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-63",
     name: "Comfey",
     supertype: "Pokémon",
@@ -14154,6 +14741,103 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It can live in impure water, where it doesn't need to compete with other water Pokémon for food, so its numbers have steadily increased.",
+      },
+    ],
+  },
+  {
+    id: "me55-79",
+    name: "Cosmoem",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Psychic"],
+    evolvesFrom: "Cosmog",
+    attacks: [
+      {
+        name: "Stiffen",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "79",
+    nationalPokedexNumbers: [790],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-79/small",
+      large: "https://images.scrydex.com/pokemon/me55-79/large",
+    },
+    altArts: [
+      {
+        id: "me55-79",
+        number: "79",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-79/small",
+          large: "https://images.scrydex.com/pokemon/me55-79/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-78",
+    name: "Cosmog",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Splash",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "78",
+    nationalPokedexNumbers: [789],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-78/small",
+      large: "https://images.scrydex.com/pokemon/me55-78/large",
+    },
+    altArts: [
+      {
+        id: "me55-78",
+        number: "78",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-78/small",
+          large: "https://images.scrydex.com/pokemon/me55-78/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -14821,6 +15505,61 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-74",
+    name: "Cresselia",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Aurora Gain",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Heal 30 damage from this Pokémon.",
+      },
+      {
+        name: "Lunar Blast",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "74",
+    nationalPokedexNumbers: [488],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-74/small",
+      large: "https://images.scrydex.com/pokemon/me55-74/large",
+    },
+    altArts: [
+      {
+        id: "me55-74",
+        number: "74",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-74/small",
+          large: "https://images.scrydex.com/pokemon/me55-74/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-21",
     name: "Cresselia",
     supertype: "Pokémon",
@@ -15125,6 +15864,58 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv6pt5/29.png",
           large: "https://images.pokemontcg.io/sv6pt5/29_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-47",
+    name: "Crobat G",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Psychic"],
+    abilities: [
+      {
+        name: "Flash Bite",
+        text: "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
+        type: "Poké-POWER",
+      },
+    ],
+    attacks: [
+      {
+        name: "Toxic Fang",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-20",
+      },
+    ],
+    number: "47",
+    nationalPokedexNumbers: [169],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-47/small",
+      large: "https://images.scrydex.com/pokemon/me55c-47/large",
+    },
+    altArts: [
+      {
+        id: "me55c-47",
+        number: "47",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-47/small",
+          large: "https://images.scrydex.com/pokemon/me55c-47/large",
         },
         flavorText: "",
       },
@@ -16600,6 +17391,133 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-19",
+    name: "Dark Tyranitar",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "120",
+    types: ["Darkness"],
+    evolvesFrom: "Dark Pupitar",
+    attacks: [
+      {
+        name: "Grind",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar.",
+      },
+      {
+        name: "Spinning Tail",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        text: "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Bite Off",
+        cost: ["Darkness", "Darkness", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 5,
+        damage: "70+",
+        text: "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Psychic",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "19",
+    nationalPokedexNumbers: [248],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-19/small",
+      large: "https://images.scrydex.com/pokemon/me55c-19/large",
+    },
+    altArts: [
+      {
+        id: "me55c-19",
+        number: "19",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-19/small",
+          large: "https://images.scrydex.com/pokemon/me55c-19/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-99",
+    name: "Darkrai & Cresselia LEGEND",
+    supertype: "Pokémon",
+    subtypes: ["LEGEND"],
+    hp: "150",
+    types: ["Darkness", "Psychic"],
+    rules: [
+      "Put this card from your hand onto your Bench only with the other half of Darkrai & Cresselia LEGEND.",
+      "When this Pokémon has been Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Lost Crisis",
+        cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100",
+        text: "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent's Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
+      },
+      {
+        name: "Moon's Invite",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        text: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "99",
+    nationalPokedexNumbers: [488],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-99/small",
+      large: "https://images.scrydex.com/pokemon/me55c-99/large",
+    },
+    altArts: [
+      {
+        id: "me55c-99",
+        number: "99",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-99/small",
+          large: "https://images.scrydex.com/pokemon/me55c-99/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55c-100",
+        number: "100",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-100/small",
+          large: "https://images.scrydex.com/pokemon/me55c-100/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "svp-110",
     name: "Darkrai ex",
     supertype: "Pokémon",
@@ -17567,6 +18485,54 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-97",
+    name: "Deino",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Gnaw",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+      {
+        name: "Headbutt",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "97",
+    nationalPokedexNumbers: [633],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-97/small",
+      large: "https://images.scrydex.com/pokemon/me55-97/large",
+    },
+    altArts: [
+      {
+        id: "me55-97",
+        number: "97",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-97/small",
+          large: "https://images.scrydex.com/pokemon/me55-97/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-117",
     name: "Deino",
     supertype: "Pokémon",
@@ -17678,6 +18644,56 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+      },
+    ],
+  },
+  {
+    id: "me55c-5",
+    name: "Delcatty",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "70",
+    types: ["Colorless"],
+    evolvesFrom: "Skitty",
+    abilities: [
+      {
+        name: "Energy Draw",
+        text: "Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition.",
+        type: "Poké-POWER",
+      },
+    ],
+    attacks: [
+      {
+        name: "Max Energy Source",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Does 10 damage times the amount of Energy attached to all of your Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "5",
+    nationalPokedexNumbers: [301],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-5/small",
+      large: "https://images.scrydex.com/pokemon/me55c-5/large",
+    },
+    altArts: [
+      {
+        id: "me55c-5",
+        number: "5",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-5/small",
+          large: "https://images.scrydex.com/pokemon/me55c-5/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -18699,6 +19715,60 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-103",
+    name: "Dialga",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Reversed Clock",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Shuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.",
+      },
+      {
+        name: "Heavy Impact",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "110",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "103",
+    nationalPokedexNumbers: [483],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-103/small",
+      large: "https://images.scrydex.com/pokemon/me55-103/large",
+    },
+    altArts: [
+      {
+        id: "me55-103",
+        number: "103",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-103/small",
+          large: "https://images.scrydex.com/pokemon/me55-103/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-135",
     name: "Dialga",
     supertype: "Pokémon",
@@ -19075,6 +20145,48 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv7/13.png",
           large: "https://images.pokemontcg.io/sv7/13_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-115",
+    name: "Ditto",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Surprisingly Transform",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "Flip a coin. If heads, search your deck for a Pokémon and switch it with this Pokémon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon. If you switched a Pokémon in this way, put this card into your deck. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "115",
+    nationalPokedexNumbers: [132],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-115/small",
+      large: "https://images.scrydex.com/pokemon/me55-115/large",
+    },
+    altArts: [
+      {
+        id: "me55-115",
+        number: "115",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-115/small",
+          large: "https://images.scrydex.com/pokemon/me55-115/large",
         },
         flavorText: "",
       },
@@ -20097,6 +21209,64 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+      },
+    ],
+  },
+  {
+    id: "me55-73",
+    name: "Drifloon",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Float Up",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "You may shuffle this Pokémon and all attached cards into your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "73",
+    nationalPokedexNumbers: [425],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-73/small",
+      large: "https://images.scrydex.com/pokemon/me55-73/large",
+    },
+    altArts: [
+      {
+        id: "me55-73",
+        number: "73",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-73/small",
+          large: "https://images.scrydex.com/pokemon/me55-73/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-136",
+        number: "136",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-136/small",
+          large: "https://images.scrydex.com/pokemon/me55-136/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -22157,6 +23327,106 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+      },
+    ],
+  },
+  {
+    id: "me55-116",
+    name: "Eevee",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Fetch and Hide",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Your opponent reveals their hand, and you put an Item card you find there on the bottom of your opponent's deck.",
+      },
+      {
+        name: "Tackle",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "116",
+    nationalPokedexNumbers: [133],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-116/small",
+      large: "https://images.scrydex.com/pokemon/me55-116/large",
+    },
+    altArts: [
+      {
+        id: "me55-116",
+        number: "116",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-116/small",
+          large: "https://images.scrydex.com/pokemon/me55-116/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-117",
+    name: "Eevee",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Quick Attack",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "117",
+    nationalPokedexNumbers: [133],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-117/small",
+      large: "https://images.scrydex.com/pokemon/me55-117/large",
+    },
+    altArts: [
+      {
+        id: "me55-117",
+        number: "117",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-117/small",
+          large: "https://images.scrydex.com/pokemon/me55-117/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-118",
+        number: "118",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-118/small",
+          large: "https://images.scrydex.com/pokemon/me55-118/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -24421,6 +25691,114 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-69",
+    name: "Espeon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Psychic"],
+    evolvesFrom: "Eevee",
+    attacks: [
+      {
+        name: "Miraculous Shine",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "Devolve each of your opponent's evolved Pokémon by putting the highest Stage Evolution card on it into your opponent's hand.",
+      },
+      {
+        name: "Super Psy Bolt",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "69",
+    nationalPokedexNumbers: [196],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-69/small",
+      large: "https://images.scrydex.com/pokemon/me55-69/large",
+    },
+    altArts: [
+      {
+        id: "me55-69",
+        number: "69",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-69/small",
+          large: "https://images.scrydex.com/pokemon/me55-69/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-70",
+    name: "Espeon ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "260",
+    types: ["Psychic"],
+    evolvesFrom: "Eevee",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Solar Beatdown",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your Pokémon in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "70",
+    nationalPokedexNumbers: [196],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-70/small",
+      large: "https://images.scrydex.com/pokemon/me55-70/large",
+    },
+    altArts: [
+      {
+        id: "me55-70",
+        number: "70",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-70/small",
+          large: "https://images.scrydex.com/pokemon/me55-70/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-34",
     name: "Espeon ex",
     supertype: "Pokémon",
@@ -25597,6 +26975,48 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/me1/4.png",
           large: "https://images.pokemontcg.io/me1/4_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-1",
+    name: "Exeggcute",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Hypnosis",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Your opponent's Active Pokémon is now Asleep.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "1",
+    nationalPokedexNumbers: [102],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-1/small",
+      large: "https://images.scrydex.com/pokemon/me55-1/large",
+    },
+    altArts: [
+      {
+        id: "me55-1",
+        number: "1",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-1/small",
+          large: "https://images.scrydex.com/pokemon/me55-1/large",
         },
         flavorText: "",
       },
@@ -26885,6 +28305,61 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+      },
+    ],
+  },
+  {
+    id: "me55-104",
+    name: "Ferrothorn",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Ferroseed",
+    attacks: [
+      {
+        name: "Spike Sting",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+      {
+        name: "Kaboom Needles",
+        cost: ["Metal", "Metal"],
+        convertedEnergyCost: 2,
+        text: "This attack does 50 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) This Pokémon also does 130 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "104",
+    nationalPokedexNumbers: [598],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-104/small",
+      large: "https://images.scrydex.com/pokemon/me55-104/large",
+    },
+    altArts: [
+      {
+        id: "me55-104",
+        number: "104",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-104/small",
+          large: "https://images.scrydex.com/pokemon/me55-104/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -29735,6 +31210,67 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-15",
+    name: "Fuecoco ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "210",
+    types: ["Fire"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Singe",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        text: "Your opponent's Active Pokémon is now Burned.",
+      },
+      {
+        name: "Cheerful Flame",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "70×",
+        text: "This attack does 70 damage for each Prize card you have taken.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "15",
+    nationalPokedexNumbers: [909],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-15/small",
+      large: "https://images.scrydex.com/pokemon/me55-15/large",
+    },
+    altArts: [
+      {
+        id: "me55-15",
+        number: "15",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-15/small",
+          large: "https://images.scrydex.com/pokemon/me55-15/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-147",
+        number: "147",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-147/small",
+          large: "https://images.scrydex.com/pokemon/me55-147/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-67",
     name: "Furfrou",
     supertype: "Pokémon",
@@ -30013,6 +31549,71 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+      },
+    ],
+  },
+  {
+    id: "me55-101",
+    name: "Galarian Meowth",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Pay Day",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Draw a card.",
+      },
+      {
+        name: "Treasure Rush",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "This attack does 10 damage for each card in your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "101",
+    nationalPokedexNumbers: [52],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-101/small",
+      large: "https://images.scrydex.com/pokemon/me55-101/large",
+    },
+    altArts: [
+      {
+        id: "me55-101",
+        number: "101",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-101/small",
+          large: "https://images.scrydex.com/pokemon/me55-101/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-141",
+        number: "141",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-141/small",
+          large: "https://images.scrydex.com/pokemon/me55-141/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -31023,6 +32624,58 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-11g",
+    name: "Genesect-EX",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "EX"],
+    hp: "170",
+    types: ["Grass"],
+    rules: [
+      "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Red Signal",
+        text: "When you attach a Plasma Energy from your hand to this Pokémon, you may switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Megalo Cannon",
+        cost: ["Grass", "Grass", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "11",
+    nationalPokedexNumbers: [649],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-11g/small",
+      large: "https://images.scrydex.com/pokemon/me55c-11g/large",
+    },
+    altArts: [
+      {
+        id: "me55c-11g",
+        number: "11",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-11g/small",
+          large: "https://images.scrydex.com/pokemon/me55c-11g/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-50",
     name: "Gengar",
     supertype: "Pokémon",
@@ -31073,6 +32726,127 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-50/small",
           large: "https://images.scrydex.com/pokemon/me3-50/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-94",
+    name: "Gengar",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "130",
+    types: ["Psychic"],
+    evolvesFrom: "Haunter",
+    abilities: [
+      {
+        name: "Catastrophe",
+        text: "As long as Gengar is your Active Pokémon, if any of your opponent's Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding. (Discard all cards attached to that Pokémon.)",
+        type: "Poké-BODY",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hurl into Darkness",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        text: "Look at your opponent's hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.",
+      },
+      {
+        name: "Cursed Drop",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Colorless",
+        value: "-20",
+      },
+    ],
+    number: "94",
+    nationalPokedexNumbers: [94],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-94/small",
+      large: "https://images.scrydex.com/pokemon/me55c-94/large",
+    },
+    altArts: [
+      {
+        id: "me55c-94",
+        number: "94",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-94/small",
+          large: "https://images.scrydex.com/pokemon/me55c-94/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-90",
+    name: "Gengar ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "280",
+    types: ["Darkness"],
+    evolvesFrom: "Haunter",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Fainting Spell",
+        text: "If this Pokémon is Knocket Out by damage from an attack from your opponent's Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocket Out.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Chaotic Pain",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        text: "Place 13 damage counters on 1 of your opponent's Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "90",
+    nationalPokedexNumbers: [94],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-90/small",
+      large: "https://images.scrydex.com/pokemon/me55-90/large",
+    },
+    altArts: [
+      {
+        id: "me55-90",
+        number: "90",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-90/small",
+          large: "https://images.scrydex.com/pokemon/me55-90/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-154",
+        number: "154",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-154/small",
+          large: "https://images.scrydex.com/pokemon/me55-154/large",
         },
         flavorText: "",
       },
@@ -31203,6 +32977,71 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/me1/99.png",
           large: "https://images.pokemontcg.io/me1/99_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-108",
+    name: "Gholdengo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Metal"],
+    evolvesFrom: "Gimmighoul",
+    attacks: [
+      {
+        name: "Celebration",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        text: "if you have exactly 30 cards in your hand, take 2 Prize cards. If you do, shuffle your hand into your deck.",
+      },
+      {
+        name: "Triple Smash",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "50×",
+        text: "Flip 3 coins. This attack does 50 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "108",
+    nationalPokedexNumbers: [1000],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-108/small",
+      large: "https://images.scrydex.com/pokemon/me55-108/large",
+    },
+    altArts: [
+      {
+        id: "me55-108",
+        number: "108",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-108/small",
+          large: "https://images.scrydex.com/pokemon/me55-108/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-142",
+        number: "142",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-142/small",
+          large: "https://images.scrydex.com/pokemon/me55-142/large",
         },
         flavorText: "",
       },
@@ -31388,6 +33227,54 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/me1/67.png",
           large: "https://images.pokemontcg.io/me1/67_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-81",
+    name: "Gimmighoul",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Strolls So Much",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "81",
+    nationalPokedexNumbers: [999],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-81/small",
+      large: "https://images.scrydex.com/pokemon/me55-81/large",
+    },
+    altArts: [
+      {
+        id: "me55-81",
+        number: "81",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-81/small",
+          large: "https://images.scrydex.com/pokemon/me55-81/large",
         },
         flavorText: "",
       },
@@ -34026,6 +35913,103 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-41",
+    name: "Greninja BREAK",
+    supertype: "Pokémon",
+    subtypes: ["BREAK"],
+    hp: "170",
+    types: ["Water"],
+    evolvesFrom: "Greninja",
+    rules: [
+      "Greninja BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution.",
+    ],
+    abilities: [
+      {
+        name: "Giant Water Shuriken",
+        text: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may discard a Water Energy card from your hand. If you do, put 6 damage counters on 1 of your opponents Pokémon.",
+        type: "Ability",
+      },
+    ],
+    number: "41",
+    nationalPokedexNumbers: [658],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-41/small",
+      large: "https://images.scrydex.com/pokemon/me55c-41/large",
+    },
+    altArts: [
+      {
+        id: "me55c-41",
+        number: "41",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-41/small",
+          large: "https://images.scrydex.com/pokemon/me55c-41/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-21",
+    name: "Greninja ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "300",
+    types: ["Water"],
+    evolvesFrom: "Frogadier",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Stealthy Slash",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        text: "This attack does 30 damage to 1 of your opponent's Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Aqua Edge",
+        cost: ["Water", "Water"],
+        convertedEnergyCost: 2,
+        damage: "160",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "21",
+    nationalPokedexNumbers: [658],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-21/small",
+      large: "https://images.scrydex.com/pokemon/me55-21/large",
+    },
+    altArts: [
+      {
+        id: "me55-21",
+        number: "21",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-21/small",
+          large: "https://images.scrydex.com/pokemon/me55-21/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-148",
+        number: "148",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-148/small",
+          large: "https://images.scrydex.com/pokemon/me55-148/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-106",
     name: "Greninja ex",
     supertype: "Pokémon",
@@ -34452,6 +36436,49 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+      },
+    ],
+  },
+  {
+    id: "me55-82",
+    name: "Groudon",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "140",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Break Ground",
+        cost: ["Fighting", "Fighting", "Fighting", "Fighting", "Fighting"],
+        convertedEnergyCost: 5,
+        damage: "250",
+        text: "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "82",
+    nationalPokedexNumbers: [383],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-82/small",
+      large: "https://images.scrydex.com/pokemon/me55-82/large",
+    },
+    altArts: [
+      {
+        id: "me55-82",
+        number: "82",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-82/small",
+          large: "https://images.scrydex.com/pokemon/me55-82/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -35000,6 +37027,49 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      },
+    ],
+  },
+  {
+    id: "me55-111",
+    name: "Hakamo-o",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Dragon"],
+    evolvesFrom: "Jangmo-o",
+    attacks: [
+      {
+        name: "Sharp Fang",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+      },
+      {
+        name: "Dragon Claw",
+        cost: ["Lightning", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "70",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "111",
+    nationalPokedexNumbers: [783],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-111/small",
+      large: "https://images.scrydex.com/pokemon/me55-111/large",
+    },
+    altArts: [
+      {
+        id: "me55-111",
+        number: "111",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-111/small",
+          large: "https://images.scrydex.com/pokemon/me55-111/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -37048,6 +39118,106 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-123",
+    name: "Hisuian Zoroark",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Colorless"],
+    evolvesFrom: "Hisuian Zorua",
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "30",
+      },
+      {
+        name: "Swirling Resentment",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        text: "Place damage counters on your opponent's Active Pokémon until its remaining HP is 50.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "123",
+    nationalPokedexNumbers: [571],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-123/small",
+      large: "https://images.scrydex.com/pokemon/me55-123/large",
+    },
+    altArts: [
+      {
+        id: "me55-123",
+        number: "123",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-123/small",
+          large: "https://images.scrydex.com/pokemon/me55-123/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-122",
+    name: "Hisuian Zorua",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Scratch",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "122",
+    nationalPokedexNumbers: [570],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-122/small",
+      large: "https://images.scrydex.com/pokemon/me55-122/large",
+    },
+    altArts: [
+      {
+        id: "me55-122",
+        number: "122",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-122/small",
+          large: "https://images.scrydex.com/pokemon/me55-122/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-145",
+        number: "145",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-145/small",
+          large: "https://images.scrydex.com/pokemon/me55-145/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me2pt5-102",
     name: "Hitmontop",
     supertype: "Pokémon",
@@ -37170,6 +39340,54 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+      },
+    ],
+  },
+  {
+    id: "me55-12",
+    name: "Ho-Oh",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Sacred Breath",
+        cost: ["Fire", "Fire"],
+        convertedEnergyCost: 2,
+        text: "Discard all Energy from this Pokémon. Heal all damage from 1 of your Benched Pokémon.",
+      },
+      {
+        name: "Fire Wing",
+        cost: ["Fire", "Fire", "Fire"],
+        convertedEnergyCost: 3,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "12",
+    nationalPokedexNumbers: [250],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-12/small",
+      large: "https://images.scrydex.com/pokemon/me55-12/large",
+    },
+    altArts: [
+      {
+        id: "me55-12",
+        number: "12",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-12/small",
+          large: "https://images.scrydex.com/pokemon/me55-12/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -39020,6 +41238,55 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-99",
+    name: "Hydreigon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Darkness"],
+    evolvesFrom: "Zweilous",
+    attacks: [
+      {
+        name: "Three-Headed Bite",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        text: "Flip 3 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Pitch-Black Fangs",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "140",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "99",
+    nationalPokedexNumbers: [635],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-99/small",
+      large: "https://images.scrydex.com/pokemon/me55-99/large",
+    },
+    altArts: [
+      {
+        id: "me55-99",
+        number: "99",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-99/small",
+          large: "https://images.scrydex.com/pokemon/me55-99/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "rsv10pt5-67",
     name: "Hydreigon ex",
     supertype: "Pokémon",
@@ -39224,6 +41491,96 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv6pt5/17.png",
           large: "https://images.pokemontcg.io/sv6pt5/17_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-120",
+    name: "Igglybuff",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "30",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Bouncy Circle",
+        cost: [],
+        convertedEnergyCost: 0,
+        damage: "30×",
+        text: "This attack does 30 damage for each of your Benched Pokémon that has a maximum HP of 30.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    number: "120",
+    nationalPokedexNumbers: [174],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-120/small",
+      large: "https://images.scrydex.com/pokemon/me55-120/large",
+    },
+    altArts: [
+      {
+        id: "me55-120",
+        number: "120",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-120/small",
+          large: "https://images.scrydex.com/pokemon/me55-120/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-4",
+    name: "Illumise",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Grass"],
+    abilities: [
+      {
+        name: "Supereffective Pheromones",
+        text: "If you have Volbeat in play, apply Weakness for both Active Pokémon as x3",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "4",
+    nationalPokedexNumbers: [314],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-4/small",
+      large: "https://images.scrydex.com/pokemon/me55-4/large",
+    },
+    altArts: [
+      {
+        id: "me55-4",
+        number: "4",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-4/small",
+          large: "https://images.scrydex.com/pokemon/me55-4/large",
         },
         flavorText: "",
       },
@@ -41410,6 +43767,48 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-110",
+    name: "Jangmo-o",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Dragon"],
+    attacks: [
+      {
+        name: "Screech",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "During your next turn, the Defending Pokémon takes 30 more damage from attacks (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Dragon Claw",
+        cost: ["Lightning", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "40",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "110",
+    nationalPokedexNumbers: [782],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-110/small",
+      large: "https://images.scrydex.com/pokemon/me55-110/large",
+    },
+    altArts: [
+      {
+        id: "me55-110",
+        number: "110",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-110/small",
+          large: "https://images.scrydex.com/pokemon/me55-110/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "rsv10pt5-45",
     name: "Jellicent ex",
     supertype: "Pokémon",
@@ -41600,6 +43999,73 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv7/98.png",
           large: "https://images.pokemontcg.io/sv7/98_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-102",
+    name: "Jirachi ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "160",
+    types: ["Metal"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Wish Granter",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Draw cards until you have 7 cards in your hand.",
+      },
+      {
+        name: "Swift",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-20",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "102",
+    nationalPokedexNumbers: [385],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-102/small",
+      large: "https://images.scrydex.com/pokemon/me55-102/large",
+    },
+    altArts: [
+      {
+        id: "me55-102",
+        number: "102",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-102/small",
+          large: "https://images.scrydex.com/pokemon/me55-102/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-155",
+        number: "155",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-155/small",
+          large: "https://images.scrydex.com/pokemon/me55-155/large",
         },
         flavorText: "",
       },
@@ -42195,6 +44661,55 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+      },
+    ],
+  },
+  {
+    id: "me55-114",
+    name: "Kangaskhan",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Rage",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20+",
+        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
+      },
+      {
+        name: "Mega Punch",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "114",
+    nationalPokedexNumbers: [115],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-114/small",
+      large: "https://images.scrydex.com/pokemon/me55-114/large",
+    },
+    altArts: [
+      {
+        id: "me55-114",
+        number: "114",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-114/small",
+          large: "https://images.scrydex.com/pokemon/me55-114/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -43812,6 +46327,52 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-112",
+    name: "Kommo-o",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "180",
+    types: ["Dragon"],
+    evolvesFrom: "Hakamo-o",
+    attacks: [
+      {
+        name: "Blazing Uppercut",
+        cost: ["Lightning", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "250",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "112",
+    nationalPokedexNumbers: [784],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-112/small",
+      large: "https://images.scrydex.com/pokemon/me55-112/large",
+    },
+    altArts: [
+      {
+        id: "me55-112",
+        number: "112",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-112/small",
+          large: "https://images.scrydex.com/pokemon/me55-112/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-143",
+        number: "143",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-143/small",
+          large: "https://images.scrydex.com/pokemon/me55-143/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me5-47",
     name: "Koraidon",
     supertype: "Pokémon",
@@ -43861,6 +46422,55 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me5-47/small",
           large: "https://images.scrydex.com/pokemon/me5-47/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-86",
+    name: "Koraidon",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fighting"],
+    attacks: [
+      {
+        name: "Low Kick",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+      {
+        name: "Collision Course",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "Discard 2 Fighting Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "86",
+    nationalPokedexNumbers: [1007],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-86/small",
+      large: "https://images.scrydex.com/pokemon/me55-86/large",
+    },
+    altArts: [
+      {
+        id: "me55-86",
+        number: "86",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-86/small",
+          large: "https://images.scrydex.com/pokemon/me55-86/large",
         },
         flavorText: "",
       },
@@ -44550,6 +47160,49 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-19",
+    name: "Kyogre",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "140",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Hydro Pump",
+        cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "60+",
+        text: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "19",
+    nationalPokedexNumbers: [382],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-19/small",
+      large: "https://images.scrydex.com/pokemon/me55-19/large",
+    },
+    altArts: [
+      {
+        id: "me55-19",
+        number: "19",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-19/small",
+          large: "https://images.scrydex.com/pokemon/me55-19/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-47",
     name: "Kyurem",
     supertype: "Pokémon",
@@ -45160,6 +47813,64 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv7/49.png",
           large: "https://images.pokemontcg.io/sv7/49_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-17",
+    name: "Lapras",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Ferry Across",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Ice Beam",
+        cost: ["Water", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "17",
+    nationalPokedexNumbers: [131],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-17/small",
+      large: "https://images.scrydex.com/pokemon/me55-17/large",
+    },
+    altArts: [
+      {
+        id: "me55-17",
+        number: "17",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-17/small",
+          large: "https://images.scrydex.com/pokemon/me55-17/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-131",
+        number: "131",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-131/small",
+          large: "https://images.scrydex.com/pokemon/me55-131/large",
         },
         flavorText: "",
       },
@@ -48429,6 +51140,50 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-83",
+    name: "Lucario",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Fighting"],
+    evolvesFrom: "Riolu",
+    attacks: [
+      {
+        name: "Aura Sphere",
+        cost: ["Fighting", "Fighting", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "83",
+    nationalPokedexNumbers: [448],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-83/small",
+      large: "https://images.scrydex.com/pokemon/me55-83/large",
+    },
+    altArts: [
+      {
+        id: "me55-83",
+        number: "83",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-83/small",
+          large: "https://images.scrydex.com/pokemon/me55-83/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-82",
     name: "Lucario ex",
     supertype: "Pokémon",
@@ -48672,6 +51427,111 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-121",
+    name: "Lugia",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Elemental Blast",
+        cost: ["Fire", "Water", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "250",
+        text: "Discard a Fire Energy, a Water Energy, and a Lightning Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "121",
+    nationalPokedexNumbers: [249],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-121/small",
+      large: "https://images.scrydex.com/pokemon/me55-121/large",
+    },
+    altArts: [
+      {
+        id: "me55-121",
+        number: "121",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-121/small",
+          large: "https://images.scrydex.com/pokemon/me55-121/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-149",
+    name: "Lugia",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Colorless"],
+    abilities: [
+      {
+        name: "Crystal Type",
+        text: "Whenever you attach a Fire, Water, or Psychic basic Energy card from your hand to Lugia, Lugia's type (color) becomes the same as that Energy card type until the end of the turn.",
+        type: "Poké-BODY",
+      },
+    ],
+    attacks: [
+      {
+        name: "Psychic",
+        cost: ["Psychic", "Fire"],
+        convertedEnergyCost: 2,
+        damage: "10×",
+        text: "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
+      },
+      {
+        name: "Steam Blast",
+        cost: ["Water", "Water", "Fire", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "50",
+        text: "Discard an Energy card attached to Lugia.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "149",
+    nationalPokedexNumbers: [249],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-149/small",
+      large: "https://images.scrydex.com/pokemon/me55c-149/large",
+    },
+    altArts: [
+      {
+        id: "me55c-149",
+        number: "149",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-149/small",
+          large: "https://images.scrydex.com/pokemon/me55c-149/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-82",
     name: "Lugia ex",
     supertype: "Pokémon",
@@ -48779,6 +51639,62 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv7/36.png",
           large: "https://images.pokemontcg.io/sv7/36_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-80",
+    name: "Lunala",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Psychic"],
+    evolvesFrom: "Cosmoem",
+    attacks: [
+      {
+        name: "Midnight Ray",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "This attack does 20 more damage for each Energy card in your discard pile.",
+      },
+      {
+        name: "Lunar Blast",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "80",
+    nationalPokedexNumbers: [792],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-80/small",
+      large: "https://images.scrydex.com/pokemon/me55-80/large",
+    },
+    altArts: [
+      {
+        id: "me55-80",
+        number: "80",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-80/small",
+          large: "https://images.scrydex.com/pokemon/me55-80/large",
         },
         flavorText: "",
       },
@@ -49205,6 +52121,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-85",
+    name: "Lycanroc",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Fighting"],
+    evolvesFrom: "Rockruff",
+    attacks: [
+      {
+        name: "Counter",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+      },
+      {
+        name: "Boulder Crush",
+        cost: ["Fighting", "Fighting"],
+        convertedEnergyCost: 2,
+        damage: "80",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "85",
+    nationalPokedexNumbers: [745],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-85/small",
+      large: "https://images.scrydex.com/pokemon/me55-85/large",
+    },
+    altArts: [
+      {
+        id: "me55-85",
+        number: "85",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-85/small",
+          large: "https://images.scrydex.com/pokemon/me55-85/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-138",
+        number: "138",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-138/small",
+          large: "https://images.scrydex.com/pokemon/me55-138/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-90",
     name: "Lycanroc",
     supertype: "Pokémon",
@@ -49316,6 +52291,59 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv9/166.png",
           large: "https://images.pokemontcg.io/sv9/166_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-106m",
+    name: "M Gardevoir-EX",
+    supertype: "Pokémon",
+    subtypes: ["MEGA", "EX"],
+    hp: "210",
+    types: ["Fairy"],
+    evolvesFrom: "Gardevoir-EX",
+    rules: [
+      "When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+      "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Brilliant Arrow",
+        cost: ["Fairy", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "30×",
+        text: "This attack does 30 damage times the number of Fairy Energy attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Darkness",
+        value: "-20",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "106",
+    nationalPokedexNumbers: [282],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-106m/small",
+      large: "https://images.scrydex.com/pokemon/me55c-106m/large",
+    },
+    altArts: [
+      {
+        id: "me55c-106m",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-106m/small",
+          large: "https://images.scrydex.com/pokemon/me55c-106m/large",
         },
         flavorText: "",
       },
@@ -51201,6 +54229,48 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-67",
+    name: "Marill",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Tackle",
+        cost: ["Psychic", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "67",
+    nationalPokedexNumbers: [183],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-67/small",
+      large: "https://images.scrydex.com/pokemon/me55-67/large",
+    },
+    altArts: [
+      {
+        id: "me55-67",
+        number: "67",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-67/small",
+          large: "https://images.scrydex.com/pokemon/me55-67/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-64",
     name: "Marill",
     supertype: "Pokémon",
@@ -51998,6 +55068,64 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+      },
+    ],
+  },
+  {
+    id: "me55-125",
+    name: "Maushold",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "80",
+    types: ["Colorless"],
+    evolvesFrom: "Tandemaus",
+    attacks: [
+      {
+        name: "Gnaw Together",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Flip a coin for each Maushold you have in play. For each heads, discard the top 2 cards of your opponent's deck.",
+      },
+      {
+        name: "Pound",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "40",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "125",
+    nationalPokedexNumbers: [925],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-125/small",
+      large: "https://images.scrydex.com/pokemon/me55-125/large",
+    },
+    altArts: [
+      {
+        id: "me55-125",
+        number: "125",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-125/small",
+          large: "https://images.scrydex.com/pokemon/me55-125/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-146",
+        number: "146",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-146/small",
+          large: "https://images.scrydex.com/pokemon/me55-146/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -56775,6 +59903,58 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-113",
+    name: "Meowth",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Pay Day",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Draw a card.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "113",
+    nationalPokedexNumbers: [52],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-113/small",
+      large: "https://images.scrydex.com/pokemon/me55-113/large",
+    },
+    altArts: [
+      {
+        id: "me55-113",
+        number: "113",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-113/small",
+          large: "https://images.scrydex.com/pokemon/me55-113/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-144",
+        number: "144",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-144/small",
+          large: "https://images.scrydex.com/pokemon/me55-144/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me3-62",
     name: "Meowth ex",
     supertype: "Pokémon",
@@ -56982,6 +60162,63 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      },
+    ],
+  },
+  {
+    id: "me55c-11",
+    name: "Metagross",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "100",
+    types: ["Lightning", "Metal"],
+    evolvesFrom: "Metang",
+    rules: ["This Pokémon is both Lightning Metal type."],
+    abilities: [
+      {
+        name: "Delta Control",
+        text: "Once during your turn (before your attack), you may look at the top 4 cards of your deck, choose 1 of them, and put it into your hand. Put the 3 other cards on the bottom of your deck in any order. This power can't be used if Metagross is affected by a Special Condition.",
+        type: "Poké-POWER",
+      },
+    ],
+    attacks: [
+      {
+        name: "Crush and Burn",
+        cost: ["Lightning", "Metal"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "You may discard as many Energy cards as you like attached to your Pokémon in play. If you do, this attack does 30 damage plus 20 more damage for each Energy card you discarded.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "11",
+    nationalPokedexNumbers: [376],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-11/small",
+      large: "https://images.scrydex.com/pokemon/me55c-11/large",
+    },
+    altArts: [
+      {
+        id: "me55c-11",
+        number: "11",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-11/small",
+          large: "https://images.scrydex.com/pokemon/me55c-11/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -57442,6 +60679,269 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-65",
+    name: "Mew",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Psychic",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "10+",
+        text: "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "65",
+    nationalPokedexNumbers: [151],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-65/small",
+      large: "https://images.scrydex.com/pokemon/me55-65/large",
+    },
+    altArts: [
+      {
+        id: "me55-65",
+        number: "65",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-65/small",
+          large: "https://images.scrydex.com/pokemon/me55-65/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-R",
+        number: "R",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-R/small",
+          large: "https://images.scrydex.com/pokemon/me55-R/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-G",
+        number: "G",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-G/small",
+          large: "https://images.scrydex.com/pokemon/me55-G/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-B",
+        number: "B",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-B/small",
+          large: "https://images.scrydex.com/pokemon/me55-B/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-114",
+    name: "Mew VMAX",
+    supertype: "Pokémon",
+    subtypes: ["VMAX"],
+    hp: "310",
+    types: ["Psychic"],
+    evolvesFrom: "Mew V",
+    rules: [
+      "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Cross Fusion Strike",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "Choose 1 of your Benched Fusion Strike Pokémon's attacks and use it as this attack.",
+      },
+      {
+        name: "Max Miracle",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "130",
+        text: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "114",
+    nationalPokedexNumbers: [151],
+    regulationMark: "E",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-114/small",
+      large: "https://images.scrydex.com/pokemon/me55c-114/large",
+    },
+    altArts: [
+      {
+        id: "me55c-114",
+        number: "114",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-114/small",
+          large: "https://images.scrydex.com/pokemon/me55c-114/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-66",
+    name: "Mew ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "160",
+    types: ["Psychic"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Memory Helix",
+        text: "This Pokémon can use the attacks of any of your Benched Pokémon. (You still need the necessary Energy to use each attack.)",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Teleportation Burst",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    number: "66",
+    nationalPokedexNumbers: [151],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-66/small",
+      large: "https://images.scrydex.com/pokemon/me55-66/large",
+    },
+    altArts: [
+      {
+        id: "me55-66",
+        number: "66",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-66/small",
+          large: "https://images.scrydex.com/pokemon/me55-66/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-152",
+        number: "152",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-152/small",
+          large: "https://images.scrydex.com/pokemon/me55-152/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-158",
+        number: "158",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-158/small",
+          large: "https://images.scrydex.com/pokemon/me55-158/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-63",
+    name: "Mewtwo",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Empower",
+        cost: ["Psychic"],
+        convertedEnergyCost: 1,
+        text: "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Pokémon.",
+      },
+      {
+        name: "Psydrive",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "Discard an Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "63",
+    nationalPokedexNumbers: [150],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-63/small",
+      large: "https://images.scrydex.com/pokemon/me55-63/large",
+    },
+    altArts: [
+      {
+        id: "me55-63",
+        number: "63",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-63/small",
+          large: "https://images.scrydex.com/pokemon/me55-63/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-59",
     name: "Mewtwo",
     supertype: "Pokémon",
@@ -57490,6 +60990,82 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv7/59.png",
           large: "https://images.pokemontcg.io/sv7/59_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-64",
+    name: "Mewtwo ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "230",
+    types: ["Psychic"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Photon Bullets",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        text: "This attack does 50 damage to each of your opponent's Pokémon ex. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+      {
+        name: "Psychic Powers",
+        cost: ["Psychic", "Psychic", "Psychic"],
+        convertedEnergyCost: 3,
+        damage: "230",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "64",
+    nationalPokedexNumbers: [150],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-64/small",
+      large: "https://images.scrydex.com/pokemon/me55-64/large",
+    },
+    altArts: [
+      {
+        id: "me55-64",
+        number: "64",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-64/small",
+          large: "https://images.scrydex.com/pokemon/me55-64/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-151",
+        number: "151",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-151/small",
+          large: "https://images.scrydex.com/pokemon/me55-151/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-157",
+        number: "157",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-157/small",
+          large: "https://images.scrydex.com/pokemon/me55-157/large",
         },
         flavorText: "",
       },
@@ -58621,6 +62197,54 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-124",
+    name: "Minior",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "90",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Shoot Meteors",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        text: "Discard all Energy from this Pokémon, and this attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "124",
+    nationalPokedexNumbers: [774],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-124/small",
+      large: "https://images.scrydex.com/pokemon/me55-124/large",
+    },
+    altArts: [
+      {
+        id: "me55-124",
+        number: "124",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-124/small",
+          large: "https://images.scrydex.com/pokemon/me55-124/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me5-28",
     name: "Miraidon",
     supertype: "Pokémon",
@@ -58675,6 +62299,55 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+      },
+    ],
+  },
+  {
+    id: "me55-62",
+    name: "Miraidon",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Mach Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "20",
+      },
+      {
+        name: "Electro Drift",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "140",
+        text: "Discard 2 Lightning Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "62",
+    nationalPokedexNumbers: [1008],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-62/small",
+      large: "https://images.scrydex.com/pokemon/me55-62/large",
+    },
+    altArts: [
+      {
+        id: "me55-62",
+        number: "62",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-62/small",
+          large: "https://images.scrydex.com/pokemon/me55-62/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -59651,6 +63324,65 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-11",
+    name: "Moltres",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Fire"],
+    abilities: [
+      {
+        name: "Fiery Flapping",
+        text: "Once during your turn, if you have Articuno and Zapdos in play, you may use this Ability. Attach a Basic Fire Energy card from your hand to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Fire Spin",
+        cost: ["Fire", "Fire", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "Discard 2 Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "11",
+    nationalPokedexNumbers: [146],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-11/small",
+      large: "https://images.scrydex.com/pokemon/me55-11/large",
+    },
+    altArts: [
+      {
+        id: "me55-11",
+        number: "11",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-11/small",
+          large: "https://images.scrydex.com/pokemon/me55-11/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-130",
+        number: "130",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-130/small",
+          large: "https://images.scrydex.com/pokemon/me55-130/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6-32",
     name: "Monferno",
     supertype: "Pokémon",
@@ -59868,6 +63600,63 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv9/72.png",
           large: "https://images.pokemontcg.io/sv9/72_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-61",
+    name: "Morpeko",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Select a Snack",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Discard the top 3 cards of your deck and put 1 of them into your hand.",
+      },
+      {
+        name: "Slap",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "61",
+    nationalPokedexNumbers: [877],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-61/small",
+      large: "https://images.scrydex.com/pokemon/me55-61/large",
+    },
+    altArts: [
+      {
+        id: "me55-61",
+        number: "61",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-61/small",
+          large: "https://images.scrydex.com/pokemon/me55-61/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-135",
+        number: "135",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-135/small",
+          large: "https://images.scrydex.com/pokemon/me55-135/large",
         },
         flavorText: "",
       },
@@ -60766,6 +64555,55 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      },
+    ],
+  },
+  {
+    id: "me55-93",
+    name: "Murkrow",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Clumsily Clutch",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't retreat.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "93",
+    nationalPokedexNumbers: [198],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-93/small",
+      large: "https://images.scrydex.com/pokemon/me55-93/large",
+    },
+    altArts: [
+      {
+        id: "me55-93",
+        number: "93",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-93/small",
+          large: "https://images.scrydex.com/pokemon/me55-93/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -61982,6 +65820,104 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-87",
+    name: "Nidoran ♀",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Growl",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "During your opponent's next turn, attacks used by the Defending Pokémon do 30 less damage (before applying Weakness and Resistance).",
+      },
+      {
+        name: "Headbutt",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "87",
+    nationalPokedexNumbers: [29],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-87/small",
+      large: "https://images.scrydex.com/pokemon/me55-87/large",
+    },
+    altArts: [
+      {
+        id: "me55-87",
+        number: "87",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-87/small",
+          large: "https://images.scrydex.com/pokemon/me55-87/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-88",
+    name: "Nidorina",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "90",
+    types: ["Darkness"],
+    evolvesFrom: "Nidoran ♀",
+    abilities: [
+      {
+        name: "Share Happiness",
+        text: "Once during your turn, you may use this Ability. Heal 30 damage from 1 of your Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "88",
+    nationalPokedexNumbers: [30],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-88/small",
+      large: "https://images.scrydex.com/pokemon/me55-88/large",
+    },
+    altArts: [
+      {
+        id: "me55-88",
+        number: "88",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-88/small",
+          large: "https://images.scrydex.com/pokemon/me55-88/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me1-16",
     name: "Nincada",
     supertype: "Pokémon",
@@ -62142,6 +66078,49 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+      },
+    ],
+  },
+  {
+    id: "me55-10",
+    name: "Ninetales",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Fire"],
+    evolvesFrom: "Vulpix",
+    attacks: [
+      {
+        name: "Flame Tail",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "60",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "10",
+    nationalPokedexNumbers: [38],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-10/small",
+      large: "https://images.scrydex.com/pokemon/me55-10/large",
+    },
+    altArts: [
+      {
+        id: "me55-10",
+        number: "10",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-10/small",
+          large: "https://images.scrydex.com/pokemon/me55-10/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -64982,6 +68961,49 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-20",
+    name: "Palkia",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Wormhole",
+        cost: ["Water", "Water", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "Switch this Pokémon with 1 of your Benched Pokémon. If you do, switch out your oppoennt's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "20",
+    nationalPokedexNumbers: [484],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-20/small",
+      large: "https://images.scrydex.com/pokemon/me55-20/large",
+    },
+    altArts: [
+      {
+        id: "me55-20",
+        number: "20",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-20/small",
+          large: "https://images.scrydex.com/pokemon/me55-20/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-136",
     name: "Palkia",
     supertype: "Pokémon",
@@ -65018,6 +69040,59 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/136.png",
           large: "https://images.pokemontcg.io/sv8/136_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-106p",
+    name: "Palkia LV.X",
+    supertype: "Pokémon",
+    subtypes: ["LEVEL-UP"],
+    hp: "120",
+    types: ["Water"],
+    evolvesFrom: "Palkia",
+    rules: [
+      "Put this card onto your Active Palkia. Palkia LV.X can use any attack, Poké-Power, or Poké-Body from its previous level.",
+    ],
+    abilities: [
+      {
+        name: "Restructure",
+        text: "Once during your turn (before your attack), you may have your opponent switch 1 of your Active Pokémon with 1 of your Benched Pokémon. Then, you switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. This power can't be used if Palkia is affected by a Special Condition.",
+        type: "Poké-POWER",
+      },
+    ],
+    attacks: [
+      {
+        name: "Hydro Reflect",
+        cost: ["Water", "Water", "Water"],
+        convertedEnergyCost: 3,
+        damage: "60",
+        text: "You may move all Energy cards attached to Palkia to your Benched Pokémon in any way you like. (Ignore this effect if you don't have any Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "106",
+    nationalPokedexNumbers: [484],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-106p/small",
+      large: "https://images.scrydex.com/pokemon/me55c-106p/large",
+    },
+    altArts: [
+      {
+        id: "me55c-106p",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-106p/small",
+          large: "https://images.scrydex.com/pokemon/me55c-106p/large",
         },
         flavorText: "",
       },
@@ -67567,6 +71642,1367 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-23",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Thunder Shock",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "23",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-23/small",
+      large: "https://images.scrydex.com/pokemon/me55-23/large",
+    },
+    altArts: [
+      {
+        id: "me55-23",
+        number: "23",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-23/small",
+          large: "https://images.scrydex.com/pokemon/me55-23/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-24",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Volt Tackle",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "24",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-24/small",
+      large: "https://images.scrydex.com/pokemon/me55-24/large",
+    },
+    altArts: [
+      {
+        id: "me55-24",
+        number: "24",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-24/small",
+          large: "https://images.scrydex.com/pokemon/me55-24/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-25",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Spark",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+        text: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "25",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-25/small",
+      large: "https://images.scrydex.com/pokemon/me55-25/large",
+    },
+    altArts: [
+      {
+        id: "me55-25",
+        number: "25",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-25/small",
+          large: "https://images.scrydex.com/pokemon/me55-25/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-26",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Peer At",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Your opponent reveals their hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "26",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-26/small",
+      large: "https://images.scrydex.com/pokemon/me55-26/large",
+    },
+    altArts: [
+      {
+        id: "me55-26",
+        number: "26",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-26/small",
+          large: "https://images.scrydex.com/pokemon/me55-26/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-27",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Nap",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Heal 30 damage from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "27",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-27/small",
+      large: "https://images.scrydex.com/pokemon/me55-27/large",
+    },
+    altArts: [
+      {
+        id: "me55-27",
+        number: "27",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-27/small",
+          large: "https://images.scrydex.com/pokemon/me55-27/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-28",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    abilities: [
+      {
+        name: "Lonely Gaze",
+        text: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 20 less damage (before applying Weakness and Resistance).",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Pika Ball",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "28",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-28/small",
+      large: "https://images.scrydex.com/pokemon/me55-28/large",
+    },
+    altArts: [
+      {
+        id: "me55-28",
+        number: "28",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-28/small",
+          large: "https://images.scrydex.com/pokemon/me55-28/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-29",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Find a Friend",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "29",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-29/small",
+      large: "https://images.scrydex.com/pokemon/me55-29/large",
+    },
+    altArts: [
+      {
+        id: "me55-29",
+        number: "29",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-29/small",
+          large: "https://images.scrydex.com/pokemon/me55-29/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-30",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Mach Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "30",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-30/small",
+      large: "https://images.scrydex.com/pokemon/me55-30/large",
+    },
+    altArts: [
+      {
+        id: "me55-30",
+        number: "30",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-30/small",
+          large: "https://images.scrydex.com/pokemon/me55-30/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-31",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Gnaw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    number: "31",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-31/small",
+      large: "https://images.scrydex.com/pokemon/me55-31/large",
+    },
+    altArts: [
+      {
+        id: "me55-31",
+        number: "31",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-31/small",
+          large: "https://images.scrydex.com/pokemon/me55-31/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-32",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Scurry About",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Switch this Pokémon with 1 of your Benched Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "32",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-32/small",
+      large: "https://images.scrydex.com/pokemon/me55-32/large",
+    },
+    altArts: [
+      {
+        id: "me55-32",
+        number: "32",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-32/small",
+          large: "https://images.scrydex.com/pokemon/me55-32/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-33",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    abilities: [
+      {
+        name: "Keep Hidden",
+        text: "As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent's Pokémon done to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Tiny Charge",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "33",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-33/small",
+      large: "https://images.scrydex.com/pokemon/me55-33/large",
+    },
+    altArts: [
+      {
+        id: "me55-33",
+        number: "33",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-33/small",
+          large: "https://images.scrydex.com/pokemon/me55-33/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-34",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Pika Chain",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "40×",
+        text: "This attack does 40 damage for each of your Pikachu and Pikachu ex in play.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "34",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-34/small",
+      large: "https://images.scrydex.com/pokemon/me55-34/large",
+    },
+    altArts: [
+      {
+        id: "me55-34",
+        number: "34",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-34/small",
+          large: "https://images.scrydex.com/pokemon/me55-34/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-35",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Rollout",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "35",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-35/small",
+      large: "https://images.scrydex.com/pokemon/me55-35/large",
+    },
+    altArts: [
+      {
+        id: "me55-35",
+        number: "35",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-35/small",
+          large: "https://images.scrydex.com/pokemon/me55-35/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-36",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Slight Intrusion",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "This Pokémon also does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "36",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-36/small",
+      large: "https://images.scrydex.com/pokemon/me55-36/large",
+    },
+    altArts: [
+      {
+        id: "me55-36",
+        number: "36",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-36/small",
+          large: "https://images.scrydex.com/pokemon/me55-36/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-37",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Energized Tail",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Pika Punch",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "37",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-37/small",
+      large: "https://images.scrydex.com/pokemon/me55-37/large",
+    },
+    altArts: [
+      {
+        id: "me55-37",
+        number: "37",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-37/small",
+          large: "https://images.scrydex.com/pokemon/me55-37/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-38",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Targeted Spark",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        text: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "38",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-38/small",
+      large: "https://images.scrydex.com/pokemon/me55-38/large",
+    },
+    altArts: [
+      {
+        id: "me55-38",
+        number: "38",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-38/small",
+          large: "https://images.scrydex.com/pokemon/me55-38/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-39",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Iron Tail",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20×",
+        text: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "39",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-39/small",
+      large: "https://images.scrydex.com/pokemon/me55-39/large",
+    },
+    altArts: [
+      {
+        id: "me55-39",
+        number: "39",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-39/small",
+          large: "https://images.scrydex.com/pokemon/me55-39/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-40",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Overwriting Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "The Defending Pokémon's Weakness is now Lightning until the end of your next turn. (Apply Weakness as x2.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "40",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-40/small",
+      large: "https://images.scrydex.com/pokemon/me55-40/large",
+    },
+    altArts: [
+      {
+        id: "me55-40",
+        number: "40",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-40/small",
+          large: "https://images.scrydex.com/pokemon/me55-40/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-41",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Hang Down",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+      {
+        name: "Zap Kick",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "40",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "41",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-41/small",
+      large: "https://images.scrydex.com/pokemon/me55-41/large",
+    },
+    altArts: [
+      {
+        id: "me55-41",
+        number: "41",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-41/small",
+          large: "https://images.scrydex.com/pokemon/me55-41/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-42",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Charge-Up Dash",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Flip a coin until you get tails. Search your deck for an amount of Basic Lightning Energy up to the number of heads and attach it to this Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Pika Bolt",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "42",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-42/small",
+      large: "https://images.scrydex.com/pokemon/me55-42/large",
+    },
+    altArts: [
+      {
+        id: "me55-42",
+        number: "42",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-42/small",
+          large: "https://images.scrydex.com/pokemon/me55-42/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-43",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Tropical Vibes",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        text: "This Pokémon is now Asleep. Draw cards until you have 6 cards in your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "43",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-43/small",
+      large: "https://images.scrydex.com/pokemon/me55-43/large",
+    },
+    altArts: [
+      {
+        id: "me55-43",
+        number: "43",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-43/small",
+          large: "https://images.scrydex.com/pokemon/me55-43/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-44",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Agility",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "44",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-44/small",
+      large: "https://images.scrydex.com/pokemon/me55-44/large",
+    },
+    altArts: [
+      {
+        id: "me55-44",
+        number: "44",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-44/small",
+          large: "https://images.scrydex.com/pokemon/me55-44/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-45",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Nightime Stroll",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Draw a card.",
+      },
+      {
+        name: "Static Shock",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "45",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-45/small",
+      large: "https://images.scrydex.com/pokemon/me55-45/large",
+    },
+    altArts: [
+      {
+        id: "me55-45",
+        number: "45",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-45/small",
+          large: "https://images.scrydex.com/pokemon/me55-45/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-46",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Get Some Air",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "This Pokémon recovers from all Special Conditions.",
+      },
+      {
+        name: "Smash Kick",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "46",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-46/small",
+      large: "https://images.scrydex.com/pokemon/me55-46/large",
+    },
+    altArts: [
+      {
+        id: "me55-46",
+        number: "46",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-46/small",
+          large: "https://images.scrydex.com/pokemon/me55-46/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-47",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Play Rough",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "Flip a coin. If heads, this attack does 20 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "47",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-47/small",
+      large: "https://images.scrydex.com/pokemon/me55-47/large",
+    },
+    altArts: [
+      {
+        id: "me55-47",
+        number: "47",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-47/small",
+          large: "https://images.scrydex.com/pokemon/me55-47/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-48",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Store Up",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Put up to 2 Basic Energy cards from your discard pile into your hand.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "48",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-48/small",
+      large: "https://images.scrydex.com/pokemon/me55-48/large",
+    },
+    altArts: [
+      {
+        id: "me55-48",
+        number: "48",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-48/small",
+          large: "https://images.scrydex.com/pokemon/me55-48/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-49",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Fighting Lightning",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "20+",
+        text: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "49",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-49/small",
+      large: "https://images.scrydex.com/pokemon/me55-49/large",
+    },
+    altArts: [
+      {
+        id: "me55-49",
+        number: "49",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-49/small",
+          large: "https://images.scrydex.com/pokemon/me55-49/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-50",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Satisfied Spark",
+        cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "50",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-50/small",
+      large: "https://images.scrydex.com/pokemon/me55-50/large",
+    },
+    altArts: [
+      {
+        id: "me55-50",
+        number: "50",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-50/small",
+          large: "https://images.scrydex.com/pokemon/me55-50/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-51",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Lightning Crash",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        text: "Discard all Lightning Energy from this Pokémon, and this attack does 90 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "51",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-51/small",
+      large: "https://images.scrydex.com/pokemon/me55-51/large",
+    },
+    altArts: [
+      {
+        id: "me55-51",
+        number: "51",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-51/small",
+          large: "https://images.scrydex.com/pokemon/me55-51/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-52",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Angry Bolt",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "10+",
+        text: "This attack does 10 more damage for each damage counter on this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "52",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-52/small",
+      large: "https://images.scrydex.com/pokemon/me55-52/large",
+    },
+    altArts: [
+      {
+        id: "me55-52",
+        number: "52",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-52/small",
+          large: "https://images.scrydex.com/pokemon/me55-52/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-58",
+    name: "Pikachu",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "40",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Gnaw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+      {
+        name: "Thunder Jolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+        text: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "58",
+    nationalPokedexNumbers: [25],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-58/small",
+      large: "https://images.scrydex.com/pokemon/me55c-58/large",
+    },
+    altArts: [
+      {
+        id: "me55c-58",
+        number: "58",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-58/small",
+          large: "https://images.scrydex.com/pokemon/me55c-58/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-51",
     name: "Pikachu",
     supertype: "Pokémon",
@@ -67615,6 +73051,64 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+      },
+    ],
+  },
+  {
+    id: "me55c-33",
+    name: "Pikachu & Zekrom-GX",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "GX", "TAG TEAM"],
+    hp: "240",
+    types: ["Lightning"],
+    rules: [
+      "When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Full Blitz",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "Search your deck for up to 3 Lightning Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+      },
+      {
+        name: "Tag Bolt-GX",
+        cost: ["Lightning", "Lightning", "Lightning"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "If this Pokémon has at least 3 extra Lightning Energy attached to it (in addition to this attack's cost), this attack does 170 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Metal",
+        value: "-20",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "33",
+    nationalPokedexNumbers: [25],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-33/small",
+      large: "https://images.scrydex.com/pokemon/me55c-33/large",
+    },
+    altArts: [
+      {
+        id: "me55c-33",
+        number: "33",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-33/small",
+          large: "https://images.scrydex.com/pokemon/me55c-33/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -67786,6 +73280,128 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/svp/106.png",
           large: "https://images.pokemontcg.io/svp/106_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-53",
+    name: "Pikachu ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "190",
+    types: ["Lightning"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Pika-Pika Parade",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "Thunderbolt",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "53",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-53/small",
+      large: "https://images.scrydex.com/pokemon/me55-53/large",
+    },
+    altArts: [
+      {
+        id: "me55-53",
+        number: "53",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-53/small",
+          large: "https://images.scrydex.com/pokemon/me55-53/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-149",
+        number: "149",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-149/small",
+          large: "https://images.scrydex.com/pokemon/me55-149/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-54",
+    name: "Pikachu ex",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "ex"],
+    hp: "190",
+    types: ["Lightning"],
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Zip-Zap Frenzy",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        text: "You may attach any number of Basic Energy cards from your hand to your Pokémon in any way you like.",
+      },
+      {
+        name: "Thunder",
+        cost: ["Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "200",
+        text: "This Pokémon also does 30 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "54",
+    nationalPokedexNumbers: [25],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-54/small",
+      large: "https://images.scrydex.com/pokemon/me55-54/large",
+    },
+    altArts: [
+      {
+        id: "me55-54",
+        number: "54",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-54/small",
+          large: "https://images.scrydex.com/pokemon/me55-54/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-150",
+        number: "150",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-150/small",
+          large: "https://images.scrydex.com/pokemon/me55-150/large",
         },
         flavorText: "",
       },
@@ -70870,6 +76486,49 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-50",
+    name: "Raikou",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Amazing Shot",
+        cost: ["Grass", "Lightning", "Metal"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "This attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "50",
+    nationalPokedexNumbers: [243],
+    regulationMark: "D",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-50/small",
+      large: "https://images.scrydex.com/pokemon/me55c-50/large",
+    },
+    altArts: [
+      {
+        id: "me55c-50",
+        number: "50",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-50/small",
+          large: "https://images.scrydex.com/pokemon/me55c-50/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me1-58",
     name: "Ralts",
     supertype: "Pokémon",
@@ -71342,6 +77001,57 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+      },
+    ],
+  },
+  {
+    id: "me55c-85",
+    name: "Rayquaza-EX",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "EX"],
+    hp: "170",
+    types: ["Dragon"],
+    rules: [
+      "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Celestial Roar",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon.",
+      },
+      {
+        name: "Dragon Burst",
+        cost: ["Fire", "Lightning"],
+        convertedEnergyCost: 2,
+        damage: "60×",
+        text: "Discard all basic Fire Energy or all basic Lightning Energy attached to this Pokémon. This attack does 60 damage times the number of Energy cards you discarded.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Dragon",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "85",
+    nationalPokedexNumbers: [384],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-85/small",
+      large: "https://images.scrydex.com/pokemon/me55c-85/large",
+    },
+    altArts: [
+      {
+        id: "me55c-85",
+        number: "85",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-85/small",
+          large: "https://images.scrydex.com/pokemon/me55c-85/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -72151,6 +77861,55 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+      },
+    ],
+  },
+  {
+    id: "me55-14",
+    name: "Reshiram",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Slash",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+      {
+        name: "Laser Flame",
+        cost: ["Fire", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If this Pokémon has any Lightning Energy attached, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "14",
+    nationalPokedexNumbers: [643],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-14/small",
+      large: "https://images.scrydex.com/pokemon/me55-14/large",
+    },
+    altArts: [
+      {
+        id: "me55-14",
+        number: "14",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-14/small",
+          large: "https://images.scrydex.com/pokemon/me55-14/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -74186,6 +79945,62 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-109",
+    name: "Salamence ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "ex"],
+    hp: "330",
+    types: ["Dragon"],
+    evolvesFrom: "Shelgon",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Booming Call",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Put up to 3 Dragon Pokémon from your discard pile onto your Bench.",
+      },
+      {
+        name: "Dragon Pulse",
+        cost: ["Fire", "Water"],
+        convertedEnergyCost: 2,
+        damage: "240",
+        text: "Discard the top 2 cards of your deck.",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "109",
+    nationalPokedexNumbers: [373],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-109/small",
+      large: "https://images.scrydex.com/pokemon/me55-109/large",
+    },
+    altArts: [
+      {
+        id: "me55-109",
+        number: "109",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-109/small",
+          large: "https://images.scrydex.com/pokemon/me55-109/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-156",
+        number: "156",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-156/small",
+          large: "https://images.scrydex.com/pokemon/me55-156/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv9-114",
     name: "Salamence ex",
     supertype: "Pokémon",
@@ -75412,6 +81227,72 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-108",
+    name: "Scizor ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "120",
+    types: ["Metal"],
+    evolvesFrom: "Scyther",
+    rules: [
+      "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Danger Perception",
+        text: "As long as Scizor ex's remaining HP is 60 or less, Scizor ex does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+        type: "Poké-BODY",
+      },
+    ],
+    attacks: [
+      {
+        name: "Steel Wing",
+        cost: ["Metal", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "During your opponent's next turn, any damage done to Scizor ex by attacks is reduced by 20 (after applying Weakness and Resistance).",
+      },
+      {
+        name: "Cross-Cut",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50+",
+        text: "If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage plus 30 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "108",
+    nationalPokedexNumbers: [212],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-108/small",
+      large: "https://images.scrydex.com/pokemon/me55c-108/large",
+    },
+    altArts: [
+      {
+        id: "me55c-108",
+        number: "108",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-108/small",
+          large: "https://images.scrydex.com/pokemon/me55c-108/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-111",
     name: "Scizor ex",
     supertype: "Pokémon",
@@ -76038,6 +81919,63 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+      },
+    ],
+  },
+  {
+    id: "me55-94",
+    name: "Scraggy",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Nitpick",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        text: "Your opponent shuffles their hand into their deck and draws 4 cards.",
+      },
+      {
+        name: "Corkscrew Punch",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "94",
+    nationalPokedexNumbers: [559],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-94/small",
+      large: "https://images.scrydex.com/pokemon/me55-94/large",
+    },
+    altArts: [
+      {
+        id: "me55-94",
+        number: "94",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-94/small",
+          large: "https://images.scrydex.com/pokemon/me55-94/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-140",
+        number: "140",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-140/small",
+          large: "https://images.scrydex.com/pokemon/me55-140/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -76806,6 +82744,56 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+      },
+    ],
+  },
+  {
+    id: "me55-84",
+    name: "Seismitoad",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "160",
+    types: ["Fighting"],
+    evolvesFrom: "Palpitoad",
+    attacks: [
+      {
+        name: "Quaking Fist",
+        cost: ["Fighting"],
+        convertedEnergyCost: 1,
+        damage: "60",
+        text: "During your opponent's next turn, whenever they try to use a Trainer card from their hand, they flip a coin. If tails, your opponent discards that Trainer card instead of using it.",
+      },
+      {
+        name: "Mega Punch",
+        cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "180",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "84",
+    nationalPokedexNumbers: [537],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-84/small",
+      large: "https://images.scrydex.com/pokemon/me55-84/large",
+    },
+    altArts: [
+      {
+        id: "me55-84",
+        number: "84",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-84/small",
+          large: "https://images.scrydex.com/pokemon/me55-84/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -78046,6 +84034,55 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/194.png",
           large: "https://images.pokemontcg.io/sv8/194_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-106",
+    name: "Shining Celebi",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Grass"],
+    rules: ["You can't have more than 1 Shining Celebi in your deck."],
+    attacks: [
+      {
+        name: "Healing Water",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        text: "Remove a number of damage counters from 1 of your Benched Pokémon equal to the number of Water Energy cards attached to Shining Celebi. If the Pokémon has fewer damage counters than that, remove all of them.",
+      },
+      {
+        name: "Miracle Leaf",
+        cost: ["Grass", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "10",
+        text: "Flip a number of coins equal to the number of Energy attached to the Defending Pokémon. If you get 1 or more heads, the Defending Pokémon is now Asleep, Confused, or Poisoned (your choice).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "106",
+    nationalPokedexNumbers: [251],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-106/small",
+      large: "https://images.scrydex.com/pokemon/me55c-106/large",
+    },
+    altArts: [
+      {
+        id: "me55c-106",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-106/small",
+          large: "https://images.scrydex.com/pokemon/me55c-106/large",
         },
         flavorText: "",
       },
@@ -80593,6 +86630,54 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-16",
+    name: "Slowpoke",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Water"],
+    attacks: [
+      {
+        name: "Well-Hidden",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+      },
+      {
+        name: "Water Gun",
+        cost: ["Water", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "20",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "16",
+    nationalPokedexNumbers: [79],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-16/small",
+      large: "https://images.scrydex.com/pokemon/me55-16/large",
+    },
+    altArts: [
+      {
+        id: "me55-16",
+        number: "16",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-16/small",
+          large: "https://images.scrydex.com/pokemon/me55-16/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv7-57",
     name: "Slowpoke",
     supertype: "Pokémon",
@@ -81162,6 +87247,53 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55c-25",
+    name: "Sneasel",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "60",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Fury Swipes",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10×",
+        text: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+      },
+      {
+        name: "Beat Up",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "20×",
+        text: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads.",
+      },
+    ],
+    resistances: [
+      {
+        type: "Psychic",
+        value: "-30",
+      },
+    ],
+    number: "25",
+    nationalPokedexNumbers: [215],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-25/small",
+      large: "https://images.scrydex.com/pokemon/me55c-25/large",
+    },
+    altArts: [
+      {
+        id: "me55c-25",
+        number: "25",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-25/small",
+          large: "https://images.scrydex.com/pokemon/me55c-25/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-61",
     name: "Sneasel",
     supertype: "Pokémon",
@@ -81537,6 +87669,56 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-63/small",
           large: "https://images.scrydex.com/pokemon/me3-63/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-119",
+    name: "Snorlax",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "160",
+    types: ["Colorless"],
+    abilities: [
+      {
+        name: "Good Sleep",
+        text: "If this Pokémon remains Asleep during Pokémon Checkup, heal all damage from this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Collapse",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "130",
+        text: "This Pokémon is now Asleep.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 4,
+    number: "119",
+    nationalPokedexNumbers: [143],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-119/small",
+      large: "https://images.scrydex.com/pokemon/me55-119/large",
+    },
+    altArts: [
+      {
+        id: "me55-119",
+        number: "119",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-119/small",
+          large: "https://images.scrydex.com/pokemon/me55-119/large",
         },
         flavorText: "",
       },
@@ -82094,6 +88276,128 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/me1/39.png",
           large: "https://images.pokemontcg.io/me1/39_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-105",
+    name: "Solgaleo",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "170",
+    types: ["Metal"],
+    evolvesFrom: "Cosmoem",
+    abilities: [
+      {
+        name: "Sunrise",
+        text: "Once during your turn, if this Pokémon is on your Bench, you may use this Ability. Search your deck for up to 2 Basic Metal Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Sunsteel Strike",
+        cost: ["Metal", "Metal", "Colorless", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "220",
+        text: "Discard all Energy from this Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "105",
+    nationalPokedexNumbers: [791],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-105/small",
+      large: "https://images.scrydex.com/pokemon/me55-105/large",
+    },
+    altArts: [
+      {
+        id: "me55-105",
+        number: "105",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-105/small",
+          large: "https://images.scrydex.com/pokemon/me55-105/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-89",
+    name: "Solgaleo-GX",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2", "GX"],
+    hp: "250",
+    types: ["Metal"],
+    evolvesFrom: "Cosmoem",
+    rules: [
+      "When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Ultra Road",
+        text: "Once during your turn (before your attack), you may switch your Active Pokémon with 1 of your Benched Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Sunsteel Strike",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "230",
+        text: "Discard all Energy from this Pokémon.",
+      },
+      {
+        name: "Sol Burst-GX",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for up to 5 Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Psychic",
+        value: "-20",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless", "Colorless"],
+    convertedRetreatCost: 3,
+    number: "89",
+    nationalPokedexNumbers: [791],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-89/small",
+      large: "https://images.scrydex.com/pokemon/me55c-89/large",
+    },
+    altArts: [
+      {
+        id: "me55c-89",
+        number: "89",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-89/small",
+          large: "https://images.scrydex.com/pokemon/me55c-89/large",
         },
         flavorText: "",
       },
@@ -85349,6 +91653,62 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8pt5/40.png",
           large: "https://images.pokemontcg.io/sv8pt5/40_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-71",
+    name: "Sylveon ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Psychic"],
+    evolvesFrom: "Eevee",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Colorful Harmony",
+        cost: ["Psychic", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "50×",
+        text: "This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "71",
+    nationalPokedexNumbers: [700],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-71/small",
+      large: "https://images.scrydex.com/pokemon/me55-71/large",
+    },
+    altArts: [
+      {
+        id: "me55-71",
+        number: "71",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-71/small",
+          large: "https://images.scrydex.com/pokemon/me55-71/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-153",
+        number: "153",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-153/small",
+          large: "https://images.scrydex.com/pokemon/me55-153/large",
         },
         flavorText: "",
       },
@@ -92514,6 +98874,48 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-58",
+    name: "Toxel",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Ram",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "10",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "58",
+    nationalPokedexNumbers: [848],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-58/small",
+      large: "https://images.scrydex.com/pokemon/me55-58/large",
+    },
+    altArts: [
+      {
+        id: "me55-58",
+        number: "58",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-58/small",
+          large: "https://images.scrydex.com/pokemon/me55-58/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me1-79",
     name: "Toxicroak",
     supertype: "Pokémon",
@@ -92684,6 +99086,108 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
+      },
+    ],
+  },
+  {
+    id: "me55-59",
+    name: "Toxtricity",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "130",
+    types: ["Lightning"],
+    evolvesFrom: "Toxel",
+    attacks: [
+      {
+        name: "Mach Bolt",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "80",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "59",
+    nationalPokedexNumbers: [849],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-59/small",
+      large: "https://images.scrydex.com/pokemon/me55-59/large",
+    },
+    altArts: [
+      {
+        id: "me55-59",
+        number: "59",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-59/small",
+          large: "https://images.scrydex.com/pokemon/me55-59/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-60",
+    name: "Toxtricity",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "140",
+    types: ["Lightning"],
+    evolvesFrom: "Toxel",
+    attacks: [
+      {
+        name: "Light Punch",
+        cost: ["Lightning"],
+        convertedEnergyCost: 1,
+        damage: "40",
+      },
+      {
+        name: "Thunderous Bolt",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "150",
+        text: "During your next turn, this Pokémon can't use attacks.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "60",
+    nationalPokedexNumbers: [849],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-60/small",
+      large: "https://images.scrydex.com/pokemon/me55-60/large",
+    },
+    altArts: [
+      {
+        id: "me55-60",
+        number: "60",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-60/small",
+          large: "https://images.scrydex.com/pokemon/me55-60/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-134",
+        number: "134",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-134/small",
+          large: "https://images.scrydex.com/pokemon/me55-134/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -93105,6 +99609,55 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Delicious fruits grew out from around its neck because it always ate the same kind of fruit.",
+      },
+    ],
+  },
+  {
+    id: "me55-5",
+    name: "Tropius",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Rally Back",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "30+",
+        text: "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.",
+      },
+      {
+        name: "Cutting Wind",
+        cost: ["Grass", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "5",
+    nationalPokedexNumbers: [357],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-5/small",
+      large: "https://images.scrydex.com/pokemon/me55-5/large",
+    },
+    altArts: [
+      {
+        id: "me55-5",
+        number: "5",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-5/small",
+          large: "https://images.scrydex.com/pokemon/me55-5/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -94080,6 +100633,103 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-91",
+    name: "Umbreon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "110",
+    types: ["Darkness"],
+    evolvesFrom: "Eevee",
+    attacks: [
+      {
+        name: "Retaliate",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "30+",
+        text: "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage.",
+      },
+      {
+        name: "Darkness Fang",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "91",
+    nationalPokedexNumbers: [197],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-91/small",
+      large: "https://images.scrydex.com/pokemon/me55-91/large",
+    },
+    altArts: [
+      {
+        id: "me55-91",
+        number: "91",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-91/small",
+          large: "https://images.scrydex.com/pokemon/me55-91/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-92",
+    name: "Umbreon ex",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1", "ex"],
+    hp: "270",
+    types: ["Darkness"],
+    evolvesFrom: "Eevee",
+    rules: [
+      "When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    attacks: [
+      {
+        name: "Lunatic Claw",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "100+",
+        text: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 140 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "92",
+    nationalPokedexNumbers: [197],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-92/small",
+      large: "https://images.scrydex.com/pokemon/me55-92/large",
+    },
+    altArts: [
+      {
+        id: "me55-92",
+        number: "92",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-92/small",
+          large: "https://images.scrydex.com/pokemon/me55-92/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8pt5-60",
     name: "Umbreon ex",
     supertype: "Pokémon",
@@ -94281,6 +100931,104 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+      },
+    ],
+  },
+  {
+    id: "me55-72",
+    name: "Unown",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Mysterious Signal",
+        cost: ["Psychic", "Psychic"],
+        convertedEnergyCost: 2,
+        damage: "40",
+        text: "If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Darkness",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "72",
+    nationalPokedexNumbers: [201],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-72/small",
+      large: "https://images.scrydex.com/pokemon/me55-72/large",
+    },
+    altArts: [
+      {
+        id: "me55-72",
+        number: "72",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-72/small",
+          large: "https://images.scrydex.com/pokemon/me55-72/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-43",
+    name: "Uxie",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Psychic"],
+    abilities: [
+      {
+        name: "Set Up",
+        text: "Once during your turn, when you put Uxie from your hand onto your Bench, you may draw cards until you have 7 cards in your hand.",
+        type: "Poké-POWER",
+      },
+    ],
+    attacks: [
+      {
+        name: "Psychic Restore",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "You may put Uxie and all cards attached to it on the bottom of your deck in any order.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Psychic",
+        value: "+20",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "43",
+    nationalPokedexNumbers: [480],
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-43/small",
+      large: "https://images.scrydex.com/pokemon/me55c-43/large",
+    },
+    altArts: [
+      {
+        id: "me55c-43",
+        number: "43",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-43/small",
+          large: "https://images.scrydex.com/pokemon/me55c-43/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -95219,6 +101967,54 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-13",
+    name: "Victini",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Call for Family",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+      },
+      {
+        name: "V-Flame",
+        cost: ["Fire", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "13",
+    nationalPokedexNumbers: [494],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-13/small",
+      large: "https://images.scrydex.com/pokemon/me55-13/large",
+    },
+    altArts: [
+      {
+        id: "me55-13",
+        number: "13",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-13/small",
+          large: "https://images.scrydex.com/pokemon/me55-13/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv5-30",
     name: "Victini",
     supertype: "Pokémon",
@@ -95816,6 +102612,57 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-8",
+    name: "Vivillon",
+    supertype: "Pokémon",
+    subtypes: ["Stage 2"],
+    hp: "120",
+    types: ["Grass"],
+    evolvesFrom: "Spewpa",
+    abilities: [
+      {
+        name: "Guiding Dance",
+        text: "Once during your turn, you may use this Ability. Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Poison Powder",
+        cost: ["Grass", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "60",
+        text: "Your opponent's Active Pokémon is now Poisoned.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "8",
+    nationalPokedexNumbers: [666],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-8/small",
+      large: "https://images.scrydex.com/pokemon/me55-8/large",
+    },
+    altArts: [
+      {
+        id: "me55-8",
+        number: "8",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-8/small",
+          large: "https://images.scrydex.com/pokemon/me55-8/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-7",
     name: "Vivillon",
     supertype: "Pokémon",
@@ -95875,6 +102722,54 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/sv8/193.png",
           large: "https://images.pokemontcg.io/sv8/193_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-3",
+    name: "Volbeat",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "80",
+    types: ["Grass"],
+    attacks: [
+      {
+        name: "Luring Glow",
+        cost: ["Grass"],
+        convertedEnergyCost: 1,
+        text: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+      },
+      {
+        name: "Bug Buzz",
+        cost: ["Colorless", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "3",
+    nationalPokedexNumbers: [313],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-3/small",
+      large: "https://images.scrydex.com/pokemon/me55-3/large",
+    },
+    altArts: [
+      {
+        id: "me55-3",
+        number: "3",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-3/small",
+          large: "https://images.scrydex.com/pokemon/me55-3/large",
         },
         flavorText: "",
       },
@@ -96651,6 +103546,49 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+      },
+    ],
+  },
+  {
+    id: "me55-9",
+    name: "Vulpix",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Fire"],
+    attacks: [
+      {
+        name: "Wild Kick",
+        cost: ["Fire"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Water",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "9",
+    nationalPokedexNumbers: [37],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-9/small",
+      large: "https://images.scrydex.com/pokemon/me55-9/large",
+    },
+    altArts: [
+      {
+        id: "me55-9",
+        number: "9",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-9/small",
+          large: "https://images.scrydex.com/pokemon/me55-9/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -98362,6 +105300,56 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-22",
+    name: "Wishiwashi",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "30",
+    types: ["Water"],
+    abilities: [
+      {
+        name: "Counterattack Grouping",
+        text: "If your Wishiwashi or Wishiwashi ex is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if your Pokémon is Knocked Out), place 3 damage counters on the Attacking Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Surprise Attack",
+        cost: ["Water"],
+        convertedEnergyCost: 1,
+        damage: "30",
+        text: "Flip a coin. If tails, this attack does nothing.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "22",
+    nationalPokedexNumbers: [746],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-22/small",
+      large: "https://images.scrydex.com/pokemon/me55-22/large",
+    },
+    altArts: [
+      {
+        id: "me55-22",
+        number: "22",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-22/small",
+          large: "https://images.scrydex.com/pokemon/me55-22/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-15",
     name: "Wo-Chien",
     supertype: "Pokémon",
@@ -98823,6 +105811,54 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+      },
+    ],
+  },
+  {
+    id: "me55-76",
+    name: "Xerneas",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Psychic"],
+    attacks: [
+      {
+        name: "Geonavigation",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "Search your deck for up to 2 Stadium card, reveal them, and put them into your hand. Then, shuffle your deck.",
+      },
+      {
+        name: "Aurora Horns",
+        cost: ["Psychic", "Psychic", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Metal",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "76",
+    nationalPokedexNumbers: [716],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-76/small",
+      large: "https://images.scrydex.com/pokemon/me55-76/large",
+    },
+    altArts: [
+      {
+        id: "me55-76",
+        number: "76",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-76/small",
+          large: "https://images.scrydex.com/pokemon/me55-76/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -99395,6 +106431,61 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-100",
+    name: "Yveltal",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Darkness"],
+    abilities: [
+      {
+        name: "Life-Locked",
+        text: "Your opponent's Active Pokémon can't be healed.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Dark Cutter",
+        cost: ["Darkness", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Lightning",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Fighting",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "100",
+    nationalPokedexNumbers: [717],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-100/small",
+      large: "https://images.scrydex.com/pokemon/me55-100/large",
+    },
+    altArts: [
+      {
+        id: "me55-100",
+        number: "100",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-100/small",
+          large: "https://images.scrydex.com/pokemon/me55-100/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-35",
     name: "Yveltal",
     supertype: "Pokémon",
@@ -99590,6 +106681,177 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-106",
+    name: "Zacian",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Hardened Blade",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "20+",
+        text: "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.",
+      },
+      {
+        name: "Slashing Strike",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "120",
+        text: "During your next turn, this Pokémon can't use Slashing Strike",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "106",
+    nationalPokedexNumbers: [888],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-106/small",
+      large: "https://images.scrydex.com/pokemon/me55-106/large",
+    },
+    altArts: [
+      {
+        id: "me55-106",
+        number: "106",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-106/small",
+          large: "https://images.scrydex.com/pokemon/me55-106/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-138",
+    name: "Zacian V",
+    supertype: "Pokémon",
+    subtypes: ["Basic", "V"],
+    hp: "220",
+    types: ["Metal"],
+    rules: [
+      "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.",
+    ],
+    abilities: [
+      {
+        name: "Intrepid Sword",
+        text: "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Metal Energy cards you find there to this Pokémon. Put the other cards into your hand. If you use this Ability, your turn ends.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Brave Blade",
+        cost: ["Metal", "Metal", "Metal"],
+        convertedEnergyCost: 3,
+        damage: "230",
+        text: "During your next turn, this Pokémon can't attack.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "138",
+    nationalPokedexNumbers: [888],
+    regulationMark: "D",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-138/small",
+      large: "https://images.scrydex.com/pokemon/me55c-138/large",
+    },
+    altArts: [
+      {
+        id: "me55c-138",
+        number: "138",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-138/small",
+          large: "https://images.scrydex.com/pokemon/me55c-138/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-107",
+    name: "Zamazenta",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Metal"],
+    attacks: [
+      {
+        name: "Fend Off",
+        cost: ["Metal"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+      },
+      {
+        name: "Shield Press",
+        cost: ["Metal", "Metal", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "100",
+        text: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fire",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Grass",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "107",
+    nationalPokedexNumbers: [889],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-107/small",
+      large: "https://images.scrydex.com/pokemon/me55-107/large",
+    },
+    altArts: [
+      {
+        id: "me55-107",
+        number: "107",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-107/small",
+          large: "https://images.scrydex.com/pokemon/me55-107/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv10-146",
     name: "Zamazenta",
     supertype: "Pokémon",
@@ -99753,6 +107015,65 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-167/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-167/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-55",
+    name: "Zapdos",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "120",
+    types: ["Lightning"],
+    abilities: [
+      {
+        name: "Flash-Pop Flapping",
+        text: "Once during your turn, if you have Moltres and Articuno in play, you may use this Ability. Attach a Basic Lightning Energy card from your hand to this Pokémon.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Thundering Lightning",
+        cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
+        convertedEnergyCost: 4,
+        damage: "210",
+        text: "This Pokémon also does 60 damage to itself.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "55",
+    nationalPokedexNumbers: [145],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-55/small",
+      large: "https://images.scrydex.com/pokemon/me55-55/large",
+    },
+    altArts: [
+      {
+        id: "me55-55",
+        number: "55",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-55/small",
+          large: "https://images.scrydex.com/pokemon/me55-55/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-133",
+        number: "133",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-133/small",
+          large: "https://images.scrydex.com/pokemon/me55-133/large",
         },
         flavorText: "",
       },
@@ -100122,6 +107443,55 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-56",
+    name: "Zekrom",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "130",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Slash",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+      {
+        name: "Nitro Thunder",
+        cost: ["Lightning", "Colorless", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "80+",
+        text: "If this Pokémon has any Fire Energy attaches, this attack does 80 more damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "56",
+    nationalPokedexNumbers: [644],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-56/small",
+      large: "https://images.scrydex.com/pokemon/me55-56/large",
+    },
+    altArts: [
+      {
+        id: "me55-56",
+        number: "56",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-56/small",
+          large: "https://images.scrydex.com/pokemon/me55-56/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "zsv10pt5-34",
     name: "Zekrom ex",
     supertype: "Pokémon",
@@ -100201,6 +107571,56 @@ const allStandardLegalPokemon = [
         images: {
           small: "https://images.pokemontcg.io/zsv10pt5/172.png",
           large: "https://images.pokemontcg.io/zsv10pt5/172_hires.png",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55-57",
+    name: "Zeraora",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "110",
+    types: ["Lightning"],
+    attacks: [
+      {
+        name: "Rapid Draw",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        damage: "20",
+        text: "Draw a card.",
+      },
+      {
+        name: "Electrobullet",
+        cost: ["Lightning", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+        text: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "57",
+    nationalPokedexNumbers: [807],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-57/small",
+      large: "https://images.scrydex.com/pokemon/me55-57/large",
+    },
+    altArts: [
+      {
+        id: "me55-57",
+        number: "57",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-57/small",
+          large: "https://images.scrydex.com/pokemon/me55-57/large",
         },
         flavorText: "",
       },
@@ -100498,6 +107918,55 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-96",
+    name: "Zoroark",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "120",
+    types: ["Darkness"],
+    abilities: [
+      {
+        name: "Nighttime Byway",
+        text: "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is 2 less.",
+        type: "Ability",
+      },
+    ],
+    attacks: [
+      {
+        name: "Slashing Claw",
+        cost: ["Darkness", "Darkness", "Colorless"],
+        convertedEnergyCost: 3,
+        damage: "90",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "96",
+    nationalPokedexNumbers: [571],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-96/small",
+      large: "https://images.scrydex.com/pokemon/me55-96/large",
+    },
+    altArts: [
+      {
+        id: "me55-96",
+        number: "96",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-96/small",
+          large: "https://images.scrydex.com/pokemon/me55-96/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv6pt5-32",
     name: "Zoroark",
     supertype: "Pokémon",
@@ -100612,6 +108081,48 @@ const allStandardLegalPokemon = [
         },
         flavorText:
           "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+      },
+    ],
+  },
+  {
+    id: "me55-95",
+    name: "Zorua",
+    supertype: "Pokémon",
+    subtypes: ["Basic"],
+    hp: "70",
+    types: ["Darkness"],
+    attacks: [
+      {
+        name: "Darkness Fang",
+        cost: ["Darkness", "Darkness"],
+        convertedEnergyCost: 2,
+        damage: "40",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "95",
+    nationalPokedexNumbers: [570],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-95/small",
+      large: "https://images.scrydex.com/pokemon/me55-95/large",
+    },
+    altArts: [
+      {
+        id: "me55-95",
+        number: "95",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-95/small",
+          large: "https://images.scrydex.com/pokemon/me55-95/large",
+        },
+        flavorText: "",
       },
     ],
   },
@@ -100868,6 +108379,55 @@ const allStandardLegalPokemon = [
     ],
   },
   {
+    id: "me55-98",
+    name: "Zweilous",
+    supertype: "Pokémon",
+    subtypes: ["Stage 1"],
+    hp: "100",
+    types: ["Darkness"],
+    evolvesFrom: "Deino",
+    attacks: [
+      {
+        name: "Bite",
+        cost: ["Darkness"],
+        convertedEnergyCost: 1,
+        damage: "20",
+      },
+      {
+        name: "Hammer In",
+        cost: ["Darkness", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "50",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Grass",
+        value: "×2",
+      },
+    ],
+    retreatCost: ["Colorless", "Colorless"],
+    convertedRetreatCost: 2,
+    number: "98",
+    nationalPokedexNumbers: [634],
+    regulationMark: "J",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55-98/small",
+      large: "https://images.scrydex.com/pokemon/me55-98/large",
+    },
+    altArts: [
+      {
+        id: "me55-98",
+        number: "98",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-98/small",
+          large: "https://images.scrydex.com/pokemon/me55-98/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv8-118",
     name: "Zweilous",
     supertype: "Pokémon",
@@ -100931,13 +108491,13 @@ allStandardLegalPokemon.forEach((pokemon) => {
   if (!pokemon.subtypes) pokemon.subtypes = [];
 
   pokemon.attacks?.forEach((attack) => {
-    attack.name = attack.name.replace("Pokémon", "Pokemon");
-    attack.text = attack.text.replace("Pokémon", "Pokemon");
+    attack.name = attack.name?.replace("Pokémon", "Pokemon");
+    attack.text = attack.text?.replace("Pokémon", "Pokemon");
   });
 
   pokemon.abilities?.forEach((ability) => {
-    ability.name = ability.name.replace("Pokémon", "Pokemon");
-    ability.text = ability.text.replace("Pokémon", "Pokemon");
+    ability.name = ability.name?.replace("Pokémon", "Pokemon");
+    ability.text = ability.text?.replace("Pokémon", "Pokemon");
   });
   if (!pokemon.rules || !pokemon?.rules[0].includes("Prize cards")) {
     pokemon.subtypes.push("1 Prizer");

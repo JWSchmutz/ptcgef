@@ -3208,6 +3208,59 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me55c-69",
+    name: "Erika's Jigglypuff",
+    supertype: "Trainer",
+    subtypes: ["Basic"],
+    hp: "50",
+    types: ["Colorless"],
+    attacks: [
+      {
+        name: "Group Therapy",
+        cost: ["Colorless"],
+        convertedEnergyCost: 1,
+        text: "You and your opponent remove 1 damage counter from each of your Pokémon with damage counters on them.",
+      },
+      {
+        name: "Pulled Punch",
+        cost: ["Colorless", "Colorless"],
+        convertedEnergyCost: 2,
+        damage: "40-",
+        text: "If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any damage counters on it, this attack does 10 damage.",
+      },
+    ],
+    weaknesses: [
+      {
+        type: "Fighting",
+        value: "×2",
+      },
+    ],
+    resistances: [
+      {
+        type: "Psychic",
+        value: "-30",
+      },
+    ],
+    retreatCost: ["Colorless"],
+    convertedRetreatCost: 1,
+    number: "69",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-69/small",
+      large: "https://images.scrydex.com/pokemon/me55c-69/large",
+    },
+    altArts: [
+      {
+        id: "me55c-69",
+        number: "69",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-69/small",
+          large: "https://images.scrydex.com/pokemon/me55c-69/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "sv10-165",
     name: "Ethan's Adventure",
     supertype: "Trainer",
@@ -5870,6 +5923,30 @@ const allStandardLegalTrainers = [
     ],
   },
   {
+    id: "me55c-18",
+    name: "Misty",
+    supertype: "Trainer",
+    rules: [
+      "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon.",
+    ],
+    number: "18",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-18/small",
+      large: "https://images.scrydex.com/pokemon/me55c-18/large",
+    },
+    altArts: [
+      {
+        id: "me55c-18",
+        number: "18",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-18/small",
+          large: "https://images.scrydex.com/pokemon/me55c-18/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
     id: "me5-80",
     name: "Misty's Vitality",
     supertype: "Trainer",
@@ -6004,6 +6081,32 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me2pt5-194/small",
           large: "https://images.scrydex.com/pokemon/me2pt5-194/large",
+        },
+        flavorText: "",
+      },
+    ],
+  },
+  {
+    id: "me55c-101",
+    name: "N",
+    supertype: "Trainer",
+    subtypes: ["Supporter"],
+    rules: [
+      "Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards.",
+      "You may play only 1 Supporter card during your turn (before your attack).",
+    ],
+    number: "101",
+    images: {
+      small: "https://images.scrydex.com/pokemon/me55c-101/small",
+      large: "https://images.scrydex.com/pokemon/me55c-101/large",
+    },
+    altArts: [
+      {
+        id: "me55c-101",
+        number: "101",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55c-101/small",
+          large: "https://images.scrydex.com/pokemon/me55c-101/large",
         },
         flavorText: "",
       },
@@ -6708,6 +6811,15 @@ const allStandardLegalTrainers = [
         images: {
           small: "https://images.scrydex.com/pokemon/me3-113/small",
           large: "https://images.scrydex.com/pokemon/me3-113/large",
+        },
+        flavorText: "",
+      },
+      {
+        id: "me55-126",
+        number: "126",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-126/small",
+          large: "https://images.scrydex.com/pokemon/me55-126/large",
         },
         flavorText: "",
       },
@@ -8211,6 +8323,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me55-127",
+        number: "127",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-127/small",
+          large: "https://images.scrydex.com/pokemon/me55-127/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -9173,6 +9294,15 @@ const allStandardLegalTrainers = [
         },
         flavorText: "",
       },
+      {
+        id: "me55-128",
+        number: "128",
+        images: {
+          small: "https://images.scrydex.com/pokemon/me55-128/small",
+          large: "https://images.scrydex.com/pokemon/me55-128/large",
+        },
+        flavorText: "",
+      },
     ],
   },
   {
@@ -9409,7 +9539,7 @@ const allStandardLegalTrainers = [
 
 allStandardLegalTrainers.forEach((trainer) => {
   trainer.name = trainer.name.replace("Pokémon", "Pokemon");
-  trainer.rules.forEach((rule) => {
+  trainer.rules?.forEach((rule) => {
     rule = rule.replace("Pokémon", "Pokemon");
   });
 });
