@@ -1,4 +1,5 @@
 import { useState, useContext } from "react";
+import { useSearchParams } from "react-router-dom";
 import PokemonFiltersSection from "./PokemonFiltersSection";
 import TrainersFiltersSection from "./TrainersFiltersSection";
 import EnergyFiltersSection from "./EnergyFiltersSection";
@@ -6,20 +7,49 @@ import SearchContext from "../../context/search-context";
 import Input from "../Input/Input";
 
 function Filters({ setChecked, setLoading, checked }) {
+  const [searchParams, setSearchParams] = useSearchParams();
   const { searchText, setSearchText } = useContext(SearchContext);
   const [energyTypesToFilterOut, setEnergyTypesToFilterOut] = useState("Basic");
   const [trainerTypesToFilterOut, setTrainerTypesToFilterOut] = useState([]);
-  const [pokemonTypesToFilterOut, setPokemonTypesToFilterOut] = useState([]);
-  const [onlyShowPokemonThatAre, setOnlyShowPokemonThatAre] = useState([]);
+  const pokemonTypesToFilterOut = searchParams.getAll("exclude");
+  const onlyShowPokemonThatAre = searchParams.getAll("only");
+  const setPokemonTypesToFilterOut = (types) =>
+    setSearchParams(
+      (currentParams) => {
+        const nextParams = new URLSearchParams(currentParams);
+        nextParams.delete("exclude");
+        types.forEach((type) => nextParams.append("exclude", type));
+        return nextParams;
+      },
+      { replace: true }
+    );
+  const setOnlyShowPokemonThatAre = (types) =>
+    setSearchParams(
+      (currentParams) => {
+        const nextParams = new URLSearchParams(currentParams);
+        nextParams.delete("only");
+        types.forEach((type) => nextParams.append("only", type));
+        return nextParams;
+      },
+      { replace: true }
+    );
   const [showFilters, setShowFilters] = useState(false);
+
   const handleSearchTextChange = (e) => setSearchText(e.target.value);
   const handleTabChange = (e) => {
     setLoading(true);
     setChecked(e.target.getAttribute("id"));
     if (e.target.getAttribute("id") === "energy") setEnergyTypesToFilterOut([]);
     if (e.target.getAttribute("id") === "pokemon") {
-      setPokemonTypesToFilterOut([]);
-      setOnlyShowPokemonThatAre([]);
+      setSearchParams(
+        (currentParams) => {
+          const nextParams = new URLSearchParams(currentParams);
+          nextParams.delete("exclude");
+          nextParams.delete("only");
+          return nextParams;
+        },
+        { replace: true }
+      );
     }
     if (e.target.getAttribute("id") === "trainer")
       setTrainerTypesToFilterOut([]);

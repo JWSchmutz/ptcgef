@@ -1,4 +1,5 @@
 import { useState, useEffect, useContext, createContext } from "react";
+import { useSearchParams } from "react-router-dom";
 import allStandardLegalPokemon from "../../../data/allStandardLegalPokemon";
 import Filters from "../../Filters/Filters";
 import Loading from "../../Loading/Loading.jsx";
@@ -11,8 +12,12 @@ import "./CardSearch.css";
 import "../../../data/allStandardLegalCards.js";
 
 function CardSearch() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const queryString = searchParams.toString();
   const [showAll, setShowAll] = useState(false);
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState(
+    () => searchParams.get("q") || ""
+  );
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [modalCardImage, setModalCardImage] = useState(false);
@@ -31,6 +36,22 @@ function CardSearch() {
     setShowAll(false);
     setLoading(false);
   }, [checked, searchText]);
+
+  useEffect(() => {
+    setSearchText(new URLSearchParams(queryString).get("q") || "");
+  }, [queryString]);
+
+  useEffect(() => {
+    setSearchParams(
+      (currentParams) => {
+        const nextParams = new URLSearchParams(currentParams);
+        if (searchText) nextParams.set("q", searchText);
+        else nextParams.delete("q");
+        return nextParams;
+      },
+      { replace: true }
+    );
+  }, [searchText, setSearchParams]);
   return (
     <FilterContext.Provider value={{ cardsToShow: "hi", setCardsToShow }}>
       <SearchContext.Provider value={{ searchText, setSearchText }}>

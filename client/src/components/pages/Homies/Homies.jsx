@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import "./Homies.css";
 import Input from "../../Input/Input";
 import Button from "../../Button/Button";
@@ -6,6 +7,8 @@ import Homie from "../../Homie/Homie";
 import Loading from "../../Loading/Loading";
 
 function Homies() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const queryString = searchParams.toString();
   const [allRecentPlayers, setAllRecentPlayers] = useState([]);
   const [loadingForMostRecentEventsCheck, setLoadingForMostRecentEventsCheck] =
     useState(true);
@@ -17,18 +20,43 @@ function Homies() {
   const [tournament3, setTournament3] = useState({ players: [] });
   const [newHomie, setNewHomie] = useState("");
   const [selectedHomie, setSelectedHomie] = useState(allRecentPlayers[0]);
-  const [homies, setHomies] = useState(
-    JSON.parse(localStorage.getItem("homies")) || []
-  );
+  const [homies, setHomies] = useState(() => {
+    if (searchParams.has("homie")) return searchParams.getAll("homie").filter(Boolean);
+    return JSON.parse(localStorage.getItem("homies")) || [];
+  });
+
+  useEffect(() => {
+    const params = new URLSearchParams(queryString);
+    if (!params.has("homie")) return;
+    const queryHomies = params.getAll("homie").filter(Boolean);
+    setHomies((currentHomies) =>
+      JSON.stringify(queryHomies) === JSON.stringify(currentHomies)
+        ? currentHomies
+        : queryHomies
+    );
+  }, [queryString]);
+
+  useEffect(() => {
+    localStorage.setItem("homies", JSON.stringify(homies));
+    setSearchParams(
+      (currentParams) => {
+        const nextParams = new URLSearchParams(currentParams);
+        nextParams.delete("homie");
+        homies.forEach((homie) => nextParams.append("homie", homie));
+        return nextParams;
+      },
+      { replace: true }
+    );
+  }, [homies, setSearchParams]);
+
   const handleSelectChange = (e) => {
     setHomieChosen(true);
     return setSelectedHomie(e.target.value);
   };
   const handleAddClick = () => {
     setHomieChosen(false);
-    homies.push(selectedHomie);
-    localStorage.setItem("homies", JSON.stringify(homies));
-    setHomies([...homies]);
+    if (selectedHomie && !homies.includes(selectedHomie))
+      setHomies([...homies, selectedHomie]);
   };
   const newHomieTextChange = (e) => {
     setAllPlayers(
