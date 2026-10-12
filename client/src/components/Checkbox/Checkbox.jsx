@@ -1,7 +1,12 @@
 import React from "react";
 import "./Checkbox.css";
 
-function Checkbox({ value, id, onChange, label, image, unchecked }) {
+function Checkbox({ value, id, onChange, label, image, unchecked, checked }) {
+  const inputProps =
+    checked !== undefined
+      ? { checked }
+      : { defaultChecked: unchecked ? false : true };
+
   return (
     <div className="form-check">
       <label
@@ -9,7 +14,7 @@ function Checkbox({ value, id, onChange, label, image, unchecked }) {
         style={{ width: "90%" }}
         htmlFor={id || value}
       >
-        {image && <img src={image} alt={value} />}{" "}
+        {image && <img src={image} alt={value} />} {" "}
         {image ? (
           <span className="d-none d-md-inline-block">{label || value}</span>
         ) : (
@@ -20,7 +25,7 @@ function Checkbox({ value, id, onChange, label, image, unchecked }) {
           type="checkbox"
           value={value}
           id={id || value}
-          defaultChecked={unchecked ? false : true}
+          {...inputProps}
           onChange={onChange}
         />
         <span className="slider round"></span>

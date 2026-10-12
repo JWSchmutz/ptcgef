@@ -3,6 +3,7 @@ import Checkbox from "../Checkbox/Checkbox";
 import FilterContext from "../../context/filter-context";
 import SearchContext from "../../context/search-context";
 import SortGroup from "../SortGroup/SortGroup";
+import Button from "../Button/Button";
 import allStandardLegalPokemon from "../../data/allStandardLegalPokemon";
 
 import colorless from "/colorless.png";
@@ -15,6 +16,19 @@ import lightning from "/lightning.png";
 import metal from "/metal.png";
 import psychic from "/psychic.png";
 import water from "/water.png";
+
+const pokemonTypeOptions = [
+  { value: "Colorless", image: colorless },
+  { value: "Darkness", image: darkness },
+  { value: "Dragon", image: dragon },
+  { value: "Fighting", image: fighting },
+  { value: "Fire", image: fire },
+  { value: "Grass", image: grass },
+  { value: "Lightning", image: lightning },
+  { value: "Metal", image: metal },
+  { value: "Psychic", image: psychic },
+  { value: "Water", image: water },
+];
 
 function PokemonFiltersSection({
   pokemonTypesToFilterOut,
@@ -83,6 +97,14 @@ function PokemonFiltersSection({
     }
   };
 
+  const flipAllPokemonTypeFilters = () => {
+    const nextTypesToFilterOut = pokemonTypeOptions
+      .map((option) => option.value)
+      .filter((type) => !pokemonTypesToFilterOut.includes(type));
+
+    setPokemonTypesToFilterOut(nextTypesToFilterOut);
+  };
+
   useEffect(() => {
     let newPokemonCardsToShow = [...allStandardLegalPokemon];
 
@@ -129,24 +151,20 @@ function PokemonFiltersSection({
   return (
     <form className="filter-form">
       <div>
-        <Checkbox
-          value="Colorless"
-          image={colorless}
-          onChange={filterPokemon}
+        {pokemonTypeOptions.map(({ value, image }) => (
+          <Checkbox
+            key={value}
+            value={value}
+            image={image}
+            checked={!pokemonTypesToFilterOut.includes(value)}
+            onChange={filterPokemon}
+          />
+        ))}
+        <Button
+          text="Flip all"
+          handleClick={flipAllPokemonTypeFilters}
+          classes="mt-2"
         />
-        <Checkbox value="Darkness" image={darkness} onChange={filterPokemon} />
-        <Checkbox value="Dragon" image={dragon} onChange={filterPokemon} />
-        <Checkbox value="Fighting" image={fighting} onChange={filterPokemon} />
-        <Checkbox value="Fire" image={fire} onChange={filterPokemon} />
-        <Checkbox value="Grass" image={grass} onChange={filterPokemon} />
-        <Checkbox
-          value="Lightning"
-          image={lightning}
-          onChange={filterPokemon}
-        />
-        <Checkbox value="Metal" image={metal} onChange={filterPokemon} />
-        <Checkbox value="Psychic" image={psychic} onChange={filterPokemon} />
-        <Checkbox value="Water" image={water} onChange={filterPokemon} />
       </div>
       <div>
         <Checkbox value="Basic" onChange={filterPokemon} />
