@@ -6,15 +6,193 @@ const axios = require("axios");
 const app = express();
 const port = process.env.PORT || 3001;
 const path = require("path");
+const crypto = require("crypto");
 const upload = multer({ dest: "uploads/" });
 const bodyParser = require("body-parser");
 const FormData = require("form-data");
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: "150kb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, "./client/dist")));
+
+const localListsPath = process.env.LOCAL_LISTS_DATA_DIR
+  ? path.resolve(process.env.LOCAL_LISTS_DATA_DIR)
+  : path.join(__dirname, "local-list-data");
+const localListWriteQueues = new Map();
+
+const isValidDate = (value) => {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    return false;
+  }
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+};
+
+const readLocalTournament = async (code) => {
+  if (!/^[a-f0-9]{24}$/.test(code)) return null;
+  try {
+    const contents = await fs.promises.readFile(
+      path.join(localListsPath, `${code}.json`),
+      "utf8"
+    );
+    return JSON.parse(contents);
+  } catch (error) {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  }
+};
+
+const writeLocalTournament = async (tournament) => {
+  await fs.promises.mkdir(localListsPath, { recursive: true });
+  const filePath = path.join(
+    localListsPath,
+    `${tournament.tournamentCode}.json`
+  );
+  const temporaryPath = `${filePath}.${crypto.randomBytes(6).toString("hex")}.tmp`;
+  await fs.promises.writeFile(
+    temporaryPath,
+    JSON.stringify(tournament, null, 2),
+    { encoding: "utf8", mode: 0o600 }
+  );
+  await fs.promises.rename(temporaryPath, filePath);
+};
+
+const updateLocalTournament = async (code, update) => {
+  const previousWrite = localListWriteQueues.get(code);
+  const currentWrite = (previousWrite || Promise.resolve())
+    .catch(() => {})
+    .then(async () => {
+      const tournament = await readLocalTournament(code);
+      if (!tournament) return null;
+      update(tournament);
+      await writeLocalTournament(tournament);
+      return tournament;
+    });
+  localListWriteQueues.set(code, currentWrite);
+  try {
+    return await currentWrite;
+  } finally {
+    if (localListWriteQueues.get(code) === currentWrite) {
+      localListWriteQueues.delete(code);
+    }
+  }
+};
+
+app.post("/api/local-lists/tournaments", async (req, res) => {
+  const { type, date } = req.body || {};
+  if (!["cup", "challenge"].includes(type)) {
+    return res.status(400).json({ error: "Tournament type must be cup or challenge." });
+  }
+  if (!isValidDate(date)) {
+    return res.status(400).json({ error: "A valid tournament date is required." });
+  }
+
+  const tournament = {
+    tournamentCode: crypto.randomBytes(12).toString("hex"),
+    tournamentSecret: crypto.randomBytes(32).toString("hex"),
+    type,
+    date,
+    submissions: [],
+  };
+
+  try {
+    await writeLocalTournament(tournament);
+    res.status(201).json({
+      tournamentCode: tournament.tournamentCode,
+      tournamentSecret: tournament.tournamentSecret,
+      type: tournament.type,
+      date: tournament.date,
+    });
+  } catch (error) {
+    console.error("Could not create local list tournament:", error);
+    res.status(500).json({ error: "Could not create the tournament." });
+  }
+});
+
+app.post("/api/local-lists/:code/submissions", async (req, res) => {
+  const code = req.params.code;
+  const {
+    playerName,
+    playerId,
+    birthday,
+    division,
+    list,
+  } = req.body || {};
+
+  if (
+    typeof playerName !== "string" ||
+    !playerName.trim() ||
+    playerName.trim().length > 120 ||
+    typeof playerId !== "string" ||
+    !playerId.trim() ||
+    playerId.trim().length > 80 ||
+    !isValidDate(birthday) ||
+    birthday > new Date().toISOString().slice(0, 10) ||
+    typeof division !== "string" ||
+    !["junior", "senior", "masters"].includes(division) ||
+    typeof list !== "string" ||
+    !list.trim() ||
+    list.length > 100000
+  ) {
+    return res.status(400).json({ error: "Please provide valid player and decklist details." });
+  }
+
+  try {
+    const savedTournament = await updateLocalTournament(code, (tournament) => {
+      tournament.submissions.push({
+        tournamentCode: tournament.tournamentCode,
+        tournamentSecret: tournament.tournamentSecret,
+        playerName: playerName.trim(),
+        playerId: playerId.trim(),
+        birthday,
+        division,
+        list: list.trim(),
+      });
+    });
+    if (!savedTournament) {
+      return res.status(404).json({ error: "Tournament code was not found." });
+    }
+    res.status(201).json({ message: "Decklist submitted." });
+  } catch (error) {
+    console.error("Could not save local decklist submission:", error);
+    res.status(500).json({ error: "Could not save the decklist." });
+  }
+});
+
+app.post("/api/local-lists/:code/export", async (req, res) => {
+  const code = req.params.code;
+  const { tournamentSecret } = req.body || {};
+  if (typeof tournamentSecret !== "string" || !/^[a-f0-9]{64}$/.test(tournamentSecret)) {
+    return res.status(401).json({ error: "A valid tournament secret is required." });
+  }
+
+  try {
+    const tournament = await readLocalTournament(code);
+    if (!tournament) {
+      return res.status(404).json({ error: "Tournament code was not found." });
+    }
+    const expectedSecret = Buffer.from(tournament.tournamentSecret, "hex");
+    const providedSecret = Buffer.from(tournamentSecret, "hex");
+    if (!crypto.timingSafeEqual(expectedSecret, providedSecret)) {
+      return res.status(403).json({ error: "Tournament secret did not match." });
+    }
+
+    res.set("Cache-Control", "no-store");
+    const decklists = tournament.submissions.map(
+      ({ tournamentSecret: _secret, ...submission }) => submission
+    );
+    res.json({
+      type: tournament.type,
+      date: tournament.date,
+      decklists,
+    });
+  } catch (error) {
+    console.error("Could not export local decklists:", error);
+    res.status(500).json({ error: "Could not export tournament decklists." });
+  }
+});
 
 app.get("/addresses", async (req, res) => {
   // Make a request for a user with a given ID

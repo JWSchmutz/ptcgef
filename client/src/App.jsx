@@ -5,6 +5,7 @@ import CardSearch from "./components/pages/CardSearch/CardSearch";
 import EventFinder from "./components/pages/EventFinder/EventFinder";
 import TopCutData from "./components/pages/TopCutData/TopCutData";
 import Homies from "./components/pages/Homies/Homies";
+import LocalLists from "./components/pages/LocalLists/LocalLists";
 import Navbar from "./components/Navbar/Navbar";
 // import allStandardLegalCards from "./data/allStandardLegalCards";
 import "./App.css";
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/event-finder" element={<EventFinder />} />
           <Route exact path="/top-cut-data" element={<TopCutData />} />
           <Route exact path="/homies" element={<Homies />} />
+          <Route exact path="/local-lists" element={<LocalLists />} />
           {/*
       <PrivateRoute
         authed={!!user.username}
