@@ -27,7 +27,9 @@ const isValidDate = (value) => {
     return false;
   }
   const date = new Date(`${value}T00:00:00.000Z`);
-  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+  return (
+    !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value
+  );
 };
 
 const readLocalTournament = async (code) => {
@@ -35,7 +37,7 @@ const readLocalTournament = async (code) => {
   try {
     const contents = await fs.promises.readFile(
       path.join(localListsPath, `${code}.json`),
-      "utf8"
+      "utf8",
     );
     return JSON.parse(contents);
   } catch (error) {
@@ -48,13 +50,13 @@ const writeLocalTournament = async (tournament) => {
   await fs.promises.mkdir(localListsPath, { recursive: true });
   const filePath = path.join(
     localListsPath,
-    `${tournament.tournamentCode}.json`
+    `${tournament.tournamentCode}.json`,
   );
   const temporaryPath = `${filePath}.${crypto.randomBytes(6).toString("hex")}.tmp`;
   await fs.promises.writeFile(
     temporaryPath,
     JSON.stringify(tournament, null, 2),
-    { encoding: "utf8", mode: 0o600 }
+    { encoding: "utf8", mode: 0o600 },
   );
   await fs.promises.rename(temporaryPath, filePath);
 };
@@ -83,10 +85,14 @@ const updateLocalTournament = async (code, update) => {
 app.post("/api/local-lists/tournaments", async (req, res) => {
   const { type, date } = req.body || {};
   if (!["cup", "challenge"].includes(type)) {
-    return res.status(400).json({ error: "Tournament type must be cup or challenge." });
+    return res
+      .status(400)
+      .json({ error: "Tournament type must be cup or challenge." });
   }
   if (!isValidDate(date)) {
-    return res.status(400).json({ error: "A valid tournament date is required." });
+    return res
+      .status(400)
+      .json({ error: "A valid tournament date is required." });
   }
 
   const tournament = {
@@ -113,32 +119,7 @@ app.post("/api/local-lists/tournaments", async (req, res) => {
 
 app.post("/api/local-lists/:code/submissions", async (req, res) => {
   const code = req.params.code;
-  const {
-    playerName,
-    playerId,
-    birthday,
-    division,
-    list,
-  } = req.body || {};
-
-  if (
-    typeof playerName !== "string" ||
-    !playerName.trim() ||
-    playerName.trim().length > 120 ||
-    typeof playerId !== "string" ||
-    !playerId.trim() ||
-    playerId.trim().length > 80 ||
-    !isValidDate(birthday) ||
-    birthday > new Date().toISOString().slice(0, 10) ||
-    typeof division !== "string" ||
-    !["junior", "senior", "masters"].includes(division) ||
-    typeof list !== "string" ||
-    !list.trim() ||
-    list.length > 100000
-  ) {
-    return res.status(400).json({ error: "Please provide valid player and decklist details." });
-  }
-
+  const { playerName, playerId, birthday, division, list } = req.body || {};
   try {
     const savedTournament = await updateLocalTournament(code, (tournament) => {
       tournament.submissions.push({
@@ -164,8 +145,13 @@ app.post("/api/local-lists/:code/submissions", async (req, res) => {
 app.post("/api/local-lists/:code/export", async (req, res) => {
   const code = req.params.code;
   const { tournamentSecret } = req.body || {};
-  if (typeof tournamentSecret !== "string" || !/^[a-f0-9]{64}$/.test(tournamentSecret)) {
-    return res.status(401).json({ error: "A valid tournament secret is required." });
+  if (
+    typeof tournamentSecret !== "string" ||
+    !/^[a-f0-9]{64}$/.test(tournamentSecret)
+  ) {
+    return res
+      .status(401)
+      .json({ error: "A valid tournament secret is required." });
   }
 
   try {
@@ -176,12 +162,14 @@ app.post("/api/local-lists/:code/export", async (req, res) => {
     const expectedSecret = Buffer.from(tournament.tournamentSecret, "hex");
     const providedSecret = Buffer.from(tournamentSecret, "hex");
     if (!crypto.timingSafeEqual(expectedSecret, providedSecret)) {
-      return res.status(403).json({ error: "Tournament secret did not match." });
+      return res
+        .status(403)
+        .json({ error: "Tournament secret did not match." });
     }
 
     res.set("Cache-Control", "no-store");
     const decklists = tournament.submissions.map(
-      ({ tournamentSecret: _secret, ...submission }) => submission
+      ({ tournamentSecret: _secret, ...submission }) => submission,
     );
     res.json({
       type: tournament.type,
@@ -199,7 +187,7 @@ app.get("/addresses", async (req, res) => {
   axios
     .get(
       "https://geocoding.geo.census.gov/geocoder/locations/address" +
-        req._parsedUrl.search
+        req._parsedUrl.search,
     )
     .then(function (response) {
       // handle success
@@ -231,13 +219,13 @@ app.get("/events", async (req, res) => {
         Math.sin(((lat2 - lat1) * Math.PI) / 180 / 2) ** 2 +
           Math.cos((lat1 * Math.PI) / 180) *
             Math.cos((lat2 * Math.PI) / 180) *
-            Math.sin(((lon2 - lon1) * Math.PI) / 180 / 2) ** 2
-      )
+            Math.sin(((lon2 - lon1) * Math.PI) / 180 / 2) ** 2,
+      ),
     );
 
   axios
     .get(
-      `https://pokedata.ovh/events/api/_tcg/cups/challenges/pre/_latitude/${lati}/_longitude/${longi}/_radius/250/_unit/miles/_start/${today}`
+      `https://pokedata.ovh/events/api/_tcg/cups/challenges/pre/_latitude/${lati}/_longitude/${longi}/_radius/250/_unit/miles/_start/${today}`,
     )
     .then((results) => {
       filteredMerged = results.data.map((event) => {
@@ -258,7 +246,7 @@ app.get("/events", async (req, res) => {
           lati,
           longi,
           event.latitude,
-          event.longitude
+          event.longitude,
         );
         delete event.latitude;
         delete event.longitude;
@@ -363,7 +351,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
         },
         maxRedirects: 10,
         timeout: 0,
-      }
+      },
     );
     let textArray = response.data.result
       .replace(/(\r\n|\n|\r)/gm, "")
@@ -474,7 +462,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
             console.error("Error writing to db2.json:", writeErr);
             return;
           }
-        }
+        },
       );
     });
 
@@ -499,7 +487,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
       // Function to update or add a player
       const upsertPlayer = (player) => {
         const existingIndex = jsonArray.findIndex(
-          (item) => item.username === player.username
+          (item) => item.username === player.username,
         );
 
         if (existingIndex !== -1) {
@@ -531,7 +519,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
               return;
             }
           });
-        }
+        },
       );
     });
     res.end;
@@ -544,7 +532,7 @@ app.post("/upload", upload.single("image"), async (req, res) => {
   } catch (error) {
     console.error(
       "Error:",
-      error.response ? error.response.data : error.message
+      error.response ? error.response.data : error.message,
     );
   }
 });
@@ -554,7 +542,7 @@ app.get("*", function (_, res) {
     path.join(__dirname, "./client/dist/index.html"),
     function (err) {
       res.status(500).send(err);
-    }
+    },
   );
 });
 

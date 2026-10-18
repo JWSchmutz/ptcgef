@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { zipSync, strToU8 } from "fflate";
 import { QRCodeSVG } from "qrcode.react";
 import { useSearchParams } from "react-router-dom";
 import Button from "../../Button/Button";
@@ -175,24 +174,21 @@ function LocalLists() {
         },
       );
       const exportedLists = await readResponse(response);
-      const folderName = `${exportedLists.type} - ${exportedLists.date}`;
-      const zip = zipSync({
-        [`${folderName}/decklists.json`]: strToU8(
-          JSON.stringify(exportedLists.decklists, null, 2),
-        ),
-      });
+      const fileName = `${exportedLists.type} - ${exportedLists.date}.json`;
       const downloadUrl = URL.createObjectURL(
-        new Blob([zip], { type: "application/zip" }),
+        new Blob([JSON.stringify(exportedLists.decklists, null, 2)], {
+          type: "application/json",
+        }),
       );
       const link = document.createElement("a");
       link.href = downloadUrl;
-      link.download = `${folderName}.zip`;
+      link.download = fileName;
       document.body.appendChild(link);
       link.click();
       link.remove();
       window.setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
       setSuccessMessage(
-        `Downloaded ${exportedLists.decklists.length} decklist(s). Your browser's download settings control where the ZIP is saved.`,
+        `Downloaded ${exportedLists.decklists.length} decklist(s) as ${fileName}.`,
       );
     } catch (error) {
       setErrorMessage(
@@ -341,14 +337,10 @@ function LocalLists() {
                 <strong>Tournament code</strong>
                 <code>{activeTournament.tournamentCode}</code>
               </p>
-              <p>
-                <strong>TO secret (keep private)</strong>
-                <code>{activeTournament.tournamentSecret}</code>
-              </p>
+
               <div className="local-lists-actions">
                 <Button
                   text="Copy player link"
-                  reverse
                   handleClick={() =>
                     copyToClipboard(
                       getSubmissionUrl(activeTournament),
@@ -379,7 +371,6 @@ function LocalLists() {
             />
             <Button
               text="My tournaments"
-              reverse
               handleClick={() => setView("my-tournaments")}
             />
           </div>
@@ -507,15 +498,10 @@ function LocalLists() {
                       {tournament.type} - {tournament.date}
                     </h4>
                     <p>Code: {tournament.tournamentCode}</p>
-                    <details>
-                      <summary>Show TO secret</summary>
-                      <code>{tournament.tournamentSecret}</code>
-                    </details>
                   </div>
                   <div className="local-lists-actions">
                     <Button
                       text="Show QR code"
-                      reverse
                       handleClick={() => {
                         setActiveTournament(tournament);
                         setView("tournament");
@@ -525,7 +511,7 @@ function LocalLists() {
                       text={
                         downloadingCode === tournament.tournamentCode
                           ? "Downloading..."
-                          : "Download ZIP"
+                          : "Download decklists"
                       }
                       handleClick={() => handleDownloadDecklists(tournament)}
                       disabled={downloadingCode === tournament.tournamentCode}
