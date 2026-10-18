@@ -39,6 +39,11 @@ function LocalLists() {
   const [activeTournament, setActiveTournament] = useState(null);
   const [isCreatingTournament, setIsCreatingTournament] = useState(false);
   const [isSubmittingDecklist, setIsSubmittingDecklist] = useState(false);
+  const [tournamentDecklists, setTournamentDecklists] = useState([]);
+  const [isRefreshingDecklists, setIsRefreshingDecklists] = useState(false);
+  const [decklistsError, setDecklistsError] = useState("");
+  const [decklistsUpdatedAt, setDecklistsUpdatedAt] = useState("");
+  const [decklistsRefresh, setDecklistsRefresh] = useState(0);
   const [downloadingCode, setDownloadingCode] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
@@ -81,6 +86,62 @@ function LocalLists() {
       );
     }
   }, [draft, savedTournaments, storageLoaded]);
+
+  useEffect(() => {
+    setTournamentDecklists([]);
+    setDecklistsError("");
+    setDecklistsUpdatedAt("");
+  }, [activeTournament?.tournamentCode]);
+
+  useEffect(() => {
+    if (view !== "tournament" || !activeTournament) return undefined;
+
+    let isCurrent = true;
+    let timeoutId;
+
+    const refreshDecklists = async () => {
+      setIsRefreshingDecklists(true);
+      try {
+        const response = await fetch(
+          `/api/local-lists/${encodeURIComponent(activeTournament.tournamentCode)}/export`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              tournamentSecret: activeTournament.tournamentSecret,
+            }),
+          },
+        );
+        const exportedLists = await readResponse(response);
+        if (!Array.isArray(exportedLists.decklists)) {
+          throw new Error("The server returned invalid decklist data.");
+        }
+        if (isCurrent) {
+          setTournamentDecklists(exportedLists.decklists);
+          setDecklistsUpdatedAt(new Date().toLocaleTimeString());
+          setDecklistsError("");
+        }
+      } catch (error) {
+        if (isCurrent) {
+          setDecklistsError(
+            `Could not load submitted decklists: ${error.message}`,
+          );
+        }
+      } finally {
+        if (isCurrent) {
+          setIsRefreshingDecklists(false);
+          timeoutId = window.setTimeout(refreshDecklists, 10000);
+        }
+      }
+    };
+
+    refreshDecklists();
+
+    return () => {
+      isCurrent = false;
+      window.clearTimeout(timeoutId);
+    };
+  }, [activeTournament, decklistsRefresh, view]);
 
   const updateDraft = (event) => {
     const { name, value } = event.target;
@@ -374,6 +435,54 @@ function LocalLists() {
               handleClick={() => setView("my-tournaments")}
             />
           </div>
+          <section className="local-lists-decklists no-print">
+            <div className="local-lists-decklists-heading">
+              <div>
+                <h3>Submitted decklists ({tournamentDecklists.length})</h3>
+                <p>
+                  {isRefreshingDecklists
+                    ? "Checking for new submissions..."
+                    : decklistsUpdatedAt
+                      ? `Last checked at ${decklistsUpdatedAt}. Updates automatically every 10 seconds.`
+                      : "Loading submissions..."}
+                </p>
+              </div>
+              <Button
+                text="Refresh now"
+                handleClick={() => setDecklistsRefresh((count) => count + 1)}
+                disabled={isRefreshingDecklists}
+              />
+            </div>
+            {decklistsError && (
+              <p className="local-lists-message error" role="alert">
+                {decklistsError}
+              </p>
+            )}
+            {tournamentDecklists.length === 0 ? (
+              <p className="local-lists-empty">
+                No decklists have been submitted yet.
+              </p>
+            ) : (
+              <div className="local-lists-submissions">
+                {tournamentDecklists.map((submission, index) => (
+                  <article
+                    className="local-lists-submission"
+                    key={`${submission.playerId}-${index}`}
+                  >
+                    <h4>{submission.playerName}</h4>
+                    <p>
+                      Player ID: {submission.playerId} ·{" "}
+                      {submission.division} · Birthday: {submission.birthday}
+                    </p>
+                    <details>
+                      <summary>View decklist</summary>
+                      <pre>{submission.list}</pre>
+                    </details>
+                  </article>
+                ))}
+              </div>
+            )}
+          </section>
         </section>
       )}
 
