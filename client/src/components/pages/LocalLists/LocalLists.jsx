@@ -40,6 +40,8 @@ function LocalLists() {
   const [isCreatingTournament, setIsCreatingTournament] = useState(false);
   const [isSubmittingDecklist, setIsSubmittingDecklist] = useState(false);
   const [tournamentDecklists, setTournamentDecklists] = useState([]);
+  const [submissionToDelete, setSubmissionToDelete] = useState(null);
+  const [deletingSubmissionId, setDeletingSubmissionId] = useState("");
   const [isRefreshingDecklists, setIsRefreshingDecklists] = useState(false);
   const [decklistsError, setDecklistsError] = useState("");
   const [decklistsUpdatedAt, setDecklistsUpdatedAt] = useState("");
@@ -92,6 +94,17 @@ function LocalLists() {
     setDecklistsError("");
     setDecklistsUpdatedAt("");
   }, [activeTournament?.tournamentCode]);
+
+  useEffect(() => {
+    if (!submissionToDelete) return undefined;
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape" && !deletingSubmissionId) {
+        setSubmissionToDelete(null);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [deletingSubmissionId, submissionToDelete]);
 
   useEffect(() => {
     if (view !== "tournament" || !activeTournament) return undefined;
@@ -210,7 +223,6 @@ function LocalLists() {
         },
       );
       await readResponse(response);
-      setDraft((current) => ({ ...current, list: "" }));
       setSuccessMessage("Your decklist was submitted to the tournament.");
     } catch (error) {
       setErrorMessage(`Could not submit decklist: ${error.message}`);
@@ -235,9 +247,14 @@ function LocalLists() {
         },
       );
       const exportedLists = await readResponse(response);
-      const fileName = `${exportedLists.type} - ${exportedLists.date}.json`;
+      const fileName = `${exportedLists.date} - ${exportedLists.type}.json`;
+      const decklists = exportedLists.decklists.map((submission) => {
+        const decklist = { ...submission };
+        delete decklist.submissionId;
+        return decklist;
+      });
       const downloadUrl = URL.createObjectURL(
-        new Blob([JSON.stringify(exportedLists.decklists, null, 2)], {
+        new Blob([JSON.stringify(decklists, null, 2)], {
           type: "application/json",
         }),
       );
@@ -257,6 +274,37 @@ function LocalLists() {
       );
     } finally {
       setDownloadingCode("");
+    }
+  };
+
+  const handleDeleteDecklist = async () => {
+    if (!activeTournament || !submissionToDelete) return;
+    const { submissionId } = submissionToDelete;
+    setErrorMessage("");
+    setSuccessMessage("");
+    setDeletingSubmissionId(submissionId);
+    try {
+      const response = await fetch(
+        `/api/local-lists/${encodeURIComponent(activeTournament.tournamentCode)}/submissions/${encodeURIComponent(submissionId)}`,
+        {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            tournamentSecret: activeTournament.tournamentSecret,
+          }),
+        },
+      );
+      await readResponse(response);
+      setTournamentDecklists((current) =>
+        current.filter((submission) => submission.submissionId !== submissionId),
+      );
+      setDecklistsRefresh((count) => count + 1);
+      setSubmissionToDelete(null);
+      setSuccessMessage("Decklist deleted.");
+    } catch (error) {
+      setErrorMessage(`Could not delete decklist: ${error.message}`);
+    } finally {
+      setDeletingSubmissionId("");
     }
   };
 
@@ -464,15 +512,27 @@ function LocalLists() {
               </p>
             ) : (
               <div className="local-lists-submissions">
-                {tournamentDecklists.map((submission, index) => (
+                {tournamentDecklists.map((submission) => (
                   <article
                     className="local-lists-submission"
-                    key={`${submission.playerId}-${index}`}
+                    key={submission.submissionId}
                   >
-                    <h4>{submission.playerName}</h4>
+                    <div className="local-lists-submission-heading">
+                      <h4>{submission.playerName}</h4>
+                      <button
+                        type="button"
+                        className="local-lists-delete-button"
+                        aria-label={`Delete ${submission.playerName}'s submitted decklist`}
+                        title="Delete decklist"
+                        disabled={Boolean(deletingSubmissionId)}
+                        onClick={() => setSubmissionToDelete(submission)}
+                      >
+                        ×
+                      </button>
+                    </div>
                     <p>
-                      Player ID: {submission.playerId} ·{" "}
-                      {submission.division} · Birthday: {submission.birthday}
+                      Player ID: {submission.playerId} · {submission.division} ·
+                      Birthday: {submission.birthday}
                     </p>
                     <details>
                       <summary>View decklist</summary>
@@ -631,6 +691,45 @@ function LocalLists() {
             </div>
           )}
         </section>
+      )}
+
+      {submissionToDelete && (
+        <div
+          className="local-lists-modal-backdrop no-print"
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget && !deletingSubmissionId) {
+              setSubmissionToDelete(null);
+            }
+          }}
+        >
+          <section
+            className="local-lists-confirmation-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="delete-decklist-title"
+            aria-describedby="delete-decklist-description"
+          >
+            <h3 id="delete-decklist-title">Delete submitted decklist?</h3>
+            <p id="delete-decklist-description">
+              This will permanently remove {submissionToDelete.playerName}'s
+              decklist from this tournament.
+            </p>
+            <div className="local-lists-actions">
+              <Button
+                text="Cancel"
+                reverse
+                disabled={Boolean(deletingSubmissionId)}
+                handleClick={() => setSubmissionToDelete(null)}
+              />
+              <Button
+                text={deletingSubmissionId ? "Deleting..." : "Delete decklist"}
+                classes="local-lists-danger-button"
+                disabled={Boolean(deletingSubmissionId)}
+                handleClick={handleDeleteDecklist}
+              />
+            </div>
+          </section>
+        </div>
       )}
     </main>
   );

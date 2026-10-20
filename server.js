@@ -82,6 +82,21 @@ const updateLocalTournament = async (code, update) => {
   }
 };
 
+const tournamentSecretMatches = (tournament, tournamentSecret) => {
+  if (
+    typeof tournamentSecret !== "string" ||
+    !/^[a-f0-9]{64}$/.test(tournamentSecret)
+  ) {
+    return false;
+  }
+  const expectedSecret = Buffer.from(tournament.tournamentSecret, "hex");
+  const providedSecret = Buffer.from(tournamentSecret, "hex");
+  return (
+    expectedSecret.length === providedSecret.length &&
+    crypto.timingSafeEqual(expectedSecret, providedSecret)
+  );
+};
+
 app.post("/api/local-lists/tournaments", async (req, res) => {
   const { type, date } = req.body || {};
   if (!["cup", "challenge"].includes(type)) {
@@ -123,6 +138,7 @@ app.post("/api/local-lists/:code/submissions", async (req, res) => {
   try {
     const savedTournament = await updateLocalTournament(code, (tournament) => {
       tournament.submissions.push({
+        submissionId: crypto.randomBytes(12).toString("hex"),
         tournamentCode: tournament.tournamentCode,
         tournamentSecret: tournament.tournamentSecret,
         playerName: playerName.trim(),
@@ -155,16 +171,28 @@ app.post("/api/local-lists/:code/export", async (req, res) => {
   }
 
   try {
-    const tournament = await readLocalTournament(code);
+    let tournament = await readLocalTournament(code);
     if (!tournament) {
       return res.status(404).json({ error: "Tournament code was not found." });
     }
-    const expectedSecret = Buffer.from(tournament.tournamentSecret, "hex");
-    const providedSecret = Buffer.from(tournamentSecret, "hex");
-    if (!crypto.timingSafeEqual(expectedSecret, providedSecret)) {
+    if (!tournamentSecretMatches(tournament, tournamentSecret)) {
       return res
         .status(403)
         .json({ error: "Tournament secret did not match." });
+    }
+
+    if (
+      tournament.submissions.some(
+        (submission) => !/^[a-f0-9]{24}$/.test(submission.submissionId || ""),
+      )
+    ) {
+      tournament = await updateLocalTournament(code, (currentTournament) => {
+        currentTournament.submissions.forEach((submission) => {
+          if (!/^[a-f0-9]{24}$/.test(submission.submissionId || "")) {
+            submission.submissionId = crypto.randomBytes(12).toString("hex");
+          }
+        });
+      });
     }
 
     res.set("Cache-Control", "no-store");
@@ -181,6 +209,56 @@ app.post("/api/local-lists/:code/export", async (req, res) => {
     res.status(500).json({ error: "Could not export tournament decklists." });
   }
 });
+
+app.delete(
+  "/api/local-lists/:code/submissions/:submissionId",
+  async (req, res) => {
+    const { tournamentSecret } = req.body || {};
+    const { code, submissionId } = req.params;
+    if (
+      typeof tournamentSecret !== "string" ||
+      !/^[a-f0-9]{64}$/.test(tournamentSecret)
+    ) {
+      return res
+        .status(401)
+        .json({ error: "A valid tournament secret is required." });
+    }
+    if (!/^[a-f0-9]{24}$/.test(submissionId)) {
+      return res.status(400).json({ error: "A valid submission ID is required." });
+    }
+
+    try {
+      const tournament = await readLocalTournament(code);
+      if (!tournament) {
+        return res.status(404).json({ error: "Tournament code was not found." });
+      }
+      if (!tournamentSecretMatches(tournament, tournamentSecret)) {
+        return res
+          .status(403)
+          .json({ error: "Tournament secret did not match." });
+      }
+
+      let deletedSubmission = false;
+      const updatedTournament = await updateLocalTournament(code, (current) => {
+        const submissions = current.submissions.filter(
+          (submission) => submission.submissionId !== submissionId,
+        );
+        deletedSubmission = submissions.length !== current.submissions.length;
+        current.submissions = submissions;
+      });
+      if (!updatedTournament) {
+        return res.status(404).json({ error: "Tournament code was not found." });
+      }
+      if (!deletedSubmission) {
+        return res.status(404).json({ error: "Decklist was not found." });
+      }
+      res.json({ message: "Decklist deleted." });
+    } catch (error) {
+      console.error("Could not delete local decklist submission:", error);
+      res.status(500).json({ error: "Could not delete the decklist." });
+    }
+  },
+);
 
 app.get("/addresses", async (req, res) => {
   // Make a request for a user with a given ID
