@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import { useSearchParams } from "react-router-dom";
+import close from "/close.png";
 import Button from "../../Button/Button";
 import "./LocalLists.css";
 
@@ -296,7 +297,9 @@ function LocalLists() {
       );
       await readResponse(response);
       setTournamentDecklists((current) =>
-        current.filter((submission) => submission.submissionId !== submissionId),
+        current.filter(
+          (submission) => submission.submissionId !== submissionId,
+        ),
       );
       setDecklistsRefresh((count) => count + 1);
       setSubmissionToDelete(null);
@@ -527,7 +530,7 @@ function LocalLists() {
                         disabled={Boolean(deletingSubmissionId)}
                         onClick={() => setSubmissionToDelete(submission)}
                       >
-                        ×
+                        <img src={close} alt="" aria-hidden="true" />
                       </button>
                     </div>
                     <p>
@@ -670,7 +673,7 @@ function LocalLists() {
                   </div>
                   <div className="local-lists-actions">
                     <Button
-                      text="Show QR code"
+                      text="Details"
                       handleClick={() => {
                         setActiveTournament(tournament);
                         setView("tournament");
